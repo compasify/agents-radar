@@ -16,7 +16,8 @@
     "notify": "tsx src/notify.ts",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "prepare": "husky"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
@@ -29,6 +30,7 @@
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9",
     "eslint-config-prettier": "^10",
+    "husky": "^9.1.7",
     "prettier": "^3",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
