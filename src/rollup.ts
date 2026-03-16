@@ -6,10 +6,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { callLlm, saveFile, autoGenFooter, LLM_TOKENS_ROLLUP } from "./report.ts";
-import { buildWeeklyPrompt, buildMonthlyPrompt } from "./prompts-data.ts";
+import {
+  buildWeeklyPrompt,
+  buildMonthlyPrompt,
+  buildHighlightsPrompt,
+  type ReportHighlights,
+} from "./prompts-data.ts";
 import { createGitHubIssue } from "./github.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
-import { WEEKLY_REPORT, MONTHLY_REPORT } from "./i18n.ts";
+import { type Lang, WEEKLY_REPORT, MONTHLY_REPORT } from "./i18n.ts";
 
 const DIGESTS_DIR = "digests";
 const MAX_CHARS_PER_REPORT = 2500;
@@ -59,6 +64,43 @@ export function toWeekStr(date: Date): string {
   const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
   const week = Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
   return `${d.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+// ---------------------------------------------------------------------------
+// Highlights generation for rollup reports
+// ---------------------------------------------------------------------------
+
+async function generateRollupHighlights(
+  zhContent: string,
+  enContent: string,
+  reportId: string,
+  dateStr: string,
+  itemsPerReport: number,
+): Promise<void> {
+  console.log(`  [${reportId}] Generating highlights for Telegram...`);
+  const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
+  try {
+    const [zhRaw, enRaw] = await Promise.all([
+      callLlm(buildHighlightsPrompt({ [reportId]: zhContent }, "zh", itemsPerReport), 1024),
+      callLlm(buildHighlightsPrompt({ [reportId]: enContent }, "en", itemsPerReport), 1024),
+    ]);
+    highlights.zh = JSON.parse(
+      zhRaw
+        .replace(/```json?\n?/g, "")
+        .replace(/```/g, "")
+        .trim(),
+    );
+    highlights.en = JSON.parse(
+      enRaw
+        .replace(/```json?\n?/g, "")
+        .replace(/```/g, "")
+        .trim(),
+    );
+  } catch (err) {
+    console.error(`  [${reportId}] Highlights generation failed: ${err}`);
+  }
+  const p = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
+  console.log(`  Saved ${p}`);
 }
 
 // ---------------------------------------------------------------------------
@@ -119,6 +161,8 @@ export async function runWeeklyRollup(): Promise<void> {
 
   console.log(`  Saved ${saveFile(zhContent, dateStr, "ai-weekly.md")}`);
   console.log(`  Saved ${saveFile(enContent, dateStr, "ai-weekly-en.md")}`);
+
+  await generateRollupHighlights(zhContent, enContent, "ai-weekly", dateStr, 6);
 
   if (digestRepo) {
     const url = await createGitHubIssue(WEEKLY_REPORT.issueTitle(weekStr), zhContent, "weekly");
@@ -211,6 +255,8 @@ export async function runMonthlyRollup(): Promise<void> {
 
   console.log(`  Saved ${saveFile(zhContent, dateStr, "ai-monthly.md")}`);
   console.log(`  Saved ${saveFile(enContent, dateStr, "ai-monthly-en.md")}`);
+
+  await generateRollupHighlights(zhContent, enContent, "ai-monthly", dateStr, 6);
 
   if (digestRepo) {
     const url = await createGitHubIssue(MONTHLY_REPORT.issueTitle(monthStr), zhContent, "monthly");
