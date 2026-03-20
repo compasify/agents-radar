@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { marked } from "marked";
 import { REPORT_LABELS } from "./i18n.ts";
 
 const DIGESTS_DIR = "digests";
@@ -50,6 +51,13 @@ export function escapeXml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+function getReportHtml(date: string, report: string): string {
+  const filePath = path.join(DIGESTS_DIR, date, `${report}.md`);
+  const markdown = fs.readFileSync(filePath, "utf-8");
+  const html = marked(markdown);
+  return `<![CDATA[${html}]]>`;
+}
+
 function main(): void {
   const entries = fs
     .readdirSync(DIGESTS_DIR)
@@ -89,13 +97,14 @@ function main(): void {
       const link = `${SITE_URL}/#${date}/${report}`;
       const parts = date.split("-").map(Number);
       const pubDate = toRfc822(new Date(Date.UTC(parts[0]!, parts[1]! - 1, parts[2]!)));
+      const description = getReportHtml(date, report);
       return [
         "    <item>",
         `      <title>${escapeXml(title)}</title>`,
         `      <link>${escapeXml(link)}</link>`,
         `      <guid isPermaLink="true">${escapeXml(link)}</guid>`,
         `      <pubDate>${pubDate}</pubDate>`,
-        `      <description>${escapeXml(title)}</description>`,
+        `      <description>${description}</description>`,
         "    </item>",
       ].join("\n");
     })
