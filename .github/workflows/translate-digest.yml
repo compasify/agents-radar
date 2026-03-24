@@ -1,0 +1,98 @@
+name: Translate Digest (Vietnamese)
+
+on:
+  schedule:
+    # 01:00 UTC = 09:00 CST — 1 hour after upstream daily digest completes
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to translate (YYYY-MM-DD). Leave empty for today."
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync from upstream (duanyytop/agents-radar)
+        run: |
+          git remote add upstream https://github.com/duanyytop/agents-radar.git || true
+          git fetch upstream master
+          git merge upstream/master --no-edit --allow-unrelated-histories || true
+
+      - name: Commit upstream sync
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "sync: merge upstream"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Determine target date
+        id: date
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "target=${{ github.event.inputs.date }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "target=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check if source files exist
+        id: check
+        run: |
+          DIR="digests/${{ steps.date.outputs.target }}"
+          if [ -d "$DIR" ] && ls "$DIR"/ai-*.md 1>/dev/null 2>&1; then
+            echo "has_source=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_source=false" >> "$GITHUB_OUTPUT"
+            echo "No source files found in $DIR — skipping translation."
+          fi
+
+      - name: Setup pnpm
+        if: steps.check.outputs.has_source == 'true'
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        if: steps.check.outputs.has_source == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        if: steps.check.outputs.has_source == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Translate to Vietnamese
+        if: steps.check.outputs.has_source == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: npx tsx src/translate.ts ${{ steps.date.outputs.target }}
+
+      - name: Commit translated files
+        if: steps.check.outputs.has_source == 'true'
+        run: |
+          git add digests/
+          if git diff --cached --quiet; then
+            echo "No new translated files to commit"
+          else
+            DATE="${{ steps.date.outputs.target }}"
+            git commit -m "translate: ${DATE} Vietnamese digest"
+            git pull --rebase
+            git push
+          fi

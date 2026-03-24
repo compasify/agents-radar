@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   digest:
+    if: github.repository == 'duanyytop/agents-radar'
     runs-on: ubuntu-latest
     # Web content fetching adds ~60-120 s of HTTP requests on incremental runs;
     # the first-ever run (fetching 50 articles) may need up to 20 min.
@@ -79,4 +80,3 @@ jobs:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           PAGES_URL: https://duanyytop.github.io/agents-radar
         run: pnpm notify:feishu
-
