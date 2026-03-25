@@ -25,9 +25,7 @@ const LLM_CONCURRENCY = 3;
 const MAX_RETRIES = 3;
 const RETRY_BASE_MS = 5_000;
 
-const ZH_REPORTS = ["ai-cli", "ai-agents", "ai-web", "ai-trending", "ai-hn"];
-const ROLLUP_REPORTS = ["ai-weekly", "ai-monthly"];
-const ALL_REPORTS = [...ZH_REPORTS, ...ROLLUP_REPORTS];
+const ALL_REPORTS = ["ai-cli", "ai-agents", "ai-web", "ai-trending", "ai-hn", "ai-weekly", "ai-monthly"];
 
 const client = new OpenAI({
   apiKey: process.env["OPENAI_API_KEY"],
@@ -64,7 +62,7 @@ async function callLlm(prompt: string): Promise<string> {
           {
             role: "system",
             content:
-              "You are a Chinese-to-Vietnamese translator. You MUST output ONLY Vietnamese text. Never output Chinese.",
+              "You are a professional translator to Vietnamese. You MUST output ONLY Vietnamese text. Never output Chinese or English (except proper nouns, URLs, code).",
           },
           { role: "user", content: prompt },
         ],
@@ -90,7 +88,8 @@ async function callLlm(prompt: string): Promise<string> {
 }
 
 function buildPrompt(markdown: string): string {
-  return `You are a professional translator. Translate the following Markdown document from Chinese to Vietnamese.
+  return `Translate the following Markdown document to Vietnamese.
+The source may be in Chinese or English — detect automatically and translate to Vietnamese.
 
 Rules:
 - Preserve ALL Markdown formatting exactly (headings, tables, links, bold, italic, code blocks, blockquotes, lists).
@@ -113,27 +112,21 @@ function todayCST(): string {
 }
 
 async function translateFile(datePath: string, report: string): Promise<boolean> {
-  const zhFile = path.join(datePath, `${report}.md`);
-  const viFile = path.join(datePath, `${report}-vi.md`);
+  const srcFile = path.join(datePath, `${report}.md`);
 
-  if (!fs.existsSync(zhFile)) {
+  if (!fs.existsSync(srcFile)) {
     console.log(`[translate] Skip ${report} — source not found`);
     return false;
   }
 
-  if (fs.existsSync(viFile)) {
-    console.log(`[translate] Skip ${report} — Vietnamese version exists`);
-    return false;
-  }
-
-  const zhContent = fs.readFileSync(zhFile, "utf-8");
-  if (!zhContent.trim()) {
+  const srcContent = fs.readFileSync(srcFile, "utf-8");
+  if (!srcContent.trim()) {
     console.log(`[translate] Skip ${report} — source is empty`);
     return false;
   }
 
-  console.log(`[translate] Translating ${report} (${zhContent.length} chars)...`);
-  const viContent = await callLlm(buildPrompt(zhContent));
+  console.log(`[translate] Translating ${report} (${srcContent.length} chars)...`);
+  const viContent = await callLlm(buildPrompt(srcContent));
   console.log(`[translate] Result preview: ${viContent.slice(0, 200).replace(/\n/g, " ")}`);
   const outPath = path.join(datePath, `${report}-vi.md`);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
