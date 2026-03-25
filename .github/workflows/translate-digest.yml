@@ -108,3 +108,11 @@ jobs:
             git pull --rebase
             git push
           fi
+
+      - name: Send Telegram notification
+        if: steps.check.outputs.has_source == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAGES_URL: ${{ vars.PAGES_URL }}
+        run: npx tsx src/notify-vi.ts ${{ steps.date.outputs.target }}
