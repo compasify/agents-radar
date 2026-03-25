@@ -35,6 +35,7 @@ jobs:
           AFTER=$(git rev-parse HEAD)
           if [ "$LOCAL" != "$AFTER" ]; then
             echo "Upstream merged — pushing..."
+            git pull --rebase origin master
             git push
           else
             echo "Already up to date with upstream."
