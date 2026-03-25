@@ -30,14 +30,6 @@ const LABELS: Record<string, string> = {
   "ai-monthly-vi": "AI Tools Monthly",
 };
 
-const HIGHLIGHT_KEY: Record<string, string> = {
-  "ai-cli-vi": "ai-cli",
-  "ai-agents-vi": "ai-agents",
-  "ai-web-vi": "ai-web",
-  "ai-trending-vi": "ai-trending",
-  "ai-hn-vi": "ai-hn",
-};
-
 async function sendTelegram(text: string): Promise<void> {
   const BOT_TOKEN = process.env["TELEGRAM_BOT_TOKEN"] ?? "";
   const CHAT_ID = process.env["TELEGRAM_CHAT_ID"] ?? "";
@@ -103,8 +95,8 @@ function buildMessage(date: string, reports: string[]): string {
     lines.push("");
     lines.push(`• <a href="${url}">${label}</a>`);
 
-    const hKey = HIGHLIGHT_KEY[r];
-    const items = hKey ? highlights[hKey] : undefined;
+    const hKey = r.replace(/-vi$/, "");
+    const items = highlights[hKey];
     if (items?.length) {
       for (const h of items) {
         lines.push(`  ◦ ${h}`);
