@@ -2,20 +2,23 @@
  * Telegram notification for Vietnamese translated digests.
  *
  * Self-contained — does not import upstream source files.
- * Scans digests/{date}/ for *-vi.md files and sends links.
+ * Scans digests/{date}/ for *-vi.md files, reads highlights.json (en),
+ * and sends links pointing to raw GitHub files.
  *
  * Required env vars:
  *   TELEGRAM_BOT_TOKEN  — bot token from @BotFather
  *   TELEGRAM_CHAT_ID    — channel/group/user chat ID
  * Optional:
- *   PAGES_URL           — GitHub Pages base URL
+ *   GITHUB_REPO         — owner/repo (default: compasify/agents-radar)
+ *   GITHUB_BRANCH       — branch name (default: master)
  */
 
 import fs from "node:fs";
 import path from "node:path";
 
 const DIGESTS_DIR = "digests";
-const PAGES_URL_DEFAULT = "https://compasify.github.io/agents-radar";
+const DEFAULT_REPO = "compasify/agents-radar";
+const DEFAULT_BRANCH = "master";
 
 const LABELS: Record<string, string> = {
   "ai-cli-vi": "AI CLI Tools",
@@ -25,6 +28,14 @@ const LABELS: Record<string, string> = {
   "ai-hn-vi": "HN Community Digest",
   "ai-weekly-vi": "AI Tools Weekly",
   "ai-monthly-vi": "AI Tools Monthly",
+};
+
+const HIGHLIGHT_KEY: Record<string, string> = {
+  "ai-cli-vi": "ai-cli",
+  "ai-agents-vi": "ai-agents",
+  "ai-web-vi": "ai-web",
+  "ai-trending-vi": "ai-trending",
+  "ai-hn-vi": "ai-hn",
 };
 
 async function sendTelegram(text: string): Promise<void> {
@@ -57,26 +68,51 @@ function findViReports(date: string): string[] {
     .sort();
 }
 
+function loadEnHighlights(date: string): Record<string, string[]> {
+  const p = path.join(DIGESTS_DIR, date, "highlights.json");
+  if (!fs.existsSync(p)) return {};
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf-8")) as {
+      en?: Record<string, string[]>;
+    };
+    return data.en ?? {};
+  } catch {
+    return {};
+  }
+}
+
 function buildMessage(date: string, reports: string[]): string {
-  const PAGES_URL = (process.env["PAGES_URL"] ?? PAGES_URL_DEFAULT).replace(/\/$/, "");
+  const repo = process.env["GITHUB_REPO"] ?? DEFAULT_REPO;
+  const branch = process.env["GITHUB_BRANCH"] ?? DEFAULT_BRANCH;
+  const baseUrl = `https://github.com/${repo}/blob/${branch}/digests/${date}`;
+
   const isWeekly = reports.includes("ai-weekly-vi");
   const isMonthly = reports.includes("ai-monthly-vi");
-
   const icon = isMonthly ? "📆" : isWeekly ? "📅" : "📡";
   const suffix = isMonthly ? " Monthly" : isWeekly ? " Weekly" : "";
   const lines: string[] = [`${icon} <b>agents-radar${suffix} (Vietnamese) · ${date}</b>`];
+
+  const highlights = loadEnHighlights(date);
 
   const daily = reports.filter((r) => !r.includes("weekly") && !r.includes("monthly"));
   const rollup = reports.filter((r) => r.includes("weekly") || r.includes("monthly"));
 
   for (const r of [...daily, ...rollup]) {
     const label = LABELS[r] ?? r;
-    const url = `${PAGES_URL}/#${date}/${r}`;
+    const url = `${baseUrl}/${r}.md`;
     lines.push("");
     lines.push(`• <a href="${url}">${label}</a>`);
+
+    const hKey = HIGHLIGHT_KEY[r];
+    const items = hKey ? highlights[hKey] : undefined;
+    if (items?.length) {
+      for (const h of items) {
+        lines.push(`  ◦ ${h}`);
+      }
+    }
   }
 
-  lines.push(`\n<a href="${PAGES_URL}">🌐 Web UI</a>  ·  <a href="${PAGES_URL}/feed.xml">⊕ RSS</a>`);
+  lines.push(`\n<a href="https://github.com/${repo}">📂 Repository</a>`);
   return lines.join("\n");
 }
 
