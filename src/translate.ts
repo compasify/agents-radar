@@ -60,7 +60,14 @@ async function callLlm(prompt: string): Promise<string> {
       const res = await client.chat.completions.create({
         model,
         max_completion_tokens: MAX_TOKENS,
-        messages: [{ role: "user", content: prompt }],
+        messages: [
+          {
+            role: "system",
+            content:
+              "You are a Chinese-to-Vietnamese translator. You MUST output ONLY Vietnamese text. Never output Chinese.",
+          },
+          { role: "user", content: prompt },
+        ],
       });
       const text = res.choices[0]?.message?.content;
       if (!text) throw new Error("Empty LLM response");
@@ -125,8 +132,9 @@ async function translateFile(datePath: string, report: string): Promise<boolean>
     return false;
   }
 
-  console.log(`[translate] Translating ${report}...`);
+  console.log(`[translate] Translating ${report} (${zhContent.length} chars)...`);
   const viContent = await callLlm(buildPrompt(zhContent));
+  console.log(`[translate] Result preview: ${viContent.slice(0, 200).replace(/\n/g, " ")}`);
   const outPath = path.join(datePath, `${report}-vi.md`);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, viContent, "utf-8");
