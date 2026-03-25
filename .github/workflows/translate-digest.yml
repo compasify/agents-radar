@@ -76,6 +76,18 @@ jobs:
         if: steps.check.outputs.has_source == 'true'
         run: pnpm install --frozen-lockfile
 
+      - name: Debug env vars
+        if: steps.check.outputs.has_source == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: |
+          echo "OPENAI_API_KEY set: $([ -n "$OPENAI_API_KEY" ] && echo 'yes ('${#OPENAI_API_KEY}' chars)' || echo 'NO')"
+          echo "OPENAI_BASE_URL set: $([ -n "$OPENAI_BASE_URL" ] && echo 'yes' || echo 'NO')"
+          echo "OPENAI_BASE_URL value: $OPENAI_BASE_URL"
+          echo "OPENAI_MODEL: ${OPENAI_MODEL:-'(not set, default gpt-4o)'}"
+
       - name: Translate to Vietnamese
         if: steps.check.outputs.has_source == 'true'
         env:
