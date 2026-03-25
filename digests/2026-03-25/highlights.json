@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code ARM 支持成最热议题，92👍呼声高涨",
+      "OpenAI Codex 4个alpha版本密集迭代，Rust核心重构中",
+      "Gemini CLI v0.36.0-preview发布，GSoC项目启动",
+      "OpenCode 20+贡献者协同修复内存泄漏，v1.3.2发布",
+      "Qwen Code v0.13.0-nightly上线，Telegram集成引关注",
+      "Kimi Code CLI v1.25.0发布，插件系统Beta化"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issues+500条PR，极高活跃度",
+      "安全修复：/allowlist强制operator.admin权限封堵漏洞",
+      "OpenAI兼容端点补全：/v1/models和/v1/embeddings上线",
+      "多平台UI统一：Discord、Signal、iMessage连接界面完成",
+      "Linux GTK4应用、Wear OS、QQ频道客户端生态推进",
+      "2026.3.22版本回归问题紧急热修复中"
+    ],
+    "ai-trending": [
+      "deer-flow 4346星登顶，字节跳动开源SuperAgent框架",
+      "TradingAgents 1760星爆发，多智能体金融交易框架",
+      "ruflo 1397星，Claude生态智能体编排平台崛起",
+      "awesome-claude-code 995星，Claude技能资源库成型",
+      "hermes-agent 1278星增长，NousResearch持续学习智能体",
+      "E2B 11416星，企业级AI智能体安全沙箱基础设施"
+    ],
+    "ai-web": [
+      "Anthropic经济指数报告：AI采用存在显著学习曲线效应",
+      "Vibe physics：Claude Opus 4.5两周完成传统一年科研周期",
+      "多智能体对抗架构突破长期任务瓶颈，灵感源自GAN",
+      "110轮迭代3600万token，AI研究生级别科学协作验证",
+      "OpenAI Sora关闭，迪士尼10亿美元投资取消",
+      "Claude Code Automode发布，开发者生态争夺加剧"
+    ],
+    "ai-hn": [
+      "OpenAI关闭Sora视频生成平台，发布仅15个月即弃",
+      "迪士尼取消10亿美元Sora投资，战略收缩标志性事件",
+      "Claude Code Automode官方发布，与OpenAI收缩形成对比",
+      "llamacpp支持统一系统RAM卸载，降低消费级硬件门槛",
+      "Agent Flow：Claude Code第三方可视化工具获关注",
+      "Vibe physics被Sora消息淹没，AI辅助科研讨论度偏低"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships 4 alphas in 24 hours",
+      "Claude Code leads enterprise mindshare",
+      "Gemini CLI hits v0.36.0-preview.0",
+      "Community submits 10+ Claude Code plugins",
+      "Rust core stabilizes in Codex",
+      "Agent-first design dominates all roadmaps"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Stabilization phase after 2026.3.22 regressions",
+      "Linux GTK4 companion app in development",
+      "Wear OS support PR submitted",
+      "71 issues closed by maintainers",
+      "QQ channel integration incoming"
+    ],
+    "ai-trending": [
+      "deer-flow: +4,346 stars today",
+      "ByteDance open-sources SuperAgent harness",
+      "MoneyPrinterV2 gains +3,006 stars",
+      "Three Claude Code tools trending simultaneously",
+      "ruflo: +1,397 stars, swarm intelligence",
+      "TradingAgents frameworks surge in finance"
+    ],
+    "ai-web": [
+      "AI completes frontier physics research solo",
+      "Vibe physics: year-long work in two weeks",
+      "Multi-agent harness design published",
+      "Economic Index reveals user learning curves",
+      "High-tenure users extract more Claude value",
+      "GAN-inspired generator-evaluator architecture"
+    ],
+    "ai-hn": [
+      "OpenAI shuts down Sora after 15 months",
+      "Disney exits $1B Sora investment deal",
+      "Claude Code auto-mode sparks discussion",
+      "llama.cpp adds unified RAM offloading",
+      "Anthropic's vibe physics hits front page",
+      "OpenAI cost-cutting pressures mount"
+    ]
+  }
+}
