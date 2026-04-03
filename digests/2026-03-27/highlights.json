@@ -1,0 +1,85 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.84/85 双版本发布，Windows PowerShell 支持落地",
+      "OpenAI Codex v0.117.0 正式版，插件系统成熟架构重构",
+      "Gemini CLI 修复压缩死循环，治理 280MB+ 内存膨胀",
+      "Qwen Code 33 活跃 Issues 领跑，v0.13.1-preview 攻坚 IDE 稳定性",
+      "Kimi CLI ACP 认证重构，遭遇 JSON Schema 兼容性危机",
+      "OpenCode v1.3.3 发布，Windows ARM64 与 TUI 插件系统双突破"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues/500 PRs 极高活跃无新版本",
+      "HTTP 500 故障转移修复合并，避免模型完全失效",
+      "Feishu encryptKey 脱敏安全修复，防止密钥泄露",
+      "SRE 强制分支所有权检查，阻断机器人越权写入",
+      "v2026.3.22+ 版本兼容性断裂，微信插件/图片工具集体故障",
+      "Express 5 路由回归与 OAuth Token 竞争条件亟待修复"
+    ],
+    "ai-trending": [
+      "Deer-Flow 2394 星登顶，字节开源长周期超级智能体",
+      "AgentScope 437 星升温，可观测多智能体框架受追捧",
+      "Oh-My-Claudecode 598 星，Claude Code 多智能体编排方案",
+      "last30days-skill 2685 星爆发，跨平台研究 Agent Skill",
+      "RuView WiFi 感知 AI 意外走红，AI 向物理世界渗透",
+      "insanely-fast-whisper 1370 星今日爆发，极速语音转录"
+    ],
+    "ai-web": [
+      "Project Fetch 首次验证 Claude 机器人编程效率提升 2 倍",
+      "Project Vend 两阶段实验，模型迭代显著改进经济代理任务",
+      "Claude Opus 4.6 两周发现 22 个 Firefox 漏洞含 14 个高危",
+      "Mozilla 合作占 2025 年 Firefox 高危漏洞修复总量近五分之一",
+      "OpenAI 官网罕见零更新，单方发布窗口期形成"
+    ],
+    "ai-hn": [
+      "$500 GPU 开源项目 ATLAS 编码基准超越 Claude Sonnet",
+      "Turbolite 100 分 24 评，S3 亚 250ms 冷启动 JOIN 查询",
+      "AI 一日重写 JSONata 省 50 万美元，53 评论社区分裂",
+      "$7/月 VPS 托管 AI Agent，IRC 作传输层创意方案",
+      "Anthropic 与政府监管冲突，ICE 数据采购引隐私激辩",
+      "Claude Code 会话限制收紧，开发者焦虑情绪蔓延"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.84–85 shipped with Agent Teams",
+      "OpenAI Codex rust-v0.117.0 stable with MCP extraction",
+      "Gemini CLI v0.36.0-preview.4 fixes infinite loops",
+      "8 releases across 5 tools in 24 hours",
+      "MCP now universal interoperability standard",
+      "Terminal UI reliability issues dominate feedback"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "Stability crisis: versions 2026.3.12–24 crash",
+      "Users advised to pin to 2026.3.8 or earlier",
+      "PR merge rate only 25.6% (quality-focused)",
+      "128 PRs merged today amid firefighting",
+      "Linux/Windows apps still unfulfilled promise"
+    ],
+    "ai-trending": [
+      "deer-flow +2,394 stars: ByteDance SuperAgent harness",
+      "last30days-skill +2,685 stars: cross-platform research agent",
+      "RuView +1,002 stars: WiFi-based DensePose sensing",
+      "ollama now supports Kimi-K2.5, GLM-5, MiniMax",
+      "unsloth: 2x faster fine-tuning, 70% less memory",
+      "firecrawl: 98,812 stars for web-to-LLM pipelines"
+    ],
+    "ai-web": [
+      "Anthropic published 4 substantial research pieces",
+      "Project Vend Phase Two: Claude 4.0/4.5 economic agent",
+      "Mozilla Firefox: Claude Opus 4.6 found 14 high-severity bugs",
+      "Project Fetch: Claude-trained robot dog in half the time",
+      "OpenAI published zero articles today",
+      "Claude enabling autonomous business operation"
+    ],
+    "ai-hn": [
+      "$500 GPU outperforms Claude Sonnet on coding",
+      "Federal judge blocks Pentagon Anthropic supply chain ban",
+      "Claude Code users rage over tightened session limits",
+      "$7 VPS-hosted agents trending on Show HN",
+      "Executable oracles prevent bad LLM code",
+      "Strong appetite for self-hosted AI alternatives"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code陷权限系统危机，企业治理成深水区",
+      "OpenAI Codex密集迭代子代理运行时架构",
+      "Gemini CLI双版本齐发，SDD工作流主线推进",
+      "Kimi CLI重构ACP认证，Windows补齐追赶",
+      "OpenCode遭遇Claude Max严重故障，393评论热议",
+      "Qwen Code增强代码审查，Windows兼容加速"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.3.28-beta.1发布，废弃Qwen OAuth",
+      "嵌入式Agent认证失效引发严重回归，紧急修复",
+      "Linux/Windows原生客户端需求58评论升温",
+      "500条Issues+PRs，社区讨论密度极高",
+      "pi-coding-agent 0.63.0升级埋雷，auth-injection失效",
+      "阿里云战略调整驱动，Model Studio迁移成必选项"
+    ],
+    "ai-trending": [
+      "Deep-Live-Cam登顶Trending，实时换脸应用爆火",
+      "AI-Scientist-v2升级，自动化科研Agent引关注",
+      "SakanaAI持续迭代，AI科学家范式受追捧",
+      "Cherry-Studio国产AI客户端，多模型聚合突围",
+      "CopilotKit低代码AI助手框架，开发者工具新宠",
+      "Dify+LangChain+Flowise，AI工作流三强鼎立"
+    ],
+    "ai-hn": [
+      "人机协作攻克Knuth经典难题，131分登顶HN",
+      "Claude Mythos模型泄露疑云，安全焦虑蔓延",
+      "反向验证码冷启动策略，多Agent平台引热议",
+      "Claude CLI+Obsidian革新个人税务工作流",
+      "生成式AI损害学习效果，学术警示引发反思",
+      "类脑芯片材料突破，AI能耗痛点迎硬件解"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI released v0.35.3 and v0.36.0-preview.6",
+      "OpenAI Codex leads with 50 active PRs",
+      "Claude Code has 10+ security regressions tracked",
+      "Kimi CLI rewriting ACP auth system",
+      "GitHub Copilot CLI shows possible feature freeze",
+      "MCP ecosystem standardization driving enterprise demand"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.3.28-beta.1 with breaking changes",
+      "500 issues and 500 PRs updated in 24 hours",
+      "Critical fix for 'No API key for provider' failure",
+      "Qwen OAuth migration requires manual re-onboarding",
+      "444 open issues suggest triage challenges",
+      "Platform expansion for Linux/Windows apps prioritized"
+    ],
+    "ai-trending": [
+      "Deep-Live-Cam gained 1,814 stars for face swap",
+      "obra/superpowers hit 2,292 stars for agentic framework",
+      "SakanaAI/AI-Scientist-v2 trending for autonomous research",
+      "onyx added 880 stars as enterprise chat alternative",
+      "agentscope gained 398 stars for observable agents",
+      "dexter emerging for financial research AI"
+    ],
+    "ai-hn": [
+      "Claude Mythos leak sparks cybersecurity debate",
+      "Knuth's 'Claude Cycles' shows human-AI-proof collaboration",
+      "Pentagon interest in leaked Anthropic model noted",
+      "Community debates AI productivity vs 'lazy' work culture",
+      "Anthropic consumer growth signals shifting priorities",
+      "OpenAI pivoting toward revenue-generating features"
+    ]
+  }
+}
