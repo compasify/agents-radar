@@ -24,31 +24,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sync from upstream (duanyytop/agents-radar)
+      - name: Sync digests from upstream (duanyytop/agents-radar)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote add upstream https://github.com/duanyytop/agents-radar.git || true
           git fetch upstream master
-          LOCAL=$(git rev-parse HEAD)
-          git merge upstream/master --no-edit --allow-unrelated-histories || {
-            echo "Merge conflict detected — auto-resolving with upstream version..."
-            git checkout --theirs .
-            git add -A
-            git commit --no-edit
-          }
-          AFTER=$(git rev-parse HEAD)
-          if [ "$LOCAL" != "$AFTER" ]; then
-            echo "Upstream merged — pushing..."
-            git pull --rebase origin master || {
-              echo "Rebase conflict — resolving with upstream..."
-              git checkout --theirs .
-              git add -A
-              git rebase --continue
-            }
+          # Only copy digests/ from upstream — avoids workflow permission issues
+          git checkout upstream/master -- digests/ || true
+          git add digests/
+          if ! git diff --cached --quiet; then
+            git commit -m "sync: update digests from upstream"
             git push
           else
-            echo "Already up to date with upstream."
+            echo "Digests already up to date."
           fi
 
       - name: Determine target date
