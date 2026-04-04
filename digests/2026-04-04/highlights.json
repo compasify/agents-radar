@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code配额消耗异常引发信任危机",
+      "OpenAI Codex Rust重构v0.119.0-alpha.6~8发布",
+      "Gemini CLI上下文管理架构质变重构",
+      "Kimi CLI Python→Bun+TS重构提案引热议",
+      "OpenCode 50+PR聚焦多模型兼容性",
+      "Qwen Code v0.14.0工具并行执行优化"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issues+500 PRs爆发",
+      "heartbeat会话键无限累加漏洞修复",
+      "循环检测器新增criticalThreshold阻断",
+      "Telegram模型选择器误判问题修复",
+      "WhatsApp空闲会话保活机制优化",
+      "Agent身份验证与MCP协议需求升温"
+    ],
+    "ai-trending": [
+      "oh-my-codex登顶Trending扩展Codex生态",
+      "timesfm Google时间序列基础模型",
+      "fff.nvim AI代理文件搜索工具",
+      "prompts.chat提示词社区平台",
+      "AutoGPT智能体工作流持续热门",
+      "ollama本地大模型部署基础设施"
+    ],
+    "ai-web": [
+      "Anthropic发布模型差异检测研究工具",
+      "Model Diffing突破传统基准测试局限",
+      "OpenAI官网零更新或预示重大发布",
+      "Claude 4安全基础设施铺垫信号",
+      "可解释性研究产品化关键一步",
+      "OpenAI静默期与Anthropic高频输出对比"
+    ],
+    "ai-hn": [
+      "Anthropic禁止Claude Code使用OpenClaw引反弹",
+      "95分85评论登顶今日最热帖",
+      "Claude发现Vim/Emacs高危RCE漏洞",
+      "认知投降现象引发逻辑思维退化警惕",
+      "YC CEO日写3.7万行AI代码引争议",
+      "AI行业泡沫化与平台控制权讨论升温"
+    ],
+    "ai-ph": [
+      "Claude Code Voice Mode 377票登顶",
+      "Denovo全自动创业Agent 94评论热议",
+      "Mngr并行运行数百Claude Agent",
+      "Grok 4.2多Agent自我辩论求真",
+      "Cosyra手机端AI编程突破",
+      "1-bit极端压缩模型Bonsai-8B"
+    ],
+    "ai-arxiv": [
+      "ActionParty多主体动作绑定视频生成突破",
+      "Batched Contextual Reinforcement推理效率定律",
+      "TBSP基准量化LLM自我保存偏见",
+      "专家级MoE可解释性研究首发",
+      "Neuro-RIT神经元级RAG鲁棒性增强",
+      "超网络与双随机矩阵参数化创新"
+    ],
+    "ai-hf": [
+      "Jackrong蒸馏Claude-4.6至Qwen3.5-27B 2222赞",
+      "HauhauCS去审查版70万下载揭示强需求",
+      "Gemma-4 26B/31B多规格覆盖边缘到云端",
+      "NVIDIA Nemotron-Cascade-2-30B级联生成",
+      "ChromaDB向量数据库厂商下场做LLM",
+      "Netflix罕见入局视频生成领域"
+    ],
+    "ai-community": [
+      "1行代码致Anthropic 3400亿损失警示",
+      "AI网关决策框架引发成本权衡热议",
+      "MCP网关横向评测成多智能体关键",
+      "LangChain够用论反对过度工程化",
+      "Vibe Coding反思性讨论升温",
+      "OCaml社区主动治理AI辅助编程"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code in crisis mode over quota exhaustion",
+      "OpenAI Codex releases 3 alpha builds in 24h",
+      "Gemini CLI lands major I/O performance fix",
+      "All major tools now support MCP protocol",
+      "Billing transparency cited as top pain point",
+      "Community pressure intensifies for open source"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs daily",
+      "76% open PR rate signals review bottleneck",
+      "Security fix moves Gemini API key to headers",
+      "v2026.4.1 regressions actively being patched",
+      "Authentication fixes are top priority",
+      "Platform expansion to Linux/Windows underway"
+    ],
+    "ai-trending": [
+      "Oh My codeX explodes with 3,047 stars",
+      "TimesFM gains 916 stars for enterprise time-series",
+      "Onyx hits 1,852 stars for enterprise AI",
+      "fff.nvim adds 750 stars with Rust file search",
+      "Ollama adds Kimi-K2.5, GLM-5, MiniMax support",
+      "Market splits between enterprise suites and hacker tools"
+    ],
+    "ai-web": [
+      "Anthropic publishes 'model diffing' interpretability research",
+      "Technique detects 'unknown unknown' behavioral changes",
+      "Automated safety auditing positioned as differentiator",
+      "OpenAI publishes zero new articles today",
+      "Unusual asymmetry in lab research output",
+      "Addresses reactive evaluation system limitations"
+    ],
+    "ai-hn": [
+      "Anthropic restricts third-party Claude integrations",
+      "OpenClaw blocked in monetization push",
+      "'Cognitive surrender' research resonates with skeptics",
+      "Claude finds critical RCE bugs in Vim, Emacs",
+      "Mythos model anticipation builds",
+      "Usage bundle pricing sparks developer backlash"
+    ],
+    "ai-ph": [
+      "Claude Code Voice Mode leads with 377 votes",
+      "Denovo promises autonomous business operations",
+      "Mngr enables 100+ parallel Claude agents",
+      "Grok 4.2 introduces self-debating AI",
+      "Lightning V3 targets sub-100ms TTS",
+      "OpenYak gains traction as open alternative"
+    ],
+    "ai-arxiv": [
+      "First expert-level MoE interpretation published",
+      "Neuron-guided instruction tuning improves RALM",
+      "Adam's Law reveals LLM frequency bias",
+      "Agentic architectures mature for finance deployment",
+      "Reasoning efficiency becomes first-class priority",
+      "Self-preservation bias quantification advances"
+    ],
+    "ai-hf": [
+      "Jackrong tops charts with 27B Claude-distilled model",
+      "Gemma-4 launches 2B to 31B variants",
+      "Uncensored fine-tunes hit 1.4M downloads",
+      "NVIDIA Cascade MoE delivers efficient inference",
+      "1-bit quantization emerges with Bonsai",
+      "Netflix enters video AI space"
+    ],
+    "ai-community": [
+      "Anthropic dominates with $340B disaster speculation",
+      "MCP gateways become essential 2026 knowledge",
+      "LangChain vs LangGraph decision frameworks emerge",
+      "Vibecoding faces serious developer pushback",
+      "Claude Code users report quiet paid tier downgrades",
+      "When to graduate from wrappers to gateways"
+    ]
+  }
+}
