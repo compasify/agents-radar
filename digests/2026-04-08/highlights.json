@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.94发布，Bedrock Mantle支持上线",
+      "OpenAI Codex密集Rust迭代，5个alpha版本连发",
+      "Copilot CLI v1.0.21发布，MCP命令正式上线",
+      "Kimi CLI路线之争：Python重构TypeScript提案",
+      "OpenCode阿里云Qwen 3.6速率限制引热议",
+      "Qwen Code v0.14.2紧急修复VS Code白屏"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issues/PR，Windows稳定性危机",
+      "2026.4.5版本严重回归，社区建议暂缓升级",
+      "跨频道全局会话记忆合并，打破平台孤岛",
+      "Telegram论坛话题消息路由修复上线",
+      "ESM路径加载失败成Windows头号难题",
+      "紧急修复：optionalDependencies解决安装失败"
+    ],
+    "ai-trending": [
+      "Google Gemma 4系列霸榜，原生多模态架构引关注",
+      "NVIDIA personaplex：角色化AI新项目",
+      "GitNexus：浏览器端Graph RAG知识图谱",
+      "DeepTutor：智能教学Agent系统开源",
+      "qmd：本地文档语义搜索CLI工具",
+      "seomachine：Claude Code驱动SEO工作流"
+    ],
+    "ai-hn": [
+      "Anthropic Project Glasswing登顶：AI时代关键软件安全框架",
+      "Claude Mythos Preview系统卡发布，359条评论激辩",
+      "Mythos红队报告：漏洞挖掘能力引安全争议",
+      "GLM-5.1成本仅Opus 4.6三分之一，代理性能追平",
+      "Gemma 4多模态微调器登陆Apple Silicon",
+      "OpenAI负面：Stargate受威胁，内部不信任CEO"
+    ],
+    "ai-ph": [
+      "KREV 284票登顶：电商品牌全自动创意代理团队",
+      "AgentPulse 272票：OpenClaw终端能力可视化",
+      "Deploy Hermes 106票：1分钟部署私有Telegram AI代理",
+      "Ogoron：QA团队9倍速20倍成本的替代方案",
+      "AI代理从功能向AI员工形态演进",
+      "私有部署与可观测性成基础设施关键词"
+    ],
+    "ai-arxiv": [
+      "TriAttention：三角函数KV压缩破解长推理内存瓶颈",
+      "Early Stopping：置信度动态监测终结过度思考",
+      "QED-Nano：7B小模型IMO金牌水平数学证明",
+      "Vero：首个开源通用视觉推理RL配方",
+      "OpenClaw安全分析揭示智能体部署风险",
+      "不可检测代理通信研究引发安全担忧"
+    ],
+    "ai-hf": [
+      "Jackrong蒸馏模型2450点赞：Claude 4.6 Opus能力开放复现",
+      "Gemma-4-31B-it 1330点赞：any-to-any原生多模态",
+      "prism-ml 1-bit量化：端侧推理成本数量级下降",
+      "GLM-5.1 MoE+DSA架构挑战效率边界",
+      "LiquidAI LFM2.5-350M超长上下文稳定性",
+      "Netflix void-model视频生成首次亮相"
+    ],
+    "ai-community": [
+      "Claude Code泄露源码架构深度解析",
+      "效用排序记忆机制解决Agent重复失败",
+      "MCP峰会5大决策改变Python Agent构建",
+      "Todo工具修复LLM 5步后计划漂移",
+      "多Agent同伴保护现象揭示安全新维度",
+      "SEO代理实测：0/4到4/4 PASS仅需一下午"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 50 issues, 10 PRs, daily stable releases",
+      "OpenAI Codex pushes 5 alpha releases in 24 hours",
+      "Qwen Code releases v0.14.1 and v0.14.2",
+      "Community demands token transparency, session persistence",
+      "Open-source extraction attempts target closed-source tools",
+      "MCP ecosystem integration becomes standard across all tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "Windows ESM loader bug breaks all installations",
+      "No hotfix for critical 2026.4.5 regressions",
+      "87.6% open issue rate strains maintainer bandwidth",
+      "Platform expansion drives Linux/Windows app development",
+      "Voice features and stability fixes dominate backlog"
+    ],
+    "ai-trending": [
+      "google-ai-edge/gallery gains 897 stars today",
+      "LiteRT-LM adds 528 stars for edge LLM runtime",
+      "GitNexus and qmd show demand for zero-server AI",
+      "NVIDIA PersonaPlex enters agent orchestration space",
+      "Edge-first AI and agent-native workflows dominate",
+      "DeepTutor shows agents maturing into vertical apps"
+    ],
+    "ai-hn": [
+      "Anthropic's Project Glasswing hits 814 points, 355 comments",
+      "Claude Mythos Preview sparks safety vs capability debate",
+      "Claude Code suffers major outage, 215 points, 292 comments",
+      "OpenAI faces insider distrust and geopolitical threats",
+      "Mythos detailed disclosure debated as sufficient safeguard",
+      "Glasswing aims to harden critical software defenses"
+    ],
+    "ai-ph": [
+      "KREV leads with 284 votes for ecommerce AI agents",
+      "Deploy Hermes offers private Telegram agents in one minute",
+      "Verticalized autonomous agents dominate leaderboard",
+      "Agent infrastructure tools gain traction alongside apps",
+      "Kubernetes SRE and visual workflow builders emerge",
+      "Agent as teammate positioning replaces copilot framing"
+    ],
+    "ai-arxiv": [
+      "Early Stopping paper tackles reasoning model overthinking",
+      "TriAttention introduces trigonometric KV compression",
+      "RLVR matures with novel exploration mechanisms",
+      "Agent safety and verification research surges",
+      "Federated learning receives theoretical attention",
+      "Memory and inference bottlenecks drive efficient architectures"
+    ],
+    "ai-hf": [
+      "Gemma 4 family dominates with 31B, 26B-A4B, E4B, E2B variants",
+      "Jackrong's Qwen3.5 Claude-4.6-Opus distillations gain traction",
+      "1-bit quantization emerges with prism-ml Bonsai-8B",
+      "NVFP4 optimized Gemma-4-31B targets extreme edge",
+      "Uncensored fine-tunes see high download velocity",
+      "google/gemma-4-31B-it hits 884,290 downloads, 1,330 likes"
+    ],
+    "ai-community": [
+      "AutoBE vs Claude Code: leaked source code analysis",
+      "5 MCP Dev Summit takeaways reshape Python agents",
+      "Utility-ranked memory systems battle-tested for agents",
+      "AI disclosure proposals for open-source code emerge",
+      "OS-level sandboxing proposed for coding agents",
+      "Vibecoding culture faces critical quality pushback"
+    ]
+  }
+}
