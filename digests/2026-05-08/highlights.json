@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.133出现macOS Tahoe严重回归",
+      "OpenAI Codex正式发布Vim模态编辑",
+      "Gemini CLI v0.42.0加速ACP协议IDE集成",
+      "Qwen Code v0.15.8推远程控制三层PR架构",
+      "DeepSeek TUI Token消耗失控紧急排查",
+      "Pi包迁移完成，Kitty协议输入问题爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.7修复插件发布管道",
+      "Qwen3.6-35B-A3B下载量突破321万",
+      "Gemma-4-31B-it下载量高达859万",
+      "DeepSeek-V4-Pro获3724点赞稳居人气榜首",
+      "Kimi-CLI截图竞态与版本问题获PR当日跟进",
+      "OpenCode v1.14.40修复Immer冻结崩溃"
+    ],
+    "ai-trending": [
+      "Ollama新增Kimi-K2.5/GLM-5等前沿模型支持",
+      "AddyOsmani的agent-skills单日爆发获3062星",
+      "vllm持续领跑生产级LLM推理引擎",
+      "DeepSeek-TUI单日获星激增，轻量化Agent受追捧",
+      "9router免费路由网关聚合40+提供商",
+      "PageIndex无向量RAG首次进入热榜"
+    ],
+    "ai-web": [
+      "Anthropic发布自然语言自编码器解读模型思维",
+      "Petri 3.0开源对齐工具箱引入模块化架构",
+      "Anthropic推出10个金融服务Agent模板",
+      "OpenAI发布GPT-Realtime-2实时模型",
+      "OpenAI推出新的语音智能API模型",
+      "Anthropic聚焦AI研究所的核心关注领域"
+    ],
+    "ai-hn": [
+      "Anthropic NLA可解释性研究获172分高赞",
+      "OpenAI发布GPT-Realtime-2实时模型",
+      "Mozilla用Mythos发现大量漏洞效率惊人",
+      "Stage CLI帮助审查AI生成代码变更",
+      "BrowserCode在浏览器中运行Claude Code",
+      "OpenAI前CTO法庭证词引热议"
+    ],
+    "ai-ph": [
+      "Kanwas开源AI知识库获480票225评论",
+      "Superset 2.0运行数百编码Agent获425票",
+      "Contrario AI招聘平台获168票",
+      "pay.sh实现AI服务自主支付获高关注",
+      "开发者工具类产品在今日热度占绝对主导",
+      "AI+金融融合趋势出现银行数据连接应用"
+    ],
+    "ai-arxiv": [
+      "LLM智能体从对话走向自主芯片设计",
+      "语法性表征挑战“语法性即似然度”观点",
+      "首个Token置信度可实现低成本幻觉检测",
+      "长序列模型存在“不可能三角”被理论证明",
+      "可执行世界模型用于ARC-AGI-3挑战",
+      "多时间尺度记忆支持LLM持续知识更新"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B下载量达321万",
+      "Gemma-4-31B-it下载量突破859万",
+      "DeepSeek-V4-Pro获3724点赞",
+      "DeepSeek-V4-Flash下载量达75万",
+      "Poolside Laguna-XS.2专注代码生成",
+      "IBM Granite 4.1-8B强调企业级安全合规"
+    ],
+    "ai-community": [
+      "200行TypeScript AI路由使账单降低41%",
+      "设计多Agent团队协作架构引热议",
+      "MCP被类比为Agent的API获广泛认可",
+      "Token交换协议实现Agent细粒度授权",
+      "AI网关vs MCP网关vs Agent网关辨析",
+      "Agent从问答到执行工作流的工程挑战"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.133 daily patches",
+      "OpenAI Codex v0.130.0-alpha.1",
+      "Gemini CLI v0.42.0-nightly cadence",
+      "ACP/MCP protocol standardization",
+      "Agentic vs headless architecture split",
+      "Cross-platform parity struggles"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "285:215 open-to-closed issue ratio",
+      "v2026.5.7 maintenance release",
+      "Codex integration hardening",
+      "Channel reliability for Discord & Telegram",
+      "Production multi-agent scaling concerns"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI +5,799 stars today",
+      "agent-skills +3,062 stars",
+      "PageIndex vectorless RAG paradigm",
+      "9router +149 stars for cost routing",
+      "Ollama now supports Kimi-K2.5",
+      "vLLM reaches 79,321 stars"
+    ],
+    "ai-web": [
+      "Natural Language Autoencoders unveiled",
+      "Petri 3.0 alignment toolbox donated",
+      "Ten financial agent templates released",
+      "MCP app ecosystem expansion",
+      "OpenAI voice intelligence models",
+      "ChatGPT Trusted Contact feature"
+    ],
+    "ai-hn": [
+      "Mythos found 271 Firefox vulnerabilities",
+      "Cloudflare lays off 1,100 for AI",
+      "Ransomware hits Canvas Instructure",
+      "Claude interpretability via autoencoders",
+      "OpenAI new voice API models",
+      "Debate on AI security auditing efficacy"
+    ],
+    "ai-ph": [
+      "Kanwas: 480 votes for open-source brain",
+      "Superset 2.0 leading developer tools",
+      "Ads in ChatGPT monetization milestone",
+      "WOZCODE coding automation scaling",
+      "Gyro Autopilot for travel refunds",
+      "Contrario AI recruiting with experts"
+    ],
+    "ai-arxiv": [
+      "Impossibility Triangle of long-context",
+      "SoK on jailbreak attack robustness",
+      "Automated side-effect auditing pipeline",
+      "Grok-based mathematical theorem discovery",
+      "Black-box hallucination detectors",
+      "Formal proofs for mechanistic interpretability"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 946,264 downloads",
+      "Gemma-4-31B-it crosses 8.5M downloads",
+      "Gemma-4-E4B-it at 5M downloads",
+      "Uncensored abliterated fine-tunes trending",
+      "Sulphur-2-base text-to-video model",
+      "OmniVoice zero-shot voice cloning"
+    ],
+    "ai-community": [
+      "200-line TypeScript AI router cuts bill 41%",
+      "Anthropic rents Musk's data center",
+      "MCP as emerging agent protocol standard",
+      "Cloudflare and Stripe agent APIs",
+      "Debate on open-weight models closing up",
+      "Mythos architecture reconstruction"
+    ]
+  }
+}
