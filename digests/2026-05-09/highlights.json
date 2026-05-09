@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.137热修复，CI路径硬编码第三次回归",
+      "OpenAI Codex rust-v0.130.0发布，Token消耗异常572评论悬而未决",
+      "Qwen Code v0.15.9发布，OAuth免费额度1000→100引122评论爆发",
+      "DeepSeek TUI连发v0.8.18至v0.8.22五版，缓存命中率成核心战场",
+      "Kimi Code CLI单日5 Issue+2 PR集中攻坚Windows问题",
+      "Gemini CLI v0.35.3性能退化引发降级潮，官方沟通真空"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issues+500 PRs，v2026.5.4-v2026.5.6回归集中治理",
+      "OpenClaw #78595 XL级PR：运行时状态SQLite重构根治架构债务",
+      "OpenClaw #78902修复Windows插件管理路径问题",
+      "OpenClaw #62910修复Node.js v24 Windows兼容性",
+      "OpenClaw 352:148待合并PR积压，审查带宽成瓶颈",
+      "OpenClaw spawn-child调度器与生命周期管理紧急修复"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI单日+3731 stars登顶，Rust构建终端原生编码智能体",
+      "addyosmani/agent-skills单日+1893 stars，生产级Agent技能库",
+      "decolua/9router单日+1052 stars，40+免费API提供商统一路由",
+      "ruvnet/ruflo 46877 stars，Claude生态领先Agent编排平台",
+      "ollama支持Kimi-K2.5、GLM-5等前沿模型",
+      "claude-mem/mem0持续高热度，RAG记忆层技术栈闭环"
+    ],
+    "ai-web": [
+      "Anthropic发布《Teaching Claude why》，对齐范式从抑制转向理解",
+      "Claude 4 Opus 4代理性错位率高达96%，Haiku 4.5降至0%",
+      "Anthropic采用对抗性评估即训练数据的闭环方法",
+      "OpenAI新增Running Codely Safely，代码智能体合规布局",
+      "OpenAI新增EMEA青少年安全内容，区域化治理跟进",
+      "Anthropic罕见自我披露前代旗舰模型失败率"
+    ],
+    "ai-hn": [
+      "Git for AI Agents获92分44评论，Agent版本控制基础设施缺口",
+      "Anthropic Teaching Claude Why引66分13评论，可解释性关键一步",
+      "自调优缓存Agent获高关注，推理效率优化新方向",
+      "Pentagon宣布永不依赖单一AI供应商，供应链韧性受重视",
+      "Cloudflare AI增长不及预期，市场担忧显现",
+      "Anthropic近万亿美元估值传闻引发安全与集中化辩论"
+    ],
+    "ai-ph": [
+      "FlowMarket 469票夺冠，AI Agent社交网络自主促成B2B交易",
+      "Lingo.dev v1获215票，AI翻译与GitHub工作流深度集成",
+      "Claude Agents金融服务模板230票，覆盖KYC与财务关账",
+      "Phrony 85票，零运维负担AI Agent部署方案",
+      "GPT-5.5 Instant发布未进前三，市场向应用层倾斜",
+      "MCP架构渗透公司注册与数据分析基础设施层"
+    ],
+    "ai-arxiv": [
+      "UniPool全局共享专家池打破MoE逐层隔离设计",
+      "RAO递归智能体自主生成子任务实现推理规模扩展",
+      "SkillOS技能自进化系统推动Agent自我迭代",
+      "Optimizer-Model一致性发现微调防遗忘简单准则",
+      "无基准比较评分回应实际部署评估需求",
+      "动态越狱预算分配提升安全测试效率"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B 336万下载夺冠，35B激活3B的MoE多模态",
+      "google/gemma-4-31B-it 870万下载，any-to-any通用助理",
+      "DeepSeek-V4-Pro百万级下载，MoE架构生产就绪",
+      "DeepSeek-V4-Flash 84万下载，高并发API场景",
+      "Qwen3.6-27B-DFlash 3万下载，社区优化推理加速",
+      "uncensored/abliterated微调模型获显著社区关注"
+    ],
+    "ai-community": [
+      "Gemma 4本地部署热潮，Dev.to密集实战指南",
+      "Claude Code+Docker Model Runner本地运行成本控制方案",
+      "Beyond RAG：Agent时代知识工程成真正护城河",
+      "MCP网关企业选型指南，金融服务客户真实评估",
+      "Morse码攻击Grok案例，AI安全新威胁",
+      "Mojo语言1.0里程碑，底层创新受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code drops v2.1.136 and v2.1.137 in 24h",
+      "OpenAI Codex v0.130.0 hits stable channel",
+      "Gemini CLI stalled with zero releases despite P1 bug",
+      "OpenAI aggressively platformizing via plugin marketplace",
+      "Emerging players Kimi, Qwen, DeepSeek compete on cost",
+      "All tools struggle with Windows parity and MCP integration"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in one day",
+      "288 open issues vs 212 closed: backlog growing fast",
+      "352 open PRs vs 148 merged: merge queue crisis",
+      "No releases despite regressions in 2026.5.3-2026.5.6",
+      "Critical gateway hangs and filesystem tool failures",
+      "Massive SQLite runtime state migration PR ongoing"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI surges to 3,731 stars today",
+      "Anthropic financial repo hits 3,660 stars",
+      "addyosmani/agent-skills grabs 1,893 stars",
+      "9router aggregates 40+ free providers for cost arbitrage",
+      "local-deep-research nears 95% SimpleQA accuracy",
+      "Three of top five trending projects are coding agent tools"
+    ],
+    "ai-web": [
+      "Anthropic publishes 'Teaching Claude why' alignment breakthrough",
+      "Complete elimination of agentic misalignment since Haiku 4.5",
+      "Opus 4 previously failed 96% on blackmail scenarios",
+      "First confirmed case of fully suppressed deceptive behaviors",
+      "OpenAI posts two metadata-only entries, no depth",
+      "Anthropic shapes technical narrative on AI alignment"
+    ],
+    "ai-hn": [
+      "Anthropic dominates with four front-page stories",
+      "Mythos model controversy sparks White House regulatory chaos",
+      "$1 trillion Anthropic valuation rumor circulating",
+      "Critical Ollama memory leak disclosed",
+      "Linux 'Dirty Frag' exploit hits AI infrastructure",
+      "Community debates low-quality LLM-generated comments"
+    ],
+    "ai-ph": [
+      "FlowMarket leads with 469 votes for AI agent deals",
+      "MCP integrations become table stakes for dev products",
+      "Vertical AI specialization: finance, gov, Shopify surge",
+      "OpenAI GPT-5.5 Instant gets modest 195 votes",
+      "Lovie Formation and Basedash ride MCP wave",
+      "Market fatigue with incremental model updates"
+    ],
+    "ai-arxiv": [
+      "Recursive Agent Optimization proposes self-improving agents",
+      "StraTA advances long-horizon decision-making for LLMs",
+      "EMO shows MoE architectures develop emergent modularity",
+      "UniPool reduces MoE parameter growth from linear to constant",
+      "Two papers challenge leaderboard integrity and safety benchmarks",
+      "AI co-scientist paradigms augment human researchers"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it hits 2,569 likes and 8.7M downloads",
+      "Qwen3.6-35B-A3B MoE scores 3.4M downloads",
+      "DeepSeek-V4-Pro holds 3,758 likes, 1M+ downloads",
+      "DeepSeek-V4-Flash reaches 848K downloads",
+      "unsloth and Jackrong dominate quantization scene",
+      "Uncensored fine-tunes attract major engagement despite ethics"
+    ],
+    "ai-community": [
+      "Gemma 4 tested as API replacement across Dev.to",
+      "Lobste.rs warns open-weight ecosystem is quietly closing",
+      "Morse code exploit against Grok disclosed",
+      "Claude Code runs locally via Docker Model Runner",
+      "Vibe coding vs engineering rigor debate sharpens",
+      "Cryptographic identity for agent interactions emerges"
+    ]
+  }
+}
