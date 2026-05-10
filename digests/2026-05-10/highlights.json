@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Kimi Code CLI PR密度最高，Windows修复当日闭环",
+      "OpenCode发布节奏失控，v1.14.42大规模回归",
+      "Qwen Code首发Python SDK，Daemon模式Stage 1落地",
+      "DeepSeek TUI缓存命中率争议激烈，v0.8.25启动稳定化",
+      "Claude Code社区贡献冻结，安全事件未获响应",
+      "Gemini CLI 5个P1/P2 PR集中修复，维护者响应积极"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issues+500 PRs饱和迭代",
+      "SQLite数据库优先运行时重构成绝对主线",
+      "ACP运行时稳定性紧急修复，3个PR并行",
+      "v2026.5.9-beta.1发布，新增/think default命令",
+      "跨平台支持呼声高涨，企业级Signal/Telegram部署需求增",
+      "预构建Android APK成社区新诉求"
+    ],
+    "ai-trending": [
+      "Anthropic金融方案单日狂揽3281 star",
+      "agent-skills增速第一，定义Agent工程标准",
+      "agentmemory成焦点，Agent向能持续工作演进",
+      "9router聚合40+免费LLM，自动降本40%",
+      "Chrome DevTools官方MCP化，浏览器调试纳入Agent工具链",
+      "vibe coding教育赛道兴起，AI工具链向工程化跃迁"
+    ],
+    "ai-hn": [
+      "Claude Code HTML生成效率奇高，406分热帖",
+      "LLM文档腐败论文引130评论强烈共鸣",
+      "ClaudeBleed安全漏洞成密集讨论带",
+      "lobotomized-claude-code做减法获更好效果",
+      "trendslop新词精准批判LLM战略建议同质化",
+      "社区聚焦工程体验，AI员工幸福感下降引忧虑"
+    ],
+    "ai-ph": [
+      "Monid 2.0获466票，成Agent工具统一路由层",
+      "Minions 310票，开源Hermes Agent任务控制中心",
+      "Ara嵌入Mac刘海栏，突破传统聊天交互范式",
+      "YC背景项目占比6/11，持续押注AI基础设施",
+      "Fabraix定位AI原生应用构建平台",
+      "AI Agent基础设施成绝对主旋律，B端远胜消费端"
+    ],
+    "ai-hf": [
+      "Gemma-4系列三款型号总下载破1400万",
+      "Qwen3.6-35B-A3B MoE架构下载351万",
+      "DeepSeek-V4-Pro单周116万下载",
+      "Sulphur-2-base视频生成模型近500点赞登顶",
+      "MiMo-V2.5-Pro小米Agent专用模型引发关注",
+      "GGUF量化生态活跃度达新高峰"
+    ],
+    "ai-community": [
+      "Cursor+Claude Opus 4.6生产事故9秒毁库无备份",
+      "AI Agent已发OpenTelemetry，可观测性成刚需",
+      "Vibe Coding从面试渗透至生产工程",
+      "开放权重模型可及性危机引发广泛担忧",
+      "隐蔽性提示注入攻击检测思路曝光",
+      "轻量级本地部署与极限优化代表去中心化路径"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code releases v2.1.138 patch in stabilization phase",
+      "OpenAI Codex pushes 3 alpha releases in rapid Rust migration",
+      "Windows remains second-class platform across all 9 CLI tools",
+      "Multi-agent orchestration becomes next competitive battleground",
+      "New entrants iterate aggressively on architecture and features",
+      "Established players prioritize stability and enterprise integration"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "v2026.5.9-beta.1 adds chat command improvements",
+      "Massive SQLite database-first refactor touches every subsystem",
+      "90.6% issue open rate shows explosive community growth",
+      "Critical stability work targets ACP runtime and Docker sandboxing",
+      "104 comments on long-running Linux/Windows desktop request"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills gains +3,009 stars in one day",
+      "anthropics/financial-services surges +3,281 stars daily",
+      "Datawhale's hello-agents hits 45,667 total stars",
+      "9router aggregates 40+ free LLM providers for IDEs",
+      "Memory systems agentmemory and rowboat trend strongly",
+      "Browser-control chrome-devtools-mcp sees major traction"
+    ],
+    "ai-hn": [
+      "ClaudeBleed security vulnerability sparks community concern",
+      "LLMs corrupt documents when delegated warns research paper",
+      "Claude Code dominates HN discussions across multiple posts",
+      "HTML's unreasonable effectiveness praised as agent interface",
+      "Meta's internal AI push making employees miserable trends",
+      "Anthropic rumored near-$1T valuation fuels debate"
+    ],
+    "ai-ph": [
+      "Monid 2.0 dubbed OpenRouter for agent tools gets 466 votes",
+      "6 of 11 top products are YC applicants in coordinated launch",
+      "Agent middleware emerges as dominant product category",
+      "Flare bets on voice-first AI for consumers",
+      "Google Health's modest 120 votes signals waning big-tech enthusiasm",
+      "Ara brings agentic computing to laptop notch"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro and Flash hit 2.1M combined downloads",
+      "Google Gemma-4 pushes into any-to-any multimodal architecture",
+      "Qwen ecosystem claims 8 of top 30 trending models",
+      "OmniVoice crosses 2.2M downloads for open speech synthesis",
+      "DFlash speculative decoding emerges for production optimization",
+      "Qwen3.6-27B leads downloads at 2.1M"
+    ],
+    "ai-community": [
+      "Agent destroys production data in nine seconds postmortem",
+      "Vibe coding interview guides enter mainstream practice",
+      "OpenTelemetry observability for agents already available",
+      "Governance runtimes and org RAG platforms being built",
+      "Open-weight models debated as quietly becoming closed",
+      "Cloud convenience vs local sovereignty tension heats up"
+    ]
+  }
+}
