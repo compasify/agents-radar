@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code陷计费危机与Windows稳定性双重困境",
+      "OpenAI Codex PR活跃度居首，Goals功能修复并进",
+      "OpenCode v1.14.46紧急修复/exit回归缺陷",
+      "Qwen Code v0.15.10发布，二进制误判问题簇突出",
+      "DeepSeek TUI 24小时连发4个patch版本修终端兼容",
+      "9大工具共患Windows平台parity稳定性债务"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时Issues/PR各500条创历史新高",
+      "v2026.5.10-beta.2连发两版强化Telegram质量保障",
+      "Codex运行时迁移成核心主线，大规模QA验证中",
+      "2026.5.2 Agent中途无响应回归问题已定位根因",
+      "内存管理混乱与多Agent并发竞争等深层问题发酵",
+      "89.2% PR待合并，技术债务累积需警惕"
+    ],
+    "ai-trending": [
+      "UI-TARS-desktop日增669星登顶，字节开源多模态Agent全栈",
+      "9router日增803星，聚合40+免费API提供商的AI编码路由",
+      "everything-claude-code双榜高热，日增1081星",
+      "agent-skills日增1065星，Google工程师定义生产级Agent标准",
+      "Datawhale双项目easy-vibe/hello-agents入热榜",
+      "Claude Code生态三款配套工具同时高热"
+    ],
+    "ai-hn": [
+      "马里兰州居民被迫承担20亿美元AI数据中心电网升级费",
+      "LLMorphism论文引发人类自我认知被LLM重塑的深层讨论",
+      "Academic Research Skills for Claude Code获73星25评",
+      "Remind工具让Claude Code支持Mac定时任务",
+      "Snyk联手Claude Code实时扫描AI生成代码安全",
+      "Agentize项目推动代码库向Agent-first范式适配"
+    ],
+    "ai-ph": [
+      "Codex in Chrome浏览器扩展让AI从回答推进到完成任务",
+      "MolmoAct 2开源3D空间推理机器人突破具身智能架构",
+      "ClawTick一条命令解决Agent被动触发痛点",
+      "Staff.rip以AI替代技术团队引发争议",
+      "OpenExp自托管AI Agent调度获高社区关注",
+      "企业AI成熟度评估工具暗示市场进入落地检验期"
+    ],
+    "ai-hf": [
+      "Gemma-4系列4变体霸榜，累计下载破1500万成开源多模态标杆",
+      "DeepSeek-V4-Pro单周下载133万，数学代码任务大幅跃升",
+      "Qwen3.6-35B-MoE下载366万夺冠，性价比之王",
+      "text-to-video与any-to-any模型首进热门前十",
+      "小米MiMo-V2.5-Pro专攻Agent工具调用与IoT生态",
+      "Mistral-Medium-3.5-128B欧洲主权AI代表之作"
+    ],
+    "ai-community": [
+      "FastMCP框架最小化样板代码构建生产级MCP服务器",
+      "200+专家模型架构挑战GPT-5.5单体大模型范式",
+      "自研LLM实现100+语言 sub-200ms 翻译系统工程实践",
+      "AI Agent 91秒完成真实支付触及伦理边界",
+      "系统性量化RAG引用幻觉四种失效模式",
+      "Claude Code源码分析系列引Agent架构治理关注"
+    ],
+    "ai-weekly": [
+      "Anthropic发布金融Agent套件，首切垂直行业",
+      "Claude Opus 4.7发布，联合三大PE成立企业AI公司",
+      "Anthropic与SpaceX达成30万千瓦GPU算力合作",
+      "对齐研究突破：Opus 4代理性错位率从96%降至0%",
+      "DeepSeek-TUI单日+6175 stars创开源纪录",
+      "OpenClaw紧急回滚：doctor --fix误改OAuth路由"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenCode's Agent Teams request hits 110 👍",
+      "Qwen Code sees 30 daily issues opened",
+      "Claude Code faces cost crises dominating discussions",
+      "OpenAI Codex adds goals + multi-env execution",
+      "Gemini CLI competes on subagent architectures",
+      "Kimi Code CLI pushes WebUI modernization"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "OpenClaw releases v2026.5.10-beta.1/2 for Telegram QA",
+      "Codex replacing Pi as default OpenAI runtime",
+      "438:62 open-to-closed issue ratio signals backlog",
+      "446:54 open-to-merged PR ratio shows triage strain",
+      "13 projects covered in OpenClaw ecosystem"
+    ],
+    "ai-trending": [
+      "UI-TARS-desktop gains 669 stars in one day",
+      "everything-claude-code surges +1,081 stars today",
+      "agent-skills jumps +1,065 stars today",
+      "9router free AI coding router +803 stars today",
+      "CloakBrowser stealth automation +496 stars today",
+      "Chinese hello-agents education initiative trending"
+    ],
+    "ai-hn": [
+      "Maryland's $2B grid upgrade for data centers tops charts",
+      "LLMorphism paper sparks philosophical identity debate",
+      "Claude Code ecosystem dominates tooling discussions",
+      "PS3 emulator PR flooding shows AI code quality woes",
+      "ShowHN ranking uses LLM judge + TrueSkill meta-evaluation",
+      "Skeptical-commercial sentiment on corporate AI concentration"
+    ],
+    "ai-ph": [
+      "OpenAI Codex in Chrome launches for browser automation",
+      "ClawTick offers cron jobs for AI agents with one command",
+      "MolmoAct 2 from Allen Institute reasons in 3D before acting",
+      "Nylas CLI provides communications infrastructure for agents",
+      "Prism assesses organizational AI readiness",
+      "4 of 13 products explicitly open-source today"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 1.3M downloads this week",
+      "Gemma-4 family dominates trending models",
+      "Qwen 3.6 variants see intense quantization activity",
+      "Any-to-any pipeline tags signal multimodal shift",
+      "Unsloth delivers optimized GGUF variants within weeks",
+      "Sulphur-2-base text-to-video approaches commercial viability"
+    ],
+    "ai-community": [
+      "FastMCP framework for production MCP servers tops Dev.to",
+      "200+ specialist model architecture challenges GPT-5.5",
+      "Sub-200ms multilingual chat system built with custom LLM",
+      "AGENTS.md standard emerges for coding agent context",
+      "Chinese models disrupt US AI pricing dynamics",
+      "Developers grapple with trusting autonomous agent transactions"
+    ],
+    "ai-weekly": [
+      "Anthropic signs 300MW SpaceX GPU deal",
+      "Claude financial agents launch with 10 templates",
+      "Teaching Claude Why shifts alignment paradigm",
+      "Natural Language Autoencoders decode model thoughts",
+      "DeepSeek-TUI gains 6,175 GitHub stars daily",
+      "9router aggregates 40+ free AI APIs"
+    ]
+  }
+}
