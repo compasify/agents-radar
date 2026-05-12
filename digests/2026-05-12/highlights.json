@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.139 发布 Agent View 与 /goal 命令",
+      "OpenAI Codex rust-v0.131.0-alpha.6 预发布 --not-so-yolo 特性",
+      "Kimi Code CLI 社区 PR 响应最活跃，v1.42.0 补丁修复",
+      "DeepSeek TUI 49 条 PR 全行业最高，社区爆发期",
+      "Qwen Code Daemon Stage 1 关键 PR，架构危机与快速迭代并存",
+      "全行业共性瓶颈：Windows 歧视、Token 黑洞、上下文压缩失效"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 内 500 Issues + 500 PRs 极高活跃度",
+      "OpenClaw 连发 3 个 beta 版聚焦 CI 插件检测与运行时识别",
+      "434 个待合并 PR 显示贡献队列充裕，审查带宽成瓶颈",
+      "Agent 可靠性修复：2026.5.2 中途停止响应回归问题已解决",
+      "Discord、Telegram 稳定性修复密集交付，转向可靠性攻坚",
+      "beta.3 TypeScript 严格模式升级或致自定义插件构建失败"
+    ],
+    "ai-trending": [
+      "hermes-agent 单日 +2065 stars 登顶 Trending",
+      "UI-TARS-desktop +956 stars，多模态 AI Agent 火热",
+      "9router 聚合 40+ 免费提供商，RTK 降本 40%",
+      "agentmemory 瞄准 AI 编码 agent 长期记忆痛点",
+      "easy-vibe +812 stars，AI 编程教育向认知层渗透",
+      "ollama 已支持 Kimi-K2.5、GLM-5、DeepSeek 最新模型"
+    ],
+    "ai-web": [
+      "OpenAI 成立 The Deployment Company，向企业基础设施跃迁",
+      "OpenAI 发布企业 AI 扩展指南 How Enterprises Are Scaling AI",
+      "OpenAI 推出校园网络学生俱乐部招募，布局下一代开发者",
+      "Anthropic 今日零更新，战略重心转向内部迭代",
+      "Deployment Company 双入口架构：index + business 分类",
+      "OpenAI 4 条增量中 2 条指向同一实体，节奏控制明显"
+    ],
+    "ai-hn": [
+      "Interaction Models 68 分探讨人机协作新范式",
+      "OpenGravity 零安装 BYOK 对抗厂商锁定引热议",
+      "Tokenyst 阻止 Claude Code 账单惊吓，成本焦虑催生工具",
+      "Claude Code 成本争议与 Mythos 漏洞赏金营销并存",
+      "OpenAI 成立部署公司、GM 裁员换 AI 人才引就业忧虑",
+      "LLM agents 自然语言通信被质疑为架构反模式"
+    ],
+    "ai-ph": [
+      "Keel 125 票：用户完全拥有 AI 助手记忆数据",
+      "AgentPeek 147 票：Claude Code 嵌入 Mac 刘海栏",
+      "LumiChats 123 票：完全离线零数据采集免费 AI",
+      "7 款产品明确开源，开源与开发者工具绝对主导",
+      "AI Agent 基础设施层：记忆系统、编排、沙箱密集涌现",
+      "离线优先与数据主权成核心差异化卖点"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 3856 点赞、200 万下载稳居榜首",
+      "Qwen3.6-35B-A3B MoE 激活仅 3B，下载量 386 万登顶",
+      "Gemma-4-31B-it 下载破 900 万，视觉语言原生融合",
+      "Kimi-K2.6 长上下文专家，支持超长文档与视频理解",
+      "Unsloth GGUF 版本合计下载超 400 万，边缘部署强劲",
+      "小米 MiMo-V2.5-Pro 端侧 Agent 专用模型布局"
+    ],
+    "ai-community": [
+      "MCP 协议安全性与网关可靠性成生产化焦点",
+      "首篇系统性 MCP 安全边界实战指南获 27 赞",
+      "Vibe Coding 从 3 小时原型到生产事故完整复盘",
+      "14 个 MCP servers 本周发布，Gemma 4 改变优先级",
+      "开源权重模型封闭化趋势引发社区警惕",
+      "Mojo v1.0、Swift 训练 LLM 性能极致化探索"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.139 with Agent View, /goal",
+      "OpenAI Codex rust-v0 release with 10+ PRs merged",
+      "Gemini CLI adds scheduled agent delegation feature",
+      "Copilot CLI launches /autopilot autonomy mode",
+      "9 tools tracked but trust crisis hits sector-wide",
+      "Windows remains second-class across all 9 tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "Beta.3-.5 rapid-fire releases for CI hardening",
+      "81% open issue rate strains review capacity",
+      "434 open PRs vs 66 merged indicates backlog",
+      "13 projects covered in active ecosystem",
+      "Pre-stable stabilization phase with QA focus"
+    ],
+    "ai-trending": [
+      "Hermes Agent surges +2,065 stars today",
+      "UI-TARS-desktop gains +956 stars (ByteDance)",
+      "9router hits +941 stars for free AI coding",
+      "AgentMemory claims #1 benchmark status (+430)",
+      "Datawhale's easy-vibe adds +812 stars",
+      "China increasingly shapes global AI tooling"
+    ],
+    "ai-web": [
+      "OpenAI launches 'The Deployment Company' entity",
+      "OpenAI publishes 4 new pages, Anthropic zero",
+      "Enterprise scaling guidance released simultaneously",
+      "Student campus network initiative announced",
+      "OpenAI sitemap now 813 pages vs Anthropic 354",
+      "Coordinated commercial deployment messaging"
+    ],
+    "ai-hn": [
+      "Claude Code cost optimization dominates discussion",
+      "Anthropic Mythos narrative draws cURL creator criticism",
+      "OpenAI 'Deployment Company' sparks legal attention",
+      "Interaction Models leads with 68 points",
+      "GenZ LLM tuning costs 'less than coffee'",
+      "Semantic layers maintained by agents trend"
+    ],
+    "ai-ph": [
+      "Keel: user-owned AI memory launches (125 votes)",
+      "AgentPeek puts Claude Code in Mac notch",
+      "LumiChats pushes privacy-first offline AI",
+      "Notion 3.4 doubles down on embedded agents",
+      "6 of 13 launches are open source",
+      "Portable memory across models emerges"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 dominates with 4M+ downloads",
+      "Gemma-4 31B-it hits 9.1M downloads",
+      "DeepSeek-V4-Pro reaches 2M downloads",
+      "DeepSeek-V4-Flash at 1.16M downloads",
+      "Sulphur-2-base heats up video generation",
+      "Unsloth GGUF quantization thrives around Qwen"
+    ],
+    "ai-community": [
+      "Gemma 4 on-device reshapes MCP priorities",
+      "MCP security gaps exposed in production",
+      "Prompt engineering missing 'thinking quality' layer",
+      "PaioClaw boundary testing reveals attack surfaces",
+      "Vibe coding backlash gains developer traction",
+      "Open weights availability sparks Lobste.rs debate"
+    ]
+  }
+}
