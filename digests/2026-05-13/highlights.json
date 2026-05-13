@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex Rust CLI α.7→α.9 三连发，权限架构重构",
+      "Gemini CLI v0.43.0 双版本迭代，Auto 模式合并",
+      "Qwen Code 50 PRs 爆发，v0.15.11-preview 双发",
+      "OpenCode 50 Issues+50 PRs 总量登顶，测试迁移潮",
+      "Claude Code v2.1.140 修复 Agent 匹配与 /goal 挂起",
+      "DeepSeek TUI v0.8.32 闪烁修复密集，质量攻坚"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 各 500 条 Issues/PRs，极高活跃度",
+      "OpenClaw 连发 3 个 beta 版本，Codex 运行时迁移",
+      "OpenClaw 438 个待合并 PR，审查队列压力大",
+      "OpenClaw beta.1 收紧 memory-wiki 权限，需检查 scope",
+      "OpenClaw beta.3 修复 auth-profile 媒体工具不可用",
+      "OpenClaw 安全修复：ingest 需 admin，search 需 write"
+    ],
+    "ai-trending": [
+      "agentmemory 获巨量关注，持久化记忆成核心痛点",
+      "openhuman Rust 实现，强调隐私本地化超级智能体",
+      "AI-Trader 与 TradingAgents 代表 Agent-Native 金融应用成熟",
+      "CherryHQ/cherry-studio 上榜，AI 应用生态扩展",
+      "dify 持续热门，智能体工作流+RAG 双驱动",
+      "ollama/vllm/transformers 基础设施稳居榜单"
+    ],
+    "ai-web": [
+      "OpenAI 新增《What Parameter Golf Taught Us》，参数效率叙事",
+      "OpenAI 或为其下一代架构效率铺垫，时机微妙",
+      "Anthropic 零新增，处于内容发布静默期",
+      "Anthropic 静默或预示 Claude 4.5/5 训练收尾",
+      "Anthropic MCP 生态建设战略沉淀期",
+      "OpenAI 持续技术博客维持内容声量"
+    ],
+    "ai-hn": [
+      "Needle 26M 参数蒸馏 Gemini 工具调用，252 分 92 评论",
+      "Statewright 可视化状态机治 Agent 幻觉，65 分 23 评论",
+      "OpenAI 诉讼案发酵，Altman 被内部人士指控一贯撒谎",
+      "ChatGPT 涉致死医疗建议诉讼，安全伦理升温",
+      "MCP 开发体验优化，协议标准化后开发者体验竞争",
+      "Atlas 本地优先 AI 代码审查，支持 Claude Code/Codex"
+    ],
+    "ai-ph": [
+      "Graphbit PRFlow 369 票登顶，AI 语义代码审查",
+      "Warp 开源 Agentic 开发环境，开源策略升温",
+      "Weavable 204 票，解决 Agent 失忆持久上下文",
+      "ClawSecure AI 安全杀毒，Agent 周边生态成型",
+      "Suprbox AI 专用存储，基础设施快速成型",
+      "onBeacon 96 票，AI 增长产品经理 7×24 在线"
+    ],
+    "ai-arxiv": [
+      "ELF 首次将流模型嵌入离散语言空间，非自回归并行解码",
+      "Shepherd 以 Lean 形式化验证构建可审计 Agent 执行轨迹",
+      "MaD Physics 物理约束信息搜寻建模为强化学习",
+      "DGPO 方向一致性组偏好优化替代成对偏好学习",
+      "误导信息长上下文首因效应，RAG 文档排序关键洞见",
+      "无需微调，角色道德分歧零样本实现文化对齐"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it 910 万下载碾压全场，Google 开源策略见效",
+      "DeepSeek-V4-Pro 近 4000 赞登顶，200 万下载",
+      "Qwen3.6-35B-A3B MoE 标杆，35B 总参仅激活 3B",
+      "Kimi-K2.6 引入 compressed-tensors，长上下文优势延续",
+      "HiDream 类 O1 推理图像生成，多模态持续升温",
+      "Unsloth 独占 3 个 GGUF 热门席位，量化生态活跃"
+    ],
+    "ai-community": [
+      "Open Vibe 32 赞，AI SaaS 从教程到交付完整路径",
+      "Claude Code 本地免费 Docker 运行，零成本方案",
+      "Spec-Driven Development 反思 vibe coding，强调规范",
+      "Engineering Agent Memory 梳理持久智能架构演进",
+      "离线 AI 记忆监视警告全实现，隐私优先完整栈",
+      "微代码审查方法论填补 AI 生成代码治理空白"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.140 with doc focus",
+      "OpenAI Codex releases 3 alphas in 24h",
+      "Gemini CLI joins the agent-orchestration race",
+      "Kimi Code CLI mounts enterprise pressure",
+      "Qwen Code and DeepSeek TUI emerge",
+      "MCP ecosystems unify tools, maturity varies"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Three beta releases ship today alone",
+      "Codex migration sprint dominates work",
+      "86% issue open rate strains maintainers",
+      "Messaging reliability is community hotspot",
+      "Runtime parity PRs flood queue"
+    ],
+    "ai-trending": [
+      "agentmemory gains 1,048 stars in one day",
+      "openhuman surges 1,014 stars",
+      "mattpocock/skills hits 3,867 stars",
+      "CloakBrowser stealth tool: 1,606 stars",
+      "Ollama adds Kimi-K2.5, GLM-5, MiniMax",
+      "vLLM spawns educational tiny forks"
+    ],
+    "ai-web": [
+      "Anthropic publishes zero new articles",
+      "OpenAI drops one metadata-only entry",
+      "What Parameter Golf Taught Us teases content",
+      "Dual silence hints at coordinated strategy",
+      "Both labs unusually quiet same day",
+      "Non-blog channel shift suspected"
+    ],
+    "ai-hn": [
+      "Needle distills Gemini tool-calling to 26M",
+      "252 points, 92 comments on Needle",
+      "OpenAI faces fatal medical advice lawsuits",
+      "Musk-Altman trial exposes internal distrust",
+      "FairyFuse ternary quantization for CPUs",
+      "Sweden-hosted inference rises in Europe"
+    ],
+    "ai-ph": [
+      "Graphbit PRFlow leads with 369 votes",
+      "ClawSecure: antivirus for AI agents",
+      "Weavable solves agent goldfish memory",
+      "Warp open-sources agentic dev environment",
+      "Singapore scene appears twice today",
+      "Context persistence is standout trend"
+    ],
+    "ai-arxiv": [
+      "Shepherd formalizes meta-agents in Lean",
+      "DECO deploys sparse MoE on edge",
+      "Generalized Turing Test for capability compare",
+      "Compute Where it Counts: dynamic per-token",
+      "ELF adapts flow diffusion to language",
+      "DGPO goes beyond pairwise preferences"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B passes 3.8M downloads",
+      "DeepSeek-V4 combines 3.1M+ downloads",
+      "Gemma 4 pushes any-to-any multimodal",
+      "MiMo-V2 enters from Xiaomi",
+      "Sulphur-2-base leads text-to-video likes",
+      "Unsloth GGUF ecosystem stays hyperactive"
+    ],
+    "ai-community": [
+      "Open Vibe ships SaaS vibecoding framework",
+      "Codex Chrome extension hits availability snags",
+      "Docker Model Runner hosts Claude Code free",
+      "Micro code reviews proposed for AI era",
+      "80% AI cost cuts shared by developers",
+      "Agent-to-agent protocols become engineering concern"
+    ]
+  }
+}
