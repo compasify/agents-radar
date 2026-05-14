@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "DeepSeek TUI 日更 99 条，v0.8.33 紧急修复终端闪屏",
+      "Qwen Code 日合 50 PR，Daemon 架构 Stage 1 落地",
+      "Kimi Code CLI v1.44.0 遭遇 K2.6 模型质量危机",
+      "Claude Code v2.1.141 强化 Hook 系统与 HTTPS 插件源",
+      "OpenAI Codex 远程压缩崩溃 67 评论未修复",
+      "GitHub Copilot CLI 连发 v1.0.47/v1.0.48 修复崩溃"
+    ],
+    "ai-agents": [
+      "OpenClaw 日更 1000 条，3 连发 beta 版本",
+      "OpenClaw Gateway 协议 v4 强制升级，破坏性变更",
+      "iMessage 媒体发送修复，停止暴露占位文本",
+      "Windows + Node 24 运行时退化获最高 17 评论",
+      "PR 合并率仅 4.6%，477 条待审流程瓶颈严重",
+      "多 Agent 协调性能成核心痛点"
+    ],
+    "ai-trending": [
+      "rohitg00/agentmemory 登顶 AI 智能体+ RAG 双赛道",
+      "obra/superpowers 入选，AI 工作流工具受关注",
+      "yikart/AiToEarn 切入 AI 变现应用层",
+      "mattpocock/skills 获推，TypeScript 大佬入局 AI",
+      "rasbt/LLMs-from-scratch 经典教育项目持续热门",
+      "trycua/cua 入选，AI 智能体基础设施升温"
+    ],
+    "ai-web": [
+      "Anthropic 首发 Claude for Small Business 套件",
+      "Claude SMB 集成 QuickBooks/PayPal/HubSpot 7 大工具",
+      "OpenAI 发布 Codex Windows Sandbox 技术文章",
+      "Anthropic 瞄准 44% GDP 中小企业市场",
+      "一键切换安装降低 AI 部署门槛",
+      "OpenAI 数据受限，沙箱细节待释"
+    ],
+    "ai-hn": [
+      "Rars：LLM 生成 Rust RAR 实现，78 星 63 评论激辩",
+      "Anthropic 订阅缩水引用户强烈不满",
+      "Sam Altman 诚信问题成 OpenAI 诉讼焦点",
+      "Torrix 零依赖 LLM 可观测性工具获 27 星",
+      "持续学习框架 GEPA 呼应认知科学双系统理论",
+      "AI 编码与项目管理集成趋势常态化"
+    ],
+    "ai-ph": [
+      "Kelviq 489 票登顶，AI 支付基础设施领跑",
+      "Hopper 首个 COBOL 大型机 Agent 开发环境",
+      "Whirr 首创 Mac 刘海栏环境式 Agent UI",
+      "Jotform Claude App 242 票实现聊天即开发",
+      "Vexilo 31 个 Agent 92 命令扩展 Claude Code",
+      "MiniCPM-V 4.6 开源端侧多模态模型"
+    ],
+    "ai-arxiv": [
+      "AlphaGRPO 首次解锁多模态自反思生成能力",
+      "KV-Fold 实现训练 free 的 KV 缓存复用突破",
+      "ToolCUA 重构智能体 GUI 自动化交互范式",
+      "Trust the Batch 统一 on/off-policy RL 训练",
+      "LongMemEval-V2 推动智能体记忆评估标准化",
+      "OmniNFT 探索音视频联合生成的 RL 对齐"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 3925 赞 242 万下载霸榜",
+      "Gemma-4-31B-it 972 万下载量本周最高",
+      "HiDream-ai 推出类 O1 推理链图像生成模型",
+      "OpenBMB MiniCPM-V-4.6 端侧视觉模型发布",
+      "Unsloth 4 款 GGUF 量化变体活跃社区",
+      "OpenAI 罕见发布官方隐私过滤模型"
+    ],
+    "ai-community": [
+      "MCP 扫描发现 Atlassian/GitHub/Cloudflare 高危漏洞",
+      "开发者单月 Claude Code 账单失控 $14,502",
+      "Cursor 重命名函数消耗 8400 tokens 引吐槽",
+      "Docker Model Runner 替代完整本地 AI 部署",
+      "AWS Lambda 文件系统承载 AI Agent 突破",
+      "mirrord 团队开源 6 项 Claude Code Agent Skills"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.141 with maturing plugin ecosystem",
+      "OpenAI Codex enters POC phase for Code Mode files",
+      "All major tools racing to add MCP integration",
+      "Daemon/server modes become universal architectural target",
+      "Windows support is primary enterprise adoption gate",
+      "Gemini CLI shows 10 hot issues, 50 active in 24h"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "Only 23 of 500 PRs merged—critical review bottleneck",
+      "Three beta releases in 2026.5.12-beta.x series",
+      "iMessage media handling fixed in beta.6",
+      "Gateway runtime degradation spans multiple releases",
+      "Xiaomi MiMo and Gemini 3.1 Pro compatibility added"
+    ],
+    "ai-trending": [
+      "mattpocock/skills leads with +3,392 stars today",
+      "Skills replaces prompts as dominant abstraction layer",
+      "agentmemory gains +1,379 stars on memory persistence",
+      "CloakBrowser surges +1,835 for stealth agent infra",
+      "openhuman rises +1,696 as Rust on-device AI grows",
+      "Claude-mem hits 75,485 total stars for memory tooling"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Small Business targeting 44% GDP",
+      "Pre-built QuickBooks, PayPal, HubSpot integrations ship",
+      "Toggle install design reduces SMB deployment friction",
+      "OpenAI teases Codex Windows Sandbox technical article",
+      "Strategic pivot beyond enterprise to mainstream operations",
+      "44% of U.S. GDP now targeted by Claude SMB push"
+    ],
+    "ai-hn": [
+      "Four front-page posts on Claude subscription turbulence",
+      "Sam Altman courtroom testimony generates major engagement",
+      "Viral warning: losing project access after unsubscribing",
+      "Rars: Rust RAR implementation mostly written by LLMs",
+      "Torrix launches self-hosted LLM observability without Postgres",
+      "Community skepticism grows on AI vendor lock-in"
+    ],
+    "ai-ph": [
+      "Kelviq leads with 489 votes for AI billing/payments",
+      "Whirr reimagines agents in Mac notch with 88 votes",
+      "Vexilo ships 31 agents, 92 commands, 121 skills",
+      "Hopper modernizes COBOL with agentic AI",
+      "Three of top twelve launches are open-source",
+      "Hyperswitch Prism open-sources payment orchestration"
+    ],
+    "ai-arxiv": [
+      "AlphaGRPO extends to multimodal without cold-start",
+      "Learning, Fast and Slow proposes dual-system LLM architecture",
+      "Sparse-to-dense reward principle challenges standard GRPO",
+      "MEME benchmark pushes multi-session memory evaluation",
+      "KV-cache compression papers target production deployment",
+      "Geometric methods gain traction for transformer optimization"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates with 3,925 likes, 2.4M downloads",
+      "Qwen 3.6 family appears across base, MoE, GGUF variants",
+      "Gemma 4 enters strongly with official and uncensored forks",
+      "Sulphur-2-base heats up video generation segment",
+      "OmniVoice hits 2.2M downloads for production TTS",
+      "1.25-bit quantization experiments proliferate"
+    ],
+    "ai-community": [
+      "Developer burned through $14,502 on Claude Code in one month",
+      "MCP security vulnerabilities spark community scanning",
+      "AWS Lambda ephemeral storage unlocks stateful agents",
+      "Cursor sent 8,400 tokens just to rename a function",
+      "Docker Model Runner simplifies local AI setups",
+      "Code mode patterns proposed to trim bloated MCP"
+    ]
+  }
+}
