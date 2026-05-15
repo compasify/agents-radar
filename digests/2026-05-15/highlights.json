@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.142 紧急补位 Agent 系统，Windows 渲染灾难未解",
+      "OpenAI Codex rust-v0.131.0-alpha.18 连续迭代，远程控制上线即爆雷",
+      "Gemini CLI v0.44.0-nightly 429 容量危机持续，Auto Memory 安全修复",
+      "GitHub Copilot CLI 单日三补丁 v1.0.48，极端响应验证技术债",
+      "Kimi Code CLI K2.6 模型稳定性危机压倒一切，v1.44.0 重构 Telemetry",
+      "Qwen Code 夜间构建发布失败，守护进程架构引发激烈辩论"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues/500 PRs，合并率仅 10% 维护者瓶颈",
+      "OpenClaw v2026.5.14-beta.1 代理路由重构，移除三个直接依赖",
+      "OpenClaw v2026.5.12 精益安装，WhatsApp/Slack/Bedrock 依赖外置化",
+      "OpenClaw 4 个 XL 级策略合规 PR 并行推进，多平台稳定性修复",
+      "OpenClaw Telegram/Line/WhatsApp 针对性修复，安装包瘦身",
+      "OpenClaw 国际化基线工具新增，pnpm ui:i18n:report 奠基多语言"
+    ],
+    "ai-trending": [
+      "tinyhumansai/openhuman 个人 AI 超级智能登 Trending",
+      "rohitg00/agentmemory AI 编码代理持久记忆开源",
+      "NVIDIA-AI-Blueprints/video-search-and-summarization GPU 加速视觉 Agent",
+      "supertone-inc/supertonic 端侧多语言 TTS 受关注",
+      "shiyu-coder/Kronos 金融市场基础模型上榜",
+      "mattpocock/skills Claude Code 技能集社区热推"
+    ],
+    "ai-web": [
+      "Anthropic 发布《2028: Two scenarios for global AI leadership》地缘政治报告",
+      "Anthropic 首次系统阐述中美 AI 竞争立场，明确支持对华芯片出口管制",
+      "Anthropic 推出 Claude for Small Business，嵌入 QuickBooks、PayPal",
+      "Anthropic 锁定盖茨基金会 2 亿美元全球健康与教育合作",
+      "OpenAI 同日仅三篇元数据更新，发布节奏明显落后 Anthropic",
+      "Anthropic 将\"distillation attacks\"定性为非法提取美国创新行为"
+    ],
+    "ai-hn": [
+      "Claude 帮比特币交易者恢复 40 万美元钱包，尝试 3.5 万亿密码",
+      "Anthropic Mythos 发现 macOS 漏洞，AI 辅助安全研究进主流",
+      "OpenAI Codex 登陆 ChatGPT 移动端，手机编码场景引热议",
+      "Claude 订阅政策反复、账户封禁争议，社区现\"Claude 疲劳\"",
+      "LLM 对特定群体\"选择性降智\"，公平性研究获关注",
+      "递归自我改进代码生成新 SOTA，社区反应冷淡可信度下降"
+    ],
+    "ai-ph": [
+      "Memoket Gem 459 票：首款全天候对话记忆 AI 可穿戴设备",
+      "Google 亲自下场推出 Gemini 原生笔记本 Googlebook",
+      "Latitude for Claude Code 监控 token 消耗，开发者刚需",
+      "Crade AI 89 票：屏幕感知型对话 AI，所见即所问",
+      "Pipali 开源通用 AI 同事，跨应用自动化不限定工作流",
+      "MCP 协议生态持续扩张，Vibe coding 概念渗透多产品"
+    ],
+    "ai-arxiv": [
+      "多智能体直接权重更新机制打破仅交换自然语言局限",
+      "LLM 否定语义在训练中被系统性忽略，安全微调警钟",
+      "步骤级幻觉检测定位多步推理首次出错精确位置",
+      "HistoryAnchor-100K 揭示智能体链式决策历史锚定效应",
+      "流式推理与 KV Cache 压缩技术持续推动工程化落地",
+      "神经算子、量子注意力等新型架构挑战 Transformer 统治"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 3948 点赞/258 万下载双冠 Hugging Face",
+      "Qwen3.6-35B-A3B MoE 架构 460 万下载本周最高",
+      "Google Gemma-4-31B-it 近千万下载逼近里程碑",
+      "Redis 作者 antirez 亲自量化 DeepSeek-V4 GGUF 21 万下载",
+      "HiDream-O1-Image 系列推动图像生成进入 O1 推理时代",
+      "Zyphra ZAYA1-8B 新兴推理模型获学术社区关注"
+    ],
+    "ai-community": [
+      "2015 年老台式机实测跑 Gemma 4，打破本地 AI 迷思",
+      "SPEC-TO-SHIP 开源多 Agent 端到端交付 pipeline 可直接 Fork",
+      "AI 将开发者变成\"低薪机器人保姆\"，职业价值反思引共鸣",
+      "CloudWatch+Arize Phoenix+LLM-as-Judge 三层 Agent 可观测实战",
+      "AI 让软件工程简单任务自动化，系统复杂性反而迁移",
+      "MCP 协议渗透 Google Analytics 与 IDE 具体工作流"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits v2.1.142 with agent flags expansion",
+      "OpenAI Codex lands daily Rust alpha builds",
+      "Codex plugin hooks graduate to stable",
+      "Gemini CLI pushes v0.44.0 nightly with security focus",
+      "Open-source multi-provider tools challenge closed models",
+      "Windows ARM64 stability remains unsolved industry-wide"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "OpenClaw beta streamlines dependencies via proxyline",
+      "475 open issues signal rapid growth or backlog culture",
+      "Enterprise governance push targets XL-sized PRs",
+      "Cross-platform Linux/Windows expansion underway",
+      "Community prioritizes security hardening, reliability"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains +2,987 stars in one day",
+      "openhuman surges +3,329 stars for personal AI superintelligence",
+      "RuView breaks through with WiFi spatial intelligence",
+      "agentmemory climbs +1,879 stars for persistent AI memory",
+      "Ollama adds Kimi-K2.5, GLM-5, MiniMax support",
+      "2026 marks shift to stateful, personalized, aware agents"
+    ],
+    "ai-web": [
+      "Anthropic frames AI race as explicit US-China competition",
+      "$200M Gates Foundation deal deepens public benefit track",
+      "Small business push targets 44% of US GDP",
+      "OpenAI releases metadata-only developer tooling updates",
+      "2028 set as horizon for transformative AI systems",
+      "Compute export controls advocated in policy paper"
+    ],
+    "ai-hn": [
+      "Claude for Small Business sparks 502-point, 448-comment thread",
+      "Claude recovers $400K Bitcoin wallet after 11 years",
+      "OpenAI-Apple partnership shows fracture signs",
+      "Codex arrives in ChatGPT mobile app",
+      "Anthropic strips Agent SDK from subscriptions",
+      "Sam Altman faces growing GOP scrutiny pre-IPO"
+    ],
+    "ai-ph": [
+      "Memoket Gem leads with 459 votes for wearable AI memory",
+      "Two Claude Code wrappers crack top 10 simultaneously",
+      "MCP infrastructure appears twice signaling standardization",
+      "Google's Gemini-optimized laptop makes rare hardware debut",
+      "CraftBot pushes Living UI vibe coding concept",
+      "Ambient AI memory converges with developer tooling demand"
+    ],
+    "ai-arxiv": [
+      "WARDEN transcribes endangered language with 6 hours of data",
+      "Negation Neglect exposes critical training failure mode",
+      "Recursive self-improvement claims new coding SOTA",
+      "Step-level hallucination detection advances safety",
+      "Quantum-inspired attention targets long sequences",
+      "any-to-any architectures unify multimodal reasoning"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 family captures massive download volumes",
+      "DeepSeek-V4 Pro hits 2.5M downloads, Flash adds 1.5M",
+      "Gemma 4 31B nears 10M downloads as multimodal contender",
+      "Unsloth dominates with four trending GGUF variants",
+      "SenseNova-U1-8B-MoT signals any-to-any architecture rise",
+      "Mixture-of-Experts variants drive efficiency focus"
+    ],
+    "ai-community": [
+      "2015 desktop runs Gemma 4 in local AI democratization push",
+      "Tokensparsamkeit emerges as critical cost discipline",
+      "MCP integration spreads across analytics to SEO workflows",
+      "AI agent reliability gap confronts production engineers",
+      "Context window management battles agent drift",
+      "Observability joins LLMs, vectors, tools as core stack layer"
+    ]
+  }
+}
