@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.143 新增插件依赖强制校验",
+      "OpenAI Codex 远程控制功能正式上线",
+      "Gemini CLI 日更 50 个 PR 修复企业网关认证",
+      "GitHub Copilot CLI 支持 MCP 搜索与延迟加载",
+      "OpenCode v1.15.0 实验后台子代理架构",
+      "Pi 修复 reasoning_content 多模型兼容性问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 日更 500 Issues/PRs 达近期峰值",
+      "v2026.5.14-beta.2 支持代理级 bootstrap 配置覆盖",
+      "5.12 版本回归问题集群持续发酵引用户谨慎",
+      "PR 合并率仅 6.2% 审查队列承压",
+      "MCP 工具调用审批成架构级热议点",
+      "OpenClaw doctor --fix 检测配置兼容性"
+    ],
+    "ai-trending": [
+      "anthropic/skills 与社区 skills 项目同日高热",
+      "OpenHuman 日增 1271 star 验证本地优先需求",
+      "Supertonic 日增 719 star 端侧 TTS 性能标杆",
+      "NVIDIA 视频分析 Blueprint 日增 308 star",
+      "n8n-mcp 成 AI Agent 与低代码关键连接器",
+      "Agent 开发从框架层下沉至可复用技能原子"
+    ],
+    "ai-web": [
+      "Anthropic 首次披露 Claude 4 对齐训练升级",
+      "Haiku 4.5 实现 agentic misalignment 零黑mail率",
+      "PwC 将认证 3 万名 Claude 专业人员",
+      "Anthropic 首发地缘政治 AI 竞争论文",
+      "OpenAI 布局个人金融场景仅曝元数据",
+      "Claude Code 成 PwC 独立业务单元技术底座"
+    ],
+    "ai-hn": [
+      "Anthropic 估值争议文获 172 评论登最热",
+      "社区质疑 withheld 模型实为成本考量",
+      "OpenAI 银行连接引监管套利警觉",
+      "GlycemicGPT 医疗 AI 获 58 评论务实讨论",
+      "Claude Code vs Codex 成本追踪 ROI 分歧",
+      "Anthropic Bun Rust 重写引速度争议"
+    ],
+    "ai-ph": [
+      "Spellar 3.0 跨会议记忆获 522 票居首",
+      "Naptick AI 硬件结合睡眠算法获 464 票",
+      "Theneo 首创人机双模 API 管理平台",
+      "Raindrop Workshop 浏览器自动化 Agent 工具",
+      "GEO 生成引擎优化新品类出现",
+      "AI 智能体基础设施占比过半成焦点"
+    ],
+    "ai-arxiv": [
+      "MetaBackdoor 首次利用位置编码植入后门",
+      "OpenDeepThink 并行推理突破深度广度困境",
+      "量化即攻击向量暴露安全评估盲区",
+      "行为保证无法验证安全治理要求",
+      "TFGN 首个 LLM 规模无回放缓冲持续训练",
+      "语音工具调用与临床时间线重建涌现"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 近 4000 点赞刷新近期纪录",
+      "Qwen3.6-35B-A3B 近 500 万下载成高效标杆",
+      "Gemma-4-31B 累计 980 万下载显生态统治力",
+      "LTX 2.3 视频生成生态社区爆发",
+      "On-Device Model 标签首进头部榜单",
+      "ZAYA1-8B 学术工业联动新范式"
+    ],
+    "ai-community": [
+      "MCP 协议治理成基础设施临界点",
+      "Gemini 3.1 Flash-Lite GA 重塑企业成本",
+      "Agent 安全四层栈系统性构建指南",
+      "vibe coding 批判与 AI slop 焦虑并存",
+      "Boring Technology 选型论引 AI 反思",
+      "Google I/O 前瞻引发工具链焦虑"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code releases v2.1.143 weekly",
+      "OpenAI Codex has 12+ active PRs",
+      "Node.js V8 heap exhaustion hits all tools",
+      "Kimi CLI and OpenCode accept external PRs",
+      "MCP extensibility now table stakes",
+      "Rust vs Node.js vs Go architecture split"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs",
+      "v2026.5.14-beta.2 adds agent config overrides",
+      "Discord stability is major focus area",
+      "453:47 open-to-closed issue ratio",
+      "Codex backend integration maturing",
+      "13 projects covered in ecosystem"
+    ],
+    "ai-trending": [
+      "Three skills repos trending simultaneously",
+      "RuView uses WiFi for spatial awareness",
+      "OpenHuman pursues on-device superintelligence",
+      "Ollama now supports Kimi-K2.5, GLM-5",
+      "Agent harness pattern becoming standard",
+      "Dify reaches 141,521 GitHub stars"
+    ],
+    "ai-web": [
+      "Anthropic drops triple-release day",
+      "PwC partners for 30,000-person Claude cert",
+      "Claude models achieve 0% misalignment since Haiku 4.5",
+      "Opus 4 blackmailed 96% in prior tests",
+      "Anthropic pushes DC compute export strategy",
+      "OpenAI posts only metadata-only entry"
+    ],
+    "ai-hn": [
+      "Anthropic 'too dangerous' or too expensive?",
+      "Anthropic valued at $900B in $30B deal",
+      "OpenAI connects ChatGPT to bank accounts",
+      "Community skeptical of AI safety rhetoric",
+      "Musk-Altman trial power struggles continue",
+      "Debate over AI openness vs commercial control"
+    ],
+    "ai-ph": [
+      "Spellar 3.0 wins with cross-meeting memory",
+      "522 votes for persistent AI meeting companion",
+      "Naptick AI ranks second in sleep tech",
+      "Tendem pushes human-in-the-loop automation",
+      "Four browser automation tools launch",
+      "Open-source agent infrastructure dominates"
+    ],
+    "ai-arxiv": [
+      "OpenDeepThink scales test-time compute breadth-wise",
+      "Forgetting That Sticks solves quantized unlearning",
+      "MeMo treats memory as a model",
+      "APWA targets industrial agent deployment",
+      "EntityBench tests long video consistency",
+      "SpeakerLLM specializes audio per speaker"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 2.7M downloads",
+      "Gemma-4-31B-it nears 10M downloads",
+      "Qwen 3.6 family has four top-30 variants",
+      "Video generation models dominate mid-tier",
+      "MiniCPM-V-4.6 pushes on-device optimization",
+      "Cloud vs edge deployment strategies diverge"
+    ],
+    "ai-community": [
+      "Hexabot automates LinkedIn from Telegram",
+      "AWS argues bigger models aren't always better",
+      "Gemini 3.1 Flash-Lite now generally available",
+      "MCP ubiquity spawns governance concerns",
+      "Doubao offers aggressively priced API tier",
+      "Vibe coding vs engineering discipline debated"
+    ]
+  }
+}
