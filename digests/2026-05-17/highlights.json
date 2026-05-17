@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 50+ Issues 零有效 PR，修复推进缓慢",
+      "OpenAI Codex 11 PRs 含 7 层架构重构，内部密集迭代",
+      "Gemini CLI 35 PRs 今日最高活跃，Full Access 模式狂奔",
+      "OpenCode v1.15.3 三连发补丁，Linux 兼容性告急",
+      "Qwen Code v0.15.11-nightly 推进 Daemon 双模式架构",
+      "DeepSeek TUI 16 PRs 社区极活跃，命名争议引 sustainability 质疑"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issues + 500 PRs，密集迭代期",
+      "v2026.5.16-beta.3 上线 xAI Grok OAuth 免 key 认证",
+      "beta.1 变更 AWS 默认路由，Blacksmith Testbox 变 opt-in",
+      "Discord/Telegram 通道可靠性修复成今日最热战场",
+      "内存嵌入超时中断修复进入高优先级队列",
+      "Codex 进度回溯功能今日合入主分支"
+    ],
+    "ai-trending": [
+      "superpowers +1305 stars 登顶，定义 Agent 设计模式标准",
+      "openhuman +1549 stars 领跑，可组装私有部署 Agent 系统",
+      "codegraph +416 stars，为 Claude Code 预建知识图谱省 80% token",
+      "supertonic +749 stars，端侧 TTS 延迟低于 50ms",
+      "ollama 已支持 Kimi-K2.5、GLM-5、DeepSeek 等前沿模型",
+      "langchain 定位升级为 Agent 工程平台，转向原生 Agent 架构"
+    ],
+    "ai-ph": [
+      "OpenHuman 488 票登顶，开源 AI harness 嵌入人类反馈",
+      "mia 144 票，Cursor for PM 复制 AI 结对模式",
+      "TrustClaw 138 票，自托管 Agent 连接 1000+ App",
+      "HasData 爬虫服务解决 Agent 数据获取痛点",
+      "Vercel Day 标签占 8/16，边缘部署仍是 AI 首选基建",
+      "Top 10 中 4 款明确开源，自托管趋势显著"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 近 300 万周下载定义开源基准",
+      "Qwen3.6-35B-A3B 525 万下载夺冠，MoE 性价比极致",
+      "Gemma-4-31B-it 累计近千万下载，大厂轻量模型标杆",
+      "LTX 2.3 衍生模型密集涌现，视频工具链细化",
+      "MiniCPM-V-4.6 标 On-Device，端侧 AI 下一战场",
+      "ZAYA1-8B 带推理专用变体，小模型推理新玩家"
+    ],
+    "ai-community": [
+      "Hermes Agent 7 天运行记录首次公开 skill 漂移实证",
+      "Gemma 4 MoE 搜索 vs Dense 拒绝，相反失败模式曝光",
+      "Claude Code 同质化输出引 vibe coding 批判审视",
+      "Context Time Machine 填补 agent 黑盒调试空白",
+      "Swift 训练 LLM 性能优化成 Lobste.rs 深度焦点",
+      "OxCaml 语言级创新获技术社区持续关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 50 issues in 24h, merge-light phase",
+      "Gemini CLI leads with 35 PRs in reliability sprint",
+      "OpenAI Codex advances major 7-PR stack",
+      "All 9 tools race to production-grade infrastructure",
+      "Competitive frontier shifts to cost transparency",
+      "Session lifecycle management now critical differentiator"
+    ],
+    "ai-agents": [
+      "OpenClaw ships 3 beta releases in one day",
+      "500 issues and 500 PRs in 24 hours",
+      "430 open issues signal triage bottleneck",
+      "414 open PRs show review bottleneck",
+      "Multi-channel integration: Discord to Feishu",
+      "Security hardening: gateway, policy, sentinel"
+    ],
+    "ai-trending": [
+      "openhuman surges +1,549 stars today",
+      "superpowers gains +1,305 stars for agent skills",
+      "RuView hits +1,010 stars for spatial AI",
+      "Rust dominates 4 of 8 trending repos",
+      "Agent harnesses eclipse raw model development",
+      "codegraph cuts Claude Code token use 100% local"
+    ],
+    "ai-ph": [
+      "OpenHuman leads with 488 votes on Product Hunt",
+      "TrustClaw self-hosts 1000+ app connections on Vercel",
+      "Vercel Day tag hits 8 products",
+      "Top 3 products capture 37% of total votes",
+      "Web-to-AI connectivity emerges as micro-trend",
+      "Cursor for X spreads to product managers via mia"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4K likes, 3M downloads",
+      "Qwen 3.6 MoE hits 5.2M downloads",
+      "Gemma 4 debuts with any-to-any model",
+      "LTX 2.3 video derivatives proliferate",
+      "MiniCPM-V 4.6 targets on-device deployment",
+      "Unsloth GGUFs flood Qwen ecosystem"
+    ],
+    "ai-community": [
+      "Hermes Agent skill drifts wildly over 7 days",
+      "Developer builds CLI eyes to fix agent blindness",
+      "Gemma 4 MoE searches where dense model refuses",
+      "AI as social technology debated on Lobste.rs",
+      "Vibe coding erosion sparks philosophical tension",
+      "Swift and OCaml ML performance work surfaces"
+    ]
+  }
+}
