@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.145 发布后台会话恢复功能",
+      "OpenAI Codex v0.131 遭遇回归危机紧急修复",
+      "Pi 启动速度从21秒优化至66毫秒",
+      "DeepSeek TUI v0.8.40 推出可插拔工具注册表",
+      "OpenCode 50 PR 同时爆发 Alpine musl 兼容危机",
+      "Kimi Code CLI 资源收缩仅剩2个活跃 Issue"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issues/PRs合并率仅7%",
+      "v2026.5.19-beta.2 提升 Node.js 最低版本要求",
+      "Windows UI 回归与 OOM 成为三大 P1 级风险",
+      "PR #84309 修复 Twitch 跨测试状态污染",
+      "PR #84357 约束通配符子代理目标权限",
+      "会话状态膨胀导致内存溢出问题待修复"
+    ],
+    "ai-trending": [
+      "rtk-ai/rtk 单日获星704，Token消耗降低90%",
+      "CLI-Anything 获星1038，打通任意CLI与Agent接口",
+      "free-claude-code 获星563，开源替代支持语音交互",
+      "anthropics/claude-plugins-official 获星171生态规范化",
+      "openhuman 单日暴涨3973星成个人AI超级智能",
+      "代码知识图谱与Token压缩工具首次大规模登榜"
+    ],
+    "ai-web": [
+      "Anthropic 收购 Stainless 强化 MCP 生态最后一公里",
+      "Anthropic 与 KPMG 联盟覆盖27.6万员工工作软件",
+      "Anthropic 启动全球15+宗教群体AI伦理对话",
+      "OpenAI 发布内容溯源技术 Advancing Content Provenance",
+      "OpenAI 新增 Deployco 部署相关页面",
+      "Anthropic 全栈布局工具链+垂直行业+治理话语"
+    ],
+    "ai-hn": [
+      "Andrej Karpathy 加入 Anthropic 单帖破1100分472评论",
+      "Forge 8B模型+Guardrails agent任务准确率53%→99%",
+      "开源去水印工具直接对抗 OpenAI SynthID",
+      "Sieve 扫描 Cursor/Claude 聊天记录泄露API密钥",
+      "Karpathy 加入引发 Anthropic IPO 商业化担忧",
+      "Sebastian Raschka 综述 KV Sharing 与压缩注意力"
+    ],
+    "ai-ph": [
+      "LobeHub 473票领跑多Agent编排平台",
+      "Triggered Agents 事件驱动型Agent自动响应业务",
+      "Polarity 118票构建Agent自我迭代能力栈",
+      "Agentspan 开源持久化Agent运行时",
+      "AnyFrame 提供Agent安全沙箱环境",
+      "Krea 2 以风格控制差异化切入图像生成"
+    ],
+    "ai-arxiv": [
+      "DashAttention 可微分自适应稀疏分层注意力突破",
+      "MoE后训练自蒸馏动态剪枝50%专家",
+      "Forge 8B+Guardrails agent准确率53%→99%",
+      "EnvFactory 可执行环境合成规模化训练工具Agent",
+      "Code as Agent Harness 代码定义感知-推理-行动循环",
+      "表格基础模型TFM蒸馏形成独立研究线3篇论文"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4067赞362万下载强势登顶",
+      "Gemma-4-31B 突破千万下载成多模态新标杆",
+      "Qwen3.6-35B-A3B MoE仅3.5B激活参数达35B性能",
+      "Sulphur-2-base 视频生成爆发式增长",
+      "Lance any-to-any统一架构代表下一代多模态",
+      "Ring-2.6-1T 万亿参数稀疏模型探索效率边界"
+    ],
+    "ai-community": [
+      "Claude Code RCE漏洞：急解析导致远程执行",
+      "MCP服务器Token消耗降低17-99倍工程实践",
+      "AI未取代初级开发者是组织图表问题",
+      "评测基准说谎：评委模型是罪魁祸首",
+      "单条坏prompt 18分钟烧掉40美元Claude预算",
+      "Bifrost自动回退实现生产级AI弹性架构"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.145 shipped within 24h of v2.1.144",
+      "OpenAI Codex pursues app-server durability for scale",
+      "Nine tools tracked: Claude, Codex, Gemini, Copilot, Kimi, more",
+      "Community demands cost transparency and permission fatigue fixes",
+      "Headless deployment modes becoming dominant theme",
+      "Multi-agent reliability now key differentiator"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h extreme activity",
+      "Only 35 of 500 PRs merged (7% merge ratio)",
+      "v2026.5.19-beta.2 released with agent refactoring guidelines",
+      "Session state management critical stability issue persists",
+      "ClawSweeper bot automating PR management actively",
+      "Windows UI regressions generating significant user reports"
+    ],
+    "ai-trending": [
+      "openhuman gains +3,973 stars as biggest breakout today",
+      "rtk-ai/rtk cuts LLM token consumption 60-90%",
+      "codegraph pre-indexed knowledge graph gains +1,850 stars",
+      "Skills frameworks emerge as major pattern",
+      "CloakBrowser stealth Chromium hits +1,463 stars",
+      "Token efficiency now first-class community concern"
+    ],
+    "ai-web": [
+      "Anthropic acquires Stainless for SDK/MCP server generation",
+      "KPMG alliance covers 276,000 employees across 138 countries",
+      "Claude embedded directly into KPMG Digital Gateway",
+      "Anthropic engages 15+ wisdom traditions for AI governance",
+      "OpenAI only posts two metadata-only entries today",
+      "Major strategic pivot to enterprise agent infrastructure"
+    ],
+    "ai-hn": [
+      "Andrej Karpathy moves to Anthropic, dominates front page",
+      "Karpathy posts total 1,100+ points and 470+ comments",
+      "8B model jumps 53% to 99% on agentic tasks with guardrails",
+      "OpenAI adopts Google's SynthID for watermarking",
+      "Watermark removal tool hits front page hours later",
+      "Community focuses on reliability engineering over raw scale"
+    ],
+    "ai-ph": [
+      "LobeHub leads with 473 votes as Chief Agent Operator",
+      "Multi-agent orchestration dominates four of top five products",
+      "ReactVision Studio breaks trend with AR/VR React Native play",
+      "10 of 13 launches target developers not consumers",
+      "Triggered Agents runs on business events automatically",
+      "Agent infrastructure rapidly maturing beyond single chatbots"
+    ],
+    "ai-arxiv": [
+      "DashAttention replaces rigid top-k with adaptive sparse attention",
+      "First scaling law links hallucination risk to model size, topic frequency",
+      "MoE models can skip half experts via self-distillation post-training",
+      "Three papers on tabular foundation model distillation",
+      "Unified multimodal architectures merge understanding and generation",
+      "Multiple papers challenge scale-alone capability assumption"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops trending with 4,067 likes, 3.6M downloads",
+      "gemma-4-31B-it passes 10M+ downloads commercially",
+      "Qwen 3.6 family dominates with multiple variants",
+      "Sulphur-2-base leads text-to-video with exceptional velocity",
+      "Pixal3D emerges for 3D generation from TencentARC",
+      "Community GGUF quantizations and uncensored variants proliferate"
+    ],
+    "ai-community": [
+      "Claude Code RCE disclosure sparks security concerns",
+      "MCP server optimization tutorials trending on Dev.to",
+      "Bifrost implements automatic fallbacks for production AI",
+      "Debate: AI displacing juniors vs. broken org charts",
+      "Lobste.rs pushes back with categorization without LLM",
+      "AI as social technology discussion gains traction"
+    ]
+  }
+}
