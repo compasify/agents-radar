@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code遭社区激烈抗议：Bring Back Buddy获1109赞",
+      "OpenAI Codex连发v0.132.0与Rust alpha，认证体系升级",
+      "Gemini CLI双50高活跃，P1级Agent挂起紧急修复",
+      "Pi发布v0.75.4，内置本地LLM实现战略转向混合部署",
+      "Qwen Code nightly连续构建失败，Daemon模式商业化冲刺",
+      "DeepSeek-TUI v0.8.40筹备中，可插拔工具注册表成技术热点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issues/PR，合并率仅4.6%",
+      "OpenClaw发布v2026.5.20-beta.1，Discord语音会话重大改进",
+      "OpenClaw Node.js最低版本提升至22.x，存在破坏性变更",
+      "OpenClaw密钥安全暴露与消息静默丢失成核心风险",
+      "OpenClaw MCP工具注册回归故障跨版本持续",
+      "OpenClaw社区贡献旺盛但代码审查成瓶颈"
+    ],
+    "ai-trending": [
+      "codegraph单日获2123 stars，预构建代码知识图谱减少90% token",
+      "CLI-Anything获890 stars，让所有软件Agent原生",
+      "Claude Code插件生态与Skills文件成最热赛道，单日超8000 stars",
+      "agentmemory持久化记忆方案同步崛起",
+      "ViMax首个全Agent化视频生成工作流出现",
+      "llama.cpp今日再获309 stars，稳居推理基础设施基本盘"
+    ],
+    "ai-web": [
+      "Anthropic发布Natural Language Autoencoders，激活值直接转译自然语言",
+      "Claude自Haiku 4.5起所有模型在agentic misalignment评估零失误",
+      "Anthropic首次公开承认Opus 4存在96%黑mail行为率并量化披露",
+      "Anthropic与15+宗教及跨文化群体展开AI治理对话",
+      "OpenAI仅一条URL路径推断的数学研究标题，数据极度受限",
+      "Anthropic技术透明化+安全可验证+价值多元主义三位一体策略"
+    ],
+    "ai-hn": [
+      "OpenAI模型离散几何突破以656分464评论登顶，社区激烈辩论",
+      "OpenAI IPO传闻密集发酵，社区反应冷淡质疑",
+      "Anthropic扩容Colossus2与Andrej Karpathy加盟形成双雄叙事",
+      "10万行Rust AI实战文获126分131评论，规约驱动开发引热议",
+      "AI数学推理可解释性与学术诚信遭深度质疑",
+      "PopuLoRA群体进化LoRA训练新范式，关注成本与可复现性"
+    ],
+    "ai-ph": [
+      "PollyReach 530票成今日票王，Agent获真实电话号码语音通话能力",
+      "Chert 179票抢占iMessage生态位，无App下载客服方案",
+      "Cursor发布Composer 2.5迄今最强模型",
+      "ShioriCode开源替代方案同期登场",
+      "Voker、Trainer等Agent训练运维工具涌现",
+      "Thinnest AI以₹1.5/分钟颠覆语音Agent成本结构"
+    ],
+    "ai-arxiv": [
+      "TIDE实现MoE扩散LLM无损加速，解决显存带宽瓶颈",
+      "感知-推理解耦框架揭示VLM瓶颈在感知不足",
+      "MixRea发现LLM存在类似人类非注意盲视的推理偏差",
+      "ClinSeekAgent自动化多模态临床证据检索",
+      "ThoughtTrace首个大规模用户真实想法数据集",
+      "时间序列基础模型进入Scaling Era，参数扩至25亿"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4082赞382万下载成绝对霸主",
+      "Gemma-4-31B-it唯一破千万下载，Google开源策略显威力",
+      "Qwen3.6系列占4席，形成显著生态集群效应",
+      "Unsloth Qwen3.6 GGUF下载量合计超77万",
+      "ByteDance Lance any-to-any统一架构崭露头角",
+      "TencentARC Pixal3D 3D生成突破模态边界"
+    ],
+    "ai-community": [
+      "Google Antigravity 2.0引发杀死Gemini CLI激烈争论",
+      "端侧MCP隐私架构设计成为工程落地焦点",
+      "Gemma 4在16GB RAM本地部署可行性实测",
+      "6.85亿文本32分钟嵌入的Rust极致性能优化",
+      "10种降低LLM API成本实战手册",
+      "Lobste.rs聚焦不用LLM替代方案与AI批判资源"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex hits v0.132.0 with highest release velocity",
+      "Claude Code stalled with no release, minimal merges",
+      "Gemini CLI lands 3 critical fixes in 24 hours",
+      "GitHub Copilot CLI ships 3 patch releases (v1.0.51)",
+      "Agent-centric tools battle reliability at scale",
+      "Windows parity gaps plague all major CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "OpenClaw merge ratio only 4.6% — severe bottleneck",
+      "Discord voice enhancement ships in v2026.5.20-beta.1",
+      "Security and secrets management dominate discussion",
+      "455:45 open-to-closed issue ratio signals backlog",
+      "Three new releases including voice channel features"
+    ],
+    "ai-trending": [
+      "codegraph gains +2,123 stars for agent context management",
+      "openhuman (+3,394 stars) pushes local personal AI",
+      "andrej-karpathy-skills (+2,679 stars) for agent tuning",
+      "agentmemory (+1,080 stars) tackles persistent context",
+      "Developers building control plane, not just using agents",
+      "CLI-Anything (+890 stars) wraps all software for agents"
+    ],
+    "ai-web": [
+      "Anthropic reveals Natural Language Autoencoders breakthrough",
+      "Every Claude since Haiku 4.5 aces misalignment tests",
+      "Opus 4 had 96% blackmail rate in prior safety tests",
+      "Anthropic expands into cross-cultural AI values engagement",
+      "OpenAI metadata hints at mathematical proof result",
+      "Three Anthropic articles vs two unverified OpenAI posts"
+    ],
+    "ai-hn": [
+      "OpenAI model disproves discrete geometry conjecture (656 pts)",
+      "OpenAI IPO filing sparks valuation and governance debate",
+      "Anthropic near-profitability and Karpathy hiring gain momentum",
+      "Community skeptical of AI hype cycles amid layoffs",
+      "Rust-with-AI workflows draw strong engineering interest",
+      "PopuLoRA: novel evolutionary LLM training approach"
+    ],
+    "ai-ph": [
+      "PollyReach (530 votes) gives agents real phone numbers",
+      "Chert builds iMessage-native AI agents",
+      "Starchild-1: first real-time multimodal world model for robotics",
+      "Cursor's Composer 2.5 launches amid fierce dev tooling competition",
+      "ShioriCode gains traction as open-source coding companion",
+      "Drizz offers self-healing mobile test automation"
+    ],
+    "ai-arxiv": [
+      "Toto 2.0 extends scaling laws to 2.5B time series parameters",
+      "TIDE enables practical MoE diffusion LLM deployment",
+      "KoRe externalizes world knowledge from LLM parameters",
+      "Decoupled perception-reasoning architectures emerge",
+      "Policy-aware rubric rewards improve RLVR efficiency",
+      "Stochastic-deterministic boundary papers signal agent maturity"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 3.8M downloads, 4,082 likes",
+      "Gemma-4-31B-it crosses 10 million downloads",
+      "ByteDance Lance debuts rare any-to-any architecture",
+      "Sulphur-2-base hits 1.1M downloads for open video generation",
+      "Qwen 3.6 family shows deep ecosystem quantization work",
+      "DeepSeek-V4-Flash delivers 2.4x inference speedup"
+    ],
+    "ai-community": [
+      "Google I/O 2026: Gemini 3.5, Spark, Antigravity 2.0 launch",
+      "MCP on-device privacy architecture ships in Edge Gallery",
+      "Gemma 4 tutorials surge for consumer hardware deployment",
+      "Dev.to challenges explore Google I/O announcements",
+      "Lobste.rs critiques LLM overuse for simple tasks",
+      "Skepticism rises over Google's open-source commitment"
+    ]
+  }
+}
