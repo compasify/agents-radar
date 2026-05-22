@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.147修复Bash回归漏洞",
+      "Codex v0.133.0 Rust CLI引发Windows崩溃",
+      "Gemini CLI v0.44.0聚焦Agent编排可靠性",
+      "Copilot CLI v1.0.52预发布遭遇会话恢复bug",
+      "Qwen Code v0.16.0因内存泄漏导致OOM崩溃",
+      "Pi v0.74.2紧急修复Node版本迁移问题"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.20稳定版与beta版",
+      "执行审批安全加固，旧技能包装器需迁移",
+      "Discord语音跟随功能上线",
+      "24小时500条Issue，仅25条关闭",
+      "高优先级Bug密集：会话丢失、认证错误",
+      "PR合并率仅8.8%，审查吞吐成瓶颈"
+    ],
+    "ai-trending": [
+      "codegraph单日获4294 Stars登顶增速榜首",
+      "Claude Code插件生态单日涌现5+爆款项目",
+      "oh-my-pi重新定义终端原生AI编码范式",
+      "Google官方发布Chrome DevTools MCP服务器",
+      "CLI-Anything打通传统命令行与AI Agent鸿沟",
+      "notebooklm-py暴露Google NotebookLM程序化能力"
+    ],
+    "ai-hn": [
+      "OpenAI最快周五秘密提交IPO申请引热议",
+      "Anthropic巨额投资数据中心成焦点",
+      "Runtime (YC P26)发布沙盒化编码Agent",
+      "Agent.email用curl注册但需人工OTP验证",
+      "AI生成内容质量疲劳感成社区反噬情绪",
+      "Claude Mythos审计Symfony发现19个漏洞"
+    ],
+    "ai-ph": [
+      "StoreClaw以633票登顶电商销售Agent",
+      "Emdash开源集成所有编码Agent获382票",
+      "Runtime为团队提供沙盒化编码Agent",
+      "Owlish用AI Agent减少客服工单量",
+      "Agent版本控制与记忆管理工具涌现",
+      "开源依然是开发者社区重要趋势"
+    ],
+    "ai-arxiv": [
+      "Delta算法实现Token级奖励信用分配",
+      "Agent JIT编译器式规划降低延迟",
+      "SpecBench基准揭示代码Agent奖励黑客行为",
+      "LLM在米尔格拉姆实验中几乎全选最高电击",
+      "Rank-1轨迹揭示RLVR训练的几何本质",
+      "开源模型服从性实验凸显安全对齐紧迫性"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4111点赞领跑社区",
+      "Qwen3.6-35B-A3B MoE模型下载量破589万",
+      "Google Gemma-4-31B-it下载量超1023万",
+      "Ring-2.6-1T万亿参数MoE模型发布",
+      "Sulphur-2-base等新模型涌现",
+      "Qwen系列GGUF量化版本社区活跃"
+    ],
+    "ai-community": [
+      "93个Agent、26亿Token构建OS仅花1000美元",
+      "开发者对AI工具迭代过快感到精神疲劳",
+      "Google I/O后Gemini 3.5 Flash成热议焦点",
+      "AI Agent被指产出2019年过时Web代码",
+      "社区反思AI带来的职业疲劳与工程伦理",
+      "一位工程师诚实分享AI编写全部代码的体验"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Memory management crisis across all tools",
+      "Claude Code v2.1.146-147 rapid-fire releases",
+      "Codex CLI and Gemini CLI active this week",
+      "OAuth hardening and compliance on rise",
+      "Terminal compatibility remains friction point",
+      "Power users filing instrumented bug reports"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "95% open rate signals review bottleneck",
+      "Breaking change: skill wrapper migration needed",
+      "Discord voice session following added",
+      "Exec approvals hardening released",
+      "v2026.5.20 stable ships with changes"
+    ],
+    "ai-trending": [
+      "Codegraph gains 4,294 stars today",
+      "Agent-native tooling paradigm shift",
+      "Multi-agent platforms like multica surge",
+      "Oh-My-Pi challenges GUI agents",
+      "CLI-Anything makes software agent-native",
+      "Skill-based orchestration explodes"
+    ],
+    "ai-hn": [
+      "OpenAI confidential IPO filing discussed",
+      "Anthropic paying SpaceX $15B annually",
+      "Multi-Stream LLMs paper sparks debate",
+      "AI engineer burnout concerns rise",
+      "Claude audits Symfony, finds 19 vulns",
+      "Backlash against AI-generated answers"
+    ],
+    "ai-ph": [
+      "StoreClaw leads with 633 votes",
+      "Runtime sandboxes coding agents",
+      "mailX tackles email deliverability",
+      "Emdash unifies multiple coding agents",
+      "Contextberg provides agent memory",
+      "Agents move beyond simple chatbots"
+    ],
+    "ai-arxiv": [
+      "Minimal RLVR training via rank-1 paths",
+      "DelTA: token-level credit for RLVR",
+      "Reward hacking in long-horizon tasks",
+      "Power-aware serving for MoE models",
+      "Generative ghost ethics studied",
+      "Hyperparameter transfer quantified"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro gets 4M downloads",
+      "Qwen MoE 35B-A3B dominates vision",
+      "Sulphur-2-base text-to-video trending",
+      "GGUF quants for Qwen3.6 surge",
+      "Cohere and Microsoft expand on-device",
+      "New entrants from Tencent emerge"
+    ],
+    "ai-community": [
+      "Google I/O 2026 agent architectures buzz",
+      "AI coding agents write 2019-like code",
+      "Dev.to: AI fatigue and burnout discussed",
+      "Lobste.rs skeptical of AI hype",
+      "Deterministic non-LLM solutions praised",
+      "93 agents consume 2.6 billion tokens"
+    ]
+  }
+}
