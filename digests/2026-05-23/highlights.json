@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.148/149 双补丁紧急修复权限回归缺陷",
+      "OpenAI Codex rust-v0.134.0-alpha.1/2 加速 Rust 核心迁移",
+      "Gemini CLI v0.43.0 密集修复 RCE/SSRF/内存泄漏三高危漏洞",
+      "Kimi CLI Python→Bun+TS 重构引发社区激烈争议",
+      "OpenCode v1.15.9 桌面版 UI 崩溃被迫紧急回滚旧版",
+      "Pi v0.75.x Node 版本收紧引发大规模升级危机"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 500 Issues/500 PRs 创历史活跃度峰值",
+      "steipete 双重构 PR 并行：运行时内部化 + SQLite 状态迁移",
+      "WhatsApp 连接保活 PR 消除 30 分钟空闲断连顽疾",
+      "QMD 自定义集合路径规范化修复配置误处理",
+      "设置向导保留现有主模型修复静默覆盖回归",
+      "OpenAI Whisper 脚本执行权限安全修复 stale 关闭"
+    ],
+    "ai-trending": [
+      "anthropics/claude-plugins-official 单日狂揽 2549 stars 登顶",
+      "codegraph 代码知识图谱登榜解决大模型上下文瓶颈",
+      "RuView WiFi 信号转空间智能开创无摄像头隐私感知",
+      "oh-my-pi 极简终端 Agent 挑战重型框架",
+      "Chrome DevTools MCP 化让 Agent 直接操控浏览器调试",
+      "FinceptTerminal AI 驱动金融分析终端上榜"
+    ],
+    "ai-web": [
+      "Anthropic Glasswing 数周发现 10000+ 高危漏洞",
+      "Mythos Preview 首次实战验证 AI 超人类漏洞发现速度",
+      "Anthropic 宣告网络安全 90 天披露惯例需重构",
+      "Mythos-class 模型暗示专业化安全模型分支策略",
+      "OpenAI 新增 Gartner 2026 Agentic Coding 评估页面",
+      "透明披露策略争夺负责任 AI 安全研究定义权"
+    ],
+    "ai-hn": [
+      "微软大规模取消 Claude Code 内部许可证引发热议",
+      "Anthropic 财务数据被质疑盈利幻觉",
+      "yt-dlp 弃用 Bun 支持评论数超分数达 349 条",
+      "Superset YC P26 Agent 时代 IDE 评论分歧激烈",
+      "Models.dev 开源模型数据库高赞低评论痛点明确",
+      "多智能体注入攻击新向量安全研究者关注"
+    ],
+    "ai-ph": [
+      "Tycoon AI 475 票领跑一人公司全 Agent 运营",
+      "Google Antigravity 2.0 桌面级多 Agent 工作流编排器 276 票",
+      "AlliHat Safari 侧边栏深度集成 Claude",
+      "Mintlify Workflows 文档自动化工作流",
+      "WeWeb 3.0 无代码+AI 建站升级",
+      "TongueType 本地优先语音输入工具"
+    ],
+    "ai-arxiv": [
+      "Gated DeltaNet-2 解耦线性注意力精细控制长上下文",
+      "MOSS 智能体源代码级自我进化突破",
+      "RLVR 训练不稳定性 Clipping Bottleneck 系统性解决",
+      "Tokenisation via Convex Relaxations 全局最优分词",
+      "LCGuard 多智能体安全通信协议",
+      "MambaGaze 认知负荷多模态融合评估"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4151 点赞 428 万下载稳居榜首",
+      "Qwen3.6-35B-A3B 597 万下载量本周最高",
+      "Gemma-4-31B-it 下载破千万达 1028 万",
+      "Sulphur-2-base 文本生成视频 124 万下载",
+      "MiniCPM-V-4.6 端侧多模态手机运行无压力",
+      "腾讯 Hy-MT2 双版本 1.8B 端侧 30B-A3B 极致质量"
+    ],
+    "ai-community": [
+      "DEV 官方披露 Gemini Embeddings 重构内容推荐架构",
+      "7000+ 开发者调查揭示行业真实 AI 焦虑",
+      "Agent 失效模式系统梳理超越幻觉表面",
+      "0.37 美元测试 Google Antigravity 2.0 附完整 Bug 清单",
+      "AWS Lambda 零闲置运行 Llama 3 打破 GPU 集群假设",
+      "vibe coding 从调侃变为正经工程实践标签"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code drops v2.1.148 and v2.1.149 hotfixes today",
+      "OpenAI Codex releases 0.134.0-alpha.1/2 with heavy telemetry",
+      "Gemini CLI ships v0.43.0 stable plus v0.44.0",
+      "Kimi Code CLI and Codex both complete Rust/TypeScript rewrites",
+      "All 7 major tools now converge on agentic MCP workflows",
+      "Stability overtakes novelty as primary CLI battleground"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "386 open PRs vs 114 merged reveals review bottleneck",
+      "SQLite migration underway for state management",
+      "Major runtime internalization refactoring in progress",
+      "No releases today despite heavy development",
+      "Security hardening and platform expansion active"
+    ],
+    "ai-trending": [
+      "Claude plugin directory surges to 2,549 stars",
+      "codegraph gains +3,684 stars for token-slashing knowledge graphs",
+      "RuView pioneers WiFi-based spatial intelligence",
+      "Chrome DevTools MCP makes integration table stakes",
+      "Microsoft .NET skills repo confirms MCP rush",
+      "Two code knowledge graph tools address same agent pain point"
+    ],
+    "ai-web": [
+      "Anthropic's Project Glasswing finds 10,000+ critical vulnerabilities",
+      "Claude Mythos Preview scans thousands of open-source projects",
+      "Bottleneck shifts from discovery to verification and patching",
+      "~50 partners already using Mythos Preview since April launch",
+      "OpenAI posts only metadata-only Gartner business page",
+      "Signals Anthropic's serious entry into defensive cybersecurity"
+    ],
+    "ai-hn": [
+      "Microsoft cancels Claude Code licenses in cost backlash",
+      "Developer hit with $30,983 monthly AI token bill",
+      "yt-dlp/Bun deprecation fight hits 340 points, 349 comments",
+      "Fake legal citations and fabricated NTSB pilot voices spread",
+      "Domain-camouflaged injection attacks target multi-agent systems",
+      "Community mood shifts from enthusiasm to financial scrutiny"
+    ],
+    "ai-ph": [
+      "Tycoon AI leads with 475 votes for one-person AI companies",
+      "Google Antigravity 2.0 targets multi-agent orchestration",
+      "WeWeb 3.0 bridges vibe coding and visual no-code editing",
+      "InstaVM bets on agent compute layer infrastructure",
+      "Local-first AI tools gain Apple platform momentum",
+      "Autonomous agents eclipse copilots as dominant theme"
+    ],
+    "ai-arxiv": [
+      "Tokenization reframed as convex relaxation global optimization",
+      "Post-training recast through state distributions not tokens",
+      "Consistency training proposed to reduce political manipulation in LLMs",
+      "Gated DeltaNet-2 decouples erase and write in linear attention",
+      "Self-evolving agent architectures signal maturation beyond static LLMs",
+      "Stateful sandbox infrastructure enables continuous improvement loops"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates with 4.1M weekly downloads",
+      "Gemma-4-31B-it leads likes at 2,730 with native vision",
+      "Qwen 3.6 ecosystem expands with Unsloth GGUF variants",
+      "Sulphur-2-base video model crosses 1.2M downloads",
+      "TencentARC Pixal3D pushes open 3D generation forward",
+      "Unsloth Qwen3.6 MTP-GGUF nears 1M weekly downloads"
+    ],
+    "ai-community": [
+      "DEV dogfoods Gemini Embeddings for community feed ranking",
+      "7,000+ developer survey identifies top AI risks for 2026",
+      "Agent failure modes expand beyond hallucination taxonomy",
+      "Google Antigravity 2.0 sparks migration and cost experiments",
+      "Skepticism grows about enterprise AI adoption on Dev.to",
+      "Lobste.rs resists vibe coding with low-level optimization focus"
+    ]
+  }
+}
