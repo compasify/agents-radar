@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 上下文窗口回归 200K，文档债务爆发式偿还",
+      "OpenAI Codex 配置中心化，TUI 写入 App Server 化",
+      "Gemini CLI 现 P1 级稳定性危机，Agent 挂起误报",
+      "Kimi Code CLI MCP 后台加载，Windows 稳定性快速修复",
+      "Qwen Code 50 个活跃 PR，Mode B 生产化路线图密集对齐",
+      "CodeWhale 七版本路线图发布，记忆/缓存/子 Agent 架构级投入"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues/500 PR，关闭率仅 3.2%",
+      "内存架构重构：MemoryDreamingProvider 接口解耦记忆核心",
+      "ACP 启动优化：跳过 one-shot 身份对账减少冗余检查",
+      "消息投递可靠性危机：Telegram/Signal/Discord 多通道泄漏",
+      "沙箱安全边界成核心风险，企业采纳受阻",
+      "v2026.5.22-beta.1 纯文档更新，新手引导与网关运维补全"
+    ],
+    "ai-trending": [
+      "anthropics/claude-plugins-official 单日 +2193 star，生态扩张",
+      "Karpathy CLAUDE.md 单日 +3507 star，登顶今日之星",
+      "Chrome DevTools MCP 服务器，AI 直接操控浏览器调试",
+      "codegraph/Understand-Anything 异军突起破上下文瓶颈",
+      "multica 多智能体管理平台升温，系统化协作成趋势",
+      "presenton AI 演示生成器涌现，工具形态升级"
+    ],
+    "ai-hn": [
+      "Anthropic 反乌托邦科幻致模型\"作恶\"研究引发激烈辩论",
+      "Claude Code RCE 漏洞复现，bug 模式普遍存在",
+      "Claude Code 速率限制与安全策略过敏感遭社区吐槽",
+      "本地 RAG/知识图谱代理持续涌现，私有化部署需求强",
+      "Kubernetes LLM 运维方案受关注，可控性优先",
+      "MCP 服务器成开源热点，开发者工具链加速整合"
+    ],
+    "ai-ph": [
+      "TestSprite 3.0 以 427 票领跑，并行 Agent 集群测试新范式",
+      "Cleo 首个\"AI 产品经理\"，354 票重构团队协作风味",
+      "buildpipe AI 工作流编排引擎，填补端到端自动化断层",
+      "DCP 加密权限管理受重视，Agent 可信执行环境刚需",
+      "JAMtime.ai AI 吉他效果器，垂直场景具象化代表",
+      "Our Stories 双语儿童教育，AI 渗透教育细分场景"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 451 万下载断层领先，本周绝对王者",
+      "Qwen3.6-35B-A3B 点赞 1876 居首，MoE 效率效果兼得",
+      "Gemma-4-31B-it 下载破千万，Google 开源标杆",
+      "Sulphur-2-base 128 万下载，开源视频生成基础设施",
+      "MiniCPM-V-4.6 端侧多模态，手机跑大模型成现实",
+      "Unsloth/Jackrong 量化生态活跃，GGUF 降低部署门槛"
+    ],
+    "ai-community": [
+      "MCP 成 DevOps 与 AI 集成热门，YAML 到 Agent 管道升级",
+      "MCP 权限扫描器首发，AI 工具链安全治理实用起点",
+      "纯 WASM 六后端 ML 库，ILGPU+Blazor 极限工程",
+      "多模态工程图纸隐写术攻击面，安全工程师必读",
+      "零闲置本地 LLM，Lambda 容器跑 Llama 3 降本",
+      "AI Resist List 出现，无 LLM 替代方案引社区反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.150 fixes 200K context regression",
+      "OpenAI Codex rust-v0.134.0-alpha.3 overhauls TUI state sync",
+      "Gemini CLI focuses on agent reliability and PTY fixes",
+      "Nine AI CLI tools now compete in mature multi-polar market",
+      "Infrastructure consolidation replaces feature growth sector-wide",
+      "Cross-tool orchestration experiments signal multi-agent future"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "OpenClaw v2026.5.22-beta.1 focuses on documentation",
+      "Only 3.2% issue closure rate reveals triage bottleneck",
+      "62% PR merge rate shows healthier code review flow",
+      "13 active projects in OpenClaw ecosystem tracked",
+      "Platform expansion and security hardening top priorities"
+    ],
+    "ai-trending": [
+      "andrej-karpathy-skills gains 3,507 stars with single CLAUDE.md",
+      "Understand-Anything adds 2,299 stars for code knowledge graphs",
+      "codegraph gains 2,456 stars for pre-indexed agent context",
+      "anthropics/claude-plugins-official hits 2,193 stars",
+      "NVIDIA LongLive 2.0 advances long video generation",
+      "Three coding agent tools each gain 2,000+ stars today"
+    ],
+    "ai-hn": [
+      "Anthropic blames dystopian sci-fi for AI 'evil' behavior",
+      "Claude Code ecosystem dominates HN discussion today",
+      "OpenAI Codex rate limits and macOS malware flags emerge",
+      "Loneliness research threads through AI community discourse",
+      "Immigration policy impacts on AI talent debated",
+      "Pragmatic critical sentiment replaces pure hype"
+    ],
+    "ai-ph": [
+      "TestSprite 3.0 leads with 427 votes for parallel AI testing",
+      "Cleo AI PM gets 354 votes targeting management automation",
+      "Seven of 14 launches carry Alpha early-stage tag",
+      "JAMtime.ai brings natural language to guitar pedals",
+      "Nugget AI joins Cleo in product management automation",
+      "Our Stories applies AI to bilingual parenting workflows"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dominates with 4.5M downloads and 4,190 likes",
+      "Gemma-4-31B-it passes 10M downloads for multimodal enterprise use",
+      "Sulphur-2-base text-to-video crosses 1.2M production downloads",
+      "ByteDance Lance enters any-to-any multimodal race",
+      "Tencent Hy-MT2 series expands translation model offerings",
+      "Qwen 3.5/3.6 ecosystem grows with Unsloth GGUF variants"
+    ],
+    "ai-community": [
+      "Gemma 4 dominates Dev.to through Google-sponsored challenges",
+      "MCP security surface emerges as critical infrastructure concern",
+      "Claude Code and Zed actively displace VS Code workflows",
+      "Lobste.rs maintains explicit 'AI Resist List'",
+      "Serverless LLM cost optimization guides trend on Dev.to",
+      "Vibe coding enthusiasm meets sober community pushback"
+    ]
+  }
+}
