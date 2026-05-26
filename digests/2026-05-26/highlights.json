@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 单日 11 PR，fcoury-oai 创 9 连 Vim PR 纪录",
+      "GitHub Copilot CLI 高 Issues 零 PR，疑似内部代码冻结",
+      "Qwen Code 发布 v0.16.1-nightly，守护进程模式冲刺",
+      "Pi 作者 mitsuhiko 一日双关键修复，活跃度极高",
+      "Claude Code 安全加固、Hook 修复、治理优化多线并进",
+      "Gemini CLI Auto Memory 新批次 3 条 Issues，Agent 稳定性双轨推进"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 PR、477 Issues，待合并积压 270 条",
+      "steipete 优化会话存储快照克隆，降低网关 CPU 热点",
+      "vincentkoc 补全 OTel/Prometheus 遥测，新增模型故障转移告警",
+      "brokemac79 修复插件打包错误引导，避免无效 doctor --fix",
+      "TimToxopeus 复用 manifest 元数据消除重复加载开销",
+      "SebTardif 修复心跳尾部上下文修剪，保留有意义上下文"
+    ],
+    "ai-trending": [
+      "Understand-Anything 日增 5604 star，代码知识图谱增速冠军",
+      "codegraph 日增 3161 star，预构建知识图谱 100% 本地",
+      "ECC 192k star 日增 2025，Claude Code 企业级性能底座",
+      "gstack 获 YC CEO Garry Tan 背书，23 工具覆盖 6 角色",
+      "ai-engineering-from-scratch 日增 3154 star，全链路教程",
+      "反 AI slop 运动兴起，品味工程成开发者新关注点"
+    ],
+    "ai-web": [
+      "Anthropic 联合创始人 Chris Olah 梵蒂冈演讲，AI 安全绑定宗教伦理",
+      "Olah 公开承认前沿实验室制度性缺陷，罕见自我批判",
+      "呼吁外部监督确保技术向善，扩展安全联盟至宗教权威",
+      "OpenAI 今日零更新，发布节奏持续低迷",
+      "Anthropic 从行业自律跃迁至全球 AI 治理建构参与者",
+      "通谕标题 Magnifica humanitas 直指保护人类人格命题"
+    ],
+    "ai-hn": [
+      "Claude 独立发现 macOS 内核漏洞 CVE-2026-28952，获官方认证",
+      "Anthropic 拟开放 Mythos 级模型，定位引社区猜测",
+      "Unsiloed AI 登顶 olmOCR-Bench，结构化数据提取受关注",
+      "AI 扫描 40 万 Reddit 帖发现 Ozempic 隐藏副作用",
+      "vibecoding 开发者困境与 Gemini 质量下滑引疲惫反思",
+      "OpenBrief 本地优先视频下载摘要器契合隐私偏好"
+    ],
+    "ai-ph": [
+      "Google Stitch 3.0 以 474 票登顶 Product Hunt",
+      "Freu AI 零订阅费自动化 Mac 应用，291 票打破 SaaS 模式",
+      "ModelHub 307 票 41 评论，Mac 本地 LLM 菜单栏管理",
+      "Edgee Fallback Models 保障 Claude Code 模型故障转移",
+      "JellyNet 交易闲置 API 配额，降低 LLM 使用成本",
+      "开发者工具占半壁江山，基础设施层热度不减"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 482 万下载断层领跑，4274 点赞",
+      "Qwen 3.6 系列占 8 席，官方 27B 下载 442 万逼近 DeepSeek",
+      "Sulphur-2-base 135 万下载，文本到视频生成本周冠军",
+      "Anima 1545 点赞 65 万下载，ComfyUI 兼容神秘扩散模型",
+      "腾讯 Hy-MT2 系列 1.8B 到 30B 覆盖翻译全谱系",
+      "MiniCPM5-1B 仅 1B 参数对标更大模型，端侧小模型突破"
+    ],
+    "ai-community": [
+      "MCP 生态首曝 CVE 级漏洞，AI 基础设施安全进入实战",
+      "提出认知债务概念，AI 加速开发背后的隐性技术债",
+      "AI 代码够用但平庸悖论引发最多评论讨论",
+      "微软 Uber 缩减 AI 编码预算，中小团队选型风向标",
+      "Qwen 3.6 四层级 41 倍成本差，智能路由降本方案",
+      "教皇通谕为技术讨论注入罕见哲学维度"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits token limit crisis unresolved",
+      "OpenAI Codex invests heavily in Vim TUI stack",
+      "Gemini CLI plagued by agent reliability P1 bugs",
+      "Python CLIs face Bun/TypeScript rewrite pressure",
+      "All major tools now support MCP protocol",
+      "Windows parity degrading for OpenAI Codex"
+    ],
+    "ai-agents": [
+      "OpenClaw: 977 items updated in 24 hours",
+      "XL PR #85341 internalizes Pi-shaped runtime",
+      "No new releases, fixes accumulating",
+      "Platinum hermit issues signal production concerns",
+      "500 PRs merged in single day",
+      "Session state reliability fixes dominate"
+    ],
+    "ai-trending": [
+      "Understand-Anything gains 5,604 stars in one day",
+      "Agent harness patterns consolidate around CLI tools",
+      "Skill files emerge as distinct artifact category",
+      "Anthropic open-sources knowledge-work-plugins",
+      "ECC and codegraph hit 2,000+ daily stars",
+      "Ollama now supports Kimi-K2.5, GLM-5, MiniMax"
+    ],
+    "ai-web": [
+      "Anthropic engages Vatican on AI ethics",
+      "Chris Olah speaks on Pope Leo XIV encyclical",
+      "OpenAI publishes zero new articles today",
+      "Anthropic acknowledges incentive misalignment risks",
+      "Strategic shift to theological governance frameworks",
+      "Olah admits labs may conflict with doing right"
+    ],
+    "ai-hn": [
+      "Pope Leo XIV encyclical dominates AI discourse",
+      "Claude discovers kernel CVE-2026-28952",
+      "Norway deploys 2PB Huawei storage for LLMs",
+      "Anthropic to release Mythos-class models",
+      "Vibecoded code dumps draw skepticism",
+      "Software factories deemed premature"
+    ],
+    "ai-ph": [
+      "Google Stitch 3.0 leads with 474 votes",
+      "Freu AI offers zero-cost Mac automation",
+      "ModelHub launches local LLM menu bar app",
+      "JellyNet creates idle API quota marketplace",
+      "Edgee adds Claude Code fallback models",
+      "Top three products capture 87% of votes"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 4.8M downloads",
+      "Qwen 3.6 variants dominate trending models",
+      "Sulphur-2-base text-to-video breaks 1.35M downloads",
+      "Uncensored Qwen3.6-35B gains strong traction",
+      "Hy-MT2 translation family shows enterprise interest",
+      "HRM-Text-1B demonstrates domain-specific demand"
+    ],
+    "ai-community": [
+      "Microsoft reportedly cancels Claude Code licenses",
+      "MCP protocol becomes most contested acronym",
+      "AI coding cost anxiety grips developers",
+      "Cognitive debt from AI-generated systems debated",
+      "Uber struggles with AI coding economics",
+      "Collective thinking at risk from AI workflows"
+    ]
+  }
+}
