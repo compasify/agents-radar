@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code爆$1,050超额计费信任危机",
+      "OpenAI Codex发布rust-v0.134.0",
+      "Kimi Code CLI 1.45.0上线API密钥池",
+      "Qwen Code v0.16.1推Daemon模式架构",
+      "GitHub Copilot CLI v1.0.55-1紧急修终端响铃",
+      "DeepSeek TUI v0.8.47完成品牌迁移"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时379条Issues更新",
+      "OpenClaw连发v2026.5.26-beta.1性能加速版",
+      "Codex动态工具RPC超时提至90秒",
+      "P1级Bug密集涌现Windows平台阻塞",
+      "Gateway启动优化涉时序变更需验证",
+      "iMessage附件策略变更需确认安全"
+    ],
+    "ai-trending": [
+      "Understand-Anything单日+4,697星登顶",
+      "ECC 19.4万星Agent Harness双榜出现",
+      "claude-mem 7.8万星跨会话记忆系统",
+      "Ollama新增Kimi-K2.5等国产模型",
+      "反AI平庸化运动兴起对抗内容同质化",
+      "RAG向图结构+向量混合范式演进"
+    ],
+    "ai-web": [
+      "Anthropic任命KiYoung Choi为首尔代表董事",
+      "韩国用户Claude使用率超预期3.5倍",
+      "首次公开blast radius containment框架",
+      "Claude Mythos Preview因安全风险被否决",
+      "12个月前拒绝的权限如今成常态",
+      "OpenAI今日零新增处于发布静默期"
+    ],
+    "ai-hn": [
+      "LLM睡眠式记忆巩固机制180分热帖",
+      "Uber单季烧穿AI预算引热议",
+      "Sam Altman收回AI就业末日预言",
+      "Claude Code质量退化监测方案受关注",
+      "OpenAI承认幻觉数学上不可避免",
+      "Minicor YC项目瞄Windows自动化蓝海"
+    ],
+    "ai-ph": [
+      "Unabyss 660票登顶MCP自更新上下文层",
+      "Yansu 344票AI学习用户行为生成软件",
+      "Fred 98票AI编排UX研究行为追踪",
+      "MCP生态成14款产品绝对焦点",
+      "AI从工具向数字员工演进加速",
+      "垂直场景Agent渗透UX/招聘/销售"
+    ],
+    "ai-arxiv": [
+      "Language Models Need Sleep引入神经科学机制",
+      "From Model Scaling to System Scaling宣言",
+      "Looped Diffusion Language模型新架构",
+      "Deployment-complete benchmarking方法论警醒",
+      "因果推断框架系统引入LLM开发",
+      "SGD重尾分布极限理论突破"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4310赞500万下载居首",
+      "Qwen3.6家族27B稠密到35B MoE全覆盖",
+      "Sulphur-2-base 137万下载视频生成黑马",
+      "字节Lance any-to-any原生多模态架构",
+      "美团LongCat音频驱动视频数字人",
+      "MiniCPM5-1B 1B参数瞄手机本地部署"
+    ],
+    "ai-community": [
+      "Cursor 3多Agent并行工作流实战",
+      "769 PRs/月AI审查规模化生产案例",
+      "RAG并非总是答案挑战检索迷信",
+      "Agent记忆系统标准化高讨论度",
+      "Ollama+Continue.dev免费本地编码方案",
+      "教皇AI通谕折射技术社区伦理焦虑"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Daemon/server modes now table stakes across tools",
+      "Qwen Code v0.16 ships persistent background agents",
+      "AGENTS.md config emerging as shared convention",
+      "MCP ecosystem integration dominates engineering focus",
+      "Cost control demands spike after billing incidents",
+      "OpenAI-compatible API layers forming interoperability"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 879 updates in 24 hours",
+      "295 open PRs suggest backlog forming",
+      "P1 regressions in session state actively triaged",
+      "Beta releases v2026.5.26-beta.1 focus on latency",
+      "Linux/Windows apps still missing from platform",
+      "Core gateway reliability under fire in 5.x cycle"
+    ],
+    "ai-trending": [
+      "Understand-Anything gains 4,697 stars in one day",
+      "Agent harness tooling surges as new category",
+      "ECC optimizer hits 194,333 total stars",
+      "Anti-slop quality controls emerge as demand",
+      "Memory persistence becomes first-class infrastructure",
+      "Skill file projects multiply across ecosystem"
+    ],
+    "ai-web": [
+      "Anthropic reveals withheld Claude Mythos Preview model",
+      "Korea usage hits 3.5x population-adjusted rate",
+      "KiYoung Choi appointed Seoul office lead",
+      "Containment architecture deep-dive published",
+      "OpenAI publishes zero articles today",
+      "Enterprise cloud veteran signals B2B priority"
+    ],
+    "ai-hn": [
+      "Sleep-like LLM consolidation paper tops at 180 points",
+      "Altman and Amodei walk back jobs apocalypse claims",
+      "Uber burned quarterly AI budget in one quarter",
+      "Xiaomi slashes MiMo-v2.5 pricing by 99%",
+      "Hallucinations mathematically inevitable per OpenAI",
+      "China tightens AI talent travel restrictions"
+    ],
+    "ai-ph": [
+      "Unabyss leads with 660 votes for MCP-native memory",
+      "MCP infrastructure goes mainstream in launches",
+      "Yansu turns work patterns into software",
+      "Pi Coding Agent open-source among top tools",
+      "AI penetrates music production with Orchestria",
+      "Persistent context demand drives category growth"
+    ],
+    "ai-arxiv": [
+      "Sleep-inspired consolidation solves quadratic scaling",
+      "Self-generated replay eliminates stored exemplars",
+      "Causal methods reframe LLM experimental design",
+      "Decentralized video generation training submitted",
+      "Benchmark auditing frameworks address reliability crisis",
+      "Inference-time safety controls gain research focus"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 5 million downloads",
+      "Qwen 3.6 family claims eight top-30 spots",
+      "ByteDance Lance pushes any-to-any multimodal",
+      "Sulphur-2-base nears 1.4 million downloads",
+      "MiniCPM-V-4.6 advances vision-language boundaries",
+      "Microsoft Lens-Turbo debuts text-to-image research"
+    ],
+    "ai-community": [
+      "Cursor 3 parallel agents get workflow tutorials",
+      "Pope's AI encyclical draws 53 Lobste.rs comments",
+      "Usage-based billing patterns emerge for agents",
+      "OpenClaw vs CraftBot local agent comparison ships",
+      "Open/closed problem sparks philosophical debate",
+      "Network security lags behind AI-generated code"
+    ]
+  }
+}
