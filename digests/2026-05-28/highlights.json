@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.152，聚焦 MCP 成熟度与数据安全。",
+      "OpenAI Codex 发布 v0.135.0-alpha，修复 UI 回归与 Windows 稳定性。",
+      "Gemini CLI 发布 v0.45.0-preview，改进 Agent 子系统与 PTY 稳定性。",
+      "GitHub Copilot CLI 更新至 v1.0.55-7，优化企业部署与性能。",
+      "Qwen Code 发布 v0.16.2，新增 Daemon 模式与 Windows 优化。",
+      "DeepSeek TUI 品牌重塑为 CodeWhale，发布 v0.8.47。"
+    ],
+    "ai-agents": [
+      "OpenClaw 紧急发布 v2026.5.26 与 beta.2 补丁修复回归问题。",
+      "Native hook relay 回归导致 Codex 工具调用间歇性失效。",
+      "Gateway 启动加速与缓存优化核心升级，减少重复扫描。",
+      "Telegram plugin-state 新增 1000 行 live row 硬性上限。",
+      "24 小时内 382 条 Issues 更新，175 活跃新开，207 关闭。",
+      "500 条 PR 更新，269 待合并，231 已合并或关闭。"
+    ],
+    "ai-trending": [
+      "Understand-Anything 单日新增 4465 星，将代码转为知识图谱。",
+      "ECC 获 20 万星，是 Agent 性能优化系统的标杆项目。",
+      "Anthropic 官方发布知识工作插件集，拥抱开源生态。",
+      "Kronos 金融时序基础模型代表垂直领域深化新方向。",
+      "Anti-Slop 运动兴起，多个项目消除 AI 生成内容的机器味。",
+      "ollama 新增支持 Kimi-K2.5、GLM-5 等前沿本地模型。"
+    ],
+    "ai-web": [
+      "Anthropic 调研揭示 AI 编码工具在社科领域采用率仅 20%。",
+      "性别与院校等级导致 AI 编码工具使用率差异达两倍。",
+      "Claude Code 构建分类器实现自动模式，解决批准疲劳。",
+      "OpenAI 发布构建自改进税务智能体与 Codex 的新内容。",
+      "Anthropic 从模型能力展示转向社会影响与工程优化。",
+      "报告指出 AI 编码用户发表更多论文但存在生产力悖论。"
+    ],
+    "ai-hn": [
+      "Multi-Agent LLM 系统可自动化发现和复现软件漏洞。",
+      "Demon 开源实时音乐扩散引擎，本地 GPU 25Hz 生成。",
+      "VAEN 让 AI 编码代理可移植打包，实现技能模块化。",
+      "Sam Altman 和 Dario Amodei 回调 AI 导致就业末日言论。",
+      "文章分析 Anthropic 和 OpenAI 已找到产品-市场契合点。",
+      "开源工具将 Google 账户转为免费负载均衡 LLM 网关。"
+    ],
+    "ai-ph": [
+      "Brew 营销自动化工具以压倒性优势登顶今日 Product Hunt。",
+      "Rezonant 将产品想法快速转化为生产代码的 AI 平台。",
+      "Parrot 语音转文本 API 专为生产级语音代理构建。",
+      "AVTR-1 开源模型出现，预示 AI 技术民主化浪潮继续。",
+      "Parsewise API 让智能体高效处理复杂多文档信息。",
+      "marpy.io 专为 Python 技术栈打造的 AI 编程平台。"
+    ],
+    "ai-arxiv": [
+      "研究揭示 RLHF 可被利用来放大模型的偏见漏洞。",
+      "LLM 顺从用户不全是谄媚，认知不确定性是主因。",
+      "MUSE-Autoskill 框架让 AI Agent 实现技能动态进化。",
+      "Kan Extension Transformers 统一注意力与扩散模型。",
+      "跨文化美学基准 C4STYLI 测试 LLM 深层理解局限。",
+      "CORE-Bench 基准揭示 LLM 在复杂基准上的性能瓶颈。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 4359 赞成本周 Hugging Face 双冠王。",
+      "Qwen3.6-27B 视觉语言模型下载量达 457 万成社区新宠。",
+      "字节跳动 Lance 模型能处理图像视频音频多种输入输出。",
+      "MiniCPM5-1B 端侧小模型展现惊人文本生成能力。",
+      "Stability AI 发布音频生成模型 stable-audio-3-medium。",
+      "nvidia PiD 超分辨率扩散模型专注图像修复与放大。"
+    ],
+    "ai-community": [
+      "开发者社区热议工作中使用 AI 的真实案例与痛点。",
+      "MCP 被比喻为工具电源插座而非模型特性。",
+      "开发者实测 DeepSeek 5M 免费 Token 14 天烧完。",
+      "GPT-5.4 vs Claude Sonnet 4.6 编码能力横向对比。",
+      "文章指出大部分 RAG 问题出在检索环节而非生成。",
+      "梵蒂冈 AI 通谕引发 Lobste.rs 社区哲学深度辩论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.152 now stable",
+      "Copilot CLI had 5 releases in 24h",
+      "MCP becomes universal integration layer",
+      "Windows remains underserved platform",
+      "Code review with --fix promoted",
+      "Cost visibility emerges as top concern"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.26 released",
+      "500 PRs active in last 24 hours",
+      "Gateway performance improved significantly",
+      "Windows beta stability issues reported",
+      "175 open issues vs 207 closed",
+      "Session isolation failures flagged"
+    ],
+    "ai-trending": [
+      "Understand-Anything gained +4,465 stars",
+      "Ollama now supports Kimi-K2.5",
+      "Stop-slop tool strips AI tells",
+      "Kronos financial LLM launched",
+      "Anti-slop tooling drives backlash",
+      "Taste-skill adds aesthetic guardrails"
+    ],
+    "ai-web": [
+      "81% used chatbots, 20% agents",
+      "Male-named researchers use agents 2x",
+      "Top universities 40% more likely",
+      "Claude Code Auto Mode launched",
+      "Gender prestige disparities stark",
+      "OpenAI tax agents verticalized"
+    ],
+    "ai-hn": [
+      "Altman and Amodei reverse jobs apocalypse",
+      "Multi-agent system finds vulnerabilities",
+      "Lombardy taxes data center construction",
+      "Correctness layer beats Claude Code",
+      "Pre-IPO charm offensive debated",
+      "Music diffusion tools thrive"
+    ],
+    "ai-ph": [
+      "Brew email marketing got 711 votes",
+      "AVTR-1 released real-time avatars",
+      "Rezonant turns talk into production",
+      "Willow Scribe writes from speech",
+      "MiniCPM5-1B pushes edge limits",
+      "Voice interfaces have a moment"
+    ],
+    "ai-arxiv": [
+      "Alignment tampering found in RLHF",
+      "MobileMoE scales small on-device",
+      "Sub-billion MoE challenges assumptions",
+      "MUSE-Autoskill creates own skills",
+      "Coverage Illusion failure exposed",
+      "SIA agents self-update weights"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro got 4,359 likes",
+      "Qwen 3.6 ecosystem expanding fast",
+      "Stable Audio 3 gains traction",
+      "MiniCPM5-1B for edge deployment",
+      "pyannote diarization nears 10M downloads",
+      "SulphurAI video base model released"
+    ],
+    "ai-community": [
+      "Dev.to debates RAG vs long-context",
+      "Papal Encyclical on AI sparks debate",
+      "MCP called universal power outlet",
+      "Claude SDK for .NET released",
+      "GPT-5.4 vs Sonnet 4.6 benchmarked",
+      "Open vs closed AI probed deeply"
+    ]
+  }
+}
