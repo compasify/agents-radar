@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 进入 Agent 2.0 时代",
+      "Kimi CLI 重构为 Kimi Code 引发信任危机",
+      "Pi 支持多模型混合工作流",
+      "OpenCode 探索多供应商模型切换",
+      "DeepSeek TUI 专注中文优化突围",
+      "GitHub Copilot CLI 发布 v1.0.56-0"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.27 安全加固版",
+      "OpenClaw 新增 KaTeX 数学公式渲染",
+      "Policy 引擎打造企业级可控能力",
+      "Feeds 订阅源功能构建插件生态",
+      "Native hook relay 回归Bug成焦点",
+      "Telegram 渠道新增语音回复按钮"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 日增 4698 星领跑",
+      "ECC 近20万星定义智能体技能标杆",
+      "Anthropic 发布官方技能仓库 anthropics/skills",
+      "微软 markitdown 助力 LLM 数据预处理",
+      "crawl4ai 专为 LLM 设计的开源爬虫",
+      "MOSS-TTS 开源高保真语音生成模型"
+    ],
+    "ai-web": [
+      "Anthropic 完成 650 亿美元 H 轮融资",
+      "Claude Opus 4.8 发布，推理编码增强",
+      "Claude Design 进军视觉设计领域",
+      "Opus 快速模式降价三分之二",
+      "Anthropic 年化收入突破 470 亿美元",
+      "Anthropic 米兰办公室正式开业"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.8 获 1176 分引发热议",
+      "动态工作流将 AI 推向复杂任务代理",
+      "Ktx 开源可执行上下文层引关注",
+      "实时 LLM 推理达 3000 tokens/秒",
+      "机器人毁坏 Airbnb 引负面讨论",
+      "AI Agent 可靠性成社区焦点话题"
+    ],
+    "ai-ph": [
+      "Powabase 简化 RAG 和智能体应用开发",
+      "zero.xyz 连接 8000 个工具扩展 AI 能力",
+      "Oasis 浏览器实现隐私优先 AI 训练",
+      "Coworker AI 智能路由降低模型成本",
+      "宠物健康 AI 应用获细分市场关注",
+      "代码展示工具瞄准开发者场景"
+    ],
+    "ai-arxiv": [
+      "SwarmHarness 探索多智能体激励对齐",
+      "GSM-Symbolic 基准统计方法受质疑",
+      "正后门概念遭立场论文强烈反对",
+      "评估意识影响模型安全评分准确性",
+      "AutoScientists 推动科学实验自动化",
+      "多语言 LLM 裁判可靠性实证研究"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 下载量超 528 万",
+      "Qwen 3.6 社区涌现大量无审查变体",
+      "LiquidAI 推出 8B 参数混合专家模型",
+      "腾讯 Hy-MT2 翻译模型表现亮眼",
+      "SulphurAI 文生视频模型获关注",
+      "量化版 Qwen 3.6 适合本地部署"
+    ],
+    "ai-community": [
+      "调试 AI 代码耗时比手写多 10 倍",
+      "AI 仅胜任 80% 代码，20% 仍需资深",
+      "AI 训练数据近亲繁殖引发退化担忧",
+      "ChromaDB vs Qdrant 向量数据库对决",
+      "日期幻觉问题有了实用工程解法",
+      "95% LLM 响应元数据被开发者忽略"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Stability crisis hits major CLI tools",
+      "Claude Code thinking blocks error",
+      "Copilot CLI websocket failures",
+      "Gemini CLI subagent reliability",
+      "Platformization with plugin systems",
+      "Kimi and Qwen adopt ACP protocol"
+    ],
+    "ai-agents": [
+      "OpenClaw update v2026.5.27 released",
+      "Security hardening blocks unsafe overrides",
+      "No-auth Tailscale exposure fixed",
+      "Group prompt leakage prevented",
+      "Native hook relay regression reported",
+      "Policy conformance framework evolving"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC gains +1,385 stars",
+      "anthropics/skills hits +718 stars",
+      "MoneyPrinterTurbo soars +4,698 stars",
+      "Understand-Anything climbs +3,776 stars",
+      "taste-skill rises +2,234 stars",
+      "ollama now supports Kimi-K2.5 and GLM-5"
+    ],
+    "ai-web": [
+      "Anthropic raises $65B at $965B valuation",
+      "Claude Opus 4.8 launched today",
+      "Claude Design for visual content",
+      "Massive enterprise scaling push",
+      "Run-rate revenue hits $47B",
+      "OpenAI only published metadata update"
+    ],
+    "ai-hn": [
+      "Claude Opus 4.8 debuts with 1176 points",
+      "$65B funding round sparks debate",
+      "LLM smells debugging guide scores 198",
+      "Tesla self-driving safety investigated",
+      "LFM2.5-8B-A1B on-device MoE",
+      "Startup robot trashes Airbnbs"
+    ],
+    "ai-ph": [
+      "Powabase tops with 441 votes",
+      "zero.xyz gives agents 8k tools",
+      "Coworker AI routes models smartly",
+      "Cotypist enables local AI autocomplete",
+      "Pawse.ai monitors pet acoustics",
+      "Infrastructure shift beyond chatbots"
+    ],
+    "ai-arxiv": [
+      "Calibrating conservatism for oversight",
+      "CORE improves reasoning with reflection",
+      "Reverse probing quantifies token uncertainty",
+      "Llama 4 Maverick prompts judged fair",
+      "Asymmetric self-play boosts alignment",
+      "Decentralized swarm agents self-organize"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4.4K likes",
+      "Qwen3.6 ecosystem dominates trends",
+      "Lance achieves any-to-any generation",
+      "stable-audio-3 for multimodal audio",
+      "pyannote hits near 10M downloads",
+      "LiquidAI LFM2.5-8B-A1B debuts"
+    ],
+    "ai-community": [
+      "Debugging AI code takes 10x longer",
+      "80% code done, 20% needs seniors",
+      "Vibe coding backlash grows",
+      "Vatican encyclical on AI debated",
+      "Reducing LLM token waste discussed",
+      "34x pricing gap in AI models"
+    ]
+  }
+}
