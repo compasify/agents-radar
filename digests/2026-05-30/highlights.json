@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.157插件去中心化，thinking block 400错误发酵",
+      "OpenAI Codex rust-v0.136.0-alpha.1发布，Windows崩溃密集",
+      "Gemini CLI v0.45.0-nightly修复PTY resize崩溃",
+      "Kimi Code CLI v1.46.0品牌升级，计费透明度引争议",
+      "Pi v0.78.0新增命名会话与可点击路径",
+      "Qwen Code v0.17.0遭遇内存泄漏P0危机"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时326 Issues、500 PRs超密集迭代",
+      "连续发布v2026.5.28-beta.1至beta.4四版本",
+      "Agent/Codex运行时恢复稳定性增强",
+      "Session锁超时正确释放消除死锁",
+      "Hook上下文限制在prompt本地作用域",
+      "Codex故障不再摧毁共享运行时状态"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 3567星登顶AI短视频生成",
+      "微软markitdown +1873星打通Office-LLM数据流",
+      "Stop Slop运动兴起，taste-skill同日登榜",
+      "字节deer-flow开源布局SuperAgent赛道",
+      "Claude Code +395星定义自然语言即代码范式",
+      "ECC 198572星四维修.harness多CLI通用"
+    ],
+    "ai-web": [
+      "OpenAI发布Rosalind Biodefense生物防御倡议",
+      "OpenAI推Trustworthy Third Party Evaluations信任框架",
+      "Anthropic今日零更新形成鲜明对比",
+      "OpenAI双轨并行塑造政策话语权",
+      "两篇均为/blog/层级战略传播意图显著",
+      "Anthropic或处重大发布前信息封锁期"
+    ],
+    "ai-hn": [
+      "Liquid AI 8B-A1B MoE 38T数据训练143分登顶",
+      "Claude Opus 4.8被指蒸馏Qwen引发伦理争议",
+      "tiny-vLLM 74分高热度C++推理引擎",
+      "AISlop 71分58评论激辩AI代码质量",
+      "Gartner预警40%企业将淘汰自主AI Agent",
+      "CVE-Bench填补LLM Agent漏洞修复评测空白"
+    ],
+    "ai-ph": [
+      "Pancake 551票Slack多Agent组织操作系统",
+      "Robinhood Agentic Trading 162票金融Agent首例",
+      "Revolte高票开发者工具登榜",
+      "Memori开源自托管趋势显著",
+      "Crew44团队编码Agent协作工具",
+      "Top3均破270票落地Agent买单意愿强"
+    ],
+    "ai-arxiv": [
+      "LLMSurgeon首创数据混合诊断数字DNA分析",
+      "潜空间推理解耦中间计算与自回归生成",
+      "LoRA参数化记忆定律量化知识存储容量",
+      "BioRefusalAudit暴露安全对齐脆弱性",
+      "Meta公开AI辅助代码审查规模化经验",
+      "上下文信念管理暴露LLM长程交互缺陷"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 583万下载开源旗舰领跑",
+      "Qwen3.6-27B 485万下载社区生态最活跃",
+      "MiniCPM5-1B 1B参数挑战7B性能端侧新标杆",
+      "LiquidAI LFM2.5-8B-A1B非Transformer MoE探索",
+      "Sulphur-2-base视频生成新玩家入场",
+      "uncensored微调版本高下载反映脱敏需求"
+    ],
+    "ai-community": [
+      "生产级AI Coding Agents全栈实战手册发布",
+      "MCP Agent运行时安全网关30天构建经验",
+      "Vibe Coding局限性反思识别失效临界点",
+      "Claude生成NestJS代码ESLint发现6安全洞",
+      "AGENTS.md一份配置同步多Agent工具",
+      "教皇通谕与AI伦理开放封闭模型结构性矛盾"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.157 adds plugin decentralization",
+      "OpenAI Codex and Gemini CLI compete for enterprise cloud",
+      "Qwen Code and Kimi Code CLI push vertical integration",
+      "Pi and OpenCode offer multi-provider agnostic alternatives",
+      "DeepSeek TUI targets local-first Rust deployments",
+      "MCP ecosystems and multi-agent workflows dominate feature race"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 326 issues and 500 PRs in 24 hours",
+      "Four beta releases harden Codex runtime reliability",
+      "Subagent workspace isolation prevents cross-contamination",
+      "2:1 open-to-closed PR ratio shows heavy feature work",
+      "Production bug reports target OAuth and session state",
+      "NanoBot and Hermes Agent lead 13-project ecosystem"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo gains +3,567 stars today",
+      "stop-slop project fights AI generic output detection",
+      "taste-skill rises +2,062 stars for quality control",
+      "Compound Engineering plugin hits +353 for agent harness",
+      "ECC surges +1,406 for agent performance optimization",
+      "microsoft/markitdown gains +1,873 for RAG pipelines"
+    ],
+    "ai-web": [
+      "Anthropic publishes zero new articles today",
+      "OpenAI posts four entries, three are duplicates",
+      "Biosecurity resilience remains OpenAI priority focus",
+      "Evaluation framework post suggests governance push",
+      "Duplicate Rosalind Biodefense entry likely publishing error",
+      "Low-signal day for direct product announcements"
+    ],
+    "ai-hn": [
+      "Liquid AI reveals 8B-A1B MoE on 38 trillion tokens",
+      "Claude Opus 4.8 alleged Qwen distillation sparks debate",
+      "Gartner predicts 40% of AI agents face demotion",
+      "Mystery company burns $500M on accidental Claude spend",
+      "Tiny-vLLM targets efficient inference optimization",
+      "AISlop emerges for AI code quality control"
+    ],
+    "ai-ph": [
+      "Pancake brings OpenClaw autonomy to Slack",
+      "Robinhood enters agentic autonomous trading",
+      "Memori solves persistent memory from agent traces",
+      "NeuralAgent 2.5 enables voice computer control",
+      "Four of top seven products are developer tools",
+      "Strong open-source showing: Memori, AccountyCat, Compartment"
+    ],
+    "ai-arxiv": [
+      "LLMSurgeon diagnoses hidden LLM training mixtures",
+      "Latent reasoning decoupled from token generation",
+      "LoRA parametric memory law quantifies fine-tuning",
+      "Biosecurity refusal audits test AI safety rigor",
+      "Sabotage propensity testing for deployed agents",
+      "Any-to-any Lance model unifies multimodal foundations"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro nears 5.8M downloads",
+      "Qwen 3.6 family dominates with multiple variants",
+      "Unsloth drives aggressive quantization efforts",
+      "Sulphur-2-base advances video generation",
+      "LongCat-Video-Avatar-1.5 pushes digital humans",
+      "Lance any-to-any architecture signals unified future"
+    ],
+    "ai-community": [
+      "One AGENTS.md standardizes multi-agent instructions",
+      "MCP gateways flood Dev.to tutorials",
+      "No-code AI testing displaces traditional QA",
+      "Data engineer role shifts to LLM-integrated architecture",
+      "Papal encyclical joins AI open-closed debate",
+      "Memory leaks plague production agent deployments"
+    ]
+  }
+}
