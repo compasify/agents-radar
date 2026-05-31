@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.158 Auto mode 扩展至三大云平台",
+      "OpenAI Codex Windows 桌面端爆发系统性质量危机",
+      "Gemini CLI v0.45.0-nightly 修复编辑器 spam 问题",
+      "GitHub Copilot CLI 三连发修复会话恢复漏洞",
+      "OpenCode 内联 $skill 调用重磅功能进入评审",
+      "Pi v0.78.0 密集修复 TUI 崩溃与上下文压缩异常"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.28 发布修复 Agent 恢复机制",
+      "24 小时 500 Issues + 500 PRs 达近期峰值",
+      "飞书渠道崩溃成社区最高优先级诉求",
+      "Codex OAuth/运行时路由迁移摩擦严重",
+      "Windows 平台性能退化引大量投诉",
+      "子 Agent 工作目录隔离避免文件污染"
+    ],
+    "ai-trending": [
+      "claude-code 今日 +592 star 持续高热",
+      "ECC Agent Harness 爆发登榜获 908 star",
+      "markitdown 今日 +2470 star 增速全榜第二",
+      "liteparse +925 star 填补多模态 RAG 解析瓶颈",
+      "VoxCPM / MOSS-TTS 双星并起追赶商业 TTS",
+      "Agent 从单点工具向平台化架构演进"
+    ],
+    "ai-hn": [
+      "Anthropic 估值超越 OpenAI 引发 440 条评论激辩",
+      "Claude 企业误用账单高达 5 亿美元",
+      "rsync 项目遭大量 AI 提交入侵",
+      "Perry TS 编译器 120 分 97 评论获热捧",
+      "AWS Bedrock 计费延迟引成本失控警觉",
+      "Intel Optane 本地跑 1T 参数模型"
+    ],
+    "ai-ph": [
+      "Ava 2.0 首个完全自主 AI 销售代表获 369 票",
+      "Hyper 自驱公司大脑让 Agent 从实习生变资深",
+      "Firecrawl /monitor 成 Agent 感知神经获 343 票",
+      "MCP Bridge 标志 MCP 协议生态显现",
+      "MoDev 移动端 AI 开发环境代表端侧渗透",
+      "TrackNotch Mac 原生 LLM 监控新方向"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 本周 591 万下载量夺冠",
+      "Qwen3.6-35B-A3B 572 万下载成性价比标杆",
+      "MiniCPM5-1B 端侧 1B 小模型新标杆",
+      "LiquidAI LFM2.5-8B 探索非 Transformer 路径",
+      "腾讯 Hy-MT2-30B 聚焦高质量多语言翻译",
+      "量化 GGUF 与 Uncensored 微调生态活跃度激增"
+    ],
+    "ai-community": [
+      "Hermes Agent Challenge 主导 Dev.to 讨论",
+      "AI Agent 应主动发短信给你的设计模式",
+      "推理盗窃成 LLM 端点新安全威胁",
+      "三 LLM 辩论 + Hermes 裁决零成本架构",
+      "Lean4 定理证明器或是 AI 缺失拼图",
+      "Kokoro 两行代码替代 OpenAI TTS 降成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.158 with enterprise focus",
+      "OpenAI Codex shows high PR velocity at 10+ daily",
+      "Gemini CLI releases v0.45.0 nightly build",
+      "Nine tools now compete in AI CLI arena",
+      "MCP ecosystems converge across all tools",
+      "Agentic workflow reliability is universal pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24h",
+      "v2026.5.28 hardens subagent workspace isolation",
+      "432:68 open-to-closed issue ratio shows throughput priority",
+      "337:163 open-to-merged PR ratio reveals heavy pipeline",
+      "13 projects now in OpenClaw ecosystem",
+      "Stale issues accumulate on gateway stability debt"
+    ],
+    "ai-trending": [
+      "MarkItDown gains 2,470 stars for doc conversion",
+      "anthropics/skills surges 454 stars for Claude Code",
+      "liteparse adds 925 stars for RAG parsing speed",
+      "ECC gains 908 stars for agent harness tooling",
+      "Agent harness emerges as distinct architecture layer",
+      "VoxCPM and MOSS-TTS drive open speech synthesis"
+    ],
+    "ai-hn": [
+      "Anthropic surpasses OpenAI in valuation debate rages",
+      "Mystery company burns $500M on Claude in one month",
+      "768GB Optane runs 1T-parameter LLM at 4 tps",
+      "DeepSWE crowns GPT-5.5, finds Claude Opus loophole",
+      "Starbucks AI inventory tool fails spectacularly",
+      "AWS Bedrock billing horror stories proliferate"
+    ],
+    "ai-ph": [
+      "Ava 2.0 leads with 369 votes for autonomous BDR sales",
+      "Hyper pitches Self-driving Company Brain positioning",
+      "Top 3 products hold 986 of 2,069 total votes",
+      "MCP Bridge builds agent-web connective tissue",
+      "Firecoach AI joins autonomous execution wave",
+      "Winner-take-most dynamics dominate AI discovery"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 4.6M weekly downloads",
+      "Qwen 3.6 family shows remarkable ecosystem breadth",
+      "Multimodal vision support now table stakes",
+      "Lance signals any-to-any unified architecture shift",
+      "Unsloth delivers GGUF variants within hours",
+      "Sulphur-2-base gains traction in video generation"
+    ],
+    "ai-community": [
+      "Hermes Agent Challenge dominates Dev.to discourse",
+      "Your AI Agent Should Text You First goes viral",
+      "Inference theft emerges as new security bug class",
+      "Pope Leo XIV encyclical sparks AI ethics debate",
+      "Multi-model debate achieves zero-cost reliability",
+      "Agent cost scaling creates urgent architecting problem"
+    ]
+  }
+}
