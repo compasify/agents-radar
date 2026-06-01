@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Pi 社区活跃度登顶：38 Issues / 15 PR",
+      "DeepSeek TUI 品牌重塑为 CodeWhale，v0.8.48 发布",
+      "Qwen Code v0.17.0 稳定版发布，Telemetry 升级",
+      "OpenAI Codex rust-v0.136.0-alpha.2，11 个活跃 PR",
+      "Claude Code PR 完全停滞，Opus 4.8 问题爆发",
+      "Gemini CLI 10 个 PR 修复 Agent 挂起与内存泄漏"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 内 500 Issues + 500 PR 极高活跃",
+      "连续发布 beta.1→beta.3 聚焦运行时恢复",
+      "Codex 运行时可靠性成核心痛点",
+      "多通道消息投递问题密集修复",
+      "XL 级 PR：多槽内存架构待审",
+      "Telegram/Matrix/Discord 线程渲染问题集群"
+    ],
+    "ai-trending": [
+      "claude-code +489 stars，终端原生 AI 成趋势",
+      "VoxCPM 635 日新增 stars，Tokenizer-Free TTS 领跑",
+      "train-llm-from-scratch 极简训练教育刚需",
+      "Agent 编排层集体登榜：compound-engineering-plugin、harness",
+      "Scrapling AI 场景适配爬虫保留 Trending",
+      "supermemory RAG 知识库 + Agent 工作流双标签"
+    ],
+    "ai-hn": [
+      "rsync 项目 LLM 错误提交引发社区强烈反弹",
+      "Claude 辅助开发：少编码、多测试成新范式",
+      "OpenAI 解决 Erdős 数学难题，社区显疲劳",
+      "TCN 替代 Transformer 零评论，观望态度明显",
+      "芝加哥大学 AI 音乐检测插件准确率受质疑",
+      "Netflix Wiz 开源 AI 成本优化工具"
+    ],
+    "ai-ph": [
+      "Wandesk 432 票登顶，开源 AI 桌面环境",
+      "Openstatus MCP 健康检查 198 票，中间件监控新标准",
+      "Step 3.7 Flash 178 票，视觉-行动一体化 Agent",
+      "LLMTrace 追踪 LLM 成本，开发者工具深化",
+      "航空实时监测等垂直场景创新涌现",
+      "MCP 生态持续升温，标准化进入新阶段"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 588 万下载，MIT 许可证开源标杆",
+      "DeepSeek-V4-Flash 348 万下载，高并发场景首选",
+      "Qwen3.6-27B 506 万下载，视觉-语言统一架构",
+      "Sulphur-2-base 159 万下载，开源视频生成黑马",
+      "MiniCPM5-1B 1B 参数挑战端侧性能边界",
+      "Qwen3.6-35B-MoE NVFP4 量化覆盖全场景部署"
+    ],
+    "ai-community": [
+      "14 个 Agent 系统 54 个可靠性故障复盘",
+      "Claude Code 子智能体：拒绝能力比执行更重要",
+      "71 行黑盒调试 Python Agent 失控运行",
+      "Claude vs Gemini 安全加固集体失效",
+      "教皇 AI 通谕引发 73 条哲学辩论",
+      "100% Vibe Coding 与停止思考的警示张力"
+    ],
+    "ai-weekly": [
+      "Anthropic 融资 $65B 估值 $965B，年化收入 $470 亿",
+      "Claude Opus 4.8 发布，快速模式降价 2/3",
+      "Claude 首获 CVE-2026-28952，AI 独立发现系统漏洞",
+      "rsync 爆发 AI 提交危机，社区急呼标记规范",
+      "Stop Slop 运动兴起，反 AI 平庸化项目集体登榜",
+      "DeepSeek TUI 更名 CodeWhale，v0.8.48 确立独立身份"
+    ],
+    "ai-monthly": [
+      "微软终止OpenAI独家云协议，云AI格局重构",
+      "Claude Code计费漏洞爆发，945👍触发配额透明度运动",
+      "Anthropic获22万块GPU算力，Claude速率限制翻倍",
+      "Andrej Karpathy加入Anthropic，MCP生态闭环成型",
+      "OpenAI秘密提交IPO文件，资本市场故事遇冷",
+      "AI首次证伪离散几何猜想，656分激辩真突破还是暴力搜索"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.159 released with infra fixes",
+      "OpenAI Codex rust-v0.136.0-alpha.2 ships enterprise security stack",
+      "593-comment thread on Codex token costs dominates GitHub",
+      "Gemini CLI sees intense PTY/shell stability work, 19 PRs",
+      "Kimi Code CLI joins the 9-tool cross-comparison",
+      "Rust and Go rewrites signal performance race across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs in 24 hours",
+      "Four beta releases in two days ahead of June stable launch",
+      "v2026.5.31-beta.3 adds agent/CLI runtime recovery",
+      "210 open PRs signal reviewer bandwidth constraints",
+      "Session context confusion remains top P1 issue",
+      "Codex runtime hardening is dominant development theme"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo surges +1,937 stars for AI video creation",
+      "Microsoft markitdown gains +2,798 stars for file conversion",
+      "Compound Engineering builds cross-IDE plugins for Claude/Codex/Cursor",
+      "VoxCPM advances tokenizer-free multilingual TTS with voice cloning",
+      "train-llm-from-scratch democratizes LLM training in Jupyter",
+      "ollama now supports Kimi-K2.5, GLM-5, MiniMax, gpt-oss"
+    ],
+    "ai-hn": [
+      "AI solves Erdős math problem, math world reacts",
+      "UChicago scientists release AI-generated song detection tool",
+      "TCNs explored as alternative to Transformer architectures",
+      "Developers purge AI commits from rsync project",
+      "'Less coding, more testing' Claude workflow gains traction",
+      "AI makes building trivial but distribution remains hard"
+    ],
+    "ai-ph": [
+      "Wandesk leads with 432 votes for customizable AI desktop",
+      "Wingbits AI monitors real-time aircraft with agents",
+      "4 of top 5 products are open-source",
+      "72x vote gap between #1 and #12 products",
+      "MCP tooling emerges as key category",
+      "Real-time AI agents dominate top launches"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 5.9M downloads as top open model",
+      "DeepSeek-V4-Flash gets 3.5M downloads, MIT-licensed",
+      "Qwen 3.6 uncensored community quants drive huge volume",
+      "Vision-language models now majority of trending releases",
+      "Sulphur-2-base advances video generation capabilities",
+      "GGUF variants consistently outpace base model downloads"
+    ],
+    "ai-community": [
+      "63% of AI-generated code skips security hardening",
+      "71-line black box pattern debugs $200 agent crash",
+      "Claude vs Gemini dead heat across 4 security domains",
+      "Markdown becomes de facto AI-developer interface layer",
+      "Vatican encyclical on AI ethics hits 133 Lobste.rs points",
+      "AI Won't Save You From Forgetting How to Think tops comments"
+    ],
+    "ai-weekly": [
+      "Anthropic raises $65B at $965B valuation",
+      "Claude Opus 4.8 cuts prices by 66%",
+      "Claude Design targets Figma/Canva market",
+      "rsync hit by LLM-generated commits crisis",
+      "AI finds first macOS kernel CVE",
+      "Anti-Slop developer movement emerges"
+    ],
+    "ai-monthly": [
+      "Microsoft ends OpenAI exclusive cloud deal",
+      "Claude Code censorship sparks OpenClaw fork",
+      "Anthropic lands SpaceX 300MW GPU deal",
+      "OpenAI becomes 'Deployment Company'",
+      "Anthropic backs China chip export controls",
+      "Andrej Karpathy joins Anthropic"
+    ]
+  }
+}
