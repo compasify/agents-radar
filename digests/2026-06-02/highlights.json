@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code用户单日损失$112.77引成本争议",
+      "OpenAI Codex连发rust-v0.136.0修复TUI",
+      "Qwen Code日50 PR超高速迭代v0.17.0-nightly",
+      "CodeWhale品牌迁移后v0.8.49修复YOLO死锁",
+      "Pi定位TUI卡死根因接入Gemini 3.5 Flash",
+      "OpenCode MCP严重退化触发权限信任危机"
+    ],
+    "ai-agents": [
+      "OpenClaw单日500 PR 3连beta版本密集发布",
+      "v2026.6.1-beta.2强化Agent中断恢复能力",
+      "多通道消息投递覆盖Telegram/WhatsApp/Slack/Feishu",
+      "Codex运行时稳定性成社区头号焦点",
+      "SQLite会话存储迁移推进中",
+      "待合并PR积压396:104审阅带宽告急"
+    ],
+    "ai-trending": [
+      "微软markitdown单日+3034星登顶热榜",
+      "MoneyPrinterTurbo获3375星AI视频持续高热",
+      "hermes-webui 945星Agent走向多模态界面",
+      "oh-my-pi 335星探索AI原生IDE终端形态",
+      "VoxCPM无Tokenizer TTS技术引发关注",
+      "train-llm-from-scratch底层原理需求不减"
+    ],
+    "ai-web": [
+      "Anthropic 9650亿美元估值完成H轮融资",
+      "Anthropic秘密提交S-1草案启动IPO程序",
+      "Claude Opus 4.8发布动态工作流与快速模式",
+      "470亿美元ARR为AI原生公司罕见财务锚点",
+      "OpenAI仅AWS渠道扩展无实质内容发布",
+      "PBC结构如何适配上市公司治理成焦点"
+    ],
+    "ai-hn": [
+      "Anthropic冲刺IPO帖436分349评论引热议",
+      "佛州起诉OpenAI称ChatGPT关联谋杀案",
+      "Stanford CS336首规AI Agent使用边界",
+      "开源蛋白质模型预测10亿蛋白挑战AlphaFold",
+      "Google募资800亿美元扩建AI基础设施",
+      "语音控制编码Agent拓展至CarPlay场景"
+    ],
+    "ai-ph": [
+      "Clipto 453票完全本地搜索TB级媒体",
+      "Second Brain 276票解决大模型金鱼记忆",
+      "TabTasker强调零服务器本地优先架构",
+      "Harness Starter Kit设Agent代码护栏",
+      "AnyFrame 11票统一企业Agent治理中枢",
+      "Google NotebookLM第三方工具链成型"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 585万下载MIT许可证领跑",
+      "DeepSeek-V4-Flash 351万下载兼顾性能成本",
+      "Qwen3.6-27B 515万下载视觉语言统一架构",
+      "Lance any-to-any架构探索统一多模态生成",
+      "prism-ml/bonsai 2bit三值量化边缘部署",
+      "腾讯Hy-MT2双尺寸覆盖边缘到云端翻译"
+    ],
+    "ai-community": [
+      "vibe coding弊端引发代码膨胀技能退化担忧",
+      "MCP生态冷启动难题无人安装更无人使用",
+      "$66万AI平台凌晨修复却回滚错误补丁",
+      "RAG与Agent架构抉择致系统崩溃教训",
+      "背景AI Agent沦为C2服务器安全警示",
+      "AI代码异味识别与debloating实战指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads enterprise mindshare despite Windows bugs",
+      "OpenAI Codex shipped rust-v0.136.0 with multi-agent runtime",
+      "Google Gemini CLI aggressively closes feature gaps on pricing",
+      "OpenCode is most provider-agnostic but permission system stressed",
+      "Qwen Code and DeepSeek TUI compete on local model support",
+      "Sector shifting from novelty to production infrastructure demands"
+    ],
+    "ai-agents": [
+      "OpenClaw hit 469 issues and 500 PRs in 24 hours",
+      "Three beta releases dropped for runtime recovery fixes",
+      "v2026.6.1-beta.2 fixes Codex/Harmony runtime recovery",
+      "292:177 open-to-closed issue ratio shows heavy triage",
+      "Multi-channel delivery focus: Telegram, WhatsApp, iMessage, Slack",
+      "Project executing coordinated stability sprint pre-major release"
+    ],
+    "ai-trending": [
+      "microsoft/markitdown surged +3,034 stars in one day",
+      "Hermes Agent ecosystem gained +945 stars today",
+      "heretic censorship removal tools emerging as new category",
+      "MoneyPrinterTurbo shows sustained AI content automation demand",
+      "Agent harness terminology coalescing as new architectural pattern",
+      "oh-my-pi brings hash-anchored edits with LSP integration"
+    ],
+    "ai-web": [
+      "Anthropic raises $65B Series H at $965B valuation",
+      "Anthropic files confidential draft S-1 for IPO preparation",
+      "Claude Opus 4.8 released with 3x fast mode cost reduction",
+      "Anthropic discloses $47 billion run-rate revenue figure",
+      "OpenAI's only activity: AWS availability metadata update",
+      "Funding-to-IPO pipeline executed in rapid succession"
+    ],
+    "ai-hn": [
+      "Anthropic's confidential IPO filing dominates discussion at 436 points",
+      "Florida sues OpenAI and Sam Altman personally over ChatGPT harms",
+      "Florida lawsuit cites ChatGPT-linked murders as alleged harm",
+      "Open-source protein model claims 1B predictions vs AlphaFold",
+      "Stanford CS336 publishes official AI agent guidelines",
+      "Community grapples with AI financial maturation vs regulatory backlash"
+    ],
+    "ai-ph": [
+      "Clipto leads with 453 votes for private media NL search",
+      "Second Brain for AI: free open-source persistent memory across LLMs",
+      "Privacy-first local-first trend dominates top three products",
+      "No pure LLM launches signal shift to application layer",
+      "Multiple vibe coding workflow tools in long tail",
+      "AnyFrame platform targets enterprise multi-agent management"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 4,530 likes and 5.8M downloads",
+      "DeepSeek-V4-Flash MIT-licensed with near-Pro performance",
+      "Qwen 3.6 family spans NVIDIA variants to 2-bit quantizations",
+      "Ternary quantization emerges with bonsai-image-ternary-4B",
+      "Multimodal models now outnumber pure text in trending list",
+      "Meituan's LongCat-Video-Avatar-1.5 hints at audio-image-text-to-video"
+    ],
+    "ai-community": [
+      "$660K AI platform replaced worker then rolled back wrong patch",
+      "AI agents warned as potential C2 security servers",
+      "Claude Mythos exploit generation capabilities alarm community",
+      "MCP servers struggle with adoption despite hype",
+      "Debloating AI-grown codebases becomes critical discipline",
+      "Mid-tier models debated as flagship replacements for cost"
+    ]
+  }
+}
