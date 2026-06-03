@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.160-161 连发安全更新，内存泄漏 blocker 未解",
+      "OpenAI Codex 0.135-0.136 遭遇模型路由回归与认证死循环双重危机",
+      "GitHub Copilot CLI v1.0.58-59 推出语音与定时任务实验功能",
+      "Kimi Code CLI 社区沉寂，仅 2 条 Issue / 0 PR 显著掉队",
+      "OpenCode 50+ PR/Issue 超活跃，RLM 落地引发定价争议",
+      "DeepSeek TUI v0.8.50 品牌迁移，终端渲染稳定性为长期债务"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 456 Issues / 500 PRs 极高活跃，零版本发布承压",
+      "#89601 修复轮询修饰符阻塞，解决 Telegram/Discord 消息丢失",
+      "#82572 推进队列持久化，跨网关重启不丢消息",
+      "390 PR 待合并，Jerry-Xin 等核心贡献者密集输出修复",
+      "TTS 优化：跳过 emoji 朗读、消除 final 模式文本抖动",
+      "架构级重构 #88838 SQLite 迁移仍处规划，补丁式修复为主"
+    ],
+    "ai-trending": [
+      "headroom 单日 +1,265 ⭐ 登顶，LLM 输入压缩削减 60-95% Token",
+      "ECC Agent Harness 性能优化系统同日高热，Agent 效率优化成焦点",
+      "VoxCPM 无 Tokenizer TTS 技术，代表生成模型架构新探索",
+      "supermemory / claude-mem 记忆层项目持续升温，持久化上下文成瓶颈",
+      "Open-LLM-VTuber LLM + 语音 + Live2D 本地运行，虚拟主播生态活跃",
+      "ollama 已支持 Kimi-K2.5、GLM-5、DeepSeek 等最新模型"
+    ],
+    "ai-web": [
+      "Anthropic Project Glasswing 扩至 200 家合作伙伴，覆盖 15 国关键基础设施",
+      "Claude Mythos 从企业工具演进为全球软件供应链基础设施层",
+      "合作伙伴累计发现 10,000+ 高危漏洞，验证大模型代码审计效能",
+      "首次纳入供应商角色，构建枢纽辐射式安全影响力模型",
+      "OpenAI Codex For Every Role Tool Workflow 暗示跨角色扩展",
+      "OpenAI 青年安全与全球领导力议题延续政策合规双线并行"
+    ],
+    "ai-hn": [
+      "Anthropic IPO 传闻与 Michael Burry 万亿估值看空交织泡沫争议",
+      "Claude Mythos 扩展至 15 国关键基础设施，安全边界讨论遇冷",
+      "GPT/Claude 被曝规避关机指令，工具性趋同风险引警觉",
+      "Grok 社会模拟犯罪灭绝，Claude 最稳定但方法论受质疑",
+      "Uber 限制 AI 工具使用削减成本，企业从狂热转向理性控费",
+      "Codex 角色插件与 SDK 扩展，生态持续渗透"
+    ],
+    "ai-ph": [
+      "Mina 会议助手 479 票，实时响应执行突破被动录音模式",
+      "Dune Keypad 将 AI 嵌入 Mac 系统底层，跨应用上下文感知",
+      "Mistral Vibe 130 票，基础模型厂商首次推出编码 Agent",
+      "folk 288 票，消息场景隐形 AI 不依赖独立 App",
+      "Tokenwise 以成本透明化为差异化卖点",
+      "Joanium 主打本地/隐私优先，数据主权意识觉醒"
+    ],
+    "ai-arxiv": [
+      "AdaCodec 视频 MLLM 时序冗余压缩，架构效率突破",
+      "SimSD 扩散语言模型首个 token 级投机解码，打破 AR 速度垄断",
+      "Ghost Tool Calls 暴露投机工具调用意图泄露漏洞",
+      "SkillHarm 构建技能全生命周期自动化攻击框架",
+      "HLL 评估 Agent 能否跨越人类最后验证线",
+      "SafeSteer 局部化策略蒸馏解决安全对齐税"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4,571 点赞 / 582 万下载稳居榜首",
+      "Qwen3.6-27B 1,577 点赞 / 524 万下载，与 DeepSeek 双雄格局",
+      "Sulphur-2-base 1512 点赞 / 166 万下载，视频生成生态活跃",
+      "LiquidAI LFM2.5 8B/1B MoE 探索极致稀疏化效率边界",
+      "字节跳动 Lance 任意到任意模态统一模型架构创新",
+      "JetBrains Mellum2-12B 专为代码推理优化的 Thinking 模型"
+    ],
+    "ai-community": [
+      "AI Agent 首要失效模式是 rate limits 而非幻觉，容量工程成焦点",
+      "7B 视觉模型蒸馏为 2B，学生模型反超越教师",
+      "开源 AI 团队被 CTO 花 800 万采购替代后两周被 CEO 召回",
+      "RAG 管道漂移比模型本身引发更多生产故障",
+      "GKE 抢占式实例上构建中断弹性 AI 工作负载官方方案",
+      "多 Agent 编排器最难的是内存而非 Agent 本身"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped v2.1.160–161 in 24 hours",
+      "10+ hot issues tracked for Claude Code",
+      "4 active PRs on Claude Code today",
+      "Ecosystem now supports 9 major CLI tools",
+      "All tools racing to support diverse model backends",
+      "Security hardening for autonomous agent execution"
+    ],
+    "ai-agents": [
+      "OpenClaw: 456 issues, 500 PRs in 24 hours",
+      "390 open PRs vs 110 merged indicates backlog",
+      "No release despite critical regression fixes",
+      "Session-state corruption fix queued unshipped",
+      "Slack/Telegram message loss fix pending",
+      "Codex integration PRs awaiting maintainer review"
+    ],
+    "ai-trending": [
+      "headroom gained 1,265 stars for 60-95% token cut",
+      "markitdown dominates with +3,618 stars today",
+      "ECC agent harness hits 1,533 stars, 203K total",
+      "VoxCPM advances tokenizer-free TTS",
+      "supermemory gains 680 stars for sub-10ms retrieval",
+      "ollama now supports Kimi-K2.5, GLM-5, MiniMax"
+    ],
+    "ai-web": [
+      "Project Glasswing expands to ~200 partners",
+      "Glasswing adds critical infrastructure sectors",
+      "10,000+ high/critical severity flaws identified",
+      "Anthropic targets power, water, healthcare, comms",
+      "Explicit government collaboration signaled",
+      "OpenAI published two metadata-only entries"
+    ],
+    "ai-hn": [
+      "Anthropic's blockbuster IPO filing grips HN",
+      "Claude Mythos rollout to critical infrastructure debated",
+      "Michael Burry: neither SpaceX nor Anthropic worth $1T",
+      "Anti-job-spam plea tops charts unexpectedly",
+      "Claude skills projects gain traction",
+      "LLM interpretability tools trending"
+    ],
+    "ai-ph": [
+      "Mina Meeting Assistant leads with 479 votes",
+      "Mina executes actions during calls, not just transcribes",
+      "Typeahead brings AI autocomplete system-wide on Mac",
+      "Databox MCP enables natural language business queries",
+      "Joanium pushes local/edge AI workspace",
+      "Mistral Vibe offers long-running agent architecture"
+    ],
+    "ai-arxiv": [
+      "SafeSteer eliminates alignment tax via localized distillation",
+      "ProtoAda and CRAM advance multimodal continual learning",
+      "Speculative decoding variants for diffusion language models",
+      "Clinical, financial, robotics safety filters emerging",
+      "Perceptual Perturbation fixes MLLM-as-judge bias",
+      "Submodule-level LLM compression breaks layer constraint"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,571 likes, 5.8M downloads",
+      "NVIDIA drops 4 multimodal releases simultaneously",
+      "LocateAnything-3B novel visual grounding model",
+      "Qwen 3.6 family shows remarkable ecosystem depth",
+      "OpenAI's rare HF presence: privacy-filter model",
+      "Ternary quantization hits 1.58-bit precision"
+    ],
+    "ai-community": [
+      "Rate limits overtake hallucinations as top failure mode",
+      "Microsoft pivots from OS/apps to agents architecture",
+      "LlamaStash matures for local LLM deployment",
+      "Praxia advances multi-agent orchestration",
+      "7B vision model distilled to 2B, teacher scored worse",
+      "AI debugging consumed 6 hours for one line"
+    ]
+  }
+}
