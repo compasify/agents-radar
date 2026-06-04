@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 陷入成本危机，P0 级负面情绪主导社区",
+      "OpenAI Codex 快速迭代，2 个 Alpha 版本密集发布",
+      "Gemini CLI 聚焦稳定性，安全与修复 PR 活跃",
+      "Pi 开源项目社区贡献活跃，维护者快速合并 PR",
+      "Qwen Code 架构重构，单日 50 个 PR 开发强度极高",
+      "DeepSeek 进入 v0.9.0 战略规划期，社区期待新版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 日处理 500 条 Issue 与 PR，社区贡献旺盛",
+      "v2026.6.2-beta.1 发布，安装安全策略重大重构",
+      "会话持久化与消息投递可靠性成核心风险领域",
+      "认证刷新机制存在多个 P1 级回归问题待修复",
+      "版本发布密集，24 小时内连发 3 个新版本",
+      "破坏性变更：废弃危险代码扫描器路径"
+    ],
+    "ai-trending": [
+      "hermes-agent 日增 17.3K stars，Agent 基础设施爆发",
+      "headroom 日增 3,530 stars，LLM 输入压缩新星",
+      "Agent 工程化成新焦点，效率与成本优化受追捧",
+      "supermemory 与 claude-mem 印证持久化上下文需求",
+      "microsoft/markitdown 日增 1,984 stars，文档预处理",
+      "ollama 支持 K2.6 与 GLM-5.1，稳居本地部署标准"
+    ],
+    "ai-web": [
+      "Anthropic 公开风险管控哲学，首谈“失控半径”权衡",
+      "AI 赋能网络威胁分析报告发布，基于 832 封禁案例",
+      "Claude 商业化进入规模化，埃森哲等巨头投入生产",
+      "Anthropic 披露 Claude Mythos Preview 因风险被否决",
+      "OpenAI 发布 3 篇新文章，具体内容暂未公开",
+      "安全理念从前沿研究转向生产级工程实践"
+    ],
+    "ai-hn": [
+      "Mnemo 本地优先记忆层工具上线，Rust+SQLite 实现",
+      "Agent-browser-shield 发布，保护 Web 上的 AI Agent",
+      "社区热议 AI Agent 撒谎问题，转向风险治理",
+      "Google 发布 Gemma 4 12B，16GB 内存即可运行",
+      "Claude Opus 4.8 对空输入产生争议性输出引警惕",
+      "开源轻量模型与 AI 能源问题成讨论次重点"
+    ],
+    "ai-ph": [
+      "Fundraisly AI 融资代理获 1026 票，精准切入创始人痛点",
+      "Vokal 将 AI Agent 作为平等队友融入团队协作空间",
+      "Brief 专为 AI Agent 开发者打造，助力产品市场匹配",
+      "PawPause 与 Enshittifier 上榜，反思 AI 过度营销",
+      "AI 从通用聊天加速转向解决具体问题的专家 Agent",
+      "开发者效率工具占据半壁江山，强调流程深度融合"
+    ],
+    "ai-arxiv": [
+      "神经元群体选择性随规模分化，拓展缩放法则微观视角",
+      "Language Models Need Sleep：生物启发式记忆巩固机制",
+      "量化推理模型置信度表达，揭示系统性失败模式",
+      "Humanoid-GPT 实现零样本全身运动跟踪，泛化能力跃升",
+      "MAdam 超越传统优化器，提升后训练效率",
+      "新基准衡量推理结构复杂性，超越表面准确率评估"
+    ],
+    "ai-community": [
+      "Dev.to 创始人质疑：无脑塞入编码代理并不合理",
+      "Docker 沙箱实践：安全运行 AI 编码代理的解决方案",
+      "公司拒绝 500 美元请求，花 47 万美元部署 AI 引讽刺",
+      "AI 世界慢思考反思：个人节奏与深度思考的价值",
+      "LLM 非确定性是 Bug 还是 Feature？生产环境复现难题",
+      "老旧 GPU 运行 AI 模型的本地化话题持续升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code releases v2.1.16",
+      "Token transparency emerges as pain point",
+      "Cross-platform parity crisis for Windows",
+      "9 actively maintained tools compete",
+      "Context window management is universal",
+      "Platform parity debt under pressure"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues, 500 PRs",
+      "OpenClaw v2026.6.2-beta.1 released",
+      "Plugin install security model overhauled",
+      "Session state reliability is top focus",
+      "Multi-channel stability across 6 platforms",
+      "Growth phase with significant in-flight work"
+    ],
+    "ai-trending": [
+      "Headroom gains 3,530 stars in one day",
+      "NousResearch/hermes-agent adds 1,735 stars",
+      "Agent harness paradigm solidifying",
+      "PaddleOCR pushes PDF-to-AI pipeline",
+      "ollama now supports Kimi-K2.6",
+      "milvus-io/milvus hits 44,615 total stars"
+    ],
+    "ai-web": [
+      "Anthropic publishes agent containment blog",
+      "Threat intelligence report maps AI attacks",
+      "Enterprise partner network expanded",
+      "Safety engineering for autonomous agents",
+      "OpenAI repeats 'GPT Rosalind' mentions",
+      "Coordinated narrative on safe deployment"
+    ],
+    "ai-hn": [
+      "Hyper (YC P26) 'company brain' tops",
+      "Bernie Sanders bill for public AI stake",
+      "Google's Gemma 4 fits 16GB laptops",
+      "Counterfeit DDR5 RAM scam viral",
+      "Gemini Spark trip planning impresses",
+      "EU demands energy cuts due to AI"
+    ],
+    "ai-ph": [
+      "Fundraisly tops with 1,026 votes",
+      "Vokal AI agent collab space launched",
+      "Gigacatalyst for non-engineers trending",
+      "Enshittifier satirizes AI hype",
+      "Agents moving beyond conversation",
+      "Direct monetization in high-value niche"
+    ],
+    "ai-arxiv": [
+      "Neurons show divergent selectivity",
+      "LLMs need sleep to consolidate memories",
+      "Self-correcting AI systems emerge",
+      "Rubric-based RL for post-training",
+      "Model internals revisited with scale",
+      "UAV navigation from reasoning models"
+    ],
+    "ai-community": [
+      "Docker sandboxes for AI agent safety",
+      "Speed loan metaphor for AI debt",
+      "NVIDIA laptop-based agent architecture",
+      "webMCP live demo sparks debate",
+      "Tool calls reveal actual behavior",
+      "35B MoE models run on aging GPUs"
+    ]
+  }
+}
