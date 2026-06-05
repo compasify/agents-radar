@@ -1,0 +1,142 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.163 发布，生态标准制定者地位稳固",
+      "OpenAI Codex 密集更新5个Release，专注Windows兼容",
+      "Gemini CLI Agent系统成核心矛盾，安全修复密集",
+      "OpenCode 内存泄漏和成本问题成社区焦点",
+      "Qwen Code Daemon服务化是最大差异化亮点",
+      "DeepSeek TUI 更名/架构调整带来社区活跃与混乱"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.6.1版本涌现零日阻断Bug引担忧",
+      "OpenAI传输失败与Cron状态丢失成P1紧急修复",
+      "Feishu崩溃与会话模型路由漂移已完成修复",
+      "社区热议最新稳定版为何引入阻断性Bug",
+      "支持从GitHub安装ClawHub技能的功能PR提交中",
+      "WhatsApp渠道QA覆盖范围增强正在推进"
+    ],
+    "ai-trending": [
+      "Headroom 获3142星：革命性Token节食器降本60-95%",
+      "ECC 获1750星：Agent技能优化系统精准命中痛点",
+      "Hermes Agent 获1913星：聚焦长期记忆与持续学习",
+      "GitHub Copilot SDK 发布，从工具转向开放平台",
+      "NVIDIA Cosmos 世界模型平台推动Agent具身化",
+      "Open-LLM-VTuber 获581星：开源模型驱动虚拟主播"
+    ],
+    "ai-web": [
+      "OpenAI 发布 ChatGPT Memory Dreaming 记忆功能",
+      "记忆关键词预示AI助手向持续性个性化进化",
+      "Anthropic 静默一日，无任何新增内容发布",
+      "OpenAI 同日三条记忆内容发布彰显战略聚焦",
+      "Memory Dreaming暗示模型后台自主回顾巩固能力",
+      "Anthropic沉默或预示下一轮重大发布准备中"
+    ],
+    "ai-hn": [
+      "Anthropic递归自我改进研究引爆社区390条评论",
+      "Timnit Gebru的LLM风险警告被证实在社区引发唏嘘",
+      "Anthropic开源AI漏洞发现框架获230分好评",
+      "华为发布KVarN：vLLM的KV缓存量化原生后端",
+      "Boxes.dev 展示云端运行Claude Code与Codex",
+      "AI将成为水资源消耗大户引发公众担忧"
+    ],
+    "ai-arxiv": [
+      "STRIDE新方法突破大模型训练数据归因算力瓶颈",
+      "利用丰富反馈强化学习突破二值奖励局限",
+      "失败推理轨迹蕴含比重复尝试更优的训练信号",
+      "深度注意力机制让Transformer深层直接复用浅层值",
+      "不变梯度对齐提升知识蒸馏的鲁棒性与泛化",
+      "多智能体流式通信研究显著提升协作推理效率"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4629赞568万下载成最热焦点",
+      "DeepSeek-V4-Flash闪电版兼顾性能与推理速度",
+      "Qwen3.6-27B获1613赞展现多模态用户基础",
+      "英伟达LocateAnything-3B通用目标定位模型发布",
+      "LiquidAI LFM2.5-8B-A1B代表小而美MoE新趋势",
+      "JetBrains Mellum2-12B专注推理与编程助手优化"
+    ],
+    "ai-community": [
+      "AI Gateways系统讲解LLM生产管线构建受关注",
+      "微软MXC将Windows变为AI Agent OS级安全层",
+      "Headroom技术可减少95% Token消耗引开发者热议",
+      "GitHub Copilot新信用计费机制成本可差24倍",
+      "CostGuard开源项目提供实时AI API成本熔断",
+      "Transformer注意力机制被证明是Hopfield更新规则"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.163 weekly patch",
+      "Codex CLI leads with 10 daily PRs",
+      "Gemini CLI, Kimi Code vendor offerings",
+      "Windows/WSL issues plague many tools",
+      "OpenCode, Pi, Qwen open-source tier",
+      "Cross-platform stability weakest link"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs daily",
+      "Data corruption bugs in v2026.6.1",
+      "Silent cron state wipe reported",
+      "Broken OpenAI Responses transport",
+      "Gateway retry fix still open",
+      "Triage team heavily overloaded"
+    ],
+    "ai-trending": [
+      "headroom: +3,142 stars, token compression",
+      "DeepSeek-V4-Pro: 4,629 likes, 5.7M downloads",
+      "hermes-agent gains 1,913 stars",
+      "Cosmos3 family from NVIDIA trending",
+      "Qwen3.6-35B-A3B MoE popular",
+      "Focus shifts to agent tooling"
+    ],
+    "ai-web": [
+      "OpenAI publishes Memory Dreaming article",
+      "Anthropic has zero new content today",
+      "OpenAI article is metadata-only",
+      "Memory Dreaming on ChatGPT memory",
+      "No crawl text available for analysis",
+      "Anthropic may be preparing a release"
+    ],
+    "ai-hn": [
+      "Anthropic recursive self-improvement paper",
+      "NSA using Anthropic Mythos for cyber ops",
+      "Timnit Gebru warnings fully vindicated",
+      "300 points, 390 comments on AI paper",
+      "Huawei KV-cache quantization framework",
+      "Community split on safety vs. progress"
+    ],
+    "ai-ph": [
+      "InsForge Backend Branching top with 525 votes",
+      "Replicas runs Claude Code, Codex cloud",
+      "Hermes Desktop agent grows with users",
+      "Devin Desktop for coding agent orchestration",
+      "Agent management tools dominate launch day",
+      "Market splits open-source vs. enterprise"
+    ],
+    "ai-arxiv": [
+      "LLM risk decisions misalign with humans",
+      "Base LLMs have latent self-judge ability",
+      "Paper on probing outcome vs. mechanism",
+      "New benchmarks for clinical, engineering",
+      "Privacy-preserving adaptation methods",
+      "Focus on diagnosing model failures"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,629 likes this week",
+      "DeepSeek-V4-Flash: 3.5M downloads",
+      "Qwen3.6-27B: 5.4M downloads strong",
+      "NVIDIA Cosmos3: text-to-image, video",
+      "HauhauCS uncensored Qwen3.6 fine-tune",
+      "MoE architectures and unification trending"
+    ],
+    "ai-community": [
+      "Xiaomi invests $60B into AI",
+      "AI gateways centralize provider routing",
+      "Windows MXC OS-level agent security",
+      "Headroom cuts token usage by 95%",
+      "Copilot's new AI credits billing analyzed",
+      "Developers share hard-won agent lessons"
+    ]
+  }
+}
