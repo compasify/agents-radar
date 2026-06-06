@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code成本投诉成P0热点，官方回应滞后",
+      "OpenAI Codex Windows生态成焦点，rust alpha.5发布",
+      "Gemini CLI三版本同日发布，3.1 Flash Lite GA化",
+      "GitHub Copilot CLI v1.0.60触发大量回归，WSL2/ARM64重灾区",
+      "OpenCode v1.16.0/1.16.2双发，Bedrock生态+安全加固",
+      "Pi 38 Issues爆发，Codex卡死+消息序列崩溃为核心"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时467 Issues/500 PR，极高活跃度",
+      "Matrix通道崩溃等关键回归集中爆发",
+      "2026.6.2补丁版本预计短期内发布",
+      "自动压缩后提示围栏刷新竞态条件修复",
+      "心跳轮询泄露污染Telegram/Slack/Discord对话",
+      "嵌入式运行性能突破，消除event-loop stall"
+    ],
+    "ai-trending": [
+      "hermes-agent 1845星登顶，成长型Agent范式迁移",
+      "headroom 2473星，LLM令牌压缩60-95%",
+      "CopilotKit 32673星+366，AG-UI Protocol制定者",
+      "github/copilot-sdk 309星，IDE智能体平台化",
+      "NVIDIA cosmos世界模型平台持续获关注",
+      "ECC与mempalace聚焦Agent性能优化与记忆系统"
+    ],
+    "ai-web": [
+      "Anthropic单日16篇大规模研究披露",
+      "Claude首次进入化学/NMR光谱硬科学领域",
+      "Widening the conversation战略扩展至宗教哲学",
+      "Chris Olah梵蒂冈演讲承认激励结构冲突",
+      "AI使美国劳动生产率年增长达1.8%",
+      "自然语言自动编码器可解释性突破"
+    ],
+    "ai-hn": [
+      "Claude是否增加rsync bug？276分263评论激辩",
+      "Anthropic罕见呼吁全球暂停AI开发",
+      "程序员宁为AI写文档不愿为人写",
+      "特朗普政府谋求AI公司股权",
+      "Claude Code swarms大规模并行实战经验",
+      "Lich为每个编码代理隔离开发环境"
+    ],
+    "ai-ph": [
+      "Astra Autonomous Pentest 401票，首个闭环自主渗透测试",
+      "微软推出内置Agent的Windows Terminal",
+      "Gemma 4 12B开源多模态模型发布",
+      "Empromptu AI 322票，AI应用转微调训练数据",
+      "Extella.AI 91票，进化型可复用Agent平台",
+      "私有化部署需求显著上升"
+    ],
+    "ai-arxiv": [
+      "多项式权重预处理层PC Layer，零推理开销",
+      "无需循环的RNN预训练突破BPTT限制",
+      "双重预处理DoPr优化滚动推理性能",
+      "跨层共享路由稀疏注意力单次索引",
+      "Agent Memory首次系统刻画长期记忆访问",
+      "渐进式人机协作文本变换检测基准"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4657点赞556万下载碾压全场",
+      "DeepSeek-V4-Flash 1412点赞MIT协议更开放",
+      "Google Gemma-4-12B-it 545星，any-to-any统一多模态",
+      "NVIDIA Cosmos3系列密集发布，世界模型野心",
+      "LiquidAI LFM2.5-8B 526星，非Transformer路线",
+      "JetBrains Mellum2-12B 224星，IDE智能体推理链"
+    ],
+    "ai-community": [
+      "Claude Code插件降本62%，$1.96→$0.74实测",
+      "headroom项目60-95% token压缩审计验证",
+      "MCP安全审计成Dev.to绝对热点7+篇",
+      "推理窃取攻击：你的AI端点成他人免费模型",
+      "vLLM RadixAttention底层优化受关注",
+      "InfiniBand over Thunderbolt系统级深度讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.165 with bug fixes",
+      "OpenAI Codex hits v0.138.0-alpha.5, telemetry focus",
+      "Gemini CLI triple-releases in one day",
+      "Kimi CLI emerges as regional player",
+      "OpenCode leads open-source alternatives",
+      "MCP and prompt caching converge across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 467 issues, 500 PRs in 24h",
+      "2026.6.1 release shows critical stability regressions",
+      "340 open issues signal maintainer strain",
+      "Session-state reliability dominates fixes",
+      "Auth provider resilience under fire",
+      "No new release cuts today"
+    ],
+    "ai-trending": [
+      "hermes-agent gains 1,845 stars in one day",
+      "headroom surges 2,473 stars for context compression",
+      "Agent harness systems emerge as hot category",
+      "Claude-mem and MemPalace chase context memory",
+      "NVIDIA cosmos signals Physical AI momentum",
+      "CopilotKit adds 366 stars, AG-UI protocol gains"
+    ],
+    "ai-web": [
+      "Anthropic dumps 16 articles in one day",
+      "Claude Opus 4.6 and 4.7 surface unannounced",
+      "Chris Olah speaks at Vatican on AI ethics",
+      "OpenAI publishes zero content today",
+      "Mythos Preview model referenced",
+      "Research spans chemistry to interpretability"
+    ],
+    "ai-hn": [
+      "Did Claude increase rsync bugs? 276 points",
+      "Statistical analysis challenges AI code quality",
+      "Anthropic finds Zcash bug, calls for AI freeze",
+      "Documentation shifts to AI-first explanations",
+      "Microsoft-Trump equity stakes raise eyebrows",
+      "Claude chemist paper gets zero HN comments"
+    ],
+    "ai-ph": [
+      "Astra Autonomous Pentest tops with 401 votes",
+      "8 of 15 products target developers",
+      "Gemma 4 12B pushes local AI execution",
+      "Boxes.dev joins self-hosted trend",
+      "Two collaborative voice products emerge",
+      "Build Club Campus revives education AI"
+    ],
+    "ai-arxiv": [
+      "TailLoR protects principal components in continual learning",
+      "PC Layer adds polynomial weight preconditioning",
+      "You Only Index Once shares sparse attention routing",
+      "Test-time optimization overtakes training metrics",
+      "Agent memory architectures advance",
+      "Causal reasoning meets emergent behavior"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 5.5M weekly downloads",
+      "DeepSeek-V4-Flash adds 3.4M more",
+      "NVIDIA places 8 models in top 30",
+      "Qwen 3.6 uncensored fine-tunes outperform official",
+      "Gemma-4-12B debuts any-to-any architecture",
+      "Sulphur-2-base sparks video generation revival"
+    ],
+    "ai-community": [
+      "MCP complexity debates dominate Dev.to",
+      "Claude Code plugin cuts costs 62%",
+      "Inference theft emerges as new attack vector",
+      "Gemma 4 12B runs on laptops",
+      "Security matures beyond prompt injection",
+      "Multi-agent patterns gain ecosystem traction"
+    ]
+  }
+}
