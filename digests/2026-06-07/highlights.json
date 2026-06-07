@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24h 连发 3 版 v2.1.166-168，Opus thinking 回归",
+      "OpenAI Codex 配额异常投诉集中爆发，全局指令系统重构",
+      "OpenCode v1.16.0 陷回归危机，AWS Bedrock/Windows 冻结",
+      "Qwen Code v0.17.1-nightly 修复 OOM，Daemon HTTP API 扩张",
+      "DeepSeek TUI v0.9.0 验收中，WhaleFlow 工作流引擎亮相",
+      "Kimi CLI 活跃度垫底，仅 1 个 Issue 无 PR，显著掉队"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 296 Issues/500 PRs，极高活跃度",
+      "v2026.6.5-beta.2 发布，QQBot 推理内容过滤上线",
+      "MCP 工具结果类型强制转换，兼容性升级",
+      "ACPX 进程状态迁移至 SQLite，减少文件依赖",
+      "P1 Bug 占比偏高，ChatGPT 传输层存系统性问题",
+      "Cron 调度器故障需关注修复进度"
+    ],
+    "ai-trending": [
+      "open-notebook 今日 +794 星，Notebook LM 开源替代登顶",
+      "CopilotKit +631 星，AG-UI 协议引领生成式 UI",
+      "Agent-Reach +683 星，零 API 费聚合全网信息",
+      "obra/superpowers +700 星，Agentic 技能框架爆发",
+      "MemPalace 等记忆层项目从概念走向工程化",
+      "last30days-skill +439 星，跨平台 AI 研究技能"
+    ],
+    "ai-web": [
+      "Anthropic 发布《How we contain Claude》，Agent 安全基础设施纵深推进",
+      "首次披露 Claude Mythos Preview，因 blast radius 过高暂缓发布",
+      "核心论点转变：高权限 Agent 从拒绝到受控拥抱",
+      "containment 架构覆盖 Claude.ai/Code/Cowork 三产品",
+      "OpenAI 今日官网零新增，处于发布静默期",
+      "模型发布节奏将取决于安全基础设施成熟度"
+    ],
+    "ai-hn": [
+      "S&P 500 拒纳 SpaceX/OpenAI/Anthropic，估值泡沫引热议",
+      "Ask HN: Why is HN crowd so anti-AI? 376 分 628 评论",
+      "Meta 承认 AI 聊天机器人致数千 Instagram 账户被盗",
+      "OpenAI 推出 Lockdown Mode 应对提示注入攻击",
+      "Making Claude a Chemist 探索大模型科学领域深化",
+      "AI Memory 95% 错误率研究引发记忆系统质疑"
+    ],
+    "ai-ph": [
+      "Minimi 484 票登顶，解决 Claude 长期记忆缺失",
+      "Leni 383 票，投资研究 AI 强调准确率优先",
+      "Agent Mode on Arena 183 票，从对话到执行闭环",
+      "Recursi 自改进 vibe coding 环境，本地运行无 API 费",
+      "NVIDIA 微软加码基础模型与语音能力",
+      "开源本地部署成差异化竞争关键词"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 551 万下载，开源对话模型新标杆",
+      "DeepSeek-V4-Flash MIT 许可，343 万下载降低商用门槛",
+      "NVIDIA Nemotron 3 Ultra 550B MoE 数据中心级发布",
+      "Google Gemma-4-12B 原生 any-to-any 多模态架构",
+      "JetBrains Mellum2-12B 自研 LLM，IDE 巨头下场",
+      "LiquidAI LFM2.5-8B-A1B 新兴 MoE 架构玩家"
+    ],
+    "ai-community": [
+      "$140 万 AI 系统拒修漏洞，20 天后损失 $420 万",
+      "memory-first 编程范式，开源模型组合击败闭源前沿",
+      "AI Slop 成软件工程问题，编译通过但逻辑错误",
+      "AI 生成代码安全漏洞被系统性忽视",
+      "碳感知训练：按电网碳强度调度 GPU 任务",
+      "斯坦福 51 次部署揭示人机协作编码悖论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped v2.1.166–168 in 24 hours.",
+      "OpenAI Codex logged 10+ active issues today.",
+      "Agentic reliability is now baseline, not differentiator.",
+      "Field splits between orchestration platforms and editor companions.",
+      "Windows parity remains unresolved across all tools.",
+      "Claude Code has 9+ hot issues and 5+ reopenings."
+    ],
+    "ai-agents": [
+      "OpenClaw hit 296 issues and 500 PRs in 24h.",
+      "OpenClaw shipped v2026.6.5-beta.1 and beta.2.",
+      "QQBot reasoning leak fixed in OpenClaw beta.",
+      "408:92 open-to-merged PR ratio signals review backlog.",
+      "Session state integrity is a top community concern.",
+      "MCP tool result coercion polished in latest beta."
+    ],
+    "ai-trending": [
+      "Agent-Reach gained +683 stars today.",
+      "open-notebook gained +794 stars today.",
+      "superpowers gained +700 stars as agent skills framework.",
+      "MemPalace emerges as open memory system alternative.",
+      "CopilotKit defines AG-UI protocol with 33,202 stars.",
+      "Microsoft VibeVoice enters open-source voice AI frontier."
+    ],
+    "ai-web": [
+      "Anthropic published containment engineering deep-dive.",
+      "Claude Mythos Preview was withheld in April 2026.",
+      "Anthropic grants AI access to take down internal services.",
+      "Containment engineering enables more capable agent deployment.",
+      "Risk-reward calculus tipping toward AI adoption.",
+      "OpenAI published zero new articles today."
+    ],
+    "ai-hn": [
+      "S&P 500 excludes SpaceX, OpenAI, Anthropic over profits.",
+      "Meta AI chatbot exploited to hack Instagram accounts.",
+      "OpenAI launches Lockdown Mode for prompt injection.",
+      "Ask HN debates HN's own anti-AI sentiment.",
+      "AI-designed universal coronavirus vaccine passes human trial.",
+      "Making Claude a Chemist posted by Anthropic."
+    ],
+    "ai-ph": [
+      "Minimi tops with 484 votes for Claude ambient memory.",
+      "Leni and Veltrix AI target financial verticals.",
+      "Arena launches Agent Mode for real-world tasks.",
+      "NVIDIA Nemotron 3 Ultra debuts for developers.",
+      "Ideogram 4.0 ships with open weights.",
+      "LocalClicky offers on-device voice control."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 5.5M downloads.",
+      "DeepSeek-V4-Flash hits 3.4M downloads under MIT license.",
+      "NVIDIA places 9 models across vision, speech, video, LLM.",
+      "Nemotron 3 Ultra is a 550B-parameter model.",
+      "Google Gemma 4 pushes any-to-any multimodal native.",
+      "Sulphur-2-base video model passes 1.7M downloads."
+    ],
+    "ai-community": [
+      "$1.4M AI blocked fix that later cost $4.2M.",
+      "aislop and AgentSync version-control AI configs.",
+      "Memory-first harness beats frontier models with open ones.",
+      "Papers on AI worms and behavioral transmission emerge.",
+      "Carbon-aware training gains community attention.",
+      "KV-cache quantization pushed for efficiency at scale."
+    ]
+  }
+}
