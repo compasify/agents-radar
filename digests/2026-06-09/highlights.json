@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.169 发布 safe-mode 与 /cd 指令",
+      "OpenAI Codex v0.138.0 稳定版上线，GPT-5.5 404 引 76 评论热议",
+      "Pi v0.79.0 Project Trust 功能引发社区争议",
+      "Qwen Code v0.17.1-nightly 聚焦 OOM 治理与 ACP 生态",
+      "OpenCode 10 条 PR 猛攻 ACP 协议与 Bedrock 修复",
+      "DeepSeek TUI v0.8.5 品牌迁移与成本危机并行"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues、494 PR 创纪录活跃",
+      "v2026.6.5-beta.5 紧急封堵 QQBot thinking 内容泄漏",
+      "MCP 工具结果强制类型转换，Skill 兼容性告急",
+      "332 个待合并 PR 审阅队列形成严重瓶颈",
+      "P1 级 Bug 积压：gpt-5.4/5.5 传输故障未收敛",
+      "子代理会话泄漏与 Steer 模式失效威胁稳定性"
+    ],
+    "ai-trending": [
+      "AutoGPT 稳居 AI 智能体工作流顶流",
+      "ollama 大模型训练工具持续高热",
+      "CopilotKit 基础工具+智能体双标签领跑",
+      "activepieces 工作流自动化获双重定位",
+      "CherryStudio AI 应用层异军突起",
+      "NousResearch Hermes Agent 智能体新贵崛起"
+    ],
+    "ai-web": [
+      "Anthropic 首提 Agent 基础设施战略，生物数据库需重构",
+      "gget virus 确定性检索层将 Agent 准确率推至近 100%",
+      "OpenAI 机密提交 S-1 招股书，IPO 进入倒计时",
+      "OpenAI 同步发布使命叙事与经济研究双布局",
+      "Laura Luebbert 团队开辟垂直领域中间层商机",
+      "两家战略分化：Anthropic 攻技术接口，OpenAI 攻制度层"
+    ],
+    "ai-hn": [
+      "OpenAI 提交 IPO 机密文件完全主导 HN 热度榜",
+      "Intuned YC S22 浏览器自动化获 98 分 44 评论高互动",
+      "Rayline 子代理路由至本地廉价模型引关注",
+      "Anthropic Project Glasswing 安全透明化遭冷遇",
+      "Melanie Mitchell 锯齿状智能理论零评论边缘化",
+      "Claude Fable 5 发布预告显示产品迭代加速"
+    ],
+    "ai-ph": [
+      "Google Labs Dreambeans 361 票登顶，个人数据驱动 AI 叙事",
+      "Caddie 能说话的会议笔记瞄准销售 ROI 痛点",
+      "Job Postings API 238 票，180 万职位数据开放监控",
+      "Daisy 本地隐私优先设计反主流获关注",
+      "FactGuard 实时事实核查产品化可信度焦虑",
+      "Command Center 质量优先 AI 编码环境定位细分"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 540 万下载量刷新开源大模型纪录",
+      "DeepSeek-V4-Flash 326 万证明小钢炮路线成功",
+      "Google Gemma-4-12B 原生 any-to-any 架构引量化热潮",
+      "Sulphur-2-base、Bernini-R、JoyAI-Echo 视频生成三强并立",
+      "NVIDIA Nemotron-3.5 550B 与 LocateAnything-3B 垂直布局",
+      "HauhauCS Qwen3.6-35B-A3B Uncensored 303 万下载验证需求"
+    ],
+    "ai-community": [
+      "12 年经验被打包成 AI Skill 后遭裁员，崩溃时 CTO 5 倍薪资召回",
+      "Prompt Engineering 已死，System Engineering 是未来",
+      "对抗性测试框架攻击 5 个 LLM 全军覆没",
+      "幻觉检测不是模型问题，是基础设施问题",
+      "9 家 Serverless GPU 推理成本实测指南",
+      "Postgres pgvector 2026 全栈 RAG 实现参考"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.169 shipped, low PR velocity",
+      "OpenAI Codex rust-v0.138 released",
+      "9 major CLI tools now competing in multi-polar arena",
+      "MCP servers becoming shared primitive across tools",
+      "Open-source alternatives compete on local-first deployment",
+      "Agent reliability dominates engineering priorities"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 494 PRs in 24 hours",
+      "v2026.6.5-beta.5 fixes QQBot thinking leak",
+      "89% issues open, 67% PRs unmerged — backlog risk",
+      "13 projects covered in OpenClaw ecosystem",
+      "MCP tooling robustness focus in beta releases",
+      "Session state reliability top community concern"
+    ],
+    "ai-trending": [
+      "last30days-skill gained +3,558 stars today",
+      "Agent harness emerges as distinct architectural pattern",
+      "Google skills and OpenAI plugins both trended",
+      "turbovec: +1,729 stars for Rust vector index",
+      "Memory systems converge with agent frameworks",
+      "Rust gains traction for AI infrastructure"
+    ],
+    "ai-web": [
+      "Anthropic publishes agent reliability in biology research",
+      "Deterministic retrieval essential for scientific agents",
+      "gget virus tool achieves near-perfect accuracy",
+      "OpenAI S-1 filing submission detected in metadata",
+      "OpenAI public-benefit framing document surfaced",
+      "Anthropic vs OpenAI: technical depth vs latent signals"
+    ],
+    "ai-hn": [
+      "OpenAI confidential S-1 filing dominates discourse",
+      "Anthropic Project Glasswing covered by Bruce Schneier",
+      "Claude Fable 5 release teased",
+      "Anthropic measures LLM impact on N-day exploits",
+      "HN debates platform vitality amid AI saturation",
+      "Cost reduction tools target AI-assisted coding"
+    ],
+    "ai-ph": [
+      "Google Labs launches Dreambeans AI storytelling",
+      "Dreambeans: 361 votes, leverages cross-app data",
+      "Privacy-first Daisy offers on-device transcription",
+      "NAADI brings AI to accounting vertical",
+      "FactGuard targets AI fact-checking niche",
+      "Job Postings API enters recruitment intelligence"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,720 likes, 5.4M downloads",
+      "Gemma-4 series generates strong ecosystem activity",
+      "NVIDIA Nemotron-3-Ultra: 550B parameters trending",
+      "Sulphur-2-base heats up video generation",
+      "HauhauCS Qwen3.6-35B uncensored fine-tune popular",
+      "ByteDance Bernini-R enters video generation race"
+    ],
+    "ai-community": [
+      "Company packaged 12 years experience into AI skill, failed",
+      "CTO begged laid-off engineer back at 5× salary",
+      "9 serverless GPU providers benchmarked for inference",
+      "MCP vs simple CLI debate intensifies",
+      "RTT manipulation emerges as novel AI agent exploit",
+      "Vibecoding production lessons shared widely"
+    ]
+  }
+}
