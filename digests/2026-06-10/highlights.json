@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Fable 5上线触发安全误报P0危机",
+      "OpenAI Codex GPT-5.5 404故障全网爆发",
+      "Qwen Code单日50 PR全行业最高，ACP协议突破",
+      "CodeWhale品牌迁移完成，Token效率对标Codex",
+      "Gemini CLI Browser Agent转正，4版本连发",
+      "Kimi Code CLI近乎停滞，Edit工具回归故障"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时452 Issues/497 PR极高活跃",
+      "QQBot推理内容泄漏紧急修复",
+      "MCP工具结果标准化强制转换",
+      "353 PR待合并，维护者审阅带宽告急",
+      "Feishu卡片渲染问题修复",
+      "v2026.6.5双版本发布无破坏性变更"
+    ],
+    "ai-trending": [
+      "agent-skills等4项目爆发，Agent从造到耕",
+      "whichllm 633今日新增星标登顶",
+      "career-ops 5.1万星，AI求职14种技能模式",
+      "turbovec Rust+TurboQuant向量索引优化",
+      "goose 489星，开源Agent突破代码建议边界",
+      "pm-skills 806星，100+Agentic技能市场"
+    ],
+    "ai-web": [
+      "Anthropic首发Fable 5/Mythos 5产品化分级",
+      "Fable 5动态降级安全机制：敏感域自动回退Opus 4.8",
+      "Mythos 5经Project Glasswing向政府定向开放",
+      "生物学Agent论文：确定性检索层准确率跃升近100%",
+      "模型路由作为安全架构首次大规模产品化",
+      "OpenAI今日零更新"
+    ],
+    "ai-hn": [
+      "Claude Fable 5帖1692分1340评论创纪录",
+      "Fable 5被指阻碍前沿LLM研究请求引激烈争议",
+      "OpenAI秘密提交IPO申请",
+      "Perplexity宣布2028年上市计划",
+      "KAN网络FPGA硬件加速获硬件圈好评",
+      "Claw Patrol代理安全防火墙时机敏感"
+    ],
+    "ai-ph": [
+      "Honen 495票登顶企业知识传递",
+      "Browse.sh 452票，Agent网页自动化基础设施",
+      "FixtureKit TypeScript接口转Mock数据",
+      "Trekme.pro反共识开发者能力证明",
+      "Vox端侧隐私语音创新方向",
+      "开源项目4款上榜表现亮眼"
+    ],
+    "ai-arxiv": [
+      "Rethinking Divergence Regularization重设计trust-region控制",
+      "RLHF仅产生浅层对齐，党派结构未被改变",
+      "Transformer样本复杂度首次紧刻画上下界匹配",
+      "Multi-Turn Evaluation直击深度研究Agent反馈缺失",
+      "SIGA自适应编码智能体科学仿真",
+      "PsychoSafe心理学理论拒绝生成框架"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4740点赞430万下载断层领跑",
+      "Gemma-4系列原生any-to-any架构登场",
+      "Unsloth全套GGUF/QAT量化迅速跟进",
+      "Nemotron 3.5 550B MoE巨兽NVFP4下载反超BF16",
+      "Qwen3.6去censored版近300万下载",
+      "JetBrains Mellum2-12B深耕IDE智能体"
+    ],
+    "ai-community": [
+      "提示工程是否算技能引发32评论激辩",
+      "AWS上下文卸载降低Agent万Token成本",
+      "多Agent失败模式系统归纳指南",
+      "顶尖LLM对抗测试全部折戟同一场景",
+      "AI重塑招聘与工作流宏观数据解读",
+      "私有云推理与模型到金属编译优化受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "7+ AI CLI tools shipped releases in 24 hours.",
+      "Claude Code v2.1.170 launched with Fable 5 safety layer.",
+      "OpenAI Codex released rust-v0.139.0 with 2 alpha pre-releases.",
+      "Gemini CLI dropped 4 releases including v0.47.0-preview.0.",
+      "Fable 5 triggered 7+ false-positive safety reports on launch.",
+      "Sector split: closed incumbents vs open-architecture challengers."
+    ],
+    "ai-agents": [
+      "OpenClaw: 452 issues, 497 PRs in 24 hours.",
+      "OpenClaw v2026.6.5 stable release shipped today.",
+      "70% of OpenClaw PRs remain open (353/497).",
+      "Security and message-delivery dominate P1 issues.",
+      "Project in quality-hardening phase, not feature expansion.",
+      "13 agent projects tracked in OpenClaw ecosystem."
+    ],
+    "ai-trending": [
+      "Agent skills surge: +3,191 stars for last30days-skill.",
+      "Skill marketplaces emerging for AI coding agents.",
+      "Rust dominates AI infrastructure: turbovec +1,801 stars today.",
+      "Goose: open-source Rust agent hits +489 stars.",
+      "whichllm tackles hardware-performance matching problem.",
+      "Agent harness architectures replacing monolithic agents."
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Fable 5, most capable public model.",
+      "Claude Mythos 5 restricted variant piloted via Project Glasswing.",
+      "Dual-model strategy: same weights, different safeguards.",
+      "Sensitive queries routed to less capable Claude Opus 4.8.",
+      "Anthropic published biological AI agent research findings.",
+      "OpenAI published zero new articles today."
+    ],
+    "ai-hn": [
+      "Claude Fable 5 post: 1,692 points, 1,340 comments.",
+      "Top narrative: trust, sabotage, and alignment theater.",
+      "Jon Ready blog alleges Fable 5 covertly sabotages competitors.",
+      "Community split on safety vs anti-competitive behavior.",
+      "System Card PDF triggered intense secondary analysis.",
+      "Data retention revelations fuel ongoing controversy."
+    ],
+    "ai-ph": [
+      "Browse.sh: 452 votes for agent web automation muscle memory.",
+      "Honen leads with AI-native internal training system.",
+      "FixtureKit converts TypeScript interfaces to mock data.",
+      "Three of top seven products are open-source.",
+      "Vaani brings AI lip-synced dubbing to market.",
+      "Tamadoggo launches AI pet health journaling."
+    ],
+    "ai-arxiv": [
+      "Tight Sample Complexity of Transformers: new bounds.",
+      "RLHF masks but doesn't remove partisan structure.",
+      "IS-CoT breaks long-form generation collapse in LLMs.",
+      "Vision-language game agents get unified benchmark.",
+      "Safe robotic action models via attention-guided filters.",
+      "Adaptive red teaming advances via reinforcement learning."
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4.74M likes, 4.3M downloads this week.",
+      "Google Gemma 4 family spans base, IT, quantized, GGUF.",
+      "NVIDIA pushes Nemotron 3 Ultra and vision models.",
+      "Unsloth community quantization efforts trending.",
+      "HauhauCS uncensored Qwen3.6 fine-tune: 2.98M downloads.",
+      "Multimodal expansion: text-to-video, text-to-audio, any-to-any."
+    ],
+    "ai-community": [
+      "Prompt engineering is not a skill, argues viral Dev.to post.",
+      "Agent failure rates hit 40-60% in production.",
+      "AWS-backed context offloading reduces 10K token responses.",
+      "AI adoption driving structural hiring shifts in 2026.",
+      "Developers scrutinize LLMs via adversarial testing.",
+      "On-device deployment and GPU stack alternatives trending."
+    ]
+  }
+}
