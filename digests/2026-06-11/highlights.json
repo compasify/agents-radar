@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172发布，但上下文污染和远程崩溃问题严重",
+      "OpenAI Codex桌面端崩溃、Token消耗过快，用户体验下降",
+      "Gemini CLI v0.46.0上线，Agent挂起和无限重试问题突出",
+      "OpenCode v1.17.3发布后趋于稳定，大型仓库优化中",
+      "GitHub Copilot CLI流式渲染失真，MCP策略误判成痛点",
+      "多智能体协作已成核心方向，但稳定性成最大挑战"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1发布，大幅收紧安全边界",
+      "24小时内500条Issue和500条PR更新，社区异常活跃",
+      "安全隔离和会话状态管理成为修复焦点",
+      "已删除智能体绕过漏洞被成功修复",
+      "多平台安全修复覆盖Discord和Teams群组",
+      "长期积压问题等待产品决策，影响用户体验"
+    ],
+    "ai-trending": [
+      "AutoGPT获18.4万星，AI自主任务先驱持续领跑",
+      "ollama支持Kimi和GLM，本地模型霸主再扩版图",
+      "DeepSeek-V4-Pro登顶HuggingFace，点赞超4700",
+      "vllm以82k星稳居LLM推理黄金标准",
+      "Agent技能生态爆发，数个项目获数千星",
+      "轻量化与本地化成主流，端侧推理需求激增"
+    ],
+    "ai-web": [
+      "Anthropic研究揭示生物数据基础设施是AI Agent瓶颈",
+      "确定性检索层让生物数据检索准确率提升至近100%",
+      "OpenAI或与Oracle Cloud建立企业级合作",
+      "Anthropic强调先精确后智能的架构设计思路",
+      "两大巨头上演基础设施与应用落地的差异化路径",
+      "Anthropic内容聚焦如何让AI在科研中真正有用"
+    ],
+    "ai-hn": [
+      "HelixDB发布，用Rust构建图数据库降本增效",
+      "轻量级150M模型实现RAG精准原文提取，无需LLM",
+      "社区对Claude Fable 5的激进数据收集政策强烈不满",
+      "越狱Fable 5的消息引发安全措施有效性讨论",
+      "Fable 5系统提示词被公开，引发深度分析",
+      "实时音乐生成模型登榜，无需GPU在iPhone运行"
+    ],
+    "ai-arxiv": [
+      "CoT微调会破坏长上下文召回，论文提出解决方案",
+      "推理模型可能损害原有的安全对齐和拒绝能力",
+      "SFT被重新定义为目标分布设计问题",
+      "多智能体系统评估框架大量涌现",
+      "跨语言场景下LLM存在分布性偏差风险",
+      "LLM自动化叙事被批判，基准测试存在根本缺陷"
+    ],
+    "ai-community": [
+      "盲目信任AI代码风险大，开发者需保持批判性",
+      "AI面试系统偏见问题引发伦理讨论",
+      "提示工程转向知识增强成为新趋势",
+      "AI顺从偏见比幻觉更危险，会强化错误假设",
+      "Agent密钥管理和状态持久化成基础设施痛点",
+      "AgentLiar工具可检测编程Agent虚假完成任务"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds recursive sub-agents",
+      "OpenAI Codex expands context window tools",
+      "Gemini CLI struggles with agent reliability",
+      "GitHub Copilot CLI sees zero releases",
+      "Qwen Code iterates on Windows parity",
+      "Common pain: terminal rendering quality"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1 tightens security",
+      "401 open PRs signal review bottleneck",
+      "Hermes Agent framework surges in popularity",
+      "NanoBot iterates on lightweight agents",
+      "PicoClaw targets edge device deployment",
+      "ZeroClaw launches as experimental project"
+    ],
+    "ai-trending": [
+      "Agent skills paradigm shift dominates trending",
+      "graphify hits 64K stars for KG RAG",
+      "deer-flow reaches 70K enterprise grade",
+      "hermes-agent tops at 189K stars",
+      "apple/container skyrockets 1,611 stars",
+      "vllm remains de facto LLM serving engine"
+    ],
+    "ai-web": [
+      "Anthropic: agents need deterministic data plumbing",
+      "OpenAI signals move to Oracle Cloud",
+      "Bio agent accuracy jumps to near 100%",
+      "Frontier models fail at 65% retrieval",
+      "New paradigm: agent-native databases",
+      "Research essay paves way for biology"
+    ],
+    "ai-hn": [
+      "Anthropic data-sharing on Bedrock sparks fury",
+      "Claude Desktop virtualization overhead criticized",
+      "Fable 5 launches with immediate backlash",
+      "Guardrails prevent legitimate red-teaming",
+      "Model naming scheme satirized by community",
+      "Distrust shifts sentiment from excitement"
+    ],
+    "ai-ph": [
+      "VC Boom launches AI venture matching",
+      "ZeroGPU tackles compute efficiency",
+      "agmsg enables agent-to-agent messaging",
+      "Krisp unveils real-time voice translation",
+      "Kimi Work redefines knowledge work desktop",
+      "AgentOS emerges for multi-agent systems"
+    ],
+    "ai-arxiv": [
+      "Test-time steering surpasses static fine-tuning",
+      "Phase diagram optimizes multimodal learning",
+      "CoT improvements hide alignment degradation",
+      "KV-cache innovations boost inference efficiency",
+      "Shibboleth effect reveals cross-lingual bias",
+      "Agent evaluation targets biosecurity risks"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 4,758 likes",
+      "Gemma-4 any-to-any models go trending",
+      "NVIDIA Nemotron Ultra 550B released",
+      "LiquidAI LFM2.5 8B excels for size",
+      "GGUF quantized variants see explosive downloads",
+      "Cohere North-Mini-Code specializes in coding"
+    ],
+    "ai-community": [
+      "Fable 5 and Mythos 5 share identical weights",
+      "Devs inspect Claude Code data sent home",
+      "AI agents strain secret managers crisis",
+      "Context engineering beats prompt engineering",
+      "Sycophancy bias reinforces bad decisions",
+      "RAG testing series offers practical guidance"
+    ]
+  }
+}
