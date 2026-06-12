@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.173发布，但面临Fable 5成本失控",
+      "OpenAI Codex连发4个Alpha版本应对模型升级",
+      "GitHub Copilot CLI v1.0.61引发回归Bug大量讨论",
+      "Pi社区爆发式提交，开源力量激进展露",
+      "AI CLI工具共同聚焦Agent行为可预测性",
+      "开源工具OpenCode和Qwen Code紧跟上游功能对齐"
+    ],
+    "ai-agents": [
+      "OpenClaw社区日提500条Issue，合并率仅22%",
+      "跨平台Clawdbot应用Issue #75获109条评论",
+      "会话状态丢失与安全边界成社区核心痛点",
+      "Cron调度修复PR #92250和#92277已合并",
+      "记忆系统稳定性PR #90727修复索引元数据丢失",
+      "用户强烈请求提供预编译Android APK安装包"
+    ],
+    "ai-trending": [
+      "Agent技能包项目agent-skills单日增3278星",
+      "NVIDIA发布SkillSpector安全扫描AI Agent技能",
+      "Ollama更新支持Kimi-K2.6和GLM-5.1模型",
+      "高性能推理引擎vLLM累积82,588星",
+      "Java版LangChain4j吸引企业级开发者涌入",
+      "自我改进AI框架SIA探索模型自主优化"
+    ],
+    "ai-web": [
+      "Anthropic与DXC联盟，将Claude嵌入银行核心系统",
+      "Claude参与DXC OASIS平台超95%代码编写",
+      "Anthropic投入1.5亿美元启动Claude Corps奖学金",
+      "DXC培训数万名Claude认证前线部署工程师",
+      "OpenAI被曝收购'Ona'巩固数据与技术护城河",
+      "Anthropic双管齐下：企业落地与社会责任并重"
+    ],
+    "ai-hn": [
+      "Anthropic为Claude Fable模型隐藏护栏公开道歉",
+      "Claude Fable 5编程基准测试仅排中游引发质疑",
+      "Anthropic撤回可能破坏研究人员的争议政策",
+      "社区情绪强烈不满，集中在成本与透明度",
+      "OpenAI被曝考虑大幅降价应对Anthropic竞争",
+      "AI编码工作流和开源模型权重讨论热度高"
+    ],
+    "ai-ph": [
+      "Publora专为AI Agent打造多平台发布API夺597票",
+      "TypingMind按量付费模式挑战传统订阅制",
+      "Spotlight为Claude Code提供会话报告优化代码",
+      "SeaTicket用AI Agent自动化跨渠道工单处理",
+      "机器人产品Axol和OLO Robotics向物理世界延伸",
+      "今日产品聚焦降低AI使用门槛与开发效率"
+    ],
+    "ai-arxiv": [
+      "新论文用可解释性剖析模型后训练学习信号",
+      "研究首次审计LLM训练对其它模型的递归依赖",
+      "LLM面对误导性医学上下文判断力极其脆弱",
+      "论文提出记忆原子压缩解决长上下文计算成本",
+      "研究从理论上论证提取AI隐藏知识不可能",
+      "新工作系统分析具身智能推理时计算分配"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro开源登顶，获4,781点赞",
+      "NVIDIA LocateAnything-3B引领图像定位潮流",
+      "量化模型下载量极高，社区追求高效推理",
+      "Google Diffusion Gemma实现多模态理解与生成",
+      "LiquidAI LFM2.5高效MoE模型受小模型部署追捧",
+      "NVIDIA Nemotron-3超大规模MoE旗舰发布"
+    ],
+    "ai-community": [
+      "Agent安全性与可观测性成为社区讨论焦点",
+      "RAG系统生产级落地转向混合搜索与边缘测试",
+      "11岁女孩提问引发开发者对Vibe Coding反思",
+      "Google ADK五层安全机制防御提示注入详解",
+      "Agent记忆'授权不等于意图'失效模式引关注",
+      "开发者聚焦如何区分Agent正常运行与正确运行"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "9 tools tracked, major cluster of regressions",
+      "Claude Code v2.1.173 bugfix released",
+      "Agent cost explosions hit Claude Code",
+      "Cross-tool streaming stability issues",
+      "OpenAI Codex in 4 Rust alpha builds",
+      "GitHub Copilot CLI hit by regression cluster"
+    ],
+    "ai-agents": [
+      "500 issues and PRs updated in 24 hours",
+      "0 new releases; maintainer bottleneck",
+      "110 PRs merged, but 478 issues remain",
+      "Cron job reliability fixed in two PRs",
+      "Community frustrated by growing backlog",
+      "Model catalog warning added to doctor command"
+    ],
+    "ai-trending": [
+      "Agent skills infrastructure gains 7K+ stars",
+      "addyosmani/agent-skills +3,278 stars today",
+      "NVIDIA/SkillSpector scans agent skills",
+      "phuryn/pm-skills +1,978 stars",
+      "ollama/ollama hits 173,899 stars",
+      "Shift from agents to reusable skill ecosystems"
+    ],
+    "ai-web": [
+      "Anthropic partners with DXC for regulated industries",
+      "$150M Claude Corps fellowship launched",
+      "OpenAI cryptic acquisition of ONA",
+      "Strategy shifts from models to integration",
+      "Claude embedded in banking and airlines",
+      "DXC alliance for government and enterprise"
+    ],
+    "ai-hn": [
+      "Anthropic apologizes for secret Claude guardrails",
+      "Price war between OpenAI and Anthropic",
+      "Opaque distillation guardrails breach trust",
+      "Claude Fable backlash with 273-score thread",
+      "Community debates censorship and pricing",
+      "Wired: Anthropic walks back sabotage policy"
+    ],
+    "ai-ph": [
+      "Top launches lean into agentic infrastructure",
+      "Publora: API for agents to post on 10 platforms",
+      "SeaTicket: AI agent resolving cross-channel issues",
+      "iArt.ai: video generation maturing",
+      "OLO Robotics: no-setup robot control",
+      "Shift from AI chat to AI automation"
+    ],
+    "ai-arxiv": [
+      "Inference-time compute shift across modalities",
+      "First audit of recursive model dependencies",
+      "Mechanistic interpretability for post-training",
+      "Impossibility of eliciting latent knowledge",
+      "Scalable governance for production agents",
+      "Where and when to allocate compute"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4M+ downloads",
+      "Gemma-4 family has 10 variants in top 30",
+      "NVIDIA's LocateAnything-3B tops vision",
+      "Nemotron-3 Ultra 550B for enterprise",
+      "Boson AI and NVIDIA advance real-time audio",
+      "Community fine-tunes and quantizations explode"
+    ],
+    "ai-community": [
+      "Vibe coding reckoning hits front page",
+      "Google drops DiffusionGemma and ADK security",
+      "Nature paper on behavioral trait transmission",
+      "HazelJS 1.0.0 stable AI-native framework",
+      "Anthropic acquisition of Bun shapes tools",
+      "$3,000 unauthorized refund example shown"
+    ]
+  }
+}
