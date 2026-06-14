@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.177，聚焦持久化记忆与远程协作。",
+      "OpenAI Codex 活跃度极高，10个PR聚焦Windows兼容性修复。",
+      "Gemini CLI 社区热议Agent挂起与MCP集成问题。",
+      "GitHub Copilot CLI v1.0.62 发布，新增本地模型支持。",
+      "OpenCode v1.17.6 深度集成MCP，TUI体验大幅优化。",
+      "Pi v0.79.3 修复成本缓存Bug，扩展多模型支持。"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目极其活跃，24小时内提交大量Issues和PRs。",
+      "内存泄漏问题 (#91588) 导致OOM崩溃，为当前最严重Bug。",
+      "子代理与Cron任务报告数据丢失，系统韧性有待加强。",
+      "发布 v2026.6.8-beta.1，优化Telegram和WhatsApp投递。",
+      "发布 v2026.6.7-beta.1，增强Slack等渠道的投递紧密度。",
+      "关键PR修复Cron任务投递目标丢失问题，已合并。"
+    ],
+    "ai-trending": [
+      "agent-skills 项目今日狂揽1514 Stars，成为最大赢家。",
+      "superpowers 项目获得924 Stars，定义Agent开发方法论。",
+      "LMCache 获238 Stars，加速LLM推理的KV缓存层。",
+      "andrewyng/aisuite 获127 Stars，统一多LLM API接口。",
+      "NVIDIA 推出Agent安全扫描器，关注可观测性治理。",
+      "ollama 持续领跑，更新支持最新Kimi、GLM等模型。"
+    ],
+    "ai-web": [
+      "Anthropic 发布最强模型 Claude Fable 5，安全路由机制创新。",
+      "美国政府下令暂停Fable 5访问，援引国家安全权力。",
+      "Fable 5 在软件工程、科学研究等长任务上优势显著。",
+      "Anthropic 被迫全面关闭 Fable 5 和 Mythos 5 访问。",
+      "高达5%的无害请求被Fable 5安全路由误判降级。",
+      "事件是政府直接干预商用AI模型部署的标志性转折点。"
+    ],
+    "ai-hn": [
+      "美国政府下令Anthropic暂停Fable 5访问，引爆社区讨论。",
+      "开发者展示用Fable构建的80款小游戏，引发模型可靠性担忧。",
+      "Shepherd's Dog 游戏展示Fable叙事能力，社区对API中断失望。",
+      "GLM 5.2 低调发布，社区讨论其作为开源替代方案的可能。",
+      "文章重申LLM无意识，社区认为澄清对制定政策至关重要。",
+      "执法部门滥用AI造假丑闻引发社区强烈关注与担忧。"
+    ],
+    "ai-ph": [
+      "Firma.dev 获351票，以3美分成本颠覆电子签名API。",
+      "Qursor 获312票，通过指向UI元素革新AI交互范式。",
+      "Meet Warren 3.0 获134票，AI语音交互财务规划伙伴。",
+      "Bob's CLI 获高赞，本地优先、自适应编程习惯的AI工具。",
+      "今日产品呈工具化与垂直化趋势，开发者工具为主流。",
+      "AI Agent概念从通用聊天机器人向解决特定流程演变。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以4813点赞、325万下载成社区霸主。",
+      "Google Gemma 4 系列成绝对焦点，引领多模态浪潮。",
+      "OBLITERATUS 对Gemma 4进行‘泄禁’，引发对齐讨论。",
+      "nvidia/LocateAnything-3B 获1959赞，精准视觉定位模型。",
+      "bosonai/higgs-audio-v3-tts-4b 高赞，展现音频生成热度。",
+      "HauhauCS/Qwen3.6 无审查版本下载超240万，需求强劲。"
+    ],
+    "ai-community": [
+      "开发者反思停用AI编码工具一周，强调保留批判性思维。",
+      "文章揭示模型路由缺失导致‘便宜模型’成本反高8.6倍。",
+      "多智能体任务因依赖的Claude Fable 5下架而中断。",
+      "Agent系统可观测性成痛点，日志记录需追踪关键决策。",
+      "Lobste.rs 高赞科普文章，社区对LLM底层原理渴求。",
+      "Fable 5下架引发关于AI监管与‘炒作泡沫’的激烈讨论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Persistent memory is the top demand",
+      "MCP stability remains a battleground",
+      "Windows reliability is a pain point",
+      "Claude Code, Codex, OpenCode have Windows bugs",
+      "Gemini CLI lacks Windows attention",
+      "Ecosystem shifting to production-ready"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs",
+      "Two new beta releases shipped",
+      "Critical P0 memory leak from 350MB to 15.5GB",
+      "P1 session-state and message-loss bugs",
+      "Telegram now supports structured rich text",
+      "WhatsApp delivery is richer and less brittle"
+    ],
+    "ai-trending": [
+      "Agent skill frameworks are trending",
+      "Agent session analytics projects emerge",
+      "NVIDIA's SkillSpector scans agent skills",
+      "NousResearch/hermes-agent hits 100K+ stars",
+      "Shift from 'use an AI' to 'build with AI agents'",
+      "addyosmani/agent-skills leads today's list"
+    ],
+    "ai-web": [
+      "Claude Fable 5 and Mythos 5 suspended",
+      "US export controls cite national security",
+      "Models disabled just days after launch",
+      "Anthropic challenges severity of vulnerability",
+      "OpenAI showed no new content today",
+      "Anthropic launch post touted state-of-the-art"
+    ],
+    "ai-hn": [
+      "Amazon reportedly triggered Fable 5 crackdown",
+      "UK police officer used AI to fabricate evidence",
+      "GLM 5.2 release overshadowed by Anthropic news",
+      "User built 80 mini-games with Fable before shutdown",
+      "Community alarmed by national security overreach",
+      "Frustration that benchmark data is now moot"
+    ],
+    "ai-ph": [
+      "Firma.dev leads with 351 votes",
+      "Qursor points at UI to send context to AI",
+      "Pond is a fundraising platform for AI startups",
+      "Bob's CLI offers local-first AI coding",
+      "Firma.dev offers e-signatures at ~3¢ per envelope",
+      "Trend toward cost-efficient developer AI tools"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,813 weekly likes",
+      "MoE architectures dominate trending models",
+      "Gemma 4 family expands rapidly",
+      "nvidia/LocateAnything-3B gains traction",
+      "Streaming ASR and audio models emerge",
+      "Qwen3.6-35B-A3B sees breakout community traction"
+    ],
+    "ai-community": [
+      "Government recall of Fable 5 sparks debate",
+      "Dev.to posts focus on fallback pipelines",
+      "Developer woke up to 404 on the model",
+      "Vendor lock-in risks highlighted",
+      "Lobste.rs discusses LLM mechanics and satire",
+      "Cautionary tale about multi-agent refactor"
+    ]
+  }
+}
