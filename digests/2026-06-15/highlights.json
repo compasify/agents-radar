@@ -1,0 +1,142 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Anthropic 发布 Fable 5 后遭美国政府禁入，全网关停",
+      "Claude Code 因 Fable 5 出现成本失控和僵尸进程",
+      "OpenAI Codex 遭 GPT-5.5 故障潮，社区投诉爆发",
+      "Gemini CLI 修复 Agent 挂起与无限重试漏洞",
+      "GitHub Copilot CLI v1.0.61 出现渲染失真回归",
+      "OpenCode 保持高活跃，聚焦 MCP 深度集成迭代"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.8-beta.1 发布，增强 Telegram 和 WhatsApp 渠道",
+      "修复 WhatsApp 认证信息丢失，确保凭证持久化",
+      "重要安全修复：拒绝在不可设置权限的文件系统上创建代理数据库",
+      "修复环境变量泄漏问题，避免子进程集成失败",
+      "社区聚焦会话状态异常与消息丢失等高危 Bug",
+      "457 条待合并 PR 堆积，核心功能修复上线速度受挑战"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector 今日爆火，单日斩获近千星",
+      "vllm 持续领跑，成为 LLM 推理部署的事实标准",
+      "吴恩达团队推出 aisuite，统一多 AI 提供商接口",
+      "AI Agent 记忆层项目 mem0ai 今日热度极高",
+      "AutoGPT 虽热度回落，但社区基数依然强大",
+      "Google Gemma 4 系列多模型占据 Hugging Face 榜单"
+    ],
+    "ai-web": [
+      "OpenAI 推出合作伙伴网络，加速商业化与生态建设",
+      "Anthropic 静默一日，或在为重大更新蓄力",
+      "OpenAI 战略重心从模型发布转向平台型公司",
+      "OpenAI Partner Network 旨在降低企业采用门槛",
+      "Anthropic 聚焦技术价值，与 OpenAI 形成对照",
+      "两大巨头分化：OpenAI 转向生态，Anthropic 打磨技术"
+    ],
+    "ai-hn": [
+      "Anthropic 被质疑主动配合政府对 Claude 出口管制",
+      "Claude 化身化学家，触发出口管制敏感阈值讨论",
+      "社区热议：AI 是代码，无法被提示工程变得更聪明",
+      "The Engineer 工具可从 GitHub Issue 驱动代码到合并 PR",
+      "社区对大型 AI 公司行为不透明表达普遍不满",
+      "地缘政治与 AI 供应链分裂前景引发深切忧虑"
+    ],
+    "ai-ph": [
+      "Vercel Drop 以拖拽即部署的极致体验夺得榜首",
+      "Kimi K2.7 Code 作为最强编程模型登榜",
+      "Prometheus by Firecrawl 专攻网页数据抓取",
+      "CakewordAI 和 Feezza 等垂直场景应用获社区好评",
+      "开发者工具占据今日 Product Hunt 主导地位",
+      "市场对新颖实用的 AI 应用仍抱有浓厚兴趣"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以近 5000 点赞断层领先",
+      "Google Gemma 4 系列形成强大生态矩阵",
+      "Qwen 3.6 去审查变体下载量超 250 万",
+      "NVIDIA LocateAnything-3B 成视觉定位明星",
+      "Cohere 推出代码专用小型 MoE 模型 North-Mini",
+      "Kimi K2.7-Code 结合图像理解与代码生成"
+    ],
+    "ai-community": [
+      "开发者分享本地 LLM 部署，替代 AI 订阅制方案",
+      "AI 代理可靠性成社区反思热点",
+      "免费开源代码搜索替代品 Sourcegraph 受关注",
+      "开发者实战：如何分工使用 Claude Code 和 Codex",
+      "总结 AI 代理五种生产环境故障模式",
+      "社区关注 AI 行业经济学与巨头商业策略"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 10 critical issues",
+      "Token cost anxiety dominates cross-tool concerns",
+      "Pi's extension system offers unique architecture",
+      "Non-blocking interaction patterns are universal need",
+      "Community demands deterministic agent behavior",
+      "Production reliability replaces AI novelty focus"
+    ],
+    "ai-agents": [
+      "500 issues and PRs updated in 24 hours",
+      "OpenClaw backlog: 436 open vs 64 closed issues",
+      "Low PR merge rate of 43 out of 457",
+      "Message delivery bugs plague Telegram and Discord",
+      "Session state and auth integrations unstable",
+      "Project straining under expanding feature set"
+    ],
+    "ai-trending": [
+      "Agentic memory and security are new frontiers",
+      "NVIDIA SkillSpector trends with +964 stars",
+      "mem0ai and claude-mem standardize agent context",
+      "Low-code AI platforms like Flowise rising",
+      "AutoGPT and hermes-agent lead agent harnesses",
+      "Community moves toward reliable AI co-workers"
+    ],
+    "ai-web": [
+      "Anthropic published zero new content today",
+      "OpenAI launched Partner Network ecosystem strategy",
+      "Quiet period signals backend infrastructure focus",
+      "OpenAI formalizing beyond individual API integrations",
+      "Anthropic pause suggests major internal development",
+      "Minimal signal day from leading frontier labs"
+    ],
+    "ai-hn": [
+      "Fallout from US export controls on Anthropic dominates",
+      "Claude becoming less reliable and more hostile",
+      "Rio LLM exposed as repackaged open-source merge",
+      "Anthropic's Claude as a Chemist sparks debate",
+      "Geopolitical anxiety and user frustration prevail",
+      "Shift from technical breakthroughs to governance"
+    ],
+    "ai-ph": [
+      "Vercel Drop leads with 422 votes for deployment",
+      "Kimi K2.7 Code signals coding model arms race",
+      "Prometheus by Firecrawl blends API and live agents",
+      "Top 3 products all developer infrastructure tools",
+      "Consumer AI apps notably absent from top tier",
+      "Community prioritizes compute over application innovation"
+    ],
+    "ai-community": [
+      "Claude Code and Codex side-by-side workflow shared",
+      "Local LLMs on Mac Mini replace cloud subscriptions",
+      "8 AI agents simulated wars, gossip, and peace",
+      "Five agent failure modes nobody catches in staging",
+      "Lobste.rs debates ethical limits of generative AI",
+      "Developers confront messy realities of production AI"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro dethrones rivals with 4,831 likes",
+      "Google Gemma 4 family dominates across formats",
+      "Qwen 3.6 series surging with many fine-tunes",
+      "Nvidia LocateAnything-3B enables visual grounding",
+      "Ideogram-4 drives high-fidelity image generation",
+      "North-Mini-Code-1.0 uses Mixture-of-Experts design"
+    ],
+    "ai-weekly": [
+      "Claude Fable 5 launched with novel safety mechanism",
+      "US government ordered shutdown of Fable 5 overseas",
+      "OpenAI filed confidential S-1 for IPO",
+      "Agent skills libraries exploded on GitHub",
+      "Anthropic partnered with TCS and DXC",
+      "Stability crisis hit CLI tools all week"
+    ]
+  }
+}
