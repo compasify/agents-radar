@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 修复Windows兼容与多智能体恢复",
+      "OpenAI Codex v0.140.0 修复安全筛查与多智能体V2",
+      "Copilot CLI v1.0.63-0 修复MCP重连爆炸与权限认证",
+      "OpenCode 修复内存泄漏与DeepSeek V4-Pro支持",
+      "Pi v0.79.4 修复连接可靠性及Windows Git-Bash兼容",
+      "Qwen Code v0.18.1 修复OOM与/loop功能重构"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区500+ Issue/PR，维护者审查严重积压",
+      "PR #68936 合并大型自动修复流水线+Windows守护进程",
+      "PR #93448 修复认证配置文件SQLite安全检查",
+      "PR #93427 修复系统注入事件UI无活动指示器",
+      "PR #93428 修复嵌入式代理运行忽略默认模型",
+      "项目核心问题聚焦安全、消息丢失与会话状态损坏"
+    ],
+    "ai-trending": [
+      "英伟达发布SkillSpector Agent安全扫描工具，日增1,079星",
+      "Agent-Reach零成本全平台搜索Agent，日增1,100星",
+      "Ollama 174K星，简化本地模型运行持续热门",
+      "AutoGPT 184K星，Agent概念引领生态",
+      "Transformers 161K星，AI开发标准化基石",
+      "vllm 82K星，高吞吐LLM推理引擎关键基础设施"
+    ],
+    "ai-web": [
+      "Anthropic揭示LLM内部存在类人情感神经活动模式",
+      "Anthropic首次进军化学领域，Claude能解读NMR谱图",
+      "情感概念研究为AI安全控制提供全新理论路径",
+      "可解释性研究从理解走向干预的伟大一步",
+      "Claude可像化学家一样识别关键分子结构",
+      "OpenAI今日无新增内容，战略信号待解析"
+    ],
+    "ai-hn": [
+      "Anthropic因Fable模型引发白宫出口管制争端",
+      "Anthropic将安全作为核心竞争力获政治商业成功",
+      "Anthropic因每月200美元AI计划限制被起诉",
+      "AI价格战爆发给OpenAI和Anthropic带来压力",
+      "社区热议本地模型取代Claude/GPT用于编程",
+      "Claude Code引发对AI代码工具依赖度深刻反思"
+    ],
+    "ai-ph": [
+      "Slashy 462票夺冠，AI自动完成邮件处理",
+      "Cloudback for Linear 175票，自动化备份刚需",
+      "Conan 为Claude Code提供原生Mac驾驶舱",
+      "Hive 管理AI Agent从创意到PR全生命周期",
+      "1ClickReport 将Claude Artifacts一键导出为PDF",
+      "今日产品呈现效率优先、开发者为王趋势"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶，点赞4,862下载293万",
+      "Qwen3.6无审查GGUF版下载269万热度爆棚",
+      "英伟达LocateAnything-3B目标定位模型发布",
+      "Ideogram 4代FP8量化版降低图像生成部署门槛",
+      "Cohere North-Mini-Code-1.0轻量代码模型发布",
+      "Google Gemma-4-12B-it集多模态能力生态强大"
+    ],
+    "ai-community": [
+      "开发社区反思：AI不产生幻觉，架构才是问题",
+      "Claude Fable 5下架引发对AI供应链脆弱性担忧",
+      "MCP服务器预发布检查清单成Agent开发避坑指南",
+      "循环工程概念将Agent开发从提示词提升到闭环",
+      "AI Agent隐藏失败模式全面剖析引开发者关注",
+      "Embeddings深度文章：超越RAG的工程实践"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code skills plugin ecosystem expanding",
+      "Cross-platform stability remains fragile",
+      "7 major tools actively shipping releases",
+      "MCP and A2A protocol alignment growing",
+      "Enterprise vs. dev-experience market segmenting",
+      "Security concerns gaining maintainer attention"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and 500 PRs",
+      "P0 critical memory leak in issue #91588",
+      "No new releases today despite high activity",
+      "Growing backlog may strain maintainer bandwidth",
+      "Security bugs and session state issues mounting",
+      "Community-driven enhancements show strong engagement"
+    ],
+    "ai-trending": [
+      "NVIDIA's SkillSpector star surging 1,079 today",
+      "Financial AI agents gaining institutional interest",
+      "Computer-Use Agents infrastructure gaining traction",
+      "Agent-Reach hits 30,125 total stars",
+      "Ollama remains top local LLM runtime",
+      "Agent security and safety tooling is booming"
+    ],
+    "ai-web": [
+      "Anthropic publishes emotion concepts research",
+      "Making Claude a chemist signals vertical push",
+      "OpenAI published no new content today",
+      "Interpretability research on Claude Sonnet 4.5",
+      "Anthropic betting on trust and deep utility",
+      "Fundamental AI behavior research published"
+    ],
+    "ai-hn": [
+      "Anthropic dominates amid export control crisis",
+      "Fable 5 model shutdown sparks controversy",
+      "Agent SDK pricing backlash and lawsuit news",
+      "Community debates switch to local LLMs",
+      "Safety narrative seen as double-edged sword",
+      "Government intervention concerns dividing opinions"
+    ],
+    "ai-ph": [
+      "Slashy leads with 462 votes for email AI",
+      "Conan launches as native Mac cockpit for Claude",
+      "Taste Lab offers vibe coding for design",
+      "Companion layers for AI tools gaining traction",
+      "Focus on specialized doer assistants",
+      "Rise of deeper customization for AI ecosystems"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,862 likes",
+      "Uncensored vision-language models surging",
+      "MoE architectures dominate language and multimodal",
+      "Google DiffusionGemma driving quantization activity",
+      "Kimi-K2.7 and Cohere North-Mini-Code trending",
+      "Nvidia Nemotron-3.5 advancing real-time ASR"
+    ],
+    "ai-community": [
+      "Fable 5 shutdown disrupts developer workflows",
+      "Retrieval quality matters more than model quality",
+      "MCP server deployment tutorials gaining traction",
+      "Gemma 4 fine-tuned for Old Korean translation",
+      "Satirical AI Economics for Dummies goes viral",
+      "Agent architecture hallucinations debate intensifying"
+    ]
+  }
+}
