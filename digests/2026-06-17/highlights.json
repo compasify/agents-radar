@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.179，修复计费 Bug 和子 Agent 隔离",
+      "OpenAI Codex 在 Alpha 阶段 Token 消耗过快，社区反馈密集",
+      "Gemini CLI 面临 Agent 死锁和子代理误报问题",
+      "GitHub Copilot CLI 遭 Windows 崩溃和授权疲劳反馈",
+      "DeepSeek TUI 核心痛点仍是任务卡死",
+      "Pi 发布 v0.79.6，改进连接可靠性和代理支持"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.8，增强 Telegram 和 WhatsApp 消息通道",
+      "社区活跃度极高，24 小时内 Issue 和 PR 更新均达 500 条",
+      "大量 P0/P1 Bug 积压，包括会话丢失和内存泄漏",
+      "WebChat 修复 IME 输入法打字延迟问题",
+      "Control UI 修复 Skill Workshop 提案范围错误",
+      "新功能推进中，MCP 工具支持和消息通道兼容性在完善"
+    ],
+    "ai-trending": [
+      "NousResearch/hermes-agent 以 195k+ star 登顶 Agent 框架榜首",
+      "阿里巴巴开源 zvec，轻量级进程内向量数据库引关注",
+      "OpenBMB/VoxCPM 成为 TTS 领域新竞争者",
+      "ollama 已支持 Kimi-K2.6 和 GLM-5.1 等最新模型",
+      "vllm 以 83k star 保持 LLM 推理引擎首选地位",
+      "firecrawl 以 133k star 成为 AI Agent 网络搜索标配"
+    ],
+    "ai-web": [
+      "Anthropic 研究揭示 Claude Code 人机协作模式：人类主导规划",
+      "Anthropic 与 TCS 合作，进军金融医疗等受监管行业",
+      "Claude Code 调试会话时间占比下降近一半",
+      "OpenAI 发布《Deployment Simulation》页面，疑涉部署安全",
+      "领域专家使用 Claude Code 效率更高，但差距不大",
+      "Anthropic 经济分析：每个任务价值提升约 25%"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 成本仅为 Claude 5%，引低成本路线热议",
+      "GLM-5.2 开源发布，主打开放权重和长周期任务",
+      "Memento 项目将 LLM 与个人邮箱结合实现 Agentic 搜索",
+      "OpenAI 2025 年亏损激增近 8 倍，支出达 340 亿美元",
+      "Anthropic 服务宕机与政府禁令成社区讨论焦点",
+      "社区对 AI 公司治理透明度和商业可持续性表达忧虑"
+    ],
+    "ai-ph": [
+      "Novu Connect 获 404 票，将 AI Agent 嵌入 Slack 和 Discord",
+      "PandaProbe Cloud 提供托管的 Agent 工程平台，获 283 票",
+      "AEVS 实现 AI Agent 执行证明，获 275 票",
+      "Fonda 作为 AI 联合创始人，能记住决策和计划",
+      "开发者工具从辅助编码转向管理 Agent 行为与验证",
+      "AI 视频剪辑、销售外呼等垂直场景产品百花齐放"
+    ],
+    "ai-arxiv": [
+      "ExpRL 框架探索强化学习用于 LLM 中期训练",
+      "KVEraser 提出精准擦除 KV 缓存中局部上下文的方法",
+      "LLM 内部存在'价值轴'编码自身生成轨迹的好坏",
+      "Nature 元分析论文基准用于评估 LLM 智能体推理能力",
+      "可扩展电路学习方法结合 SAE 提升模型可解释性",
+      "层次化 VLA 策略利用稀疏奖励在线微调"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 283 万下载量登顶 Hugging Face 周榜",
+      "Google Gemma-4-12B-it 下载量超 122 万，生态全面爆发",
+      "NVIDIA LocateAnything-3B 获 2101 点赞，成视觉新星",
+      "yuxinlu1 发布 Gemma-4-12B 代码专家 GGUF 版本",
+      "CohereLabs North-Mini-Code-1.0 探索高性能小型代码模型",
+      "MiniMax-M3 和 Diffusion Gemma 系列引发生成式 AI 关注"
+    ],
+    "ai-community": [
+      "AI 检测器误报文章引发平台滥用 AI 审查机制讨论",
+      "数据揭露 AI 内容审核系统高误报率和不透明性",
+      "Fable 5 危机论证 AI 上下文层不能存在于模型内部",
+      "文章指出更好的模型无法解决 AI 伴侣核心痛点",
+      "开发者反思'不依赖 AI 编码'的认知损益",
+      "社区深入探讨 AI Agent 上下文管理和成本控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.179 released today",
+      "Open-source community beats vendor activity",
+      "Session state management is key battleground",
+      "DeepSeek TUI rebranded to CodeWhale",
+      "Context compaction bugs plague tools",
+      "Multi-agent coordination failures discussed"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 updated issues today",
+      "Two new releases focus on Telegram/WhatsApp",
+      "Session-state and message-loss bugs persist",
+      "Multi-agent orchestration remains unstable",
+      "Security feature requests await maintainers",
+      "Maintainer bandwidth may lag community growth"
+    ],
+    "ai-trending": [
+      "Agent infrastructure dominates GitHub trending",
+      "Tokenizer-free speech generation VoxCPM2 emerges",
+      "Alibaba's ZVec in-process vector database",
+      "vllm hits 83K stars for production inference",
+      "ollama tops 174K stars for local LLMs",
+      "Financial AI agents see vertical specialization"
+    ],
+    "ai-web": [
+      "Anthropic studies 400K Claude Code sessions",
+      "Every occupation matches coders with AI",
+      "TCS puts Claude into 50,000 employee hands",
+      "Targets financial services and healthcare",
+      "Anthropic re-emphasizes safety-first stance",
+      "OpenAI only posts metadata page today"
+    ],
+    "ai-hn": [
+      "Anthropic faces service outages and ban",
+      "U.S. government bans advanced Anthropic models",
+      "OpenAI losses hit $21B on $13B revenue",
+      "DeepSeek V4 Pro costs 5% of Claude",
+      "GLM-5.2 released with open weights",
+      "Cost-efficient alternatives gain traction"
+    ],
+    "ai-ph": [
+      "Novu Connect leads product hunt launches",
+      "Ship agents inside messaging platforms",
+      "Wobo tackles autonomous job searching",
+      "Agent reliability verification emerges key",
+      "Coding agents dominate today's releases",
+      "Memory-capable systems in high demand"
+    ],
+    "ai-arxiv": [
+      "LLMs track their own trajectory value",
+      "ContextRL trains LLMs on key evidence",
+      "ExpRL improves reasoning via exploration",
+      "KV cache management advances for agents",
+      "Reinforcement learning converges with robotics",
+      "New causal frameworks audit synthetic data"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro tops 4,895 likes",
+      "Qwen3.6-35B-A3B has 3.3M downloads",
+      "Google's DiffusionGemma advances multimodal",
+      "Rio model is 397B government-developed",
+      "GLM-5.2 offers permissive open weights",
+      "Unsloth GGUF variants drive quantization"
+    ],
+    "ai-community": [
+      "Fable 5 crisis exposes AI supply chain",
+      "Government letter broke entire AI product",
+      "AI moderation flags human articles as low",
+      "Vendor lock-in fears spike after crisis",
+      "Satirical AI Economics for Dummies goes viral",
+      "CrankGPT human-powered AI draws laughs"
+    ]
+  }
+}
