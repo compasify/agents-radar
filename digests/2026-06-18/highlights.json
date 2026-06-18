@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 连发两个维护版本，快速响应社区反馈",
+      "Claude Code 多Agent协作功能成社区热议焦点",
+      "GitHub Copilot CLI 发布新版本修复服务中断问题",
+      "OpenCode 今日处理10个PR和10个Issues，社区活跃",
+      "DeepSeek TUI 架构重构(v0.9.0)引关注",
+      "Pi 流式渲染Bug修复和新模型Provider支持受期待"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内处理500条Issues和500条PRs",
+      "新开Issues占比95.6%，社区反馈极其活跃",
+      "会话/转录数据迁移至SQLite被标记为P0优先",
+      "LINE通道一次性修复9个消息格式错误",
+      "Cron作业可靠性问题和上下文感知修复完成",
+      "大量P0/P1关键Bug仍待维护者决策修复"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日暴涨1523 Stars成黑马",
+      "Agent-Reach 为AI智能体提供零API互联网搜索",
+      "UI-TARS-desktop 多模态智能体平台登热榜",
+      "TimesFM 谷歌时间序列基础模型获606 Stars",
+      "codebase-memory-mcp 实现毫秒级代码库查询",
+      "bytedance/UI-TARS-desktop 多模态AI平台受关注"
+    ],
+    "ai-web": [
+      "Anthropic 在首尔开设新办公室进军韩国市场",
+      "Anthropic 发布18篇Frontier Red Team研究报告",
+      "Anthropic 与美国NNSA合作开发核安全AI分类器",
+      "Claude Code 部署到NAVER整个工程组织",
+      "Nexon 使用Claude Code进行代码编写和审查",
+      "OpenAI 今日仅更新2篇URL内容无实质信息"
+    ],
+    "ai-hn": [
+      "泄露文件显示OpenAI年亏损高达380亿美元",
+      "Anthropic与特朗普政府冲突成社区焦点",
+      "Adam (YC W25) 开源AI CAD工具获143票",
+      "OpenAI因CNI禁令被移出微软Azure平台",
+      "AI经济学反思与'吹牛指南'引发严肃讨论",
+      "社区热议AI编码智能体中途'变笨'现象"
+    ],
+    "ai-ph": [
+      "Goldfish Mac助手获606票，模仿用户风格回复",
+      "Invoko Mac轻量级自动化工具获421票",
+      "MakersClaw 让AI员工直接入住Slack和Teams",
+      "多数产品打上#Vercel Day标签，生态驱动明显",
+      "个人Mac效率提升类AI产品表现抢眼",
+      "AI编程助手配套工具形成小型生态"
+    ],
+    "ai-arxiv": [
+      "固定点循环Transformer实现自适应深度推理",
+      "认知萎缩概念评估LLM长时间交互性能下滑",
+      "可变宽度Transformer挑战各层宽度一致假设",
+      "Qwen3.6-35B-A3B获368万下载量成周冠军",
+      "谷歌DiffusionGemma系列多模态模型表现抢眼",
+      "MiniMax-M3多模态模型在图像文本理解突出"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B仅3B活跃参数登下载量之王",
+      "deepseek-ai/DeepSeek-V4-Pro登顶本周点赞榜",
+      "Google DiffusionGemma系列成多模态新标杆",
+      "社区基于Qwen3.6和Gemma-4微调模型层出不穷",
+      "GGUF量化格式模型下载量持续高企",
+      "微软FastContext-1.0-4B-SFT专攻超长上下文"
+    ],
+    "ai-community": [
+      "'预先验尸'方法提升AI代码质量引35赞",
+      "开发者测量上下文窗口揭示AI'变蠢'原因",
+      "模块化指令架构显著节省Token消耗",
+      "FSM模式实现LLM管道有状态Provider回退",
+      "生产环境AI Agent失败架构模式实战指南",
+      "社区反思'用AI'与'以AI工程化'的差异"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.181 released",
+      "Copilot CLI gets /diagnose command",
+      "Qwen Code integrates with Gemini",
+      "DeepSeek TUI adds session resilience",
+      "Pi supports multi-agent orchestration",
+      "Mature tools battle scalability bugs"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues, 500 PRs",
+      "Subagent model resolution bug fixed",
+      "High activity but low closure rate",
+      "Focus on multi-agent orchestration",
+      "No new releases today",
+      "Critical reliability and security fixes"
+    ],
+    "ai-trending": [
+      "mattpocock/skills hits +1,523 stars",
+      "google-research/timesfm gains +606 stars",
+      "vllm-project/vllm: 83,195 stars",
+      "Agentic video tooling on the rise",
+      "Codebase-memory-mcp solves agent bottlenecks",
+      "Multi-platform internet access for agents"
+    ],
+    "ai-web": [
+      "Anthropic opens Seoul office",
+      "Project Glasswing and Mythos preview",
+      "Frontier Red Team retrospective published",
+      "Classifier co-developed with DOE/NNSA",
+      "NAVER deploys Claude at scale",
+      "OpenAI data metadata-only"
+    ],
+    "ai-hn": [
+      "OpenAI financial leak sparks debate",
+      "Anthropic model offline due to politics",
+      "AI chemist improves medicinal reaction",
+      "Adam YC W25: open-source AI CAD",
+      "Careful interest in drug discovery AI",
+      "Dot-com bubble parallels drawn"
+    ],
+    "ai-ph": [
+      "Goldfish wins top product of day",
+      "Invoko: floating hand AI for Mac",
+      "Mac-native AI assistant dominates",
+      "Local-first low-latency trend clear",
+      "Slack-based bots in top 10",
+      "Coordinated Vercel Day ecosystem push"
+    ],
+    "ai-arxiv": [
+      "Variable-width transformers challenge norms",
+      "Fixed-point reasoners with looped transformers",
+      "On-policy self-distillation for dLLMs",
+      "Autonomous policy improvement in robotics",
+      "Animal welfare benchmarks for AI",
+      "Doctrinal legal reasoning evaluation"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 2.8M downloads",
+      "Kimi-K2.7-Code multimodal code model",
+      "Gemma 4 sparks community fine-tunes",
+      "NVIDIA's LocateAnything-3B popular",
+      "North-Mini-Code-1.0 compact MoE",
+      "Qwen3.6-35B-A3B millions of downloads"
+    ],
+    "ai-community": [
+      "Premortems with Claude and Codex",
+      "Context window degradation measured",
+      "Modular instruction architecture proposed",
+      "Siri privacy shortcomings debated",
+      "gzip as language model explored",
+      "Production AI reliability lessons shared"
+    ]
+  }
+}
