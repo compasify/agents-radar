@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 深陷回归性 Bug 困境，用户升级恐惧蔓延",
+      "OpenAI Codex 发布 rust-v0.141.0 稳定版，升级安全网络层",
+      "Gemini CLI 发布 v0.47.0 维护版，修复 Agent 挂起问题",
+      "Pi 发布 v0.79.7，新增自动主题与多 Agent 会话功能",
+      "Qwen Code 发布 v0.18.3-nightly，聚焦代码质量与 Token 安全",
+      "CodeWhale 品牌重塑并发布 v0.8.62，修复 UI 冻结与 Agent 失控"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日处理 500 条 Issue 和 500 条 PR，活动量极高",
+      "Telegram 消息静默丢失成最受关注 Bug，修复 PR 已就绪",
+      "关键 PR 提出内存配置从全局迁移至代理级别，增强灵活性",
+      "QA 测试框架整合 PR 待审查，旨在提升项目稳定性",
+      "社区聚焦消息投递失败与会话状态损坏两大稳定性痛点",
+      "项目健康度中等偏活跃，但稳定性问题较多需重点关注"
+    ],
+    "ai-trending": [
+      "kilocode 首发即获 1345 star，成今日最热编码 Agent 平台",
+      "superpowers 获 1429 star，定义 Agent 技能编排新范式",
+      "阿里巴巴开源 zvec 向量数据库，轻量级且闪电般快速",
+      "AutoGPT 虽被新项目超越，仍是 Agent 社区探索基石",
+      "codebase-memory-mcp 将代码转化为可查询的知识图谱",
+      "Hercules 开源企业级 Agent 框架，专注可观测性与安全"
+    ],
+    "ai-web": [
+      "Anthropic 开源 BioMysteryBench，量化模型科学推理能力",
+      "Claude Opus 4.7 独立操控机器人，速度是人类的 20 倍",
+      "Anthropic 开设首尔办公室，深化韩国 AI 生态合作",
+      "OpenAI 今日仅 2 条更新且信息有限，核心动向模糊",
+      "Project Fetch 第二阶段成果发布，AI 从辅助走向主导",
+      "Anthropic 通过专业化基准抢占 AI for Science 高地"
+    ],
+    "ai-hn": [
+      "Are You in the Weights？ 搜索自己是否在 AI 训练数据中爆火",
+      "Anthropic 的 Mythos 模型引发政治与商业连锁反应成焦点",
+      "微博 3B 模型 VibeThinker 再引小模型潜力与基准争议",
+      "本地 PII 脱敏工具发布，回应社区对数据隐私的持续关切",
+      "定量分析显示缓存感知推理路由可大幅降低 LLM 成本",
+      "韩国电信巨头卷入 Anthropic Mythos 争议，讨论持续升温"
+    ],
+    "ai-ph": [
+      "Swytchcode CLI 获 414 票，解决 Agent 调用 API 核心痛点",
+      "Daemons by Charlie Labs 以 252 票夺冠，自动化开源维护",
+      "Locus Founder 通过短信即可搭建并运营完整 SaaS 业务",
+      "Deep Work Plan 强调上下文比模型更重要，获 113 票",
+      "ClawEase 精准切入 SMB 市场，自动化客户预约流程",
+      "Wolfram Language 15 优化人类与 AI 智能体的交互体验"
+    ],
+    "ai-arxiv": [
+      "DreamReasoner-8B 提出块扩散模型，加速长链推理",
+      "Rethinking Reward 提出评分标准自蒸馏，减少标注依赖",
+      "STARE 用 Token 级优势重加权，稳定 LLM 推理策略训练",
+      "首次从机制角度研究 RL 推理能力的遗忘与选择性清除",
+      "多智能体虚拟博弈框架增强 LLM 决策能力成亮点",
+      "多篇论文反思 AUC 与自动指标，预示评估标准将演进"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周点赞近 5000，登顶开源 LLM 榜首",
+      "NVIDIA LocateAnything-3B 获 2162 赞，精准定位任意物体",
+      "Google diffusiongemma-26B 融合扩散模型与 LLM，获千赞",
+      "zai-org/GLM-5.2 采用新型 DSA 架构，智谱 AI 下一代 MoE",
+      "微软 FastContext-1.0 专注长上下文推理与 Agent 能力",
+      "MiniMax-M3 在视觉理解与生成任务上表现出色"
+    ],
+    "ai-community": [
+      "AI Agent 可靠性模式问题引发社区重新思考架构设计",
+      "重度 AI 用户技能退化最快，引发核心编程能力担忧",
+      "Agent 失败模式被归纳为跨层一致性问题，提供新视角",
+      "AI 经济学讽刺：Agent 成本下降反而导致总支出飙升",
+      "AI 时代全栈开发者被视为终极赢家，引发广泛讨论",
+      "非开发者用 AI 构建应用的实操经验帖获高关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Silent data loss plagues CLI tools",
+      "Agent autonomy safety is top concern",
+      "Claude Code has 2 critical issues",
+      "Copilot CLI prioritizes enterprise reliability",
+      "Codex focuses on enterprise stability",
+      "Ecosystem splits on agentic autonomy"
+    ],
+    "ai-agents": [
+      "OpenClaw in reactive maintenance phase",
+      "1,000 issues and PRs in 24 hours",
+      "Message delivery failures across platforms",
+      "Critical regressions in last two updates",
+      "No new releases published today",
+      "36 PRs merged or closed today"
+    ],
+    "ai-trending": [
+      "codebase-memory-mcp gains +2,322 stars",
+      "kilocode surges with +1,345 stars",
+      "GLM-5 introduces Agentic Engineering",
+      "LTX-2 extends into audio-video",
+      "alibaba/zvec debuts as vector DB",
+      "Google TimesFM gets +844 stars"
+    ],
+    "ai-web": [
+      "Project Fetch 20x faster than humans",
+      "Claude Opus 4.7 achieves robotics milestone",
+      "BioMysteryBench evaluates bioinformatics",
+      "Anthropic opens Seoul office",
+      "OpenAI adds health intelligence theme",
+      "Enterprise spend controls on OpenAI"
+    ],
+    "ai-hn": [
+      "Anthropic Mythos saga triggers controversy",
+      "Trump blocks Fable 5 rerelease",
+      "Weibo's VibeThinker-3B sparks debate",
+      "Are You in the Weights tool goes viral",
+      "Geopolitical weaponization of AI access",
+      "Community cynical about model benchmarks"
+    ],
+    "ai-ph": [
+      "Framer 3.0 leads with agent-native design",
+      "Swytchcode CLI gets 414 votes",
+      "Daemons by Charlie Labs solves stal",
+      "Locus Founder runs business via text",
+      "ClawEase automates SMB appointment",
+      "2026 is year AI agents start doing"
+    ],
+    "ai-arxiv": [
+      "Focus on scaling reasoning beyond autoregressive",
+      "Preference-based RL tackles entropy collapse",
+      "Specialized benchmarks for high-stakes domains",
+      "Safety alignment pushed into pretraining",
+      "Rubric-conditioned self-distillation proposed",
+      "MAST selectively unlearns reasoning patterns"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 2.9M downloads",
+      "DiffusionGemma-26B leads MoE trend",
+      "Gemma 4 ecosystem expands rapidly",
+      "Audio generation models gain traction",
+      "GGUF quantized models dominate local inference",
+      "GLM-5.2 draws rapid community interest"
+    ],
+    "ai-community": [
+      "AI agents dominate developer conversations",
+      "Satirical AI economics post goes viral",
+      "CI/CD worm prevention discussion trends",
+      "Agent management emerges as new discipline",
+      "Skepticism about private inference claims",
+      "Open-source agent tooling wave arrives"
+    ]
+  }
+}
