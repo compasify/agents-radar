@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 一日内发布四个 Alpha 版本，迭代迅猛",
+      "Qwen Code 紧急修复大量 Bugs，活动度极高",
+      "Gemini CLI 聚焦 Agent 稳定性问题修复",
+      "Claude Code 发布小版本，侧重安全加固",
+      "OpenCode 着手内存泄漏治理，提升健壮性",
+      "DeepSeek TUI 进行大规模工程重构"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 Beta 版，修复 Telegram 集成问题",
+      "核心 Bug 修复中：会话记忆重复与内存降级",
+      "社区提交大量 PR，审查压力巨大",
+      "Telegram 富文本渲染得到显著改善",
+      "飞书卡片移除自动添加的 note 页脚",
+      "P0/P1 级别内存泄漏问题仍在解决"
+    ],
+    "ai-trending": [
+      "Token压缩工具 headroom 单日暴涨 4005 星",
+      "高性能代码智能 MCP 服务器获追捧",
+      "Google 开源时序基础模型 TimesFM",
+      "Agent 沙箱框架 flue 来自 Astro 团队",
+      "视频生成领域迎重磅项目 LTX-2",
+      "Ollama 已支持 Kimi、GLM-5 等最新模型"
+    ],
+    "ai-web": [
+      "Anthropic 发布重磅经济研究，基于 40 万次会话",
+      "研究发现专家能更高效指挥 Claude 完成任务",
+      "AI 辅助编程中调试会话比例下降近一半",
+      "单次任务价值因 AI 平均提升约 25%",
+      "研究揭示几乎所有职业用户都能成功编程",
+      "OpenAI 今日无官方新内容发布，处静默期"
+    ],
+    "ai-hn": [
+      "GPT-5.5 幻觉率比开源 GLM-5.2 高三倍",
+      "John Jumper 加入 Anthropic 引发热议",
+      "GLM-5.2 成社区新基准模型，引多番对比",
+      "下一代投机解码技术 DFlash 发布",
+      "亚马逊与 OpenAI 合作后终止 Sam Altman 电影",
+      "OpenAI 数据删除问题引发信任危机"
+    ],
+    "ai-ph": [
+      "Upstream 重新设计邮箱让人与 AI 代理协作",
+      "Elvin 主动式 AI 能预判任务并自主完成",
+      "Viktor 将强大 AI 员工集成到 Teams",
+      "Tabstack Dev Tools 宣称可替代爬虫",
+      "Figma 到 Cursor 的设计转代码工具受追捧",
+      "多款产品主打 AI 智能体与员工概念"
+    ],
+    "ai-arxiv": [
+      "DiffusionGemma 透明度问题被深度剖析",
+      "多智能体系统存在评估者偏见传染风险",
+      "用鼠标和眼动隐式反馈对齐 LLM 新方法",
+      "少数视觉风格线索驱动多模态模型偏见",
+      "结构化状态管理 LedgerAgent 保障策略合规",
+      "自动化攻击框架 PAAR 威胁 Agent 安全"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4 Pro 登顶，获 5K 赞 3M 下载",
+      "NVIDIA 通用定位模型 LocateAnything 惊艳",
+      "MiniMax-M3 旗舰多模态模型开源",
+      "Google 的 diffusiongemma MoE 版本下载量高",
+      "Kimi K2.7-Code 代码专用多模态模型走热",
+      "微软 FastContext 专注长上下文优化小模型"
+    ],
+    "ai-community": [
+      "AI 让写代码更容易但未降低工程复杂性",
+      "开发者警示 AI 修复 Bug 会悄无声息引入新问题",
+      "实战教程：从零构建 Python MCP 服务器",
+      "LLM 网关架构实现智能路由与语义缓存",
+      "有观点提出代码是新的服务器，规格是新的 Terraform",
+      "社区热议如何检测 Agent 输出中的幻觉"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code subagent recursion bug critical",
+      "OpenAI Codex 4 crash-related issues",
+      "Cross-tool runaway token consumption crisis",
+      "Claude Code v2.1.183 released",
+      "Gemini CLI Linux compatibility issues",
+      "DeepSeek TUI faces Linux problems"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues updated in 24h",
+      "v2026.6.9-beta.1 released today",
+      "Memory leaks and session-state bugs",
+      "ClawSweeper automation queued with fixes",
+      "P0/P1 regression fixes being merged",
+      "Telegram delivery improved in beta"
+    ],
+    "ai-trending": [
+      "headroom compresses tool output 95%",
+      "agentic engineering platforms maturing",
+      "google-research/timesfm gains 1,510 stars",
+      "obra/superpowers gains 1,110 stars",
+      "codebase-memory-mcp gains 1,058 stars",
+      "GLM-5 gains 480 stars today"
+    ],
+    "ai-web": [
+      "Anthropic studies 400K Claude Code sessions",
+      "Debugging time fell nearly half",
+      "Domain expertise multiplies AI output",
+      "Agentic usage shifted to deployment tasks",
+      "OpenAI had no new content today",
+      "Paper covers Oct 2025 to Apr 2026"
+    ],
+    "ai-hn": [
+      "GPT-5.5 hallucinates 3x more than GLM",
+      "GLM-5.2 beats Fable 5 at design",
+      "Anthropic hires AlphaFold's John Jumper",
+      "Amazon drops Sam Altman biopic",
+      "Open-weight models challenge Big AI",
+      "Community debates diminishing incumbents"
+    ],
+    "ai-ph": [
+      "Upstream leads with 653 votes",
+      "Elvin finds work before you ask",
+      "Tabstack Dev Tools gains 355 votes",
+      "Agentic videos by D-ID launching",
+      "Jesse extracts real-time internet data",
+      "Human-AI inboxes gaining mainstream"
+    ],
+    "ai-arxiv": [
+      "Papers focus on agent safety",
+      "Probabilistic verification for agents",
+      "DiffusionGemma transparency analyzed",
+      "Safety alignment jailbreak revealed",
+      "Calibration under distribution shift",
+      "Red-teaming agents in production"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5K likes",
+      "GLM-5.2 gains 1,532 likes",
+      "Unsloth leads GGUF conversions",
+      "Qwen3.6 uncensored variant 3.7M downloads",
+      "Google diffusiongemma surges",
+      "Kimi-K2.7-Code quantized"
+    ],
+    "ai-community": [
+      "AI agents silently introduced bugs",
+      "MCP servers and multi-agent systems",
+      "AI summaries without receipts worthless",
+      "Chinese models undercut OpenAI 95%",
+      "gzip as language model thought experiment",
+      "Security conferences in AI era debated"
+    ]
+  }
+}
