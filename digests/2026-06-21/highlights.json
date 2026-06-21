@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.185 发布，社区反馈极高。",
+      "OpenAI Codex v0.142.0-alpha.7 发布，Token消耗激增。",
+      "OpenCode v1.17.9 发布，TUI稳定性问题突出。",
+      "Pi v0.79.9 发布，流式输出和模型适配待优化。",
+      "Qwen Code v0.18.4 发布，路径安全漏洞需修复。",
+      "Claude Code 子代理资源失控，MCP集成失效引热议。"
+    ],
+    "ai-agents": [
+      "OpenClaw社区活跃，1000条Issue和PR更新。",
+      "安全修复PR合并，修复工作流和核心逻辑漏洞。",
+      "Issue #88838 讨论会话迁移至SQLite引发热议。",
+      "Issue #91363 报告cron任务LLM失败问题。",
+      "P1优先级问题占比高，项目迭代密集。",
+      "无新版本发布，修复与改进并行推进中。"
+    ],
+    "ai-trending": [
+      "headroom 今日获3795星，压缩Token量60-95%。",
+      "codebase-memory-mcp 新增1271星，代码查询毫秒级。",
+      "Kilo-Org/kilocode 获513星，一站式Agent工程平台。",
+      "withastro/flue 获316星，沙盒Agent框架受关注。",
+      "vllm 持续热门，LLM推理引擎事实标准。",
+      "timesfm 进入热榜，Google时间序列基础模型。"
+    ],
+    "ai-hn": [
+      "渗透测试AI模型发布，主动执行攻击引安全争议。",
+      "AutoJack攻击方法披露，单页可RCE宿主主机。",
+      "开源模型GLM-5.2在网站设计任务上击败Fable 5。",
+      "John Jumper离开DeepMind加盟Anthropic引热议。",
+      "2017年AMD RX 580运行35B模型，社区关注。",
+      "开源模型是否追上闭源，HN社区持谨慎乐观。"
+    ],
+    "ai-ph": [
+      "Claude Code Artifacts 获448票，协作编程新突破。",
+      "Zernio WhatsApp API 获323票，统一消息AI集成。",
+      "Ask Ad Manager 获142票，Google广告AI助手。",
+      "AI Agent渗透广告、安全、游戏开发等领域。",
+      "frontpage.sh 概念项目跻身前五引讨论。",
+      "开发者优先趋势明显，Agent基础设施成焦点。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞4984，下载量近280万。",
+      "Qwen3.6量化版下载量超380万，社区量化活跃。",
+      "GLM-5.2 采用MoE-DSA架构，对话能力突破。",
+      "nvidia/LocateAnything-3B 获2216赞，视觉定位。",
+      "google/diffusiongemma 获1022赞，图像生成新秀。",
+      "Kimi-K2.7-Code 下载量超31万，代码多模态模型。"
+    ],
+    "ai-community": [
+      "AI Agent记忆漂移问题被首次系统定义。",
+      "LLM网关实战文章深入探讨路由和语义缓存。",
+      "多Agent协作编程模式引发开发者思考。",
+      "AI记忆应作为产品状态，而非提示词技巧。",
+      "长Agent对话压缩方案解决上下文窗口溢出。",
+      "离线优先AI对全球南方不再可选，引发讨论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hit by 3 critical regressions",
+      "OpenAI Codex faces backlash from rapid releases",
+      "Pi and DeepSeek TUI reducing architectural debt",
+      "Sub-agent governance emerges as key requirement",
+      "Context window transparency demanded by users",
+      "OS-level sandboxing seen as non-negotiable"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs today",
+      "96% of OpenClaw issues remain open",
+      "Only 4% of PRs merged today",
+      "No new releases from OpenClaw today",
+      "Codex integration PR #94833 auto-merged",
+      "Session state regressions cluster as P1"
+    ],
+    "ai-trending": [
+      "headroom and codebase-memory-mcp gain 3,795 stars",
+      "OpenMontage is first open-source agentic video system",
+      "Google's TimesFM released for time-series forecasting",
+      "Kilo, flue, hermes-agent gain traction as harnesses",
+      "Ollama now supports Kimi-K2.6 and GLM-5.1",
+      "rig Rust framework reaches 7,694 stars"
+    ],
+    "ai-hn": [
+      "DeepMind's John Jumper departs for Anthropic",
+      "Anthropic role in U.S. export controls debated",
+      "Pen-testing model bypasses safety refusals",
+      "OpenAI Codex costs jump 10x since June 16",
+      "Community divided on regulatory capture fears",
+      "Agent reliability skepticism runs high"
+    ],
+    "ai-ph": [
+      "Claude Code Artifacts top with 448 votes",
+      "Agent interoperability is the strongest trend",
+      "Ask Ad Manager by Google Ads launches",
+      "Open-source launches continue gaining momentum",
+      "Focus shifts from building to connecting agents",
+      "Live previews solve opaque AI coding workflows"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,984 likes",
+      "MoE architectures dominate trending models",
+      "GLM-5.2 gains traction as efficient MoE",
+      "GGUF quantized coding variants see big downloads",
+      "Any-to-any multimodal pipelines rise",
+      "Qwen3.6-35B-A3B leads model charts"
+    ],
+    "ai-community": [
+      "Developers battle agent drift in production",
+      "Private AI debate questions vector DB privacy",
+      "LLM routing and semantic caching patterns shared",
+      "Offline-first AI systems for Global South discussed",
+      "Black box opacity of LLMs acknowledged",
+      "AI-generated code maintenance reality debated"
+    ]
+  }
+}
