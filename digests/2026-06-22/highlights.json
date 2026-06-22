@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 企业功能与稳定性 Bug 成社区焦点。",
+      "OpenAI Codex 因费率暴增和 SSD 过度写入引抗议。",
+      "Gemini CLI Agent 可靠性问题：假成功与挂起频发。",
+      "GitHub Copilot CLI 项目配置和 ARM64 稳定性讨论热。",
+      "开源 OpenCode 推进 TUI 2.0 和多 Agent 协作。",
+      "Qwen Code 发布 v0.18.5，修复工具循环与路径安全。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.10-beta，聚焦稳定性修复。",
+      "社区抗议静默迁移与消息丢失，OpenClaw 连续打补丁。",
+      "OpenClaw 会话状态与 Telegram 渲染问题获修复。",
+      "Cron 作业可靠性成 OpenClaw 本周重点改进项。",
+      "智能体技能编排框架 superpowers 获 GitHub 爆发增长。",
+      "kilocode 项目展示 Agent 开发向平台化演进。"
+    ],
+    "ai-trending": [
+      "Token压缩工具headroom今日暴涨2624星，降低推理成本",
+      "字节跳动deer-flow智能体框架获极高关注",
+      "ollama已支持Kimi-K2.6等海量模型，星标破17.4万",
+      "DeusData/codebase-memory-mcp重塑AI代码交互方式",
+      "vllm以高吞吐低显存成为开源LLM部署事实标准",
+      "huggingface/transformers霸主地位稳固，星标16.1万"
+    ],
+    "ai-web": [
+      "Anthropic今日内容发布完全停滞，进入信息静默期",
+      "OpenAI唯一更新：与三星电子达成ChatGPT Codex部署合作",
+      "两家实验室同日停更，或预示重大发布前准备",
+      "三星作为全球最大消费电子商，采纳OpenAI具示范效应",
+      "企业级AI部署成为OpenAI今日唯一亮点方向",
+      "当前罕见真空期值得持续追踪后续动态"
+    ],
+    "ai-hn": [
+      "Anthropic强制身份验证引发536分激辩，社区强烈抵制",
+      "开源模型成对抗闭源平台限制的社区讨论热点",
+      "Apertus主权AI开源模型获151分，契合数据安全焦虑",
+      "Recall项目为Claude Code提供本地记忆管理方案",
+      "DebugBrief反AI潮流工具出现，坚持No AI理念",
+      "开发者集体反思AI对技能和工作流的负面影响"
+    ],
+    "ai-ph": [
+      "WorkClaw登顶热门第一，将AI同事招进Slack",
+      "Slackbot's MCP Client让机器人跨20+应用协同",
+      "JetBrains推出Mellum低延迟LLM推理引擎",
+      "pumaDB轻量级内存数据库受开发者关注",
+      "企业级Agent与开发者基础设施并重成今日趋势",
+      "开源项目占比高，社区对可控方案需求旺盛"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以4999点赞领跑本周模型榜",
+      "Gemma-4社区微调Coder版GGUF下载量极高",
+      "GLM-5.2亮相，高性能中文底座模型受关注",
+      "Qwen3.6无审查激进版下载量达396万",
+      "NVIDIA LocateAnything-3B精准定位模型成亮点",
+      "Google DiffusionGemma探索图像生成新方向"
+    ],
+    "ai-community": [
+      "MCP协议带来新型安全风险引发开发者热议",
+      "Vibe Coding被重新定义为独立能力维度",
+      "Kitana项目尝试用字典遍历替代Token预测",
+      "AI编码助手反复生成15类系统性bug被总结",
+      "gzip是否可作为语言模型的有趣实验引思考",
+      "企业级MCP可见性和控制方案Bifrost Edge发布"
+    ],
+    "ai-weekly": [
+      "Anthropic 发布重磅经济报告：AI 编程转向端到端智能体。",
+      "Anthropic 因 Mythos 模型出口管制与美国政府激烈冲突。",
+      "Token 压缩技术爆发：headroom 可压缩 LLM 输入达 95%。",
+      "OpenAI 泄露财务文件：2025 年亏损高达 210-380 亿美元。",
+      "智谱 GLM-5.2 开源，测评幻觉率优于 GPT-5.5。",
+      "智能体技能编排框架 superpowers 与 kilocode 获高关注。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code multi-account feature gets 601👍",
+      "OpenAI Codex drops 3 Rust CLI alphas",
+      "Rate-limit crisis for OpenAI Codex",
+      "DeepSeek rebrands to CodeWhale",
+      "Cross-tool focus on agent reliability",
+      "Platform parity push for Windows ARM64"
+    ],
+    "ai-agents": [
+      "OpenClaw releases two new betas",
+      "500 issues and 500 PRs in 24h",
+      "Session write-lock timeouts reported",
+      "Compaction timeout fragility issues",
+      "Silent data-loss bugs from relocations",
+      "Community active but under strain"
+    ],
+    "ai-trending": [
+      "headroom compresses tokens 60-95%",
+      "+2,624 stars for headroom today",
+      "codebase-memory-mcp hits +1,032 stars",
+      "OpenMontage: first open-source agentic video",
+      "palmier-pro: macOS AI video editor",
+      "bytedance/deer-flow SuperAgent harness"
+    ],
+    "ai-web": [
+      "OpenAI announces Samsung Codex deal",
+      "Anthropic publishes no new content",
+      "Enterprise push for ChatGPT Codex",
+      "Stark contrast between AI lab output",
+      "B2B platform dominance signaled",
+      "Samsung integration moves beyond consumer"
+    ],
+    "ai-hn": [
+      "Claude identity verification debate (500+ pts)",
+      "Chinese model Mythos breached US systems",
+      "Apertus: sovereign open foundation model",
+      "Recall: fully-local memory for Claude Code",
+      "Deskilling effects of AI debated",
+      "8066 segmented memory vs modern AI"
+    ],
+    "ai-ph": [
+      "WorkClaw leads with 349 votes",
+      "JetBrains Mellum hits 187 votes",
+      "pumaDB memory layer at 160 votes",
+      "Pixlie for AI video generation",
+      "Cutio for YouTube sponsor skipping",
+      "Slackbot MCP Client with multiplayer"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 4,999 likes",
+      "GLM-5.2 MoE model gains traction",
+      "DiffusionGemma-26B-A4B-it trending",
+      "NVIDIA LocateAnything-3B for grounding",
+      "MiniMax-M3 multimodal flagship",
+      "FastContext-1.0-4B-SFT from Microsoft"
+    ],
+    "ai-community": [
+      "MCP observability with Bifrost Edge",
+      "Turing's Mirror game sparks debate",
+      "Judgment bottleneck in AI workflows",
+      "Kitana replaces token prediction",
+      "Skepticism on LLM intelligence",
+      "Productionizing AI agents is messy"
+    ],
+    "ai-weekly": [
+      "OpenAI leak shows $34B spent, $21B losses",
+      "Anthropic opens Seoul office with NAVER, Nexon",
+      "White House escalates against Anthropic over export",
+      "Gemini CLI suffers silent success bugs crisis",
+      "Claude Code study: debugging time halved",
+      "AlphaFold co-creator Jumper leaves DeepMind for Anthropic"
+    ]
+  }
+}
