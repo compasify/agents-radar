@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.186 发布，修复数据丢失问题",
+      "OpenAI Codex 速率限制成本暴涨引社区热议",
+      "GitHub Copilot CLI v1.0.64-3 修复计费 Bug",
+      "Kimi Code CLI v1.48.0 新增工具调用智能熔断",
+      "OpenCode 内存泄漏与 Worker 终止问题遭投诉",
+      "DeepSeek TUI 核心功能稳定成新兴关注点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.10-beta.2，自动快速模式",
+      "过去24小时 Issue 和 PR 更新超700条，迭代密集",
+      "多个 P0/P1 严重 Bug 影响会话数据完整性",
+      "422 个待合并 PR 积压，社区协作活跃",
+      "修复 WebChat Codex 会话未暴露节点问题",
+      "子代理稳定性成核心痛点，多次被社区提及"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro 登顶 Hugging Face，获5012星",
+      "OpenMontage：首个开源智能体驱动视频制作系统",
+      "字节跳动开源长周期超级 Agent deer-flow",
+      "gstack 封装 Claude Code 成 CEO/设计师工具集",
+      "firecrawl API 让 AI Agent 轻松抓取网络数据",
+      "airllm 仅需4GB显存即可运行70B大模型"
+    ],
+    "ai-web": [
+      "Anthropic 发布编码智能体经济研究论文",
+      "与盖茨基金会达成2亿美元合作伙伴关系",
+      "研究量化人类与 Claude 协作的领域专家价值",
+      "OpenAI 发布安全相关主题 Daybreak Securing The World",
+      "Anthropic 强调 AI 效益普惠化进入全球健康领域",
+      "B2B营销转向展示AI对整体工作流效率提升"
+    ],
+    "ai-hn": [
+      "OpenAI Codex SSD写入Bug引发热议，462分",
+      "Claude Code 的Extended Thinking输出被质疑造假",
+      "Unsloth GLM-5.2 本地运行方案获125分关注",
+      "Meta AI 培训追踪员工键盘输入遭内部泄露",
+      "Oracle 因 AI 大规模裁减近半数员工引批评",
+      "Codex 日志Bug可写TB级数据磨损固态硬盘"
+    ],
+    "ai-ph": [
+      "Agent 37 Cloud 以412票登顶，提供专属企业AI分身",
+      "Grok for Word 嵌入Word，获212票好评",
+      "Backgrind 后台运行AI Agent支持游戏场景",
+      "AI法律助手E2 Visa Agent专注美国创业签证",
+      "房地产投资平台PropAI v2可自动分析房产",
+      "开源工具AI Podcast Studio一键生成专业播客"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 登顶热榜，获5000+赞",
+      "nvidia/LocateAnything-3B 支持文本定位任意物体",
+      "Google diffusiongemma-26B 融合扩散与语言模型",
+      "MoE架构成主流，GLM-5.2至Qwen3.6均采用",
+      "Gemma-4-12B-it 多模态支持 any-to-any 输入输出",
+      "社区量化GGUF版本活跃，大幅降低部署门槛"
+    ],
+    "ai-community": [
+      "Dev.to 热议最小AI原则，提倡克制使用AI",
+      "Agentic RAG：自修正检索循环成生产级关键方案",
+      "Typed Provenance 解决Agent链中的信任传播问题",
+      "Lobste.rs 探讨AI编译器与NPU逆向工程",
+      "RAG幻觉实战修复：改进检索逻辑提升准确性",
+      "多Agent协作三大隐性挑战引社区深度讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.186 released today",
+      "70,000+ open issues on Claude Code",
+      "MCP lifecycle management plagues all tools",
+      "Windows and Termux still underserved",
+      "OpenCode focuses on extensibility",
+      "Codex has 28,000+ open issues"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 PRs in 24 hours",
+      "Session-state regressions are P0 priority",
+      "Critical gateway memory leak reported",
+      "SQLite migration Path 3 underway",
+      "Chinese-language community growing fast",
+      "v2026.6.10-beta.2 adds fast mode for talks"
+    ],
+    "ai-trending": [
+      "AirLLM runs 70B models on 4GB GPU",
+      "Ollama now supports Kimi-K2.6 and GLM-5.1",
+      "gstack adds 23 opinionated CLI tools",
+      "vLLM hits 83,580 total stars",
+      "Codebase-memory-mcp solves context problems",
+      "Agentic infrastructure is the dominant theme"
+    ],
+    "ai-web": [
+      "Anthropic analyzed 400,000 Claude Code sessions",
+      "Gates Foundation partners with $200M deal",
+      "Domain expertise amplifies AI coding gains",
+      "Humans plan, Claude executes in coding tasks",
+      "OpenAI entry appears to be security index",
+      "Research shows persistent returns to expertise"
+    ],
+    "ai-hn": [
+      "Codex logging bug may destroy local SSDs",
+      "Claude Code thinking shown to be curated",
+      "Unsloth GLM-5.2 local run guide popular",
+      "Star Citizen parody uses Claude to build game",
+      "OpenAI valuation skepticism dominates",
+      "Anti-hype sentiment strong across discussions"
+    ],
+    "ai-ph": [
+      "Agent 37 Cloud wins top Product Hunt spot",
+      "Backgrind runs AI agents over any app",
+      "Grok for Word launched by SpaceXAI",
+      "Dedicated agent instances per customer",
+      "Consumer generative art tools absent today",
+      "Agentic future dominates launch slate"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5,012 likes",
+      "GLM-5.2 family gains strong traction",
+      "Gemma-4 ecosystem expands in coding",
+      "Cohere North-Mini-Code-1.0 goes live",
+      "MoE architectures rising across models",
+      "LiquidAI introduces new embedding models"
+    ],
+    "ai-community": [
+      "Agent memory systems spark debate",
+      "Principle of Least AI challenges AI-first trend",
+      "Developer can't get job despite 150+ PRs",
+      "Prompt injection vulnerabilities highlighted",
+      "OCaml 5.5.0 released on Lobste.rs",
+      "Vibe coding maintainability questioned"
+    ]
+  }
+}
