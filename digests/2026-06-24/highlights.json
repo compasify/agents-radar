@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.187 发布，强化安全与Cowork兼容性",
+      "OpenAI Codex 因gpt-5.5 Token消耗激增遭用户抱怨",
+      "Gemini CLI 社区热议安全加固与Agent状态误报",
+      "Copilot CLI v1.0.64 聚焦主题/无障碍与配额计算",
+      "Pi v0.80.0 发布修复TUI Bug，支持多Agent会话",
+      "Kimi Code Yolo模式失效成严重Bug，社区反馈极少"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时处理188条Issue和500条PR",
+      "核心会话存储从文件系统迁移至SQLite引发热议",
+      "P1级Bug #90991（Cron触发器污染状态）已修复",
+      "Telegram通道长消息截断Bug获积极修复处理",
+      "项目处于高强度维护与工程重构并行阶段",
+      "未发新版，团队集中攻克P1关键稳定性问题"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro 登顶HuggingFace热度榜，获5030赞",
+      "OpenMontage 开源首个端到端Agent视频制作系统",
+      "Hermes Agent 获200k+星，打造自我进化Agent框架",
+      "Codebase-memory-mcp 日增1300星，为编码AI提供上下文",
+      "字节跳动Deer Flow 开源长时程SuperAgent框架",
+      "Anthropic发布网络安全技能集，聚焦Agent评估与安全"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Tag，将AI嵌入Slack协作流",
+      "Claude Tag可@Claude编写代码、分析数据、处理工单",
+      "Anthropic内部65%代码由Claude Tag生成",
+      "Claude Tag实现持续上下文构建与未来任务规划",
+      "OpenAI今日无新内容发布，处于产品静默期",
+      "Anthropic战略聚焦AI成为组织中的数字同事"
+    ],
+    "ai-hn": [
+      "Claude Tag发布、服务中断与用户封禁争议引爆社区",
+      "OpenAI发布网络安全模型DayBreak/GPT-5.5-Cyber",
+      "TikZ Editor获314票，AI赋能LaTeX学术作图",
+      "Linux基金会推Agent Name Service建立AI信任体系",
+      "AWS Lambda引入MicroVMs提供隔离沙箱环境",
+      "社区对头部AI公司信任度出现微妙变化"
+    ],
+    "ai-ph": [
+      "AgentX以553票登顶，评估并修复AI智能体行为",
+      "Skybridge获534票，专为MCP应用打造React框架",
+      "HAQQ Legal AI将法律咨询通过移动端普惠化",
+      "开发者工具主导今日Product Hunt发布趋势",
+      "闭源产品在社区互动上表现更活跃",
+      "AI Agent评估与开发框架需求强烈"
+    ],
+    "ai-arxiv": [
+      "Randomized YaRN提升LLM在极长序列上的推理能力",
+      "Tapered LMs挑战标准均匀层叠架构，提高效率",
+      "EnterpriseClawBench发布真实企业级Agent基准测试",
+      "MAS-PromptBench揭示提示词优化对多Agent系统影响",
+      "SPIRAL实现灵巧双手全身协调移动操作",
+      "DiT-Reward将扩散 Transformer用于图像奖励建模"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶热度榜，获5030点赞",
+      "Google Gemma 4系列持续霸榜，多模态潜力巨大",
+      "NVIDIA发布LocateAnything-3B开放世界定位模型",
+      "社区大量微调GGUF版本满足本地部署需求",
+      "百度发布PaddleOCR专用模型，实用型AI工具增长",
+      "GLM-5.2 MoE版本作为国产开源模型受高度关注"
+    ],
+    "ai-community": [
+      "AI Agent的记忆与身份问题成社区反思焦点",
+      "80/20法则：AI生成代码的最后20%耗时80%",
+      "开发者提出先写Eval而非Test以应对AI不确定性",
+      "Agent自主性导致权限劫持的真实安全案例",
+      "便宜模型在架构基准测试中击败昂贵模型",
+      "Context Compaction Visualizer监控Agent遗忘"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Security-first maturation phase underway",
+      "MCP ecosystem integration becomes universal",
+      "Major tools: Claude Code v2.1.187, Gemini CLI",
+      "Enterprise audit trails shaping features",
+      "Community frustrated by cross-platform bugs",
+      "Rapid releases create innovation and instability"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 188 issues, 500 PRs",
+      "Path 3 migration refactors session store",
+      "Critical 'diamond lobster' bugs remain open",
+      "31 PRs merged or closed today",
+      "High activity but review bottleneck evident",
+      "No new releases published today"
+    ],
+    "ai-trending": [
+      "Shift from vibe coding to agentic engineering",
+      "OpenMontage: +3,592 stars today for video AI",
+      "NousResearch/hermes-agent tops 200K stars",
+      "ByteDance deer-flow SuperAgent harness",
+      "Agent-specific operating systems emerge",
+      "Multi-agent production systems rising"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Tag in Slack",
+      "65% of Anthropic code now AI-generated",
+      "Claude Tag redefines AI as persistent teammate",
+      "Strategic pivot to autonomous colleagues",
+      "OpenAI had no new content today",
+      "Direct competition with embedded agents"
+    ],
+    "ai-hn": [
+      "Anthropic outage sparks user backlash",
+      "Age verification policy shift controversial",
+      "OpenAI GPT-5.5-Cyber security pivot",
+      "OpenAI ad pitch to marketers raises concerns",
+      "TikZ Editor tops HN with 314 points",
+      "No AI Co-Authors manifesto gains traction"
+    ],
+    "ai-ph": [
+      "AgentX leads with 553 votes for agent eval",
+      "Skybridge: 534 votes for MCP development",
+      "Clawd: local offline AI browser pet",
+      "Open-source local-first tools gaining demand",
+      "Legal AI and design tools show vertical growth",
+      "Top 3 target agent stack layers"
+    ],
+    "ai-arxiv": [
+      "Randomized YaRN boosts LLM length generalization",
+      "Tapered Language Models challenge uniform layers",
+      "Limits of prompt-conditioned learning probed",
+      "Multi-agent systems research surging",
+      "Dexterous robotics moving to real-world",
+      "Safety metric reliability questioned"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5,030 likes",
+      "Gemma-4 ecosystem exploding with fine-tunes",
+      "nvidia/LocateAnything-3B: 2,315 likes",
+      "GLM-5.2 MoE-DSA maintains strong momentum",
+      "Uncensored Qwen3.6 hits 3.95M downloads",
+      "Community quantizations show massive demand"
+    ],
+    "ai-community": [
+      "Agent memory loss is dominant theme",
+      "80/20 rule of AI code generates debate",
+      "1991 Munich roots of AI boom explored",
+      "Prompt injection as role confusion flagged",
+      "LLM visibility tools push for transparency",
+      "Local voice assistants gain traction"
+    ]
+  }
+}
