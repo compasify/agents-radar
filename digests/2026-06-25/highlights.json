@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.191 和 v2.1.190",
+      "OpenAI Codex 社区热议 Token 成本失控",
+      "Gemini CLI 讨论 Agent 挂起和思考泄漏",
+      "GitHub Copilot CLI 发布 v1.0.65",
+      "OpenCode MCP OAuth 认证成讨论热点",
+      "Pi 社区聚焦连接稳定性和多 Provider 支持"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时产生超 840 次更新",
+      "v2026.6.11-beta.1 改善 Slack/Mattermost 支持",
+      "v2026.6.10 引入快速对话模式",
+      "修复子代理 dispose 时锁文件不释放",
+      "HTTP 入口 Token 消耗数据可正确追踪",
+      "模型返回 401 错误现在会透传给客户端"
+    ],
+    "ai-trending": [
+      "DeepSeek-V4-Pro 周点赞超 5000 领跑",
+      "GLM-5.2 MoE 架构周点赞超 2300",
+      "Google Gemma 4 系列下载量爆发",
+      "智能体/工作流项目共 20 个入选",
+      "RAG/知识库类项目数量最多达 27 个",
+      "OpenMontage 既是 Agent 也是视频生成应用"
+    ],
+    "ai-web": [
+      "Anthropic 发布核安全 AI 分类器准确率 96%",
+      "Anthropic 调查 8.1 万用户 AI 经济影响",
+      "OpenAI 与博通合作开发推理芯片 Jalapeno",
+      "从风险评估转向主动监控工具开发",
+      "高 AI 暴露岗位失业焦虑最严重",
+      "速度提升与失业担忧呈正相关"
+    ],
+    "ai-hn": [
+      "OpenAI 首款自研芯片披露获 476 分",
+      "社区热议 Chip 对英伟达依赖的战略意义",
+      "OpenAI Codex 被曝对 SSD 过量写入",
+      "Anthropic 被 NSA 指责导致安全工具失效",
+      "开源工具 Lelu 专注 Agent 安全防护",
+      "LLM 推理芯片性能基准讨论激烈"
+    ],
+    "ai-ph": [
+      "Bluerails Discovery 让 AI 代理自动赚钱",
+      "Cotypist 本地 AI 模仿用户语气写作",
+      "NeuralAgent 3.0 毫秒级桌面 UI 操作",
+      "Latitude 工具修复 AI Agent 崩溃问题",
+      "AI Agent 基础设施工具占据榜单前列",
+      "AI 视频生成和本地化写作助手受关注"
+    ],
+    "ai-arxiv": [
+      "InSight 框架实现 VLA 模型自主技能获取",
+      "Grad Detect 用梯度检测 LLM 幻觉",
+      "Can Scale 探究模型规模与可塑性丧失",
+      "Scaling Laws 量化 LLM 蒸馏性能权衡",
+      "OpenThoughts-Agent 公开智能体训练配方",
+      "World Models 提出非均匀认证方法"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周点赞 5046 下载超 205 万",
+      "GLM-5.2 MoE-DSA 架构周点赞 2351",
+      "Google Gemma-4-12B-it 下载超 211 万",
+      "Microsoft FastContext 4B 超长上下文模型",
+      "Qwen AgentWorld 专为智能体场景设计",
+      "百度 Unlimited-OCR 多语言识别成热门"
+    ],
+    "ai-community": [
+      "Claude Tag 模式缺乏信任层成焦点",
+      "HolmesGPT 在真实集群验证 AI SRE 修复",
+      "AI 审计基准测试被指存在盲区",
+      "自动化红队测试将安全漏洞降至 0",
+      "AI 编码代理需要项目级别持久化记忆",
+      "GPT-4o 在与廉价模型邮件处理中落败"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits v2.1.191 release",
+      "Token cost unpredictability dominates",
+      "5 tools implement MCP standard",
+      "Multi-agent architectures converge",
+      "OpenCode and Pi lead open source",
+      "7 major tools serve segments"
+    ],
+    "ai-agents": [
+      "OpenClaw: 346 issues, 500 PRs",
+      "v2026.6.10 adds automatic fast mode",
+      "v2026.6.11-beta.1 improves channel control",
+      "281 open issues signal tech debt",
+      "Feishu and Telegram parity gaps",
+      "High-velocity dev with mounting debt"
+    ],
+    "ai-trending": [
+      "OpenMontage +3,719 stars today",
+      "Hermes-Agent hits 202K total stars",
+      "Google Labs launches design.md spec",
+      "Agentic video production goes open source",
+      "Revfactory harness designs agent teams",
+      "Structured composable ecosystems emerge"
+    ],
+    "ai-web": [
+      "Anthropic partners with NNSA on safeguards",
+      "96% accurate nuclear classifier deployed",
+      "81K Claude user labor survey published",
+      "OpenAI hints at Jalapeno custom chip",
+      "Applied AI governance push intensifies",
+      "Broadcom co-develops OpenAI inference chip"
+    ],
+    "ai-hn": [
+      "NSA lost access to Anthropic Mythos",
+      "Mythos found classified system vulnerabilities",
+      "OpenAI Jalapeno chip debate heats up",
+      "White House accuses Anthropic of violations",
+      "Anthropic alleges Alibaba model theft",
+      "Geopolitical AI tensions dominate"
+    ],
+    "ai-ph": [
+      "OpenArt Director turns chat to video",
+      "NeuralAgent 3.0 executes UI in 285ms",
+      "Developer tools dominate today's launches",
+      "Context management fixes for agents",
+      "Industry shifts to production infrastructure",
+      "Creative AI tools see strong traction"
+    ],
+    "ai-arxiv": [
+      "Plasticity loss challenged in scaling study",
+      "Task-specific distillation scaling laws",
+      "Non-autoregressive generation framework",
+      "Agentic skill acquisition papers dominate",
+      "Hallucination detection via gradient analysis",
+      "Warrant analysis for fact-checking"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5K likes",
+      "GLM-5.2 MoE model gains 2,351 likes",
+      "MiniMax-M3 multimodal MoE trending",
+      "Qwen-AgentWorld-35B-A3B for agents",
+      "GGUF quantized models lower barriers",
+      "Vision-language MoE architectures surge"
+    ],
+    "ai-community": [
+      "Claude Tag trust layer missing",
+      "Red teaming cuts agent breaches to zero",
+      "AI agents need project memory",
+      "GitHub Copilot pivots to token billing",
+      "OCaml release sparks Lobste.rs debate",
+      "Security guardrails lag behind tooling"
+    ]
+  }
+}
