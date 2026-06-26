@@ -1,0 +1,146 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 日更3版本含alpha版，开发极活跃",
+      "Pi社区聚焦TUI体验与代理核心，PR活动频繁",
+      "OpenCode 发布 v1.17.11，社区反馈与开发响应极快",
+      "成本失控成主流痛点：Claude Code Token消耗飙升",
+      "CodeWhale 进入功能冲刺期，日更 v0.8.65",
+      "Gemini CLI Agent相关Bug集中爆发引社区热议"
+    ],
+    "ai-agents": [
+      "OpenClaw 日活近千议题，维护者资源告急",
+      "提示注入与权限越权问题成社区最大隐患",
+      "修复Vydra边界读取问题，防OOM崩溃",
+      "Discord子代理新增进度反馈，提升交互体验",
+      "修复推理模型流式输出内容丢失显示问题",
+      "Codex工具完成等待bug修复，保长任务不掉"
+    ],
+    "ai-trending": [
+      "OpenMontage 日增 3434 星，开源视频智能体爆火",
+      "Hermes Agent 累计 20.3 万星，持续学习框架受追捧",
+      "Google发布Design.md，规范Agent UI理解",
+      "AWS推Agent Toolkit，构建MCP标准化基础能力",
+      "一个网络安全专家技能包发布，日增 571 星",
+      "TradingAgents 多智能体框架狂揽 8.8 万星"
+    ],
+    "ai-web": [
+      "OpenAI 发布战略文《智能体如何改变工作》",
+      "Anthropic 官网陷入短暂发布静默期",
+      "OpenAI 正抢占‘智能体落地’的定义权",
+      "Anthropic 静默期可能预示重大版本即将发布",
+      "OpenAI 从‘模型性能’向‘工作流解决方案’转向",
+      "两巨头战略差异：Anthropic 驱动安全 vs OpenAI 产品化"
+    ],
+    "ai-hn": [
+      "OpenKnowledge 开源爆火，AI笔记工具获 185 票",
+      "OpenAI 被曝在付费版产品中植入广告引众怒",
+      "OpenAI 推迟IPO计划，盈利压力引广泛讨论",
+      "美国政府要求 OpenAI 分阶段发布新模型",
+      "甲骨文因采用AI裁员2.1万人引就业关注",
+      "社区热议GPT-4o与廉价模型对决，后者胜出"
+    ],
+    "ai-ph": [
+      "Tencent EdgeOne Makers 登顶，562票简化Agent部署",
+      "Propane 自动提供客户上下文，获高关注",
+      "Customer Relationship Agents 将CRM管理自动化",
+      "AI Agent化趋势明显，多产品聚焦自主代理",
+      "Crewdle AI 一站式AI工具订阅模式受捧",
+      "开发者工具赛道火热，降低门槛是共性需求"
+    ],
+    "ai-arxiv": [
+      "论文揭示‘模型取证’概念，区分真假恶意",
+      "多步工具RL训练崩溃原因被分析，提出修复方案",
+      "自蒸馏技术虽提准确率但严重降低输出多样性",
+      "去中心化AI Agent信任协议ERC-8004首获实证",
+      "关键词词典情感分析方法存严重‘盲视’风险",
+      "小模型预训练中规则记忆会‘自然倒退’"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞超5千，下载超187万",
+      "NVIDIA LocateAnything-3B 通用定位模型走红",
+      "GLM-5.2 智谱新MoE成本周现象级发布",
+      "Microsoft FastContext-1.0 推小参数长上下文模型",
+      "Gemma-4-12B 系列涌现大量Agent量化版",
+      "LiquidAI推230M超小参数模型探索极限"
+    ],
+    "ai-community": [
+      "开发者质疑LLM分类可靠性，提特征提取方案",
+      "多Agent编排避免混乱的设计法则引热议",
+      "GPT-4o与廉价模型对决，成本优化成关键",
+      "‘你的AI产品是LLM的下一个功能’引创业反思",
+      "2026年向量数据库选型指南：六款横向对比",
+      "AI网关 vs API网关差异对比引关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Token governance emerges as key concern",
+      "Cross-tool stability issues plague releases",
+      "CodeWhale and Gemini CLI push agent autonomy",
+      "Enterprise adoption signals grow stronger",
+      "Platform regressions plague Windows, macOS",
+      "OpenTelemetry docs requests surge"
+    ],
+    "ai-agents": [
+      "OpenClaw shows 500 updated issues",
+      "477 open issues reflect growing backlog",
+      "86 PRs merged today despite heavy load",
+      "Key PR adds autofix and Windows daemon",
+      "Project hasn't shipped since June 1",
+      "Maintainer bandwidth appears stretched"
+    ],
+    "ai-trending": [
+      "OpenMontage gains 3,434 stars in one day",
+      "Claude Code cements role as de facto runtime",
+      "Anthropic releases 817 structured skills",
+      "RAG and vector DB space remains hyperactive",
+      "Ollama tops at 174,910 stars",
+      "AWS launches agent toolkit with MCP servers"
+    ],
+    "ai-web": [
+      "Anthropic posts zero new articles today",
+      "OpenAI releases \"How Agents Transform Work\""
+    ],
+    "ai-hn": [
+      "Trump asks OpenAI to delay GPT-5.6",
+      "OpenAI adds ads to paid ChatGPT tiers",
+      "OpenKnowledge attracts high HN engagement",
+      "Chinese models close gap with Western labs",
+      "GLM-5.2 termed a security emergency",
+      "Agentic workflows dominate infrastructure talk"
+    ],
+    "ai-ph": [
+      "Tencent EdgeOne Makers tops with 562 votes",
+      "Propane automates customer context for teams",
+      "Agent deployment tools dominate launches",
+      "Swimio offers niche AI swim coaching",
+      "Crop.photo targets Shopify merchants",
+      "Agentic workflows shift from chatbots to action"
+    ],
+    "ai-arxiv": [
+      "On-policy self-distillation reduces output diversity",
+      "Facet-Probe reveals MLLM order sensitivity",
+      "Safety kernels for autonomous agents explored",
+      "Reinforcement learning for tool use collapses",
+      "Efficiency and robustness frameworks emerge",
+      "Papers focus on agent safety and trustworthiness"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 5,061 likes",
+      "Gemma 4 spawns numerous fine-tunes and quants",
+      "Uncensored agentic fine-tunes gain traction",
+      "NVIDIA launches LocateAnything-3B vision",
+      "Baidu releases Unlimited-OCR model",
+      "Krea-2-Turbo marks startup text-to-image launch"
+    ],
+    "ai-community": [
+      "Dev.to skeptical of black-box LLM decisions",
+      "Agent orchestration advice avoids spaghetti",
+      "LLM extracts data but deterministic classifier",
+      "AI-generated SQL trust issues addressed",
+      "Lobste.rs explores Munich 1991 AI roots",
+      "Fully local voice assistant tooling gains"
+    ]
+  }
+}
