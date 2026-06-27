@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "付费额度管理与多平台适配成工具生态共性挑战",
+      "Claude Code 发布 v2.1.195 修复 MCP 连接问题",
+      "OpenAI Codex 发布 v0.143.0-alpha.26 强化远程控制",
+      "GitHub Copilot CLI 探团队协作与审批流程",
+      "Qwen Code 发布 cua-driver-rs v0.6.8 修复进程泄漏",
+      "DeepSeek TUI 重构清理代码，修复编辑器崩溃"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 Issue 与 500 PR 活跃度空前",
+      "安全加固持续推进：网络层、存储层、输入层修复",
+      "核心稳定修复落地：多字节字符截断问题已解决",
+      "Linux/Windows 桌面端应用需求强烈，获 81 个👍",
+      "会话状态与消息丢失成社区最关注痛点",
+      "大量长期未合并 PR 堆积，挑战交付效率"
+    ],
+    "ai-trending": [
+      "garrytan/gstack 日增 950 star，封装 23 个 Claude 工具",
+      "calesthio/OpenMontage 日增 1754 star，开源视频制作",
+      "Agent-Reach 日增 1194 star，零 API 费抓取社交平台",
+      "google-labs-code/design.md 日增 2407 star，定义设计规范",
+      "aws/agent-toolkit-for-aws 官方入局 MCP 生态",
+      "xbtlin/ai-berkshire 日增 1274 star，AI 价值投资框架"
+    ],
+    "ai-web": [
+      "Anthropic 发布 18 篇新内容，进入信息洪水模式",
+      "Claude Tag 上线 Slack，从机器人进化成主动协作 Agent",
+      "DXC 数万工程师将 Claude 引入银行航空核心系统",
+      "TCS 为 50000 名员工提供 Claude，打包行业解决方案",
+      "Claude 在 NMR 谱图理解与生物学数据基础设施取得突破",
+      "OpenAI 仅更新 2 条元数据，处于相对静默期"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol 预览引爆社区，781 分 482 条评论",
+      "美国政府决定谁能用 GPT-5.6 引发监管风暴讨论",
+      "Smart model routing 工具走红，解决开发者选择困难",
+      "公开权重与闭源 LLM 差距分析引发务实讨论",
+      "Mantis 自托管 LLM 网关上线，强调数据隐私",
+      "AI 冲击数学研究范式成深层思考话题"
+    ],
+    "ai-ph": [
+      "BrowserAct 成今日最热，为 AI Agent 提供浏览器操作能力",
+      "Zaro 主打零代码，一键在上下文上构建 Agent 应用",
+      "ClickUp Brain² 推全公司级 AI，可依据数据行动",
+      "AI 代理可观测性与跨仓库会话记忆成开发工具创新点",
+      "成本控制与低代码构建 AI 应用成重要议题",
+      "多款产品让 AI 代理更自主编写代码与执行商业流程"
+    ],
+    "ai-arxiv": [
+      "RiVER 框架突破限制：无真实答案也能强化学习 LLM",
+      "序列概率与正确性关系理论为解码校准提供基础",
+      "67 个前沿模型揭示多模型系统存在共失效天花板",
+      "意图感知安全分类方法显著提升 LLM 鲁棒性",
+      "GUI 代理通过自主经验探索实现能力升级",
+      "自回归玻尔兹曼生成器为分子采样提供新方案"
+    ],
+    "ai-hf": [
+      "GLM-5.2 系列强势登顶，量化版与低精度版同步上榜",
+      "HauhauCS 无审查模型下载量突破 340 万，需求旺盛",
+      "微软发布 FastContext-1.0-4B，专为子代理场景设计",
+      "LiquidAI 推 230M 超小模型，验证非 Transformer 架构",
+      "百度 Unlimited-OCR 成下载最高专用模型之一",
+      "低比特量化 GGUF 与 NVFP4 成社区核心部署需求"
+    ],
+    "ai-community": [
+      "功能不等于正确：AI 生成代码的最大风险被热议",
+      "AI 审查得 23/25 分却错过核心论点，揭示理解局限",
+      "MCP 作为上下文分发机制价值远超传统 RPC 使用",
+      "Agent 间交接缝隙成多系统失败主因引关注",
+      "LiteLLM vs OpenRouter 生产环境实测优缺点对比",
+      "LLM 输出格式遵循难题与 Agent 护栏建设成焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.195 released weekly",
+      "Cross-tool agent reliability concerns rising",
+      "Billing transparency is a key demand",
+      "Users want deterministic auditable behavior",
+      "Platform parity macOS vs Windows debated",
+      "MCP ecosystem stability faces challenges"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues 500 PRs today",
+      "Intense community engagement on feature request",
+      "Focus on session state management bugs",
+      "Multi-agent orchestration stability issues",
+      "51 PRs merged or closed today",
+      "Heavy development phase no new releases"
+    ],
+    "ai-trending": [
+      "design.md gains 2,407 stars today",
+      "Agent-to-Internet bridge projects emerging",
+      "gstack packages full startup team simulation",
+      "MinerU PDF pipeline hits 960 stars",
+      "OpenMontage adds 52 video tools",
+      "Community wants agents that see and plan"
+    ],
+    "ai-web": [
+      "Claude Tag makes Claude proactive in Slack",
+      "Anthropic Claude Corps $150M fellowship",
+      "Gates Foundation $200M partnership announced",
+      "DXC and TCS enterprise partnerships signed",
+      "GPT-5.6 Sol placeholder appears on OpenAI",
+      "Anthropic leads agentic productization push"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol sparks regulation debate",
+      "White House asked OpenAI to slow release",
+      "Mythos limited to trusted partners only",
+      "Community split on centralized AI control",
+      "Smart model routing tools gain traction",
+      "Self-hosted LLM gateways discussed heavily"
+    ],
+    "ai-ph": [
+      "BrowserAct tops with 536 votes today",
+      "Oxlo.ai addresses rising API costs",
+      "Brain² by ClickUp embeds AI in workflows",
+      "Polygraph enables cross-repo agent memory",
+      "Heron brings eBPF observability to agents",
+      "Agent infrastructure dominates Product Hunt"
+    ],
+    "ai-arxiv": [
+      "RiVER enables RL without ground truth",
+      "Co-failure ceiling limits multi-model systems",
+      "Hard limits found on model ensembles",
+      "Test-time scaling for embodied agents",
+      "Hallucination mitigation in world models",
+      "Prompt injection vulnerabilities in hiring"
+    ],
+    "ai-hf": [
+      "Qwen3.6 quantized model gets 4.8M downloads",
+      "GLM-5.2 emerges as major open-weight model",
+      "MiniMax-M3 multimodal MoE gains traction",
+      "NVIDIA LocateAnything-3B for vision",
+      "Baidu Unlimited-OCR excels at text extraction",
+      "VibeThinker-3B popular for math reasoning"
+    ],
+    "ai-community": [
+      "Functional doesn't mean correct code",
+      "Agent-to-Agent handoffs cause most failures",
+      "Claude Code billing analyzed in 4-part series",
+      "Hidden LLM costs surprise developers",
+      "AI worms pose security risks debated",
+      "Small model practical limits discussed"
+    ]
+  }
+}
