@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code大规模安全误报引发信任危机",
+      "OpenAI Codex计费突变，配额暴涨引用户不满",
+      "Gemini CLI子Agent行为不可控，社区批评激烈",
+      "GitHub Copilot CLI v1.0.66出现Windows回归Bug",
+      "OpenCode TUI管理功能增强，WSL路径问题仍存",
+      "DeepSeek TUI v0.8.66预发布，缓存成本焦虑升温"
+    ],
+    "ai-agents": [
+      "OpenClaw P0内存泄漏PR #97334引起紧急关注",
+      "PR #90239引入会话家族概念，解决上下文丢失",
+      "ClawHub技能市场功能PR #95964持续推进",
+      "Rust/GTK4 Linux原生客户端PR #61576进展缓慢",
+      "社区贡献活跃但合并瓶颈突出，无新版本发布",
+      "500条Issue和PR集中在讨论与审查阶段"
+    ],
+    "ai-trending": [
+      "Hermes Agent暴涨至20万星，自进化Agent领跑",
+      "CopilotKit获3.5万星，简化前端AI集成",
+      "vLLM稳居部署首选，高吞吐推理引擎持续迭代",
+      "claude-context为编码代理提供MCP代码上下文",
+      "Nestia利用元数据编程简化AI聊天机器人开发",
+      "gstack：YC CEO个人Claude Code配置集开源"
+    ],
+    "ai-hn": [
+      "Anthropic指控阿里用2.5万账户窃取Claude模型",
+      "亚洲AI初创快速推出Mythos类模型填补禁令缺口",
+      "Adrafinil：仅当Agent运行时保持Mac唤醒的工具",
+      "用户优化llama.cpp实现20%提示处理速度提升",
+      "'数据中心会议超时5秒被捕'引发AI权力膨胀讨论",
+      "本地LLM硬件配置讨论：Mac Studio与消费级GPU"
+    ],
+    "ai-ph": [
+      "Agent Arena：首个AI智能体公开竞技场上线",
+      "Gemini Spark：全天候主动式个人任务代理",
+      "LockIn MCP：AI自动屏蔽干扰进入专注模式",
+      "DMV：社区治理的AI智能体身份注册服务",
+      "note.md：将AI变为开发者私密个人记忆助手",
+      "AI嵌入Excel等传统工具模式持续受青睐"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶，智谱AI最新MoE旗舰模型",
+      "DeepSeek-V4-Pro-DSpark未开放下载却热度飙升",
+      "NVIDIA LocateAnything-3B：视觉定位模型爆火",
+      "Qwen-AgentWorld-35B-A3B：专为Agent设计的MoE",
+      "MiniMax-M3：国产多模态模型下载超18万",
+      "HauhauCS系列：社区无审查量化魔改下载惊人"
+    ],
+    "ai-community": [
+      "探讨AI Agent模型能有多小：Nemotron极限挑战",
+      "5个LLM API账单隐藏陷阱及查找方法",
+      "为随机AI系统构建确定性工程架构",
+      "OpenAI与博通定制Jalapeño推理芯片解析",
+      "拆解AI Agent核心组件与验证框架",
+      "MemStrata在代码变更场景全面超越RAG"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code has critical auth issues",
+      "9 safety filter issues for Claude Code",
+      "Windows support remains a universal pain",
+      "Authentication reliability plagues tools",
+      "Agentic behavior problems emerging",
+      "Community demands cost transparency"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues updated",
+      "Only 14 issues closed in 24 hours",
+      "500 PRs versus 53 merged yesterday",
+      "No new releases published today",
+      "Review capacity bottleneck flagged",
+      "Gateway stability improving via PRs"
+    ],
+    "ai-trending": [
+      "Hermes Agent hits 204K total stars",
+      "Simplex-chat gains 1,469 stars today",
+      "design.md surges with 1,541 stars",
+      "OpenCode coding agent gains 392 stars",
+      "Agent memory projects rising fast",
+      "Vibe-Trading attracts strong interest"
+    ],
+    "ai-hn": [
+      "Asian startups launch Mythos-like models",
+      "Alibaba used 25k accounts to mine Claude",
+      "Farmer arrested for 5-second OT meeting",
+      "Export ban sparks heated community debate",
+      "Corporate espionage allegations divide readers",
+      "Infrastructure tensions draw scrutiny"
+    ],
+    "ai-ph": [
+      "Agent Arena tops Product Hunt today",
+      "Gemini Spark offers 24/7 personal AI",
+      "note.md bridges local LLMs with PKM",
+      "SquidHub enables multiplayer AI collaboration",
+      "DMV adds governance layers for agents",
+      "Shift from toys to core infrastructure"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE leads Hugging Face trends",
+      "NVFP4-quantized MoE variants spreading",
+      "Gemma 4 coding fine-tunes exploding",
+      "DeepSeek V4 debuts Pro DSpark",
+      "Unlimited-OCR model surging in vision",
+      "Qwen AgentWorld offers 3B active params"
+    ],
+    "ai-community": [
+      "LLM bills spike from $620 to $2,480",
+      "AI gateway built to replace API wrappers",
+      "Trading bot feedback loops destroy value",
+      "OpenAI's Jalapeño ASIC analyzed deeply",
+      "Prompt injection as role confusion",
+      "Adaptive AI worms getting traction"
+    ]
+  }
+}
