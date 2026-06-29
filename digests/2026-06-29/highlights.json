@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "GPT-5.5配额异常引发社区成本恐慌",
+      "Gemini子代理可靠性遭质疑，SSRF漏洞",
+      "Qwen Code v0.19.3发布，修复Token失控",
+      "OpenAI Codex Alpha版本发布，修复SSD磨损",
+      "Claude Code安全过滤器误伤会话状态退化",
+      "Kimi Code文件读取死循环内存泄漏未修复"
+    ],
+    "ai-agents": [
+      "OpenClaw发布Beta版，新增Slack和Mattermost中继",
+      "会话状态数据迁移丢失成社区讨论焦点",
+      "PR修复sudo权限致配置文件清空风险",
+      "SQLite迁移持续推进，API接口引关注",
+      "技能脚本强制安装覆盖问题即将修复",
+      "社区评论集中，维护团队优先级调度成关键"
+    ],
+    "ai-trending": [
+      "DeusData/codebase-memory-mcp日增2190星",
+      "xbtlin/ai-berkshire日增1445星，价值投资Agent",
+      "Hermes Agent超20万星，最活跃Agent框架",
+      "browser-use/video-use让AI Agent编辑视频",
+      "FluidVoice离线语音转写受隐私保护青睐",
+      "HKUDS/Vibe-Trading冲榜，个人交易Agent"
+    ],
+    "ai-web": [
+      "OpenAI与惠普达成前沿伙伴关系",
+      "Anthropic官网当日无任何新增内容",
+      "OpenAI正从模型转向软硬件一体化",
+      "HP合作或锁定企业AI PC预装入口",
+      "Anthropic可能处于蓄力期静待发布",
+      "OpenAI加速企业级生态构建差异化"
+    ],
+    "ai-hn": [
+      "GLM 5.2在网络安全基准测试中击败Claude",
+      "Wayfinder Router实现本地与托管LLM路由",
+      "福特因AI未达预期重聘老工程师引关注",
+      "谷歌限制Meta使用Gemini模型曝光",
+      "AgentWatch防止Agent失控获112分热评",
+      "China Matched Anthropic in Cybersecurity"
+    ],
+    "ai-ph": [
+      "Folio AI以331票领跑，Claude for PowerPoint",
+      "QApilot's CoWork 309票，移动测试提效3倍",
+      "Cloud World Model模拟云环境零成本获177票",
+      "OpenBot标签化管理多AI Agent获关注",
+      "Velocity 2.0一键增强提示词上下文理解",
+      "VibeRaven开源AI应用任务控制中心"
+    ],
+    "ai-hf": [
+      "GLM-5.2以2815赞领跑Hugging Face热门榜",
+      "HauhauCS去审查版下载量达320万",
+      "NVIDIA LocateAnything-3B视觉定位新贵",
+      "微软FastContext探索快速上下文新思路",
+      "Gemma-4社区微调版专注代码生成智能体",
+      "Qwen家族衍生大量社区微调量化变体"
+    ],
+    "ai-community": [
+      "VP of Nothing揭露AI项目因管理失败寓言",
+      "向量数据库选型指南对比Pinecone等主流方案",
+      "上下文过期问题导致AI不知当前时间",
+      "CascadeFlow流水线审核降本不降质",
+      "GPT-5.6访问权限才是核心问题引热议",
+      "MCP服务器未输入已烧5万Token警告"
+    ],
+    "ai-weekly": [
+      "OpenAI发布首款自研推理芯片Jalapeno",
+      "Anthropic推出Claude Tag公测",
+      "Anthropic发布AI经济学大规模调研",
+      "GLM 5.2在网络安全基准测试中击败Claude",
+      "OpenAI Codex曝出严重SSD写入Bug",
+      "Hermes Agent登顶GitHub趋势榜"
+    ],
+    "cli": [
+      "OpenAI Codex配额暴涨10-20x引发用户抗议",
+      "Agent误报成功问题成CLI工具共性痛点",
+      "跨平台兼容性依然是主要短板",
+      "MCP协议生态加速构建",
+      "Kimi Code CLI社区活跃度持续低位",
+      "成本透明度与资源管理是共性痛点"
+    ],
+    "agents": [
+      "会话状态迁移至SQLite是本周焦点",
+      "内存泄漏与锁可靠性问题热度上升",
+      "安全议题讨论显著增加",
+      "v2026.6.10引入自动快速模式",
+      "PR合入率极低，合并瓶颈突出",
+      "NanoBot与Hermes Agent各自迭代"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code tops 10 hot issues today",
+      "OpenAI Codex faces session bugs",
+      "Gemini CLI gains configurable routing",
+      "Kimi Code releases new features",
+      "Pi tool sees community traction",
+      "DeepSeek TUI debuts with high interest"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues, 500 PRs",
+      "New beta v2026.6.11-beta.2 released",
+      "Session-state management in focus",
+      "Message delivery reliability addressed",
+      "Security boundaries for tool calls",
+      "438 open issues signal maintenance lag"
+    ],
+    "ai-trending": [
+      "Hermes-Agent hits 204,965 stars",
+      "learn-claude-code reaches 68,813 stars",
+      "video-use gains 196 stars today",
+      "nanobot hits 44,825 total stars",
+      "Agent memory projects explode",
+      "Local-first dictation gains traction"
+    ],
+    "ai-web": [
+      "OpenAI publishes new partnership article",
+      "Anthropic publishes zero new content",
+      "Article slug: hp-frontier-partnership",
+      "OpenAI pivots to enterprise ecosystem",
+      "HP partnership targets frontier AI",
+      "Anthropic silent for second day"
+    ],
+    "ai-hn": [
+      "GLM 5.2 beats Claude in benchmarks",
+      "China matches Anthropic in cybersecurity",
+      "Ford rehiring human engineers sparks debate",
+      "Semgrep sparks benchmark skepticism",
+      "AI cybersecurity race dominates talks",
+      "Open-source LLM routers trending"
+    ],
+    "ai-ph": [
+      "Folio AI leads with 331 votes",
+      "QApilot CoWork boosts developer efficiency",
+      "Cloud World Model optimizes costs",
+      "A.S.S.H.O.L.E. goes viral",
+      "Specialized agents replace chatbots",
+      "Niche open-source tools gain traction"
+    ],
+    "ai-hf": [
+      "GLM-5.2 hits 2,815 likes",
+      "Qwen-AgentWorld-35B-A3B trends",
+      "VibeThinker-3B gains 743 likes",
+      "NVIDIA releases LocateAnything-3B",
+      "HauhauCS dominates uncensored fine-tunes",
+      "MoE architectures surge in popularity"
+    ],
+    "ai-community": [
+      "Agent reliability gap highlights posted",
+      "Stale context problem debated on Dev.to",
+      "AI Winter discussion resurfaces",
+      "Vector DB comparison article gains traction",
+      "Local voice assistant advances shared",
+      "Apple silicon inference posts trending"
+    ],
+    "ai-weekly": [
+      "OpenAI Codex bug writes TB logs to SSDs",
+      "Anthropic launches Claude Tag for Slack",
+      "OpenAI partners with HP and Broadcom chips",
+      "U.S. government delays release of GPT-5.6 Sol",
+      "65% of product code now generated by Claude",
+      "Shift from model hype to production deployment"
+    ]
+  }
+}
