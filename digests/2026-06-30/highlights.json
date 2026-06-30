@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.196 发布，社区反馈量大且深入",
+      "OpenAI Codex 爆发式迭代，安全与性能 PR 密集",
+      "Gemini CLI v0.51.0 发布，聚焦 Agent 稳定性",
+      "OpenCode V2 架构活跃，模型兼容性 Issue 突出",
+      "DeepSeek TUI 冲刺 v0.8.66，性能成本优化成焦点",
+      "Token 消耗与缓存优化成各工具共同挑战"
+    ],
+    "ai-agents": [
+      "24小时内 374 个 Issue 和 500 个 PR 更新",
+      "修复嵌入式代理死锁 Bug，直接解决 Issue #97747",
+      "为 Codex 运行时添加发布说明页面占位",
+      "跨平台桌面客户端呼声极高，110条评论81个赞",
+      "会话状态管理与消息丢失成社区关注核心",
+      "项目处于快速迭代与问题修复的高强度并行期"
+    ],
+    "ai-trending": [
+      "ai-berkshire 单日 +1386 stars，多 Agent 金融投研获认可",
+      "agency-agents 单日 +1425 stars，全栈 AI 代理机构兴起",
+      "VulnClaw 用自然语言指令自动化渗透测试",
+      "FluidVoice 完全本地语音转文本，强调数据隐私",
+      "council-of-high-intelligence 模拟先贤多 LLM 协商",
+      "Picovoice/picollm 推设备端推理，X-Bit 量化引擎"
+    ],
+    "ai-hn": [
+      "Micro-Agent 模型内部协作方法，超越单一前沿模型",
+      "韩国计划投资 1 万亿美元于芯片与人形机器人",
+      "Anthropic CEO 旧文重提，讨论开源 AI 安全性",
+      "追踪 GPT-5、Claude Fable 5 发布状态的网站走红",
+      "设备端实时运行视觉模型工具获社区好评",
+      "出版商起诉 OpenAI 版权问题引发热议"
+    ],
+    "ai-ph": [
+      "Lyto 获 178 票，跨浏览器、工具和消息的万能 AI 智能体",
+      "Persona.js 获 292 票，为前端添加 WebMCP 原生 AI 聊天",
+      "Schema Source 将任意 URL 转化为 JSON Schema 或 Zod",
+      "开源项目占两席，社区对透明工具兴趣浓厚",
+      "MCP/Agent 互操作性成开发者工具热门赛道",
+      "AI 交互测试产品崭露头角，关注模型行为验证"
+    ],
+    "ai-hf": [
+      "GLM-5.2 获 2934 点赞，MoE 架构成社区焦点",
+      "DeepSeek-V4-Pro-DSpark 发布，附带学术论文",
+      "Ornith-1.0-35B-GGUF 商用友好，下载超 12 万",
+      "Qwen-AgentWorld-35B 支持多模态，面向智能体任务",
+      "NVIDIA 推出 NVFP4 量化版，适配 GLM-5.2",
+      "Krea-2 文本到图像模型展现极高生态成熟度"
+    ],
+    "ai-community": [
+      "Dev.to 热议如何构建可靠 AI 代理：记忆、MCP、安全",
+      "LLM API 调用技术细节拆解文获 30 赞 31 评论",
+      "跨 46 个仓库语义搜索方案解决超大型代码库难题",
+      "创新成本策略：两模型一致时用廉价模型，仅升级分歧",
+      "建议不要在系统提示词中硬编码密钥，敲响安全警钟",
+      "Lobste.rs 冷静批判：AI 对数学意义与潜在寒冬论调"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.196 released",
+      "Token burn rates are community focus",
+      "Context compaction failures under fire",
+      "Safety filters frustrate legitimate devs",
+      "Gemini CLI v0.51.0 nightly out",
+      "OpenAI Codex rust-v0.142.4 alpha"
+    ],
+    "ai-agents": [
+      "OpenClaw: 374 issues in 24 hours",
+      "SQLite storage refactor PR #96625",
+      "447 open PRs show intense activity",
+      "No new releases published today",
+      "Project in intensive stabilization",
+      "High-priority items need maintainer review"
+    ],
+    "ai-trending": [
+      "AutoGPT: 185k stars, still trending",
+      "Hermes-Agent hits 205,717 stars",
+      "council-of-high-intelligence deliberates",
+      "agency-agents +1,425 stars today",
+      "VulnClaw: AI agent penetration testing",
+      "Ollama leads infra with 175k stars"
+    ],
+    "ai-hn": [
+      "Micro-agent beats frontier models",
+      "South Korea $1T AI hardware spend",
+      "Push for offline, open-source tooling",
+      "Qwythos-9B fine-tune on Hugging Face",
+      "Efficiency pivot away from costly APIs",
+      "Closed-source AI seen as a liability"
+    ],
+    "ai-ph": [
+      "Lyto: one AI agent across everything",
+      "Persona.js: low-level dev framework",
+      "Wirable: can AI agents use your product?",
+      "Weavz.io enables agentic AI actions",
+      "discode.ai: consumer-friendly AI hub",
+      "Lyto: 178 votes, 28 comments"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 ecosystem dominates",
+      "NVIDIA LocateAnything-3B: 728k downloads",
+      "DeepSeek-V4-Pro-DSpark trending",
+      "Gemma 4 coder fine-tunes gain traction",
+      "GLM-5.2 MoE-DSA: 133k downloads",
+      "Liquid LFM2.5-230M pushes new architecture"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates",
+      "Cory Doctorow criticizes Big Tech AI",
+      "GPT-5.6 launched with restricted access",
+      "Debate on AI Winter echoes continues",
+      "What happens when calling an LLM API?",
+      "RAG and MCP patterns over model memory"
+    ]
+  }
+}
