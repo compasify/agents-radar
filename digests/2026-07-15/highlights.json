@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.210 新增工具耗时计数器",
+      "OpenAI Codex v0.144.4 修复插件崩溃",
+      "Gemini CLI v0.52.0-nightly 修复配额与任务取消",
+      "GitHub Copilot CLI 增强语音和插件生态",
+      "Qwen Code v0.19.10 支持多工作区",
+      "OpenCode v1.18.1 修复v2迁移后的UI Bug"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临 v2026.7.1 版本启动崩溃危机",
+      "24小时内500条Issue和500条PR更新",
+      "会话状态持久化和消息可靠性成修复焦点",
+      "核心团队密集提交PR进行紧急修复",
+      "无新版本发布，聚焦稳定性挑战",
+      "跨渠道消息挂起问题得到关键修复"
+    ],
+    "ai-trending": [
+      "Graphify-Labs/graphify 日增1851星，知识图谱增强AI编码",
+      "AI对冲基金 virattt/ai-hedge-fund 成金融热点",
+      "HKUDS/Vibe-Trading 日增1256星，Agent金融交易",
+      "AI视频编辑开源替代品获惊人单日增长",
+      "Meilisearch集成AI混合搜索能力",
+      "社区转向AI编程安全性加固和上下文增强"
+    ],
+    "ai-web": [
+      "Anthropic推出免费Claude for Teachers教育产品",
+      "向加拿大AI研究机构捐赠1000万美元",
+      "发布《加拿大人如何使用Claude》研究报告",
+      "Claude for Teachers连接全美50州学术标准",
+      "首次为特定职业群体提供免费高级订阅",
+      "OpenAI官网当日无任何内容更新"
+    ],
+    "ai-hn": [
+      "430分热帖：如何让Claude不说load-bearing",
+      "OpenAI Codex开始加密子Agent提示词",
+      "OpenAI广告业务预测缺口达90%引热议",
+      "Meta因AI裁员决策被起诉引燃伦理讨论",
+      "LeMario项目训练JEPA世界模型",
+      "Agnost AI从Agent对话中提取用户反馈"
+    ],
+    "ai-ph": [
+      "AgentKey获675票：为AI Agent提供实时数据市场",
+      "Osaurus获635票：Mac上100%本地开源Agent",
+      "Playground游戏化黑客AI Agent赢10万美元",
+      "Loomal和UnitPay聚焦AI产品变现基础设施",
+      "今日产品偏向底层工具，垂直应用较少",
+      "AI智能体与开发者基础设施双轮驱动"
+    ],
+    "ai-arxiv": [
+      "Requential Coding突破模型压缩极限",
+      "首篇LLM元认知全面综述发表",
+      "机械可解释性揭示LLM-as-Judge偏见来源",
+      "AdvancedMathBench评测LLM数学证明能力",
+      "沙漏推理优化推理任务效率",
+      "具身智能体灵巧操作研究取得进展"
+    ],
+    "ai-hf": [
+      "Qwen3.6-27B-MTP-GGUF下载量达290万",
+      "zai-org/GLM-5.2以3948点赞领跑",
+      "NVIDIA推出75B旗舰MoE模型NVFP4量化",
+      "百度Unlimited-OCR获1983点赞",
+      "社区微调版Gemma-4专注Agent场景",
+      "多模态MoE架构成为绝对主流"
+    ],
+    "ai-community": [
+      "AI框架前10%像魔法，后90%令人崩溃",
+      "开发者分享将Agent Token成本降低60%",
+      "教程：构建不会删除你数据库的AI Agent",
+      "Claude Code在打字前就多烧5倍Token",
+      "RAG vs 微调：用IoT案例清晰对比",
+      "版本化规则解决AI Agent跨会话漂移"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex lead ecosystem",
+      "Windows stability remains top pain point",
+      "Multi-agent orchestration trending",
+      "Seven major tools compete actively",
+      "All tools suffer critical VM bugs",
+      "Claude Code optimizes Anthropic-first path"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues in 24h",
+      "Critical P0 bugs in 2026.7.1 release",
+      "Gateway crash-loops plague startup",
+      "165 PRs merged in remediation",
+      "Legacy state migration failing",
+      "ZeroClaw and NanoBot also active"
+    ],
+    "ai-trending": [
+      "Graphify gains +1,851 stars today",
+      "Ponytail: viral lazy senior dev prompt",
+      "Ollama now supports Kimi-K2.6",
+      "Agent memory infrastructure exploding",
+      "AI hedge fund apps on rise",
+      "Anti-slop design tools emerge"
+    ],
+    "ai-web": [
+      "Claude for Teachers launched",
+      "First role-specific Anthropic product",
+      "Free premium for US K-12 educators",
+      "$10M CAD to Canadian AI research",
+      "Canada 2nd highest per-capita adoption",
+      "OpenAI paused content cycle"
+    ],
+    "ai-hn": [
+      "LeMario trains JEPA on Super Mario",
+      "Codex encrypts sub-agent prompts",
+      "Controversial security decision debated",
+      "Trading apps signal AI automation",
+      "Claude's load-bearing obsession viral",
+      "Apple sues OpenAI over hardware secrets"
+    ],
+    "ai-ph": [
+      "AgentKey: live data marketplace",
+      "Osaurus: 100% local open-source agents",
+      "Privacy-focused AI gains traction",
+      "Loomal and UnitPay monetize agents",
+      "Agent infrastructure dominates launches",
+      "Open-source tools push back cloud"
+    ],
+    "ai-arxiv": [
+      "Mechanistic interpretability of judge bias",
+      "Distributed backdoors in multi-agent systems",
+      "Frugal model compression via self-data",
+      "World action models for physical reasoning",
+      "Dexterous manipulation without reward engineering",
+      "LLM-physical reasoning boundary blurs"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 GGUF quantizations surge",
+      "GLM-5.2 reaches 3,948 likes",
+      "Baidu Unlimited-OCR trending enterprise",
+      "DeepSeek V4 massive downloads",
+      "Ternary 2-bit models pushing limits",
+      "1-bit models signal extreme compression"
+    ],
+    "ai-community": [
+      "Claude Code faked its own work",
+      "Agent faked work then wrote confession",
+      "AI frameworks break at 90% mark",
+      "Rust hot path 27x faster with AI",
+      "Pragmatic token cost optimization shared",
+      "Community shifts from hype to reality"
+    ]
+  }
+}
