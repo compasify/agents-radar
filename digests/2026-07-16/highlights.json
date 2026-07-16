@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.211 发布，但陷入成本失控与数据损坏争议",
+      "OpenAI Codex 三个 alpha 版本发布，Windows 平台仍崩溃",
+      "Gemini CLI 被曝 Agent 假成功与安全漏洞",
+      "GitHub Copilot CLI v1.0.71-3 修复 MCP 假连接",
+      "OpenCode v1.18.2 发布，新 UI 引发社区众怒",
+      "DeepSeek TUI 架构重构，Windows 稳定性堪忧"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 发布，新增远程编码",
+      "v2026.7.1 网关启动崩溃成为社区 P0 级焦点",
+      "核心架构重构 PR #108474 合并，修复模型目录重复",
+      "社区日处理 472 个 Issue 和 500 个 PR 活跃度极高",
+      "新增远程恢复 OpenCode 和 Pi 会话功能",
+      "模型回退机制修复，避免高负载下无响应"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 以 2130 颗今日之星成为增速冠军",
+      "hallmark 为编码 Agent 注入反AI味设计技能拿1277星",
+      "openinterpreter 全面转向 Rust 实现降低运行成本",
+      "Vibe-Trading 拿915星，AI代理入侵量化交易领域",
+      "Gitlawb/openclaude 成通用AI Agent框架新宠",
+      "AGI 等 7 个项目首次登上趋势榜，生态百花齐放"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Tag，将AI变成团队数字同事",
+      "Claude Tag 内部显示 65% 代码由其生成",
+      "Anthropic 发布金融服务业 10 款即用型Agent模板",
+      "Claude for Teachers 标准化产品推进教育垂直场景",
+      "Claude Opus 4.7 为金融专项任务提供性能背书",
+      "OpenAI 今日仅 2 篇内容更新，战略信号不明"
+    ],
+    "ai-hn": [
+      "Codex Micro 发光键盘发布，262分224评论聚焦硬件",
+      "OpenAI 欧盟商标案败诉，社区反应负面",
+      "Inkling 开源 9750 亿参数模型引发关注",
+      "Anthropic 研究揭示 Claude 跨语言价值观差异",
+      "Brainless 开源组件模仿 Claude Code 界面获86分",
+      "Anthropic 被曝最早于十月上市，估值引猜测"
+    ],
+    "ai-ph": [
+      "ClawTeams 获748票，为电商打造首个目标驱动AI团队",
+      "Pazi 拿738票，将Vibe coding交互方式引入业务运营",
+      "Agentcard 解决AI Agent独立支付最后一环",
+      "Claude Overlay 让开发者无需切换界面快速调用",
+      "PgDog 获236票，无侵入扩展 PostgreSQL 数据库",
+      "Branda 以 MIT 开源视频广告优化产品"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.211 released",
+      "Gemini CLI faces agent-hanging issues",
+      "Copilot CLI debugging OAuth flows",
+      "OpenCode hardening tool security",
+      "Pi tool updates in active dev",
+      "Qwen Code fixes MCP gaps"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 out",
+      "Gateway crash-loop in OpenClaw 2026.7.1",
+      "New remote coding sessions launched",
+      "472 issues updated in 24 hours",
+      "500 PRs active in OpenClaw",
+      "Critical stability bugs dominating"
+    ],
+    "ai-trending": [
+      "Graphify hits 87,764 stars",
+      "Claude-mem reaches 87,407 stars",
+      "vllm leads at 86,352 stars",
+      "HKUDS Vibe-Trading +915 today",
+      "Nutlope/hallmark +1,277 today",
+      "Anti-AI-slop movement growing"
+    ],
+    "ai-web": [
+      "Claude Tag launched for Slack",
+      "Claude for Teachers free access",
+      "10 finance agent templates released",
+      "$10M Canadian AI commitment",
+      "OpenAI posts GPT Red research",
+      "Anthropic targets education vertical"
+    ],
+    "ai-hn": [
+      "Inkling: 975B open-weights LLM",
+      "Codex Micro keyboard launched",
+      "OpenAI loses EU trademark case",
+      "Anthropic IPO news debated",
+      "OpenAI Bubble essay trending",
+      "Hardware manifesto: We don't use AI"
+    ],
+    "ai-ph": [
+      "ClawTeams: proactive AI e-commerce",
+      "Pazi: vibe code for operations",
+      "PgDog scales PostgreSQL easily",
+      "Claude Overlay aids coding",
+      "Branda open-source launched",
+      "Portero MIT-licensed product"
+    ],
+    "ai-arxiv": [
+      "CAVA enforces agent permissions",
+      "Safety Sentry routes interventions",
+      "Protective capacity hallucination found",
+      "Self-improving agent architectures",
+      "Experience memory graphs advanced",
+      "Multimodal medical imaging work"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE hits 3,998 likes",
+      "Tencent Hy3 model trending",
+      "Qwen 3.6 family expanding",
+      "Agents-A1 Qwen3.5 MoE out",
+      "Ternary quantization on consumer hardware",
+      "NVIDIA large open-weight release"
+    ],
+    "ai-community": [
+      "Agent disillusionment debate surges",
+      "Local-first AI push growing",
+      "Qwen + MCP epistemic humility",
+      "Schneier on AI surveillance",
+      "Chatbot post-mortem shared",
+      "Local MCP server for codebase memory"
+    ]
+  }
+}
