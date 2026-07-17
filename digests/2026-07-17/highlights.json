@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 重构 Agent 会话管理，/fork 与 /subtask 成焦点",
+      "OpenAI Codex 持续优化危险命令检测，但 Windows 性能仍是短板",
+      "Gemini CLI 修复 macOS 沙盒逃逸漏洞，引入 caretaker 自动化运营",
+      "GitHub Copilot CLI 语音识别失效，BYOK 和 MCP 集成需求强烈",
+      "Kimi Code CLI 专注思考预算与 API 响应健壮性修复",
+      "Pi 工具自动加载 Extension 引安全争议，终端兼容性问题凸显"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区高度活跃但健康度存忧，新版本 Gateway 崩溃频发",
+      "修复 Windows 编码探测进程无超时导致的开机挂起问题",
+      "优化大规模转录回归测试运行速度，避免重复超时",
+      "修复脚本截断时破坏表情符号等 Unicode 字符的 bug",
+      "修复 Azure CLI 输出在分块边界处的 UTF-8 安全问题",
+      "大量 P0/P1 严重 Bug 仍在等待维护者介入"
+    ],
+    "ai-trending": [
+      "Nutlope/hallmark 单日获 3,372 Stars，反AI-Slop 工具登顶",
+      "mattpocock/skills 今日狂揽 2,060 Stars，定义可移植 AI 技能",
+      "Graphify-Labs/graphify 单日 +1,107 Stars，知识图谱成 Agent 刚需",
+      "openinterpreter 用 Rust 重写，性能提升并支持 Kimi K3 等模型",
+      "googleworkspace/cli 加入 AI Agent 技能支持，云服务标准化",
+      "GitHub 发布 Copilot SDK，官方标准影响深远"
+    ],
+    "ai-web": [
+      "Anthropic 官网无更新，或处于开发周期内与战略观察期",
+      "OpenAI 发布'为什么青少年值得获得安全的 AI 访问'，战略信号强烈",
+      "OpenAI 用'值得'一词构建价值观声明，抢占道德高地",
+      "OpenAI 将用户画像向下延伸至青少年，安全成为前提条件",
+      "Anthropic 沉默背后可能是审慎的观察姿态",
+      "OpenAI 试图主动定义 AI 青少年使用伦理行业标准"
+    ],
+    "ai-hn": [
+      "传统机器学习检测 LLM 文本引发热议，成本效益成焦点",
+      "LM Studio Bionic 让开源模型自主执行任务，本地运行受追捧",
+      "1Password 推出 Claude 集成，安全访问凭据获开发者好评",
+      "YC 创始人大量流向 OpenAI 和 Anthropic 引人才集中讨论",
+      "ReasonGate 项目防御提示注入，可解释性阀门引深入探讨",
+      "Forall 项目将 AI 代码生成与形式化验证结合探索可靠性"
+    ],
+    "ai-ph": [
+      "Campus 获 446 票，让 AI Agent 作为平等团队成员参与项目",
+      "Agently 获 348 票，用 AI Agent 自动化开发部署和运维",
+      "Crustdata Recruiter 获 291 票，将 Claude 变成百倍效率招聘官",
+      "YAGNI 获 197 票，可像管理人类员工一样管理 AI 智能体团队",
+      "Tiptap AI Toolkit 获 180 票，AI 可直接实时编辑富文本",
+      "RecordMeeting 获 179 票，无需通知即可录制转录任何通话"
+    ],
+    "ai-arxiv": [
+      "Hindcast 提出用预测市场回溯测试评估 LLM，揭示信息泄露问题",
+      "Terminal-Bench 2.0 揭示多数智能体优化方法无法持续累积优势",
+      "DeepStress 专测搜索智能体对低质量证据的鲁棒性，发现灾难性失败",
+      "TRACE 通过细粒度信用估计解决多轮智能体奖励分配难题",
+      "验证器级联可靠性理论分析，推导多项式级衰减的数学基础",
+      "RAG 让 LLM 完成整篇文档翻译，超越传统逐句翻译模式"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 以 4,029 点赞登顶，MoE 架构对话能力强大",
+      "prism-ml 推三元权重模型 Ternary-Bonsai-27B，探索新型量化",
+      "HauhauCS 版 Qwen3.6-35B 无审查版下载量突破 230 万",
+      "百度 Unlimited-OCR 下载量超 185 万，主打无限制识别能力",
+      "腾讯 Hy3 模型上榜，大型 AI 厂商开源步伐加速",
+      "GGUF 格式统治下载榜，llama.cpp 生态在个人设备上占主导"
+    ],
+    "ai-community": [
+      "LLM 评估体系实践指南，聚焦有用性、正确性与安全性三大维度",
+      "AI 生成代码被喻为技术债的小额贷款，维护成本终将显现",
+      "Google AI 团队探讨 Agentic Harness 新兴概念的定义与内涵",
+      "开发者自建可观测性工具，解决 AI Agent 黑盒运行问题",
+      "AI 解读系统静默状态异常，为安全运维提供独特视角",
+      "Claude 可能导致本地机器资源饱和，实用诊断案例引关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code 重构 Agent 会话管理，/fork 与 /subtask 成焦点",
+      "OpenAI Codex 持续优化危险命令检测，但 Windows 性能仍是短板",
+      "Gemini CLI 修复 macOS 沙盒逃逸漏洞，引入 caretaker 自动化运营",
+      "GitHub Copilot CLI 语音识别失效，BYOK 和 MCP 集成需求强烈",
+      "Kimi Code CLI 专注思考预算与 API 响应健壮性修复",
+      "Pi 工具自动加载 Extension 引安全争议，终端兼容性问题凸显"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区高度活跃但健康度存忧，新版本 Gateway 崩溃频发",
+      "修复 Windows 编码探测进程无超时导致的开机挂起问题",
+      "优化大规模转录回归测试运行速度，避免重复超时",
+      "修复脚本截断时破坏表情符号等 Unicode 字符的 bug",
+      "修复 Azure CLI 输出在分块边界处的 UTF-8 安全问题",
+      "大量 P0/P1 严重 Bug 仍在等待维护者介入"
+    ],
+    "ai-trending": [
+      "Nutlope/hallmark 单日获 3,372 Stars，反AI-Slop 工具登顶",
+      "mattpocock/skills 今日狂揽 2,060 Stars，定义可移植 AI 技能",
+      "Graphify-Labs/graphify 单日 +1,107 Stars，知识图谱成 Agent 刚需",
+      "openinterpreter 用 Rust 重写，性能提升并支持 Kimi K3 等模型",
+      "googleworkspace/cli 加入 AI Agent 技能支持，云服务标准化",
+      "GitHub 发布 Copilot SDK，官方标准影响深远"
+    ],
+    "ai-web": [
+      "Anthropic 官网无更新，或处于开发周期内与战略观察期",
+      "OpenAI 发布'为什么青少年值得获得安全的 AI 访问'，战略信号强烈",
+      "OpenAI 用'值得'一词构建价值观声明，抢占道德高地",
+      "OpenAI 将用户画像向下延伸至青少年，安全成为前提条件",
+      "Anthropic 沉默背后可能是审慎的观察姿态",
+      "OpenAI 试图主动定义 AI 青少年使用伦理行业标准"
+    ],
+    "ai-hn": [
+      "传统机器学习检测 LLM 文本引发热议，成本效益成焦点",
+      "LM Studio Bionic 让开源模型自主执行任务，本地运行受追捧",
+      "1Password 推出 Claude 集成，安全访问凭据获开发者好评",
+      "YC 创始人大量流向 OpenAI 和 Anthropic 引人才集中讨论",
+      "ReasonGate 项目防御提示注入，可解释性阀门引深入探讨",
+      "Forall 项目将 AI 代码生成与形式化验证结合探索可靠性"
+    ],
+    "ai-ph": [
+      "Campus 获 446 票，让 AI Agent 作为平等团队成员参与项目",
+      "Agently 获 348 票，用 AI Agent 自动化开发部署和运维",
+      "Crustdata Recruiter 获 291 票，将 Claude 变成百倍效率招聘官",
+      "YAGNI 获 197 票，可像管理人类员工一样管理 AI 智能体团队",
+      "Tiptap AI Toolkit 获 180 票，AI 可直接实时编辑富文本",
+      "RecordMeeting 获 179 票，无需通知即可录制转录任何通话"
+    ],
+    "ai-arxiv": [
+      "Hindcast 提出用预测市场回溯测试评估 LLM，揭示信息泄露问题",
+      "Terminal-Bench 2.0 揭示多数智能体优化方法无法持续累积优势",
+      "DeepStress 专测搜索智能体对低质量证据的鲁棒性，发现灾难性失败",
+      "TRACE 通过细粒度信用估计解决多轮智能体奖励分配难题",
+      "验证器级联可靠性理论分析，推导多项式级衰减的数学基础",
+      "RAG 让 LLM 完成整篇文档翻译，超越传统逐句翻译模式"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 以 4,029 点赞登顶，MoE 架构对话能力强大",
+      "prism-ml 推三元权重模型 Ternary-Bonsai-27B，探索新型量化",
+      "HauhauCS 版 Qwen3.6-35B 无审查版下载量突破 230 万",
+      "百度 Unlimited-OCR 下载量超 185 万，主打无限制识别能力",
+      "腾讯 Hy3 模型上榜，大型 AI 厂商开源步伐加速",
+      "GGUF 格式统治下载榜，llama.cpp 生态在个人设备上占主导"
+    ],
+    "ai-community": [
+      "LLM 评估体系实践指南，聚焦有用性、正确性与安全性三大维度",
+      "AI 生成代码被喻为技术债的小额贷款，维护成本终将显现",
+      "Google AI 团队探讨 Agentic Harness 新兴概念的定义与内涵",
+      "开发者自建可观测性工具，解决 AI Agent 黑盒运行问题",
+      "AI 解读系统静默状态异常，为安全运维提供独特视角",
+      "Claude 可能导致本地机器资源饱和，实用诊断案例引关注"
+    ]
+  }
+}
