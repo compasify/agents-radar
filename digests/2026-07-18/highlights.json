@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.214，活跃度登顶",
+      "OpenAI Codex 发布 3 个 Alpha 版本",
+      "GitHub Copilot CLI 发布 v1.0.72-1",
+      "Qwen Code 发布 Nightly 版本",
+      "社区强烈呼吁 Agent 行为可控性与跨平台稳定",
+      "Pi 与 OpenCode 等开源项目人气飙升"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.2，支持远程编码会话",
+      "OpenClaw 今日 403 条 Issue、500 条 PR 极为活跃",
+      "严重 Bug #109867 导致网关无法启动",
+      "修复 #110239 让网关优雅跳过故障插件",
+      "关键 PR #110034 修复 Cron 编辑时非整分间隔被重写",
+      "社区聚焦密钥屏蔽与文件系统沙箱安全性"
+    ],
+    "ai-trending": [
+      "GitHub Copilot SDK 发布，获 233 stars 登榜",
+      "Ollama 以 176,341 stars 稳居本地模型工具榜首",
+      "OpenHands 成为最热 Agent 框架项目",
+      "Career-ops Agent 切入求职场景受关注",
+      "Claude-mem 项目解决 Agent 长期记忆痛点",
+      "Stable-pretraining 提供最小化预训练新框架"
+    ],
+    "ai-web": [
+      "OpenAI 发布《AI 时代的评分卡》争夺行业标准",
+      "Anthropic 零更新，可能处于重大发布前静默期",
+      "OpenAI 从做产品转向定义 AI 评估框架",
+      "Anthropic 深挖安全护城河，暂缓公开展示",
+      "Scorecard 或为 GPT-5 能力做规则前置",
+      "两大巨头战略分化：定标准 vs 保安全"
+    ],
+    "ai-hn": [
+      "LM Studio Bionic 获 319 分，成开源模型 Agent 利器",
+      "德国 AI 联盟发布开源 30B 模型 Soofi S 登热榜",
+      "AI 检测文本用传统机器学习获 236 分引热议",
+      "6GB 显存训练 AI 声音模型教程获 154 分",
+      "社区热议 AI Agent 可靠性，出现冷静审视声音",
+      "AI 对护士等劳动者负面影响成最热焦点"
+    ],
+    "ai-ph": [
+      "Zro 获 488 票，为代码 Agent 提供隐私推理",
+      "River 以 264 票实现 AI 客户经理自主演示成交",
+      "Codex Micro 推出物理触控硬件，Agent 实体化",
+      "Manta AI 自动化 Web 测试，获 155 票",
+      "Verse 从单一提示词构建自主 AI 员工",
+      "Vercel Day 成今日发布主力，注入社区势能"
+    ],
+    "ai-arxiv": [
+      "测试时训练与上下文扩展成机器人策略新桥梁",
+      "分割-提示-聚合框架理论分析 LLM 统计自洽性",
+      "原地分词器扩展无需重训即可适配新语言",
+      "合成对比证据自动演化高质量评分标准",
+      "多智能体搜索操作系统 SearchOS-V1 提鲁棒性",
+      "进化计算无需反向传播带来新训练思路"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 模型以 4,071 点赞登顶本周最热",
+      "Qwythos-9B 视觉模型 GGUF 版下载量超 209 万",
+      "Uncensored Qwen3.6 获 2,827 点赞，2.2M 下载",
+      "百度 Unlimited-OCR 获 2,019 点赞，近 200 万下载",
+      "1-bit 量化模型 prism-ml 成降本新趋势",
+      "腾讯发布 Hy3 第三代 Hunyuan 语言模型"
+    ],
+    "ai-community": [
+      "Kimi K3 2.8T 参数模型引发轰动，价格减半",
+      "开发者警告 AI 输出成本隐藏话痨问题",
+      "AI 编码工具同质化，开发者用 Skill 约束风格",
+      "从 Ponytail 转 Guardsman 追求代码可问责性",
+      "AI Agent 自主性分级框架提出可操作模型",
+      "AWS Inferentia2 部署大型 MoE 模型实战受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI adds HarmonyOS support",
+      "Claude Code v2.1.214 fixes permission bypass",
+      "OpenAI Codex sees 48 PRs in 24h",
+      "Qwen Code adopts daemon-based architecture",
+      "Pi tool offers lightweight single-binary design",
+      "Windows stability is a systemic pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.2 released",
+      "500 PRs updated in last 24 hours",
+      "Remote coding sessions introduced",
+      "Critical migration bug reported",
+      "P0 and P1 regressions pile up",
+      "Codex integration causes provider issues"
+    ],
+    "ai-trending": [
+      "hallmark gains 1,485 stars today",
+      "OpenInterpreter rewritten in Rust",
+      "DeepTutor hits 531 stars today",
+      "turbovec vector index gains 280 stars",
+      "copilot-sdk launches on GitHub",
+      "Anti-AI-slop design tools surge"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'A Scorecard For The AI Age'",
+      "Anthropic publishes zero new articles",
+      "OpenAI shifts to accountability narrative",
+      "Claude ecosystem has a quiet day",
+      "No new releases from Anthropic",
+      "Strategic pause in outward communication"
+    ],
+    "ai-hn": [
+      "Apple sued over OpenAI employee campaign",
+      "Inkling open-weights model hits 1206 points",
+      "Government open-source AI investment debated",
+      "LM Studio Bionic agent gains 319 points",
+      "Kaiser nurses strike over AI surveillance",
+      "Hyundai workers strike over humanoid robots"
+    ],
+    "ai-ph": [
+      "Zro gains 488 votes for inference privacy",
+      "Albato AI tops no-code AI workflow tools",
+      "Codex Micro adds tactile controls for agents",
+      "River automates B2B sales as AI agent",
+      "Vercel Day dominates today's launches",
+      "Verse builds AI employees from one prompt"
+    ],
+    "ai-arxiv": [
+      "Test-time adaptation and context scaling dominate",
+      "Safety-evaluation gap for LLM agents addressed",
+      "AutoSynthesis automates meta-analysis of research",
+      "Grokipedia raises scientific integrity questions",
+      "Policy distillation circumvents reward model limits",
+      "In-Place Tokenizer Expansion cuts training costs"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model leads with 4,071 likes",
+      "Bonsai-27B-gguf exceeds 1 million downloads",
+      "Ternary quantization gains real traction",
+      "HauhauCS/Qwen3.6-35B uncensored model surges",
+      "Baidu Unlimited-OCR drives enterprise demand",
+      "Cactus needle model focuses on function-calling"
+    ],
+    "ai-community": [
+      "Kimi K3 rivals GPT-5.6 at half price",
+      "Gemini Nano now ships inside Chrome",
+      "AI agents delete files and pass blank canvases",
+      "Bruce Schneier critiques AI data center wealth",
+      "On-device AI gains traction with developers",
+      "Skill-based guidance locks taste before coding"
+    ]
+  }
+}
