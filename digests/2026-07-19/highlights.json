@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 社区活跃度最高，10条 Issue 与 10条 PR",
+      "Gemini CLI 聚焦安全加固与 Agent 可靠性",
+      "Qwen Code 发布3个版本，修复并发安全与数据一致 Bug",
+      "Pi 社区重点讨论弹性与重试性能优化",
+      "GitHub Copilot CLI 用户讨论成本敏感与功能追赶",
+      "Agent行为可预测性成所有工具社区核心诉求"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.3，支持远程编码会话与自动化节点",
+      "24小时内产生401条 Issue 和500条 PR，社区参与度极高",
+      "修复文件存储会话数据损坏与连接资源泄漏重大 Bug",
+      "新增云原生Worker运行能力，可恢复OpenCode与Pi会话",
+      "社区热议安全信任机制（内存/密钥）与跨平台兼容性",
+      "稳定性问题聚焦上下文溢出和CPU打满场景"
+    ],
+    "ai-trending": [
+      "MCP生态爆发，code-review-graph 与 wigolo 日涨355/203星",
+      "90%以上开发者的本地化代码上下文工具需求激增",
+      "airllm 实现4GB显存运行70B模型，边缘推理门槛极大降低",
+      "Google的gemma-4-31B-it 单日下载超1200万，验证多模态统治力",
+      "三元量化技术让270亿参数模型在消费级硬件上运行",
+      "开源模型token流量占比达63%，已成为市场主流"
+    ],
+    "ai-hn": [
+      "GPT-5.6 用提示解决凸优化30年难题，获492分热议",
+      "Stack Overflow 流量断崖式下跌，开发者知识获取方式被AI重塑",
+      "开源模型 Inkling 以1213分登顶今日热榜最高",
+      "Moonshine做语音识别与TTS仅需500KB，推向边缘设备",
+      "Anthropic新广告引公众不安，AI与工作生态冲突成舆论焦点",
+      "Claude Code 可操控闲置Mac电脑，教程帖获172分社区讨论"
+    ],
+    "ai-ph": [
+      "Unabyss for Claude 跨应用共享记忆，获589票解决AI健忘痛点",
+      "Aye 浏览器自动化工具，可教学执行重复任务，获153票",
+      "Kimi K3 发布，号称全球首个开放3T参数模型",
+      "记忆增强与浏览器自动化成为AI协作者进化双主线",
+      "Pebbles Ai与Vetta X 深化销售营销自动化整合",
+      "AI产品$20/月价格天花板现象引发行业热议"
+    ],
+    "ai-hf": [
+      "Google gemma-4-31B-it 多模态模型下载超1200万，统治力强劲",
+      "prism-ml 三元量化与1-bit量化技术，让大型模型平民化",
+      "zai-org GLM-5.2 获4126点赞，MoE-DSA架构性能强悍",
+      "empero-ai Qwythos-9B 模型下载超200万，社区口碑极佳",
+      "百度 Unlimited-OCR 展现极强社区热度",
+      "基于Qwen3.5/3.6的微调量化模型呈现井喷趋势"
+    ],
+    "ai-community": [
+      "开源模型token流量占比63%：规模商用信号已明显",
+      "AI Agent从工具调用者进化为复杂决策引擎，安全领域先行",
+      "上下文窗口≠记忆，社区共识指向RAG或外部记忆库",
+      "企业AI平台需七层安全边界，单一MCP协议远不够",
+      "AI模型人格化差异讨论升温，开发者更注重有效协作",
+      "密码强度检查器案例展示AI如何超越传统规则引擎"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code digest generation failed",
+      "OpenAI Codex ships daily updates",
+      "Gemini CLI managing complex rollouts",
+      "Communities demand reliable state mgmt",
+      "Session corruption is a key pain point",
+      "Security hardening is a central theme"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.3 released",
+      "Remote coding sessions introduced",
+      "High-severity P0 bug cluster detected",
+      "401 issues updated in 24 hours",
+      "500 PRs updated in last day",
+      "State migration regression challenges"
+    ],
+    "ai-trending": [
+      "Code intelligence graphs dominate",
+      "kimi-cli enters CLI agent space",
+      "AirLLM runs 70B on 4GB GPU",
+      "Hermes Agent hits 216,859 stars",
+      "Agent-first infrastructure is key",
+      "Local-first dev tools gain momentum"
+    ],
+    "ai-hn": [
+      "GPT-5.6 solves 30-year math problem",
+      "Inkling open-weights model at 1213 pts",
+      "AI logo humor goes viral at 414 pts",
+      "Debate on AI's role in reasoning",
+      "Kaiser nurses AI surveillance sparks",
+      "Open-source vs proprietary lock-in divide"
+    ],
+    "ai-ph": [
+      "Unabyss for Claude gets 589 votes",
+      "Kimi K3 open-source hits 437 votes",
+      "Pebbles Ai targets B2B sales teams",
+      "Cross-app memory for Claude launched",
+      "Browser automation tools are trending",
+      "Market fragmenting into specialized use"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 4,126 likes",
+      "Gemma-4-31B-it hits 12M downloads",
+      "1-bit GGUF quantization dominates",
+      "Unlimited-OCR drives vision trends",
+      "Mobile inference on high-param models",
+      "Ultra-low-bit quantization is key"
+    ],
+    "ai-community": [
+      "Open models run 63% of token traffic",
+      "Kimi K3 claims 120B mobile inference",
+      "Debate on agent memory architecture",
+      "Mozilla data shows open model tipping",
+      "Historical AI discussions resurface",
+      "Agent reliability is top focus"
+    ]
+  }
+}
