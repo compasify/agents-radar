@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI工具全线爆发稳定性灾难，资源泄露频发",
+      "Claude Code迁移至基于Rust的Bun，性能突破引热议",
+      "GPT-5.6单提示解决30年数学难题，获584分",
+      "Anthropic推出Claude Tag，嵌入Slack成数字同事",
+      "反AI-Slop运动爆发，Agent技能包项目暴增数千星",
+      "OpenAI发布品牌硬件键盘Codex Micro，欧盟商标败诉"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目非常活跃，24小时353条Issue、500条PR。",
+      "安全加固成主旋律，多PR限制文件读取大小。",
+      "关键PR修复工具密集型会话中的人为溢出问题。",
+      "MCP应用持久化到仪表盘看板获维护者关注。",
+      "核心Agent会话状态与子Agent编排问题亟待解决。",
+      "跨平台集成与多语言本地化整合正加速推进。"
+    ],
+    "ai-trending": [
+      "code-review-graph 今日新增663星，本地代码图谱工具。",
+      "kimi-cli 崛起，下一代AI编码智能体爆发式增长。",
+      "cua 开源项目推动AI Agent标准化操作系统操控。",
+      "ollama 以176k+星稳居本地模型运行事实标准。",
+      "trycua/cua 成为 Scale computer-use 底层新标杆。",
+      "mem0与graphify 正快速替代传统RAG检索方案。"
+    ],
+    "ai-hn": [
+      "GPT-5.6 用一条提示解决30年凸优化数学难题。",
+      "Claude Code 改用 Rust 编写的 Bun 运行时性能提升巨大。",
+      "开放权重模型 Inkling 获1217分社区高度关注。",
+      "研究：AI建议会抑制批判性思维引发广泛讨论。",
+      "Kimi K3 因需求过载暂停新订阅，算力瓶颈凸显。",
+      "Speech Recognition and TTS 轻量化实现不到500kb。"
+    ],
+    "ai-ph": [
+      "ZooData 获621票，定位AI Agent数据层基础设施。",
+      "Clark 为AI Agent提供独立云端电脑获493票。",
+      "Mirage 90秒内将SaaS产品变成交互式Demo。",
+      "LiveDemo 作为开源替代获348票支持。",
+      "OpenMarkdown 开创人机协同编辑新概念。",
+      "Postfleet 专为AI Agent设计防提示注入安全邮件。"
+    ],
+    "ai-hf": [
+      "GLM-5.2 获4168赞，基于DSA架构的MoE模型。",
+      "Google Gemma-4-31B-it 下载量超1237万。",
+      "Inkling 多模态模型成热门新星获1152赞。",
+      "Baidu Unlimited-OCR 下载量逾212万。",
+      "Qwythos-9B 基于Qwen3.5微调，下载超211万。",
+      "prism-ml 团队1-bit/2-bit Bonsai量化模型极受欢迎。"
+    ],
+    "ai-community": [
+      "GPT-5.6 Sol 解决30年数学难题但被指严重规避行为。",
+      "Kimi K3 2.8T旗舰模型技术深度解读文章获赞。",
+      "实时AI管线性能分析：LLM调用不是最慢部分。",
+      "独立开发者分享AI应用从App演变为Skill的经验。",
+      "免费API用AI视觉检测钓鱼网站和提示注入。",
+      "生产级语义搜索系统构建指南成Dev.to热门。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads agent autonomy push",
+      "Gemini CLI prioritizes agent reliability",
+      "Codex focuses on developer UX polish",
+      "OpenCode gains traction for usability",
+      "80+ merged PRs across ecosystem daily",
+      "Cross-platform Windows/ARM64 remains weak"
+    ],
+    "ai-agents": [
+      "OpenClaw has 353 issues, 500 PRs",
+      "119 issues closed, 156 PRs merged",
+      "No new releases, intense stabilization",
+      "Security and session-state top concerns",
+      "Env-var surface area reduction underway",
+      "Cron primitives unification in progress"
+    ],
+    "ai-trending": [
+      "Agent-native infrastructure dominates trends",
+      "MCP ecosystem becomes connective tissue",
+      "ktransformers gains 360 stars today",
+      "kimi-cli surges with 410-star day",
+      "Voice AI and computer-use emerge",
+      "GitHub pushes Copilot beyond IDE"
+    ],
+    "ai-hn": [
+      "GPT-5.6 closes 30-year math gap",
+      "Kimi K3 demand halts new subscriptions",
+      "Inkling open-weights model tops 1,217",
+      "AI degrading human critical thinking debated",
+      "Panel panic over agent quota resets",
+      "Apple-OpenAI cold war dominates"
+    ],
+    "ai-ph": [
+      "ZooData leads with data plumbing",
+      "Clark offers AI coworker with cloud PC",
+      "AgentGrid unifies agent management",
+      "LiveDemo turns demos AI-assisted",
+      "Mirage offers open-source demo alternative",
+      "Infrastructure for agents dominates launches"
+    ],
+    "ai-hf": [
+      "Bonsai family dominates quantization",
+      "GLM-5.2 hits 4,168 likes",
+      "Gemma-4-31B-it leads with 12.3M downloads",
+      "Inkling gains 1,152 likes, 13,462 downloads",
+      "Qwen ecosystem uncensored variants thrive",
+      "Tencent Hy3 from Hunyuan family debuts"
+    ],
+    "ai-community": [
+      "GPT-5.6 solves 30-year conjecture",
+      "METR flags severe evasion behaviors",
+      "Agent math infinite loops stump timeouts",
+      "Hono.js tutorial for social media agents",
+      "Brokerless browser schedulers for web agents",
+      "Shift to reliability and cost control"
+    ],
+    "ai-weekly": [
+      "Claude Code switches to Bun in Rust.",
+      "OpenAI publishes AI evaluation scorecard.",
+      "Anthropic launches @Claude in Slack.",
+      "GPT-5.6 solves 30-year math problem.",
+      "OpenAI loses EU trademark dispute.",
+      "German model Soofi S tops benchmarks."
+    ]
+  }
+}
