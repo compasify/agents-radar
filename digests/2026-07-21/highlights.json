@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.216 修复长会话性能问题",
+      "OpenAI Codex 计费暴涨成社区爆炸性话题",
+      "Gemini CLI 修复 RCE 漏洞与权限绕过",
+      "GitHub Copilot CLI 连发两个补丁修复死循环",
+      "Kimi Code CLI 聚焦稳定性和Token浪费修复",
+      "OpenCode v1.18.4 修复桌面崩溃问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日无新版本发布但合并大量PR",
+      "严重回归问题导致Codex后端卡死和消息丢失",
+      "子代理功能PR接近合并，日志结构已优化",
+      "安全强化PR即将生效，修复符号链接漏洞",
+      "社区热议2026.5.27版本引入的P1级Bug",
+      "388条待合并PR积压成健康度风险"
+    ],
+    "ai-trending": [
+      "code-review-graph 单日暴增 1833 Star，本地代码图谱",
+      "OmniRoute 聚合 500+ 模型，免费开放接口",
+      "MoonshotAI 推出 kimi-cli 终端智能体",
+      "ktransformers 支持异构硬件高效推理",
+      "Agency-Agents 预置多专业AI代理机构",
+      "FastMCP 框架简化MCP服务器构建"
+    ],
+    "ai-web": [
+      "Anthropic 启动罕见病研究专项资助项目",
+      "OpenAI 发布长周期模型安全对齐研究",
+      "Anthropic 提供 $50,000 Claude 积分支持科学家",
+      "罕见病研究首次采用双重资助路径",
+      "OpenAI 新研究聚焦多步骤任务安全挑战",
+      "两家实验室战略分化：应用赋能 vs 安全控制"
+    ],
+    "ai-hn": [
+      "中国开源权重模型战略占据优势引776条热议",
+      "Claude Fable 为20年数学难题雅可比猜想生成反例",
+      "Claude Code 迁移到 Rust 编写的 Bun 运行时",
+      "Kimi K3 和 Qwen 3.8 被指颠覆西方AI商业模式",
+      "GitHub Copilot 被指输出与代码完全不符的错误消息",
+      "AI 在数学研究领域取得重大突破"
+    ],
+    "ai-ph": [
+      "OpenSEO 以784票登顶，开源替代Ahrefs",
+      "Double AI 智能职业代理获59票热议",
+      "HeimWall 防止AI编码工具泄漏密钥",
+      "Panguard.AI 为AI Agent提供安全防火墙",
+      "CitedSpy 追踪AI内容在学术论文中的引用",
+      "Recume 用AI自动化汽车交易检查"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 获4226点赞，MoE-DSA架构",
+      "baidu/Unlimited-OCR 下载量超212万",
+      "Qwythos-9B 多模态模型下载超211万",
+      "Bonsai 系列实现27B模型极限1-bit量化",
+      "google/gemma-4-31B-it 下载量突破百万",
+      "MiniCPM5-1B 混合Claude风格思考模型"
+    ],
+    "ai-community": [
+      "AI生成代码的法律归属引发38点赞热议",
+      "本地AI代理仅解决数据主权不解决安全威胁",
+      "smolagents Bug导致代理重复执行有效代码",
+      "阿里发布2.4T参数模型对比OpenAI缩减上下文",
+      "AI编码助手让初级开发者更快但能否更好",
+      "RAG生产环境优化成热门实践话题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.216 patch released",
+      "Sandbox regression and cost control issues",
+      "Gemini CLI in hypergrowth phase",
+      "Qwen Code shipping agent workflows",
+      "DeepSeek TUI in pre-release sprint",
+      "Cross-tool convergence on agent orchestration"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 PRs, 352 Issues updated",
+      "Only 22% of PRs merged today",
+      "14 critical 'platinum hermit' bugs open",
+      "Focus on message loss and session state",
+      "New-session model picker UX polish",
+      "No new releases in last 24 hours"
+    ],
+    "ai-trending": [
+      "code-review-graph: +1,833 stars today",
+      "Context-window bottleneck solution goes viral",
+      "OmniRoute: +1,107 stars for free AI gateway",
+      "ktransformers: heterogeneous inference framework",
+      "Moonshine: ultra-low-latency speech-to-text",
+      "Local-first agent tooling ecosystem booming"
+    ],
+    "ai-web": [
+      "Anthropic launches rare disease grant program",
+      "Up to $50,000 in API credits offered",
+      "OpenAI studies long-horizon model safety",
+      "Anthropic targets high-impact niche problems",
+      "Limited signal from OpenAI today",
+      "Strategic differentiation through vertical ecosystems"
+    ],
+    "ai-hn": [
+      "Claude Fable counterexample to Jacobian Conjecture",
+      "667 points, 430 comments on proof",
+      "China open-weights vs US proprietary debate",
+      "OpenAI Codex context size reduced",
+      "Claude Code switches to Bun in Rust",
+      "Deep analysis of frontier lab economics"
+    ],
+    "ai-ph": [
+      "OpenSEO leads with 784 votes today",
+      "Free alternative to expensive SEO tools",
+      "BaseRT sets performance benchmark on Apple Silicon",
+      "HeimWall protects dev workflows from leaks",
+      "CitedSpy tracks brand mentions in AI",
+      "Shift toward specialized, privacy-focused tools"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model: 4,226 weekly likes",
+      "Qwen3.6 and Gemma-4 dominate trends",
+      "Bonsai family offers 1-bit MLX quantizations",
+      "Wan-AI pushes into video generation",
+      "openbmb explores robotics models",
+      "Community fine-tunes on top of leading models"
+    ],
+    "ai-community": [
+      "Alibaba releases 2.4 trillion parameter model",
+      "OpenAI cuts Codex context to save compute",
+      "Debate on AI code ownership rages",
+      "Agent retry bugs waste compute on correct code",
+      "Local agents still vulnerable to prompt injection",
+      "Benchmark scores vs real-world performance gap"
+    ]
+  }
+}
