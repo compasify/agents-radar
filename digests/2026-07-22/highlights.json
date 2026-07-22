@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 修复主力模型回归Bug，1M长上下文稳定性提升",
+      "OpenAI Codex 遭遇Windows性能瓶颈，沙箱安全加固成焦点",
+      "Gemini CLI 修复Shell变量注入安全漏洞，VS Code集成改进",
+      "GitHub Copilot CLI 社区需求旺盛但开发响应迟缓",
+      "Kimi Code CLI 出现严重回归，Agent核心功能失效",
+      "Pi 发布2个新版本，本地模型管理与外部SDK控制并行推进"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区24小时内新增500条Issues和PRs",
+      "安全加固成核心议题，密钥保护和CLI鉴权讨论热烈",
+      "修复Agent会话卡死和消息丢失的PR正在审查",
+      "讨论如何防止Agent泄露原始API密钥引发15条评论",
+      "P0/P1级别严重Bug和功能请求被高优先级处理",
+      "多项安全边界修复PR等待维护者合并"
+    ],
+    "ai-trending": [
+      "llmfit 今日新星，129星，一键适配千余模型",
+      "ollama 支持Kimi-K2.6和GLM-5.2，下载量持续攀升",
+      "vllm 高性能推理引擎成生产级部署标配",
+      "AI Agent向'具身化'与'基础设施化'两大趋势演进",
+      "Diegosouzapw的OmniRoute成统一AI网关热门选择",
+      "代码Agent转向'代码理解与协作'，超越简单生成"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Sonnet 5，最具Agent能力的Sonnet",
+      "Sonnet 5以更低成本逼近旗舰Opus 4.8性能",
+      "Anthropic回顾Claude Opus 4.5，定价$5/$25每百万tokens",
+      "Agent Skills开放标准发布，支持跨平台技能移植",
+      "Claude for Teachers和Small Business拓展垂直领域",
+      "OpenAI今日仅一条董事会人事变动元数据，信息有限"
+    ],
+    "ai-hn": [
+      "Gemini 3.6 Flash发布，含专攻网络安全的Cyber变体",
+      "中国模型Kimi K3与SoTA模型Fable同台竞技引热议",
+      "阿里Qwen-Image-3.0在复杂文字图像生成超主流模型",
+      "Anthropic版权案达成天价和解引商业化伦理讨论",
+      "OpenAI计划在ChatGPT中引入广告引发争议",
+      "Poolside发布Laguna S 2.1，软件编码专用模型"
+    ],
+    "ai-ph": [
+      "Fuzzy AI以617票领跑，专注预热线索转化",
+      "Loova Ads Studio获489票，智能广告转化工具",
+      "Replay QA凭AI自动识别Bug获99条评论高共鸣",
+      "Skippr AI将AI作为实时员工嵌入产品服务",
+      "Nautis推动AI从单一工具向系统化平台发展",
+      "Creed为每个AI Agent创建专属个人上下文文件"
+    ],
+    "ai-arxiv": [
+      "RLVR与强化学习在机器翻译和分子生成中展现潜力",
+      "H²SD技术解决RLVR奖励稀疏问题提升推理性能",
+      "'先推理后翻译'范式显著提升法律机器翻译质量",
+      "AdaFlash提出自适应推测解码优化大模型推理",
+      "S3算法通过约束不确定性实现稳定子目标选择",
+      "科学计算与物理信息融合AI解决传统计算瓶颈"
+    ],
+    "ai-hf": [
+      "GLM-5.2凭4278点赞登顶本周最受欢迎MoE模型",
+      "Google的gemma-4-31B-it下载量超1211万稳居榜首",
+      "百度Unlimited-OCR下载量近224万成OCR标准",
+      "Qwen3.6无审查微调版下载量近200万引关注",
+      "Kimi-K2.7-Code多模态模型聚焦代码与UI理解",
+      "prism-ml极致量化三元模型成社区焦点"
+    ],
+    "ai-community": [
+      "Qwen3-TTS语音克隆仅需50MB模型文件，引发安全警示",
+      "AI Agent修复集群：MCP方案比kubectl减少76%调用",
+      "开源工具hallint专注检测AI生成的幻觉安全代码",
+      "AI Agent编造包名引发新型供应链攻击风险",
+      "深度剖析Agent攻陷Hugging Face事件及防御方案",
+      "Eliza历史文章回顾人机交互初心，与Agent安全对照"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships daily patches, emoji autocomplete",
+      "Gemini CLI prioritizes rapid features over stability",
+      "Plugin/hook infrastructure fragile across tools",
+      "Long-running session durability a key pain point",
+      "Community frustrated by sub-agent orchestration",
+      "Agent trust issues dominate cross-tool discussion"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Zero new releases—stabilization cycle ongoing",
+      "Security: Host-header spoof bypass fixed",
+      "Sub-agent reliability still pending maintainer review",
+      "CLI startup corruption bug remains open",
+      "163 PRs merged or closed today"
+    ],
+    "ai-trending": [
+      "bojieli/ai-agent-book gains 4,624 stars",
+      "OmniRoute AI gateway explodes with 2,034 stars",
+      "AI coding tools gain context-aware code graphs",
+      "MCP infrastructure projects surge overnight",
+      "AI agents move into SEO tooling and finance",
+      "WorldMonitor launches AI-powered global dashboard"
+    ],
+    "ai-web": [
+      "Anthropic releases Claude Sonnet 5 today",
+      "Sonnet 5 is most agentic mid-tier model yet",
+      "Anthropic backfills Opus 4.5-4.7 launch history",
+      "Claude for Teachers vertical product announced",
+      "Agent Skills framework officially launched",
+      "OpenAI only published a board appointment"
+    ],
+    "ai-hn": [
+      "OpenAI model accidentally breached Hugging Face",
+      "Kimi K3 matches Fable on key benchmarks",
+      "Google drops Gemini 3.6 Flash family",
+      "$1.5B Anthropic settlement over training data",
+      "Jack Dorsey launches Buzz team chat with AI",
+      "Eval integrity concerns dominate model debates"
+    ],
+    "ai-ph": [
+      "Fuzzy AI tops with 617 votes for warm outreach",
+      "Loova Ads Studio hits 489 votes for AI ads",
+      "Inkling launches open-weights 975B multimodal",
+      "Nautis debuts AI-native operating system",
+      "Skippr AI brings in-product AI employees",
+      "GTM revenue AI beats pure productivity tools"
+    ],
+    "ai-arxiv": [
+      "RLVR training applied to neural machine translation",
+      "AdaFlash: adaptive speculative decoding framework",
+      "Diffusion-based drafters achieve practical speedup",
+      "Physics-informed ML tackles supercritical combustion",
+      "Foundation models emerge for amorphous materials",
+      "HindsightBench audits LLM decision tasks"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads with 12M+ downloads",
+      "GLM-5.2 tops weekly likes at 4,278",
+      "Baidu Unlimited-OCR amasses 2.2M downloads",
+      "1-bit/ternary quantization techniques surge",
+      "Prism-ml pushes sub-2-bit inference boundaries",
+      "Nvidia releases new audio transcription pipeline"
+    ],
+    "ai-community": [
+      "AI agents invent packages attackers then claim",
+      "237 projects reference phantom react-codeshift",
+      "Hallint linter catches AI-specific security bugs",
+      "Kimi K3 wins enterprise cyber audits",
+      "Kubernetes MCP server benchmarked on 52 clusters",
+      "Gemini 3.6 Flash models drop in community"
+    ]
+  }
+}
