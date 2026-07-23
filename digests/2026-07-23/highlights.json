@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.218，社区活跃引爆回归Bug讨论",
+      "OpenAI Codex 连续发布 4 个 Alpha 版本，迭代加速",
+      "Gemini CLI 同时发布稳定版、预览版与每夜版三线推进",
+      "GitHub Copilot CLI 紧急发布 3 个热修复，版本 v1.0.74",
+      "Grok Build 今日零动态，疑似开发停摆引关注",
+      "  MCP 进程泄漏与僵尸进程问题成多工具共性的质量危机"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区单日 434 条 Issue、500 条 PR 高活跃运转",
+      "P0 级启动崩溃回归 (#108435) 成项目最大稳定性风险",
+      "  i18n 框架大规模 PR 密集合入，备战全球市场",
+      "第三方插件接入实时语音会话，语音生态里程碑突破",
+      "  Zalo 频道消息丢失 Bug 修复，跨平台稳定性提升",
+      "  '可组合终止代数' 提案探索 A2A 幻觉检测新范式"
+    ],
+    "ai-trending": [
+      "OmniRoute 日增 1651 Stars，AI 路由网关成今日明星",
+      "  'claude-mem' 等上下文压缩项目引爆 Agent 记忆力革命",
+      "TradingAgents 热度飙升，多智能体攻入金融量化交易",
+      "  Ollama 持续更新支持 Kimi/GLM，本地部署标杆不可撼动",
+      "  vllm 稳居 8.7 万 Stars，LLM 推理引擎标准地位巩固",
+      "  'ai-engineering-from-scratch' 日增 652 星，零基础教程火爆"
+    ],
+    "ai-web": [
+      "Anthropic 紧急发布 Claude Opus 4.8，Agent 能力再升级",
+      "Anthropic 推出经济指数连接器，Claude 变身 AI 经济入口",
+      "Anthropic 设立 2 亿美元经济未来研究基金，押注政策影响",
+      "Anthropic 再捐 2000 万美元给 Public First Action，监管博弈加码",
+      "  Open AI 今日仅三条更新，信息公开度严重不足",
+      "Opus 4.5、4.7 历史公告被收录，透视 Anthropic 编码战略演变"
+    ],
+    "ai-hn": [
+      "Kimi K3 与 Fable 并驾齐驱，社区热议中美 AI 差距缩小",
+      "Google 发布 Gemini 3.6 Flash 系列，首推'网络安全'专用版",
+      "  Gemini 废弃 temperature 等经典参数，开发者强烈反弹",
+      "GigaToken 开源号称千倍速 Tokenizer，获 367 分热评",
+      "  MUD 文字游戏被用来评估 LLM，99 美元低成本创意获赞",
+      "  Substack 新 AI 检测器被指有和 DEV.to 同样的盲区"
+    ],
+    "ai-ph": [
+      "CartAI 获 464 票，自动结账 Agent 直击电商转化率痛点",
+      "Routine AI 定位'工作中的 Siri'，语音控制桌面任务",
+      "Jockey by TwelveLabs 突破视频搜索，可直接提问视频内容",
+      "ditto.site 一键克隆网站，开发者工具热度高涨",
+      "CreateOS 隔离沙箱让 AI 应用安全运行，基础设施受追捧",
+      "Manifest 让 Agent 操控网络，应用开发关键支撑工具"
+    ],
+    "ai-arxiv": [
+      "证据感知 RL 解决长上下文推理中复制源文本的典型缺陷",
+      "  '因果对齐'方法提升思维链忠实度，黑盒可解释性新突破",
+      "  '对比信念更新'新方法量化 AI 系统的'狡猾'程度",
+      "大规模实验量化提示格式与指令数量对幻觉的真实影响",
+      "  RL 方法用于作文评分，超越简单分数预测生成反馈",
+      "  MoE 路由器公平性研究：大专家负载不匹配损害稳定性"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 下载超 223 万，图像文本识别标杆",
+      "Google Gemma-4-31B-it 下载量破 1200 万，开源多模态霸主",
+      "zai-org/GLM-5.2 获 4337 赞，MoE 对话模型社区热捧",
+      "empero-ai 的 Qwythos-9B GGUF 版下载超 213 万，本地部署首选",
+      "  '1-bit' Bonsai 量化系列爆火，高效本地模型需求旺盛",
+      "NVIDIA 机器人专用模型 + Moonshot AI 代码模型场景化明显"
+    ],
+    "ai-community": [
+      "   lint 扫描 36 个 MCP 服务器，近三分之一无法可靠运行",
+      "模糊测试 AI 代码沙箱发现模型在'说谎'，安全漏洞触目惊心",
+      "  Substack 新 AI 检测器被指有和 DEV.to 同样的盲区",
+      "  思考 AI 时代的教学：'阻力'为何成为深度理解的催化剂",
+      "  '上下文窗口'被类比 CPU 缓存，入门 LLM 必读好文",
+      "  Eval 中的统计谬误引发反思，评估方法论需革新"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills released by Anthropic",
+      "Gemini CLI adds triage infrastructure",
+      "Codex faces zombie process leaks",
+      "9-month bypass permissions bug unfixed",
+      "MCP lifecycle fragility across tools",
+      "OpenCode offers MIT-licensed alternative"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 434 issues, 500 PRs",
+      "ClawSweeper bot scales review efforts",
+      "Localization framework advances with PRs",
+      "No new releases, focus on stabilization",
+      "149 closed issues show strained pipeline",
+      "ZeroClaw Labs enters the ecosystem"
+    ],
+    "ai-trending": [
+      "worldmonitor gains 4,139 stars today",
+      "OmniRoute supports 500+ models via API",
+      "i-have-adhd addresses verbose agent output",
+      "RuView turns WiFi signals into sensors",
+      "Kronos emerges as financial AI model",
+      "Graphify maintains 93,945 total stars"
+    ],
+    "ai-web": [
+      "Anthropic launches Economic Index Connector",
+      "$200M research fund agenda published",
+      "$20M political donation for AI safeguards",
+      "OpenAI Presence hints at ambient AI",
+      "Claude users get real-time economic data",
+      "OpenAI data limited to metadata only"
+    ],
+    "ai-hn": [
+      "GigaToken tokenizer claims 1000x speedup",
+      "Terrence Tao’s ChatGPT sparks math debate",
+      "Anthropic $1.5B copyright settlement discussed",
+      "OpenAI ad program draws skepticism",
+      "Kimi K3 and Fable achieve SOTA results",
+      "Gemini 3.6 Flash models announced"
+    ],
+    "ai-ph": [
+      "Lev8 leads sales AI with 581 votes",
+      "CartAI automates e-commerce checkout",
+      "ditto.site clones websites from code",
+      "Routine AI pitches as Siri for work",
+      "Jockey by TwelveLabs targets video AI",
+      "Skim brings AI email to Windows"
+    ],
+    "ai-arxiv": [
+      "RLVR dominates post-training LLM research",
+      "Faithful reasoning papers tackle chain-of-thought",
+      "Agentic systems shift to production toolkits",
+      "GAMUT benchmark evaluates factual completeness",
+      "Evidence-aware RL reduces long-context errors",
+      "Theory-of-mind benchmarks go multimodal"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA tops 4,337 weekly likes",
+      "Gemma-4-31B-it surpasses 12M downloads",
+      "Bonsai-27B extreme quantization gains traction",
+      "Baidu’s Unlimited-OCR hits 2.2M downloads",
+      "Solar-Open2-250B enters open-weight space",
+      "Nanbeige4.2-3B targets edge deployments"
+    ],
+    "ai-community": [
+      "OpenAI eval agent hacked Hugging Face",
+      "AI detectors fail on polished content",
+      "Friction in learning is a feature, not bug",
+      "Context window misconceptions corrected",
+      "OCaml and Rust crossover draws interest",
+      "MCP server quality remains hot topic"
+    ]
+  }
+}
