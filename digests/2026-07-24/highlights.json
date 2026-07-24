@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex发布2个Alpha版本，修复10个重要PR",
+      "Gemini CLI高度活跃，发布1个Nightly版本",
+      "Claude Code上下文管理议题引发10个热点讨论",
+      "Kimi Code CLI合并8个PR，修复Agent行为鲁棒性",
+      "DeepSeek TUI进入预发布冲刺阶段",
+      "社区对Agent行为透明度和可控性要求空前提高"
+    ],
+    "ai-agents": [
+      "OpenClaw今日处理326个Issue和500个PR",
+      "P0级Bug聚焦会话状态与消息丢失问题",
+      "Issue #110950关于统一自动化调度讨论已关闭",
+      "内存Wiki扩展修复损坏文件导致的崩溃问题",
+      "社区关注非systemd Linux发行版部署需求",
+      "项目处于快速迭代和密集Bug修复周期"
+    ],
+    "ai-trending": [
+      "OmniRoute全球AI网关今日新增1929星",
+      "ComposioHQ的Claude技能集合获636星新增",
+      "阿里开源代码审查工具open-code-review获180星",
+      "citrolabs发布人机协同浏览器ego-lite",
+      "HuggingFace Transformers稳居AI生态基石地位",
+      "shiyu-coder/Kronos金融模型获极高社区关注"
+    ],
+    "ai-web": [
+      "Anthropic发布Opus 4.7旗舰模型，专注安全沙箱",
+      "Claude推出面向Ableton和Adobe的创意Connectors",
+      "Opus 4.7首次训练中降低网络攻击能力",
+      "Anthropic构建从经济型到专业化的完整能力阶梯",
+      "OpenAI仅有医疗领域标题更新，缺乏细节",
+      "Claude Opus 4.5被首次全量引用回忆"
+    ],
+    "ai-hn": [
+      "陶哲轩公开与ChatGPT讨论雅可比猜想视频",
+      "GigaToken宣称比现有分词机制快约1000倍",
+      "Palmier Pro发布开源AI视频编辑器macOS版",
+      "OneCLI开源凭证网关防止AI代理泄露敏感信息",
+      "Screenpipe记录工作流并将其转化为AI代理",
+      "社区激烈讨论美国切断中国开源模型访问"
+    ],
+    "ai-ph": [
+      "AgentManager解决Claude Code超时挂起问题",
+      "Humalike为Hermes插件提供社会化情报能力",
+      "Google发布Gemini 3.6 Flash家族多模态模型",
+      "Kastra引擎确保AI Agent运行时行为安全",
+      "Buzzy创意AI产品成为唯一上榜创意工具",
+      "AI Agent的安全与协作管理成开发者焦点"
+    ],
+    "ai-arxiv": [
+      "研究发现直接展示危险目标模型反而更谨慎",
+      "Token预算饱和问题导致思维链模型推理不收敛",
+      "多语言LLM在文化特定知识上表现不佳",
+      "自校正修辞过度使用降低文本表达自信度",
+      "提出为自主AI智能体提供加密授权验证机制",
+      "Agent记忆管理被指明解决生产成本问题的关键"
+    ],
+    "ai-hf": [
+      "GLM-5.2以4370赞登顶本周模型热度榜",
+      "百度的Unlimited-OCR下载量超240万次",
+      "Google发布Gemma-4-31B-it获3347点赞",
+      "poolside的Laguna-S-2.1专注代码生成领域",
+      "Upstage推出Solar-Open2-250B超大参数模型",
+      "Motif-3-Beta聚焦特征提取新能力应用"
+    ],
+    "ai-community": [
+      "开发者揭穿AI Agent背后繁杂工程秘密",
+      "文章指出仅2.4MB的Go分类器可替代7B模型",
+      "批判当前AI治理以恐惧限制能力的误区",
+      "分享如何将AI编码上下文消耗降低95%",
+      "深入剖析RAG系统在生产中隐藏的成本问题",
+      "MCP协议成为连接各种AI工具的热门粘合剂"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code billing crisis erupts",
+      "OpenAI Codex faces Windows CP issues",
+      "Pi and Qwen Code lead PR throughput",
+      "MCP integration becomes battleground",
+      "Seven major tools show active development",
+      "Platform compatibility pains remain"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 326 issues, 500 PRs",
+      "Critical P0/P1 regressions in 2026.7.x",
+      "Session state corruption plagues releases",
+      "186 PRs merged in intense maintenance",
+      "Cross-channel session degradation persists",
+      "Hotfix release likely imminent"
+    ],
+    "ai-trending": [
+      "Ollama leads LLM runtime trend",
+      "VLLM drives inference engine adoption",
+      "Firecrawl tops AI web scraping",
+      "LangChain framework stays dominant",
+      "Milvus, Qdrant, Weaviate vector DBs",
+      "Ultralytics leads CV frameworks"
+    ],
+    "ai-web": [
+      "Claude for Creative Work launches",
+      "Connectors for Ableton, Adobe released",
+      "Claude Opus 4.7 features safety guardrails",
+      "Anthropic pushes vertical enterprise integration",
+      "OpenAI hints at Health in ChatGPT",
+      "Productization marks strategic shift"
+    ],
+    "ai-hn": [
+      "OpenAI-Hugging Face security incident erupts",
+      "Terence Tao uses ChatGPT for math proof",
+      "GigaToken claims 1000x speedup",
+      "F16s fly with AI control from DARPA",
+      "Stripe buys OpenRouter for ~$10B",
+      "Oracle fires 21k in AI bet gone wrong"
+    ],
+    "ai-ph": [
+      "Humalike x Hermes tops with 509 votes",
+      "Kastra adds runtime authorization 389 votes",
+      "Gemini 3.6 Flash Family launches",
+      "AgentManager keeps Claude sessions alive",
+      "Agent infrastructure dominates today",
+      "Claude/Codex ecosystem tools surge"
+    ],
+    "ai-arxiv": [
+      "Agentic memory solutions surge in papers",
+      "Prolog-MCP merges logic with LLMs",
+      "Multi-agent safety blind spot revealed",
+      "Chain-of-thought bimodal pattern found",
+      "GPT-5.6 tested on dangerous objectives",
+      "Multilingual LLMs fail everyday trivia"
+    ],
+    "ai-hf": [
+      "Bonsai 1-bit quantization explodes downloads",
+      "Gemma-4-31B-it tops 12.6M downloads",
+      "Qwen3.6 dominates fine-tuning ecosystem",
+      "NVIDIA streaming ASR model trending",
+      "Qwen TTS with voice cloning surges",
+      "Laguna-S-2.1 code model spawns variants"
+    ],
+    "ai-community": [
+      "AI agent mysticism debunked in top post",
+      "RAG costs underestimated by 3-5x",
+      "Production RAG failures tied to architecture",
+      "Devs move from 'can AI' to 'how to contain'",
+      "OCaml GC for Rust competes with AI hype",
+      "Eval sets that test nothing criticized"
+    ]
+  }
+}
