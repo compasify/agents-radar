@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.219/220 版本发布",
+      "OpenAI Codex 遭 Windows Git 性能报怨",
+      "Gemini CLI 聚焦 Agent 可靠性问题",
+      "GitHub Copilot CLI v1.0.75 回归 Bug",
+      "OpenCode v1.18.5 修复任务中断",
+      "Qwen Code v0.21.0 优化后台进程管理"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日超 500 条 PR，高活跃",
+      "修复 clawsweeper-recovery-stuck 卡死",
+      "修复 Anthropic OAuth 令牌自动刷新",
+      "修复 MCP 工具模式缺失 type 字段",
+      "支持 OpenRouter 等 HTTP 代理",
+      "无版本发布，大量修复待合并"
+    ],
+    "ai-trending": [
+      "WorldMonitor 日增 2184 stars 全球情报",
+      "OmniRoute 获 1841 stars 统一 AI 网关",
+      "RuView +1022 stars WiFi 空间智能",
+      "ego-lite +880 stars Agent 专用浏览器",
+      "awesome-claude-skills 获 663 stars",
+      "Kronos 金融模型 +499 stars 登榜"
+    ],
+    "ai-web": [
+      "Anthropic 设 2 亿美元经济未来研究基金",
+      "Claude Opus 5 发布，半价接近旗舰",
+      "引入“努力程度”可调性价比",
+      "Project Pilot 评估 AI 操控无人机",
+      "OpenAI 今日无官方内容更新",
+      "经济政策框架正式落地资助研究"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 登 HN 热榜 1295 分",
+      "Tao 用 ChatGPT 发现 Jacobian 反例 1113分",
+      "Nvidia、微软、Meta 反对过度监管",
+      "Flux 3 图像生成模型获 549 分",
+      "OpenAI 意外攻击 Hugging Face 引热议",
+      "Claude Cookbook 官方案例获 288 分"
+    ],
+    "ai-ph": [
+      "PromptQL 多智能体协作平台 461 票",
+      "AskCodi Agent 编排与成本控制 279 票",
+      "OpenCode Superapp 结合 Codex 本地模型",
+      "AgentLoop 循环新建工作器提升质量",
+      "Quaso 跨应用 AI 自动化代理 144 票",
+      "AI 电子表格与语音输入工具受关注"
+    ],
+    "ai-arxiv": [
+      "VLM-IE3D 统一隐式显式 3D 几何增强",
+      "Expanding Generative Flows 打破维度限制",
+      "AREX 递归自改进智能体框架",
+      "Token Budget Saturation 分析双模收敛",
+      "LLM 道德推理结构化顺从/抵抗",
+      "OpenForgeRL 开源 RL 微调框架"
+    ],
+    "ai-hf": [
+      "GLM-5.2 多模态模型点赞 4415",
+      "Gemma-4-31B-it 下载超 1262 万",
+      "Baidu Unlimited-OCR 点赞 3011",
+      "Qwen3.6 uncensored 与 1-bit 量化活跃",
+      "Prism-ml 百万下载低精度模型",
+      "Solar-Open2-250B 开放权重 541 赞"
+    ],
+    "ai-community": [
+      "Sentry span 暴露 Agent 管道静默重试",
+      "Context Compression 受控遗忘策略",
+      "Hetzner Inference 欧洲云 LLM 推理",
+      "World Models 融资 10.3 亿美元",
+      "RAG 评测痛点引发讨论",
+      "MCP 服务器目录突破 1.1 万"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds Opus 5 support",
+      "Copilot CLI plan-mode feature ships",
+      "MCP plugin ecosystem expands",
+      "Kimi Code CLI alpha released",
+      "Grok Build new agent features",
+      "Cross-tool context compaction failures"
+    ],
+    "ai-agents": [
+      "OpenClaw high activity with 464 issues",
+      "Gateway crash-loop in stable build",
+      "Telegram DM regression in beta",
+      "296 pull requests merged in 24 hours",
+      "Session state and message delivery bugs",
+      "Community engagement remains high"
+    ],
+    "ai-trending": [
+      "mattpocock/skills +2,251 stars today",
+      "OmniRoute +1,841 stars adoption",
+      "worldmonitor geopolitical dashboard AI",
+      "ruvnet/RuView Wi-Fi spatial sensing",
+      "citrolabs/ego-lite fastest browser for agents",
+      "Ollama now supports latest local models"
+    ],
+    "ai-web": [
+      "Claude Opus 5 announced with SOTA benchmarks",
+      "$200M Economic Futures Research Fund unveiled",
+      "Project Pilot evaluation for drone AI risks",
+      "Opus 5 half cost of flagship Claude Fable 5",
+      "OpenAI had no new publications today",
+      "Anthropic dominates news with two announcements"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 1295 points 702 comments",
+      "Flux 3 image generation model released",
+      "Open-weight AI regulation policy battle",
+      "OpenAI/Hugging Face hacking incident debated",
+      "Deep skepticism toward OpenAI narrative",
+      "Cautious optimism about cutting-edge models"
+    ],
+    "ai-ph": [
+      "PromptQL top product with 461 votes",
+      "Teable 3.0 AI spreadsheet launched",
+      "Megaphone on-device dictation open-source",
+      "AgentLoop open Codex worker cycles",
+      "HOL Guard agent security product",
+      "Blaxel Agent Drive filesystem for agents"
+    ],
+    "ai-arxiv": [
+      "Beyond Sycophancy paper on moral reasoning",
+      "MIRROR learn grounded spatial reasoning",
+      "OpenForgeRL proposes scalable RL agents",
+      "AREX autonomous research agent loops",
+      "Same Dangerous Objective paper on safety",
+      "Windowed-MTP million-token context efficiency"
+    ],
+    "ai-hf": [
+      "poolside Laguna-S-2.1 28,992 downloads",
+      "upstage Solar-Open2-250B large open model",
+      "Nanbeige4.2-3B compact LLM",
+      "GLM-5.2 with 4,415 likes",
+      "Baidu Unlimited-OCR trending",
+      "MiniCPM-RobotManip robotics models"
+    ],
+    "ai-community": [
+      "Sentry spans revealed 7x tool output",
+      "Agent observability cut latency by 21%",
+      "Dev.to piece on vanished bug-fixer",
+      "RAG evaluation beyond feels good",
+      "Notion's vector search scaling deep-dive",
+      "World models lab raises $1B seed"
+    ]
+  }
+}
