@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "安全漏洞和计费问题成为社区最高优先级痛点",
+      "Claude Code社区反馈质量高，Bug和功能讨论深入",
+      "OpenAI Codex Windows稳定性问题爆发，PR密集合并MCP OAuth修复",
+      "Gemini CLI发布v0.54.0-nightly，Agent稳定性成最大议题",
+      "Pi社区新模型适配和TUI性能问题集中爆发",
+      "Qwen Code发布v0.21.0-nightly，紧急修复安全漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw今日活跃度极高，344条Issues和500条PR",
+      "P1稳定性问题（会话中断、消息丢失）仍占活跃Issues近40%",
+      "PR #114219和#114220重构AI中断机制和回复会计核算",
+      "修复Web UI新建会话时工作区/模型选择不生效问题",
+      "修复Linux端托盘图标显示问题，跨平台兼容性改进",
+      "Issue #75要求Linux/Windows Clawdbot Apps，115评论80赞"
+    ],
+    "ai-trending": [
+      "AI浏览器代理赛道爆发，citrolabs/ego-lite持续热榜",
+      "阿里巴巴开源open-code-review单日新增近千星，生产级AI代码审查",
+      "pbakaus/impeccable首次登榜，定义AI时代界面设计语言",
+      "shiyu-coder/Kronos金融领域模型单日涨星321",
+      "andrewyng/aisuite让开发者通过一套代码调用多个LLM",
+      "PaddlePaddle/PaddleOCR 86k星，打通图像与LLM数据壁垒"
+    ],
+    "ai-hn": [
+      "Claude Opus 5发布获1764分，社区惊叹性能又担忧定价安全",
+      "服务故障和Anthropic与科技行业对立言论引发大量质疑",
+      "美国初创呼吁不要切断中国开源模型，获1065分热议",
+      "“Open-weight AI正在经历它的Kubernetes时刻”观点引共鸣",
+      "AI安全事件获1626分，社区对监管保持警惕",
+      "陶哲轩演讲探讨AI改变数学研究范式，学者反应两极"
+    ],
+    "ai-ph": [
+      "Heard提供语音界面控制Claude Code和Codex，342票92评论",
+      "OpenComputer降低AI代理云端部署门槛，226票",
+      "Second Brain跨平台构建统一AI回忆录，281票",
+      "OpenAI推出Health in ChatGPT个人健康伴侣，148票",
+      "FluentDB用自然语言替代SQL，327票40评论",
+      "ADE免费Agentic开发环境协调多编码Agent，97票"
+    ],
+    "ai-hf": [
+      "智谱GLM-5.2以4477点赞成为本周对话模型焦点",
+      "百度Unlimited-OCR下载量259万，证明工业OCR刚需",
+      "thinkingmachines/Inkling多模态模型获1579赞，口碑增长迅猛",
+      "moonshotai/Kimi-K2.7-Code代码模型下载73万，高效编程助手",
+      "基于Qwen3.x系列社区涌现大量“去审查”及风格化变体",
+      "MiniCPM-RobotManip和RobotTrack推动多模态向具身智能迈进"
+    ],
+    "ai-community": [
+      "多智能体LLM链路追踪：otel-swarm + SigNoz仪表盘",
+      "DeepSeek因华为芯片缺口暂停融资，Hugging Face索要1亿美元",
+      "完全本地化AI助手：Hermes Agent + Kokoro TTS",
+      "本地RAG搭建教程：Ollama + ChromaDB + LangChain实战",
+      "开发者因AI生成项目被社区拒绝，引发12条争议评论",
+      "查询时实体消歧：Graph RAG中一个名字对应17个节点"
+    ],
+    "ai-weekly": [
+      "Anthropic发布Opus 5，半价性能持平旗舰，引入努力等级机制",
+      "中国Kimi K3模型评测达Fable同级，引发开源取胜讨论",
+      "AI CLI工具生态集体将稳定性作为最高优先级",
+      "AGENTS.md提案获多工具支持，Agent技能标准化起步",
+      "阿里open-code-review开源单日近千星，企业级AI代码审查",
+      "OpenAI发布Long Horizon对齐框架，挑战自主Agent安全"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Security hardening: Electron IPC bypasses, sandbox escapes",
+      "Subagent reliability: false success reporting, indefinite hangs",
+      "Platform portability: Windows CLI hangs, WSL path corruption",
+      "Pi and DeepSeek TUI ship faster per-issue resolution cycles",
+      "Claude Code and OpenAI Codex generate highest raw engagement",
+      "Trust and control gap remains defining challenge"
+    ],
+    "ai-agents": [
+      "OpenClaw: 344 issues, 500 PRs in 24 hours",
+      "330 PRs merged or closed, strong forward momentum",
+      "Fix: Reduce reply delay by snapshotting metadata",
+      "Fix: Complete OAuth profile migration for gateway startup",
+      "Many high-severity open issues (platinum/diamond lobster)",
+      "No new releases published today"
+    ],
+    "ai-trending": [
+      "ego-lite: zero-config browser for AI agents (900+ stars)",
+      "Alibaba/open-code-review: LLM-powered code review (832 stars)",
+      "Kronos: foundation model for market language (321 stars)",
+      "aisuite: lightweight unified API across AI providers (187 stars)",
+      "Claude cookbooks: practical notebooks from Anthropic (379 stars)",
+      "Agent frameworks (hermes-agent 220k stars) and RAG pipelines trending"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 dominates HN with 1764 points, 1315 comments",
+      "Security incident involving OpenAI and Hugging Face draws massive thread",
+      "Debate over Chinese open-weight AI exports (1065 points, 886 comments)",
+      "Flux 3 release: image generation competition heats up (569 points)",
+      "Claude Opus 5 is #1 on Artificial Analysis Intelligence Leaderboard",
+      "Cautious excitement: capabilities celebrated, but security concerns"
+    ],
+    "ai-ph": [
+      "Heard: give Claude Code and Codex a voice (342 votes)",
+      "FluentDB: AI-powered database client (327 votes)",
+      "Second Brain: AI memory across devices (281 votes)",
+      "OpenComputer: agent deployment platform (226 votes)",
+      "Velane: managed agent orchestration (100 votes)",
+      "Health in ChatGPT: consumer AI health coaching (148 votes)"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model tops trending with 4,477 likes",
+      "Qwen3.6-based vision-language fine-tunes dominate uncensored space",
+      "MiniCPM-RobotManip: vision-language-action model for robotics",
+      "Baidu Unlimited-OCR leads downloads at 2.6M",
+      "Microsoft Mage-Flow for instruction-based image editing",
+      "1-bit/2-bit GGUF quantization (Bonsai, Ternary-Bonsai) breaks new ground"
+    ],
+    "ai-community": [
+      "War stories: tracing multi-agent systems, containing failures",
+      "Claude Code production costs discussed",
+      "Observability no longer optional: only traces reveal issues",
+      "Local-first AI buzz (Ollama, Kokoro, Hermes Agent)",
+      "Article: 'Don't Wait. Fork It.' – forking as ownership",
+      "DeepSeek pauses fundraise over Huawei deficit"
+    ],
+    "ai-weekly": [
+      "Claude Opus 5: half cost, near-frontier performance",
+      "Nvidia, MS, Meta warn on open-weight regulation",
+      "Kimi K3 matches Fable benchmarks",
+      "OpenAI, Hugging Face address eval security",
+      "mattpocock/skills hits +1,740 stars in day",
+      "Terence Tao uses ChatGPT for math breakthrough"
+    ]
+  }
+}
