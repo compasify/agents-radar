@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区聚焦计费缺陷和会话管理Bug",
+      "OpenAI Codex发布Alpha版，修复核心功能/undo",
+      "GitHub Copilot CLI v1.0.76-0计划模式回归",
+      "Gemini CLI夜间版发布，关注Agent系统稳定性",
+      "Qwen Code长上下文连接稳定性问题待解决",
+      "DeepSeek TUI冲刺v0.9.2，改善计费系统准确性"
+    ],
+    "ai-agents": [
+      "P0级内存泄漏问题持续引发社区关注",
+      "关键迁移Bug导致网关启动失败已修复",
+      "Telegram消息丢失Bug被修复",
+      "会话初始化冲突问题解决，提升多轮可靠性",
+      "工具文本降级为图片占位符问题修复",
+      "网关配对作用域死锁问题已关闭"
+    ],
+    "ai-trending": [
+      "阿里open-code-review今日爆火，增长979星",
+      "Cherry Studio集成300+助手，成AI工作站",
+      "DeepSeek-Reasonix编码Agent深度优化缓存",
+      "langchain与ollama等基础工具持续稳健",
+      "firecrawl为Agent设计网页数据采集下载高",
+      "open-webui本地部署明星项目兼容多模型"
+    ],
+    "ai-web": [
+      "Anthropic CEO明确反对全面禁止开放权重",
+      "与Cognizant深度合作，3万员工完成Claude培训",
+      "Claude Code集成到Cognizant开发平台Flowsource",
+      "Anthropic从技术安全转向地缘战略安全",
+      "OpenAI可能发布AI改变工作文章但详情缺失",
+      "Cognizant成Anthropic全球首要合作伙伴"
+    ],
+    "ai-hn": [
+      "Anthropic开放权重立场文获425分，社区激烈争论",
+      "Claude 5上下文工程指南发布，开发者高度关注",
+      "Cloudflare新AI路由控制引发技术讨论",
+      "Claude Cookbook官方示例库获341分",
+      "初创创始人抵制切断中国开放权重",
+      "撕毁珍本图书争议帖引发热议"
+    ],
+    "ai-ph": [
+      "Athena以408票登顶，首个电商全栈编排智能体",
+      "Openbase首创语音指挥AI团队模式",
+      "Aymo AI集对话、数据分析、知识库于一体",
+      "CodexBar Lite提供Mac端开发者工具",
+      "BrainFeed瞄准碎片时间学习，将刷手机变学习",
+      "今日AI产品呈智能体化和垂直场景深化趋势"
+    ],
+    "ai-arxiv": [
+      "LoRA谱理论首次解释入侵维度导致遗忘",
+      "CALMRec用LLM记忆实现因果对齐推荐打破闭环",
+      "概念擦除方法在鲁棒性与效用间取得新平衡",
+      "分布式多智能体RL优化无人机轨迹规划",
+      "分层SAC框架应对稀疏奖励长时任务",
+      "五大AI编程助手生成身份验证代码均有漏洞"
+    ],
+    "ai-hf": [
+      "月之暗面Kimi-K3以6212周点赞登顶榜首",
+      "GLM-5.2采用MoE架构，下载量破百万",
+      "Laguna-S-2.1量化版下载远超基础版受部署驱动",
+      "极低比特量化模型下载量巨大，高效部署成硬需求",
+      "微软百度等开源图像编辑OCR专用模型",
+      "Solar-Open2-250B展示大模型向250B规模探索"
+    ],
+    "ai-community": [
+      "AI安全与Agent权限失控成Dev.to最热议题",
+      "无限上下文被质疑为技术债，token利用率受关注",
+      "Kimi K3 2.8T权重即将发布",
+      "MCPRadar开源扫描器用于发现Agent协议漏洞",
+      "Junior开发者成长路径被AI破坏引发争议",
+      "MLIR生态与向量搜索降本实战在Lobste.rs讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships 2 CLI alphas",
+      "Gemini CLI focuses on multi-agent workflow",
+      "Claude Code in triage with regression fixes",
+      "No stable production releases today",
+      "Billing correctness is cross-cutting theme",
+      "Windows platform stability urgent for Codex"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs",
+      "Closure rate over 50% for issues and PRs",
+      "Plugin loopback host classification fix",
+      "Fixes duplicate survived processes after replacement",
+      "Gateway call migration stops local state migrations",
+      "Telegram reply flashing prevention merged"
+    ],
+    "ai-trending": [
+      "Alibaba open-code-review gains +979 stars",
+      "moeru-ai/airi: self-hosted multi-modal companion",
+      "Claude Video enables LLM video reasoning",
+      "Hermes-agent framework reaches 221k stars",
+      "Ollama now supports Kimi-K2.6 and GLM-5.2",
+      "Financial AI verticals like Kronos emerge"
+    ],
+    "ai-web": [
+      "Anthropic CEO clarifies non-ban open-weights stance",
+      "Anthropic-Cognizant partnership with 30k trained",
+      "OpenAI publishes metadata-only AI work article",
+      "Dario Amodei distinguishes safe vs dangerous models",
+      "Anthropic opposes protectionist measures",
+      "Cognizant becomes Global Premier Partner for Claude"
+    ],
+    "ai-hn": [
+      "Anthropic open-weights stance sparks 579 comments",
+      "Claude chats may have been Google-indexed",
+      "AI companies shredding rare books for training",
+      "Professor catches 35 students with prompt trap",
+      "Startups urge US not to block Chinese AI models",
+      "Opus 5 struggles with slop code benchmark"
+    ],
+    "ai-ph": [
+      "Athena leads with 408 votes as commerce orchestrator",
+      "Openbase voice-controlled agent team management",
+      "BrainFeed turns scrolling into learning feed",
+      "Aymo AI all-in-one team AI platform",
+      "Forgeon and AlsonAI push interactive storytelling",
+      "Trend favors practical integration-focused tools"
+    ],
+    "ai-arxiv": [
+      "Iterative reprompting closes LLM code security gap",
+      "CALMRec separates preferences from transient intent",
+      "MS-GPT revolutionizes molecular structure elucidation",
+      "PINNs discover periodic orbits in three-body problem",
+      "Variational-Ising-Attention for scientific tasks",
+      "Private transformer inference under 1 hour"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops Hugging Face with 6,212 likes",
+      "Qwen3.6-35B-A3B reaches 6M+ downloads",
+      "Extreme 1-bit quantization gains massive traction",
+      "Chinese AI labs dominate open-weight landscape",
+      "poolside Laguna-S-2.1 popular quantization base",
+      "Baidu Unlimited-OCR for document processing"
+    ],
+    "ai-community": [
+      "Junior developer pipeline debate has 84 reactions",
+      "MCPRadar scans MCP servers for misconfigurations",
+      "AI agents introduce credential leak risks",
+      "Microsoft's open weights piece sparks geopolitics debate",
+      "Vibecoding polarizes developer community",
+      "Developers worry about AI stealing secrets"
+    ]
+  }
+}
