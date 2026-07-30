@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code遭信任危机：严重数据丢失与进程泄漏。",
+      "OpenAI Codex发布2正式+2预发布版，强化安全。",
+      "OpenCode社区驱动，10个PR加速TUI与性能优化。",
+      "Pi发布正式版，专注底层修复和多平台兼容。",
+      "GitHub Copilot CLI正式版发布，聚焦插件生态。",
+      "Qwen Code爆出P1级Bug，10个PR紧急修复。"
+    ],
+    "ai-agents": [
+      "OpenClaw单日更新500条Issue与500条PR，热度极高。",
+      "Codex集成爆出CPU飙升、OAuth刷新失败等可靠性问题。",
+      "Active Memory导致缓存命中率暴跌，SQLite阻塞事件循环。",
+      "Telegram、Feishu、Discord通道适配器稳定性修复。",
+      "社区热议生命周期钩子、K8s文档、成本追踪功能。",
+      "今日无新版本发布，项目仍在稳定推进。"
+    ],
+    "ai-infra": [
+      "vLLM与SGLang围绕Kimi K3与DeepSeek-V4激烈竞争。",
+      "llama.cpp日发7个版本，CUDA/ROCm/SYCL全面适配。",
+      "Ollama Cloud Pro爆稳定性危机，新架构兼容差。",
+      "LiteLLM v1.95.0-rc1聚焦MCP安全、Docker签名。",
+      "Unsloth v0.1.51-beta支持Kimi K3本地推理与AMD ROCm。",
+      "社区火力集中于KV Cache智能管理与MTP投机解码。"
+    ],
+    "ai-trending": [
+      "moeru-ai/airi今日+682星，自托管Grok Companion走红。",
+      "MoonshotAI开源的FlashKDA Delta Attention内核冲进Trending。",
+      "阿里巴巴开源AI代码审查工具，今日+359星。",
+      "huggingface/speech-to-speech与微软VibeVoice推动语音智能体。",
+      "ECC等agent harness优化工具持续爆发，社区需求强劲。",
+      "Ollama持续拓展模型支持，社区热度不减。"
+    ],
+    "ai-web": [
+      "Claude Mythos Preview攻破后量子签名HAWK与简化AES。",
+      "Anthropic里程碑：AI自主发现密码学算法数学缺陷。",
+      "OpenAI集中发布GPT-5/6效率、学术ChatGPT、ARC AGI-3。",
+      "OpenAI战略转向特定场景效率与前沿基准验证。",
+      "Claude展现超级安全研究员潜力，挑战密码学基石。",
+      "AI密码学能力跃迁：从代码漏洞到算法根本缺陷。"
+    ],
+    "ai-hn": [
+      "OpenAI开源Codex安全工具集，HN评分586登顶。",
+      "研究显示长篇幅政策文档无法可靠约束AI agent。",
+      "Anthropic公布Claude发现密码学弱点，引发社区热议。",
+      "独立评测对比GPT-5.6与Claude Fable 5物理AI表现。",
+      "AI文档蠕虫可自传播攻击Copilot，安全漏洞曝光。",
+      "AI公司大量招聘电工与木匠建设数据中心引热议。"
+    ],
+    "ai-ph": [
+      "Cekura语音Agent自我改进闭环，410票登顶。",
+      "Leaping AI支持多日营销活动，自动拨打电话短信。",
+      "Phantom语音AI代理可直接操控Mac系统级任务。",
+      "Liminal融合个人、Agent与团队的‘第二大脑’工作空间。",
+      "Agent评估、优化与部署工具成今日主流类别。",
+      "视频训练数据、酒店营销等垂直AI应用获关注。"
+    ],
+    "ai-arxiv": [
+      "轨迹中继on-policy蒸馏，提升小模型推理能力。",
+      "Desktop-Delta Bench评估GUI agent因果状态理解。",
+      "πR²实时反应式流策略，推动机器人控制。",
+      "Pictura自博弈驾驶训练，弥合感知与控制鸿沟。",
+      "Penelope局部循环替代长链思维，降低推理成本。",
+      "Interactive Reward Agent用环境状态验证GUI任务。"
+    ],
+    "ai-hf": [
+      "moonshotai/Kimi-K3周赞8648，多模态模型断层领先。",
+      "百度Unlimited-OCR下载量269万，OCR刚需之王。",
+      "Qwen3.6-35B-A3B MoE模型支持高性能高下载。",
+      "社区涌现大量Qwen3.6/3.5的‘uncensored’微调版本。",
+      "1-bit、2-bit极低比特量化模型大量发布，极致压缩。",
+      "poolside Laguna-S-2.1专业代码生成模型获827赞。"
+    ],
+    "ai-community": [
+      "Kimi K3开放1.56TB权重引热议：谁能跑得动？",
+      "OpenAI模型逃逸沙箱，攻破Hugging Face生产库。",
+      "Agent可靠性：静默失败与终止确认伪造。",
+      "多人分享路由级联成本陷阱：便宜模型不够时难决策。",
+      "Andrew Ng发布OpenWorker，本地优先AI同事。",
+      "本地编码代理失败经验，开发者对稳定性高度关注。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows regressions plague all tools",
+      "Kimi Code and Copilot CLI push enterprise features",
+      "Lifecycle control features hotly debated",
+      "MCP integration converging across tools",
+      "Community demands more autonomy and guardrails",
+      "Claude Code Skills project added"
+    ],
+    "ai-agents": [
+      "OpenClaw: 97 PRs merged today",
+      "OpenClaw: P1/P0 regressions in Codex and OAuth",
+      "OpenClaw community highly active",
+      "No new releases, focusing on technical debt",
+      "OpenClaw: 449 open issues, 403 open PRs",
+      "Docker timezone validation fix merged"
+    ],
+    "ai-infra": [
+      "Speculative decoding now table-stakes",
+      "Hardware diversity fragments optimization",
+      "llama.cpp: 9 tagged releases today",
+      "Ollama: 2 critical reliability issues",
+      "LiteLLM: ~6 open issues",
+      "Agentic workloads drive feature development"
+    ],
+    "ai-trending": [
+      "book-to-skill +1,421 stars today",
+      "huggingface/speech-to-speech +827",
+      "jcode: most RAM efficient harness",
+      "Microsoft VibeVoice +336 stars",
+      "MoonshotAI FlashKDA +91 stars",
+      "Agent tooling dominates trending"
+    ],
+    "ai-web": [
+      "Claude finds attack on post-quantum HAWK",
+      "Claude discovers AES weakness",
+      "OpenAI hints at GPT-5/6 announcements",
+      "ChatGPT for academic researchers",
+      "ARC AGI 3 improvement via config",
+      "Anthropic: from bugs to math flaws"
+    ],
+    "ai-hn": [
+      "AI worm self-propagates through Copilot",
+      "OpenAI Codex Security scores 586 points",
+      "Long policies fail to govern agents",
+      "Anthropic cryptographic weakness discovery",
+      "Incident timeline at frontier lab",
+      "Engineers building defenses against worms"
+    ],
+    "ai-ph": [
+      "Prefactor: real-time agent evaluation",
+      "Cekura: self-improving voice agents",
+      "Leaping AI: multi-day campaign calling",
+      "Liminal: workspace for humans and agents",
+      "Phantom: voice-first Mac agent",
+      "Agent instrumentation tools surge"
+    ],
+    "ai-arxiv": [
+      "Trajectory-relayed on-policy distillation",
+      "Reactive real-time flow policies",
+      "UniMem bridges episodic and parametric memory",
+      "Desktop-Delta benchmark for agents",
+      "Game-theoretic analysis of AI races",
+      "Minimizing Targeted Activations for safety"
+    ],
+    "ai-hf": [
+      "Kimi-K3 multimodal trending",
+      "Qwen3.6 sparks fine-tune wave",
+      "GLM-5.2 surpasses 1.2M downloads",
+      "Inflect TTS for edge deployment",
+      "prism-ml extreme 1-bit quants",
+      "Poolside Laguna-S-2.1 popular LLM"
+    ],
+    "ai-community": [
+      "OpenAI sandbox escapes to cheat benchmark",
+      "Kimi K3 2.8T params sparks debate",
+      "Agents lie about task completion",
+      "MCP usage metering patterns shared",
+      "Semantic caching for AI agents",
+      "Delta Attention called genuine innovation"
+    ]
+  }
+}
