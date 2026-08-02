@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 崩溃问题成焦点：#35058 获 112👍 44 评论",
+      "Gemini CLI 发 v0.55.0-nightly，修复 thoughtSignature 回归",
+      "GitHub Copilot CLI 推 v1.0.78-2 补丁，聚焦 BYOK 与 MCP 懒加载",
+      "OpenCode v1.18.11 发布，统一插件市场 PR 引关注",
+      "Qwen Code v0.21.3 正式版发布，社区热议 prompt cache 成本",
+      "DeepSeek TUI v0.9.4 RC 候选就绪，尚无正式版"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.7.2-beta.6，主打状态安全与崩溃恢复",
+      "24 小时 500 Issue、500 PR，OpenClaw 开发动能强劲",
+      "新增隔离存储，主数据库受损时保护持久化数据",
+      "修复子代理回复丢失、Codex 回合停滞等并发问题",
+      "SQLite 快照可崩溃恢复，异常退出不丢数据",
+      "社区聚焦会话状态与模型调用可靠性等 P0/P1 问题"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash-0731 与 Kimi-K3 发布，推理栈 24 小时集中适配",
+      "llama.cpp 连发 5 个版本（b10217→b10223），修复多后端回归",
+      "SGLang 单日 169 PR，DeepSeek-V4 适配成火山口",
+      "vLLM 攻坚 MRV2 架构，Kimi-K3 适配引发 CI 连锁修复",
+      "LiteLLM 推进 Rust 迁移与 OTEL v2 多租户追踪",
+      "多项目出现 NaN logits、KV cache 损坏等隐蔽正确性 bug"
+    ],
+    "ai-trending": [
+      "reverse-skill 单日新增 1320 stars，登顶今日 Trending",
+      "AI Agent 基础设施成主线，deer-flow 聚焦长周期任务",
+      "记忆/RAG 层成标配，TencentDB-Agent-Memory 今日 +227",
+      "Hugging Face speech-to-speech 单日 +442，语音生成爆点",
+      "微软 TRELLIS.2 推进 3D 生成结构化潜空间",
+      "GitHub 发布 copilot-sdk 今日 +142，Copilot 走向可编程基础设施"
+    ],
+    "ai-web": [
+      "OpenAI 出现数学进展新页面，发布时间为 8 月 1 日",
+      "该页分类为 index，可能是聚合页而非研究论文",
+      "仅元数据可验证，标题由 URL 推断，正文未抓到",
+      "Anthropic 官网今日零新增，发布静默",
+      "OpenAI 周六更新，Anthropic 未同步，节奏不同",
+      "单一元数据不足以判断战略，需数周追踪"
+    ],
+    "ai-ph": [
+      "视频生成工具 MiniMax H3 登顶今日 Product Hunt",
+      "销售线索产品 Cleanlist AI 紧随其后",
+      "Screencap 获 137 票，用录屏自动生成 AI 训练数据",
+      "TraceLLM 获 108 票，主打 AI 应用可观测性",
+      "Polygres 将数据库变 AI 上下文，免 ETL",
+      "多款开源 DevTools 涌现，AI 安全治理受关注"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周赞 9489，断层登顶 Hugging Face",
+      "DeepSeek-V4-Flash 下载量突破 281 万",
+      "GLM-5.2 周赞 4737、下载超 168 万",
+      "百度 Unlimited-OCR 下载量达 245 万",
+      "量化与微调生态火热，GGUF/NVFP4 大量出现",
+      "多模态与端侧效率成关键词，开放权重仍是主流"
+    ],
+    "ai-community": [
+      "GPT-5.6 Luna 接管自动审查，OpenAI 推低成本工作流",
+      "Agent 评估比模型评估更难，多步交互成核心难点",
+      "AI 辅助编码加速 PR，却可能削弱工程师判断力",
+      "工作流质量比复杂需求更重要，成社区新共识",
+      "开发者让 AI Agent 无人值守构建 Java 服务",
+      "MCP 新规范落地，无状态革命在 AWS AgentCore 测试"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "No major releases from Claude Code, Codex, Gemini, Kimi, or Pi",
+      "Copilot, OpenCode, and Qwen shipped small patch releases",
+      "Reliability concerns dominate: silent model substitution, cloud spend",
+      "Open-source tools show fastest PR throughput in 24h",
+      "Prompt-cache economics and persistent memory are next battlegrounds",
+      "Differentiation shifts to accountable, observable agent behavior"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 500 issues and 500 PRs in 24 hours",
+      "New beta v2026.7.2-beta.6 targets state safety and crash recovery",
+      "39 issues closed, 93 PRs merged/closed in one day",
+      "Community flags DeepSeek V4 Flash silent model failures",
+      "Internal text leaking into messaging channels under scrutiny",
+      "Unbounded state retention in realtime voice sessions is contentious"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash-0731, Kimi K3, Qwen3.5-MoE dominate roadmaps",
+      "Ampere/SM80 support notably missing in vLLM and SGLang",
+      "Agentic workload pressure drives tool-call and reasoning work",
+      "AMD/ROCm and Intel SYCL/XPU remain segfault-prone backends",
+      "llama.cpp shipped 7 releases, b10217–b10223, in 24h",
+      "New architectures show critical correctness and hardware-gating issues"
+    ],
+    "ai-trending": [
+      "reverse-skill tops AI gainers with +1,320 stars today",
+      "Microsoft AI-For-Beginners gains +949 stars",
+      "Hugging Face speech-to-speech +442 for local voice agents",
+      "Bytedance deer-flow +209 for long-horizon agents",
+      "TencentDB-Agent-Memory +227 for agent memory layers",
+      "GitHub open-sources Copilot SDK, +142 stars"
+    ],
+    "ai-ph": [
+      "MiniMax H3 leads Product Hunt with 374 votes for video",
+      "Cleanlist AI brings natural-language sales prospecting",
+      "witr traces processes, ports, and files back to origin",
+      "Screencap turns real workflows into AI training data",
+      "DepthData tackles AI cost governance for enterprises",
+      "Halo addresses real-time call authenticity"
+    ],
+    "ai-hf": [
+      "Kimi-K3 breakout model earns 9,489 likes on Hugging Face",
+      "DeepSeek V4-Flash main hits 2.8M downloads",
+      "GLM-5.2 draws 4,737 likes and 1.68M downloads",
+      "Qwen3.6 MoE fine-tunes crowd the trending chart",
+      "Ternary 2-bit 27B GGUF from prism-ml accelerates quantization",
+      "Poolside Laguna-S-2.1 rises as non-Chinese open LLM alternative"
+    ],
+    "ai-community": [
+      "Agent evaluation is harder than model evaluation, dev.to argues",
+      "OpenAI upgrades auto-review to GPT-5.6 Luna",
+      "MCP July 28 spec revision gets practical DevOps testing",
+      "AI-assisted coding weakens engineering judgment, posts warn",
+      "Lobste.rs digs into attention mechanisms and formal verification",
+      "Developer writes a PHP VM in Rust with AI help"
+    ]
+  }
+}
