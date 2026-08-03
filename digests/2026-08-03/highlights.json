@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 高赞 Issue 多，长期 bug 积压严重。",
+      "OpenAI Codex 的 Linux 桌面请求获 906 赞霸榜。",
+      "Gemini CLI 保持 nightly 日更，P1 bug 多。",
+      "OpenCode 内存问题 megathread 达 121 条评论。",
+      "Kimi Code CLI 远程控制需求获 24 赞。",
+      "DeepSeek TUI 无合并 PR，配置遮蔽与子代理阻塞是痛点。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.7，主推状态安全与恢复。",
+      "24小时 500 Issue、500 PR 更新，活跃度极高。",
+      "两条 P1 老问题 #115326、#106760 终获关闭。",
+      "新增 Quarantine store，主库受损时隔离数据。",
+      "SQLite 快照崩溃可恢复，文件发布具备持久性。",
+      "修复 QMD 搜索返回不存在路径的下划线别名问题。"
+    ],
+    "ai-infra": [
+      "llama.cpp 合入 DeepSeek V4 的 MTP+DSpark 支持。",
+      "SGLang 为 Kimi K3 提供 Day-0 镜像，支持 CUDA/ROCm。",
+      "vLLM 在 A100/A800 上仍无法初始化 DeepSeek-V4。",
+      "投机解码与 KV cache 正确性问题在三大引擎爆发。",
+      "llama.cpp 今日滚动发布 11 个版本，修复 DeepSeek/Qwen。",
+      "Agent 工具调用成基础设施隐性主线，多个修复上线。"
+    ],
+    "ai-trending": [
+      "DeepSeek 4 成最强信号：antirez 发布 ds4 本地推理引擎。",
+      "微软 AI-For-Beginners 今日 +2,629，领跑 AI 热榜。",
+      "AI Trending 中 6/11 为 Agent/Skill 项目，生态爆发。",
+      "安全技能路由包 reverse-skill 单日 +1,141。",
+      "airllm 用单张 4GB 显卡跑 70B 模型，今日 +819。",
+      "TencentDB-Agent-Memory 首登榜，上下文工程成新赛道。"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Flash 性价比实测登顶 HN，获 585 分。",
+      "qm 多智能体协作工具获 665 分，成社区最热。",
+      "Google 用 AI 修复 Chrome 漏洞，效率突破获 570+。",
+      "MIT 研究：AI 财务建议意外地好，前提是会提问。",
+      "Kimi K3 在 AMD MI355X 上每美元性能优于 B300。",
+      "Gary Marcus 批评 OpenAI Astra，AI 泡沫辩论升温。"
+    ],
+    "ai-ph": [
+      "DeepSeek-V4-Flash-0731 以 325 票登顶 Product Hunt。",
+      "NudgeForMe 获 324 票，邮件跟进智能体讨论最热。",
+      "Port22 将 Claude Code/Codex 带到 iPhone，获 264 票。",
+      "AgentMicro 在菜单栏实时展示 Codex 任务状态。",
+      "Tokimeter 提供本地 Token 计量，开发者工具上新。",
+      "今日 AI 发布呈模型引领 + 开发者工具生态爆发格局。"
+    ],
+    "ai-hf": [
+      "月之暗面 Kimi-K3 以 9,640 赞断层登顶 HF 热榜。",
+      "DeepSeek-V4-Flash 下载量达 278 万，文本模型最高。",
+      "智谱 GLM-5.2 获 4,755 赞、205 万下载。",
+      "百度 Unlimited-OCR 以 253 万下载登顶总下载榜。",
+      "Solar-Open2-250B 发布后带动 NVFP4 等量化版本涌现。",
+      "Qwen3.5/3.6 成社区微调与量化核心底座。"
+    ],
+    "ai-community": [
+      "开发者提倡用验证循环替代追求 AI 永远正确。",
+      "实测 Agent 评估框架：真实运行打破理想流程。",
+      "Cursor 代理用 MCP 简化接入真实工具，无需五个 API key。",
+      "OpenAI 将 Auto-review 升级至 GPT-5.6 Luna。",
+      "上下文窗口膨胀成 Agent 管线静默失败主因。",
+      "更聪明模型拒绝执行已批任务，旧工作流需重审。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "130+ issues, 70 PRs updated; no major releases",
+      "Silent state loss tops agent failure complaints",
+      "Persistence, memory, observability are convergence focus",
+      "Open-source tools outpace enterprise in PR velocity",
+      "Windows reliability remains ecosystem blind spot",
+      "10 AI CLI tools covered in cross-tool report"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.7 targets state safety",
+      "500 issues, 500 PRs updated in last 24h",
+      "447 issues open, 53 closed; 340 PRs open",
+      "P1s: session state, message loss, auth, crash-loops",
+      "Clawsweeper bot drives automated PR triage",
+      "Quarantine store protects data if DB damaged"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4, Kimi-K3 drive engine consolidation",
+      "llama.cpp shipped 10 builds b10225→b10235",
+      "Speculative decoding is key performance lever",
+      "Hardware porting: Ampere, SM80, ROCm, XPU",
+      "Silent corruption top failure class in engines",
+      "Pinning versions now required practice"
+    ],
+    "ai-trending": [
+      "Microsoft AI-For-Beginners gains 2,629 stars",
+      "reverse-skill agent pack adds 1,141 stars",
+      "airllm runs 70B model on a 4GB GPU",
+      "TencentDB-Agent-Memory trending with +602",
+      "AI education dominates GitHub trending today",
+      "antirez/ds4 local DeepSeek 4 engine starred"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Flash 0731 analysis tops HN",
+      "qm's multiplayer agent harness draws discussion",
+      "Google AI-accelerated Chrome bug fixing viewed skeptically",
+      "MIT says AI financial advice surprisingly good",
+      "Open-weight model economics split HN commenters",
+      "AI deepfake influencers collide with social norms"
+    ],
+    "ai-ph": [
+      "DeepSeek-V4-Flash-0731 tops PH with 325 votes",
+      "NudgeForMe AI email follow-up gets 324 votes",
+      "Port22 brings Claude Code and Codex to phone",
+      "AgentMicro, Tokimeter fill coding-agent gaps",
+      "NudgeForMe sparks 66 comments, most discussion",
+      "Day leans heavily to developer tooling"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads week with 9,640 likes",
+      "DeepSeek-V4-Flash tops 2.78M downloads",
+      "GLM-5.2 passes 2.05M downloads",
+      "Baidu Unlimited-OCR exceeds 2M downloads",
+      "Qwen3.6 GGUF fine-tunes trend on Hub",
+      "Inflect-Micro-v2, Audio8, BitNet ASR gain"
+    ],
+    "ai-community": [
+      "Dev.to urges verification loops over AI correctness",
+      "Agent eval harness breaks clean test narratives",
+      "Context-window growth called silent failure mode",
+      "Kimi Delta Attention draws architecture interest",
+      "GPT-5.6 Luna sparks price-intelligence debate",
+      "125M model beats 14B on narrow task"
+    ]
+  }
+}
