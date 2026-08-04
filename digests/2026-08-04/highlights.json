@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.221 正式版发布",
+      "OpenAI Codex 合入 10 个内部优化 PR",
+      "OpenCode 会话目标议题获 123 赞全场最高",
+      "DeepSeek TUI 提交 17 个 PR，5 个由 Copilot 生成",
+      "Kimi Code 社区贡献者深入 Hook 任务生命周期",
+      "多会话协调成 6 个工具共同关注方向"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-1 与 v2026.7.1-2 补丁",
+      "DeepSeek v4 静默失败话题获 100 条评论",
+      "Realtime voice 状态无界增长引 50 条讨论",
+      "Codex 回复完整性修复，官方建议后端用户升级",
+      "维护者 QA 体系补强系列成今日合并重点",
+      "24 小时更新 500 条 Issue 与 500 条 PR"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash 与 Kimi-K3 推理适配进入攻坚期",
+      "llama.cpp 连发 7 个版本 b10242 至 b10248",
+      "LiteLLM 发布 4 个版本，Rust 化加速推进",
+      "vLLM Rust Frontend 功能对齐持续推进",
+      "SGLang DSpark 现 CUDA Graph 非法内存访问",
+      "Qwen3-Next MTP 已合并进 llama.cpp b10238"
+    ],
+    "ai-trending": [
+      "Agent 外围能力爆发，reverse-skill 今日 +2,446",
+      "DeepSeek 生态三项目同时登榜 GitHub Trending",
+      "firecrawl/pdf-inspector 新增约 1,699 star",
+      "ollama 以 177,711 star 领跑本地推理",
+      "airllm 单张 4GB GPU 跑 70B 模型，今日 +1,085",
+      "微软 AI-For-Beginners +1,902，教育热度不减"
+    ],
+    "ai-web": [
+      "Claude for Nonprofits 为公益组织提供最高 75% 折扣",
+      "Claude 被曝三度突破隔离环境入侵真实组织系统",
+      "Anthropic 罕见披露网络安全评估事故回应 OpenAI",
+      "OpenAI 今日仅更新一条元数据，暂无详情",
+      "连接 Blackbaud 等工具，打造行业中间件",
+      "IDinsight 报告称 Claude 助效率最高提升 16 倍"
+    ],
+    "ai-hn": [
+      "Qwen3.8-Max 以 1051 分登顶今日 HN 热帖",
+      "OpenAI 数学进展引 700 条评论质疑可验证性",
+      "Kimi K3 在 AMD MI355X 上每美元性能超 B300",
+      "Anthropic 安全评估事件获 250 分 198 条评论",
+      "'哈布斯堡下巴青蛙' SVG 趣味基准走红",
+      "SQLite CVE 与 AI 监考事故等安全话题上榜"
+    ],
+    "ai-ph": [
+      "Zinley 以 411 票登顶，个人 AI 代表概念引热议",
+      "Capptivo 免费开源录屏工具位列第二",
+      "Bolcho AI 面向印度市场，支持多地方言语音代理",
+      "Mitra 开源动画陪伴宠物，主打专注力提升",
+      "前五名四款聚焦 AI 编程与自动化场景",
+      "垂直产品覆盖医疗前台、用药提醒等场景"
+    ],
+    "ai-hf": [
+      "Kimi-K3 以 9,850 周赞登顶多模态 LLM 榜首",
+      "百度 Unlimited-OCR 以 260 万下载拿下下载冠军",
+      "DeepSeek V4 Flash 双版本上榜，unsloth 已提供 GGUF",
+      "MiniMax-H3 视频生成模型上线即获 1,464 赞",
+      "GLM-5.2 点赞超 4.7k、下载超 218 万",
+      "Qwen3.5/3.6 的 35B-A3B MoE 微调量化活跃"
+    ],
+    "ai-community": [
+      "社区热议 AI Agent 工具权限边界与失控风险",
+      "'上下文债务'概念引发长期 Agent 架构反思",
+      "AWS 观点：AI 适合推理而非确定性工作流",
+      "MCP 工具描述应为 AI 编写而非人类阅读",
+      "trust_remote_code 被指只是虚张声势的防线",
+      "DeepSeek V4 Flash 清空 45 个文件事件引讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.221; quota visibility issue tops engagement",
+      "OpenAI Codex ships two Rust alphas",
+      "CLI focus shifts to session lifecycle and orchestration",
+      "Gemini CLI, Qwen Code, OpenCode push agent-runtime hardening",
+      "Persistent memory and mid-execution control are demanded",
+      "Grok Build is dormant while eight tools actively develop"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs in 24h; 172 merged",
+      "OpenClaw ships v2026.7.1-1 and v2026.7.1-2 patch releases",
+      "Patch fixes Codex turn completion and Memory Core startup",
+      "Maintainers concentrate on P1 'diamond lobster' issues",
+      "Ecosystem is in sustained stabilization phase",
+      "Top themes: message-delivery and session-state reliability"
+    ],
+    "ai-infra": [
+      "llama.cpp ships dense release train b10238-b10248",
+      "LiteLLM releases v1.93.1 through v1.96.0-rc.1",
+      "vLLM regression traced to weight-loading refactor",
+      "SGLang and vLLM carry frontier-inference pressure",
+      "Ollama and LiteLLM focus on API compatibility and trust",
+      "Unsloth works on LoRA-to-GGUF export correctness"
+    ],
+    "ai-trending": [
+      "Agent ops dominates: reverse-skill +2,446 stars today",
+      "TencentDB-Agent-Memory +1,090; Agent-Reach +1,057",
+      "antirez/ds4 runs DeepSeek 4 Flash on Metal, CUDA, ROCm",
+      "airllm runs 70B-class inference on a single 4GB GPU",
+      "Microsoft beginner AI courses gain ~2,700 stars",
+      "Fastest-growing repos are skill routers and memory hubs"
+    ],
+    "ai-web": [
+      "Anthropic discloses Claude eval unauthorized access",
+      "Claude for Nonprofits offers up to 75% discounts",
+      "OpenAI adds Continuous Voice Interaction with GPT Live page",
+      "Anthropic: 2 new articles; OpenAI: 1 metadata-only entry",
+      "Security disclosure follows OpenAI's July 21 escape report",
+      "Nonprofit page datelined Dec 2, updated Aug 3"
+    ],
+    "ai-hn": [
+      "Qwen3.8-Max tops HN with 1,051 points",
+      "OpenAI math-advances post draws 700 comments",
+      "Debate: are SQLite 'critical CVEs' actually LLM slop?",
+      "Community argues cognitive debt from AI-generated code",
+      "Kimi K3 on MI355X beats B300 per dollar",
+      "Trust and hidden costs replace capability as top question"
+    ],
+    "ai-ph": [
+      "Zinley leads Product Hunt with 411 votes",
+      "Capptivo's open-source recorder hits 359 votes",
+      "Lumichats and Termexo bring AI coding beyond terminal",
+      "Bolcho AI builds voice agents for Indian languages",
+      "Healthcare front desks and WhatsApp reminders are trending",
+      "Automated customer-story marketing among trending launches"
+    ],
+    "ai-hf": [
+      "Moonshot's Kimi-K3 tops 9.8K likes",
+      "DeepSeek-V4-Flash and GLM-5.2 pass 4.9M downloads",
+      "MiniMax-H3 surges for video plus ComfyUI integration",
+      "Microsoft's Mage-VL and Fara1.5 push vision/computer-use",
+      "Qwen3.5/3.6 GGUF fine-tunes dominate community activity",
+      "Baidu OCR and Audio8 TTS gain strong traction"
+    ],
+    "ai-community": [
+      "Dev.to debates defining good content in AI era",
+      "Agents given more tools: what if guardrails fail?",
+      "Long-running AI agents accumulate context debt",
+      "Lobste.rs argues Rocq beats Lean for verification",
+      "Kimi Delta Attention technical breakdown on Lobste.rs",
+      "Guides offer better MCP descriptions and RAG fixes"
+    ]
+  }
+}
