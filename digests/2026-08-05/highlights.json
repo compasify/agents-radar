@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.222 修复 worktree 逃逸与 hook 绕过漏洞",
+      "OpenAI Codex Rust 分支高频迭代，连发 4 个 alpha 版",
+      "Copilot CLI v1.0.79-1 沙箱设置重命名，属破坏性变更",
+      "Qwen Code 迁移 Electron 至 Tauri，新增工具结果追踪",
+      "DeepSeek TUI v0.9.4 train 发布，领先主分支 77 commits",
+      "跨平台支持成短板：Windows 进程锁、IME 重复字符"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 500 Issue 500 PR，109 条 PR 合入",
+      "实时语音链路状态管理与资源边界成社区焦点",
+      "Subagent 子任务完成消息在多故障下静默丢失",
+      "Gateway 主线程阻塞引发级联稳定性问题",
+      "P1 高优问题占比显著，维护者积压引讨论",
+      "暂无新版本，最近版本线 2026.7.2 含 beta"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4 成生态压力测试器，多引擎适配遇阻",
+      "vLLM FlashMLA 回归且不支持 SM8x，稳定性问题最多",
+      "llama.cpp 密集发布 12 个版本，功能迭代最快",
+      "Ollama v0.32.6-rc0 发布，集中修复工具调用",
+      "Unsloth v0.1.52-beta 回归问题密集，由 #7633 引入",
+      "LiteLLM 风险面广：Redis 串扰、限流失效"
+    ],
+    "ai-trending": [
+      "pdf-inspector 单日 +2,540 stars，AI 解析 PDF 新宠",
+      "airllm 单张 4GB GPU 跑 70B 模型，今日 +1,711",
+      "TencentDB-Agent-Memory 今日 +1,111，记忆层火热",
+      "livekit/agents 实时语音框架 +432，多模态升温",
+      "reverse-skill 单日 +2,297，安全攻防垂直爆发",
+      "DeepSeek-Reasonix 常驻终端编码 Agent，+922"
+    ],
+    "ai-web": [
+      "Anthropic 任命首位首席全球事务官，由 Cuéllar 出任",
+      "Cuéllar 曾任加州最高法院大法官和卡内基和平基金会主席",
+      "OpenAI 同日发布 3 项新内容，正文未抓取仅元数据",
+      "OpenAI 新内容涉经济研究、教学/工作/Codex、苹果批评",
+      "AI 竞争从模型能力扩展到全球政策话语权",
+      "治理与安全成为 Anthropic 与 OpenAI 差异化竞争点"
+    ],
+    "ai-hn": [
+      "Qwen3.8-Max 登顶 HN，1098 分 599 评论",
+      "OpenAI 数学十项进展引 909 条评论，验证方式热议",
+      "Mistral 发布 Shieldstral 3B 开放权重审核模型",
+      "Apple 指控前员工向 OpenAI 输送机密数据",
+      "OpenAI 因招聘歧视支付和解金",
+      "“LLMs reward expertise”等观点文引发省思"
+    ],
+    "ai-ph": [
+      "AgentSky 470 票登顶，任意框架/LLM 云端托管",
+      "Ctruh Studio 无代码 3D/XR 创作冲到第二",
+      "claudemon 把 Claude Code 等待变“野生宝可梦”收集",
+      "mpai 开源，让 Codex/Claude Code 会话多人协作",
+      "Qwen3.8-Max 发布最强编码模型，面向开发效率",
+      "AI 健身、手语翻译、等待小游戏等新场景亮相"
+    ],
+    "ai-arxiv": [
+      "AURORA-LM 用扩散模型做连续潜在空间语言建模",
+      "GradCuit 带信用分配梯度流，测试时潜在推理更强",
+      "LiveMem 维持长时运行代理的记忆状态连续性",
+      "SWE-Touch 基准让用户执行中改代码，Agent 适应差",
+      "18 个开源模型的文化知识表示层存在但解码不可靠",
+      "数字孪生增强多尺度规划用于安全应急响应"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 下载 273.7 万，登顶流量榜",
+      "Kimi-K3 周点赞 10,012，社区热度之王",
+      "GLM-5.2 周点赞 4,820，下载超 223 万",
+      "MiniMax-H3 与 ComfyUI/GGUF 跟进视频生成",
+      "Qwen3.6 衍生 Uncensored/GGUF 模型密集上榜",
+      "NVFP4、INT8 低精度格式加速超大模型落地"
+    ],
+    "ai-community": [
+      "Anthropic 沙箱逃逸报告引发 AI Agent 安全讨论",
+      "MITRE ATLAS 新增 agentic 攻击技术",
+      "文章主张用日志解析等真实任务评估模型",
+      "MCP 讨论转向上下文窗口、长耗时任务等约束",
+      "Qwen3.8-Max 发布，但 Agent 外层编排仍决定效果",
+      "OpenAI 发布 Lean 认证的十项数学与计算机科学证明"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Six of ten AI CLI tools shipped releases in 24h",
+      "Gemini CLI hit by shell-substitution bypass",
+      "Qwen Code sanitizer leaked credentials",
+      "Claude Code hardened trust boundaries",
+      "Windows stability dominates AI CLI issue trackers",
+      "Desktop apps, MCP and ACP are top demands"
+    ],
+    "ai-agents": [
+      "OpenClaw: 42 issues closed, 109 PRs merged",
+      "OpenClaw sees 500 issues and 500 PRs updated",
+      "Realtime voice/Talk lifecycle bugs dominate",
+      "Silent subagent completion loss is a key concern",
+      "macOS Talk realtime relay added in PR #119321",
+      "OpenClaw P1 migration/startup blockers still pending"
+    ],
+    "ai-infra": [
+      "llama.cpp fast train: 10 builds, 2 breaking changes",
+      "Ollama makes MTP auto-speculation default",
+      "vLLM v0.26.0 in field with FlashMLA regression",
+      "SGLang closes DeepSeek-V4 bug cluster",
+      "SGLang opens two new high-severity issues",
+      "LiteLLM hits streaming-translation and DB bugs"
+    ],
+    "ai-trending": [
+      "Firecrawl pdf-inspector up 2,540 stars",
+      "reverse-skill security router up 2,297 stars",
+      "TencentDB Agent Memory up 1,111 stars",
+      "AirLLM up 1,711 stars for low-cost inference",
+      "DeepSeek-Reasonix terminal agent up 922 stars",
+      "Uber open-sources ADR agent observability"
+    ],
+    "ai-web": [
+      "Anthropic names Tino Cuéllar Chief Global Affairs Officer",
+      "Anthropic puts AI policy at C-suite level",
+      "OpenAI published three URLs on Aug 4",
+      "No model releases from OpenAI or Anthropic",
+      "OpenAI crawl is metadata-only; no text captured",
+      "OpenAI URLs hint at Apple commentary and econ research"
+    ],
+    "ai-hn": [
+      "Qwen3.8-Max tops HN with 1,098 points",
+      "Mistral launches Shieldstral 3B moderation model",
+      "OpenAI math post draws 909 comments on HN",
+      "Apple/OpenAI confidential-data story trends",
+      "OpenAI U.S. hiring settlement in HN feed",
+      "HN debates 'LLMs reward expertise' and benchmarks"
+    ],
+    "ai-ph": [
+      "AgentSky tops Product Hunt at 470 votes",
+      "Qwen3.8-Max appears as PH product",
+      "mpai enables multiplayer coding sessions",
+      "Hand Wave does sign-language translation",
+      "CoachAI analyzes fitness form with AI",
+      "claudemon scores 154 votes on PH"
+    ],
+    "ai-arxiv": [
+      "AURORA-LM: continuous-latent diffusion language model",
+      "Edge memory paper collapses RAG prefill cost",
+      "Coding agents tested in shared workspaces",
+      "Cheap telemetry catches real-time agent failures",
+      "Papers expose medical sycophancy and shortcut hacking",
+      "Datacenter policy generation gets automated"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731: 2,302 likes, 433k downloads",
+      "DeepSeek-V4-Flash passes 2.7M downloads",
+      "Kimi-K3 is HF's most-liked at 10,012 likes",
+      "Unsloth is already quantizing Kimi-K3",
+      "MiniMax-H3 sparks image-to-video buzz",
+      "Baidu Unlimited-OCR hits 2.7M downloads"
+    ],
+    "ai-community": [
+      "Dev.to argues models should parse logs, not pass bars",
+      "Qwen3.8-Max debate: harness matters more than size",
+      "Anthropic sandbox-breach report stirs agent security",
+      "MITRE ATLAS adds agentic attack techniques",
+      "MCP threads tackle context-window and 7B limits",
+      "Lobste.rs highlights custom C/C++ inference engines"
+    ]
+  }
+}
