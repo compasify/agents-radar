@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.223，推进 marketplace 通配符治理",
+      "OpenAI Codex 24小时连发5个alpha，迭代最快",
+      "Gemini CLI 当日合入多个核心bug修复",
+      "Qwen Code 桌面版首发日遇P1崩溃",
+      "社区热议$411意外费用，成本失控成高频痛点",
+      "会话数据安全成跨工具焦点：丢失/恢复/持久化"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时更新500 Issue/PR，高活跃但稳定性承压",
+      "P0：Agent DB v14→v15迁移失败，Gateway拒绝启动",
+      "P0：托管媒体清理误删会话数据，数据安全告急",
+      "实时语音会话状态失控成最热议题，59条评论",
+      "记忆安全信任分级引热议，27条评论",
+      "子代理结果静默丢失，25条评论"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4、Kimi-K3 等新模型引发 Day-0 适配竞赛",
+      "llama.cpp 单日发布9个版本，节奏惊人",
+      "多节点推理死锁成跨项目共性故障，可靠性待解",
+      "Ollama 的 Reranking 支持获285👍，积压2年终重视",
+      "vLLM 聚焦 Batch Invariant 非确定性消除（67评论）",
+      "Unsloth 发布 2026.8.5，推进 DwarfStar 集成"
+    ],
+    "ai-trending": [
+      "腾讯云 TencentDB-Agent-Memory 今日+1,892 stars",
+      "Cloudflare 发布 computer，给 Agent 提供计算机操作层",
+      "Uber 开源 ADR，主打 Agent 安全与可观测性",
+      "AirLLM 用 4GB GPU 跑 70B 模型，降低部署门槛",
+      "pdf-inspector 今日+1,582，文档预处理需求强劲",
+      "superpowers 今日+931，Agent 技能生态快速膨胀"
+    ],
+    "ai-hn": [
+      "《LLMs 奖励专业知识》以1383分登顶 HN 热榜",
+      "DeepMind 领导层剧变，Apple 指控前员工泄密 OpenAI",
+      "Mistral 发布 3B 开源审核模型 Shieldstral，获473分",
+      "Meta 广告惊现 AI 生成 CSAM，治理紧迫性凸显",
+      "论文称 LLM 无法跳跃性创新，引发239分辩论",
+      "TIME 为 AI bot 定制广告页，内容经济引热议"
+    ],
+    "ai-ph": [
+      "Hey Noah 以572票领跑，成创始人 AI 运营助理",
+      "SpeakoFlow 105票，开源离线语音转文字助手",
+      "Domo 84票，短信管理日历的 Claude Agent",
+      "Vibe Buddy 等开发者工具扎堆，AI 编程终端成热点",
+      "Driven 把 AI Agent 引入投资决策，新路径引关注",
+      "Atlaso 尝试为多个 AI 提供统一记忆"
+    ],
+    "ai-arxiv": [
+      "WorldCup Arena 用世界杯赛事实时评测，杜绝基准污染",
+      "新研究揭 ALiBi 位置编码浮点下溢，注意力头会失明",
+      "TurnSight 提出回合级自蒸馏，优化工具调用信用分配",
+      "测试时扩展综述发布，推理期计算走向系统化",
+      "MultiGlobeQA 多语言地理基准，揭示 LLM 几何短板",
+      "Logic Before Language 提出正式推导预预训练"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周赞10,125，断层领先多模态榜单",
+      "GLM-5.2 周赞4,849，下载超223万",
+      "DeepSeek-V4-Flash 下载量273万，成文本模型榜首",
+      "百度 Unlimited-OCR 下载量270万，垂直工具需求大",
+      "Qwen3.5/3.6 与 MiniMax-H3 的 GGUF 量化持续活跃",
+      "DeepSeek-V4-Flash-0731 下载43万，迭代版受关注"
+    ],
+    "ai-community": [
+      "81% 开发者被 AI 代码审查淹没，'审查税'引热议",
+      "OpenAI 解决 1999 年开放数学问题，但无法自主提问",
+      "AWS 开源 Kiro Crew，跨会话协调多编码 Agent",
+      "Docker 安全简报聚焦 Hugging Face 事件与 Agent 基线",
+      "AI 顺从偏差讨论：总同意你才是最危险的",
+      "OpenAI 发布 Lean 认证数学证明，推高推理边界"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shifting from demos to production infrastructure",
+      "OpenAI Codex tagged five alphas in one day",
+      "Copilot CLI shipped three stabilizing pre-releases",
+      "Claude Code released v2.1.223",
+      "Codex /undo restoration drew 373 upvotes",
+      "Session persistence and MCP interoperability top concerns"
+    ],
+    "ai-agents": [
+      "OpenClaw processed 500 issues and 500 PRs in 24h",
+      "58 issues closed, 73 PRs merged in OpenClaw",
+      "OpenClaw backlog dominated by P0/P1 session-state bugs",
+      "PR #119785 grants admin via Control UI links",
+      "PR #119402 unblocks queued replies after model retries",
+      "No new OpenClaw release published today"
+    ],
+    "ai-infra": [
+      "Frontier models DeepSeek-V4, Kimi-K3, MiniMax hitting serving stacks",
+      "llama.cpp shipped 9 builds in 24 hours",
+      "AMD gfx1250, Intel XPU, NVIDIA SM12x paths active",
+      "Speculative decoding is the new optimization frontier",
+      "LiteLLM hardening guardrails for agent tool traffic",
+      "SGLang preparing v0.5.17 cherry-pick patch"
+    ],
+    "ai-trending": [
+      "Agent infrastructure and memory systems dominate trending",
+      "TencentDB-Agent-Memory gained 1,892 stars today",
+      "firecrawl/pdf-inspector added 1,582 stars",
+      "Cloudflare's computer up 891 stars",
+      "obra/superpowers up 931 stars",
+      "DeepSeek-Reasonix gained 747 stars"
+    ],
+    "ai-hn": [
+      "DeepMind reshuffle: Hassabis to Chair, Jeff Dean departing",
+      "Cloudflare unveils 'OS for agents' vision",
+      "Essay argues LLMs reward expertise, not democratize",
+      "Meta served AI-generated CSAM ads, HN wary",
+      "Apple in trade-secret dispute with OpenAI",
+      "LLMs Can't Jump paper sparks debate (239 pts)"
+    ],
+    "ai-ph": [
+      "Hey Noah tops Product Hunt with 572 votes",
+      "Driven brings AI investing with 265 votes",
+      "Atlaso offers shared AI memory, 250 votes",
+      "AI agents verticalize into founder support roles",
+      "MCP connectors and Claude Code session-resume tools launch",
+      "Open-source privacy tools SpeakoFlow, Finyuus gain traction"
+    ],
+    "ai-arxiv": [
+      "WorldCup Arena offers leakage-free live benchmark",
+      "Test-time scaling methods systematized in new paper",
+      "Agentic self-improvement pushes beyond single-trajectory reasoning",
+      "Multimodal research moves to continuous-video deep research",
+      "Study exposes numerical underflow in ALiBi",
+      "Fine-tuning degradation and routing vulnerabilities highlighted"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops HF with 10,125 likes, 1.1M downloads",
+      "GLM-5.2 reaches 2.23M downloads",
+      "DeepSeek-V4-Flash-0731 draws 433K downloads",
+      "Baidu Unlimited-OCR hits 2.7M downloads",
+      "MiniMax-H3 sparks ComfyUI ports and GGUF quants",
+      "LG's 750B K-EXAONE-2.0 is MoE flagship"
+    ],
+    "ai-community": [
+      "81% of developers buried in AI code review tax",
+      "OpenAI solved 1999 problem but can't ask its own question",
+      "AWS open-sources Kiro Crew agent orchestrator",
+      "Lobste.rs asks why cognitive scientists dislike LLMs",
+      "Internet Archive warns anti-bot rules harm good AI bots",
+      "Developers demand verification and guardrails over adoption"
+    ]
+  }
+}
