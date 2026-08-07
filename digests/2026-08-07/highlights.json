@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话转录 400 数据损坏 Bug 引热议",
+      "OpenAI Codex rust-v0.147.0 发布，支持 Agent 插件与会话分区",
+      "Copilot CLI v1.0.79-6 修复两个回归，会话恢复 OOM 未解",
+      "Qwen Code v0.21.7 移除 Goals 50 轮限制，但三安全漏洞并发",
+      "Pi v0.84.0 发布全屏 TUI 模式，Windows 讨论活跃",
+      "Kimi Code CLI 核心数据损坏 Bug 引两条技术路线 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时 500 Issue 加 500 PR，社区活跃度满额",
+      "P0 数据迁移失败 #119263 已有修复 PR 在途",
+      "P0 token 统计膨胀致数据丢失 #118772 修复在途",
+      "98 个 PR 合并或关闭，今日无新版本发布",
+      "P1 gateway 冷启动性能回归与 compaction 超时失效缺修复",
+      "PR #116793 统一 Agent 执行身份归因，强化跨网关审计"
+    ],
+    "ai-infra": [
+      "llama.cpp 一日五版 b10291-b10298，Vulkan/ROCm 修复密集",
+      "DeepSeek-V4 确认 Ampere 无 MTP 仅 DSpark，--spec 约 +50%",
+      "vLLM 出现 5 项破坏性变更，含投机解码声明与 torchao 升级",
+      "SGLang CI 追踪 680 项修复，夜版镜像 commit 不一致",
+      "LiteLLM 行为变更 PR 聚焦 estimated output tokens 与 session affinity",
+      "Unsloth Studio 集中修复 X11 崩溃、watchdog 误杀与流式恢复"
+    ],
+    "ai-trending": [
+      "cloudflare/computer 单日 +2,802 stars 登顶 GitHub Trending",
+      "Agent Skills 三项目同日上榜，合计新增超 3,300 stars",
+      "DeepSeek-Reasonix 单日 +888 stars，成终端编码 Agent 新星",
+      "ollama 177,948 stars，支持 Kimi-K2.6、GLM-5.2 等新模型",
+      "TencentDB-Agent-Memory 单日 +1,057，推团队级记忆中心",
+      "firecrawl/pdf-inspector 单日 +1,190 stars，PDF 处理新宠"
+    ],
+    "ai-web": [
+      "OpenAI 一日三更，Anthropic 官网零更新",
+      "OpenAI 发布《全球如何将 ChatGPT 投入工作》案例内容",
+      "OpenAI 改进 GPT-5.6 Sol，并扩大 Luna 免费访问",
+      "OpenAI 与美国心理学会合作推进负责任 AI",
+      "Anthropic 静默期或为下阶段重磅发布蓄力",
+      "OpenAI 转向技术、生态与治理三轮驱动战略"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max 登顶 agentic 指数，社区争议基准公允性",
+      "Cloudflare 发布面向 Agent 的开放平台成最热议题",
+      "OpenAI 联合四家对手统一 Agent 标准",
+      "实验称人类会漏掉 1/3 恶意 Agent 指令",
+      "DeepMind 换血：Demis 转任 Chair、Jeff Dean 离职",
+      "观点帖 LLMs reward expertise 以 1395 分全站最高"
+    ],
+    "ai-ph": [
+      "Wispr Flow Notetaker 564 票，AI 会议笔记神器",
+      "ngrok AI Gateway 356 票，统一模型接入网关",
+      "Kiro Crew 开源 Agent 构建平台获较高关注",
+      "Keystroke 157 票，开源 AI 代理与自动化工作流",
+      "ngrok、Cloudflare 入场，Agent 基础设施竞争升级",
+      "16 个 AI 产品发布，MCP 服务器与本地沙箱密集"
+    ],
+    "ai-arxiv": [
+      "Poli-Bias 框架系统测量 LLM 国际冲突政治偏见",
+      "AgentOPSD 用递归自蒸馏解决长任务信用分配",
+      "EpiBench 首个抗体表位理解基准，桥接 NLP 与药物发现",
+      "LangChoiceBench 量化 LLM 编程语言选择偏好",
+      "SAGA 为北欧低资源语言提供免标注对齐方案",
+      "SiPE 语法感知位置嵌入，注入句法结构先验"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 下载超 263 万，文本模型下载榜首",
+      "GLM-5.2 下载近 240 万，中文开源旗舰",
+      "MiniMax-H3 发布一周衍生量化、LoRA、ComfyUI 版本",
+      "Kimi-K3 周点赞 10,200，成增长最快多模态模型",
+      "LFM2.5-2.6B 小参数模型主打边缘与低算力部署",
+      "FLUX.1-dev 继续霸榜文生图领域"
+    ],
+    "ai-community": [
+      "Kiro Crew 用 agent 处理 P1 事件，单次成本约 $0.04",
+      "Circuit Breaker 模式给 AI Agent 加熔断保护",
+      "文章揭示 LLM trace 在事故中仍可能完全无用",
+      "Kimi K3 最大开源权重，但多数人本地跑不动",
+      "Opus 5 时代是否还需维护 CLAUDE.md 引讨论",
+      "LLM-Judge 存在盲区，需组合文件系统确定性检查"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI focus shifts to reliability, not new features",
+      "Windows desktop weakest: process leaks and crash loops",
+      "MCP adoption brings shared integration growing pains",
+      "Qwen Code shipped 4 artifacts in 24h; Claude, Gemini none",
+      "Claude Code: 10 hot issues, 4 PRs, no release",
+      "Grok Build idle; 9 tools active this cycle"
+    ],
+    "ai-agents": [
+      "OpenClaw remains hyperactive: 500 issues, 500 PRs in 24h",
+      "No new OpenClaw releases today",
+      "Serious regressions: DeepSeek provider, compaction/data-loss",
+      "Channel plugin reliability issues: Feishu, LINE, WhatsApp",
+      "98 PRs merged/closed; steady small-to-medium fixes",
+      "PR #116793 centralizes immutable execution attribution"
+    ],
+    "ai-infra": [
+      "Engines race to stabilize DeepSeek-V4 DSpark decoding",
+      "vLLM still can't serve DeepSeek-V4-Flash on Ampere (SM8x)",
+      "SGLang recently resolved its A800 blockers",
+      "llama.cpp shipped 5 releases: b10291–b10298",
+      "Blackwell optimization programs expand across engines",
+      "Ollama adds agent launches; LiteLLM adds session affinity"
+    ],
+    "ai-trending": [
+      "cloudflare/computer stars +2,802 in one day",
+      "mattpocock/skills +1,873: standardizing agent skills",
+      "TencentDB-Agent-Memory +1,057 for durable agent memory",
+      "firecrawl/pdf-inspector +1,190 Rust PDF understanding",
+      "DeepSeek-Reasonix +888: DeepSeek-native terminal agent",
+      "AutoGPT still gaining stars; lightweight local tools lead"
+    ],
+    "ai-web": [
+      "Anthropic published no new content on 2026-08-07",
+      "OpenAI added 3 new entries; all metadata-only, no text",
+      "Titles from slugs: ChatGPT adoption, GPT 5 6 Sol, APA",
+      "'GPT 5 6 Sol' slug may hint at untracked model version",
+      "Crawler flags slug-derived titles as potentially inaccurate",
+      "OpenAI analysis conservative: no summaries fabricated"
+    ],
+    "ai-hn": [
+      "DeepMind reshuffle: Hassabis to Chair, Jeff Dean departing",
+      "Qwen3.8 Max tops artificial analysis agentic index",
+      "Mistral's Shieldstral: 3B open-weights moderation model",
+      "Born Against urges hobby devs to reject LLM-native practice",
+      "New data: humans miss one in three dangerous agent actions",
+      "Top post 'LLMs reward expertise' scores 1,395"
+    ],
+    "ai-ph": [
+      "Wispr Flow Notetaker tops Product Hunt with 564 votes",
+      "AdAnt AI follows with 540 votes for marketing creative",
+      "ngrok launches AI Gateway for agentic Internet",
+      "Cloudflare unveils programmable wallet",
+      "BackEngine MCP and Dover MCP connect agents to workflows",
+      "Kiro Crew, Keystroke, hotcell launch as open-source tools"
+    ],
+    "ai-arxiv": [
+      "Poli-Bias probes political bias in international conflicts",
+      "LangChoiceBench probes programming-language bias in LLMs",
+      "Recursive self-distillation targets agent credit assignment",
+      "Observation-mode routing improves web agent efficiency",
+      "Voice agent helps rural users fill government forms",
+      "Localized conformal guarantees for finite-sample inference"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 video model spawns LoRA, GGUF, NVFP4 variants",
+      "DeepSeek-V4-Flash-0731 hits 617,900 downloads",
+      "Kimi-K3 leads likes with compressed multimodal architecture",
+      "GLM-5.2 from Z.ai draws millions of downloads",
+      "Qwen3.6 uncensored GGUFs dominate local deployment",
+      "Mistral's Shieldstral expands Hub beyond general chat"
+    ],
+    "ai-community": [
+      "AWS open-sources Kiro Crew agent for incident response",
+      "LLM judges miss what deterministic filesystem checks catch",
+      "Developers share circuit-breaker and guardrail patterns",
+      "AI 'breakout' story raises security concerns",
+      "Postmortem: AI couldn't stop 160,000 students cheating",
+      "Lobste.rs skeptical on C/C++ engines and LLM theory"
+    ]
+  }
+}
