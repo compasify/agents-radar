@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 今日发布 4 个版本，迭代最激进。",
+      "Gemini CLI 修复高危 SSRF 漏洞。",
+      "Copilot CLI 认证回归问题，影响企业基础路径。",
+      "Kimi Code 三天修复编码损坏 bug。",
+      "Pi v0.84.1 长会话压缩失效，本地模型接入活跃。",
+      "OpenCode 付费服务稳定性问题集中。"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日合入 95 个 PR，关闭 32 个 Issue。",
+      "DeepSeek v4 Flash 静默回复失败问题已关闭。",
+      "记忆信任标记讨论升温，涉及 agent 记忆可靠性。",
+      "网关内存泄漏被标记 P0，暂无修复合入。",
+      "Agent DB v14→v15 迁移阻断，制约后续发版。",
+      "Telegram 转发消息保留转发上下文，改善可追溯性。"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.17 正式发布（582 PR）。",
+      "llama.cpp 单日 8 个版本，迭代最活跃。",
+      "vLLM 追踪 KV 膨胀 8 倍与 DeepGEMM 兼容失败。",
+      "Kimi K3 获 SGLang Day-0 支持。",
+      "DeepSeek-V4 暴露投机解码输出损坏等系统挑战。",
+      "LiteLLM 出现 2 个严重成本核算回归。"
+    ],
+    "ai-trending": [
+      "Agent Skills 单日最高涨 2,293 stars。",
+      "Cloudflare 发布 Agent 云端计算机项目。",
+      "grok2api 登 Trending，Grok 网关。",
+      "AutoGPT 以 +355 重回热榜，经典平台仍具号召力。",
+      "graphify、semantica 强调可解释上下文管理。",
+      "swarm-forge、MiroFish 探索群体智能。"
+    ],
+    "ai-web": [
+      "Anthropic 改进 Fable 5 生物学安全防护。",
+      "生物问题回退量减少约 85%，误报率大幅降低。",
+      "Fable 5 可稳定处理健康、教育类问题。",
+      "病毒学、毒理学等双用途请求仍会回退到 Opus 5。",
+      "Anthropic 将通过“可信访问路径”开放专业研究。",
+      "OpenAI 当日无新增公开内容，数据受限。"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max 登顶 Agentic Index。",
+      "OpenAI 更新 GPT-5.6，扩大 Luna 免费访问。",
+      "Meta 发布 Muse Code 和 Spark 1.2。",
+      "论文：迎合式 AI 削弱亲社会意愿并助长依赖。",
+      "Quanta：AI 攻克 Erdős 难题，引发边界辩论。",
+      "Cloudflare OS 开源，成为 HN 热议话题。"
+    ],
+    "ai-ph": [
+      "Cloudflare OS 以 460 票登顶。",
+      "Rippling 推出 AI 支出治理，124 条评论成焦点。",
+      "Meta 发布 Muse Code，主打终端长周期编码任务。",
+      "开源 Bug 修复工具 Superlog 获 294 票。",
+      "CopilotKit 新 SDK 接入 Slack、Teams。",
+      "Brandfetch MCP 实现 AI 品牌资产接入。"
+    ],
+    "ai-arxiv": [
+      "SCPO 让模型学会区分可信与误导性外部信号。",
+      "RRC 用排名构建奖励，解锁生成式奖励模型训练。",
+      "首次实现完全无外部监督的 on-policy 自蒸馏。",
+      "DASH 提出自适应监督窗口缓解 OPSD 奖励矛盾。",
+      "新审计框架直指现有基准漏测搜索、引用等维度。",
+      "EnvACE 用“世界预演”内化环境动力学。"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频生成模型衍生生态集体上榜。",
+      "Kimi-K3 以 10,282 赞成最受关注新发布之一。",
+      "GLM-5.2 获 4,887 赞、243 万下载。",
+      "DeepSeek-V4-Flash 下载超 70 万。",
+      "FLUX.1-dev 仍以 14,028 赞居全榜第一。",
+      "llama.cpp 与 uncensored 微调大量出现。"
+    ],
+    "ai-community": [
+      "Agent 可观测性难点不在检测器，在执行上下文捕获。",
+      "Agent Sandbox 提供独立 Linux 环境。",
+      "作者自测 AI 扫描器首次命中率仅 7%，是合理基线。",
+      "Kiro Crew cron agent 周成本 $2.10。",
+      "AI 生成策略测试 50 次，49 次覆盖全部边界条件。",
+      "Lobste.rs 热议 AI 认知科学与 NLP 分类。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLIs split into enterprise vs community tracks",
+      "Session lifecycle reliability dominates issue trackers",
+      "Gemini CLI shipped an SSRF fix",
+      "Kimi CLI had destructive rm -rf in yolo mode",
+      "DeepSeek TUI ExecPolicy bypass reported",
+      "MCP memory leaks and zombie processes across four tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24 hours",
+      "No new OpenClaw releases this window",
+      "P0/P1 SQLite migration and state corruption issues",
+      "Gateway memory leaks and premature compaction flagged",
+      "95 PRs merged/closed in last 24 hours",
+      "Fixes target session-state and process-lifecycle bugs"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.17 ships with Kimi K3 day-0 support",
+      "llama.cpp released 9 versions (b10308 to b10326)",
+      "DeepSeek-V4-Flash/0731 unstable across inference engines",
+      "Gemma-4 KV corruption and DSpark CUDA-graph crashes",
+      "AMD/Vulkan silent wrong-output bugs remain open",
+      "LiteLLM adds cache-warmth-aware routing"
+    ],
+    "ai-trending": [
+      "PrimeIntellect prime-agent gains +2,293 stars in one day",
+      "Four agent-skills repos trend on GitHub",
+      "Cloudflare computer-use project appears in trending",
+      "Context engineering: semantica, mem0, claude-mem trending",
+      "11 of 17 trending repos are AI-relevant",
+      "Focus shifts to reusable skills and persistent memory"
+    ],
+    "ai-web": [
+      "Anthropic cuts Fable 5 biology fallbacks by ~85%",
+      "Fable 5 expands everyday health and educational queries",
+      "Hard gates remain on virology and toxicology",
+      "Anthropic bets on biology and medicine vertical",
+      "OpenAI published no new content in this crawl",
+      "Trusted access pathways planned for professional research"
+    ],
+    "ai-hn": [
+      "LLMs reward expertise tops HN with 1,402 points",
+      "AMD's Taalas acquisition sparks 882-point discussion",
+      "Google DeepMind leadership changes draw 847 points",
+      "Qwen3.8 Max tops agentic index (533 points)",
+      "OpenAI improves GPT-5.6 Sol and expands Luna access",
+      "HN shifts from capabilities to managing AI"
+    ],
+    "ai-ph": [
+      "Cloudflare OS tops Product Hunt as AI operating system",
+      "Rippling AI Spend Console drives 124 comments",
+      "Superlog Responder open-source bug-fixer gets 294 votes",
+      "Meta's Muse Code terminal agent gets 241 votes",
+      "CopilotKit Channels SDK for deploying agents",
+      "Grounding tools: Brandfetch MCP and Shieldstral"
+    ],
+    "ai-arxiv": [
+      "Selective Context Preference Optimization teaches trust",
+      "RRC unlocks generative reward models for RL",
+      "On-policy self-distillation works without supervision",
+      "Agent research targets tool-calling and trajectories",
+      "Meta-benchmarks and audits scrutinize evaluation metrics",
+      "New optimal agnostic PAC learner closes statistical gap"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 video ecosystem dominates Hugging Face trending",
+      "Comfy-Org/MiniMax-H3 hits 3.14M downloads",
+      "DeepSeek-V4-Flash-0731 reaches 702,709 downloads",
+      "Kimi-K3 leads new multimodal releases at 10,282 likes",
+      "LiquidAI LFM2.5-2.6B gains traction for edge inference",
+      "Uncensored Qwen3.6 GGUF variants occupy trending share"
+    ],
+    "ai-community": [
+      "Dev.to: observability vs reality gap discussed widely",
+      "Agent observability reframed as semantic evaluation problem",
+      "Prompt-injection detectors show language bias",
+      "Agent sandboxes limit blast radius in Kubernetes",
+      "Lobste.rs: random-walk models for social rabbit holes",
+      "Builders focus on debugging and cost-managing agents"
+    ]
+  }
+}
