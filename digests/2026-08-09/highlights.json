@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.226 维护版，社区讨论持续火热",
+      "OpenAI Codex 密集提交安全、钩子、身份相关10个PR",
+      "Gemini CLI 发布 v0.56.0-nightly，修复多个P1问题",
+      "Copilot CLI 单日23个更新，但PR停滞引关注",
+      "OpenCode 插件/TUI生态活跃，10+PR更新",
+      "Kimi Code CLI 社区规模小但长期需求活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日500条Issue+500条PR，活跃度爆表",
+      "OpenClaw 发布 v2026.6.34 聚焦浏览器安全加固",
+      "v2026.6.33 网络边界防护，日志剔除Telegram凭据",
+      "P0问题积压：网关内存泄漏、升级后无法启动",
+      "修复Telegram轮询worker竞态，避免通道泄漏",
+      "修复Control UI粘贴长文本误标'Restore'体验问题"
+    ],
+    "ai-infra": [
+      "vLLM：DeepSeek-V4-Flash 在 SM8x 上仍不可用",
+      "SGLang：DSpark 深度5在SM120产生损坏输出",
+      "llama.cpp 连发5个版本：b10327–b10331，工具隔离落地",
+      "Ollama：deepseek-v4-flash:cloud 泄漏</think>致31M tokens死循环",
+      "LiteLLM 发布 v1.97.0-rc.1，修复文件列表数据泄露",
+      "Unsloth 定位MTP致并行槽=1的吞吐减半问题"
+    ],
+    "ai-trending": [
+      "Agent Skills 集中爆发，google/skills 等三项目同日上榜",
+      "prime-agent 单日 +2,483 stars 登顶 AI 项目增速第一",
+      "TradingAgents 金融多智能体框架进入热榜",
+      "LLM 基础设施与 RAG/记忆生态（claude-mem、ragflow）热度不减",
+      "从零复现大模型类项目持续活跃，社区关注成本透明化",
+      "ollama 以 178K stars 稳居最常用的本地推理引擎"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max 登顶 Agentic Index，544分346评论刷屏",
+      "AMD 收购 Taalas，AI 芯片格局生变",
+      "DeepMind WeatherNext 气旋预报突破，375分讨论",
+      "OpenAI 推出 GPT-5.6 Sol 改进与 Luna 免费扩量",
+      "AI 开始攻克 Erdős 难题，数学是否被取代引热议",
+      "AI Agent 权限危险：40K 次运行中人类漏掉 1/3 威胁"
+    ],
+    "ai-ph": [
+      "Coldtea.ai 以490票登顶，想实现软件完全自驱动",
+      "Soloop Agent OS 获479票，主打批准优先",
+      "Rindler 用 RPA 包装网页自动化，获259票",
+      "Crew 为 Claude Code 提供小团队协同，开源可自部署",
+      "Agent 生态链爆发：浏览器、可观测性、记忆组件齐全",
+      "开源与本地运行成显著趋势，多产品选择 on-device"
+    ],
+    "ai-community": [
+      "Multi-RAG+知识图谱+MCP 搭建 AI 第二大脑受追捧",
+      "模型路由省了成本，却让信任问题更棘手",
+      "AI 助手如何'像熟人一样'表达，个性化与隐私边界引讨论",
+      "模型退化是真是假？文章梳理六种变化因素",
+      "AI 生成代码安全问题发酵：SSRF 修复仍可利用",
+      "Lobste.rs 高分被 OCaml 生态占据，AI 讨论聚焦 Revision Prompting"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.226 and gateway spend limits",
+      "Multi-agent orchestration emerging across six CLI projects",
+      "Copilot CLI, Kimi, Grok Build show zero code motion",
+      "Windows instability and broken /resume top CLI complaints",
+      "OpenCode, Pi, Qwen Code compete on extensibility",
+      "CLI field splits: platform agents vs fast movers"
+    ],
+    "ai-agents": [
+      "OpenClaw ships security patches v2026.6.33 and .34",
+      "OpenClaw closes 178 PRs and 49 issues in 24h",
+      "Delivery reliability remains top OpenClaw concern",
+      "Silent reply failures, lost subagent completions top issues",
+      "Steipete authors ~15 of OpenClaw's top 30 PRs",
+      "OpenClaw 2026.7.x line has three open P0 regressions"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4 is stress-testing the entire serving stack",
+      "llama.cpp ships five releases b10327–b10331 in 24h",
+      "LiteLLM releases v1.97.0-rc.1 and v1.94.2",
+      "vLLM stable v0.26.0 still missing NVFP4 fix",
+      "FP4, multi-vendor, and agentic workloads all in flux",
+      "Cold start and memory hierarchy emerge as next frontier"
+    ],
+    "ai-trending": [
+      "PrimeAgent tops trending with +2,483 stars",
+      "'Agent Skills' packaging format takes off; Google joins",
+      "google/skills and addyosmani/agent-skills surge in stars",
+      "TradingAgents keeps financial multi-agent apps in spotlight",
+      "ECC: 238,815-star agent harness for Claude Code et al.",
+      "Ollama adds support for Kimi-K2.6, GLM-5.2, MiniMax"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max tops agentic index at 544 points",
+      "DeepMind WeatherNext breaks through in cyclone forecasting",
+      "AMD to acquire Taalas, boosting inference silicon race",
+      "DeepMind leadership shake-up sparks Google direction debate",
+      "Oracle's OpenJDK ban stirs governance concerns on HN",
+      "OpenAI's Hugging Face leak adds to trust worries"
+    ],
+    "ai-ph": [
+      "Coldtea.ai leads Product Hunt with 490 votes",
+      "Soloop's approval-first Agent OS launches with 479 votes",
+      "BrowserOS neo pushes browser layer for AI agents",
+      "Progress AI Observability targets production tracing",
+      "Firecrawl MCP brings agent-ready web context",
+      "On-device/open-source tools dominate today's agent slate"
+    ],
+    "ai-community": [
+      "Dev.to shifts from agent capabilities to trust",
+      "AI-generated Cursor SSRF fix still ships vulnerable code",
+      "Agent regression testing and evals are hot topics",
+      "Multi-RAG, knowledge graphs, MCP target model memory",
+      "OpenAI GPT-5.6 Sol update draws attention",
+      "Lobste.rs stays cool on AI, favors OCaml engineering"
+    ]
+  }
+}
