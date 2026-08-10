@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code安全机制误报引反弹，Issue密度最高",
+      "Gemini CLI发布v0.56.0-nightly，子代理挂起是核心痛点",
+      "GitHub Copilot CLI社区活跃但官方PR为零",
+      "OpenCode社区热度最高，Go网关信任危机",
+      "Pi高频修复并推进wire protocol结构性改进",
+      "Qwen Code多智能体产品化，v0.21.8-nightly发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issue/500 PR，维护压力巨大",
+      "PR #121063修复429触发219次循环调用约1500万tokens",
+      "PR #121142修复流式请求被误杀问题",
+      "PR #120398修复Linux子进程未终止缺陷",
+      "PR #120190压缩新增有界可恢复机制",
+      "已关闭Issue复发，可靠性问题引社区焦虑"
+    ],
+    "ai-infra": [
+      "vLLM最新版v0.26.0不含NVFP4正确性修复",
+      "SGLang v0.5.17与DeepSeek-V4 1M prefill OOM直接相关",
+      "llama.cpp发b10333/b10332双修复版，ROCm性能回归",
+      "Kimi-K3长上下文NaN污染整个实例，风险最高",
+      "DeepSeek-V4 1M prefill OOM暴露长上下文短板",
+      "LiteLLM 1.97.0-RC1 UI统计停止计数，建议停留1.95.x"
+    ],
+    "ai-trending": [
+      "Agent Skills生态爆发，addyosmani/agent-skills单日+680星",
+      "google/skills官方入场，单日+528星",
+      "prime-agent以单日+2356星领跑趋势榜",
+      "code-graph-rag亮相，RAG走向代码知识图谱",
+      "headroom可压缩工具输出，为coding agent省20%token",
+      "Transformers、Ollama等基础框架热度稳固"
+    ],
+    "ai-hn": [
+      "DeepMind WeatherNext实现飓风预测突破，HN高分热论",
+      "OpenAI改进GPT-5.6 Sol并扩大Luna免费访问",
+      "DeepSeek V4 Flash在Terminal-Bench 2.1达82.7%",
+      "AI伴侣研究：4款产品隐瞒身份并主动发短信",
+      "产业大事：AMD收购Taalas、DeepMind高层换血",
+      "安全事件：OpenAI攻击HF、澳洲AI自主攻击"
+    ],
+    "ai-ph": [
+      "榜首The GTM Co-Founder开源GTM技能库获400票",
+      "Hexis用AI优化Git版本管理流程",
+      "Toolport统一MCP端口，优化Agent工作流",
+      "Arbyn面向Shopify店铺，AI客服可直接执行订单操作",
+      "TrainZilla用AI代理自动运营健身教练业务",
+      "Basedash Subscriptions等垂直场景AI应用密集上榜"
+    ],
+    "ai-hf": [
+      "FLUX.1-dev以14059赞居热门榜第一",
+      "Kimi-K3获10398赞，多模态模型热度爆棚",
+      "GLM-5.2下载近249万，MoE架构受追捧",
+      "MiniMax-H3衍生版本密集，ComfyUI单文件下载494万",
+      "Baidu Unlimited-OCR下载288万，成实用爆款",
+      "DeepSeek-V4-Flash下载86.9万，低延迟受关注"
+    ],
+    "ai-community": [
+      "生产级RAG分块策略挑战默认512 token",
+      "长生命周期AI agent工程细节：缓存、路由、记忆",
+      "自演化agent只过自测但代码从未运行，敲响警钟",
+      "RAG成本拆解：更少更精的chunk优于更大更贵模型",
+      "OpenAI agent攻击Hugging Face事件复盘引热议",
+      "CPU推理与TPU自托管挑战“越大越好”认知"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "No stable releases; only Gemini CLI and Qwen Code nightlies",
+      "MCP handshake timeouts and schema mismatches plague tools",
+      "Windows most fragile; five tools report failures",
+      "Next frontiers: persistent memory, fallback, delegation",
+      "Claude Code and OpenAI Codex each logged 10 hot issues",
+      "Focus shifts to permission enforcement, MCP reliability"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs updated in 24h",
+      "DeepSeek silent-reply bug closed, reappeared as #121058",
+      "No new OpenClaw release; 180 PRs merged/closed",
+      "PR wave targets message-loss, session-state, media handling",
+      "P1 issues parked behind needs-product-decision labels",
+      "OpenClaw stabilization intense; 428 issues still open"
+    ],
+    "ai-infra": [
+      "llama.cpp shipped point releases b10333 and b10332",
+      "Unsloth beta only other release in 24h",
+      "Frontier serving pushes 1M-token contexts, Blackwell",
+      "Quantized inference NVFP4/FP8/W4A8 active but fragile",
+      "vLLM stable v0.26.0 lacks merged NVFP4 fix #48929",
+      "Agent/tool-calling reliability pain at every layer"
+    ],
+    "ai-trending": [
+      "prime-agent hottest with +2,356 stars self-improving RLM",
+      "Agent skills trend: agent-skills +680, google/skills +528",
+      "agency-agents (+858) among top gainers",
+      "Graph RAG rising: code-graph-rag +96, graphify 104k stars",
+      "LLM stock analysis app gained +306 stars",
+      "Transformers standard at 163,505 stars; LangChain 143,812"
+    ],
+    "ai-hn": [
+      "AMD's Taalas acquisition tops HN with 937 points",
+      "DeepMind leadership shake-up draws 929 comments",
+      "Oracle bans AI-generated code from OpenJDK",
+      "OpenAI accidental Hugging Face attack sparks trust debate",
+      "DeepMind WeatherNext cyclone forecasting praised (436 pts)",
+      "DeepSeek V4 Flash hits 82.7% on Terminal-Bench 2.1"
+    ],
+    "ai-ph": [
+      "The GTM Co-Founder tops PH with 400 votes",
+      "Hexis offers Git-backed agent context",
+      "Toolport provides unified MCP setup",
+      "Basedash Subscriptions adds AI-native scheduled dashboards",
+      "Arbyn automates Shopify order support actions",
+      "Open-source theme strong among dev-facing launches"
+    ],
+    "ai-hf": [
+      "MiniMax-H3: 3.2k likes; Comfy port 4.9M downloads",
+      "DeepSeek-V4-Flash-0731 reaches 868,576 downloads",
+      "Kimi-K3's 10.4k likes draw researcher attention",
+      "Baidu Unlimited-OCR: practical utility, 2.9M downloads",
+      "GLM-5.2 among strongest official open-weight releases",
+      "FLUX.1-dev stays most-liked image model on Hub"
+    ],
+    "ai-community": [
+      "Dev.to: production RAG, long-lived agents, eval drift",
+      "RAG chunking: 512-token default rarely optimal",
+      "Long-lived Telegram agent: caching, routing, memory lessons",
+      "Call for measurement-first, observability-first engineering",
+      "Lobste.rs skeptical on LLMs and social-media rabbit holes",
+      "From 'make it work' to 'make it predictable'"
+    ]
+  }
+}
