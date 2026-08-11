@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.227 发布，跨端会话同步呼声最强",
+      "OpenAI Codex 双 alpha，Windows 稳定性讨论激烈",
+      "Gemini CLI v0.56.0-nightly，Agent 可靠性议题密集",
+      "Copilot CLI v1.0.79 发布，企业策略问题集中爆发",
+      "Qwen Code v0.21.9 发布，daemon/serve 战略发力",
+      "OpenCode v1.18.16 发布，性能回退引共鸣，架构重构活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时处理500条议题与500条 PR",
+      "合并14个 PR，含空响应收尾、审批路由归属修复",
+      "焦点 #121058：47条评论投诉静默回复失败",
+      "新增技能原子化 reconcile，/learn 优先修订已有技能",
+      "会话分组改用自有对话框，弃用 window.prompt",
+      "消息可靠性、OAuth 认证等核心链路稳定性仍是主要矛盾"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.0 发布，561 commits、242位贡献者",
+      "SGLang 聚焦 DSpark TP8 CUDA Graph 稳定性",
+      "llama.cpp 连发5版，支持多输出后端采样",
+      "Ollama v0.32.7 发布，接入 Muse Glimmer",
+      "LiteLLM v1.96.0 发布，多副本治理与安全加固",
+      "Unsloth v0.1.61-beta 支持 Muse Glimmer 30B"
+    ],
+    "ai-trending": [
+      "prime-agent 单日 Star +2,642，登顶今日热榜",
+      "agency-agents 单日 +1,349，Agent 工程化爆发",
+      "code-graph-rag 日增682，RAG 走向图结构上下文",
+      "图数据库 Graphify 已获超10万 Star",
+      "ComfyUI 今日 +922，扩散模型生态依然活跃",
+      "DeepMind 天气模型 weathernext 日增325"
+    ],
+    "ai-web": [
+      "Anthropic 公开研究版 Claude 将黎曼零点下界提至67.2%",
+      "Claude Sonnet 5 定位最具 agentic 能力的 Sonnet 模型",
+      "Anthropic 发布《构建有效 AI Agent》工程指南",
+      "OpenAI 更新聚焦 ChatGPT Business 与 Daybreak 网络防御",
+      "Claude 生成形式化可验证的黎曼相关证明",
+      "外部专家 Conrey 与 Goldston 审阅论文增加可信度"
+    ],
+    "ai-hn": [
+      "Meta 开源 Muse Glimmer 30B，1022分雄踞 HN 榜首",
+      "Docker Sandboxes 以624分成为工具类焦点",
+      "Needle2 仅14MB，瞄准手机、手表与机器人",
+      "Claude 黎曼研究引热议，评估方法遭质疑",
+      "Kinney Drugs 撤回 AI 电话助手，可靠性引担忧",
+      "OpenAI 德州基建游说，能耗与权力集中引警惕"
+    ],
+    "ai-ph": [
+      "Omniwork 428票登顶，定位桌面级 Creative Agent OS",
+      "AgentConnect 159票，为 Agent 打标签建立连接",
+      "Argos 118票，浏览器扩展形式的 AI 代理",
+      "ScrapeOps 推 Proxy Tester，方便开发测试代理",
+      "Soup CLI 将微调门槛压到 4GB 笔记本 GPU",
+      "Grok Imagine 2.0 与 Bunzee 3.0 亮相"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 下载95万，领衔语言模型",
+      "Kimi-K3 周点赞破万，下载超151万",
+      "MiniMax-H3 家族近十个变体霸榜",
+      "FLUX.1-dev 周点赞1.4万，领跑图像生成",
+      "LiquidAI 推出 2.6B 轻量模型 LFM2.5",
+      "Mach-1-Additive-35B 探索 ternary/additive 权重"
+    ],
+    "ai-community": [
+      "‘AI 将走廊误认为道路’引热议，41赞19评",
+      "单块 TPU 自托管 Gemma 4 agent 后端实践",
+      "蒸馏 Kimi 到 Qwen 只是‘换字迹’而非推理",
+      "Agent 签名权限实验：发放无法自铸造的权限",
+      "测试全绿但生产崩溃成 AI 可靠性焦点",
+      "自托管与开源升温，本地 AI 门槛下降"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.227 stable, transcript regression",
+      "OpenAI Codex ships 2 alphas, 10 PRs in 24h",
+      "8 releases across 6 CLI tools in 24 hours",
+      "Windows instability and MCP/OAuth fragility recur",
+      "OpenCode, Pi, Qwen Code match vendor pace",
+      "Enterprise governance becomes first-class CLI concern"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and PRs updated in 24h",
+      "151 PRs merged/closed in last 24 hours",
+      "Fix terminal garble after Gateway reconnect",
+      "Message-delivery reliability and duplicate sends top issues",
+      "No new OpenClaw releases in last 24 hours",
+      "Auth/OAuth and session-state regressions persist"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.0: 561 commits, Kimi K3 support",
+      "DeepSeek-V4 variants dominate production workloads",
+      "Muse Glimmer and Kimi K3 spark support race",
+      "SGLang: 3 severe DSpark bugs, CI flaky",
+      "llama.cpp b10355 adds multi-output sampling",
+      "Ollama lists Kimi-K2.6, GLM-5.2, MiniMax"
+    ],
+    "ai-trending": [
+      "prime-agent +2,642 stars, top trending today",
+      "agency-agents +1,349 for autonomous agent frameworks",
+      "semantica +970 for context and retrieval",
+      "firecrawl +835 for agent data access",
+      "ComfyUI +922; diffusion AI remains massive",
+      "Ollama at 178K stars, default local runtime"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5: most agentic, near Opus 4.8",
+      "Claude improves Riemann zeta bound to 67.2%",
+      "Anthropic pushes Claude Managed Agents in guide",
+      "OpenAI returned 4 pages but metadata-only",
+      "Sonnet 5 priced below Opus 4.8",
+      "Anthropic publishes formally verifiable Riemann proof"
+    ],
+    "ai-hn": [
+      "Meta Muse Glimmer tops HN with 1,022 points",
+      "Docker sandboxes for AI agents gain traction",
+      "Open vs closed agentic AI defines debate",
+      "Needle2: 14MB agentic LLM for edge devices",
+      "Claude Riemann research and GPT-5.6 Cyber discussed",
+      "Appetite for local, low-power inference is strong"
+    ],
+    "ai-ph": [
+      "Omniwork leads Product Hunt with 428 votes",
+      "ScrapeOps Proxy Tester and DocsAlot CLI strong",
+      "AgentConnect: open-source cross-tool agent linking",
+      "TAKT targets AI coding-agent governance",
+      "Grok Imagine 2.0 adds segmentation editing",
+      "Agentic workflows dominate today's Product Hunt"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 dominates with 6M ComfyUI downloads",
+      "DeepSeek-V4-Flash-0731 hits 954K downloads",
+      "Kimi-K3: 1.51M downloads, 10,470 likes",
+      "Baidu Unlimited-OCR shows specialist vision demand",
+      "LiquidAI LFM2.5-2.6B compact with GGUF",
+      "Heretic Qwen3-VL merges signal uncensored demand"
+    ],
+    "ai-community": [
+      "Agents leave demo-land, hit production reality",
+      "MCP servers become a security surface",
+      "Signed permissions emerge as key control",
+      "Distillation transfers format, not reasoning",
+      "OpenAI accidental Hugging Face attack discussed",
+      "AI misreading intent sparks top Dev.to thread"
+    ]
+  }
+}
