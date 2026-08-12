@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.228 正式版发布",
+      "OpenAI Codex 发布 rust-v0.148.0-alpha.7/alpha.8",
+      "Gemini CLI 一日四发，含 v0.55.1 与 v0.56.0-preview.1",
+      "Qwen Code 发布 v0.21.10 及 v0.21.11-preview.0",
+      "Claude Code 消息队列模式获 191 赞，排队追加消息",
+      "Windows 成短板：Codex 桌面内存飙至 8.8GB"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 500 条 issue 更新，关闭率仅 21.6%",
+      "修复 v17 升级后 agent 数据库状态错误问题",
+      "为 Google AI Studio Gemini 模型补齐原生视频输入",
+      "修复 Slack 线程 24 小时静默失效问题",
+      "加速 OpenAI Responses 流式输出，降低感知延迟",
+      "今日无新版本发布，维护者 backlog 压力大"
+    ],
+    "ai-infra": [
+      "llama.cpp 24 小时发 7 版（b10356–b10362）",
+      "vLLM 发布 v0.27.1 patch，适配 DeepSeek-V4/Kimi-K3",
+      "Ollama v0.32.9 发布，但社区报告 CUDA 崩溃等回归",
+      "LiteLLM 启动 Rust 重写，目标 sub-1ms 开销",
+      "Unsloth 发布桌面版，打通微调到推理链路",
+      "AMD/ROCm 战略地位上升，三家同日修复 ROCm 问题"
+    ],
+    "ai-trending": [
+      "prime-agent 今日新增 stars 1,138，登顶趋势榜",
+      "Anthropic 官方 skills 与社区 agent-skills 同日登榜",
+      "图原生/Graph-RAG 成新热点：semantica 与 code-graph-rag 上榜",
+      "Ollama 支持 Kimi-K2.6、GLM-5.2 等本地模型",
+      "教育 AI DeepTutor 今日 +812 stars",
+      "法律垂直 AI harvey-labs 登榜，AI 评估细分方向出现"
+    ],
+    "ai-web": [
+      "OpenAI 在 AWS 上线 Daybreak 模型（标题推断）",
+      "Daybreak 为全新模型名，具体指向待确认",
+      "公告位于 OpenAI 官网 /index/ 路径，属产品级入口",
+      "Anthropic 今日无新内容，连续静默",
+      "因仅元数据模式，正文内容暂不可得",
+      "OpenAI 加速云渠道分发，战略信号明显"
+    ],
+    "ai-hn": [
+      "Meta 发布 Muse Glimmer 30B 开源本地 agent 模型，1177 分",
+      "Needle2 将 agentic LLM 压缩至 14MB，适配端侧设备",
+      "研究揭示专有 LLM 推理链可被侧信道窃取",
+      "Anthropic 公开 Claude 在黎曼 ζ 函数上的数学能力研究",
+      "Docker 推出 disposable sandboxes 用于 AI agents",
+      "扎克伯格抨击闭源 AI，OpenAI 伦理负责人离职"
+    ],
+    "ai-ph": [
+      "oqoqo 登顶 PH，聚焦真实任务评测",
+      "SecondBrain Note 推出 MagSafe 磁吸 AI 录音机，226 票",
+      "AI Group Call 支持六位 AI 智能体实时语音群聊，195 票",
+      "Paritok、Prime Agent、Heym 围绕编程与 Agent 工作流优化",
+      "Salesman AI 把会议内容转化为营收行动，64 票",
+      "今日产品强调可观测、可评估、可降本"
+    ],
+    "ai-arxiv": [
+      "论文揭示可从加密思维链中窃取推理痕迹",
+      "提出无需验证器的测试时扩展方法 Consilience",
+      "Dark Souls BOSS 战封装为 Gymnasium 风格基准",
+      "揭示 on-policy 蒸馏的退化一致失败模式",
+      "联邦 LoRA 新方法：rank-aware 自适应共享",
+      "多篇医学多模态论文构成垂直应用热点"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频模型生态主导榜单，衍生 LoRA 密集",
+      "Kimi-K3 以 10,525 点赞成为本周最热模型",
+      "DeepSeek-V4-Flash 下载量破 104 万，GGUF 版紧随其后",
+      "百度 Unlimited-OCR 下载量近 290 万，成黑马",
+      "Meta Muse-Glimmer-30B 预览阶段点赞破千",
+      "NVIDIA Nemotron 30B-A3B 采用 NVFP4 量化，兼顾部署"
+    ],
+    "ai-community": [
+      "7 条建议让 AI Agent 更可预测，Dev.to 热文",
+      "8 层防护安全模型获 CISO 批准，企业可参考",
+      "Pi Agent vs Claude Code：100 小时真实使用对比",
+      "剖析 Weng's Harness Ladder 盲点：评估器也会失败",
+      "探讨 AI Agent 谎报“完成”的原因与反馈机制",
+      "从零设计端到端 RAG 架构教程受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.228 patch",
+      "OpenAI Codex rust v0.148.0-alpha.8 released",
+      "Gemini CLI has two critical CVEs unfixed",
+      "Copilot CLI adm-zip CVE blocks Docker builds",
+      "OpenCode, Pi, Qwen Code 10 PRs each",
+      "Community cites cost, Windows, MCP lifecycle issues"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs",
+      "OpenClaw maintainer capacity remains bottleneck",
+      "Slack thread fix prevents silent reply loss",
+      "Google channel adds native video input",
+      "No new OpenClaw releases in 24h",
+      "392 OpenClaw issues still open/active"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-class model wave dominates ecosystem",
+      "vLLM ships v0.27.1 patch; two regressions remain",
+      "SGLang AMD bf16 all-reduce corruption found",
+      "llama.cpp has ROCm 7.14 runtime breakage",
+      "AMD/ROCm now first-class but sharp-edged",
+      "Agentic features: router KV state, Responses API"
+    ],
+    "ai-trending": [
+      "prime-agent coding agent gains +1,138 stars",
+      "agency-agents multi-agent app +958 stars",
+      "semantica graph context layer +893 stars",
+      "orca agent dev environment +875 stars",
+      "Anthropic skills repo launches as packaging format",
+      "Trends shift to domain-specific agent workflows"
+    ],
+    "ai-web": [
+      "OpenAI first mention of 'Daybreak' models",
+      "OpenAI Daybreak models now on AWS (URL slug)",
+      "No new Anthropic content this cycle",
+      "OpenAI item is metadata-only, title unverified",
+      "Crawl captured one OpenAI item only",
+      "No fresh Claude-side signals today"
+    ],
+    "ai-hn": [
+      "Muse Glimmer: 30B local agent model open-sourced",
+      "Research steals reasoning traces from LLM APIs",
+      "Needle2 packs 14MB agentic LLM for edge",
+      "Copilot MitM investigation scrutinizes AI coding tools",
+      "Zuckerberg attacks closed AI rivals",
+      "Claude watermarking post sparks debate"
+    ],
+    "ai-ph": [
+      "oqoqo tops PH with 364 votes for evals",
+      "Portfolio Lab reaches 317 votes",
+      "Paritok earns 267 votes",
+      "SecondBrain Note is MagSafe AI recorder",
+      "AI Group Call joins six AI minds on live call",
+      "Today's launches skew to agentic developer tooling"
+    ],
+    "ai-arxiv": [
+      "Verifier-free test-time scaling improves LLM reasoning",
+      "On-policy distillation exposed degenerate agreement",
+      "SWE-Bench ProMax finds flawed benchmark tests",
+      "SKALD distills skills into weights, not prompts",
+      "Adaptive harnesses proposed for LLM agent safety",
+      "Medical video consultations advance with multimodal models"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 dominates video generation ecosystem",
+      "DeepSeek-V4-Flash-0731 passes 1M downloads",
+      "Kimi-K3 leads likes with 10,525",
+      "Unlimited-OCR amasses 2.9M downloads",
+      "Community quantization intense: GGUF and NVFP4",
+      "ComfyUI ports and Turbo LoRAs for MiniMax-H3"
+    ],
+    "ai-community": [
+      "Dev.to: agents say done when they failed",
+      "CISO-approved AI agent security model detailed",
+      "Pi Agent vs Claude Code after 100 hours",
+      "Compression as prediction debated on Lobste.rs",
+      "Developers build guardrails, evals, audit trails",
+      "Text watermarking and rare book costs discussed"
+    ]
+  }
+}
