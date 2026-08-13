@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.229 发布 企业功能补全 Windows 稳定性拖累口碑",
+      "OpenAI Codex 日更迭代 企业成本用量模块集中发力",
+      "Gemini CLI 安全修复与子代理可靠性双线推进",
+      "GitHub Copilot CLI MCP 与钩子体系进入问题集中暴露期",
+      "OpenCode v1.18.17 发布 计费与安全权限成争议焦点",
+      "CodeWhale 更名 v0.9.6 重构期社区合入摩擦明显"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issue 关闭率仅21.6% 净增284条",
+      "子代理消息静默丢失与回复静默失败仍是最核心痛点",
+      "#121058 问题复发 评论高达91条 监控持续告警",
+      "维护者密集修复CI基础设施 已合入pr#122852",
+      "#122883 解除 codex 修复 unblock",
+      "无新版本发布 建议关注 P1 修复是否随下版发布"
+    ],
+    "ai-infra": [
+      "vLLM 升级后 DeepSeek 系列兼容事故 多节点永久 stall",
+      "llama.cpp 发布3个版本 RTX 5080 性能回退",
+      "Ollama v0.32.10-rc1 repeat_penalty 默认关闭",
+      "LiteLLM Spend Log 丢失三 PR 修复中",
+      "Unsloth 修复 AMD 安装器虚假 GPU 报告根因",
+      "SGLang MLA 融合 PR 回滚 多节点 deadlock 未修复"
+    ],
+    "ai-trending": [
+      "diagram-design 单日新增 2855 星 领跑今日热榜",
+      "orca、agency-agents、paperclip 同登热榜 Agent 走向编队",
+      "needle 用 14MB 参数模型瞄准 IoT 端侧小模型",
+      "Kronos 专注金融市场语言建模",
+      "RAGFlow 继续增长 semantica 以 graph-native context 拿下+845",
+      "NVIDIA NeMo 推出 Rust 新项目 Switchyard"
+    ],
+    "ai-web": [
+      "Anthropic 发布工人再培训项目元分析 基于56项随机实验",
+      "再培训项目人均成本约1.3万美元 就业率提升2-3个百分点",
+      "政府可回收超过一半的再培训投入成本",
+      "Anthropic 构建 AI 劳动力市场影响研究矩阵",
+      "OpenAI 新增企业 AI 应用索引页面 仅有元数据",
+      "Anthropic 在 AI 公共政策研究领域建立研究者形象"
+    ],
+    "ai-hn": [
+      "Muse Glimmer 以 1198 分成为今日 HN 最高分帖",
+      "DeepSeek V4 Pro 0813 登 OpenRouter 获 720 分",
+      "Grok 4.6 发布 第三方评测 61 分引发争议",
+      "研究展示窃取专有 LLM 推理轨迹 引 682 分热议",
+      "Meta 开源 30B 常驻本地 Agent 模型",
+      "OpenAI 伦理负责人离职 闭源模型信任度走低"
+    ],
+    "ai-ph": [
+      "Tines 3B 以 412 票登顶 面向 Agent 安全环境",
+      "BetterClaw 60秒部署零成本 83 条评论讨论最热",
+      "Spotify 推出 agentic 开发环境 Xirp 获 277 票",
+      "Bullet 宣称比 Claude Code 快 30-60% 获 228 票",
+      "bb IDE 会自己构建自己 获 189 票",
+      "Gotcha 号称全球首个 Android AI Copilot"
+    ],
+    "ai-arxiv": [
+      "低资源语言安全对齐失效 形成安全幻觉",
+      "ReRound 量化免校准集缓解中点歧义",
+      "紧急错位归因于预训练 persona 特征",
+      "Grothendieck 常数研究展示人机数学协作",
+      "32个模型行为演化图谱可量化监测",
+      "GUI 视觉定位测试时自蒸馏免更新"
+    ],
+    "ai-hf": [
+      "Kimi-K3 登顶 1.05 万点赞 156 万下载",
+      "DeepSeek-V4-Flash-0731 周下载突破 104 万",
+      "MiniMax-H3 生态链完整 覆盖官方到 GGUF",
+      "GGUF 等量化形态占比接近 40%",
+      "Qwen3.8-2.4T-A95B 总参 2.4T 激活 95B",
+      "LFM2.5-2.6B 下载近 10 万 边缘部署需求强劲"
+    ],
+    "ai-community": [
+      "开发者用真实事故检验 AI Agent 可靠性边界",
+      "上下文窗口溢出与误删文件成热议话题",
+      "本地 RAG 与 DeepSeek V3 部署成本控制受关注",
+      "AI 重塑工程师角色 出现进化与消失两派叙事",
+      "OpenAI 防御者计划引发过度拒答实测",
+      "Gemini 聊天配置丢失 bug 定位记录获开发者好评"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows stability plagues Claude Code, Codex, and Copilot CLI",
+      "MCP is now the universal integration standard",
+      "Agent trust issues: false success signals and hangs",
+      "Context durability: auto-compaction and session-resume bugs",
+      "Billing, compliance, and model entitlement top enterprise concerns",
+      "Pi, OpenCode, CodeWhale focus on TUI polish and local models"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs in 24 hours",
+      "No new OpenClaw release; all activity on current codebase",
+      "Subagent orchestration reliability is the dominant theme",
+      "Users report silent message and completion loss",
+      "Session-lane and auth timeout regressions appear after fixes",
+      "CI PR #122852 protects pnpm dependency snapshots"
+    ],
+    "ai-infra": [
+      "llama.cpp ships three releases: b10369/b10373/b10375",
+      "vLLM and SGLang absorb DeepSeek-V4/Kimi-K3 support first",
+      "NVFP4/MXFP8 quantization and speculative decoding lead roadmap",
+      "Blackwell NaNs and multi-node hangs require pinning versions",
+      "LiteLLM focuses on spend durability and cost-routing accuracy",
+      "Local runtimes ship more stable fixes than serving engines"
+    ],
+    "ai-trending": [
+      "diagram-design tops trending with +2,855 stars",
+      "agency-agents ships a ready-made AI team (+1,873)",
+      "orca runs fleets of parallel agents (+1,235)",
+      "semantica builds graph-native context infrastructure (+845)",
+      "needle shrinks a foundation model to 14MB",
+      "ollama tops 178k stars as default local LLM runtime"
+    ],
+    "ai-web": [
+      "Anthropic and OpenAI both published on AI and work",
+      "Anthropic coauthors retraining meta-analysis with David Roodman",
+      "Retraining adds 2-3 percentage points to employment",
+      "Trainees gain ~$1,000/year vs $13,000 program cost",
+      "Government recovers over half of retraining program spending",
+      "OpenAI posts 'How Enterprises Put AI To Work' index entry"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 appears on OpenRouter",
+      "Meta's Muse Glimmer targets local agent workflows",
+      "Muse Glimmer thread hits 1,198 points and 637 comments",
+      "Research shows stolen reasoning traces from proprietary APIs",
+      "Grok 4.6 release stirs rapid-model-release debate",
+      "Discussions question AI's effect on software jobs"
+    ],
+    "ai-ph": [
+      "Tines 3B leads Product Hunt with 412 votes",
+      "BetterClaw draws 83 comments for 60-second agent deployment",
+      "Spotify's Xirp launches as agentic development environment",
+      "Bullet claims 30-60% speed gains over Claude Code and Codex",
+      "Gotcha is an AI copilot for Android that acts on talk",
+      "VoiceGecko and agent-manager offer open-source/local AI options"
+    ],
+    "ai-arxiv": [
+      "Study exposes cross-lingual safety gaps in low-resource languages",
+      "Emergent misalignment traced to persona features in pretraining",
+      "Attention-path fragility signals uncertainty in LLMs",
+      "Skill compression emerges as core agent capability",
+      "Sparse autoencoder set-level instability highlighted",
+      "Surgical robotics benchmarks gain verifiability and data efficiency"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 dominates with video model, LoRAs, and quantizations",
+      "DeepSeek-V4-Flash-0731 tops 1.04M downloads",
+      "Kimi-K3 has highest likes at 10,583",
+      "Qwen3.8-2.4T-A95B is a 2.4T-parameter MoE with 95B active",
+      "NVIDIA's 30B-A3B Nemotron lineup targets sparse inference",
+      "Meta's Muse-Glimmer-30B debuts as official multimodal backbone"
+    ],
+    "ai-community": [
+      "Summer Bug Smash highlights agent-caused damage stories",
+      "Devin's $40B valuation questioned against real agent budgets",
+      "Practitioner plans to test OpenAI verified defenders access",
+      "Dev.to shares local RAG and DeepSeek deployment guides",
+      "Lobste.rs warns AI data hunger destroys physical books",
+      "Network science explores social media rabbit holes"
+    ]
+  }
+}
