@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.231/v2.1.232，社区体量断层第一",
+      "OpenAI Codex 连发三个 alpha，10 个 PR 全部合并",
+      "Gemini CLI 迭代最快，Issue/PR 密度居首",
+      "Qwen Code 落地 Fleet 多智能体架构，新增 /coordinate",
+      "Codewhale 更名后发 v0.9.7，社区期待 v0.9.8",
+      "Grok Build 24 小时零活动，活跃度垫底"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时更新 500 Issue+500 PR，无新版本",
+      "Issue 关闭率仅 32.6%，PR 合并率 21.8% 引担忧",
+      "多个高价值修复 PR 待审查，如 #123397、#123398",
+      "修复 Slack 渠道不应用全局设置变更的问题",
+      "修复控制台 UI 重复点击导航致历史记录堆积",
+      "修复 openclaw doctor 重复 OAuth 迁移提示"
+    ],
+    "ai-infra": [
+      "vLLM 今日 100 Issues/495 PRs，活跃度最高",
+      "llama.cpp 发布 10+ 版本，b10411 至 b10423",
+      "LiteLLM 发布 v1.98.0-dev.2，治理问题待解",
+      "Unsloth 发布 v0.1.702-beta，转向产品平台",
+      "vLLM 适配 Muse Glimmer、Kimi-K3、DeepSeek V4",
+      "SGLang 推 DeepSeek-V4 Roadmap，专注 AMD 优化"
+    ],
+    "ai-trending": [
+      "diagram-design 单日暴涨 +4,475 stars 登顶热榜",
+      "needle 以 14MB 微型模型获 +769 stars",
+      "semantica 获 +713 stars，图原生基础设施受捧",
+      "NVIDIA Switchyard 获 +408 stars，LLM 流量路由器",
+      "agency-agents 获 +778 stars，一键启动 AI 代理机构",
+      "anthropics/skills 官方技能仓库上线，+312 stars"
+    ],
+    "ai-web": [
+      "Claude 将黎曼 zeta 下界从 41.6% 提升至 67.2%",
+      "Anthropic 发布多智能体系统性失败模式研究",
+      "OpenAI 新增 Previewing Ultrafast 页面，内容未知",
+      "OpenAI 新增 Dali Rajic 首席营收官页面",
+      "数学突破来自未发布模型，能力上限或更高",
+      "Anthropic 双线叙事：数学能力+多智能体安全"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 以 1017 分登顶 HN",
+      "Grok 4.6 评论数 603 条，争议聚焦宣传口径",
+      "Gemini 3.7 Flash 发布，获 595 分 330 评论",
+      "Mistral OCR 4.1 升级，获 248 分 94 评论",
+      "Netlify 用同一提示词横评 11 模型，结果差异大",
+      "热议 AI 水印、提示注入、冒充 AI 爬虫安全议题"
+    ],
+    "ai-ph": [
+      "Grok Bot 获 497 票，可派发真实任务给 Agent",
+      "LaraCopilot 获 146 票，Agentic AI 工程师",
+      "Sidekick 获 90 票，Mac 系统级 AI 副驾",
+      "超半数产品开源，聚焦记忆/存储/工作流",
+      "Statewave、BearDrive 主打代理持久记忆",
+      "Dograh、Lettertrace 等开源基础设施获高票"
+    ],
+    "ai-arxiv": [
+      "长上下文训练削弱参数知识，挑战主流假设",
+      "推理 token 预算可逆转模型排名，评测受质疑",
+      "混合线性注意力 LLM 现大规模激活现象",
+      "VAKRA 基准：企业级 API+检索多跳推理",
+      "AI4AI 测试时强到弱能力迁移，无需更新参数",
+      "智能体安全聚焦技能劫持与单模拟器崩溃"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 生态主导，Comfy-Org 下载破 1036 万",
+      "Kimi-K3 周点赞 10621，登顶多模态榜首",
+      "Qwen3.8-2.4T-A95B 发布，2.4T 参数 MoE",
+      "DeepSeek-V4-Flash-0731 下载量达 143 万",
+      "DeepSeek-V4-Pro-0813 未开放下载已受关注",
+      "NVIDIA Nemotron 3.5 Lightning 30B 上线"
+    ],
+    "ai-community": [
+      "开发者自建 agent 工具门禁，开源 agent-tooltrust",
+      "测试全绿的 AI 代码最危险，引发高赞讨论",
+      "Gemma 4 在 Graviton2+NVIDIA 组合部署实战",
+      "AI agent 记忆系统公平基准评测正在建立",
+      "向量数据库不够用，durable memory 架构引热议",
+      "Lobste.rs 热议 OpenAI-HF 事故与实体书销毁"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships patches v2.1.231 and v2.1.232",
+      "Qwen Code, OpenCode, Pi push multi-agent features",
+      "Top frictions: context-window, Windows, MCP OAuth",
+      "Security work targets supply-chain CVEs and fail-open bugs",
+      "Grok Build stays dormant; Kimi CLI has two reliability issues",
+      "Established CLIs ship patch releases and harden infrastructure"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated in 24h",
+      "No new OpenClaw release; heavy maintenance phase",
+      "P1 reliability bugs hit message delivery, subagents, auth",
+      "Maintainer review bottleneck flags many high-severity issues",
+      "Control UI fix stops duplicate history entries in nav",
+      "Slack settings fix applies global defaults to new messages"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang race on sparse-MLA and gfx950 kernels",
+      "llama.cpp ships 10 incremental builds (b10411-b10423)",
+      "LiteLLM consolidates billing and access-control correctness",
+      "Unsloth Desktop extends fine-tuning to local deployment",
+      "DeepSeek-V4 and Kimi-K3 enablement drives inference work",
+      "Agentic workloads expose deadlocks and KV-cache limits"
+    ],
+    "ai-trending": [
+      "Agent tooling dominates; diagram-design adds 4,475 stars",
+      "Anthropic skills repo pushes portable Agent Skills standard",
+      "Needle's 14MB edge model highlights on-device AI",
+      "NVIDIA Switchyard LLM router gains 408 stars today",
+      "macro adds 1,239 stars as agent tooling surges",
+      "Semantica bridges knowledge graphs and agent memory"
+    ],
+    "ai-web": [
+      "Anthropic: Claude improves Riemann zeta bound to 67.2%",
+      "Claude produced formally verifiable proof for math result",
+      "Anthropic red team examines systemic multiagent risks",
+      "OpenAI updates were metadata-only index pages",
+      "Riemann result seen as milestone for trustworthy AI reasoning",
+      "Anthropic dominates official AI content with two papers"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 tops HN with 1,017 points",
+      "Grok 4.6 drives largest HN thread with 603 comments",
+      "Gemini 3.7 Flash launches to strong attention",
+      "HN debates viability of AI text watermarking",
+      "Attackers spoof ClaudeBot for mass vulnerability scans",
+      "Samsung Claude chip-design struggles are a reality check"
+    ],
+    "ai-ph": [
+      "Dograh leads PH with 542 votes as VAPI alternative",
+      "Grok Bot sells AI teammates for real work tasks",
+      "Unsloth Desktop brings local-first fine-tuning",
+      "Agent infra launches: shared folders, memory, control planes",
+      "LaraCopilot agentic engineer turns requirements into apps",
+      "Open-source dev tools dominate Product Hunt today"
+    ],
+    "ai-arxiv": [
+      "Long-context training may undermine parametric knowledge",
+      "Test-time harnesses transfer capabilities without retraining",
+      "LLM rankings shift with token budget in new study",
+      "Papers examine agent skill hijacking and simulator collapse",
+      "Enterprise reasoning benchmarks debut in arXiv batch",
+      "Domain apps expand: clinical RAG and scientific diagrams"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads HF with 10.6k weekly likes",
+      "DeepSeek-V4-Flash-0731 hits 1.43M downloads",
+      "Qwen3.8-2.4T-A95B trends as next-gen large MoE",
+      "MiniMax-H3 image-to-video ports form largest HF cluster",
+      "Quantization rules: GGUF, FP8, NVFP4, LoRA entries",
+      "Uncensored community fine-tunes keep gaining attention"
+    ],
+    "ai-community": [
+      "Dev.to devs build gatekeepers after losing agent tool trust",
+      "AI code that passes all tests can still break later",
+      "Open-source agent-tooltrust adds human approval to tool calls",
+      "Vector databases no longer enough for agent memory",
+      "Lobste.rs: OpenAI-HF incident video sparks comments",
+      "Lobste.rs: AI book-destruction report draws top score"
+    ]
+  }
+}
