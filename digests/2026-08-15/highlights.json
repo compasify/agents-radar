@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发两版，token 浪费讨论达 73 条",
+      "OpenAI Codex 一日 5 个 alpha，机器人合入约 50 个 PR",
+      "Copilot CLI 发布 v1.0.80，企业用户走官方渠道",
+      "Pi v0.84.2 正式版发布，社区热度升至高位",
+      "Qwen Code 发布 v0.21.12 正式版加 nightly 系列",
+      "Windows/WSL 体验成 6/8 工具共同负评焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 Issue/PR 更新，无新版本",
+      "静默回复失败复发成焦点，累计 94 条评论",
+      "P0 修复：pruneAfterMs=0 不再误删全部会话",
+      "修复 cleanup 误删可读 transcripts，关闭旧 Issue",
+      "网关内存泄漏至 OOM 等 P0/P1 仍在推进",
+      "96 个 PR 被合并，多通道与 UI 打磨并行"
+    ],
+    "ai-infra": [
+      "vLLM 补 MRV2 兼容性，ROCm 适配 DeepSeek-V4 与 Kimi-K3",
+      "llama.cpp 24 小时发 11 版，高频迭代引人注目",
+      "Ollama 一日三版，正式支持 Qwen3.8 与编码代理",
+      "LiteLLM 紧急回滚 Admin UI 认证回归问题",
+      "Unsloth 发 v0.1.800-beta，修复 CUDA 13.2 量化乱码",
+      "六大项目共 6 个严重 Bug，波及 AMD/Intel/CUDA 13.2"
+    ],
+    "ai-trending": [
+      "diagram-design 单日 +3651 星，登顶 AI 热榜",
+      "14MB 端侧模型 needle 日增 661 星",
+      "semantica 日增 1183 星，图谱上下文基础设施受捧",
+      "holaOS、macro、ego-lite 推 All-in-One Agent 工作台",
+      "headroom 压缩 Agent 输入，可省 20% 至 95% token",
+      "RAGFlow 日增 474 星，RAG 与知识图谱融合受关注"
+    ],
+    "ai-web": [
+      "Anthropic 详解 Claude 文本水印：不增成本不加隐藏字符",
+      "水印为满足 EU AI Act，多家厂商已签行为准则",
+      "56 项随机对照试验：再培训就业提升温和",
+      "再培训人均成本 1.3 万美元，收入增约 1000 美元",
+      "政府可收回超一半培训开支，非万能药",
+      "OpenAI 官方今日零新增，无内容可分析"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 登 HN 榜首，获 1027 分",
+      "GLM-5.3 宣称涌现网络能力，引 501 条评论",
+      "Gemini 3.7 Flash 发布，946 分热议价格",
+      "Mistral OCR 4.1 发布，402 分获认可",
+      "Cerebras 与 OpenAI 合作 GPT-5.6 超快推理",
+      "AI by Hand 手算教程走红，回归原理"
+    ],
+    "ai-ph": [
+      "Kane CLI、Ito、Nuphos 包揽 Product Hunt 前三",
+      "Oasis 获 237 票，主打人类与 Agent 共同工作",
+      "Mem Agent 127 票，让 AI 主动盯住任务",
+      "WebBrain 120 票，浏览器侧边栏零门槛 AI 助手",
+      "AI+软件工程仍是最热落地场景，开发者工具领跑",
+      "MCP 成为 Agent 工具集成新标准，多项目支持"
+    ],
+    "ai-arxiv": [
+      "OmniScientist 提出全模态全学科 AI 科学家",
+      "Intern-S2-Preview 发布科学智能体基础模型",
+      "Synthetic Persona Pretraining 让对齐从 token 零开始",
+      "LittleLearner 用 88B token 课程语料控制知识暴露",
+      "QuoteBench 聚焦智能体评估的过程与安全性",
+      "DARTree/RMM 提升 LLM 推理效率"
+    ],
+    "ai-hf": [
+      "Kimi-K3 登 HF 榜首，获 1.07 万赞下载近 200 万",
+      "Qwen3.8-27B 以 8908 赞紧随其后",
+      "MiniMax-H3 下载近 200 万，带动 LoRA/GGUF 生态",
+      "DeepSeek-V4-Flash 下载超 160 万，文本流量担当",
+      "NVIDIA 开源 Nemotron 3.5 Lightning 30B",
+      "LiquidAI LFM2.5-2.6B 小模型上榜，低资源部署受关注"
+    ],
+    "ai-community": [
+      "Dev.to 热议 Agent 记忆：向量数据库并非万能",
+      "LLM 推理成本无人审计成社区痛点",
+      "Antigravity 复活 Weave Scope，生成多架构镜像",
+      "Gemma 4 在 Graviton2+NVIDIA 跑通，ARM 推理参考",
+      "OpenAI 的 Verified Defenders 权限承诺遭实测质疑",
+      "开发者用 Google AI 做宠物肥胖检测项目"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.232 and v2.1.233 released",
+      "OpenAI Codex shipped 5 alphas in one day",
+      "GitHub Copilot CLI v1.0.80/80-1 released",
+      "Cost and quota transparency is a trust issue",
+      "Subagent orchestration dominates CLI ecosystem",
+      "Gemini CLI received a nightly update"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues/500 PRs updated in 24h",
+      "OpenClaw: 96 PRs merged/closed, no release",
+      "P0/P1 message loss and memory leak bugs",
+      "Maintainer bandwidth is the key bottleneck",
+      "PR #116489 adds install policy warnings ack",
+      "External contributors provide linked fixes"
+    ],
+    "ai-infra": [
+      "Local tier shipped 14 releases in 24 hours",
+      "Speculative decoding default; bug cluster remains",
+      "AMD/ROCm is both fastest-growing and buggiest",
+      "LiteLLM becomes critical-path control plane",
+      "Engines race to support Kimi-K3 and DeepSeek-V4",
+      "llama.cpp releases b10425 to b10435"
+    ],
+    "ai-trending": [
+      "diagram-design +3,651 stars, Claude Code pack",
+      "semantica +1,183: graph-native RAG evolution",
+      "holaOS +769: all-in-one AI agent workspace",
+      "needle: 14MB edge foundation model, +661",
+      "unsloth +502 for local Qwen3.8-class training",
+      "Trend shifts from weights to memory/tooling"
+    ],
+    "ai-web": [
+      "Anthropic details Claude text watermarking",
+      "Watermark claims zero quality/cost impact",
+      "Retraining meta-analysis: +2-3 pp employment",
+      "Retraining costs $13k; earnings +$1k/year",
+      "OpenAI published zero new content in window",
+      "Watermark has no identifying info or tokens"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro tops HN with 1,027 points",
+      "GLM-5.3 at 1,016; safety framing debated",
+      "Gemini 3.7 Flash launch scores 946 points",
+      "Open-weight vs closed frontier debate rages",
+      "Google homomorphic encryption explainer draws",
+      "Conversation shifts to trust/verify/self-host"
+    ],
+    "ai-ph": [
+      "Kane CLI and Ito lead automated testing",
+      "Nuphos: AI-native DevOps workspace",
+      "Oasis: no-code human-AI coordination",
+      "Mem Agent tracks commitments and follow-through",
+      "AI tools move from suggesting to running code",
+      "WebBrain launches as AI assistant"
+    ],
+    "ai-arxiv": [
+      "LITTLECURRICULUM: 88B-token controlled corpus",
+      "SAEVerbalizer generates SAE feature explanations",
+      "Research shifts to long-horizon agentic systems",
+      "VC classes robustly learnable with linear samples",
+      "Alignment during pretraining gains new curricula",
+      "Verification, robotics, clinical applications rise"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads weekly likes on Hugging Face",
+      "Qwen3.8-27B draws 8,908 likes",
+      "DeepSeek-V4-Flash hits 1.6M downloads",
+      "Open-weight local-first distribution dominates",
+      "Qwen3.8-2.4T-A95B: 2.4T MoE, 95B active",
+      "GGUF, FP8, NVFP4, LoRA variants everywhere"
+    ],
+    "ai-community": [
+      "Vector DBs alone aren't durable memory",
+      "Eval passes can be an illusion",
+      "'Nobody audits their OpenAI invoice' resonates",
+      "OpenAI–Hugging Face incident sparks security talk",
+      "Gemma 4 on EC2 G5g blocked by 64KiB shmem",
+      "Agents reliability and accountability in focus"
+    ]
+  }
+}
