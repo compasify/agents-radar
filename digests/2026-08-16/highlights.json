@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI 迎来稳定性补课期，MCP/OAuth 问题集中爆发",
+      "OpenAI Codex 发布 rust-v0.148.0-alpha.19，24 小时 24 条 PR",
+      "Gemini CLI 发布 v0.56.0-nightly.20260815 夜间版",
+      "GitHub Copilot CLI 发布 v1.0.81-0，Atlassian MCP OAuth 回归",
+      "Qwen Code 发布 v0.21.11-nightly.20260815 夜间版",
+      "Claude Code 日 PR 仅 3 条，OpenCode 达 50 条，活跃度分化"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 500 Issues/500 PR，发布 v2026.8.1-beta.2",
+      "新版本支持 GPT-5.6 Ultra 运行时与 Secret egress 绑定安全加固",
+      "安装策略警告确认机制 CLI 与 Control UI 已正式合并",
+      "P1 问题发酵：Codex hook CPU、DeepSeek cron 停摆、Gemini 回归",
+      "PR 合并率仅约 10%，审查积压明显，P1 未修复约 20 个",
+      "项目健康度被评为高活跃、高负载，稳定性债务上升"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash 多平台现稀疏注意力与算子崩溃，修复在途",
+      "vLLM 启动 CUDA 13.4rc1 预发布镜像管线，为 Rubin sm_107 铺路",
+      "GLM-5.2 TurboQuant 稀疏 MLA 后端新增 packed 4-bit 存储",
+      "SM120 即 RTX 50 系 FlashInfer 稀疏 MLA decode 启用 DCP",
+      "Gemma 4 多模态视频帧计数修复，完善多模态支持",
+      "无正式版本，开发版 v0.27.2rc1.dev119 将修复 Mamba 与 gemma4"
+    ],
+    "ai-trending": [
+      "GitHub Trending 13 仓中 9 个 AI 项目，Agent 工具链密集上榜",
+      "Claude Code 设计资源 diagram-design 今日新增 1,619 stars",
+      "Agent 浏览器 ego-lite、Agent 化 CLI CLI-Anything 进热榜",
+      "低代码 Agent 平台 ToolJet 上榜，开发工具热度高",
+      "热点转向极小模型加极低资源微调：14MB 端侧、4GB 显存调 8B",
+      "RAG、知识图谱与 Agent 记忆层项目占据高 star 头部"
+    ],
+    "ai-web": [
+      "Anthropic 前沿红队发布多智能体系统新兴行为模式研究",
+      "研究警告代理间交互量或超人类，现行监管假设可能失效",
+      "识别虚构与奖励黑客倾向，个体怪癖或复合为系统性失效",
+      "Anthropic 宣布未来 Claude 模型内置文本水印以遵守 EU AI Act",
+      "水印无隐藏字符、不耗 token、不增成本、不携带身份信息",
+      "OpenAI 官网当日无新增，Anthropic 安全与合规双线发布"
+    ],
+    "ai-hn": [
+      "GLM-5.3 登顶 HN：1134 分 558 评，聚焦前沿编码与网络能力",
+      "Gemini 3.7 Flash 发布：960 分 486 评，主打低延迟低成本",
+      "Cerebras 加速 GPT-5.6 Sol，278 tok/s 冲击 NVIDIA 推理市场",
+      "Google 同态加密用于实际 AI 推理，获 477 分视为隐私里程碑",
+      "AI 工作记忆远超人类但未必能思考，引 310 条评论激辩",
+      "Claude Code 指南、编码 Agent Bullet、ThoughtDAG 引热议"
+    ],
+    "ai-ph": [
+      "Outcome 以 366 票领跑今日 Product Hunt AI 新品",
+      "免费编码代理 Freebuff 获 291 票，号称取代付费编程工具",
+      "BrowserAct Cloud 一句话爬取任意网站，无代码抓取新高度",
+      "Munder Difflin 用 Claude Code/Codex 创建个人 AI 克隆体",
+      "开源可组合 Agent 框架 DeepSeek Harness 获 161 票",
+      "Google Gemini 3.7 Flash 发布，聚焦编码与 Agent 场景"
+    ],
+    "ai-hf": [
+      "Kimi-K3 以 10,722 赞登顶 Hugging Face，多模态领跑",
+      "Qwen 3.8 系列视觉语言模型拿下 9,762 赞",
+      "MiniMax-H3 视频家族下载破千万，量化/LoRA/ComfyUI 生态完整",
+      "DeepSeek-V4-Flash 下载近 180 万，成最活跃文本模型",
+      "Nemotron 3.5 Lightning 30B-A3B NVFP4 适合消费级硬件",
+      "GGUF/FP8/LoRA 量化版下载普遍高于原版，本地化需求旺"
+    ],
+    "ai-community": [
+      "Dev.to 与 Lobste.rs 聚焦 LLM 信任可靠性，评估记忆测试成热点",
+      "印度开发者 #VoiceForBharat 语音代理覆盖金融农业教育防灾",
+      "探讨 AI 标识实际衡量什么，聚焦 Anthropic 签署 EU AI 准则",
+      "10 天构建 FinEd Saathi 金融语音代理实战引关注",
+      "Qwen3.8-2.4T-A95B 的 vLLM 部署指南发布，含 GPU Pod 验证",
+      "OpenAI 安全策略未定义词汇歧义调查第二部分发布"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI ecosystem maturing toward autonomous workflows",
+      "OpenAI Codex ships rust-v0.148.0-alpha.19",
+      "Gemini CLI v0.56.0-nightly.20260815 lands",
+      "GitHub Copilot CLI releases v1.0.81-0",
+      "Windows TUI stability remains a regression hotspot",
+      "Context reliability and MCP stability top concerns"
+    ],
+    "ai-agents": [
+      "OpenClaw saw 500 issues and 500 PRs in 24h",
+      "OpenClaw v2026.8.1-beta.2 released with hardening",
+      "Secret egress host binding blocks plaintext leaks",
+      "P1 issues include Codex and cron reliability",
+      "Message loss hit Feishu, Telegram, MS Teams",
+      "PRs target Windows cron and MCP response caps"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash forces engine rewrite wave",
+      "Silent corruption is the top failure mode",
+      "vLLM and SGLang race on Rubin sm_107",
+      "llama.cpp ships 9 releases, one breaking",
+      "LiteLLM faces security findings and ghost costs",
+      "SGLang DSA zero-kernel launch risks silent output"
+    ],
+    "ai-trending": [
+      "diagram-design tops AI movers with +1,619 stars",
+      "ECC reaches 240k stars for agent engineering",
+      "hermes-agent hits 231k stars",
+      "needle packs a 14MB foundation model",
+      "Soup enables fine-tuning on 4GB laptops",
+      "unsloth gains +435 stars for local training"
+    ],
+    "ai-web": [
+      "Anthropic red team studies multiagent system risks",
+      "Anthropic details text watermarking for EU AI Act",
+      "Watermarking promises privacy and cost neutrality",
+      "Agent interactions may outpace human oversight",
+      "OpenAI posted no new content in this crawl",
+      "Anthropic publishes two trustworthiness pieces"
+    ],
+    "ai-hn": [
+      "GLM-5.3 dominates HN with 1,134 points",
+      "Gemini 3.7 Flash draws 960 points on HN",
+      "Cerebras accelerates GPT-5.6 at ultra speed",
+      "HN argues text watermarks are trivially removable",
+      "ThoughtDAG context-graph tool wins developers",
+      "GLM-5.3 cyber capabilities spark safety debate"
+    ],
+    "ai-ph": [
+      "Outcome tops PH for AI sales personalization",
+      "Munder Difflin creates AI clones to do work",
+      "min. automates post-meeting follow-ups",
+      "Freebuff and BrowserAct Cloud lead dev tools",
+      "Gemini 3.7 Flash launches on Product Hunt",
+      "Today's PH launches skew to AI coding agents"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops HF with 10,722 likes and 2.1M downloads",
+      "Qwen3.8 family spans 27B to 2.4T MoE",
+      "MiniMax-H3 Comfy-Org pack hits 12.7M downloads",
+      "DeepSeek-V4-Flash reaches 1.79M downloads",
+      "Quantization and fine-tunes are first-class on HF",
+      "Muse-Glimmer, Nemotron, LiquidAI keep momentum"
+    ],
+    "ai-community": [
+      "4,200-trial test shows where LLM agents break",
+      "Orchestrator kept choosing zero workers in test",
+      "RAG emailed confidently outside its depth",
+      "Anthropic signs EU AI Act Code of Practice",
+      "Lobste.rs discusses OpenAI–Hugging Face incident",
+      "VoiceForBharat publishes 10-day voice agents"
+    ]
+  }
+}
