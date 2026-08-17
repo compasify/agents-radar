@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 现跨会话内容泄漏，稳定性问题集中爆发",
+      "Gemini CLI 发布 v0.56.0-nightly，修复初始化挂起",
+      "Qwen Code 发 v0.21.12-preview.5，新增多智能体协作",
+      "OpenCode 的 Ctrl+C 复制冲突获 49 个赞",
+      "OpenAI Codex 发布 rust-v0.148.0-alpha.20，强调TUI撤销缺失",
+      "多个 CLI 工具同步出现误报成功，信任问题引关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issue 500 PR，社区极度活跃",
+      "Release pr-124528-profiles 发布，用于网关性能剖析",
+      "PR #124784 统一技能调用语义，标记兼容性变更",
+      "安装策略新增 warn 状态，可疑插件需人工确认",
+      "网关超时后自动清理派生进程，PR #124081 合并",
+      "会话状态丢失问题反复复发，核心稳定性成短板"
+    ],
+    "ai-infra": [
+      "LiteLLM 发布 v1.97.0 stable，单日145条PR活动",
+      "vLLM 的 Kimi-K2.6 输出损坏，93条评论暂无修复",
+      "llama.cpp 连发三个维护版，修复 logprobs 回归",
+      "Ollama qwen3.8 工具调用500错误，多个issue互证",
+      "新架构竞速：llama.cpp 合入 Motif 3 和 BailingMoE3",
+      "SGLang radix cache 导致 greedy 输出不一致"
+    ],
+    "ai-trending": [
+      "unsloth 今日 +580 星，登 AI trending 榜首",
+      "needle 发布当天 +447 星，14MB 模型瞄准边缘设备",
+      "Agent Harness 赛道拥挤，ECC、hermes-agent 领跑",
+      "RAG 差异化：Graphify 与 RAGFlow 共建知识图谱",
+      "Ollama 已支持 Kimi-K2.6、GLM-5.2 等最新模型",
+      "TensorFlow 197k 星，仍是生产环境常用框架"
+    ],
+    "ai-hn": [
+      "GLM-5.3 发布引热议，1151分571评论刷榜",
+      "Gemini 3.7 Flash 发布，966分聚焦速度与价格",
+      "Stripe 超70亿美元收购 OpenRouter，最热资本新闻",
+      "Anthropic 发布多智能体系统研究，开发者推荐参考",
+      "Nvidia 收缩 OpenAI 融资担保，引发理性审视",
+      "社区反思：AI 编程更像领导力，而非写代码"
+    ],
+    "ai-ph": [
+      "Inferock Bench 登顶，开发者偏爱可审计开源组件",
+      "GLM-5.3 位列第二，开源模型热度持续高涨",
+      "Big Mike 把体育博彩带进 iMessage，204票夺魁",
+      "Attyn 让光标直接调用 AI，减少 Mac 用户切换",
+      "Zeitik 定位口袋参谋长，主打主动决策辅助",
+      "Supercut 零上传用文字剪视频，交互新颖"
+    ],
+    "ai-hf": [
+      "Kimi K3 以 10762 点赞登顶 HF 全榜",
+      "Qwen3.8-27B 紧随其后，获 10251 点赞",
+      "MiniMax 视频模型占半壁江山，总下载1340万",
+      "DeepSeek-V4-Flash 下载超187万，轻量路线受捧",
+      "量化模型占榜单近三分之一，GGUF/FP8/NVFP4",
+      "Qwen3.8-MoE 2.4T-A95B 发布，系稀疏大模型探索"
+    ],
+    "ai-community": [
+      "开发者用 LLM 直接生成图表，不碰像素级渲染",
+      "Kimi K3 服务难点不在 2.8T 参数，引发讨论",
+      "优化缓存命中率只值 0.16 美元，成本收益引热议",
+      "文章指 AI 失忆是存储缺陷而非记忆缺陷",
+      "教程详解让 LLM 安全调用 API 的工程实践",
+      "Lobste.rs 热议 OpenAI 与 Hugging Face 安全事件"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI ecosystem shifts to reliability hardening",
+      "Session-state corruption and TUI instability top complaints",
+      "MCP schema normalization and ACP token accounting landed",
+      "OpenAI Codex ships rust-v0.148.0-alpha.20",
+      "No unified MCP/agent standard remains structural tax",
+      "Vendors differentiate on Windows, orchestration, integrations"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "35 issues closed, 74 PRs merged/closed",
+      "Reliability hardening: message delivery and event-loop stalls",
+      "WhatsApp, Telegram, Feishu channel regressions addressed",
+      "PR #124528 CPU-profile evidence archive published",
+      "Maintainer triage bandwidth is the bottleneck"
+    ],
+    "ai-infra": [
+      "Infra stack in correctness-hardening, not feature phase",
+      "vLLM and SGLang consolidate KV-cache abstractions",
+      "llama.cpp ships releases b10451–b10453",
+      "LiteLLM stable releases with Anthropic churn",
+      "Speculative decoding remains correctness liability",
+      "AMD/ROCm enablement push across all layers"
+    ],
+    "ai-trending": [
+      "needle's 14MB foundation model gains traction",
+      "unsloth unified local training/inference UI trending",
+      "ToolJet pushes AI agents into low-code apps",
+      "Agent harnesses and memory/context layers dominate",
+      "claude-mem, mem0, graphify: memory everywhere",
+      "Smaller on-device models, bigger agent systems"
+    ],
+    "ai-hn": [
+      "Claude system-prompt transparency and watermarking backlash",
+      "Stripe's reported $7B OpenRouter deal",
+      "GLM-5.3: frontier coding with emergent cyber capabilities",
+      "Gemini 3.7 Flash renews frontier-model comparison",
+      "HN debates whether LLMs reason or retrieve patterns",
+      "Skepticism grows over AI CEO hype and forecasts"
+    ],
+    "ai-ph": [
+      "Inferock Bench tops with 299 votes for LLM receipts",
+      "GLM-5.3 open-source model follows closely",
+      "Big Mike: sports betting tips via iMessage, 204 votes",
+      "Zetik: pocket chief of staff, 179 votes",
+      "Consumer AI branches into niche verticals",
+      "Agents need orchestration, observability, payments"
+    ],
+    "ai-hf": [
+      "Qwen3.8 family spans multimodal 27B and 2.4T MoE",
+      "Kimi-K3 is standout new multimodal with 10.7K likes",
+      "MiniMax-H3 powers open video-generation ecosystem",
+      "DeepSeek-V4 Flash and Pro anchor text LLM tier",
+      "NVIDIA Nemotron Lightning leads text-only releases",
+      "Quantizations, fine-tunes make up half of trending"
+    ],
+    "ai-community": [
+      "Dev.to focus: agent reliability and security boundaries",
+      "Cost observability: prompt cache and GPU mismatches",
+      "SWE-bench moved 0 while model improved at real job",
+      "Lobsters discuss OpenAI–Hugging Face incident",
+      "LLM draws charts via declarative definitions, no pixels",
+      "Kimi K3 serving difficulty explained"
+    ]
+  }
+}
