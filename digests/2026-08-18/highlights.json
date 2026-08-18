@@ -1,0 +1,142 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.234 版本，强化任务控制与消息队列",
+      "OpenAI Codex 发布 rust-v0.148.0-alpha.21 迭代版本",
+      "Gemini CLI 更新至 v0.56.0-nightly.20260817 测试版",
+      "Copilot CLI 单日新增 29 个 issue，稳定性问题受关注",
+      "Qwen Code 发布 v0.21.13 与 v0.21.11-nightly 双版本",
+      "CLI 工具共性痛点：内存泄漏、进程挂起、消息丢失待解"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时 Issue 与 PR 双双达 500 条上限",
+      "96 个 PR 合并关闭，但无新版本发布且积压严重",
+      "大量 P0/P1 问题缺少修复 PR，维护者响应滞后",
+      "安全策略确认机制双端落地，强化插件安装边界",
+      "tsgo 编译器卡死导致 typecheck 无限挂起已修复",
+      "测试基建加固：修复 CI 竞态与临时路径依赖问题"
+    ],
+    "ai-infra": [
+      "Ollama 云端模型泄漏思考标签，致 31M token 浪费",
+      "SGLang 冲刺 DeepSeek-V4 适配，高危 bug 密集",
+      "llama.cpp 连发四个版本，SYCL 后端增强",
+      "vLLM 聚焦 KV cache 演进与 MTP 内存访问崩溃",
+      "Qwen3.8 系列在多框架出现崩溃，尚无修复 PR",
+      "DeepSeek-V4、Kimi-K3 新模型栈适配速度极快"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 单日暴涨 1275 stars 领跑 AI 开源",
+      "llmfit 一条命令评估数百模型硬件可运行性",
+      "omlx 面向 Apple Silicon 的 LLM 推理新工具登榜",
+      "记忆类项目 ai-memory、claude-mem 集中爆火",
+      "headroom 压缩 Token 最高 95%，直击 Agent 成本痛点",
+      "RAG 赛道出现去向量化趋势，转向知识图谱"
+    ],
+    "ai-web": [
+      "Anthropic 今日零发布，进入信息静默期",
+      "OpenAI 新增页面疑宣布加入 Ports Pike 项目",
+      "OpenAI 该条目仅捕获元数据，正文无法获取",
+      "Anthropic 官网 sitemap 共 435 条无新增内容",
+      "OpenAI 官网 sitemap 共 909 条，新增 1 篇",
+      "两巨头均无模型发布，或为下一轮发布蓄力"
+    ],
+    "ai-hn": [
+      "GPT 5.6 Sol 被评 OpenAI 最强视觉模型，HN 热议",
+      "Qwen3.8 27B 在 Artificial Analysis 获 52 分",
+      "传 Stripe 拟 70 亿美元收购 OpenRouter 震动社区",
+      "Copilot Autofix 被曝可被用于攻击 Snowflake",
+      "Anthropic 发布多 Agent 系统模式与问题研究",
+      "Nvidia 被曝缩减 OpenAI 基础设施担保引关注"
+    ],
+    "ai-ph": [
+      "HarnessRouter 社区版 360 票登顶今日 Product Hunt",
+      "Blume 以 304 票位列第二，面向开发者工具",
+      "Chert 定位 FaceTime 版 Vapi，几行代码构建视频 Agent",
+      "Vaaya 将 GitHub 履历变成 Agent 支付信用卡",
+      "Vidaya 健康寿命评分 247 票闯进前三",
+      "头部高票产品均为开发者工具，开源成趋势"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞 1.08 万登顶，下载破 216 万",
+      "Qwen3.8-27B 周点赞 1.07 万紧随其后",
+      "MiniMax-H3 生态全链路涌现，权重量化ComfyUI齐发",
+      "DeepSeek-V4-Flash 下载近 198 万，最热纯文本 LLM",
+      "unsloth 量化方案 GGUF/NVFP4 下载量极高",
+      "Qwen3.8-2.4T-A95B 超大 MoE 模型受关注"
+    ],
+    "ai-community": [
+      "Dev.to 热议 AI 编码风险：不理解代码才是真正危机",
+      "文章教你用 MCP eval 找出测试全过但生产失败盲区",
+      "Codex 与 Claude Code 用 Liar's Dice 对弈引发关注",
+      "开发者提出在 CI 中捕获 Agent 忽略工具调用失败",
+      "专家建议勿将 SQL 直接暴露给模型，防数据陷阱",
+      "模型退役速度超操作系统，需尽快做抽象层预案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.234 and Codex rust-v0.148 highlighted",
+      "Community demands non-interrupting interaction models",
+      "Cost observability top concern across CLI tools",
+      "MCP/OAuth integration hardening underway",
+      "Windows/macOS regressions erode trust",
+      "Nine tools covered in cross-tool comparison"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs in 24h",
+      "96 PRs merged, 404 still open",
+      "Maintainer bandwidth is primary bottleneck",
+      "Codex integration reliability dominates issues",
+      "WhatsApp message-loss and session corruption reported",
+      "Security hardening PRs landed, no new releases"
+    ],
+    "ai-infra": [
+      "Inference ecosystem hardens after DeepSeek-V4, Kimi-K3",
+      "llama.cpp ships 4 releases, up to b10472",
+      "No other project tagged a release in 24h",
+      "Hardware fragmentation: ROCm, XPU, Blackwell, MLX",
+      "Top issues: silent corruption, nondeterminism, memory creep",
+      "DSPARK/MTP/EAGLE drive performance and failures"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo tops AI gainers with +1,275 stars",
+      "strix +656, cybersecurity skills +156 on trending",
+      "ai-memory +207, llmfit +239, omlx +96",
+      "Agent harnesses ECC at 240,694 stars",
+      "hermes-agent reaches 232,003 stars",
+      "Local, hardware-aware agent infrastructure demand grows"
+    ],
+    "ai-hn": [
+      "HN attacks Claude watermarking and system prompts",
+      "Stripe's $7B+ OpenRouter acquisition sparks debate",
+      "GPT 5.6 Sol wows on vision, HN wants benchmarks",
+      "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "AI credit resale economy signals commoditization",
+      "Wiz Copilot Autofix attack raises CI/CD doubts"
+    ],
+    "ai-ph": [
+      "HarnessRouter leads as open-source agent interface",
+      "Blume launches AI-ready documentation framework",
+      "Chert brings AI video agents to FaceTime",
+      "Vaaya turns GitHub profile into agent payment card",
+      "Matimo Workbench adds studio and governance",
+      "Launches shift from single tools to platform infra"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B and Kimi-K3 cross 10k weekly likes",
+      "DeepSeek-V4-Flash hits 1.98M downloads",
+      "MiniMax-H3 Comfy-Org package reaches 14M downloads",
+      "Qwen3.8 official FP8, GGUF, uncensored variants dominate",
+      "NVIDIA Nemotron 3.5 Lightning pushes low-precision serving",
+      "Local inference grows via quantized GGUF releases"
+    ],
+    "ai-community": [
+      "Dev.to zeroes in on agent reliability gaps",
+      "MCP evals: passing tests can still fail real tasks",
+      "CI gate catches agents ignoring failed tool calls",
+      "Lobste.rs debates AI limits and training-data provenance",
+      "Guardrails: CI gates, permissions, realistic evals",
+      "Unexpected code in repos raises production trust doubts"
+    ]
+  }
+}
