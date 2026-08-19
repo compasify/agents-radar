@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.235，记忆压缩丢失引热议",
+      "Codex rust-v0.148.0，10 个安全 PR",
+      "Gemini CLI nightly，SSR Agent修复",
+      "Copilot CLI v1.0.81-1，疑似垃圾 PR",
+      "Pi 更新 50 Issue、27 PR，暂无新版本",
+      "Qwen Code 发 nightly，dsw-eas 验证"
+    ],
+    "ai-agents": [
+      "OpenClaw：500 Issue/PR，333 条待合并",
+      "P1 回归：Matrix 无限重启、事件循环阻塞",
+      "PR #126059/#126069 修复关键回归",
+      "PR #116489 新增 warn 确认，强化供应链安全",
+      "PR #125879 给 connect 加会话托管同意",
+      "PR #126061 稳定插件商店导航，修复 UI 错位"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.1.2 发布，Nightly 连更",
+      "vLLM 为 Kimi K3 提交算子融合内核 PR",
+      "SGLang 新增 K3 Roadmap，修混合加载",
+      "llama.cpp 新增 DFlash2 模型定义",
+      "Ollama 无新 Release，硬件稳定性问题集中",
+      "LiteLLM 网关安全/数据面问题，修复 PR 少"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 日增 2306★领跑",
+      "OpenViking、ai-memory 上榜，记忆赛道升温",
+      "Anthropic 安全技能包日增 726★",
+      "ollama 总星 178,901，本地 LLM 基础设施领跑",
+      "vllm 总星 89,375，生产级推理引擎",
+      "omlx 专注 Apple Silicon 推理，日增 366"
+    ],
+    "ai-web": [
+      "Claude 15 个蛋白靶点成功设计 14 个结合剂",
+      "Claude 设计成功率 22%–35%，超行业水平",
+      "Claude 23/19 分钟解析 NMR/LC-MS 数据",
+      "Anthropic：Claude 加速蛋白质设计与分析化学",
+      "OpenAI 今日 5 条元数据，实际唯一标题 3 个",
+      "OpenAI 新增 Codeai 合作、ChatGPT 青少年场景"
+    ],
+    "ai-hn": [
+      "AI 自动修复代码攻破 Snowflake Jira",
+      "Roboflow 实测称 GPT-5.6 Sol 最强视觉模型",
+      "Claude Code 为 HP 打印机写 macOS 驱动",
+      "YC 新项目 Speko：语音 AI 的 OpenRouter",
+      "fx 发布轻量开源编码 Agent，主打透明可控",
+      "GLM-5.3 第三方基准上线，提供新对照"
+    ],
+    "ai-ph": [
+      "Meridian 今日 435 票居首，开源汇总工作贡献",
+      "Omni 379 票，Agent 在 Slack 自主执行",
+      "Clears 367 票，AI 编程升级为软件交付闭环",
+      "今日 16 款产品超半数面向开发者，前五均为效率工具",
+      "今日头部产品开源占主导",
+      "图像/视频/文本生成类今日缺席，Agent 成主线"
+    ],
+    "ai-arxiv": [
+      "Proteus 提出增量记忆激活，改善长上下文建模",
+      "模型催眠：微弱提示线索可系统性强控 AI",
+      "GRIP 诊断 RAG 查询主导缺陷，强制模型接地",
+      "Le Critique 用特权价值函数改进 LLM 强化学习",
+      "BATON 以子任务探索+记忆缓解机器人错误累积",
+      "TDD-Agent 将测试驱动引入代码生成"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 以 11111 周点赞登顶 HF",
+      "Kimi-K3 周点赞 10827 紧随其后",
+      "MiniMax-H3 视频模型下载量超 1746 万",
+      "DeepSeek V4 Flash 下载超 212 万",
+      "Qwen3.8-2.4T-A95B 是开源 MoE 旗舰",
+      "量化版本霸榜，官方权重+社区分发生态成熟"
+    ],
+    "ai-community": [
+      "COSP 提示技巧让 LLM 自我评分，减少幻觉",
+      "AWS 演示 Nuxt 构建先许可再行动的 Agent",
+      "Google AI 指南：先保证指标清晰，再做可视化",
+      "Agent 常见缺陷：while 循环、超时状态缺失",
+      "编码 Agent 按任务计费更合理，token 计价误导",
+      "五国联合发布 Agentic AI 安全指南，社区热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.235; Codex rust-v0.14",
+      "Mature CLI tools focus on enterprise reliability and compliance",
+      "Cost and billing transparency dominate CLI community discussions",
+      "Windows/desktop reliability gaps reported in six of nine tools",
+      "MCP process lifecycle bugs are industry's weak point",
+      "Challengers race on multi-agent coordination and session continuity"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs, no new releases",
+      "P1 regressions and session-state data-loss bugs dominate",
+      "New Matrix initial-sync loop regression #125679",
+      "Gateway event-loop block in beta.2 (#124788)",
+      "167 PRs merged/closed in last 24 hours",
+      "Critical issues stalled awaiting maintainer review"
+    ],
+    "ai-infra": [
+      "Kimi K3, DeepSeek V4, GLM-5.2 drive kernel optimization",
+      "No major infra releases; llama.cpp ships nightlies",
+      "Ollama ROCm KV-state bleed and llama.cpp response leak",
+      "Speculative decoding stack fragile: MTP crashes and deadlocks",
+      "vLLM fixes Kimi K3 CUDA-graph corruption at batch=1",
+      "SGLang faces sm_103/B300 kernel crashes and DSV4 hang"
+    ],
+    "ai-trending": [
+      "ai-memory surges +730 stars for persistent agent memory",
+      "Anthropic-Cybersecurity-Skills +726 stars",
+      "MoneyPrinterTurbo top gainer +2,306 stars",
+      "OpenViking +298 stars for cross-agent handoff",
+      "omlx brings LLM inference to Apple Silicon menu bar",
+      "ai-agent-book +556 stars for agent engineering education"
+    ],
+    "ai-web": [
+      "Claude designs protein binders at 22–35% vs 10–15% baseline",
+      "Opus 5 produces lab-grade NMR/LC-MS in ~20 minutes",
+      "OpenAI posts five URLs across four announcements",
+      "OpenAI announces Codeai partnership",
+      "OpenAI publishes cyber-capability governance statement",
+      "ChatGPT for Teens product item appears"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol price cut 50% on OpenRouter",
+      "Fake think tank designed to influence chatbots draws debate",
+      "Daring Fireball attacks Claude watermarking",
+      "Google buys Spirit Airlines data; 381 comments",
+      "Snowflake/Jira compromise via AI-generated Copilot autofix",
+      "OpenAI training pause seen as safety or expectation management"
+    ],
+    "ai-ph": [
+      "Meridian tops Product Hunt with 435 votes",
+      "Omni by xpander brings agent oversight to Slack",
+      "Clears automates path from code to shipped software",
+      "Vendo lets end-users build features inside SaaS",
+      "Treg launches 2,600-API gateway",
+      "OpenTrade offers trading harness for Claude Code/Codex"
+    ],
+    "ai-arxiv": [
+      "Proteus: incremental memory activation for long context",
+      "Model Hypnosis shows strong control via subliminal cues",
+      "PIHF brings post-training RL to in-context learning",
+      "Le Critique uses privileged value functions for LLM RL",
+      "AlphaEvolve attacks matrix-multiplication exponent",
+      "AutoSR enables open-ended symbolic regression"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads trending with 11,111 likes",
+      "Qwen3.8-2.4T-A95B: 2.4T params, 95B active",
+      "DeepSeek-V4-Pro-0813 trending",
+      "MiniMax H3 video and Music3 audio gain adoption",
+      "Comfy-Org H3 packaging hits 14.6M downloads",
+      "Kimi-K3 earns 10.8k likes with compressed tensor architecture"
+    ],
+    "ai-community": [
+      "COSP trick lets LLM grade its own outputs",
+      "Nuxt + AI SDK 7 permission-first agent guide",
+      "Five governments issue guidance on securing AI agents",
+      "Rare-books shipment ends at Amazon AI training facility",
+      "Dev.to focuses on evals, bills, and guardrails",
+      "Cost realism posts: per-task billing and MCP overhead"
+    ]
+  }
+}
