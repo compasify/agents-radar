@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.236发布，压缩后记忆丢失引94评论",
+      "OpenAI Codex rust-v0.149.0-alpha，10个PR全部合并",
+      "Gemini CLI连发v0.56.0与v0.57.0-preview.0",
+      "Copilot CLI一日三迭代：v1.0.81-2/-3/-4",
+      "多代理结果可信度与Windows稳定性成通病",
+      "MCP成集成标准，Git命令与沙箱安全收紧"
+    ],
+    "ai-agents": [
+      "OpenClaw待合并PR达416条，修复速度跟不上",
+      "v2026.8.1-beta.2验证中，无新版本发布",
+      "修复Matrix Room v12 ID误判，避免消息静默丢弃",
+      "跨provider修复覆盖Bedrock、Vertex、Ollama",
+      "动态模型加载后Web UI思考开关不刷新已修复",
+      "今日合并/关闭84个PR，P0级bug仍挂起"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.0现回归，DeepSeek-V4适配未稳",
+      "llama.cpp发布b10502，增加签名attestation",
+      "Ollama v0.32.15-rc1修复流式挂起与goroutine泄漏",
+      "LiteLLM v1.99.0-dev.1启用cosign签名",
+      "DFlash2推测解码四栈同步跟进，扩散最快",
+      "静默输出损坏成高频风险，应用层需自校验"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo单日新增2221星，今日最热",
+      "mattpocock/skills单日+1214星，Agent技能霸榜",
+      "Anthropic网络安全技能包获767星",
+      "多代理系统munder-difflin +797星，轻量本地化",
+      "oMLX为Apple Silicon提供LLM推理，+467星",
+      "OpenViking自进化上下文数据库统一Agent记忆"
+    ],
+    "ai-web": [
+      "OpenAI宣布ChatGPT广告扩展至欧洲",
+      "OpenAI为前沿模型提供零数据保留",
+      "Anthropic当日官方零更新",
+      "一攻一守：广告扩张+企业隐私承诺",
+      "新增记录仅有元数据，无正文可解读",
+      "Anthropic内容节奏按研究周期，不跟热点"
+    ],
+    "ai-hn": [
+      "AI;DR讽刺AI没读却总结一切，登HN最热",
+      "Claude写macOS打印机驱动，308分215评论",
+      "Ornith-1.5展示自我改进Agent，159分",
+      "GLM-5.3第三方基准亮眼，143分引对比",
+      "Unsloth Dynamic 3.0降低本地大模型门槛，154分",
+      "《数学在AI时代》引91条评论，两派激辩"
+    ],
+    "ai-ph": [
+      "Clara AI SDR以439票登顶Product Hunt",
+      "Taku AI以401票紧随，销售自动化火热",
+      "Superflow AI用AI代理自动QA网站，261票",
+      "ElevenLabs MCP让Claude管理语音Agent，160票",
+      "AI从对话工具转向可落地执行单元",
+      "本地/自托管基础设施与Agent操作层协同"
+    ],
+    "ai-arxiv": [
+      "Recirculation近乎零延迟提升模型表现，即插即用",
+      "Chain-of-Experience探索LLM从交互经验持续改进",
+      "LLM评判新框架提供可证明风险保证",
+      "IOL-AI挑战：先发现语言规则再推理",
+      "BEAR-Bench双语多模态基准聚焦专业文档",
+      "研究发现自我改进智能体脆弱：任务顺序影响大"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B周点赞11.4k，领跑HF榜单",
+      "Kimi-K3点赞破万，下载超220万",
+      "MiniMax-H3下载突破300万，视频生成受捧",
+      "DeepSeek-V4-Flash下载超230万，最活跃",
+      "LTX-2.5视频生成下载达55.5万",
+      "Qwen3.8系列霸屏，量化微调活跃"
+    ],
+    "ai-community": [
+      "实测5个AI引擎结论互不相同，引SEO警惕",
+      "Agent记忆同级信任是bug，社区提分级方案",
+      "Qwen3.8-27B深度解析成Dev.to焦点",
+      "稀有书籍流向Amazon AI训练，44评论",
+      "1985年AI局限视频重启能力边界讨论",
+      "AI账单隐性消耗实测，成本失控引热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Nine AI CLI tools active; focus on hardening",
+      "Windows reliability is top pain point everywhere",
+      "Copilot CLI shipped three patches in 24h",
+      "Codex shipped two alphas; Git removed from trusted paths",
+      "Persistent-memory and sandbox issues dominate repos",
+      "MCP interoperability is a key cross-tool focus"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "40 issues closed, 84 PRs merged/closed",
+      "v2026.8.1-beta.2 validation underway via #125626",
+      "P0 regressions: session corruption, silent message loss",
+      "Triage bottleneck: critical issues await maintainers",
+      "ClawSweeper bot is shipping fix PRs"
+    ],
+    "ai-infra": [
+      "Inference stack churns on DeepSeek-V4, Kimi-K3, Qwen3.6/3.8",
+      "Speculative decoding is top shared investment and risk",
+      "Silent corruption bugs hit MoE reduce and KV-state",
+      "llama.cpp b10502 ships with signed artifact attestations",
+      "Ollama v0.32.15-rc1 adds model metadata cache",
+      "LiteLLM v1.99.0-dev.1 adds cosign verification"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo is biggest star gainer +2,221",
+      "mattpocock/skills +1,214 leads agent skills wave",
+      "Anthropic-Cybersecurity-Skills +767 stars today",
+      "OpenViking self-evolving context database +803",
+      "obra/superpowers +514 packages agent skills",
+      "omlx local LLM server on Apple Silicon +467"
+    ],
+    "ai-web": [
+      "OpenAI expands ChatGPT Ads across Europe",
+      "OpenAI offers zero data retention for frontier models",
+      "Anthropic published no new content today",
+      "OpenAI captures were metadata-only from URL slugs",
+      "OpenAI sitemap total grows to 918 articles",
+      "Anthropic sitemap stays at 436 articles"
+    ],
+    "ai-hn": [
+      "OpenRouter joining Stripe is top HN story",
+      "Cerebras CS-4 and Spirit Airlines data draw buzz",
+      "Claude Code weekly limits anger developers",
+      "Anthropic Agents.md refusal under fire on HN",
+      "Ornith-1.5 proposes self-scaffolding to self-improvement",
+      "'Norway should buy OpenAI' essay stirs governance debate"
+    ],
+    "ai-ph": [
+      "Clara AI SDR tops Product Hunt with 439 votes",
+      "Taku AI no-code borrowing/customizing hits 401 votes",
+      "Superflow AI automates website QA with 261 votes",
+      "ElevenLabs MCP adds voice-agent management to Claude",
+      "Shepherd, Gauge, CrewTower target agentic workflows",
+      "Hubble and Finch bring health and personal-data AI"
+    ],
+    "ai-arxiv": [
+      "TokEval introduces tokenizer evaluation suite",
+      "Recirculation improves models with no added latency",
+      "Dynamic recurrent compression adapts at test time",
+      "Fragility of self-improving agents gets scrutiny",
+      "Uncertainty-calibrated judging advances LLM evaluation",
+      "Domain AI matures in radiology, finance, speech"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops with 11.5K weekly likes",
+      "Kimi-K3 hits 10.9K likes and 2.3M downloads",
+      "MiniMax H3 ComfyUI port reaches 15.2M downloads",
+      "DeepSeek-V4-Flash-0731 is strong non-Qwen contender",
+      "Qwen3.8 GGUF/FP8/abliterated variants fill top 30",
+      "Abliteration/uncensoring is biggest HF community trend"
+    ],
+    "ai-community": [
+      "Dev.to questions agent memory authority and token bills",
+      "Lobste.rs probes rare books at Amazon AI facility",
+      "Developers demand provenance and hard numbers",
+      "Prompt caching explained for cost-conscious builders",
+      "Type-level guardrails for AI gain traction",
+      "Test of 5 AI engines: none agreed on SEO"
+    ]
+  }
+}
