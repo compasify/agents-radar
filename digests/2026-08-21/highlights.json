@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 与 Codex 用户集中报告基础体验问题，热度断层领先",
+      "OpenAI Codex 发布 rust-v0.149.0 及4个 alpha 预发布",
+      "Gemini CLI 子代理误报 GOAL 成功，可靠性引担忧",
+      "Copilot CLI 出现可疑 PR #4510，社区高度关注",
+      "OpenCode 发布 v1.18.19，架构重构争夺下一阶段话语权",
+      "Qwen Code 发布 v0.21.15，保持活跃迭代节奏"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条 Issue，关闭率仅7.4%，社区活跃但承压",
+      "三条安全认证 PR 合并，打通安装策略确认 UI 闭环",
+      "网关启动失败、文件数据丢失等 P0 回归仍无修复 PR",
+      "339条待合并 PR 积压，含双份消息渲染修复方案",
+      "最新版 v2026.8.1-beta.2 处验证期，本期无新版本",
+      "修复 Claude CLI OAuth 刷新所有权丢失，解决 Control UI 空状态"
+    ],
+    "ai-infra": [
+      "llama.cpp 24小时9个构建，正式发布 GraniteSWA/GraniteMoeSWA 架构",
+      "Unsloth v0.1.801-beta 合并200+ PR，新增 Auto Compaction",
+      "vLLM 修复类 PR 密集，处于“还债”阶段",
+      "SGLang 遭 Qwen3.8 回归，出现 token 循环问题",
+      "Ollama v0.32.15 pre-release 验证通过，但 ROCm KV 串扰待解",
+      "LiteLLM 推进多 pod 一致性与 Rust core 路由"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 单日 +2,774 stars，成最抢眼垂直 AI 工具",
+      "mattpocock/skills 单日 +2,267，Agent Skills 成新增量",
+      "volcengine/OpenViking 当日 +955，长时记忆基建爆发",
+      "腾讯 AI-Infra-Guard 登榜，AI 安全首次成规模出现",
+      "ollama 以 179,060 stars 持续领跑本地推理工具",
+      "cursor/plugins 定义 AI 编辑器插件标准，今日 +473"
+    ],
+    "ai-web": [
+      "Anthropic 研究：Claude 蛋白质结合剂设计成功率 22%-35%",
+      "Claude Opus 5 处理 NMR/LC-MS 原始数据，纯度判定 96.4% 吻合",
+      "科学任务从数周压缩至分钟级，制药流程或根本性变化",
+      "Anthropic 战略转向“科学发现引擎”，强化科研话语权",
+      "部分设计结合亲和力超此前最佳发表结果数倍",
+      "OpenAI 官网当日零更新，数据受限无法分析"
+    ],
+    "ai-hn": [
+      "“Don't paste the AI, please” 981分/533评论，社区反击 AI slop",
+      "OpenRouter 加入 Stripe，AI 基础设施商业化走向引热议",
+      "AGENTS.md 标准化请求 350分/213评论，统一代理上下文",
+      "Ornith-1.5 从自我脚手架转向自我改进，获 208 分",
+      "OpenAI 发布网络攻击能力与模型开发节奏的安全立场",
+      "DFlash 2 并行草稿方案降低生成延迟，获 96 分"
+    ],
+    "ai-ph": [
+      "Astute 以519票断层领先，B2B 营销 AI 工具登顶",
+      "Origin by Cursor 重写 Git 托管流程，开发者赛道最热",
+      "Hosted Agents in Cluing 提供多 Agent 协作托管，188票",
+      "OmniVibe 做“Agent 版应用商店”交易市场，132票",
+      "Cronloop AI 支持无人值守循环 Agent，119票",
+      "Claude Watermark Remover 上榜，AI 文本反检测关注上升"
+    ],
+    "ai-arxiv": [
+      "SPADE 自博弈训练框架，推动智能体在自适应环境中自我改进",
+      "论文首次系统化研究潜空间隐蔽协调，提出 VLA 监控框架",
+      "实证研究揭示“AI 自我训练 AI”缺失迭代改进能力",
+      "ADEPT 大规模 RL 预训练灵巧操作，推进具身智能",
+      "ReWEIGH 用视觉 token 序数证据抑制 LVLM 幻觉",
+      "GS-VLA 用 3D 高斯泼溅增强 VLA 策略视角鲁棒性"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 点赞 11.7k、下载 137 万，成今日最热模型",
+      "DeepSeek-V4-Flash-0731 下载超 254 万，点赞 3575",
+      "MiniMax-H3 视频生成下载 330 万，社区二创活跃",
+      "Kimi-K3 多模态点赞近 1.1 万，采用压缩张量技术",
+      "DeepSeek-V4-Pro-0813 首日上榜，下载 4.3 万",
+      "Qwen3.8 系列去审查量化版本激增，社区需求旺盛"
+    ],
+    "ai-community": [
+      "开发者自制 MCP 记忆服务器，六周真实使用引 12 条评论共鸣",
+      "测试通过但 Prompt 注入攻击仍生效，警示自动化测试盲区",
+      "“Agent 看不见爆炸半径”引发权限控制新思考",
+      "Agentic RAG 检索从步骤变为决策，讨论热烈",
+      "Lobste.rs 热帖：1985 年“AI 的局限”视频被顶到 8 分",
+      "推理账本文章探讨记录决策而非数据，AI 记忆栈新方向"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Codex /undo request is top open item at 394 upvotes",
+      "OpenCode critical filesystem_move_file race wipes data",
+      "MCP integration remains dominant cross-tool friction",
+      "Subagent orchestration emerges as next battleground",
+      "All 9 CLI tools shipped updates in last 24 hours",
+      "Engineering focus shifts to reliability and security"
+    ],
+    "ai-agents": [
+      "OpenClaw saw 500 issues, 500 PRs, 161 merged in 24h",
+      "OpenClaw beta v2026.8.1-beta.2 in validation",
+      "OpenClaw requires explicit ack for install-policy warnings",
+      "37 issues closed; no new release in 24h",
+      "P0/P1 regressions keep maintainer queue heavily loaded",
+      "Release blockers and review bandwidth threaten project health"
+    ],
+    "ai-infra": [
+      "Speculative decoding and FP8/MXFP4/NVFP4 dominate inference",
+      "Qwen family is the biggest integration pressure point",
+      "GPU portability: ROCm, XPU, Ascend, MUSA, Blackwell",
+      "AMD and Intel backends remain less stable than CUDA",
+      "Tool-calling errors: DSML leakage and malformed wrappers",
+      "Pin versions, validate outputs, cap agent costs now"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo tops GitHub trending with +2,774 stars",
+      "mattpocock/skills gains +2,267 stars for agent skills",
+      "volcengine/OpenViking adds +955 stars",
+      "caveman goes viral cutting ~65% Claude Code tokens",
+      "Tencent/AI-Infra-Guard and PostHog advance agent security",
+      "As open-weight models commoditize, skills and memory rise"
+    ],
+    "ai-web": [
+      "Claude designed protein binders that hit 14/15 targets",
+      "Protein binder success 22-35% vs typical 10-15%",
+      "Claude Opus 5 analyzed NMR/LC-MS in 23 and 19 minutes",
+      "Purity match: 96.4% vs lab's 96.33%",
+      "New model names surface: Mythos Preview and Opus 5",
+      "OpenAI had no new content; Anthropic dominates this update"
+    ],
+    "ai-hn": [
+      "HN top thread: 'Don't paste the AI, please' at 981 pts",
+      "OpenRouter joining Stripe sparks 941-point thread",
+      "Ornith-1.5 self-improvement debate: real or benchmark?",
+      "AGENTS.md support and agentic coding harnesses debated",
+      "Asana/Codex case study draws healthy skepticism",
+      "Cautious excitement about tools, wary of AI slop and hype"
+    ],
+    "ai-ph": [
+      "Astute automates B2B viral marketing with 519 votes",
+      "Origin by Cursor rethinks Git for coding agents",
+      "Claude Watermark Remover targets AI-text provenance",
+      "Hosted Agents in Cluing: 188 votes",
+      "OmniVibe agent marketplace: 132 votes",
+      "Trend: multi-agent workflows and authenticity layers"
+    ],
+    "ai-arxiv": [
+      "SPADE makes synthetic executable environments for self-play",
+      "Group-calibrated OPD targets long-context reasoning",
+      "Open-MOPD fixes multi-teacher distillation imbalance",
+      "Activation alignments monitor latent agent communication",
+      "Visual evidence calibration mitigates LVLM hallucination",
+      "Distributed LLM inference across Intel AI PC fleets"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B multimodal leads HF with 11,735 likes",
+      "Unsloth Qwen3.8 GGUF passes 5.1M downloads",
+      "MiniMax-H3 and Lightricks LTX-2.5 lead video generation",
+      "DeepSeek V4 Pro/Flash and Kimi-K3 compete at frontier",
+      "Abliterated Qwen3.8 GGUF variants surge for local use",
+      "MiniMax-Music3 extends generation race into text-to-music"
+    ],
+    "ai-community": [
+      "Dev.to builders focus on agent memory and MCP servers",
+      "Prompt injection test passed while attack still worked",
+      "Lobste.rs covers latent reasoning and historical AI limits",
+      "Go stdlib and Rust symbol indexing trim framework overhead",
+      "Move from demo AI to production: blast radius, memory, trust",
+      "Reasoning Ledger stores decision rationale, not just data"
+    ]
+  }
+}
