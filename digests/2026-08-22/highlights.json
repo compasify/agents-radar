@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 24小时发6个Rust alpha",
+      "Qwen Code 刷 SWE-bench 500、Terminal-Bench 89",
+      "Claude Code v2.1.239 正式版发布",
+      "Gemini 子代理误报成功，可靠性引忧",
+      "Copilot CLI v1.0.81-7 正式版",
+      "生态转向可监督、可回滚、成本可控"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日500 Issue+500 PR，社区爆炸",
+      "RFC 0029 控制模型5个大PR同日提交",
+      "v2026.8.1-beta.2 验证中，18条评论跟进",
+      "高风险插件安装需人工输入目标名确认",
+      "修复网关重启致 Claude CLI OAuth 丢失",
+      "稳定性回归与社区功能请求双峰爆发"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.2.0 正式发布，代际升级",
+      "vLLM 投机解码输出损坏，CUDA graph 派错",
+      "Ollama v0.33.0-rc0 多回归：不停止、全零",
+      "LiteLLM 的 MCP 连接故障集中爆发",
+      "vLLM Model Runner V2 推进默认化",
+      "DeepSeek-V4-Flash 多平台兼容阵痛"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 日增3368星领跑",
+      "MoneyPrinterTurbo 日增1187星，AI视频爆火",
+      "career-ops 日增918星，AI求职走红",
+      "modular 日增905星，Mojo生态回温",
+      "headroom：减少60-95% JSON token",
+      "cursor/plugins 日增391星，插件规范标准化"
+    ],
+    "ai-hn": [
+      "OpenRouter 并入 Stripe，953分登HN榜首",
+      "神秘模型 Ox Alpha 现身 OpenRouter",
+      "Huzzah 获359分，新范式AI编程",
+      "Claudette 专治 Claude 的 BuzzFeed 味",
+      "HN 热议 AI 冲击教育与实体书",
+      "Claude 太啰嗦，催生3个修正项目"
+    ],
+    "ai-ph": [
+      "Grok 4.6 以298票登 Product Hunt 第一",
+      "Aloud：语音变 coding agent 任务",
+      "Berd：乐高式 AI Agent 工作台，106票",
+      "Peach Co-Pilot 驻留 WhatsApp",
+      "Checksum AI 让 agent 自动写测试",
+      "会议 Agent 基建 MeetStream AI 等涌现"
+    ],
+    "ai-arxiv": [
+      "AI4AI-Bench 考验 AI 能否改进训练算法",
+      "Phantom Gains 揭示自改进幻影增益",
+      "MemTrapBench 首测 LLM 记忆认知陷阱",
+      "ConceptGuard 立上下文敏感遗忘基准",
+      "后训练新法让 LLM 免检索内化知识",
+      "文本与数字矛盾，LLM 如何仲裁？"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 登顶，周赞1.2万",
+      "DeepSeek-V4-Flash 下载量破283万",
+      "MiniMax-Music3 文本生音乐，点赞过千",
+      "Qwen3.8-2.4T-A95B：2.4T 超大 MoE",
+      "Ornith-1.5-35B-A3B 激活仅3B",
+      "Qwen 模板修复包获1370赞却零下载"
+    ],
+    "ai-community": [
+      "157个 Agent 实测：瓶颈在规划而非执行",
+      "Pi Agent 对比 OpenCode：100+小时实测",
+      "15美元树莓派跑5.3% RTF唤醒词",
+      "LLM 规划实验可信吗？7条检验标准",
+      "ReFind：Agent 无需记忆，搜索历史即可",
+      "Adam 让误差反馈修正失效1.9倍"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex shipped 6 alpha releases in 24h",
+      "Claude Code posted zero PRs this cycle",
+      "Safety and reversibility of agent actions are hot topics",
+      "MCP reliability and subagent orchestration top concerns",
+      "Windows platform stability is a cross-tool issue",
+      "Open-source challengers compete on extensibility"
+    ],
+    "ai-agents": [
+      "OpenClaw merged/closed 114 PRs in 24h",
+      "P0 SQLite corruption regression hits OpenClaw beta",
+      "OpenClaw has 491 open issues, maintainers bottlenecked",
+      "RFC 0029 Control Model series CM1–CM5 advances",
+      "No OpenClaw release in the last 24 hours",
+      "P1 regressions: auth, OAuth refresh, resource leaks"
+    ],
+    "ai-infra": [
+      "llama.cpp cut v0.2.0 and nightly b10566",
+      "Ollama v0.33.0-rc0 adds MLX fixes, Claude Desktop support",
+      "LiteLLM v1.99.0-dev.2 ships cosign-signed images",
+      "Unsloth Desktop 0.1.801-beta tied to regressions",
+      "DeepSeek-V4-family support tests serving maturity",
+      "Agent workloads dominate inference bug trackers"
+    ],
+    "ai-trending": [
+      "mattpocock/skills tops trending with +3,368 stars",
+      "Agent skills and harnesses dominate today's trending",
+      "MoneyPrinterTurbo adds +1,187 stars",
+      "career-ops applies agentic workflows to job search",
+      "PostHog and cursor/plugins trended",
+      "RAG pivots to vectorless, reasoning-based retrieval"
+    ],
+    "ai-hn": [
+      "OpenRouter joining Stripe tops HN at 953 points",
+      "Anna's Archive accuses AI companies of destroying books",
+      "Stealth model Ox Alpha sparks speculation",
+      "OpenAI defends pacing model development over cyber risks",
+      "AGENTS.md support request for Claude Code",
+      "HN thread: 'I'm becoming AI-blind'"
+    ],
+    "ai-ph": [
+      "Grok 4.6 leads Product Hunt with 298 votes",
+      "Aloud turns spoken feedback into agent tasks",
+      "Berd is a playful open-source agent desktop app",
+      "Agentic observability and testing tools dominate",
+      "Vertical AI expands into health and no-code",
+      "Shift from model demos to agentic reliability"
+    ],
+    "ai-arxiv": [
+      "ConceptGuard benchmarks context-sensitive unlearning",
+      "Phantom Gains: self-improvement gains may be artifacts",
+      "Staged post-training internalizes knowledge without RAG",
+      "New benchmarks target evidence arbitration",
+      "Agentic systems learn when to reason longer",
+      "Semantic caching and model routing are efficiency themes"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B multimodal leads with 11,952 likes",
+      "Moonshot Kimi-K3 trends with 10,913 likes",
+      "MiniMax-H3 hits 3.6M downloads",
+      "DeepSeek-V4-Flash reaches 2.8M downloads",
+      "Dozens of Qwen3.8 abliterated variants in top 30",
+      "MiniMax-Music3 and LTX-2.5 surge"
+    ],
+    "ai-community": [
+      "157-plan test: planning, not execution, breaks agents",
+      "Adversarial LLM critic can become overly strict",
+      "'Felony Bench' tops Lobste.rs AI discussion",
+      "Developers question trusting agent self-reports",
+      "Hand-rolled RAG and context-window testing posts",
+      "1985 AI limits video draws Lobste.rs debate"
+    ]
+  }
+}
