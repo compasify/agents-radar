@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI工具从能力验证进入生产打磨，可靠性安全性成焦点",
+      "Qwen Code发布v0.22.0正式版，迭代加速",
+      "Gemini CLI v0.56.0-nightly修复沙箱绕过，安全加固",
+      "OpenAI Codex推进rust-v0.150.0-alpha.7，保持高频发布",
+      "Claude Code v2.1.240维护版，进入稳定性周期",
+      "Windows/WSL支持成各工具最大短板，社区呼吁补齐"
+    ],
+    "ai-agents": [
+      "OpenClaw单日500 Issue+500 PR，社区热度爆棚",
+      "v2026.8.1-beta.2验证期，多个P0/P1稳定性问题待解",
+      "76个PR合并，安装策略增加警告确认机制",
+      "修复多智能体投递错绑，覆盖13+渠道",
+      "事件循环阻塞、SQLite损坏等关键bug密集修复",
+      "clawsweeper自动化机器人7x24响应社区反馈"
+    ],
+    "ai-infra": [
+      "llama.cpp发10个版本，新模型支持广度夺冠",
+      "SGLang v0.5.18发布，正式支持Muse Glimmer",
+      "vLLM调度器挂死#53130仍无修复",
+      "量化KV cache与投机解码组合成崩溃重灾区",
+      "Ollama MLX内存泄漏未解，tool_choice已修复",
+      "LiteLLM修复Admin UI cookie泄密"
+    ],
+    "ai-trending": [
+      "openai/codex单日涨星1,978，AI编程霸榜",
+      "mattpocock/skills日增2,684，技能工程成热点",
+      "Ollama 17.9万星，本地模型标杆持续领跑",
+      "vLLM 8.97万星，生产级推理引擎热度不减",
+      "sub2api日增264，LLM订阅聚合网关走红",
+      "腾讯开源AI红队平台AI-Infra-Guard，日增161星"
+    ],
+    "ai-hn": [
+      "OpenRouter加入Stripe，955分引发热议",
+      "Anna's Archive涉损毁珍稀书籍，889评论争议",
+      "隐身模型Ox Alpha现身OpenRouter，245分",
+      "Huzzah展示AI结对编程新范式，376分",
+      "Claude Code用户高票求支持AGENTS.md，374分",
+      "Claudette工具让Claude告别BuzzFeed腔"
+    ],
+    "ai-ph": [
+      "Wizstar数字人演员登顶Product Hunt",
+      "OneCLI提供沙箱化企业AI助手，141票",
+      "Plow Latch限定Mac Agent访问范围，140票+97评",
+      "Flunkey语音优先AI层上线Windows",
+      "Vercel fx等轻量编程Agent跨编辑器蔓延",
+      "本地/隐私AI产品成Product Hunt新热点"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 1.2万赞登顶，视觉语言旗舰",
+      "DeepSeek-V4-Flash下载近300万，低延迟主打",
+      "Kimi-K3 1.09万赞，多模态现象级新作",
+      "MiniMax-H3视频生成下载389万，一骑绝尘",
+      "Qwen3.8-2.4T-A95B超大MoE开源，95B激活",
+      "量化/微调衍生家族占HF榜单半壁江山"
+    ],
+    "ai-community": [
+      "AI Agent可靠性成焦点：模型升级致静默失效",
+      "token测量反而放大开销，成本治理引热议",
+      "模型路由成多模型应用关键基础设施",
+      "推理记录账本设计，为Agent增加可审计性",
+      "更大模型不修复规划错误，评测循环更有效",
+      "9种RAG技术速查清单，提升检索质量"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Codex shipped two Rust alphas and a Gemini nightly",
+      "Gemini Seatbelt and Qwen containerized review land",
+      "Community prizes durable, resumable, honest agents",
+      "Silent output truncation and fake completion reports top concerns",
+      "MCP, session lifecycle, sandboxing converge as platform layer",
+      "Windows-specific regressions stand out across trackers"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated in 24h",
+      "No release; v2026.8.1-beta.2 validation issue still active",
+      "76 PRs merged/closed; 479 issues, 424 PRs still open",
+      "Bug focus: event-loop blocking, SQLite corruption, WhatsApp media wedge",
+      "MCP injection and subagent delivery loss are P0/P1",
+      "Many PRs marked 'needs proof' or 'waiting on author'"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.18 shipped — 710 PRs, 212 contributors",
+      "llama.cpp shipped 12 releases (b10576–b10587)",
+      "Focus on speculative decoding, KV-cache, disaggregated serving",
+      "Silent failures: repetition loops, ignored tool_choice",
+      "Agentic demand: tool-call fidelity, prompt-cache observability",
+      "vLLM, Ollama, LiteLLM, Unsloth in fix-and-harden mode"
+    ],
+    "ai-trending": [
+      "OpenAI Codex adds +1,978 stars",
+      "mattpocock/skills +2,684; obra/superpowers +592",
+      "Agent behavior becomes packageable via skills and CLAUDE.md",
+      "sub2api relay for Claude/OpenAI/Gemini/Grok +264",
+      "PostHog AI observability +288; AI-Infra-Guard +161",
+      "Mojo platform modular/modular adds +395"
+    ],
+    "ai-hn": [
+      "OpenRouter joining Stripe sparks developer dependency debate",
+      "Anna's Archive: AI firms destroying rare physical books",
+      "Claude writes a macOS driver — viral on HN",
+      "Ox Alpha stealth model on OpenRouter draws speculation",
+      "Worries over A/B tested 'effort' levels in Claude Code",
+      "'AI-blind' essay captures community fatigue"
+    ],
+    "ai-ph": [
+      "Wizstar digital avatar platform tops PH with 323 votes",
+      "Supernova data-to-Claude/Codex integration gets 319 votes",
+      "Vercel fx, Google Antigravity, Epho target AI coding",
+      "Local/private AI theme: Plow Latch, Local, ShogunAI",
+      "Actx0 agent memory and Router by Ramp token optimization",
+      "OneCLI gives sandboxed pro assistant via CLI — 141 votes"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 12,127 likes, 2,090,699 downloads",
+      "DeepSeek-V4-Flash-0731 nears 3M downloads",
+      "MiniMax-H3 and LTX-2.5 push open video-generation",
+      "Kimi-K3 compressed multimodal release highly liked",
+      "GGUF, FP8, NVFP4 variants flood Qwen3.8 ecosystem",
+      "Abliterated/uncensored local models remain a strong niche"
+    ],
+    "ai-community": [
+      "Dev.to and Lobste.rs focus on token costs and reliability",
+      "Measuring LLM usage can distort behavior",
+      "Bigger models don't fix systematic agent mistakes",
+      "1985 'Limits of AI' video draws Lobste.rs discussion",
+      "RAG article: chunking, reranking, hybrid retrieval",
+      "Closing tab mid-generation wastes LLM token spend"
+    ]
+  }
+}
