@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.241：Auto 模式 Bash 编辑致 /rewind 失效",
+      "OpenAI Codex 今日批量合并 PR，工程推进速度最快",
+      "Gemini CLI v0.56.0-nightly 日活跃量最高，安全修复密集",
+      "Copilot CLI 后台压缩丢失工具输出，报 400 错误",
+      "OpenCode 进入 V2 重构期，PR 响应迅速",
+      "Qwen Code v0.22.0-nightly 持续强化 /review 体系"
+    ],
+    "ai-agents": [
+      "OpenClaw 处于 v2026.8.1-beta.2 验证阶段，发布前密集打磨",
+      "P0 级 SQLite 损坏回归 #126821 仍在排查",
+      "多起消息丢失问题 #127710、#126246 成稳定性挑战",
+      "PR #126566 修复主模型失败后 fallback 任务悬挂",
+      "24 小时内 500 Issues/500 PRs，109 条已合并关闭",
+      "steipete 在 Discord、Gateway 重连、TTS 冷启动持续修复"
+    ],
+    "ai-infra": [
+      "vLLM P0：Kimi-K3 240K 上下文全实例退化",
+      "DeepSeek-V4 在 SM120/GB10 启动失败，MTP 内存越界",
+      "llama.cpp b10603 正式合入 GLM-4.5-Air MTP",
+      "权重缓存将 235B 模型加载从 300s+ 压缩至 1s 内",
+      "LiteLLM v1.98.0/v1.99.0-rc.1 修复凭证覆盖权限漏洞",
+      "SGLang CI 3 broken / 11 flaky，18 个重点 PR并行"
+    ],
+    "ai-trending": [
+      "OpenAI codex 单日 +2729 stars 登顶热榜",
+      "mattpocock/skills 单日 +2448，技能即代码爆发",
+      "hermes-agent 总星 234,949 再涨 +519",
+      "Anthropic 官方插件市场 claude-plugins-community 上线",
+      "free-claude-code 以 1.3B+ 免费 token 登榜",
+      "book-to-skill 单日 +423，技术书一键转 Claude Code 技能"
+    ],
+    "ai-hn": [
+      "Anna's Archive 爆料销毁稀有书训练 AI，628 分",
+      "GLM-5.3 辅助解锁 Fire HD 平板，花 266 美元",
+      "本地 LLM 变笨原因帖 471 分，高赞指使用姿势",
+      "Ox Alpha 低调上线 OpenRouter，252 分引实测",
+      "Anthropic 被曝对 Claude Code 做降低努力程度 A/B 测试",
+      "NanoGPT Speedrun 训练优化，136 分讨论"
+    ],
+    "ai-ph": [
+      "Toplify、Open Analytics、SubtitleGenerator 占前三",
+      "AutoClaw 跨桌面/浏览器/聊天连续执行任务，151 票",
+      "Maccess 把 Mac 触控板与 AI 带到手机端，190 票",
+      "Agents Never Sleep 让 Agent 在 Mac 合盖后持续运行",
+      "Meta 与 Google 分别推出 Pocket、Gemini for Students",
+      "Mac 生态成热点，Pawvis、Port Radar 等本地工具涌现"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 周赞 12,307、下载 235 万登顶",
+      "Moonshot Kimi-K3 周赞 10,949、下载 272 万居第二",
+      "DeepSeek V4 Flash/Pro 双双上榜，Flash 下载超 308 万",
+      "MiniMax-H3 与 LTX-2.5 领跑视频生成方向",
+      "MiniMax-Music3 带来文本生成音乐新能力",
+      "Ornith-1.5-35B-A3B 以 3B 激活 MoE 实现低成本多模态"
+    ],
+    "ai-community": [
+      "Flutter 上 100% 离线 TFLite 碰撞检测引擎发布",
+      "9 个 RAG 技巧实测提升检索质量",
+      "12 岁开发者用 Android 构建 AI 编程导师",
+      "Lobste.rs 重提 1985 年《AI 的极限》反思智能边界",
+      "RAG 检索质量、Agent 上下文与 token 成本成高频话题",
+      "AI 判断 WhatsApp 消息优先级，过滤无关打扰"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI ecosystem enters a reliability-and-trust phase",
+      "Community calls out agents that fake success",
+      "Streaming failures hang or silently drop output",
+      "Persistent memory is the next competitive frontier",
+      "Security work expands to spend caps and isolation",
+      "Codex, Gemini CLI, Pi, Qwen each close 10 PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw logs 500 issues and 500 PRs in 24 hours",
+      "OpenClaw validates v2026.8.1-beta.2 with 18 comments",
+      "Two release-blocker PRs land to unblock beta.3",
+      "Message-delivery reliability tops OpenClaw tracker",
+      "Session-state integrity and Windows stability in focus",
+      "48 issues closed, 109 PRs merged/closed in 24h"
+    ],
+    "ai-infra": [
+      "Speculative decoding for hybrid LLMs drives critical bugs",
+      "llama.cpp ships 9 builds in 24 hours (b10588-b10603)",
+      "vLLM and SGLang focus on regressions, no releases",
+      "LiteLLM ships cosign-signed images for supply chain",
+      "SGLang Weight Cache Daemon cuts loads to under 1s",
+      "Hardware support widens to Blackwell, MI355X, Apple MLX"
+    ],
+    "ai-trending": [
+      "OpenAI Codex gains 2,729 stars today, top trending",
+      "Portable agent skills go mainstream across many CLIs",
+      "free-claude-code advertises 1.3B+ free tokens",
+      "Hermes Agent advances personal, memory-driven AI",
+      "ComfyUI remains default diffusion GUI, +179 stars",
+      "Apache Maka brings agent workspaces to governance"
+    ],
+    "ai-hn": [
+      "Report: AI firms destroying physical books to feed training",
+      "900-comment HN firestorm over digital preservation",
+      "Developer reveals $266 tablet hack using four AI models",
+      "Local LLM feels dumber than it is post resonates",
+      "Codex-vs-Claude agentic coding war continues on HN",
+      "OpenRouter stealth model Ox Alpha sparks speculation"
+    ],
+    "ai-ph": [
+      "AutoClaw tops Product Hunt with 151 votes",
+      "Vercel Zero and AutoClaw push agent runtimes",
+      "Open Analytics brings AI to everyday workflows",
+      "Meta Pocket lowers barrier for AI game creation",
+      "SubtitleGenerator automates AI video captioning",
+      "Mac-centric, local-first AI utilities dominate today"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops Hugging Face with 12,307 likes",
+      "Unsloth GGUF for Qwen3.8 hits 6.67M downloads",
+      "DeepSeek-V4-Flash tops 3.09M downloads",
+      "MiniMax-H3 reaches 4.04M downloads, leads media AI",
+      "Abliterated Qwen3.8 variants draw strong local demand",
+      "Qwen-Fixed-Chat-Templates gets 1,420 likes for fix"
+    ],
+    "ai-community": [
+      "Dev.to focuses on context-window waste and token bloat",
+      "MCP benchmark: one server burns 47K tokens to say hello",
+      "Auditing MCP schema size matters before wiring agents",
+      "RAG quality hinges on document chunking strategy",
+      "OpenAI security scanner claims spark community scrutiny",
+      "Alleged OpenAI model hack of Hugging Face discussed"
+    ]
+  }
+}
