@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 活跃度最高，单个 Issue 获 50 评论、110 赞",
+      "OpenAI Codex 单日发 3 版，PR 合并快，发布频繁",
+      "Windows 崩溃、流式输出中断成跨工具普适痛点",
+      "多智能体协作深化，跨机器 Agent 协议讨论升温",
+      "本地模型支持与多 Provider 兼容性受社区热捧",
+      "安全与资源治理补课：环境变量剥离、内存上限、权限白名单"
+    ],
+    "ai-agents": [
+      "OpenClaw 发 v2026.8.1-beta.3，新增 GPT-5.6 全家族推理",
+      "24 小时更新 500 条 Issue/PR，活跃度极高",
+      "Control UI 新增首次运行设置，引导配置 Custodian 与渠道",
+      "iOS P0 回归已拖 40 天未解决，稳定性存疑",
+      "消息投递丢失、僵尸进程等 P1 级 Bug 大量积压",
+      "PR 合并率仅 15%，评审带宽或成发展瓶颈"
+    ],
+    "ai-infra": [
+      "vLLM 推进 MRV2 执行层默认化，架构从加功能转向收敛",
+      "llama.cpp 单日 8 个版本，本地运行时迭代最快",
+      "投机解码成 Bug 高发区：工具调用损坏、接受率崩塌",
+      "硬件支持扩至 ROCm、Ascend、Rubin，NVIDIA 格局松动",
+      "Agent/工具调用可靠性成生产落地最突出短板",
+      "SGLang 清理 Prefill CP v1，PD 分离稳定性修复进行时"
+    ],
+    "ai-trending": [
+      "GPT-Image2 提示词模板库单日 +2,442，增长最快",
+      "OpenAI Codex 单日 +1,990，领跑编码代理",
+      "1000+ Agent Skills 登榜，Agent 能力拆解为技能包",
+      "apache/maka 用追加式日志记录 Agent 全程",
+      "free-claude-code、freellmapi 主打亿级免费 token",
+      "Ollama 快速支持 Kimi-K2.6、GLM-5.2 等新模型"
+    ],
+    "ai-web": [
+      "Claude Fable 5 生物学安全更新，误报率降约 85%",
+      "Claude 公开文本水印技术细节，回应 EU AI Act 合规",
+      "Claude 蛋白质设计 14/15 靶点成功，强化科学发现能力",
+      "Claude 自动解析 NMR/LC-MS 数据，分析化学能力突破",
+      "OpenAI 仅新增 1 篇元数据，疑似 GPT-5.6 in Kiro",
+      "Anthropic 连发 4 篇，覆盖经济、安全、水印、科学"
+    ],
+    "ai-hn": [
+      "LLM 可反控宿主机？新攻击思路引发安全热议",
+      "agent.md 实战帖获 393 分，约束 AI 编码质量",
+      "低延迟 AI 伴玩系统实时陪玩《天际》，332 分",
+      "Anthropic 最强模型叫好不叫座，OpenAI 降价抢开发者",
+      "Ox-Alpha 被指就是 GLM，模型身份溯源惹争论",
+      "社区反思 AI 编程冲击人类技能，冷热讨论并行"
+    ],
+    "ai-ph": [
+      "Construct Computer 336 票登顶，AI 同事自主操作电脑",
+      "FetchSandbox MCP 247 票，MCP 沙盒助力集成修复",
+      "OPENBOT 开源替代 Grokbot，支持自托管部署",
+      "今日开发者工具与 AI 智能体产品成主线",
+      "OverMCP 等新产品上榜，MCP 生态持续火热",
+      "教育、销售、内容创意垂直 AI 产品多线开花"
+    ],
+    "ai-hf": [
+      "Qwen3.8 生态霸榜，约 20 席衍生模型占据榜单",
+      "DeepSeek-V4-Flash-0731 下载超 327 万，官方权重热",
+      "MiniMax-H3 视频生成下载超 446 万，热度第一",
+      "Ornith-1.5-35B-A3B 低激活 MoE，架构新方向",
+      "Qwen3.8-27B 官方旗舰获 12,508 赞，生态基座",
+      "MiniMax-Music3 音乐生成周点赞过千，赛道升温"
+    ],
+    "ai-community": [
+      "Agent 没有推理问题，而是记忆问题？引发共鸣",
+      "测试全通过但契约出错，验证陷阱值得警惕",
+      "7 个迹象识别 AI 应用过度设计，避免复杂化",
+      "Claude Code 真实工作流分享，非玩具示例",
+      "170 个 Agent 目标仅花 $0.49，现场测试发现 10 类问题",
+      "RAG 助手虚构不存在 API，幻觉问题再敲警钟"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI market splits into enterprise platforms vs fast challengers",
+      "Reliability, not raw model power, now top concern",
+      "Security hardening rises across AI CLI tools",
+      "Windows/desktop stability remains weakest for major CLIs",
+      "MCP integration maturity is a key cross-tool concern",
+      "Cost observability and resource guardrails gain priority"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.8.1-beta.3",
+      "Beta adds GPT-5.6 Sol, Terra, Luna, Ultra reasoning",
+      "OpenClaw sees 500 issues and 500 PRs in 24h",
+      "Control UI now continues setup into Custodian and channels",
+      "Puppeteer-compatible CDP relay for paired Chrome sessions",
+      "Top concerns: message delivery, session-state loss, leaks"
+    ],
+    "ai-infra": [
+      "llama.cpp ships 7 releases: b10604–b10615",
+      "SGLang cuts model load time from 306s to under 1s",
+      "DeepSeek-V4-Flash 8x KV-cache regression hits production",
+      "Ollama Qwen3.8 tool-loop logs 500s errors",
+      "NVIDIA Rubin, AMD gfx950, Ascend NPU support advancing",
+      "No new vLLM, SGLang, Ollama releases in 24h"
+    ],
+    "ai-trending": [
+      "awesome-gpt-image-2 leads stars with +2,442",
+      "openai/codex adds +1,990 stars today",
+      "hermes-agent gains +899 stars",
+      "Claude Code ecosystem becomes plugin distribution platform",
+      "Memory tools: apache/maka logs every agent action",
+      "Cost control layer emerges: headroom, freellmapi"
+    ],
+    "ai-web": [
+      "Anthropic cuts Fable 5 biology fallback events by 85%",
+      "Claude watermarking explainer ties into EU AI Act",
+      "Claude shows strong protein binder design results",
+      "Anthropic pushes into analytical chemistry workflows",
+      "OpenAI crawl yields metadata-only entry, no text",
+      "Anthropic publishes four new items in one day"
+    ],
+    "ai-hn": [
+      "FT: Anthropic adoption struggles top HN with 759 points",
+      "OpenAI GPT-5.6 price cut scores 269 points",
+      "Paul Graham urges learning LLMs from scratch",
+      "Coding expertise collapse sparks big thread",
+      "Local LLM quality and agent.md files draw devs",
+      "Live Skyrim AI companion gains strong engagement"
+    ],
+    "ai-ph": [
+      "Construct Computer AI coworker tops Product Hunt with 336 votes",
+      "FetchSandbox MCP and OverMCP boost MCP ecosystem",
+      "Anthropic launches Claude Academy for official education",
+      "OPENBOT offers open-source Grokbot alternative",
+      "OpenLogi gains traction as open-source option",
+      "Vertical AI apps target sales, video, storytelling"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B official release tops likes at 12,508",
+      "Unsloth GGUF build leads downloads with 7M",
+      "MiniMax-H3 video model reaches 4.4M downloads",
+      "Lightricks LTX-2.5 ships single-file video diffusion",
+      "DeepSeek-V4-Flash-0731 logs 3.2M downloads",
+      "Abliterated and quantized Qwen variants fill trend list"
+    ],
+    "ai-community": [
+      "Dev.to: agents fail on memory, not reasoning",
+      "Evals pass but contracts can still be wrong",
+      "Over-engineering AI apps: start with thinnest LLM call",
+      "Community shifts from model scores to system audits",
+      "RAG hallucination and multi-agent war stories shared",
+      "Lobste.rs explores Bongard problems and AI chips"
+    ]
+  }
+}
