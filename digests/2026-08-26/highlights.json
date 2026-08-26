@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发 v2.1.245/246，社区讨论热度高",
+      "OpenAI Codex 三连 alpha，企业 MCP 安全成 PR 主线",
+      "Gemini CLI 发 v0.57.0 与 preview，修复密集",
+      "GitHub Copilot CLI 插件面板全量开放，但出现两个回归",
+      "OpenCode v1.18.23 修复 Cloudflare AI Gateway 问题",
+      "AI CLI 转向多端多代理平台，工程短板成关注焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 issue/500 PR，但关闭率仅11%",
+      "OpenClaw 仍处 v2026.8.1-beta.3，无新版本发布",
+      "多个 P0/P1 Bug：SQLite 损坏、消息丢失、崩溃循环",
+      "Control UI 大规模重构，composer 改为多行输入",
+      "安全策略确认机制与 Gateway 路由修复有实质进展",
+      "beta 反馈帖成最热话题，可靠性问题仍最大隐忧"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布 v0.3.0，后端适配与性能 PR 密集",
+      "vLLM 现 Kimi-K3 P0 缺陷，但新架构 PR 已提交",
+      "SGLang 合并 Spark 3 与 Nemotron 3.5 支持，速度领先",
+      "Ollama MLX 后端新增 GraniteForCaus 支持",
+      "Unsloth 高频 beta 迭代，Studio 快速演进",
+      "量化组合与特定硬件正确性问题频发，生产稳定性脆弱"
+    ],
+    "ai-trending": [
+      "OpenAI Codex 今日新增 1181 星，终端编码代理受捧",
+      "Karpathy 技能库单日 +830 星，成 Claude 提效利器",
+      "Claude 官方与社区插件市场同日上榜，生态爆发",
+      "GPT-Image2 提示词模板库拿下今日最高星增",
+      "本地运行工具 Ollama 总星 179k，成个人 AI 首选",
+      "RAG 与向量数据库赛道基建项目保持高星总量"
+    ],
+    "ai-web": [
+      "Anthropic 宣布 500 万美元资助幸福感评测研究",
+      "Clio 更名 Anthropic Insights，向平台化产品演进",
+      "Anthropic 经济指数接入 Claude，支持自然语言查询",
+      "Anthropic 设 2 亿美元经济未来研究基金，扩至英欧",
+      "Anthropic 推月度经济调查，强化政策话语权",
+      "OpenAI 仅抓取3条元数据，无正文，内容受限"
+    ],
+    "ai-hn": [
+      "Apple M6/M5 Ultra 算力发布领跑今日 HN 热度",
+      "SemiAnalysis 称 OpenAI 自研芯片超越 NVIDIA Blackwell",
+      "作者用强化学习让 Qwen 学会用代码画画，获194分",
+      "agent.md 提案提升 LLM 辅助编程，获413分175评论",
+      "Anthropic 被指最强模型用户增长乏力，安全团队或罢工",
+      "Paul Graham 手搓 LLM 倡议与斯坦福就业研究引热议"
+    ],
+    "ai-ph": [
+      "Decawork 登顶，专注企业 Agent 治理与权限管控",
+      "Offloop 推人机共享工作区，Agent 参与任务执行",
+      "Antigravity Remote Control 支持浏览器远程操控智能体",
+      "Navigara 将 AI 支出与路线图绑定，成企业刚需",
+      "代码理解、依赖更新、本地联调等开发者工具重做",
+      "今日13个AI产品共获2018票，以闭源SaaS为主"
+    ],
+    "ai-arxiv": [
+      "InjecMEM 揭示针对 agent 记忆子系统的注入攻击",
+      "ConvergeFlow 为连续流语言模型提供可证明收敛保证",
+      "SWE Refactor Bench 直击仓库级重构长时程能力",
+      "SRPO 提出自反思策略优化，突破长时程推理限制",
+      "Safety-Direction Penalty 抑制推理微调引发有害行为",
+      "VLM 时间一致性评测显示当前模型理解被显著高估"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 周赞 12706 登顶，衍生生态庞大",
+      "MiniMax-H3 下载量 463.9 万，为全榜最高",
+      "DeepSeek-V4-Flash 下载超 352.8 万，高效部署热门",
+      "Kimi-K3 周赞近 1.1 万，压缩张量技术亮眼",
+      "LTX-2.5 与 MiniMax-Music3 同台上榜，生成赛道密集",
+      "Uncensored 变体占据微调量化榜近半数席位"
+    ],
+    "ai-community": [
+      "开发者实测提示注入，LLM agent 防御机制引关注",
+      "RAG 检索清单文章引共鸣，25赞17评论",
+      "chat history 被视为 RAG 第二读取路径，需权限控制",
+      "Apple 新 Mac Studio/Mini 成本地推理设备热点",
+      "AI 编程空档期讨论：5-20分钟如何利用引热议",
+      "Google AI 用热力图可视化评估结果，方便利益相关者"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "11 releases shipped across tracked CLIs in 24h",
+      "Claude Code, Codex, Gemini focus on enterprise reliability",
+      "OpenCode, Pi, CodeWhale push provider neutrality",
+      "Windows packaging and MCP auth top complaints",
+      "Small reliability bugs drive outsized user frustration",
+      "Copilot CLI: 42 updated issues, zero PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs in 24h",
+      "P0 SQLite corruption regression recurs on WSL2",
+      "WhatsApp blank bubbles, Telegram stuck outbound among P1s",
+      "Security improvements and Control UI redesign landing",
+      "Beta v2026.8.1-beta.3 under heavy field scrutiny",
+      "Maintainer review bandwidth gating long-standing P1s"
+    ],
+    "ai-infra": [
+      "Speculative decoding now table-stakes, top bug source",
+      "Kimi-K3 degeneration hits both vLLM and SGLang",
+      "vLLM reverts MXFP4+block-FP8 after H100 failures",
+      "Ollama CUDA build silently drops RTX 30-series GPUs",
+      "llama.cpp v0.3.0 and Unsloth two betas shipped",
+      "Multi-vendor hardware enablement drives new kernel work"
+    ],
+    "ai-trending": [
+      "Claude Code ecosystem dominates with plugin marketplaces",
+      "GPT-Image2 prompt engineering spikes +1,698 stars",
+      "OpenAI codex terminal agent gains strong traction",
+      "Apache Maka local-first agent workspace trending",
+      "Vertical AI agents hit job search, trading, Obsidian",
+      "Local-first memory and token optimization lead themes"
+    ],
+    "ai-web": [
+      "Anthropic commits $5M to wellbeing research grants",
+      "Clio renamed to Anthropic Insights (Aug 24)",
+      "Anthropic Economic Index spans Feb 2025–Aug 2026",
+      "OpenAI publishes Full Stack Behind Abundant Intelligence",
+      "OpenAI publishes Jalapeno First Results (duplicate crawl)",
+      "Frontier lab's most comprehensive labor-market measurement"
+    ],
+    "ai-hn": [
+      "Apple M6/M5 Ultra launch tops with 916-point thread",
+      "Anthropic model adoption flag and security-strike reports",
+      "OpenAI: Jalapeño chip, GPT-5.6 price cut, Codex limits",
+      "RL-tuning Qwen to paint with code scores 194 points",
+      "agent.md, Skyrim companion, Pi Qwen excite builders",
+      "Ox-Alpha provenance debate: GLM variant or new?"
+    ],
+    "ai-ph": [
+      "Decawork tops Product Hunt with 332 votes",
+      "Offloop: shared human-AI agent workspace at 308",
+      "Navigara ties AI spend to roadmap priorities",
+      "Cost governance becomes central to AI adoption",
+      "Trend shifts to production-ready control and memory",
+      "Localdock, Bumply, Lucid Train, Codity lead dev tools"
+    ],
+    "ai-arxiv": [
+      "Papers target safety degradation from reasoning fine-tuning",
+      "Proxy-token architectures proposed for ultra-long context",
+      "New benchmarks for whole-repository code migration",
+      "Study warns multi-agent interaction can reduce diversity",
+      "Training-free acceleration for diffusion transformers",
+      "Stable critic training recipe reduces RLHF overhead"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B dominates: 15 of top 30 models",
+      "Unsloth Qwen GGUF leads downloads at 7.3M",
+      "DeepSeek-V4-Flash passes 3.5M downloads",
+      "Kimi-K3 hits 10,996 likes; MiniMax-H3 4.6M downloads",
+      "Abliterated/uncensored Qwen fine-tunes proliferate",
+      "Ornith-1.5-35B-A3B MoE offers efficiency/quality trade-off"
+    ],
+    "ai-community": [
+      "PlannerCritic shares prompt-injection defense case study",
+      "RAG retrieval checklist draws 25 reactions on Dev.to",
+      "Lobste.rs discusses local AI inference on Apple silicon",
+      "Shift from vibe coding to responsible agentic engineering",
+      "Identity and authorization emerge as agent best practices",
+      "Bongard problems surface as reasoning benchmark"
+    ]
+  }
+}
