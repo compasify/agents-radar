@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.247 发布，修复关键崩溃问题",
+      "OpenAI Codex 推出 rust-v0.150.1，性能大幅提升",
+      "Gemini CLI 推出夜间版 v0.59.0，支持新模型",
+      "Qwen Code v0.22.2 发布，优化多语言支持",
+      "OpenCode 与 Pi 近日密集提交，活跃度飙升",
+      "DeepSeek Harness 长期无更新，生态边缘化"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1-beta.3 进入反馈期，核心功能验证中",
+      "内存模块修复 API-key SecretRefs 忽略问题",
+      "Telegram 群组指令泄露漏洞已清理",
+      "tool report 缓存改用内容哈希，命中率提升",
+      "im 模块集成测试目标明确，进展顺利",
+      "高影响力 Issue #125626 待处理，风险待解"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 发布，支持 Qwen3.8-Flash-Next",
+      "SGLang 支持 GLM-5.3-Flash，推理加速",
+      "llama.cpp 新增 Hexagon 异步支持",
+      "Ollama v0.33.1 修复 GUI 与 MLX 兼容性",
+      "LiteLLM v1.100.0-dev.1 启动 Rust 迁移",
+      "Unsloth 修复多设备崩溃，显存管理优化"
+    ],
+    "ai-trending": [
+      "Alishahryar1/free-claude-code 单日涨 536 星",
+      "MadsLorentzen/ai-job-search 一键求职框架爆火",
+      "K-Dense-AI/scientific-agent-skills 科研圈受捧",
+      "Panniantong/Agent-Reach 赋能代理爬取全网",
+      "DietrichGebert/ponytail 让 AI 更像资深开发者",
+      "rohitg00/ai-engineering-from-scratch 可落地教学"
+    ],
+    "ai-web": [
+      "Anthropic 首次披露核安全分类器，准确率96%",
+      "新研究：人格向量可量化监控模型性格变化",
+      "宪法式分类器抵御通用越狱攻击，误拒仅0.38%",
+      "研究证实：Claude 3 Opus 说服力已达人类水平",
+      "与美国能源部合作开发防核扩散技术框架",
+      "企业生态扩张：LLNL、SKT、AWS全面部署"
+    ],
+    "ai-hn": [
+      "GLM-5.3-Flash 极低延迟，中文模型新标杆",
+      "Qwen3.8-Flash-Next 支持端侧部署，潜力大",
+      "开源项目 OpenExecutive 挑战 AI CEO 替代",
+      "标准协议让 AI 代理正确解析 Markdown 响应",
+      "讨论：无状态代理易被封禁，身份需持久",
+      "中国厂商模型迭代快，引发全球关注"
+    ],
+    "ai-ph": [
+      "Ninjō AI 基于 Claude Code 构建销售代理，投122票",
+      "Purchase API 实现 AI 代理自主购物全流程",
+      "Flare 图谱驱动编程环境，投票达120",
+      "session-indexer 解决会话状态管理难题",
+      "akta.pro 限流优化工具，投票破400",
+      "Diet Claude 专治 AI 使用瓶颈，获高度认可"
+    ],
+    "ai-arxiv": [
+      "Prefix Sliding 降低长推理内存开销，效率翻倍",
+      "首提人格向量分析量化模型性格变化",
+      "自进化数据合成 VISA 技术突破显著",
+      "视觉原生推理 VBVR-Pro 开启新范式",
+      "Agentic Autoresearch 实现算法全自动生成",
+      "多智能体社会实现信息素协同创新"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 下载量超 329 万，居榜首",
+      "MiniMax-H3 视频生成模型下载破 470 万",
+      "DeepSeek-V4-Flash-0731 下载量超 385 万",
+      "LTX-2.5 单文件图像转视频模型受热捧",
+      "GGUF 格式在 Qwen/GLM 上广泛传播",
+      "无限制标签频现，用户需求自由化"
+    ],
+    "ai-community": [
+      "DEV 引入结构化 AI 声明，提升内容透明度",
+      "实测五款设计转代码工具，结果差异巨大",
+      "警告：你的防火墙无法识别 LLM 代理行为",
+      "内部评估有盲点，建议引入外部视角",
+      "按任务难度路由模型，成本降 48 倍",
+      "AI 写代码，谁来审查？别答另一个 AI"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.247 released with new fixes",
+      "OpenAI Codex hits 10 hot issues",
+      "Gemini CLI gains traction in dev workflows",
+      "GitHub Copilot CLI now supports multi-session",
+      "Qwen Code sees surge in community forks",
+      "DeepSeek Harness enables local agent testing"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1-beta.3 under active testing",
+      "500 issues and PRs in OpenClaw today",
+      "NanoBot adds real-time task orchestration",
+      "Hermes Agent gains memory persistence",
+      "IronClaw boosts agent security hardening",
+      "LobsterAI integrates with enterprise systems"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 released with spec decoding",
+      "llama.cpp b10643 updates for Apple Silicon",
+      "Ollama v0.33.1 patches critical bugs",
+      "SGLang stable with 468 open PRs",
+      "LiteLLM v1.100.0-dev.1 launched",
+      "Unsloth 2026.8.21 introduces Memory Wheels"
+    ],
+    "ai-trending": [
+      "awesome-gpt-image-2: +4,050 stars today",
+      "Alishahryar1/free-claude-code trending",
+      "MadsLorentzen/ai-job-search goes viral",
+      "anthropics/claude-plugins-community grows",
+      "Ollama: 179K stars, leading local AI",
+      "Firecrawl: web context API now key"
+    ],
+    "ai-web": [
+      "Claude controls Unitree Go2 robot",
+      "96% accurate nuclear safeguards model",
+      "Anthropic partners with U.S. DOE",
+      "OpenAI hints at Hugging Face incident",
+      "Claude plays robotics: full study live",
+      "U.S. government access expands for Claude"
+    ],
+    "ai-hn": [
+      "GLM-5.3-Flash: speed vs. scalability debate",
+      "Qwen3.8-Flash-Next: low-latency inference",
+      "Laion Big Video Dataset launches",
+      "AI CEO replacement sparks controversy",
+      "VM containment failures raise alarms",
+      "Post-AI internet disenchantment grows"
+    ],
+    "ai-ph": [
+      "akta.pro: private company data API",
+      "Diet Claude: bypasses usage limits",
+      "Ninjō AI: sales agents on any channel",
+      "Nimbia: AI screen-sharing for onboarding",
+      "Flare: graph-first IDE for agents",
+      "Agnost AI: detects eval-blind failures"
+    ],
+    "ai-arxiv": [
+      "PlanSightRAG: visual-first RAG for plans",
+      "VISA: agentic self-evolving data synthesis",
+      "When Personality Meets Quantization",
+      "Autoresearch for wireless control",
+      "Biomechanical activity analysis advances",
+      "Spectral probing for model robustness"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 3.3M downloads",
+      "Kimi-K3: 2.9M downloads, strong multimodal",
+      "DeepSeek-V4-Flash-0731: 3.8M downloads",
+      "MiniMax-H3: rising in video generation",
+      "Uncensored fine-tunes proliferate",
+      "GGUF quantized versions dominate"
+    ],
+    "ai-community": [
+      "DEV launches AI disclosure tiers",
+      "AI productivity: playing vs. shipping",
+      "Responsible agentic coding guide",
+      "Apple Macs boost local AI development",
+      "Dev.to warns on blind AI trust",
+      "Memory design crucial for agents"
+    ]
+  }
+}
