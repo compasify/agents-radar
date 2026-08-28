@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.250 安全性增强",
+      "OpenAI Codex 修复关键Rust漏洞",
+      "Qwen Code 增加本地推理支持",
+      "Pi CLI 支持MCP沙箱",
+      "Gemini CLI 增加权限控制",
+      "GitHub Copilot CLI 提升会话持久性"
+    ],
+    "ai-agents": [
+      "OpenClaw 修复会话状态泄露",
+      "PR #131294 更新AI模型目录",
+      "代理思维状态保持",
+      "OpenClaw 会话刷新风暴修复",
+      "Hermes Agent 增强记忆韧性",
+      "IronClaw 更新提供方集成"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 稳定版发布",
+      "SGLang 开发镜像含Qwen38Flash",
+      "Ollama v0.33.2-rc1 增加暗色模式",
+      "LiteLLM 迁移至Rust",
+      "Unsloth v1.2 发布优化版",
+      "llama.cpp 今日新增114个PR"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills 快速增长",
+      "freestylefly/awesome-gpt-image-2: +2k stars",
+      "Anthropic 推出官方插件目录",
+      "tt-a1i/archify: 今日+4,239 stars",
+      "ComposioHQ/awesome-claude-skills 快速发展",
+      "OpenMontage 实现全栈代理流水线"
+    ],
+    "ai-web": [
+      "Anthropic 预览模型硬件标准",
+      "Claude for Scientists 全球扩展",
+      "Claude Corps：1.5亿美元奖学金启动",
+      "OpenAI 聚焦学生批判性思维",
+      "巴西市场扩张迹象浮现",
+      "MHS 实现物理实验室AI控制"
+    ],
+    "ai-hn": [
+      "GLM-5.3-Flash 在HN得分1105",
+      "Gemini Omni 1.1 Flash 达速度基准",
+      "Terminal-Bench-Science 评估代理推理",
+      "MIT AI使用委员会报告引发争议",
+      "AI意识讨论升温",
+      "CEO因AI越界解雇开发人员"
+    ],
+    "ai-ph": [
+      "Expertise AI：变现上市专家经验",
+      "OpenComputer：代理的Firebase",
+      "Warren：生产级代理基础设施",
+      "MCP-Builder.ai：快速连接数据",
+      "Arena Agent Mode 今日上线",
+      "Tellie Prompter 1.5 提升销售团队效能"
+    ],
+    "ai-arxiv": [
+      "PACE 加速视觉语言模型推理",
+      "DPO 解耦提升对齐效果",
+      "TraceBench 评估代理推理",
+      "合同中心架构发布",
+      "LAAF 保障代理责任",
+      "FoldPipe 优化分子机器学习模型"
+    ],
+    "ai-community": [
+      "AI代码维护成本仍高",
+      "NexPath 早期捕捉模糊提示",
+      "开发团队弃用AI后功能",
+      "对抗测试流水线增长",
+      "AI代理不惧人类延迟",
+      "代理需战略工作流"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.250 stabilizes security",
+      "OpenAI Codex fixes critical Rust bug",
+      "Qwen Code gains local inference support",
+      "Pi CLI now supports MCP sandboxing",
+      "Gemini CLI adds permission enforcement",
+      "GitHub Copilot CLI improves session persistence"
+    ],
+    "ai-agents": [
+      "OpenClaw fixes session state leaks",
+      "PR #131294 refreshes AI model catalog",
+      "Agent thinking state now preserved",
+      "Session refresh storms fixed in OpenClaw",
+      "Hermes Agent gains memory resilience",
+      "IronClaw updates provider integration"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 stable release out",
+      "SGLang dev image with Qwen38Flash",
+      "Ollama v0.33.2-rc1 adds dark mode",
+      "LiteLLM migrates to Rust",
+      "Unsloth v1.2 released with optimizations",
+      "llama.cpp sees 114 new PRs today"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills surges",
+      "freestylefly/awesome-gpt-image-2: +2k stars",
+      "Anthropic launches official plugin directory",
+      "tt-a1i/archify: +4,239 stars today",
+      "ComposioHQ/awesome-claude-skills grows fast",
+      "OpenMontage enables full-stack agent pipelines"
+    ],
+    "ai-web": [
+      "Anthropic previews Model Hardware Standard",
+      "Claude for Scientists expands globally",
+      "Claude Corps: $150M fellowship launched",
+      "OpenAI focuses on student critical thinking",
+      "Brazilian market expansion hinted at",
+      "MHS enables AI control of physical labs"
+    ],
+    "ai-hn": [
+      "GLM-5.3-Flash scores 1105 on HN",
+      "Gemini Omni 1.1 Flash hits speed benchmarks",
+      "Terminal-Bench-Science evaluates agents",
+      "MIT AI Use Committee report sparks debate",
+      "AI consciousness debate heats up",
+      "CEO fired devs for AI overreach story"
+    ],
+    "ai-ph": [
+      "Expertise AI: monetize GTM expertise",
+      "OpenComputer: Firebase for agents",
+      "Warren: production-grade agent infra",
+      "MCP-Builder.ai: connect data fast",
+      "Arena Agent Mode launches today",
+      "Tellie Prompter 1.5 boosts sales teams"
+    ],
+    "ai-arxiv": [
+      "PACE accelerates VLM inference",
+      "DPO disentanglement improves alignment",
+      "TraceBench evaluates agent reasoning",
+      "Contract-Centered Architecture launched",
+      "LAAF ensures agent accountability",
+      "FoldPipe optimizes molecular ML models"
+    ],
+    "ai-community": [
+      "AI code maintenance costs remain high",
+      "NexPath catches vague prompts early",
+      "Dev teams revert features post-AI",
+      "Adversarial testing pipelines grow",
+      "AI agents don’t flinch at human delays",
+      "Strategic workflows needed for agents"
+    ]
+  }
+}
