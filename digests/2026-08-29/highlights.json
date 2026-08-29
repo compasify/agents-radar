@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.251 优化会话处理",
+      "OpenAI Codex Alpha 支持多代理工作流",
+      "Pi v0.84.4 实现实时代理协作",
+      "Qwen Code 优先本地执行与安全",
+      "Gemini CLI 夜间构建快速迭代功能",
+      "GitHub Copilot CLI 补丁修复严重漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.1-beta.1 修复崩溃恢复",
+      "网关重启保留代理回合",
+      "OpenClaw beta 配置持久化改进",
+      "OpenClaw 报告高危内存泄漏",
+      "生产环境仍存会话损坏风险",
+      "OpenClaw 状态变更需迁移路径"
+    ],
+    "ai-infra": [
+      "vLLM 新增8个PR，4个关键问题开放",
+      "SGLang 修复推测解码缺陷",
+      "llama.cpp 发布b10679、b10678更新",
+      "Ollama v0.33.1 高风险不稳定",
+      "LiteLLM v1.100.0-dev.2 优化路由",
+      "Unsloth 聚焦GPU后端可靠性"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills 增加720星",
+      "OpenMontage 新增1,144星爆发",
+      "archify 实现视觉到代码抽象",
+      "截图转代码受关注",
+      "RAG与向量数据库主导搜索",
+      "Agent-Reach 获76k星用于网页浏览"
+    ],
+    "ai-web": [
+      "Claude代理关闭75%安全缺口",
+      "Anthropic 推出免费科研订阅",
+      "模型硬件标准(MHS)预览发布",
+      "Claude for Teachers 进入预览",
+      "AI可审计并改进自身对齐",
+      "新项目聚焦科学AI工作流"
+    ],
+    "ai-hn": [
+      "法院裁定特朗普封杀Anthropic非法",
+      "OpenAI 在SpaceX收购后疏远Cursor",
+      "StemDeck：免费本地AI干细胞分离器",
+      "GLM-5.3-Flash 与全球模型竞争",
+      "自主数学发现引发争议",
+      "Terminal-Bench-Science基准发布"
+    ],
+    "ai-ph": [
+      "Skydive Product Hunt获414票领先",
+      "Traccia提供无厂商依赖控制平面",
+      "IQ路由优化成本效益路由",
+      "Pluto将个人资料转为AI职业代理",
+      "Ojin 提供带语音的逼真AI形象",
+      "Enter Pro 是开发者原生AI平台"
+    ],
+    "ai-arxiv": [
+      "CritICL 让小模型实现泛化",
+      "Puro-2B 5千美元训练1.5B模型",
+      "SCIT 揭露评估体系缺陷",
+      "《并非所有评估意识都相等》论文发布",
+      "CorporateBench 测试真实代理性能",
+      "BrailleBench 推动AI无障碍进步"
+    ],
+    "ai-community": [
+      "AI记住一切——信任边界至关重要",
+      "Strands代理助Claude Opus 5达99.95%",
+      "LLM批评者自相矛盾每轮皆然",
+      "RAG管道面临幻觉风险",
+      "沙盒代理事件泄露API密钥",
+      "SQLite FTS5受青睐用于本地控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.251 stabilizes session handling",
+      "OpenAI Codex Alpha now supports multi-agent workflows",
+      "Pi v0.84.4 adds real-time agent collaboration",
+      "Qwen Code prioritizes local execution and security",
+      "Gemini CLI nightly builds show rapid feature rollout",
+      "GitHub Copilot CLI patch fixes critical bugs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.1-beta.1 fixes crash recovery",
+      "Gateway restarts now preserve agent turns",
+      "Config persistence improved in OpenClaw beta",
+      "High-severity memory leaks reported in OpenClaw",
+      "Session corruption risks remain in production",
+      "Migration path needed for OpenClaw state changes"
+    ],
+    "ai-infra": [
+      "vLLM sees 8 PRs, 4 critical issues open",
+      "SGLang addresses speculative decoding bugs",
+      "llama.cpp releases b10679, b10678 updates",
+      "Ollama v0.33.1 unstable with high risk",
+      "LiteLLM v1.100.0-dev.2 improves routing",
+      "Unsloth focuses on GPU backend reliability"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills +720 stars",
+      "OpenMontage surges with 1,144 new stars",
+      "archify enables visual-to-code abstraction",
+      "screenshot-to-code gains traction",
+      "RAG and vector databases dominate searches",
+      "Agent-Reach gets 76k stars for web browsing"
+    ],
+    "ai-web": [
+      "Claude agents close 75% of safety gaps",
+      "Anthropic launches free scientist subscriptions",
+      "Model Hardware Standard (MHS) previewed",
+      "Claude for Teachers now in preview",
+      "AI can audit and improve its own alignment",
+      "New program targets scientific AI workflows"
+    ],
+    "ai-hn": [
+      "Court rules Trump’s Anthropic blacklist illegal",
+      "OpenAI distances from Cursor post-SpaceX buy",
+      "StemDeck: free local AI stem separator",
+      "GLM-5.3-Flash competes with global models",
+      "Autonomous math discovery sparks debate",
+      "Terminal-Bench-Science benchmark launched"
+    ],
+    "ai-ph": [
+      "Skydive leads with 414 votes on Product Hunt",
+      "Traccia offers vendor-neutral control plane",
+      "IQ Routing optimizes cost-efficient routing",
+      "Pluto turns profiles into AI career agents",
+      "Ojin delivers lifelike AI avatars with voice",
+      "Enter Pro is AI-native platform for developers"
+    ],
+    "ai-arxiv": [
+      "CritICL enables small LLMs to generalize",
+      "Puro-2B trains 1.5B model under $5k",
+      "SCIT exposes flaws in current evaluation",
+      "Not All Eval-Awareness Is Equal paper released",
+      "CorporateBench tests real-world agent performance",
+      "BrailleBench advances accessibility in AI"
+    ],
+    "ai-community": [
+      "AI remembers everything—trust boundaries key",
+      "Strands agent boosts Claude Opus 5 to 99.95%",
+      "LLM critic disagreed with itself on every trial",
+      "RAG pipelines face hallucination risks",
+      "Sandboxed agents leak API keys in incidents",
+      "SQLite FTS5 gains favor for local control"
+    ]
+  }
+}
