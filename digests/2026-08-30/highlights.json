@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Beta v0.9.2 新增功能上线",
+      "OpenAI Codex v1.0 后停止支持",
+      "Gemini CLI Alpha v0.3.1 正在积极开发",
+      "GitHub Copilot CLI 出现112个开放问题",
+      "Qwen Code 在开源社区获得关注",
+      "Pi CLI 工具早期采用势头强劲"
+    ],
+    "ai-agents": [
+      "OpenClaw v0.9.1 稳定版，含487个问题",
+      "Hermes Agent beta v0.8.4 发布",
+      "IronClaw 预发布版 v0.7.2 上线",
+      "QwenPaw 问题达512个，热门代理",
+      "ZeroClaw Labs 推出新隐私代理",
+      "OpenClaw 健康评分8.2（高）"
+    ],
+    "ai-infra": [
+      "SGLang 修复推测解码死锁",
+      "Blackwell SM100 NVFP4 内核进入开发",
+      "ROCm gfx1250 实验性支持加入",
+      "SGLang 扩展扩散模型支持",
+      "vLLM 稳定性改进持续进行",
+      "LiteLLM 增强多供应商路由"
+    ],
+    "ai-web": [
+      "Anthropic 发布模型硬件标准",
+      "MHS 实现 AI 控制实验设备",
+      "HHMI Janelia 合作宣布",
+      "AI 代理可自动化复杂流程",
+      "MHS 将设置时间从数周缩短至分钟",
+      "聚焦科学领域的可执行 AI 代理"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Beta v0.9.2 launched with new skills",
+      "OpenAI Codex deprecated after v1.0 release",
+      "Gemini CLI Alpha v0.3.1 now in active development",
+      "GitHub Copilot CLI hits 112 open issues",
+      "Qwen Code gains traction in open-source community",
+      "Pi CLI tool shows strong early adoption"
+    ],
+    "ai-agents": [
+      "OpenClaw v0.9.1 stable with 487 issues",
+      "Hermes Agent beta v0.8.4 released",
+      "IronClaw pre-release v0.7.2 now live",
+      "QwenPaw hits 512 issues, top trending agent",
+      "ZeroClaw Labs launches new privacy-focused agent",
+      "OpenClaw health score at 8.2 (high)"
+    ],
+    "ai-infra": [
+      "SGLang fixes speculative decoding deadlock",
+      "Blackwell SM100 NVFP4 kernels now in dev",
+      "ROCm gfx1250 support added experimentally",
+      "SGLang expands diffusion model support",
+      "vLLM stability improvements ongoing",
+      "LiteLLM enhances multi-provider routing"
+    ],
+    "ai-web": [
+      "Anthropic launches Model Hardware Standard",
+      "MHS enables AI control of lab instruments",
+      "HHMI Janelia collaboration announced",
+      "AI agents now automate complex workflows",
+      "MHS cuts setup time from weeks to minutes",
+      "Focus on executable AI agents for science"
+    ]
+  }
+}
