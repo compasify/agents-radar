@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code今日引爆10个热门问题",
+      "OpenAI Codex发布alpha v0.152.0",
+      "Gemini CLI推出夜间版v0.59.0",
+      "Copilot CLI新增10个问题",
+      "Qwen Code在CLI领域崭露头角",
+      "Pi工具活跃，报告10个问题"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.8.1-beta.3待验证",
+      "OpenClaw生态500个问题与PR",
+      "会话状态损坏漏洞被报告",
+      "内存泄漏影响代理稳定性",
+      "Hermes Agent获社区关注",
+      "IronClaw增强多通道交付"
+    ],
+    "ai-infra": [
+      "LiteLLM发布v1.100.0-rc.1",
+      "vLLM问题数量上升至42",
+      "SGLang新增推测解码支持",
+      "Unsloth优化边缘部署",
+      "Ollama面临52个开放问题",
+      "llama.cpp新增48个开放问题"
+    ],
+    "ai-trending": [
+      "K-Dense-AI 24小时内斩获1,114颗星",
+      "THU-MAIC新增1,370颗星",
+      "freellmapi提供34个免费LLM服务",
+      "archify提升视觉AI工具",
+      "vphone-cli聚焦语音接口开发",
+      "scientific-agent-skills已超19万+用户"
+    ],
+    "ai-hn": [
+      "法院裁定Anthropic封禁行为违法",
+      "GLM-5.3-Flash创速度纪录",
+      "Claude Code被简单摘要欺骗",
+      "自主数学发现引发争议",
+      "CEO因AI被解雇，开发者抗议",
+      "审查移除工具病毒式传播"
+    ],
+    "ai-ph": [
+      "1752vc Pitch Deck Analyzer上线",
+      "腾讯Hy4预览引关注",
+      "Cohere Parse 5数据提取表现优异",
+      "Staats将分析转为对话",
+      "Democruit助力求职者",
+      "God’s Eye View模拟卫星数据"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731下载量达450万",
+      "Qwen3.8-Flash-Next新增12.1万下载",
+      "zai-org/GLM-5.3-Flash下载量达34.6万",
+      "unsloth/Qwen3.8-27B-GGUF突破880万",
+      "MiniMax-H3主导视频生成",
+      "Kimi-K3引领多模态效率"
+    ],
+    "ai-community": [
+      "AI代理险些触发回滚",
+      "自省模型更显关键",
+      "CORS移交GKE网关处理",
+      "MCP服务器安全担忧上升",
+      "Jalapeño芯片挑战NVIDIA",
+      "极简主义受推崇超越过度设计"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues today",
+      "OpenAI Codex releases alpha v0.152.0",
+      "Gemini CLI rolls out nightly v0.59.0",
+      "Copilot CLI sees 10 new issues",
+      "Qwen Code gains traction in CLI space",
+      "Pi tool active with 10 issue reports"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.8.1-beta.3 under validation",
+      "500 issues and PRs in OpenClaw ecosystem",
+      "Session state corruption bug reported",
+      "Memory leaks affecting agent stability",
+      "Hermes Agent gaining community momentum",
+      "IronClaw enhances multi-channel delivery"
+    ],
+    "ai-infra": [
+      "LiteLLM releases v1.100.0-rc.1",
+      "vLLM sees rising issue count (42)",
+      "SGLang adds speculative decoding support",
+      "Unsloth improves edge deployment",
+      "Ollama faces 52 open issues",
+      "llama.cpp grows with 48 open issues"
+    ],
+    "ai-trending": [
+      "K-Dense-AI gains 1,114 stars in 24h",
+      "THU-MAIC hits 1,370 new stars",
+      "freellmapi offers 34 free LLM providers",
+      "archify boosts visual AI tooling",
+      "vphone-cli targets voice interface dev",
+      "scientific-agent-skills now used by 190k+"
+    ],
+    "ai-hn": [
+      "Judge rules Anthropic blacklisting illegal",
+      "GLM-5.3-Flash sets speed records",
+      "Claude Code tricked by simple summaries",
+      "Autonomous math discovery sparks debate",
+      "CEO fired for AI—developers revolt",
+      "Censorship removal tool goes viral"
+    ],
+    "ai-ph": [
+      "1752vc Pitch Deck Analyzer launches",
+      "Tencent’s Hy4 preview draws attention",
+      "Cohere Parse 5 excels at data extraction",
+      "Staats turns analytics into chat",
+      "Democruit guides job seekers",
+      "God’s Eye View simulates satellite data"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 hits 4.5M downloads",
+      "Qwen3.8-Flash-Next gains 121k downloads",
+      "zai-org/GLM-5.3-Flash hits 346k downloads",
+      "unsloth/Qwen3.8-27B-GGUF passes 8.8M",
+      "MiniMax-H3 dominates video generation",
+      "Kimi-K3 leads multimodal efficiency"
+    ],
+    "ai-community": [
+      "AI agent nearly triggered rollback",
+      "Self-debating model more critical",
+      "CORS offloaded to GKE Gateway",
+      "MCP server security concerns rise",
+      "Jalapeño chip challenges NVIDIA",
+      "Minimalism praised over over-engineering"
+    ]
+  }
+}
