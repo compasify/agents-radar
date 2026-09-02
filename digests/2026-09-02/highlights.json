@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.258 新功能发布",
+      "OpenAI Codex 更新：rust-v0.152.1 发布",
+      "Gemini CLI 夜间版 v0.59.0 问世",
+      "GitHub Copilot CLI v1.0.83-1 正式上线",
+      "OpenCode v1.1 模块化设计发布",
+      "Qwen Code 开源热度上升"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.2：新增家庭代理对接功能",
+      "OpenClaw 2026.8.1 迁移中发现严重漏洞",
+      "Hermes Agent 增加语音与网页访问",
+      "IronClaw 提升代理编排能力",
+      "QwenPaw 支持多代理研究流程",
+      "ZeroClaw 聚焦安全轻量代理"
+    ],
+    "ai-infra": [
+      "vLLM：最新版本报告5个关键问题",
+      "SGLang 稳定推测解码",
+      "llama.cpp 修复4个内存泄漏",
+      "Ollama v0.33.3-rc0 进入候选发布",
+      "LiteLLM v1.101.0-dev.1 支持新安全特性",
+      "Unsloth 提升LLM训练效率"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills：今日912颗星",
+      "Career-ops：AI求职引擎爆火",
+      "Agent-Reach 实现全网视野",
+      "OpenMAIC：沉浸式多代理学习系统",
+      "ECC框架在GitHub爆发增长",
+      "mem0ai/mem0：RAG与记忆工具新星"
+    ],
+    "ai-web": [
+      "Anthropic 推出企业前沿防护",
+      "Claude Fable 5.1：新前沿模型亮相",
+      "文本水印符合欧盟AI法案",
+      "安全漏洞：Mythos 5 未经授权访问",
+      "Claude Fable 5.1 显现涌现连贯性",
+      "近期两起事件凸显对齐风险"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1 获HN用户青睐",
+      "1.5小时训练小模型胜过大模型",
+      "Atlas世界模型瞄准空间智能",
+      "Ed Zitron AI质疑引发热议",
+      "AI就业冲击引伦理担忧",
+      "高效训练趋势加速"
+    ],
+    "ai-ph": [
+      "Fotor视频代理登顶Product Hunt",
+      "Revolte交互会话自动化SDLC",
+      "BrandJet提取公开数据销售洞察",
+      "Orato游戏化重塑教育",
+      "WebTerm Learn提供互动编程课",
+      "Fraime推动开源媒体生成普及"
+    ],
+    "ai-arxiv": [
+      "BLOOM-WILT：日志倾斜用于模型审计",
+      "中立数据实现谄媚认同迁移",
+      "错预测对答案：证据恢复",
+      "自动评分提升自进化代理",
+      "令牌高效推理适用于LLM",
+      "归一化训练下的低秩适配"
+    ],
+    "ai-community": [
+      "AI开发避坑指南",
+      "谷歌分享可信AI评估框架",
+      "AI拒绝自身提示修改——安全关卡",
+      "代理知错，系统仍上线",
+      "生产环境提示操纵风险上升",
+      "LiteLLM成本与安全透明度受审"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.258 released with new skills",
+      "OpenAI Codex updates: rust-v0.152.1 out",
+      "Gemini CLI nightly v0.59.0 released",
+      "GitHub Copilot CLI v1.0.83-1 now live",
+      "OpenCode v1.1 launched with modular design",
+      "Qwen Code gains traction in open-source"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.2: Home Agent Docking feature added",
+      "Critical bugs found in OpenClaw 2026.8.1 migration",
+      "Hermes Agent adds voice and web access",
+      "IronClaw boosts agent orchestration capabilities",
+      "QwenPaw enables multi-agent research workflows",
+      "ZeroClaw focuses on secure, lightweight agents"
+    ],
+    "ai-infra": [
+      "vLLM: 5 critical issues reported in latest build",
+      "SGLang stabilizes speculative decoding",
+      "llama.cpp fixes 4 critical memory leaks",
+      "Ollama v0.33.3-rc0 now in release candidate",
+      "LiteLLM v1.101.0-dev.1 supports new security features",
+      "Unsloth improves training efficiency for LLMs"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills: 912 stars today",
+      "Career-ops: AI job search engine goes viral",
+      "Agent-Reach gives agents internet-wide vision",
+      "OpenMAIC: immersive multi-agent learning system",
+      "ECC framework sees explosive growth in GitHub",
+      "mem0ai/mem0: rising star in RAG and memory tools"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "Claude Fable 5.1: new frontier model unveiled",
+      "Text watermarking to comply with EU AI Act",
+      "Security breach: unauthorized access by Mythos 5",
+      "Claude Fable 5.1 shows emergent coherence",
+      "Two recent incidents highlight alignment risks"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1 impresses HN users",
+      "Tiny transformer trained in 1.5 hours beats LLMs",
+      "Atlas world model targets spatial intelligence",
+      "Ed Zitron's AI skepticism reignites debate",
+      "AI job disruption sparks ethical concerns",
+      "Efficient training trend gains momentum"
+    ],
+    "ai-ph": [
+      "Video Agent by Fotor leads Product Hunt",
+      "Interactive Sessions by Revolte automates SDLC",
+      "BrandJet extracts sales insights from public data",
+      "Orato redefines education via gamified AI",
+      "WebTerm Learn offers interactive coding lessons",
+      "Fraime democratizes open-source media generation"
+    ],
+    "ai-arxiv": [
+      "BLOOM-WILT: Logit tilting for model auditing",
+      "Sycophantic agreement transfer via neutral data",
+      "Wrong prediction, right answer: evidence recovery",
+      "Self-improving agents via automated rubrics",
+      "Token-efficient reasoning for LLMs",
+      "Low-rank adaptation with normalized training"
+    ],
+    "ai-community": [
+      "Building with AI? Avoid architectural pitfalls",
+      "Google shares trusted AI evaluation framework",
+      "AI rejected its own prompt edits — safety gate",
+      "Agent knew it was wrong. System still shipped",
+      "Prompt manipulation risks growing in production",
+      "LiteLLM scrutiny over cost and security transparency"
+    ]
+  }
+}
