@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.259 新增无头支持",
+      "OpenAI Codex 发布带 Vim 模式的 rust-v0.153.0",
+      "GitHub Copilot CLI v1.0.83-3 修复模型回退",
+      "Gemini CLI 安全 PR 多但仍未发布",
+      "OpenCode 24 小时新增 10 个 PR",
+      "Qwen Code 在开源社区获关注"
+    ],
+    "ai-agents": [
+      "OpenClaw：24 小时提交 500 个问题与 PR",
+      "v2026.8.1 后未发布新版本",
+      "报告严重认证迁移失败",
+      "OpenClaw 会话状态损坏激增",
+      "代理崩溃循环主导报告",
+      "界面优化与可观测性驱动 PR"
+    ],
+    "ai-infra": [
+      "vLLM：12 个高危问题，暂无发布",
+      "SGLang 稳定在 v0.5.18",
+      "llama.cpp：10 个高危问题",
+      "Ollama 提升开发体验",
+      "LiteLLM 迁移至 Rust 以提速",
+      "Unsloth 在边缘推理表现优异"
+    ],
+    "ai-trending": [
+      "TimesFM 今日增长 +343 颗星",
+      "DietrichGebert/ponytail 增加 1,354 颗星",
+      "Hermes-Agent 推动代理自主趋势",
+      "VoiceStudio 强调本地 AI 隐私",
+      "Panniantong/Agent-Reach 实现自演化代理",
+      "pacifio/atlas：AI 代理的源码控制"
+    ],
+    "ai-web": [
+      "Anthropic 推出企业级 Frontier 安全防护",
+      "EFS 确保客户零数据留存",
+      "Claude Fable 5.1 支持客户自管云架构",
+      "EFS 得到 100+ 企业支持",
+      "Anthropic 发布职位再培训元分析",
+      "EFS 聚焦金融、医疗、法律领域"
+    ],
+    "ai-hn": [
+      "Gemini 3.8 Flash 引发 HN 争论",
+      "曝光 21.5 万个虚假 '最佳软件' 页面",
+      "美国支持 OpenAI 版权诉讼",
+      "HN 上本地推理需求上升",
+      "模型退出机制受关注",
+      "涌现符号结构论文走红"
+    ],
+    "ai-ph": [
+      "Kilo Code for JetBrains 正式上线",
+      "TrustedRouter 提供可验证模型路由",
+      "Happy Shrimp 将创意变为歌曲",
+      "Keiki 构建跨平台统一代理",
+      "ThunderPhone：每分钟 $2c 的 AI 电话代理",
+      "AI 工具聚焦生产力与安全"
+    ],
+    "ai-arxiv": [
+      "CivBench 在文明六中评估代理",
+      "从正确者学习：多教师蒸馏",
+      "角色提示降低大模型偏见",
+      "后门防御已成为研究基础",
+      "可解释性 AI 教育受重视",
+      "逻辑有效性研究提升信任度"
+    ],
+    "ai-community": [
+      "代理需要‘刹车’而非仅大脑",
+      "执行树取代扁平日志用于调试",
+      "AI 网关增加 400ms 延迟",
+      "拒绝提示重写的网关获胜",
+      "延迟常隐藏于重试逻辑中",
+      "工具访问安全漏洞浮现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.259 adds headless support",
+      "OpenAI Codex releases rust-v0.153.0 with Vim mode",
+      "GitHub Copilot CLI v1.0.83-3 fixes model fallback",
+      "Gemini CLI still no release amid security PRs",
+      "OpenCode sees 10 new PRs in 24h",
+      "Qwen Code gains traction in open-source community"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "No new OpenClaw release since v2026.8.1",
+      "Critical auth migration failures reported",
+      "Session state corruption spikes in OpenClaw",
+      "Agent crash loops dominate bug reports",
+      "UI polish and observability drive PRs"
+    ],
+    "ai-infra": [
+      "vLLM: 12 high-sev issues, no release",
+      "SGLang stable at v0.5.18",
+      "llama.cpp: 10 high-sev issues",
+      "Ollama boosts developer experience",
+      "LiteLLM migrates to Rust for speed",
+      "Unsloth excels in edge inference"
+    ],
+    "ai-trending": [
+      "TimesFM surges +343 stars today",
+      "DietrichGebert/ponytail +1,354 stars",
+      "Hermes-Agent drives agent autonomy trend",
+      "VoiceStudio promotes local AI privacy",
+      "Panniantong/Agent-Reach enables self-evolving agents",
+      "pacifio/atlas: source control for AI agents"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "EFS ensures zero data retention for clients",
+      "Customer-managed cloud infra for Claude Fable 5.1",
+      "EFS backed by 100+ enterprises",
+      "Anthropic releases job retraining meta-analysis",
+      "EFS targets finance, healthcare, law sectors"
+    ],
+    "ai-hn": [
+      "Gemini 3.8 Flash sparks HN debate",
+      "215k fake 'best software' pages exposed",
+      "U.S. backs OpenAI in copyright lawsuit",
+      "Local inference demand grows on HN",
+      "Model opt-out mechanisms gain traction",
+      "Emergent symbolic structures paper trends"
+    ],
+    "ai-ph": [
+      "Kilo Code for JetBrains launched",
+      "TrustedRouter offers verifiable model routing",
+      "Happy Shrimp turns ideas into songs",
+      "Keiki builds one agent for all platforms",
+      "ThunderPhone: $2c/min AI phone agents",
+      "AI tools focus on productivity & security"
+    ],
+    "ai-arxiv": [
+      "CivBench benchmarks agents in Civilization VI",
+      "Learn from Whoever Is Right: multi-teacher distillation",
+      "Persona prompting reduces LLM bias",
+      "Backdoor defense now foundational in research",
+      "Explainable AI education gains attention",
+      "Logical validity study advances trust"
+    ],
+    "ai-community": [
+      "Agents need 'brakes', not just brains",
+      "Execution trees replace flat logs for debugging",
+      "AI gateway added 400ms latency",
+      "Gate that rejected prompt rewrite wins",
+      "Latency often hidden in retry logic",
+      "Security flaws in tool access emerge"
+    ]
+  }
+}
