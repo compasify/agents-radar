@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.261 热修复发布",
+      "OpenAI Codex v0.154.0 预览版上线",
+      "Gemini CLI 夜间版 v0.60.0.20260904 正式运行",
+      "GitHub Copilot CLI v1.0.84-1 稳定版发布",
+      "Qwen Code 获社区关注",
+      "Pi CLI 工具突破 10k GitHub 星标"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 存在关键缺陷",
+      "24小时内新增500个问题与PR",
+      "PR #138681 修复Slack QA预加载",
+      "会话状态完整性修复中",
+      "代理状态持久化待评估",
+      "网关韧性补丁开发进行中"
+    ],
+    "ai-infra": [
+      "vLLM：FP8 稳定性修复中",
+      "SGLang：Prefill CP 将被弃用",
+      "llama.cpp v0.4.0 新增MoE支持",
+      "Ollama 支持 Qwen3.8-Flash-Next",
+      "LiteLLM 演变为路由平台",
+      "Unsloth 扩展至多节点推理"
+    ],
+    "ai-trending": [
+      "magnitudedev/magnitude：新增391星",
+      "ollama/ollama：今日超18万星",
+      "firecrawl/firecrawl：17.6万星",
+      "browser-use/browser-use：1.1万星",
+      "Cognee RAG系统热度飙升",
+      "thedotmack/claude-mem：记忆系统流行"
+    ],
+    "ai-web": [
+      "Claude 证明费马大定理",
+      "Anthropic 揭示印度AI使用激增",
+      "披露三起模型逃逸事件",
+      "印度简报凸显采用情况",
+      "职业再培训项目回顾",
+      "Lean 4 实现形式化证明里程碑"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 在 OpenRouter 上线",
+      "费马证明引发争论",
+      "Spotify Portal 减少 Claude token 使用",
+      "项目 HydraFusion：多模型编排",
+      "Anthropic 安全事件详情",
+      "前沿模型前景谨慎乐观"
+    ],
+    "ai-ph": [
+      "Nex：Claude 驱动的 GTM 合作伙伴",
+      "Agent Builder：自愈代理",
+      "MagiCrew：AI 人力平台",
+      "Omi：开源代理框架",
+      "Readr：AI 阅读助手",
+      "ARBR：自主推理机器人"
+    ],
+    "ai-arxiv": [
+      "训练生成：本地神经函数",
+      "辅助视图提升LLM学习",
+      "欺骗研究因果框架",
+      "无训练视频编辑论文",
+      "轻量级模型压缩突破",
+      "推理时提示操控研究"
+    ],
+    "ai-community": [
+      "AI 测试或遗漏真实代码缺陷",
+      "停止构建代理——构建系统",
+      "本地4B vs 云模型结果意外",
+      "AI 可无限超越人类",
+      "Dev.to：测试中的AI盲点",
+      "亟需有意约束"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.261 hotfix released",
+      "OpenAI Codex v0.154.0 alpha out",
+      "Gemini CLI nightly v0.60.0.20260904 live",
+      "GitHub Copilot CLI v1.0.84-1 stable",
+      "Qwen Code gains community traction",
+      "Pi CLI tool hits 10k GitHub stars"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 has critical regressions",
+      "500 issues, 500 PRs in 24h",
+      "PR #138681 fixes Slack QA preload",
+      "Session state integrity fixes underway",
+      "Agent state persistence under review",
+      "Gateway resilience patching in progress"
+    ],
+    "ai-infra": [
+      "vLLM: FP8 stability fixes in progress",
+      "SGLang: Prefill CP deprecation underway",
+      "llama.cpp v0.4.0 adds MoE support",
+      "Ollama now supports Qwen3.8-Flash-Next",
+      "LiteLLM evolves into routing platform",
+      "Unsloth expands to multi-node inference"
+    ],
+    "ai-trending": [
+      "magnitudedev/magnitude: 391 new stars",
+      "ollama/ollama: 180K+ stars today",
+      "firecrawl/firecrawl: 176K stars",
+      "browser-use/browser-use: 11K stars",
+      "Cognee RAG system surges in popularity",
+      "thedotmack/claude-mem: memory systems trend"
+    ],
+    "ai-web": [
+      "Claude proves Fermat’s Last Theorem",
+      "Anthropic reveals India AI usage surge",
+      "Three model escape incidents disclosed",
+      "India Country Brief highlights adoption",
+      "Job retraining programs reviewed",
+      "Formal proof in Lean 4 milestone"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra on OpenRouter now live",
+      "Fermat's proof sparks debate",
+      "Spotify Portal cuts Claude token use",
+      "Project HydraFusion: multi-model orchestration",
+      "Anthropic's security incident details",
+      "Cautious optimism on frontier models"
+    ],
+    "ai-ph": [
+      "Nex: Claude-powered GTM copilot",
+      "Agent Builder: self-healing agents",
+      "MagiCrew: AI workforce platform",
+      "Omi: open-source agent framework",
+      "Readr: AI reading assistant",
+      "ARBR: autonomous reasoning bot"
+    ],
+    "ai-arxiv": [
+      "Compile by Training: local neural functions",
+      "Auxiliary views boost LLM learning",
+      "Causal framework for deception research",
+      "Training-free video editing paper",
+      "Lightweight model compression breakthrough",
+      "Inference-time prompt manipulation study"
+    ],
+    "ai-community": [
+      "AI tests may miss real code bugs",
+      "Stop building agents—build systems",
+      "Local 4B vs cloud model results surprise",
+      "AI can outmaneuver humans without limits",
+      "Dev.to: AI blind spots in testing",
+      "Intentional constraints needed now"
+    ]
+  }
+}
