@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.268 发布",
+      "OpenAI Codex：3 个 Rust 预发布版本上线",
+      "Gemini CLI：夜间版 v0.61.0 发布",
+      "GitHub Copilot CLI v1.0.84-4 正式上线",
+      "Pi 有 10 个开放的 PR，讨论活跃",
+      "Qwen Code 开启 107 个未解决问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.35：最终 LTS 版本发布",
+      "OpenClaw 中更安全的提供者边界",
+      "原生集成的安全强化",
+      "报告进程泄漏与会话损坏问题",
+      "Hermes Agent 在研究中获得关注",
+      "IronClaw 现支持多代理编排"
+    ],
+    "ai-infra": [
+      "vLLM：82 个未解决问题，聚焦高延迟",
+      "SGLang 集成 DSV4.1，CI/CD 阻塞",
+      "llama.cpp：b10901 与 b10899 版本发布",
+      "Ollama：关键 CVE 主导问题",
+      "LiteLLM：稳定版即将发布",
+      "Unsloth 在微调速度上领先"
+    ],
+    "ai-trending": [
+      "vercel-labs/skills：122 星，模块化 AI",
+      "OmniRoute：626 星，352 个提供者",
+      "affaan-m/ECC：25.5 万星，代理优化",
+      "OpenMAIC：沉浸式 AI 教育代理",
+      "Vibe-Trading：金融领域 AI 代理",
+      "ECC：安全优先的代理框架"
+    ],
+    "ai-web": [
+      "Anthropic 推出 500 亿美元美国基建计划",
+      "Bun 收购助推 Claude Code",
+      "Claude Opus 4.5 挖掘 460 万美元智能合约漏洞",
+      "Claude Code 达到 10 亿美元营收速率",
+      "微软、Salesforce、Snowflake 合作",
+      "埃森哲加入 Claude 企业部署"
+    ],
+    "ai-hn": [
+      "SWE-2 终端基准得分 92.8",
+      "GPT-6 Astra：循环变压器争议",
+      "OpenAI Navier-Stokes 包含 Lean 4 证明",
+      "OpenAI 重新启用 '允许训练' 设置",
+      "Meta Muse 引发自主性争论",
+      "病毒式传播的‘蓝色添加购物车’提示注入"
+    ],
+    "ai-ph": [
+      "Mastra Factory：479 票，全自动化",
+      "Harden：399 票，代理完整性层",
+      "ChatGPT Images 2.5：图像质量优化",
+      "AlphaGenome 地图：DNA 突变定位",
+      "49agents IDE：无疲劳代理执行",
+      "代理工作流主导新品发布"
+    ],
+    "ai-arxiv": [
+      "IdeaAMBIG：评估实现差距",
+      "ConvMem：LLM 的卷积记忆",
+      "Fortunate Recall：本体驱动记忆",
+      "间隙熵猜想的形式化解",
+      "跨上下文 KV 缓存复用突破",
+      "视图结构共形预测进展"
+    ],
+    "ai-community": [
+      "AI 代理无声破坏系统（Dev.to）",
+      "Lena 已签约客户——AI 未察觉审计",
+      "CauterRule 检测冗余代码变更",
+      "成本控制：MCP 与令牌预算热议",
+      "模型性能：RAG 对比 HNSW 争论",
+      "防护机制与本地优先工作流兴起"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.268 released",
+      "OpenAI Codex: 3 Rust alphas out",
+      "Gemini CLI: nightly v0.61.0 released",
+      "GitHub Copilot CLI v1.0.84-4 live",
+      "Pi has 10 open PRs, active discussions",
+      "Qwen Code hits 107 open issues"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.35: final LTS release",
+      "Safer provider boundaries in OpenClaw",
+      "Security hardening for native integrations",
+      "Process leaks and session corruption reported",
+      "Hermes Agent gains traction in research",
+      "IronClaw now supports multi-agent orchestration"
+    ],
+    "ai-infra": [
+      "vLLM: 82 open issues, high latency focus",
+      "SGLang integrates DSV4.1, CI/CD blockers",
+      "llama.cpp: b10901 & b10899 releases",
+      "Ollama: critical CVEs dominate issues",
+      "LiteLLM: stable release expected soon",
+      "Unsloth leads in fine-tuning speed"
+    ],
+    "ai-trending": [
+      "vercel-labs/skills: 122 stars, modular AI",
+      "OmniRoute: 626 stars, 352 providers",
+      "affaan-m/ECC: 255K stars, agent optimization",
+      "OpenMAIC: immersive AI education agents",
+      "Vibe-Trading: AI agents for finance",
+      "ECC: security-first agent harness"
+    ],
+    "ai-web": [
+      "Anthropic $50B US infrastructure push",
+      "Bun acquisition boosts Claude Code",
+      "Claude Opus 4.5 exploits $4.6M smart contracts",
+      "Claude Code hits $1B run-rate revenue",
+      "Microsoft, Salesforce, Snowflake partnerships",
+      "Accenture joins Claude enterprise rollout"
+    ],
+    "ai-hn": [
+      "SWE-2 scores 92.8 on Terminal-Bench",
+      "GPT-6 Astra: looped transformers debate",
+      "OpenAI Navier-Stokes includes Lean 4 proof",
+      "OpenAI re-enabled 'allow training' setting",
+      "Meta's Muse sparks autonomy debate",
+      "Viral 'blue Add to Cart' prompt injection"
+    ],
+    "ai-ph": [
+      "Mastra Factory: 479 votes, full automation",
+      "Harden: 399 votes, agent integrity layer",
+      "ChatGPT Images 2.5: refined image quality",
+      "AlphaGenome Atlas: DNA mutation mapping",
+      "49agents IDE: fatigue-free agent execution",
+      "Agent workflows dominate new product launches"
+    ],
+    "ai-arxiv": [
+      "IdeaAMBIG: benchmarking implementation gaps",
+      "ConvMem: convolutional memory for LLMs",
+      "Fortunate Recall: ontology-driven memory",
+      "Formal resolution of gap-entropy conjecture",
+      "KV-cache reuse across contexts breakthrough",
+      "View-structured conformal prediction advances"
+    ],
+    "ai-community": [
+      "AI agents break systems silently (Dev.to)",
+      "Lena signed client—AI unaware of audit",
+      "CauterRule detects redundant code changes",
+      "Cost control: MCP and token budgets hot topics",
+      "Model performance: RAG vs HNSW debates",
+      "Guardrails and local-first workflows rising"
+    ]
+  }
+}
