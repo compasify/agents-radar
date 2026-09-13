@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.270 修复 Git 回退问题",
+      "OpenAI Codex 面临 4 个高危漏洞",
+      "Gemini CLI 夜间版 v0.61.0-nigh 发布",
+      "GitHub Copilot CLI 新增技能支持",
+      "Qwen Code 社区采用率飙升",
+      "Pi CLI 支持实时反馈"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时内发现 500 个问题",
+      "500 个 PR 后仍无新版本发布",
+      "关键会话状态完整性缺陷",
+      "v2026.9.4 升级路径失败报告",
+      "Hermes Agent 实现多市场交易",
+      "ZeroClaw 推出进攻性安全模式"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 待发布",
+      "SGLang 开启 123 个未解决问题",
+      "Ollama 存在高危回归缺陷",
+      "LiteLLM v1.84.0 回归问题未解",
+      "Unsloth Docker 修复 #10825 进行中",
+      "llama.cpp beta 版本上线"
+    ],
+    "ai-trending": [
+      "CloddsBot 自主交易趋势上升",
+      "SnailSploit/Claude-Red 漏洞利用激增",
+      "RAG 工具爆发式增长",
+      "系统提示泄露引发好奇",
+      "Ollama 达 18 万星标 (+1.8K)",
+      "LangChain 领先代理工程"
+    ],
+    "ai-hn": [
+      "Cognition SWE-2 终端基准得分 92.8",
+      "Transformer 电路论文走红",
+      "苹果神经引擎 DMA 反向工程",
+      "Nvidia 被称为 AI 中央银行",
+      "OpenAI 代理访问 RubyGems",
+      "Real-SWE 基准测试引发争议"
+    ],
+    "ai-ph": [
+      "Anysite.io 以 459 票登顶 Product Hunt",
+      "Devin Voice 实现语音转代码部署",
+      "Spaces 推出智能工作流工具",
+      "TIM PG 提供预 AI 数据脱敏",
+      "Cadenya 自动化多步骤任务",
+      "AI 代理在 B2B 销售中受青睐"
+    ],
+    "ai-community": [
+      "人类在边缘案例调试中胜过 AI",
+      "CauterRule 代理召回率翻倍",
+      "AI 错误宣称解决千禧难题",
+      "日历邀请导致安全漏洞",
+      "Dev.to：AI 不会取代开发者",
+      "成本管理成开发者首要关切"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.270 fixes Git regression",
+      "OpenAI Codex faces 4 high-severity issues",
+      "Gemini CLI nightly v0.61.0-nigh released",
+      "GitHub Copilot CLI gains new skills support",
+      "Qwen Code sees surge in community adoption",
+      "Pi CLI now supports real-time feedback"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues in 24 hours",
+      "No new release despite 500 PRs",
+      "Critical session state integrity bugs",
+      "Upgrade path failures reported in v2026.9.4",
+      "Hermes Agent gains multi-market trading",
+      "ZeroClaw launches offensive security mode"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 pending release",
+      "SGLang hits 123 open issues",
+      "Ollama has high-severity regressions",
+      "LiteLLM v1.84.0 regression unresolved",
+      "Unsloth Docker fix #10825 in progress",
+      "llama.cpp beta builds now live"
+    ],
+    "ai-trending": [
+      "CloddsBot trends for autonomous trading",
+      "SnailSploit/Claude-Red exploits rise",
+      "RAG tools see explosive growth",
+      "System prompt leaks spark curiosity",
+      "Ollama hits 180K stars (+1.8K)",
+      "LangChain leads agent engineering"
+    ],
+    "ai-hn": [
+      "Cognition's SWE-2 scores 92.8 on Terminal-Bench",
+      "Transformer circuits paper goes viral",
+      "Apple Neural Engine DMA reverse-engineering",
+      "Nvidia called 'central bank of AI'",
+      "OpenAI agents access RubyGems",
+      "Real-SWE benchmarking sparks debate"
+    ],
+    "ai-ph": [
+      "Anysite.io tops Product Hunt with 459 votes",
+      "Devin Voice enables voice-to-code deployment",
+      "Spaces launches agentic workflow tool",
+      "TIM PG offers pre-AI data anonymization",
+      "Cadenya automates multi-step tasks",
+      "AI agents gain traction in B2B sales"
+    ],
+    "ai-community": [
+      "Human outperforms AI in edge-case debugging",
+      "CauterRule doubles agent recall",
+      "AI falsely claims to solve Millennium Prize",
+      "Security breaches via calendar invites",
+      "Dev.to: AI won't replace developers",
+      "Cost management top concern for devs"
+    ]
+  }
+}
