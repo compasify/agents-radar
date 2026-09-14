@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI v0.61.0-nightly 发布",
+      "Claude Code Skills 正在积极开发中",
+      "Qwen Code v0.23.3-nightly 上线",
+      "Pi 工具在开发社区受关注",
+      "OpenCode 今日新增10个PR",
+      "Copilot CLI 保持停滞"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内触发500个问题",
+      "PR #147571 添加子代理分离功能",
+      "稳定性危机下无新版本发布",
+      "v2026.9.x 发布列车不稳定",
+      "Hermes Agent 势头上升",
+      "IronClaw 扩展代理工具集"
+    ],
+    "ai-infra": [
+      "vLLM 优化推测解码",
+      "SGLang 集成 DeepSeek-V4.1",
+      "llama.cpp 修复CPU线程问题",
+      "Ollama 遭遇跨平台漏洞",
+      "LiteLLM 改进云网关",
+      "Unsloth 增强RAG功能"
+    ],
+    "ai-trending": [
+      "JustVugg/colibri 今日增长868颗星",
+      "VoiceStudio 提供本地语音克隆",
+      "MoE模型可在消费级设备运行",
+      "代理技能注册表趋势上升",
+      "RAG持久化逐渐流行",
+      "安全加固的LLM网关兴起"
+    ],
+    "ai-hn": [
+      "Bengio论文揭露AI说谎",
+      "AI集群或接管互联网",
+      "Claude Web MicroVM 被逆向工程",
+      "Fable 5.1 破解370年密码",
+      "伦理AI争论升温",
+      "Garry Tan推动开放权重实验室"
+    ],
+    "ai-ph": [
+      "Youkti 得票332领先",
+      "Pascal's Pager 简化调试",
+      "Cortex 自动化API文档",
+      "QApilot MCP Android版上线",
+      "SUDARI：AI像素水獭宠物亮相",
+      "AI销售情报工具激增"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 下载量达770万",
+      "unsloth/Qwen3.8-27B-GGUF 突增",
+      "LTX-2.5 领先视频生成",
+      "DeepSeek-V4.1-Flash 受欢迎",
+      "MiniCPM5-2B 适合边缘部署",
+      "Nex-N2.5-mini 在代理任务中表现优异"
+    ],
+    "ai-community": [
+      "AI代理上传恶意软件至RubyGems",
+      "人类5分钟内发现AI遗漏的漏洞",
+      "错误指标误导模型评估",
+      "RAG系统获开发者信任",
+      "本地LLM推理快速上升",
+      "AI安全担忧主导讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI v0.61.0-nightly released",
+      "Claude Code Skills now in active development",
+      "Qwen Code v0.23.3-nightly launched",
+      "Pi tool gains traction in dev community",
+      "OpenCode sees 10 new PRs today",
+      "Copilot CLI remains stagnant"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues in 24h",
+      "PR #147571 adds subagent separation",
+      "No new releases amid stability crisis",
+      "v2026.9.x release train unstable",
+      "Hermes Agent gains momentum",
+      "IronClaw expands agent toolkit"
+    ],
+    "ai-infra": [
+      "vLLM optimizes speculative decoding",
+      "SGLang integrates DeepSeek-V4.1",
+      "llama.cpp fixes CPU threading",
+      "Ollama faces cross-platform bugs",
+      "LiteLLM improves cloud gateway",
+      "Unsloth enhances RAG features"
+    ],
+    "ai-trending": [
+      "JustVugg/colibri +868 stars today",
+      "VoiceStudio offers local voice cloning",
+      "MoE models run on consumer devices",
+      "Agent skill registries trend upward",
+      "RAG persistence gaining traction",
+      "Security-hardened LLM gateways rise"
+    ],
+    "ai-hn": [
+      "Bengio's paper exposes AI lying",
+      "AI swarm could takeover internet",
+      "Claude Web MicroVM reverse-engineered",
+      "Fable 5.1 cracks 370-year cipher",
+      "Ethical AI debate heats up",
+      "Garry Tan pushes for open-weight labs"
+    ],
+    "ai-ph": [
+      "Youkti leads with 332 votes",
+      "Pascal’s Pager simplifies debugging",
+      "Cortex automates API documentation",
+      "QApilot MCP for Android launches",
+      "SUDARI: AI pixel otter pet debuts",
+      "AI sales intelligence tools surge"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B hits 7.7M downloads",
+      "unsloth/Qwen3.8-27B-GGUF surges",
+      "LTX-2.5 tops video generation",
+      "DeepSeek-V4.1-Flash gains traction",
+      "MiniCPM5-2B ideal for edge use",
+      "Nex-N2.5-mini excels in agentic tasks"
+    ],
+    "ai-community": [
+      "AI agents uploaded malware to RubyGems",
+      "Human caught bug AI missed in 5 mins",
+      "Flawed metrics mislead model evaluation",
+      "RAG systems gain developer trust",
+      "Local LLM inference rising fast",
+      "AI safety concerns dominate discourse"
+    ]
+  }
+}
