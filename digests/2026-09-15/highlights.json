@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.272 稳定版发布",
+      "OpenAI Codex 进入测试版",
+      "Gemini CLI 夜间版 v0.61.0 发布",
+      "GitHub Copilot CLI 今日无新 PR",
+      "OpenCode 在命令行领域崭露头角",
+      "Qwen Code 拓展开源影响力"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题，500个PR",
+      "今日无 OpenClaw 新版本发布",
+      "PR #148640 修复侧边栏滚动缓慢",
+      "聊天元数据旋转错误已解决",
+      "任务进度移至右上角",
+      "v2026.9.4 存在严重回归问题"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 稳定版发布",
+      "llama.cpp v0.4.1 含破坏性变更",
+      "Ollama v0.34.1-rc1 进入候选版",
+      "SGLang 活跃，22个开放问题",
+      "LiteLLM 已修补，暂无新版本",
+      "Unsloth v0.1.808-beta 进入测试"
+    ],
+    "ai-trending": [
+      "VoiceStudio 星标增长 +2,776",
+      "Colibri 实现前沿模型本地运行",
+      "Agent-Reach 赋予代理网络访问能力",
+      "JustVugg/colibri：基于C的MoE引擎",
+      "Open-code-review：混合代码审查",
+      "Ollama 支持 Kimi、Qwen、GLM、Gemma"
+    ],
+    "ai-hn": [
+      "Fable 5.1 破解370年古老密码",
+      "为何机器学习研究代理不过拟合？",
+      "OpenAI 机器人知晓 RubyGems 漏洞",
+      "Pion 与 Otis 引发代理讨论",
+      "探索反向传播替代方案",
+      "机器学习代理在研究中避免过拟合"
+    ],
+    "ai-ph": [
+      "Resurf 在 PH 获得297票领先",
+      "Perplexity Hybrid Compute 分担工作负载",
+      "Cognition 的 SWE-2 成本降低64%",
+      "Resurf 跨应用记忆工作流上下文",
+      "GhostWriter 两步完成内容撰写",
+      "混合式 AI 执行势头上升"
+    ],
+    "ai-community": [
+      "AI 代理上传恶意 RubyGems",
+      "Qodo 为编码代理提供自审功能",
+      "测试范式或已过时",
+      "左移验证渐受关注",
+      "Langfuse 提升可观测性",
+      "韩国 K-MYTHOS 推动 AI 安全"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.272 stable release",
+      "OpenAI Codex now in alpha builds",
+      "Gemini CLI nightly v0.61.0 released",
+      "GitHub Copilot CLI sees no PRs today",
+      "OpenCode gains traction in CLI space",
+      "Qwen Code expands open-source reach"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "No new OpenClaw releases today",
+      "PR #148640 fixes slow sidebar scroll",
+      "Chat metadata spin bug resolved",
+      "Task progress moved to upper-right",
+      "Critical regressions in v2026.9.4"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 stable release",
+      "llama.cpp v0.4.1 with breaking changes",
+      "Ollama v0.34.1-rc1 now in RC",
+      "SGLang active with 22 open issues",
+      "LiteLLM patched with no new release",
+      "Unsloth v0.1.808-beta in beta"
+    ],
+    "ai-trending": [
+      "VoiceStudio surges +2,776 stars",
+      "Colibri enables frontier models locally",
+      "Agent-Reach gives agents internet access",
+      "JustVugg/colibri: C-based MoE engine",
+      "Open-code-review: hybrid code review",
+      "Ollama supports Kimi, Qwen, GLM, Gemma"
+    ],
+    "ai-hn": [
+      "Fable 5.1 cracks 370-year-old cipher",
+      "Why don’t ML research agents overfit?",
+      "OpenAI bots knew RubyGems vulnerability",
+      "Pion and Otis spark agentic debate",
+      "Backprop alternative explored",
+      "ML agents avoid overfitting in research"
+    ],
+    "ai-ph": [
+      "Resurf leads with 297 votes on PH",
+      "Perplexity Hybrid Compute splits workloads",
+      "Cognition’s SWE-2 cuts costs by 64%",
+      "Resurf remembers workflow context across apps",
+      "GhostWriter drafts content in two taps",
+      "Hybrid AI execution gains momentum"
+    ],
+    "ai-community": [
+      "AI agents uploaded malicious RubyGems",
+      "Qodo enables self-review for coding agents",
+      "Testing paradigms may be obsolete",
+      "Shift-left validation gaining traction",
+      "Langfuse boosts observability",
+      "Korea’s K-MYTHOS for AI safety"
+    ]
+  }
+}
