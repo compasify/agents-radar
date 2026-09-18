@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.275 发布，支持会话恢复",
+      "OpenAI Codex v0.156.0-alpha 开发中",
+      "Gemini CLI 夜间构建已上线测试",
+      "GitHub Copilot CLI v1.0 稳定版发布",
+      "OpenCode 采用本地优先设计，势头上升",
+      "Pi 工具强调隐私与透明"
+    ],
+    "ai-agents": [
+      "OpenClaw 自2026.9.4起无新版本",
+      "OpenClaw 稳定性受严重P0/P1漏洞困扰",
+      "过去24小时合并14个修复PR",
+      "会话状态问题主导报告",
+      "从2026.7.1-2升级需手动修复",
+      "Hermes Agent 和 IronClaw 快速发展"
+    ],
+    "ai-infra": [
+      "vLLM 稳定版，RC版本待发布",
+      "SGLang 活跃，今日10个开放问题",
+      "llama.cpp 已通过b11028补丁",
+      "Ollama 进行功能驱动开发",
+      "LiteLLM 聚焦配置与安全",
+      "Unsloth 发布v0.1.810-beta用于测试"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC 达26.1万星 (+1,171)",
+      "WeKnora 在Go语言中引领RAG创新",
+      "Tencent/BrowserSkill 实现浏览器智能体",
+      "RAGFlow 推动持久化智能体记忆",
+      "Graphify 提升知识编排能力",
+      "Cognee 驱动上下文感知AI系统"
+    ],
+    "ai-web": [
+      "Claude 生物分子建模速度提升4倍",
+      "Anthropic 推出生命科学验证计划",
+      "LSVP 为研究人员提供受限访问",
+      "Claude 揭露4起网络安全事件",
+      "OpenAI 发布金融元数据指南",
+      "OpenAI 无重大产品更新"
+    ],
+    "ai-hn": [
+      "无限参数LLM 实时演进数据",
+      "三值LLM 打破1.58比特壁垒",
+      "Bend语言通过证明防止AI错误",
+      "Astra for Law 专注法律AI正确性",
+      "HN上AI安全文化受审视",
+      "模型错位引发信任争议"
+    ],
+    "ai-ph": [
+      "Weave Router 2.0 动态路由任务",
+      "Appwrite 2.0 重新定义AI后端架构",
+      "Toki Coordination 将对话转为任务",
+      "Jottoo 日程安排并执行",
+      "ZeroClick 实现直接AI变现",
+      "产品猎人平台智能体编排日趋成熟"
+    ],
+    "ai-arxiv": [
+      "零阶对齐避免似然偏差",
+      "内部表示检测到奖励劫持",
+      "动态路由支持演化智能体群",
+      "音视频生成实现机器人控制",
+      "物理仿真融合生成式AI",
+      "反馈机制防止模型崩溃"
+    ],
+    "ai-community": [
+      "AI 即使重构后仍重写旧漏洞",
+      "KODA 基于150美元安卓手机构建",
+      "AI 在170次变更中犯相同3个错误",
+      "工具调用注入成为威胁",
+      "知识污染风险上升",
+      "Jev: 类型化概率决策模型"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.275 released with session resilience",
+      "OpenAI Codex v0.156.0-alpha in progress",
+      "Gemini CLI nightly build live for testing",
+      "GitHub Copilot CLI v1.0 stable now",
+      "OpenCode gains traction with local-first design",
+      "Pi tool emphasizes privacy and transparency"
+    ],
+    "ai-agents": [
+      "OpenClaw no new releases since 2026.9.4",
+      "Critical P0/P1 bugs plague OpenClaw stability",
+      "14 PRs merged in last 24h for fixes",
+      "Session state issues dominate OpenClaw reports",
+      "Upgrade path from 2026.7.1-2 requires manual repair",
+      "Hermes Agent and IronClaw gain momentum"
+    ],
+    "ai-infra": [
+      "vLLM stable, RC pending for next release",
+      "SGLang active with 10 open issues today",
+      "llama.cpp patched with b11028 release",
+      "Ollama sees feature-driven development",
+      "LiteLLM focuses on config and security",
+      "Unsloth launches v0.1.810-beta for testing"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC hits 261k stars (+1,171)",
+      "WeKnora leads RAG innovation in Go",
+      "Tencent/BrowserSkill enables browser agents",
+      "RAGFlow drives persistent agent memory",
+      "Graphify enhances knowledge orchestration",
+      "Cognee powers context-aware AI systems"
+    ],
+    "ai-web": [
+      "Claude accelerates biomolecular modeling 4x",
+      "Anthropic launches Life Sciences Verification Program",
+      "LSVP offers gated access to researchers",
+      "Claude exposed 4 cybersecurity incidents",
+      "OpenAI releases metadata guides for finance",
+      "No major product updates from OpenAI"
+    ],
+    "ai-hn": [
+      "Infinite-Parameter LLMs evolve live data",
+      "Ternary LLMs break 1.58-bit barrier",
+      "Bend language prevents AI mistakes via proof",
+      "Astra for Law targets legal AI correctness",
+      "AI safety culture under scrutiny on HN",
+      "Model misalignment sparks debate on trust"
+    ],
+    "ai-ph": [
+      "Weave Router 2.0 routes tasks dynamically",
+      "Appwrite 2.0 redefines AI backend infrastructure",
+      "Toki Coordination turns talk into tasks",
+      "Jottoo schedules meetings and acts",
+      "ZeroClick enables direct AI monetization",
+      "Agent orchestration matures on Product Hunt"
+    ],
+    "ai-arxiv": [
+      "Zeroth-order alignment avoids likelihood",
+      "Reward hacking detected via internal reps",
+      "Dynamic routing for evolving agent ensembles",
+      "Audio-video generation enables robotic control",
+      "Physical simulation fused with generative AI",
+      "Preventing model collapse through feedback"
+    ],
+    "ai-community": [
+      "AI rewrites old bugs even after refactoring",
+      "KODA built on $150 Android phone",
+      "AI made same 3 mistakes across 170 changes",
+      "Tool-call injection emerges as threat",
+      "Knowledge poisoning risks rising",
+      "Jev: typed, probabilistic decision-making model"
+    ]
+  }
+}
