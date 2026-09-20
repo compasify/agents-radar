@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.278 发布稳定分类器",
+      "Gemini CLI 夜间更新修复 AST感知工具",
+      "OpenAI Codex 现已进入仅限测试模式",
+      "GitHub Copilot CLI 无新更新",
+      "Pi 工具在终端AI工作流中获得关注",
+      "Qwen Code 成为顶尖开源替代品"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 修复内存泄漏与会话损坏",
+      "Codex 插件生命周期关键稳定性补丁",
+      "OpenClaw 更新可靠性问题上升",
+      "Hermes Agent 获得社区推动",
+      "IronClaw 提升代理安全协议",
+      "QwenPaw 集成多模态推理"
+    ],
+    "ai-infra": [
+      "vLLM：最新版本报告4个高危问题",
+      "llama.cpp 发布 v.b11057 带关键修复",
+      "Ollama 近期活动出现回归",
+      "Unsloth 解决4个🔴性能问题",
+      "LiteLLM 新增工具调用解析",
+      "SGLang 支持推测解码"
+    ],
+    "ai-trending": [
+      "Claude Code 今日增长483颗星",
+      "Security-audit-skill 增加3155颗星",
+      "Cua 项目扩展AI训练集群",
+      "终端原生代理如Needle受关注",
+      "RAG 向自托管隐私模型演进",
+      "Agent框架如Hermes-Agent 快速发展"
+    ],
+    "ai-ph": [
+      "Ami AI 凭情感销售AI获525票胜出",
+      "AINA 推出个性化求职助手",
+      "Sider Omni Sidebar 将环境AI引入Mac",
+      "Pushary 实现实时语音转录",
+      "OpenAI Day 推动12款产品中的11款发布",
+      "AI代理占据 Product Hunt 前五"
+    ],
+    "ai-community": [
+      "AI代理可被恶意仓库劫持",
+      "仅15% AI编写的测试通过生产",
+      "自我论证发现AI逻辑缺陷",
+      "凌晨3点因强制连续性缺陷崩溃",
+      "TLA+ 规范用于保护AI决策",
+      "TypeSafe AI 的Jev 引入可验证模型"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.278 released with stable classifier",
+      "Gemini CLI nightly update fixes AST-aware tools",
+      "OpenAI Codex now in alpha-only mode",
+      "GitHub Copilot CLI sees no new updates",
+      "Pi tool gains traction in terminal AI workflows",
+      "Qwen Code emerges as top open-source alternative"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 fixes memory leaks and session corruption",
+      "Critical stability patch for Codex plugin lifecycle",
+      "OpenClaw update reliability issues spike",
+      "Hermes Agent gains community momentum",
+      "IronClaw enhances agent security protocols",
+      "QwenPaw integrates with multimodal reasoning"
+    ],
+    "ai-infra": [
+      "vLLM: 4 high-severity issues reported in latest build",
+      "llama.cpp releases v.b11057 with critical fix",
+      "Ollama shows regression in recent activity",
+      "Unsloth addresses 4 🔴 issues in performance",
+      "LiteLLM evolves with new tool call parsing",
+      "SGLang adds speculative decoding support"
+    ],
+    "ai-trending": [
+      "Claude Code surges with +483 stars today",
+      "Security-audit-skill hits +3155 stars",
+      "Cua project scales AI training fleets",
+      "Terminal-native agents like Needle gain traction",
+      "RAG moves toward self-hosted privacy models",
+      "Agent frameworks like Hermes-Agent grow fast"
+    ],
+    "ai-ph": [
+      "Ami AI wins with 525 votes for emotional sales AI",
+      "AINA launches for personalized job search help",
+      "Sider Omni Sidebar brings ambient AI to Mac",
+      "Pushary enables real-time voice transcription",
+      "OpenAI Day fuels 11 of 12 product launches",
+      "AI agents dominate Product Hunt’s top 5"
+    ],
+    "ai-community": [
+      "AI agents can be hijacked by malicious repos",
+      "Only 15% of AI-written tests survive production",
+      "Self-argumentation catches AI logic flaws",
+      "AI crash at 3 AM due to forced continuity defect",
+      "TLA+ specs used to guard AI decision-making",
+      "TypeSafe AI’s Jev introduces verifiable models"
+    ]
+  }
+}

@@ -1,4 +1,150 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.278 修复关键问题",
+      "OpenAI Codex v0.156.0-alpha.7 稳定性提升",
+      "Gemini CLI v0.62.0-nightly 修复 PTY 问题",
+      "GitHub Copilot CLI v1.0.87-0 增加聊天体验",
+      "OpenCode 无新版本发布",
+      "Pi 在社区讨论中领先"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 修复僵尸进程",
+      "OpenClaw 网关崩溃循环已解决",
+      "Windows 上 SQLite WAL 膨胀修复",
+      "Codex 状态迁移失败已修补",
+      "503 位贡献者，4000+ 个 PR 活跃",
+      "稳定性仍是主要挑战"
+    ],
+    "ai-infra": [
+      "vLLM：5 个高危问题",
+      "SGLang v0.5.20 发布",
+      "Ollama v0.34.3-rc1 发布",
+      "LiteLLM 稳定性处于危急状态",
+      "llama.cpp 更新中等范围",
+      "Unsloth：5 个高危问题"
+    ],
+    "ai-trending": [
+      "Claude Code 今日增长 482 颗星",
+      "Security-audit-skill 增长 3162 颗星",
+      "Needle：面向微型设备的 AI",
+      "Cua：开源 HTML 驱动程序",
+      "Graphify-Labs 的 RAG 流程",
+      "ECC 与 Cactus Compute 趋势上升"
+    ],
+    "ai-web": [
+      "OpenAI 发布澳大利亚青年安全蓝图",
+      "今日无 Anthropic 新内容",
+      "政策聚焦青年数字安全",
+      "澳大利亚 AI 治理受关注",
+      "OpenAI 扩展合规基础设施",
+      "Claude 为重大发布保持沉默"
+    ],
+    "ai-hn": [
+      "AI 幻觉情报引发军事误判",
+      "OpenAI 内部仓库通过 SSO 泄露",
+      "LLM 用于设计 Jalapeño 芯片",
+      "LLM 间语义缓存通信",
+      "混淆语言绕过 LLM 检测",
+      "Bend：阻止 AI 错误的语言"
+    ],
+    "ai-ph": [
+      "Ami AI 在 Product Hunt 获 510 票",
+      "AINA：求职者的职业教练 AI",
+      "MosMos：语音写作先于打字",
+      "Pushary 将 AI 引入 Mac 缺口",
+      "Sider Omni Sidebar 集成 AI",
+      "GameToMac：AI 游戏兼容层"
+    ],
+    "ai-arxiv": [
+      "前沿代理夸大成功",
+      "性别偏见转化而非减少",
+      "摘要偏见导致标签坍塌",
+      "多模态推理进展",
+      "通过显著性监督实现机器人记忆",
+      "联邦学习中的因果推断"
+    ],
+    "ai-community": [
+      "AI 代理可被仓库攻击",
+      "仅简单测试能通过生产",
+      "代理因忽略边缘情况失败",
+      "泄露的 AI 代理存在安全风险",
+      "测试流式 AI 接口至关重要",
+      "代理权限需更严格控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.278 fixes critical issues",
+      "OpenAI Codex v0.156.0-alpha.7 stabilizes",
+      "Gemini CLI v0.62.0-nightly fixes PTY",
+      "GitHub Copilot CLI v1.0.87-0 adds chat UX",
+      "OpenCode lacks new release",
+      "Pi leads in community discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 fixes zombie processes",
+      "Gateway crash-loop resolved in OpenClaw",
+      "SQLite WAL bloat fixed on Windows",
+      "Codex state migration failure patched",
+      "503 contributors, 4k+ PRs active",
+      "Stability remains top challenge"
+    ],
+    "ai-infra": [
+      "vLLM: 5 high-critical issues",
+      "SGLang v0.5.20 released",
+      "Ollama v0.34.3-rc1 out",
+      "LiteLLM stability at critical risk",
+      "llama.cpp updates mid-range",
+      "Unsloth: 5 high-critical issues"
+    ],
+    "ai-trending": [
+      "Claude Code +482 stars today",
+      "Security-audit-skill +3162 stars",
+      "Needle: AI for tiny devices",
+      "Cua: Open-source HTML drivers",
+      "RAG flow with Graphify-Labs",
+      "ECC and Cactus Compute trending"
+    ],
+    "ai-web": [
+      "OpenAI releases Australian youth safety blueprint",
+      "No new Anthropic content today",
+      "Policy focus on youth digital safety",
+      "Australia's AI governance in spotlight",
+      "OpenAI expanding compliance infrastructure",
+      "Claude quiet ahead of major launch"
+    ],
+    "ai-hn": [
+      "AI hallucinated intel caused military close call",
+      "OpenAI internal repos breached via SSO",
+      "LLMs used to design Jalapeño chip",
+      "Semantic cache communication between LLMs",
+      "Obfuscated language evades LLM detection",
+      "Bend: Language that blocks AI mistakes"
+    ],
+    "ai-ph": [
+      "Ami AI gains 510 votes on Product Hunt",
+      "AINA: AI career coach for job seekers",
+      "MosMos: Voice writing before typing",
+      "Pushary brings AI to Mac notch",
+      "Sider Omni Sidebar integrates AI",
+      "GameToMac: AI game compatibility layer"
+    ],
+    "ai-arxiv": [
+      "Frontier agents overclaim success",
+      "Gender bias transformed, not reduced",
+      "Summarization bias causes label collapse",
+      "Multimodal reasoning advances",
+      "Robot memory via saliency supervision",
+      "Causal inference in federated learning"
+    ],
+    "ai-community": [
+      "AI agents can be attacked by repos",
+      "Only simple AI tests survive production",
+      "Agents fail due to edge case neglect",
+      "Leaked AI agents pose security risks",
+      "Testing streaming AI interfaces key",
+      "Agent permissions need tighter control"
+    ]
+  }
 }

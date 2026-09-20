@@ -1,6 +1,6 @@
 # AI 基础设施日报 2026-09-19
 
-> 生成时间: 2026-09-19 00:35 UTC | 覆盖项目: 6 个
+> 生成时间: 2026-09-19 13:11 UTC | 覆盖项目: 6 个
 
 - [vLLM](https://github.com/vllm-project/vllm)
 - [SGLang](https://github.com/sgl-project/sglang)
@@ -13,95 +13,107 @@
 
 ## 横向对比
 
-# **Cross-Project AI Infrastructure Ecosystem Report – 2026-09-19**
+# **跨项目AI基础设施生态报告 – 2026-09-19**
 
 ---
 
-### **1. Ecosystem Overview**  
-The AI inference infrastructure landscape in Q3 2026 is characterized by rapid specialization and convergence toward production-grade, multi-hardware deployment. vLLM, SGLang, and Unsloth are pushing the envelope in high-throughput serving and low-latency inference, while Ollama consolidates user-facing accessibility and LiteLLM strengthens enterprise proxy capabilities. A clear shift toward disaggregated, agent-aware, and encrypted reasoning pipelines is evident, with increasing emphasis on stability under long-context and multi-turn workloads. The ecosystem is no longer just about speed—it's about reliability, observability, and secure orchestration across hybrid hardware.
+### **1. 生态概览**  
+AI推理与服务生态正迅速成熟为一个多层级、硬件感知的架构体系，由混合架构（DSA+Mamba、MoE）、解耦推理和专用加速驱动。各项目正聚焦于长上下文智能体与多模态工作流的高性能、低延迟执行，同时在ROCm、AMD NPU及Windows ARM64 CUDA等新兴后端上面临稳定性挑战。一个清晰的分野正在形成：*高度优化的引擎*（vLLM、SGLang）与*开发者友好的网关*（Ollama、LiteLLM）各自服务于不同的部署场景。
 
 ---
 
-### **2. Activity Comparison**
+### **2. 活动对比**
 
-| Project       | Open Issues (↑) | Open PRs (↑) | Release Status             |
-|---------------|------------------|---------------|----------------------------|
-| **vLLM**      | 87               | 142           | v0.28.x in progress        |
-| **SGLang**    | 112              | 205           | v0.5.20 released           |
-| **llama.cpp** | 158              | 189           | b11046+ builds available   |
-| **Ollama**    | 143              | 98            | v0.34.3-rc0 released       |
-| **LiteLLM**   | 91               | 127           | v1.103.0-dev.2 released    |
-| **Unsloth**   | 119              | 138           | v0.1.811-beta released     |
+| 项目       | 开放问题（高/严重） | 近24小时合并的PR | 近24小时发布 | 稳定性健康度 |
+|---------------|-----------------------------|------------------------|----------------------|------------------|
+| vLLM          | 5 (3 🔴)                    | 7                      | 无                 | ⚠️ 中等       |
+| SGLang        | 6 (3 🔴)                    | 8                      | v0.5.20              | ⚠️ 低            |
+| llama.cpp     | 6 (2 🔴)                    | 6                      | b11052–b11045        | ⚠️ 低            |
+| Ollama        | 5 (2 🔴)                    | 5                      | v0.34.3-rc1          | ❌ 差           |
+| LiteLLM       | 5 (4 🔴)                    | 4                      | 无                 | ⚠️ 严重       |
+| Unsloth       | 5 (3 🔴)                    | 5                      | v0.1.811-beta        | ⚠️ 中等       |
 
-> ✅ *SGLang leads in contributor engagement (237 contributors), while llama.cpp shows the highest volume of open issues—indicating broad but unstable hardware support.*
-
----
-
-### **3. Model Support Race**
-
-| New Model / Architecture       | Supported By                          | Status & Notes |
-|----------------------------------|----------------------------------------|----------------|
-| **GLM-5.3-Flash**                | SGLang ✅, vLLM 🟡 (pending patch)      | SGLang leads; vLLM has vision bug |
-| **Qwen3.8-Flash-Next**           | Unsloth ✅ (with MTP fix), SGLang 🟡     | Unsloth delivers 2x speedup via MTP hotfix |
-| **Gemma4 on Turing GPUs (SM 7.5)** | None — unsupported due to SM limits   | vLLM issue #38918 remains unresolved |
-| **Ternary Bonsai Models**        | Unsloth 🟡 (manual install), Ollama 🟡   | No native support yet; community effort needed |
-| **FP8/INT8 Diffusion Inference** | Unsloth ✅, llama.cpp 🟡 (OpenCL)       | Unsloth pioneers in diffusion + quantization fusion |
-
-> 🏆 **Winner: Unsloth** – leads in novel model performance (Qwen3.8-Flash-Next MTP), diffusion support, and cross-platform reach (ARM64 CUDA on Windows).
+> ✅ **趋势**：SGLang在发布速度与功能交付上领先；尽管开发活跃，但Ollama与LiteLLM存在系统性稳定性问题。
 
 ---
 
-### **4. Performance Frontier**
+### **3. 模型支持竞赛**
 
-| Optimization Focus          | Leading Projects                              | Key Advances |
-|-------------------------------|------------------------------------------------|--------------|
-| **KV Cache Efficiency**       | vLLM, SGLang                                   | FlashInfer integration (vLLM), pre-SM100 paged updates |
-| **Speculative Decoding**      | vLLM (NGram GPU speculator), SGLang            | GPU-accelerated n-gram prediction; early draft release fixes |
-| **Quantization & Kernels**    | llama.cpp (OpenCL/HMX), Unsloth (FP8/INT8)     | Binary kernels (`flash_attn_f32_f16_bin`), fused FP8 MoE folding |
-| **Distributed & Disaggregated Serving** | vLLM (NIXL), SGLang (sgl-router)         | `/render`, `/responses`, dynamic engine routing |
-| **Memory & Latency Tradeoffs**| SGLang (prefill CUDA graph contention), Ollama (RAM spikes) | Memory pressure driving auto-disable logic |
+| 新模型 / 架构               | vLLM         | SGLang       | llama.cpp    | Ollama         | LiteLLM       | Unsloth        |
+|-------------------------------|--------------|--------------|--------------|----------------|---------------|----------------|
+| **GLM-5.3-Flash (KDA + sparse MLA)** | ✅ CPU支持 | ✅ 完整支持      | ❌            | ❌             | ❌            | ❌             |
+| **GLM-5.3-Flash (DSA + Mamba)**   | ❌           | ✅ 首席支持 | ❌           | ❌             | ❌            | ❌             |
+| **Qwen4Exp (HC_PRE/POST)**        | ✅ Metal/SYCL/CUDA | ❌           | ✅ 完整支持      | ❌             | ❌            | ❌             |
+| **Qwen3.8-Flash-Next (MTP)**      | ❌           | ❌           | ❌           | ❌             | ❌            | ✅ 热修复 (v0.1.811-beta) |
+| **DFlash 规划性解码**   | ✅ (HunyuanOCR) | ✅ (GLM-5.3-Flash) | ✅ (HunyuanOCR) | ❌             | ❌            | ❌             |
+| **Prism 三元GGUF (PQ2_0/PTQ1_0)** | ❌           | ❌           | ❌           | ❌             | ✅ 已添加        | ❌             |
+| **Bonsai 1-bit/2-bit量化 (MLX)** | ❌           | ❌           | ❌           | ✅ 建议引入     | ❌            | ❌             |
 
-> 🔥 **Hotspot**: vLLM and SGLang are competing head-to-head on speculative decoding efficiency and distributed scalability—critical for agent systems.
-
----
-
-### **5. Layer Positioning**
-
-| Project       | Primary Layer                     | Role Summary |
-|---------------|------------------------------------|--------------|
-| **vLLM**      | High-Performance Serving Engine     | Core inference engine with advanced scheduling, MoE, and speculation |
-| **SGLang**    | Agent-First Runtime & Gateway       | Bridges models and agents with policy routing, tool calling, and async control flow |
-| **llama.cpp** | Local, Cross-Platform Runtime       | Edge and embedded inference; strong NPU/Vulkan/Metal support |
-| **Ollama**    | Developer-Focused Local Gateway     | Simplified CLI/model management; shifting from agent to API-first |
-| **LiteLLM**   | Enterprise Proxy & Orchestration    | Multi-provider routing, budget enforcement, encryption affinity |
-| **Unsloth**   | High-Speed Training + Inference Stack | Optimized fine-tuning + inference pipeline with Docker/multi-user support |
-
-> 💡 **Strategic Insight**: The stack is bifurcating—**engine-level innovation** (vLLM/SGLang) vs. **application-layer abstraction** (LiteLLM/Ollama) vs. **edge runtime** (llama.cpp).
+> 🏆 **胜者：SGLang** — 最快集成前沿混合模型（GLM-5.3-Flash DSA+Mamba）。  
+> 🥈 **亚军：vLLM** — 在跨平台正确性（CPU后端、ROCm、Intel XPU）方面领先。  
+> 🥉 **显著差距**：Ollama在模型特定优化上滞后；LiteLLM缺乏对新量化格式的原生支持。
 
 ---
 
-### **6. Trend Signals**
+### **4. 性能前沿**
 
-#### **Emerging Industry Trends (from 2026-09-19 activity):**
-1. **Agent-Centric Design Is Now Mainstream**  
-   - SGLang’s `sgl-router`, vLLM’s `/render`, and Ollama’s `thinking` controls signal that agents are no longer a niche use case—they’re driving core architectural decisions.
-   
-2. **Disaggregation & Observability Are Non-Negotiable**  
-   - vLLM’s NIXL metrics, SGLang’s PD disaggregation, and LiteLLM’s streaming guardrails show that distributed inference requires deep observability and state tracking.
+| 优化方向               | vLLM                          | SGLang                        | llama.cpp                     | Ollama                       | LiteLLM                      | Unsloth                     |
+|----------------------------------|-------------------------------|-------------------------------|-------------------------------|------------------------------|------------------------------|-----------------------------|
+| **KV缓存与传输**          | ✅ 共享规划原语 | ✅ HiCache自动调优        | ❌ 上下文持久化缺陷   | ❌ 状态泄漏（ROCm）        | ❌ 流式降级问题 | ✅ 支持20万上下文优化 |
+| **批处理与并行**       | ✅ 序列并行融合   | ✅ MoE专家并行     | ✅ 批处理调优（ROCm）        | ✅ 设备级显存追踪  | ✅ 主机托管vLLM批处理支持 | ✅ 多GPU卸载     |
+| **量化与内核**       | ✅ FP8 CUTLASS, MXFP8 GEMM    | ✅ W4A8 MoE, 统一内核  | ✅ q5_k, 分块VNNI, Hexagon  | ✅ 隐式工具调用解析 | ✅ 成本感知批处理       | ✅ FP8/INT8扩散       |
+| **规划性解码**         | ✅ 混合GDN, kpool修复    | ✅ DFlash, EAGLE, 锚点验证 | ✅ DFlash (HunyuanOCR)     | ❌ 静默丢弃           | ❌ 降级污染       | ✅ MTP热修复（2倍提速）  |
+| **分布式与解耦**  | ✅ CPU后端, RayExecutor  | ✅ DSA解码上下文PP      | ❌ 有限                   | ❌ 无显式支持       | ✅ 代理级路由       | ✅ 多用户Docker        |
 
-3. **Hardware Fragmentation Demands Cross-Backend Agility**  
-   - Projects like llama.cpp (OpenCL, Hexagon, Vulkan) and Unsloth (AMD RDNA1/2, ARM64 CUDA) are building portable backends faster than model providers can keep up.
+> 🔥 **核心关注点**：  
+> - **vLLM/SGLang**：跨引擎协同与规划性解码正确性。  
+> - **Unsloth**：MTP草稿生成与实时智能体的GPU卸载。  
+> - **llama.cpp**：后端专业化（Metal、SYCL、Hexagon）。
 
-4. **Security & Cost Control Are Production Requirements**  
-   - LiteLLM’s cosign-signed images, project-level budgets, and virtual key allowlisting reflect growing need for auditability and financial governance.
+---
 
-#### **What Application Developers Should Watch:**
-- **Avoid "vision" claims without runtime validation** — e.g., DeepSeek-V4.1 Flash silently discards images (Ollama #18527).
-- **Enable `--max-num-partial-prefills` cautiously** — vLLM’s RFC suggests it may break long-context RAG unless tuned.
-- **Monitor for silent data corruption** — Metal truncation (llama.cpp #28805), ROCm logits errors (#28211), and context leaks (Ollama #18528) can break production apps undetected.
-- **Upgrade to signed dev builds** (LiteLLM v1.103.0-dev.2) and beta releases (Unsloth v0.1.811-beta) to access critical stability fixes.
+### **5. 层级定位**
 
-> ✅ **Final Recommendation**: For production agent systems, **pair vLLM or SGLang as the engine** with **LiteLLM as the gateway**, and **validate all multimodal inputs at runtime**—no model capability should be trusted blindly.
+| 项目       | 主要层级                | 核心差异化                                 | 目标用户群体                     |
+|---------------|------------------------------|----------------------------------------------------|-----------------------------------------|
+| **vLLM**      | **服务引擎**           | 高吞吐、稳定、生产级内核融合 | 企业推理、云规模大模型应用 |
+| **SGLang**    | **服务引擎 + 网关** | 混合规划解码、深度MoE集成         | 智能体系统、高延迟推理   |
+| **llama.cpp** | **本地运行时 / 边缘**     | 通用后端支持、轻量、跨CPU/GPU/NPU | 设备端、边缘、嵌入式系统        |
+| **Ollama**    | **网关 / CLI工具**       | 开发者优先体验、本地优先模型管理   | 开发者、研究人员、爱好者            |
+| **LiteLLM**   | **API网关 / 代理**      | 统一API、成本追踪、供应商抽象  | SaaS平台、多供应商计费  |
+| **Unsloth**   | **训练 + 推理SDK** | 快速训练/推理组合、MTP优化   | 机器学习工程师、微调团队         |
+
+> 💡 **战略洞察**：该栈正出现分化——**工程师**使用vLLM/SGLang实现规模化，**开发者**使用Ollama/LiteLLM追求敏捷性，**边缘团队**依赖llama.cpp，而**研究者**则依赖Unsloth。
+
+---
+
+### **6. 趋势信号**
+
+1. **混合架构已成为主流**  
+   GLM-5.3-Flash（DSA+Mamba+MoE+FP8）已在vLLM、SGLang和llama.cpp中上线，表明下一代模型需要异构后端与精细的内核编排。
+
+2. **解耦是未来方向**  
+   GLM-5.3-Flash的CPU后端（vLLM）、多节点RayExecutor（vLLM）以及张量卸载（Unsloth）标志着向**混合CPU-GPU推理**的转变，支持冷启动与边缘部署。
+
+3. **规划性解码仍脆弱**  
+   `DFLASH`、`EAGLE` 和 `MTP` 中多个高严重性缺陷表明，**规划性解码仍易出错**，尤其在TP>1或混合硬件环境下。开发者必须严格验证输出。
+
+4. **成本透明推动采纳**  
+   LiteLLM对准确计价（GPT-5.6 Luna、DeepSeek Flash）的关注，以及Ollama的`thinking`控制功能，显示**成本与推理控制**正成为智能体工作流的刚性需求。
+
+5. **稳定性胜过功能**  
+   尽管创新迅猛，但Ollama、LiteLLM和Unsloth仍受制于关键回归问题——**稳定性已成为新瓶颈**。团队应优先测试而非追逐新奇功能。
+
+---
+
+### **面向应用开发者的建议**
+- **用于生产级智能体**：使用 **vLLM 或 SGLang**，搭配已验证模型（如 GLM-5.3-Flash），并在开放问题修复前避免使用规划性解码。
+- **用于边缘/本地推理**：优先选择 **llama.cpp**，配合 `q5_k` 与 `tiled mul_mat` 实现CPU效率最大化。
+- **用于开发敏捷性**：仅在固定版本（`0.32.6`）下使用 **Ollama**，避免 `deepseek-v4.1-flash:cloud` 与 ROCm MoE 模型。
+- **用于成本感知的SaaS**：利用 **LiteLLM** 的更新定价文件，并禁用 `?model=` 查询绕过。
+- **用于实时智能体**：谨慎测试 **Unsloth 的 MTP 模式**——仅在验证 #11143 后使用 `--draft-mode mtp`。
+
+> 📌 **核心结论**：基础设施已强大——但**正确性、稳定性与成本可预测性**如今已成为关键差异点。请根据自身风险承受能力选择，而非仅看原始速度。
 
 ---
 
@@ -110,55 +122,54 @@ The AI inference infrastructure landscape in Q3 2026 is characterized by rapid s
 <details>
 <summary><strong>vLLM</strong> — <a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></summary>
 
-**vLLM Digest – 2026-09-19**
+**vLLM 摘要 – 2026-09-19**
 
 ---
 
 ### **1. 今日亮点**  
-vLLM 项目持续推动大模型高效服务的边界，关键进展集中在推测解码与拆分式推理。值得注意的是，V1 引擎即将引入新的 NGram GPU 推测器，同时针对高负载解码场景下的无声 CUDA IMA 崩溃问题完成了关键稳定性修复。与此同时，增量 MoE 专家卸载与原生文本水印功能的持续推进，预示着对大规模、生产级部署的支持正在逐步增强。
+vLLM 项目持续深化对混合与解耦推理架构的支持，关键 PR 实现了 GLM-5.3-Flash（KDA 与稀疏 MLA）的 CPU 执行路径，并优化了跨引擎之间的 KV 数据传输语义。关键稳定性修复解决了在 4x B200 系统上运行 GLM-5.3-Flash 时的无声 CUDA 内存访问问题，以及高 GPU 利用率下 CUDA graph capture 长期存在的内存溢出（OOM）问题。
 
 ---
 
 ### **2. 发布与破坏性变更**  
-*过去 24 小时内未检测到新发布或破坏性变更。*  
-然而，多个 PR 正在推进 v0.28.x 版本：  
-- [PR #57416](https://github.com/vllm-project/vllm/pull/57416) 通过对扩散模型的 logits 行分配进行对齐，提升了预填充吞吐量——预计将在下个版本中合并。  
-- [PR #57647](https://github.com/vllm-project/vllm/pull/57647) 修正了 DFlash 接受长度测试的引用错误，解决了不稳定的 CI 回归问题（非破坏性变更，但影响测试可靠性）。
+过去 24 小时内无报告。未观察到新版本发布或破坏性 API/配置变更。
 
 ---
 
 ### **3. 新模型与硬件支持**  
-- **Gemma4 在 Turing GPU（SM 7.5）上**：由于所有注意力后端均受限于共享内存，仍不支持 ([Issue #38918](https://github.com/vllm-project/vllm/issues/38918))。绕过方案可能需要模型剪枝或后端修改。  
-- **GLM-5.3-Flash 在 SM120（RTX PRO 6000 Blackwell）上**：因缺少 `rope-free sparse MLA` 路径而无法启动 ([Issue #53963](https://github.com/vllm-project/vllm/issues/53963))。修复待定。  
-- **ROCm 支持**：持续增强对 AMD GPU 的支持，包括 gfx950 DPX 容忍度调整 ([PR #57599](https://github.com/vllm-project/vllm/pull/57599)) 以及 Qwen3-Next 的融合核函数支持 ([PR #51406](https://github.com/vllm-project/vllm/pull/51406))。  
-- **Intel GPU**：正在积极排查量化版 Qwen3.6-35B-A3B-int4-mixed-AutoRound 在 MTP 与多卡环境下的问题 ([Issue #53119](https://github.com/vllm-project/vllm/issues/53119))。
+- ✅ **GLM-5.3-Flash (GLM5Next)**：PR #57496 与 #57687 提交草案，为 KDA（门控差分规则线性注意力）和稀疏 MLA/keypool 组件引入以正确性为先的 **CPU 后端**，实现该混合模型的完整 CPU 推理支持。  
+- ✅ **ROCm 支持**：PR #57526 为 Hy4 模型添加专用 ROCm 路径，使用 `@support_torch_compile` 编译主干，避免静默降级至 `cudagraph_mode=NONE`。  
+- ✅ **Intel GPU (XPU)**：PR #57692 修复 RayExecutorV2 GCS 传播竞争条件，并扩展 Intel CI 覆盖范围，提升多节点部署的可靠性。  
+- ✅ **多模态扩展**：PR #57441 通过 `processor._get_num_multimodal_tokens(video_sizes=...)` 在 Transformers 后端新增 **视频输入支持**，延续此前对音频的支持。
 
 ---
 
 ### **4. 性能与优化**  
-- **推测解码**：新推出的 **NGram GPU 推测器** ([PR #40704](https://github.com/vllm-project/vllm/pull/40704)) 利用 GPU 加速的 n-gram 预测，实现更快的草稿 token 生成，显著提升推测效率。  
-- **预填充优化**：[PR #57416](https://github.com/vllm-project/vllm/pull/57416) 消除了扩散模型仅预填充批次中的冗余全遍历，带来可测量的延迟降低。  
-- **KV Cache 效率**：FlashInfer 集成现已扩展至 SM100 之前的 NVFP4 分页 KV Cache 更新 ([PR #46963](https://github.com/vllm-project/vllm/pull/46963))，使如 RTX 3090 等旧架构得以减小内存占用。  
-- **MoE 可扩展性**：通过 GPU 缓存 + 异步流水线实现的增量 MoE 专家卸载 ([RFC #38256](https://github.com/vllm-project/vllm/issues/38256))，有望在低于 40GB VRAM 的硬件上运行 >100B 的 MoE 模型。
+- 🔧 **内核融合**：PR #57428 将 DeepSeek-V4.1 的 MXFP8 `wo_b` GEMM 与序列并行 reduce-scatter 融合，减少 HBM 往返次数与内核启动次数——对大规模 MoE 模型在 TP 场景下至关重要。  
+- 🚀 **ROCm 优化**：PR #53623 为扁平 QKVZ 布局（如 Qwen3.5）启用 AITER GDN 解码快速路径，移除不必要的通用内核降级。  
+- ⚡ **FP8 效率**：PR #53400 将 SM100 每张量 FP8 线性内核从 FlashInfer 切换至 CUTLASS，预填充吞吐量提升约 2 倍。  
+- 📊 **KV 传输规划**：PR #57373 提议在多个 KV 连接器间共享传输规划原语，提升跨引擎协调效率。
 
 ---
 
 ### **5. 稳定性与回归问题**  
-- **RTX 3090 上混合 GDN + MTP k=3 + 异步调度下的无声 CUDA IMA 崩溃** ([Issue #53726](https://github.com/vllm-project/vllm/issues/53726))：尽管已有修复，但崩溃仍持续存在；目前尚无已知解决方案。  
-- **DFlash2 在 sm_80（RTX 3090）上约 11,000 解码步后越界崩溃**，导致引擎崩溃并触发 Xid 31 ([Issue #55279](https://github.com/vllm-project/vllm/issues/55279))：严重级别高，影响长上下文推理；需紧急处理。  
-- **GLM-5.3-Flash 长解码质量退化**，在累积推理后输出质量逐渐下降 ([Issue #56868](https://github.com/vllm-project/vllm/issues/56868))：很可能与 KV Cache 管理有关。  
-- **P/D 拆分部署中预填充后重启 Pod 导致 NIXL LoadRemoteMD 崩溃** ([Issue #49238](https://github.com/vllm-project/vllm/issues/49238))：对分布式系统至关重要；修复 PR 正在审查中 ([PR #57389](https://github.com/vllm-project/vllm/pull/57389))。
+| 严重程度 | 问题 | 影响 | 修复状态 | 链接 |
+|--------|------|--------|-----------|------|
+| 🔴 高 | 4x B200 上运行 GLM-5.3-Flash 时发生无声 CUDA 非法内存访问 | 长时间解码后崩溃；影响生产负载 | 开放 | [#54317](https://github.com/vllm-project/vllm/issues/54317) |
+| 🔴 高 | `--gpu-memory-utilization 0.98` 下 CUDA graph capture 期间内存溢出（OOM） | 即便分配检查通过，仍导致启动失败 | 开放 | [#57475](https://github.com/vllm-project/vllm/issues/57475) |
+| 🟡 中 | 混合 GDN 模型中推测解码静默禁用前缀缓存命中 | 长上下文推理性能下降 | 开放 | [#54360](https://github.com/vllm-project/vllm/issues/54360) |
+| 🟡 中 | GLM-5.3-Flash kpool 索引器在 ROCm 上覆盖 KV 缓存 | 静默数据损坏；长上下文召回质量下降 | 开放 | [#54359](https://github.com/vllm-project/vllm/issues/54359) |
+| 🟢 低 | 工具解析器在分块流中丢失工具调用 | 流式场景下输出错误 | 已修复 | [#57551](https://github.com/vllm-project/vllm/pull/57551) |
 
 ---
 
 ### **6. 对应用开发者的启示**  
-- **生产系统**：谨慎使用 `--max-num-partial-prefills` —— 最新 RFC 建议为长上下文 RAG 工作负载恢复并发部分预填充限制 ([Issue #57413](https://github.com/vllm-project/vllm/issues/57413))。请监控 V1 调度器中的回归问题。  
-- **智能体与工具链工作流**：多轮对话支持仍处于实验阶段 ([Issue #33089](https://github.com/vllm-project/vllm/issues/33089))；建议在原生 OpenAI `/responses` API 可用前，使用外部状态管理。  
-- **长上下文应用**：避免在 Turing GPU 上使用 Gemma4；改用更小模型或重构提示处理逻辑。对于 GLM-5.3-Flash，除非打补丁，否则在新款 Blackwell 显卡上将面临性能限制。  
-- **拆分式服务部署**：充分利用 `/render` 端点 ([PR #42729](https://github.com/vllm-project/vllm/pull/42729)) 和 NIXL 指标聚合功能 ([PR #41230](https://github.com/vllm-project/vllm/pull/41230))，以增强分层部署的可观测性。  
-- **未来兼容性**：尽可能启用 `torch.compile` —— 但请注意 FusedMoE 包装器的限制 ([Issue #31985](https://github.com/vllm-project/vllm/issues/31985)) 可能阻碍优化。
+- **对于长上下文代理**：在高端 GPU 上使用 `--gpu-memory-utilization > 0.97` 时需谨慎——建议设置为 0.96–0.97，以避免在 graph capture 期间出现静默 OOM（[#57475](https://github.com/vllm-project/vllm/issues/57475)）。  
+- **对于混合/解耦应用**：GLM-5.3-Flash 新增的 CPU 后端（PRs #57496、#57687）为冷启动推理与边缘部署打开新可能——但请务必优先验证正确性。  
+- **对于使用工具的代理**：确保谨慎使用 `response_format` 与 `tool_choice: "auto"` 组合——此搭配可能抑制工具调用（[#39929](https://github.com/vllm-project/vllm/issues/39929)）。  
+- **对于实时系统**：在连接处理器周围使用 `try-finally` 包裹（已在 [#57690](https://github.com/vllm-project/vllm/pull/57690) 修复），防止资源泄漏。  
 
-> *保持警惕：多个高严重性缺陷仍存在于长解码与多 GPU 工作流中。部署前务必在接近生产负载的条件下充分测试。*
+> 💡 *实用提示*：使用 NIXL 连接器时，建议开启 `NIXL_TELEMETRY_ENABLE=1`——缺少遥测信息可能导致传输追踪中的崩溃（[#57403](https://github.com/vllm-project/vllm/pull/57403)）。
 
 </details>
 
@@ -170,326 +181,341 @@ vLLM 项目持续推动大模型高效服务的边界，关键进展集中在推
 ---
 
 ### **1. 今日亮点**  
-SGLang 生态在引擎架构优化方面取得显著进展，推出了新的 `sgl-router` 策略重组计划，旨在实现动态引擎选择与基于负载的路由。与此同时，关键稳定性修复已合并，涵盖 GPU 内存管理（如 CUDA graph 预填充饥饿问题）以及影响 DeepSeek V4/V3.2 和 GLM-5.3-Flash 视觉模型的特定模型缺陷。v0.5.20 版本发布，新增对 **GLM-5.3-Flash** 模型的支持，并标志着社区驱动开发的重要里程碑——来自 237 名贡献者的 700 多个 PR 被采纳。
+SGLang 生态在推测解码与 GLM-5.3-Flash 集成方面取得显著进展，v0.5.20 版本正式支持新型混合 DSA+Mamba+FP8 MoE 模型。关键修复已合并，包括稳定 HiCache、改进草稿布局验证，以及解决 MoE 专家并行中的内存损坏风险。值得注意的是，多个 PR 推进了 DFlash 与 EAGLE 推测解码在多种硬件后端下的正确性。
 
 ---
 
 ### **2. 发布与破坏性变更**  
-- **v0.5.20** 已发布：[GitHub 发布页](https://github.com/sgl-project/sglang/releases/tag/v0.5.20)  
-  - 引入 **GLM-5.3-Flash** 作为支持的自回归模型。  
-  - 通过 `policies_reorg` 模块对引擎选择流水线进行基础性重构。  
-  - 未报告破坏性 API 变更；保持向后兼容性。
+- **v0.5.20** 今日发布，全面支持 **GLM-5.3-Flash (DSA+mamba 混合)**，并在 TP>1 场景下优化了 DFlash V2 的行为。  
+  🔗 [发布说明](https://github.com/sgl-project/sglang/releases/tag/v0.5.20)  
+  ✅ *未报告破坏性 API 变更；向后兼容性保持不变。*
 
 ---
 
 ### **3. 新模型与硬件支持**  
-- **新模型**：  
-  - ✅ **GLM-5.3-Flash**（自回归）——现已通过 [教程](https://docs.sglang.io/cookbook) 正式支持。  
-  - 📌 *Gigachat 3.5* 支持正在积极开发中 ([PR #29189](https://github.com/sgl-project/sglang/pull/29189))。  
-- **硬件与后端增强**：  
-  - **ROCm** 优化：`ROCM_QUICK_REDUCE_QUANTIZATION=INT8` 路径现在能更稳健地处理低幅度 BF16 输入 ([Issue #40084](https://github.com/sgl-project/sglang/issues/40084))。  
-  - **AMD** 优化：MiniMax-M3 堆栈包含融合的 FP8 量化、MoE all-reduce 折叠和基于 Triton 的稀疏注意力 ([PRs #36574–#36559](https://github.com/sgl-project/sglang/pulls?q=is%3Aopen+is%3Apr+label%3A%22amd%22+author%3Azcnrex))。  
-  - **NPU** 支持：共享选择状态已移至 `src/state`，以统一控制流 ([PR #40272](https://github.com/sgl-project/sglang/pull/40272))。
+- **GLM-5.3-Flash**：通过 #36507 添加一级支持，可在 Hopper 与 Blackwell GPU 上实现 DSA + Mamba + FP8 MoE（289 个专家）的混合推理。  
+  🔗 [教程条目](https://docs.sglang.io/cookbook#glm-53-flash)  
+- **ROCm 支持扩展**：  
+  - 修复 MI300X (gfx942) 上分页缓存索引的 `int32` 溢出问题 — #40351  
+  - 解决 all-reduce 路径中 ROCm 特有的量化饱和问题 — #40084  
+- **NPU / Ascend 支持**：  
+  - 修复 `AscendTPDispatcher` 中的 FP32 路由权重向下转换问题 — #39394  
+  - 为 DSA 模型新增解码上下文并行支持 — #37787  
 
 ---
 
 ### **4. 性能与优化**  
-- **预填充内存效率**：  
-  - 预填充 CUDA graph 现在占用约 1.8 GB，导致在小规格 GPU 上与量化 KV 的长上下文工作负载产生资源争用 ([Issue #40094](https://github.com/sgl-project/sglang/issues/40094))。  
-  - 提出修复方案：当可用 VRAM 低于阈值时自动禁用预填充 CUDA graph（尚未实现规则）。  
-- **推测解码**：  
-  - 草稿阶段的 `embed_tokens`/`lm_head` 复制释放过早，导致 `max_total_num_tokens` 缩小 ([Issue #36452](https://github.com/sgl-project/sglang/issues/36452))。  
-  - 修复正处于性能评审阶段。  
-- **内核与量化**：  
-  - **MiniMax-M3** 堆栈实现了每 token 的 FP8 量化融合，结合 RMSNorm 与 MoE all-reduce 折叠 ([PR #36575](https://github.com/sgl-project/sglang/pull/36575))。  
-  - AMD 特定内核针对 wave64 直方图选 top-k 解码进行了优化 ([PR #36560](https://github.com/sgl-project/sglang/pull/36560))。  
-  - **DFLASH 草稿布局** 验证缺失 —— 在锚点优先检查点过程中出现静默位置偏移 ([Issue #40144](https://github.com/sgl-project/sglang/issues/40144))。
+- **推测解码优化**：  
+  - 优化草稿嵌入与 LM-head 复制释放时机，防止过早压缩 KV 池 — #36452  
+  - 将 DeepSeek-V4.1 的密集预填充索引候选掩码融合至 top-k 选择 — #40352  
+- **MoE 与内存效率**：  
+  - 避免在 EP>1 场景下因每秩形状不匹配导致 FlashInfer 自动调优缓存启动时被丢弃 — #40320  
+  - 改进 HiCache 主机池自动扩容机制，避免内存受限环境下的 OOM — #40135  
+- **内核级优化**：  
+  - 优化 H200 上 GLM-5.2 的 W4A8 MoE 内核 — #38220  
+  - 统一 GLM-5.3-Flash KDA 投影与元数据的内核融合 — #39688  
 
 ---
 
 ### **5. 稳定性与回归问题**  
-- **严重崩溃与缺陷**：  
-  1. **DeepSeek V4/V3.2 工具调用解析失败**：工具调用返回原始内容且语法格式错误 ([Issue #40236](https://github.com/sgl-project/sglang/issues/40236))。  
-  2. **GLM-5.3-Flash 视觉误分类**：在 8x H20 上，单个 JPEG URL 被错误识别为鸟类图像 ([Issue #38821](https://github.com/sgl-project/sglang/issues/38821))。  
-  3. **Qwen3.6-27B AWQ 在多轮提示下温度为 0 时退化** ([Issue #31720](https://github.com/sgl-project/sglang/issues/31720))。  
-- **已合并的稳定性修复**：  
-  - 修复 TorchDynamo 追踪路径中的 `is_musa()` 图断裂问题 ([PR #40067](https://github.com/sgl-project/sglang/pull/40067))。  
-  - 修复因 `bootstrap_room` 重复导致的 `KeyError` 崩溃（在 PD 分离中）([Issue #40125](https://github.com/sgl-project/sglang/issues/40125))。  
-- **CI 健康状态**：检测到 1 个失败测试，6 个不稳定测试；共应用 1,051 项近期修复 ([Issue #17050](https://github.com/sgl-project/sglang/issues/17050))。
+| 严重性 | 问题 | 摘要 | 状态 | PR/链接 |
+|--------|------|---------|--------|--------|
+| 🔴 高 | `DFLASH` 草稿布局假设但未验证 | 锚点优先检查点静默偏移 → 导致令牌对齐错误 | 开放 | [#40144](https://github.com/sgl-project/sglang/issues/40144) |
+| 🔴 高 | `EAGLE` 推测解码：`num_token_non_padded = 0` | 掩盖所有草稿 topk ID → 破坏 MoE 分发 | 开放 | [#40156](https://github.com/sgl-project/sglang/issues/40156) |
+| 🔴 高 | GLM-5.3-Flash：SM121 上无可用 DSA 注意力后端 | TRTLLM 仅支持 SM100；tilelang 超出 smem；Triton 仅支持 ROCm | 开放 | [#40286](https://github.com/sgl-project/sglang/issues/40286) |
+| 🟡 中 | `hicache` 在 `cudaMemcpyBatchAsync` 上的分段写回故障 | 传入主机虚拟地址，但 `CanUseHostPointerForRegisteredMem == 0` | 开放 | [#40232](https://github.com/sgl-project/sglang/issues/40232) |
+| 🟡 中 | `Qwen3CoderDetector`：重复标签截断参数 | 参数解析期间静默覆盖早期匹配项 | 开放 | [#39836](https://github.com/sgl-project/sglang/issues/39836) |
 
 ---
 
-### **6. 对应用开发者的意义**  
-- **引擎选择灵活性**：`sgl-router` 重构 ([PRs #40241–#40272](https://github.com/sgl-project/sglang/pulls?q=is%3Aopen+is%3Apr+label%3A%22sgl-router%22)) 将在未来支持基于负载、延迟或成本的动态路由，这对需要自适应推理路径的代理系统至关重要。  
-- **模型特定风险**：在 #38821 修复前，请避免使用 `GLM-5.3-Flash` 视觉模式；在多轮场景中，建议对 Qwen3.6-27B-AWQ 使用 `temperature > 0`。  
-- **内存限制**：在小 GPU 部署环境中，可禁用 `--enable-prefill-cp`，或密切监控 VRAM 使用情况，以避免预填充阻塞 ([Issue #40094](https://github.com/sgl-project/sglang/issues/40094))。  
-- **工具调用可靠性**：在 #39843 修复前，Python 与 Rust 前端之间的工具调用渲染可能不一致——生产环境中请保持前端层的一致性。
+### **6. 对应用开发者的启示**  
+- **使用 GLM-5.3-Flash 构建健壮智能体**：利用其 DSA+Mamba 混合架构实现低延迟、高吞吐推理，尤其适用于长上下文或多轮交互场景。  
+- **警惕静默正确性缺陷**：使用 `--enable-dp-attention` 或 `--speculative-decoding` 时，注意 `DFLASH` 草稿与 `EAGLE` 推测解码的输出验证。  
+- **确保合理内存管理**：启用 `SGLANG_DEBUG_MEMORY_POOL`（现已对默认分配器生效 — #40305）以排查内存池泄漏。  
+- **留意后端特有陷阱**：在 ROCm（MI300X）上，注意 all-reduce 可能出现浮点饱和；在 NPU 上，确认 FP32 路由精度。  
+- **优化工具调用**：Python/Rust 提示模板差异（#39843）可能影响智能体一致性 — 建议提交前离线渲染提示。  
 
-> 🔗 **可操作链接**：  
-> - [v0.5.20 发布说明](https://github.com/sgl-project/sglang/releases/tag/v0.5.20)  
-> - [SGLang 教程（模型）](https://docs.sglang.io/cookbook)  
-> - [开放问题（前10名）](https://github.com/sgl-project/sglang/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+👉 生产环境请锁定至 **v0.5.20**，并持续关注与 `EAGLE`、`DFLASH`、`HiCache` 稳定性相关的开放问题。
 
 </details>
 
 <details>
 <summary><strong>llama.cpp</strong> — <a href="https://github.com/ggml-org/llama.cpp">ggml-org/llama.cpp</a></summary>
 
-**llama.cpp 摘要 – 2026-09-19**
+# **llama.cpp 消息简报 – 2026-09-19**
 
 ---
 
 ### **1. 今日亮点**  
-最新更新聚焦于在多个后端扩展硬件加速能力，尤其在 OpenCL 和 Hexagon 支持方面取得显著进展，涵盖高级注意力核函数与张量运算。关键改进包括 OpenCL 上的 `flash_attn_f32_f16_bin`、Hexagon 上的 ROLL 操作支持，以及针对非 64 的倍数头维度（head_dim）优化的 HMX flash-attention 填充机制。这些升级提升了在各类边缘设备和 AI 加速器上的兼容性与性能表现。
+最新开发周期在后端专用化与模型特异性优化方面展现出强劲势头，尤其针对 Qwen4Exp 与 DSV4 风格模型在 Metal、SYCL 与 CUDA 上的表现。关键修复解决了 AMD Strix Halo（ROCm）与 RTX 5090（CUDA）上的 GPU 稳定性问题，新增对 `q5_k` 量化和 `DFlash` 推测解码的支持，显著提升了部署灵活性。
 
 ---
 
 ### **2. 发布与破坏性变更**  
-- **b11046 (OpenCL)**：新增二进制内核 `flash_attn_f32_f16_bin` (#29046)，支持混合精度工作负载下的优化 flash attention。  
-  🔗 [PR #29046](https://github.com/ggml-org/llama.cpp/pull/29046)  
-- **b11045 (Hexagon)**：为 f32 张量添加 `ROLL` 操作支持，对依赖位置偏移的模型（如 MTP、滑动窗口）至关重要。  
-  🔗 [PR #29105](https://github.com/ggml-org/llama.cpp/pull/29105)  
-- **b11043 (Hexagon)**：增强 HMX flash-attention 以处理 `head_dim = 72`（例如 SigLIP），通过零填充通道实现 64 对齐。  
-  🔗 [PR #26539](https://github.com/ggml-org/llama.cpp/pull/26539)  
-- **b11042 (OpenCL)**：引入 A8 Q6_K 非 MoE 二进制内核（`kernel_gemm_noshuffle_q6_k_f32_32b_trans_ila_a8_bin`），提升量化推理效率。  
-  🔗 [PR #28678](https://github.com/ggml-org/llama.cpp/pull/28678)  
+- **b11052**：修复 JSON 模式正则解析，支持转义连字符（`\-`）—— 为基于语法的验证系统提供兼容性修复 ([PR #29127](https://github.com/ggml-org/llama.cpp/pull/29127))。  
+- **b11050**：修补 Metal FA 支持检查逻辑，防止在 Apple Silicon 设备上误配置 ([PR #29122](https://github.com/ggml-org/llama.cpp/pull/29122))。  
+- **b11048**：在 Metal 后端中完整支持 Qwen4Exp 新增的 `hc_pre`（门控 sigmoid）与 `hc_post`（恒等混合）操作 ([PR #29000](https://github.com/ggml-org/llama.cpp/pull/29000))。  
+- **b11045–b11044**：Hexagon 后端现支持 `ROLL` 操作，并增强 `IM2COL` 功能，包含 1D/填充内核与分块暂存机制 ([PR #29105](https://github.com/ggml-org/llama.cpp/pull/29105), [PR #29103](https://github.com/ggml-org/llama.cpp/pull/29103))。
 
-> ✅ *未报告任何破坏性 API 变更；所有更新均为累加或向后兼容。*
+> ✅ *今日未报告任何破坏性 API 变更；所有更新均为新增或修正性质。*
 
 ---
 
 ### **3. 新模型与硬件支持**  
-- **Hexagon (高通 NPU)**：通过异步后端（PR #26501）实现对多 NPU 设备（IQ9/IQ10）的完整支持，可在移动 SoC 上实现可扩展部署。  
-  🔗 [PR #26501](https://github.com/ggml-org/llama.cpp/pull/26501)  
-- **Vulkan**：新增 IQ3_S MMQ 矩阵乘法内核，适用于 RDNA3/RDNA4 GPU（如 Strix Halo、AMD Radeon 7900 XT）。  
-  🔗 [PR #28822](https://github.com/ggml-org/llama.cpp/pull/28822)  
-- **SYCL (Intel Arc)**：实验性地加入图录制与回放功能（PR #28725），为 Intel GPU 实现低延迟推理铺平道路。  
-  🔗 [PR #28725](https://github.com/ggml-org/llama.cpp/pull/28725)  
-- **Metal (Apple Silicon)**：新增 Q4_0/Q8_0 小批量矩阵-向量内核，支持 `ne11=2..8`，降低轻量级推理延迟。  
-  🔗 [PR #29110](https://github.com/ggml-org/llama.cpp/pull/29110)
+- **模型**：  
+  - 在 Metal、SYCL 与 CUDA 后端上全面支持 **Qwen4Exp**（含 DSV4 HC 变体）([PR #29000](https://github.com/ggml-org/llama.cpp/pull/29000), [PR #29132](https://github.com/ggml-org/llama.cpp/pull/29132))。  
+  - 通过 GGUF 转换管道，为 **HunyuanOCR** 新增 **DFlash** 推测解码支持 ([PR #28890](https://github.com/ggml-org/llama.cpp/pull/28890))。  
+- **硬件与后端**：  
+  - **Hexagon NPU**：新增 `q5_k` 量化支持，以及高级 `IM2COL`/`ROLL` 内核优化 ([PR #29123](https://github.com/ggml-org/llama.cpp/pull/29123), [PR #29105](https://github.com/ggml-org/llama.cpp/pull/29105))。  
+  - **SYCL**：实验性支持门控 DSV4_HC_PRE 与可选的 HC_POST 组合矩阵 ([PR #29132](https://github.com/ggml-org/llama.cpp/pull/29132))。  
+  - **OpenCL**：新增 `flash_attn_f32_f16_bin` 与 `kernel_gemm_noshuffle_q6_k_f32_32b_trans_ila_a8_bin` 内核 ([PR #29046](https://github.com/ggml-org/llama.cpp/pull/29046), [PR #28678](https://github.com/ggml-org/llama.cpp/pull/28678))。  
+  - **CUDA**：为 `CONV_2D_DW` 操作新增 F16 内核支持 ([PR #29064](https://github.com/ggml-org/llama.cpp/pull/29064))。
 
 ---
 
 ### **4. 性能与优化**  
-- **Flash Attention**：OpenCL 上的 `flash_attn_f32_f16_bin` 降低内核启动开销，显著提升 Qwen3.8-27B 等高吞吐模型的处理效率。  
-- **Hexagon IM2COL**：更新后的内核支持一维及填充操作，在基准测试中使 patch-embedding 速度提升最高达 15%。  
-  🔗 [PR #29103](https://github.com/ggml-org/llama.cpp/pull/29103)  
-- **SYCL (Intel Arc B70)**：IQ3_S/IQ3_XXS 代码重排在预填充阶段将解码路径效率提升约 20%。  
-  🔗 [PR #29107](https://github.com/ggml-org/llama.cpp/pull/29107)  
-- **Vulkan (RDNA3/RDNA4)**：新推出的 int8 coopmat1 内核（PR #27952）相比通用路径，提示词处理速度最高提升 2 倍。  
-  🔗 [PR #27952](https://github.com/ggml-org/llama.cpp/pull/27952)
+- **Metal**：通过基于家族的键值映射（`fa_vec_tuned_table`）优化 Flash Attention 调参，在 Apple GPU 上显著提升缓存命中率 ([PR #29075](https://github.com/ggml-org/llama.cpp/pull/29075))。  
+- **CPU**：采用 VNNI 加速的分块 `mul_mat` 实现 **3–7 倍加速**，适用于现代 x86 CPU 上的 k-量化模型 ([PR #27851](https://github.com/ggml-org/llama.cpp/pull/27851))。  
+- **HIP/ROCm**：针对 RDNA3.5 GPU 调整 MMVQ 批处理阈值，提升批生成场景下的吞吐量 ([PR #28613](https://github.com/ggml-org/llama.cpp/pull/28613))。  
+- **SYCL**：避免在不支持架构（如 Xe-LP）上触发缓慢的一DNN 回退，防止出现 **80 倍性能下降** ([PR #28890](https://github.com/ggml-org/llama.cpp/pull/28890))。
 
 ---
 
 ### **5. 稳定性与回归问题**  
-- **严重 GPU 崩溃（CUDA/SYCL/Vulkan）**：  
-  - **RTX 5090**：CUDA Graph 导致 GPU 假死 / XID 8 错误（问题 #27330），可通过设置 `GGML_CUDA_DISABLE_GRAPHS=1` 缓解。  
-    🔗 [问题 #27330](https://github.com/ggml-org/llama.cpp/issues/27330)  
-  - **AMD Strix Halo (Vulkan)**：Linux 7.x 内核下出现 `DeviceLostError`（问题 #25664）。  
-    🔗 [问题 #25664](https://github.com/ggml-org/llama.cpp/issues/25664)  
-  - **Intel Arc Pro B70 (SYCL)**：`dev2dev_memcpy` 因 `DEVICE_LOST` 导致崩溃（问题 #27198）。  
-    🔗 [问题 #27198](https://github.com/ggml-org/llama.cpp/issues/27198)  
-- **无声数据损坏**：  
-  - **HIP/ROCm (gfx1151)**：长提示（>n_ubatch）时 logits 出现错误（问题 #28211）。  
-    🔗 [问题 #28211](https://github.com/ggml-org/llama.cpp/issues/28211)  
-  - **Metal (M1/M2)**：长上下文场景下输出被无声截断（问题 #28805）。  
-    🔗 [问题 #28805](https://github.com/ggml-org/llama.cpp/issues/28805)  
+- **严重崩溃**：  
+  - **CUDA 图**在 RTX 5090 sm_120 上导致 GPU 通道挂起（可能因内核启动配置不当）；临时解决方案：`GGML_CUDA_DISABLE_GRAPHS=1` ([Issue #27330](https://github.com/ggml-org/llama.cpp/issues/27330))。  
+  - **Qwen4Exp** 在 Vulkan（gfx1151）上首次解码即崩溃——可在 RADV 驱动下复现；目前尚无修复方案 ([Issue #29028](https://github.com/ggml-org/llama.cpp/issues/29028))。  
+- **正确性缺陷**：  
+  - **ROCm/Gfx1151**：当提示长度超过 `n_ubatch` 时返回错误的 logits，影响推理精度 ([Issue #28211](https://github.com/ggml-org/llama.cpp/issues/28211))。  
+  - **混合模型**：上下文检查点静默失效；跨会话提示复用丢失 ([Issue #25700](https://github.com/ggml-org/llama.cpp/issues/25700), [Issue #25913](https://github.com/ggml-org/llama.cpp/issues/25913))。  
 - **内存问题**：  
-  - 图形缓冲区预留失败（问题 #26070），导致分配崩溃。  
-    🔗 [问题 #26070](https://github.com/ggml-org/llama.cpp/issues/26070)  
+  - **SYCL 双 GPU** 在加载模型时卡死；疑似内存同步不当所致 ([Issue #27547](https://github.com/ggml-org/llama.cpp/issues/27547))。  
+  - **SYCL `sysman` 内存查询可能不可用**，导致内存估算错误 ([Issue #28239](https://github.com/ggml-org/llama.cpp/issues/28239))。
 
-> ⚠️ *多数回归问题仍待修复；相关 PR 正在审查或处于实验阶段。*
+> ⚠️ *部分问题已有修复补丁（如 #29064、#28890），但 Qwen4Exp Vulkan 崩溃等关键回归问题仍未解决。*
 
 ---
 
-### **6. 对应用开发者的启示**  
-- 在多 GPU 系统上使用 `--split-mode tensor` 时需谨慎——已知会引发崩溃（如问题 #27198, #27330）；建议暂用 `--split-mode layer` 直至稳定。  
-- 若运行在 RTX 5090 或更新显卡上，请启用 `GGML_CUDA_DISABLE_GRAPHS=1` 以避免 GPU 假死。  
-- 针对边缘部署，优先选用 b11045 及以上版本的 Hexagon 构建，以更好支持 MTP、SWA 及滚动窗口类模型。  
-- 在 OpenCL 平台利用新二进制内核（`flash_attn_f32_f16_bin`, `A8 Q6_K`）以获得更高吞吐。  
-- **密切关注模型特定问题**——Qwen3.8-Flash-Next 在 Metal 与 Vulkan 上存在解码异常（问题 #28805, #29028）；可临时使用 `--no-ctx-checkpoints` 作为规避方案。  
+### **6. 对应用开发者的意义**  
+- **在 SYCL 上谨慎使用 `--fit`** —— 内存估算仍不可靠；建议手动调整内存分配。  
+- **在 RTX 5090 上避免使用 CUDA 图**，直至问题修复；可通过 `GGML_CUDA_DISABLE_GRAPHS=1` 禁用。  
+- **充分利用 Metal/SYCL/CUDA 上对 Qwen4Exp 的新支持**，实现视觉-语言模型的高性能推理。  
+- **利用 `q5_k` 量化与分块矩阵乘法**（通过 `ggml-cpu` 优化）提升 CPU 推理性能。  
+- **注意在 SYCL 下英特尔 Arc 性能慢于 Vulkan** —— 此差距仍存在（[Issue #26010](https://github.com/ggml-org/llama.cpp/issues/26010)）。  
+- **在 AMD Strix Halo（ROCm）上验证模型加载** —— 已知输入层在 CPU 上存在性能下降；请持续关注更新。
 
-> 📌 *请始终使用最新 `b11046+` 版本构建，以确保在新硬件上的稳定性。*  
-> 🔗 [最新发布](https://github.com/ggml-org/llama.cpp/releases) | [GitHub 问题](https://github.com/ggml-org/llama.cpp/issues)
+> 📌 *对于生产部署：优先选用稳定版本（如 b11045+），避免在边缘硬件上使用实验性功能，并测试混合/循环模型中的上下文持久性。*
 
 </details>
 
 <details>
 <summary><strong>Ollama</strong> — <a href="https://github.com/ollama/ollama">ollama/ollama</a></summary>
 
-### **Ollama Digest — 2026-09-19**
+# **Ollama Digest – 2026-09-19**
 
 ---
 
-#### **1. 今日亮点**  
-Ollama v0.34.3-rc0 引入了对模型专属 *思考控制* 的显式支持，通过 `/api/show` 接口暴露可用的级别（`low`、`high`、`max`）及默认值——这对需要配置推理层级的代理框架至关重要。与此同时，多个高严重性问题被报告，涉及工具调用解析（Qwen3-Coder）、云模型中的图像处理（DeepSeek-V4.1 Flash），以及 ROCm/GDN 混合模型中的状态泄漏，凸显了在多模态和高级推理模式下持续存在的挑战。
+### **1. 今日亮点**  
+最新发布的 `v0.34.3-rc1` 引入了通过 `GET /api/show` 显式控制**推理深度**的功能，使客户端能够查询模型的推理配置（`low`、`high`、`max`）及默认行为——这对智能体工作流至关重要。与此同时，一些紧急稳定性问题浮出水面：**DeepSeek-v4.1-flash:cloud** 在宣称具备视觉能力的情况下却静默丢弃图像输入；**ROCm 上的 Qwen3.8 MoE 模型**存在跨请求状态泄漏问题，两者均严重影响生产环境推理的可靠性。
 
 ---
 
-#### **2. 发布与破坏性变更**  
-- **v0.34.3-rc0**（最新版本）：  
-  - 在 `/api/show` 响应中新增 `thinking` 元数据：  
-    ```json
-    {
-      "thinking": {
-        "values": ["low", "high", "max"],
-        "default": "max"
-      }
+### **2. 发布与破坏性变更**  
+- **`v0.34.3-rc1`**：现已通过 `/api/show` 暴露模型级 `thinking` 设置：  
+  ```json
+  {
+    "thinking": {
+      "values": ["low", "high", "max"],
+      "default": "max"
     }
-    ```
-    [PR #18473](https://github.com/ollama/ollama/pull/18473) | [Issue #18473](https://github.com/ollama/ollama/issues/18473)  
-  - **破坏性变更**：内置 CLI 代理已完全移除 ([PR #18393](https://github.com/ollama/ollama/pull/18393))，用户需通过外部工具或自定义脚本主动启用。依赖该功能的企业工作流可能需要重新配置。
+  }
+  ```
+  [GitHub Issue #18509](https://github.com/ollama/ollama/issues/18509) | [PR #17566](https://github.com/ollama/ollama/pull/17566)
+
+> 💡 *注意：此变更支持按模型动态控制推理深度，但需客户端更新以利用新增字段。*
 
 ---
 
-#### **3. 新模型与硬件支持**  
-- **新模型请求**：  
-  - Mistral Small 4：[Issue #15142](https://github.com/ollama/ollama/issues/15142) – Mistral Small 3.2 的开源继任者，预计即将加入。  
-  - Prism Ternary GGUFs (PQ2_0/PTQ1_0)：[Issue #18521](https://github.com/ollama/ollama/issues/18521) – 导入失败因不支持张量大小溢出；需上游 MLX 后端支持。  
-- **硬件与后端更新**：  
-  - **MLX**：正积极开发 1-bit/2-bit 量化权重（Bonsai 模型），详见 [Issue #18515](https://github.com/ollama/ollama/issues/18515)。  
-  - **ROCm**：混合 GDN 模型（Qwen3.5 系列）在 gfx1151 GPU 上出现跨请求状态泄漏问题 ([Issue #18528](https://github.com/ollama/ollama/issues/18528))。  
-  - **Vulkan**：Intel Iris Xe iGPU 检测时断时续失败 ([Issue #18482](https://github.com/ollama/ollama/issues/18482))；在 qwen2.5:14b 上观察到内存分配错误 ([Issue #18531](https://github.com/ollama/ollama/issues/18531))。
+### **3. 新模型与硬件支持**  
+- **Mistral Small 4**：已提交加入 Ollama Models 的请求 ([#15142](https://github.com/ollama/ollama/issues/15142)) —— 作为 Mistral Small 3.2 的开源继任者，性能更优、效率更高。
+- **MLX 后端扩展**：  
+  - 通过 MLX runner 新增对 `gliner-small-v2.1` 的支持 ([#18535](https://github.com/ollama/ollama/pull/18535))。  
+  - 提议在 MLX 后端中支持 **Bonsai 的 1-bit/2-bit 量化权重** ([#18515](https://github.com/ollama/ollama/issues/18515))。
+- **Prism 三值 GGUF（PQ2_0/PTQ1_0）**：因不支持张量大小溢出导致导入失败；已开启追踪问题 ([#18521](https://github.com/ollama/ollama/issues/18521))。
 
 ---
 
-#### **4. 性能与优化**  
-- **内存管理**：  
-  - 用户报告在低内存系统（8–16GB）上使用大模型时出现过度占用 RAM 情况；[特性请求 #13601](https://github.com/ollama/ollama/issues/13601) 呼吁支持动态卸载与智能量化。  
-  - 多 GPU 配置下希望获得更细粒度的内存分片控制 ([Issue #18525](https://github.com/ollama/ollama/issues/18525))。  
-- **吞吐量与延迟**：  
-  - 使用 Claude Desktop 集成时报告高延迟（约 50 秒）([Issue #18474](https://github.com/ollama/ollama/issues/18474))。  
-  - MLX nvfp4 在持续负载下预填充阶段发生卡顿 ([Issue #18505](https://github.com/ollama/ollama/issues/18505)) —— 间歇性挂起持续数分钟。  
-  - CUDA ADD_ID 在 `gpt-oss:20b`（MXFP4）短消息对话（两轮）中失败 ([Issue #18522](https://github.com/ollama/ollama/issues/18522))，表明内核级不稳定。
+### **4. 性能与优化**  
+- **内存管理改进**：  
+  - PRs [#18197](https://github.com/ollama/ollama/pull/18197)、[#18198](https://github.com/ollama/ollama/pull/18198)、[#18201](https://github.com/ollama/ollama/pull/18201) 现在可报告各设备的 VRAM 使用情况与可用内存——对多 GPU 系统至关重要。  
+  - 基于头维度和负载历史的预测性 VRAM 估算正被集成至运行时调度规划中。
+- **工具调用解析优化**：  
+  - PRs [#18538](https://github.com/ollama/ollama/pull/18538) 与 [#18532](https://github.com/ollama/ollama/pull/18532) 为 Qwen3-Coder 添加对 **隐式 `<function=...>` 工具调用开头标记** 的支持，减少模型省略 `<tool_call>` 标签时的解析失败。
 
 ---
 
-#### **5. 稳定性与回归**  
-| 严重性 | 问题 | 描述 | 修复状态 |
-|---------|------|-------------|------------|
-| 🔴 严重 | [#17778](https://github.com/ollama/ollama/issues/17778) | Qwen 3.8 在流式聊天过程中因 `no user query found in messages`（500 错误）崩溃。 | 开放，32 条评论 |
-| 🔴 严重 | [#18528](https://github.com/ollama/ollama/issues/18528) | ROCm 混合 GDN 模型在会话间泄露先前请求上下文——早期提示内容出现在新响应中。 | 开放，正在追踪上游问题 |
-| 🔴 严重 | [#18527](https://github.com/ollama/ollama/issues/18527) | `deepseek-v4.1-flash:cloud` 尽管宣称具备 `vision` 能力，却静默丢弃所有图像输入。 | 开放 |
-| 🟡 高 | [#18509](https://github.com/ollama/ollama/issues/18509) | Ollama 拒绝有效的 `tool` 角色消息，导致工具调用流程中断。 | 开放 |
-| 🟡 高 | [#18530](https://github.com/ollama/ollama/issues/18530) | Qwen3-Coder 若推理内容先于 `<function=...>` 标签出现，则丢失工具调用（解析器漏掉隐式开启符）。 | 开放，已提交 PR #18532 |
-| 🟡 中 | [#18526](https://github.com/ollama/ollama/issues/18526) | 从 Hugging Face 拉取模型时偶发重定向失败（502 Bad Gateway）。 | 已通过 [PR #18533](https://github.com/ollama/ollama/pull/18533) 修复 |
+### **5. 稳定性与回归问题**  
+| 严重程度 | 问题 | 影响 | 修复状态 |
+|--------|------|--------|------------|
+| 🔴 严重 | `deepseek-v4.1-flash:cloud` 尽管 `capabilities` 中包含 `vision`，仍静默丢弃图像输入 | 导致使用 DeepSeek Cloud 的多模态智能体失效 | [已关闭 #18527](https://github.com/ollama/ollama/issues/18527) |
+| 🔴 严重 | ROCm：Qwen3.5 系列混合 GDN 模型在会话间泄漏先前请求状态 | 返回错误结果，存在安全风险 | [开放 #18528](https://github.com/ollama/ollama/issues/18528) |
+| 🟡 高 | MLX：Gemma 4 MoE 加载失败，提示“缺少 MoE 专家权重” | 阻碍前沿模型的本地执行 | [开放 #18540](https://github.com/ollama/ollama/issues/18540) |
+| 🟡 高 | Vulkan iGPU（Intel Iris Xe）：`qwen2.5:14b` 在 0.33.3+ 版本中因 `ErrorOutOfDeviceMemory` 失败 | 自 0.32.6 起出现的回归；影响低内存笔记本 | [开放 #18531](https://github.com/ollama/ollama/issues/18531) |
+| 🟡 中等 | `gpt-oss:20b`（MXFP4）在短双消息对话中进行 CUDA ADD_ID 时崩溃 | 持续负载下确定性崩溃 | [开放 #18522](https://github.com/ollama/ollama/issues/18522) |
+
+> ⚠️ 多个回归问题与近期版本（`0.34.2`、`0.34.3-rc1`）相关，表明 GPU 后端（ROCm、Vulkan、MLX）存在不稳定性。
 
 ---
 
-#### **6. 对应用开发者的意义**  
-- **代理框架**：使用 `/api/show` 动态暴露思考级别控制（例如 `max` 用于深度推理）——对精细控制代理行为至关重要。避免硬编码数值。  
-- **工具集成**：预期在 Qwen3-Coder 中出现静默工具调用丢失，且近期版本拒绝有效 `tool` 角色消息。建议实现回退机制或使用解析补丁（如 [PR #18532](https://github.com/ollama/ollama/pull/18532)），直至官方修复上线。  
-- **多模态应用**：不要假设 `vision` 能力即代表图像输入功能正常——当前 `deepseek-v4.1-flash:cloud` 会静默忽略图像输入。务必在运行时验证能力。  
-- **云端与本地**：由于界面中无本地专用过滤器，建议使用 `ollama list --local` 或 API 检查以区分离线可用模型 ([Issue #16833](https://github.com/ollama/ollama/issues/16833))。  
-- **企业部署**：内置代理的移除 ([PR #18393](https://github.com/ollama/ollama/pull/18393)) 意味着 CLI 自动化必须依赖外部执行器或封装程序。
+### **6. 对应用开发者的启示**  
+- **智能体构建者**：通过 `/api/show` 新增的 `thinking` 控制功能，可实现**精细化推理预算分配**——有助于优化大模型智能体的成本与延迟。但请确保客户端解析 `reasoning_content`（而非仅 `reasoning`），以防静默数据丢失 ([#18534](https://github.com/ollama/ollama/issues/18534)、[PR #18536](https://github.com/ollama/ollama/pull/18536))。
+- **多模态应用开发者**：在修复发布前，请避免使用 `deepseek-v4.1-flash:cloud`——即使声明支持视觉，图像输入也不会被处理。
+- **硬件特定规避方案**：  
+  - 在 MLX/NVIDIA 上谨慎使用 `OLLAMA_NUM_PARALLEL=1`——某些配置可能无限期挂起 ([#18505](https://github.com/ollama/ollama/issues/18505))。  
+  - Intel iGPU 用户若因 KV 缓存分配失败导致 `qwen2.5:14b` 无法运行，建议降级至 `0.32.6`。
+- **模型可移植性**：对于可能省略工具调用开头标记的模型（如 `qwen3-coder:30b`），应制定回退策略——实现健壮的解析逻辑或使用打补丁版本。
 
-> ✅ **可操作提示**：对于生产环境代理，始终通过 `/api/show` 验证模型能力，并为工具调用和图像输入实现健壮的错误处理。密切关注 GitHub 上关于 Qwen3-Coder 与 DeepSeek-V4.1 Flash 回归问题的更新。
+> ✅ **建议**：密切关注 `v0.34.3` 稳定版发布；预计在广泛采用前将针对关键 GPU 后端缺陷推出热修复。
+
+---  
+*摘要由 GitHub 数据生成：[github.com/ollama/ollama](https://github.com/ollama/ollama)*
 
 </details>
 
 <details>
 <summary><strong>LiteLLM</strong> — <a href="https://github.com/BerriAI/litellm">BerriAI/litellm</a></summary>
 
-**LiteLLM 简报 – 2026-09-19**
+**LiteLLM 消息简报 – 2026-09-19**
 
 ---
 
-### **1. 今日亮点**  
-LiteLLM 生态系统持续强化企业级代理与推理基础设施，针对加密亲和性、流式防护机制及预算控制等关键问题进行了修复。重要进展包括新增 GitGot 作为兼容 OpenAI 的新提供商，以及通过 JWT 范围映射和客户端白名单提升 MCP 网关安全性。一项关键 PR 修复了 `/v1/responses` 中的 WebSocket 中继问题，该问题曾因长度限制导致 `encrypted_content` 被拒绝。
+### **1. 今日重点**  
+LiteLLM 生态系统持续扩展其代理与成本追踪功能，关键更新包括模型定价同步（OpenRouter、Azure）、托管 vLLM 部署的批量处理优化，以及在文件/批量操作中对 OpenAI 项目标签的增强支持。关键稳定性修复解决了虚拟密钥速率限制、流式回退行为及高上下文模型（如 GPT-5.6 Luna）错误成本计算等长期问题。
 
 ---
 
 ### **2. 发布与破坏性变更**  
-- **v1.103.0-dev.2**：今日发布，通过 cosign 签名的 Docker 镜像增强了安全性（使用 [commit `0112e53`](https://github.com/BerriAI/litellm/commit/0112e53046018d726492c814b3644b7d376029d0) 验证）。所有版本现均采用 Sigstore 的 cosign 签名 —— 部署前请务必验证。
-- **安全提示**：代理现已在团队成员预算之外强制执行项目级预算 ([#35723](https://github.com/BerriAI/litellm/pull/35723))，防止使用作用域密钥时超支。
+*过去 24 小时内未发布新版本。*  
+
+然而，有几项 **关键 CI/CD PR** 已合并或提交，影响生产环境使用：  
+- ✅ [`#41833`](https://github.com/BerriAI/litellm/pull/41833)：同步了 173 个 OpenRouter 模型并新增 2 个；解决与供应商定价页面的偏差问题。  
+- ✅ [`#41842`](https://github.com/BerriAI/litellm/pull/41842)：更新 Azure 定价，新增 5 个模型并标注 5 个下线时间 —— 确保准确计费所必需。  
+- 🔧 [`#41949`](https://github.com/BerriAI/litellm/pull/41949)：修复 `/key/bulk_update` 接口，避免意外清空 `max_budget`、`team_id` 和 `budget_id`。  
+- 🔧 [`#41942`](https://github.com/BerriAI/litellm/pull/41942)：通过 LiteLLM 代理启用托管 vLLM 批量处理 —— 解决 `/v1/batches` 上的 404 错误。
+
+> ⚠️ **迁移提示**：依赖 OpenRouter 或 Azure 模型定价的用户应在合并这些 PR 后确保其 `model_prices_and_context_window.json` 文件已更新。
 
 ---
 
 ### **3. 新模型与硬件支持**  
-- **新增 GitGot** 作为基于 JSON 配置的 OpenAI 兼容提供商 ([#40810](https://github.com/BerriAI/litellm/pull/40810))：  
-  - 基础地址：`https://inference.gitgot.ai/v1`  
-  - 支持模型如 `gitgot/gpt-4o-mini`、`gitgot/codellama-34b` 等。  
-  - 完全兼容现有 LiteLLM 路由逻辑。
-- **Vertex AI Chirp 语音转文字流式传输** 现已支持 `/v1/realtime` ([#41721](https://github.com/BerriAI/litellm/pull/41721)) —— 支持音频转录过程中的实时字幕生成。
-- **Databricks service_tier** 现可在请求、流式传输及成本计算中完整保留 ([#41837](https://github.com/BerriAI/litellm/pull/41837)) —— 确保优先级工作负载的计费准确。
+- 🟢 新增 **TopxAI** 作为 JSON 配置的 OpenAI 兼容提供商 ([`#41919`](https://github.com/BerriAI/litellm/pull/41919))，支持 9 个模型。  
+- 🟢 新增 **Prism** 服务商（内部副本）—— 可能面向企业或私有推理后端 ([`#41961`](https://github.com/BerriAI/litellm/pull/41961))。  
+- 🟢 在 Together AI 的模型目录中支持 **Kimi-K2.6** ([`#27450`](https://github.com/BerriAI/litellm/issues/27450)，现已解决)。  
+- 🟢 将 OpenRouter 的 **gpt-5.6-sol** 加入模型目录 ([`#40102`](https://github.com/BerriAI/litellm/issues/40102)，修复 PR 待定)。
+
+> 💡 *备注*：`gpt-5.6-sol` 与 `gpt-5.6-luna-*` 快照的加入需要谨慎的成本映射 —— 已通过 [`#41423`](https://github.com/BerriAI/litellm/pull/41423) 与 [`#35783`](https://github.com/BerriAI/litellm/pull/35783) 修复。
 
 ---
 
 ### **4. 性能与优化**  
-- **响应耗时精度提升**：代理现在以 *接收* 时间为准锚定响应时长与开销，而非 SDK 调用开始时间 ([#41891](https://github.com/BerriAI/litellm/pull/41891))。这在高 Redis 负载或慢路由路径下可提供更精确的延迟指标。
-- **Rust OCR 路由引入 HTTP 客户端池化**：将共享 HTTP 客户端池注入 OCR 流水线 ([#41897](https://github.com/BerriAI/litellm/pull/41897))，消除每路由单独实例化客户端的开销，提升连接复用效率。
-- **OpenRouter 与 Azure 价格同步**：自动化同步定价数据（15 个 OpenRouter 模型，5 个 Azure 已弃用模型），确保成本追踪准确 ([#41842](https://github.com/BerriAI/litellm/pull/41842), [#41833](https://github.com/BerriAI/litellm/pull/41833))。
+- ✅ [`#41955`](https://github.com/BerriAI/litellm/pull/41955)：引入持久化的跨 Pod 结算机制用于后台交互计费 —— 确保副本间支出追踪一致。  
+- ✅ [`#41960`](https://github.com/BerriAI/litellm/pull/41960)：在非高峰时段对 DeepSeek V4.1 Flash 与 V4 Pro 应用非高峰定价 —— 非高峰时段可节省高达 50% 的费用。  
+- ✅ [`#39861`](https://github.com/BerriAI/litellm/pull/39861)：对长上下文 OpenAI 批量请求（>272K tokens）正确按分级费率计费 —— 之前存在输入低估 2 倍、输出低估 1.5 倍的问题。  
+- 🚀 [`#41567`](https://github.com/BerriAI/litellm/pull/41567)：新增 `GunzipRequestMiddleware` 以解压 gzip 编码的请求体 —— 防止压缩负载导致 400 错误。
 
 ---
 
 ### **5. 稳定性与回归问题**  
-| 问题 | 严重性 | 状态 | 修复 PR | 备注 |
-|------|----------|--------|--------|-------|
-| Bedrock 上模型切换后 `encrypted_content_affinity` 失效 | 严重 | 开放 | [#41792](https://github.com/BerriAI/litellm/issues/41792) | 加密推理处理存在回归；影响多模型工作流 |
-| 通过 `?model=` 查询字符串绕过虚拟密钥模型白名单 | 高 | 开放 | [#41810](https://github.com/BerriAI/litellm/issues/41810) | 安全风险；允许未授权模型访问 |
-| 虚拟密钥缓存后客户级 RPM 限制被忽略 | 高 | 开放 | 无 | 影响速率限制一致性；报告于 v1.82.3+ |
-| 流式防护机制可能跳过跨 SSE 数据块的敏感内容 | 中等 | 开放 | [#41611](https://github.com/BerriAI/litellm/issues/41611) | 长流场景下的防护绕过漏洞 |
-| `/v1/messages` 忽略 `timeout` / `stream_timeout`（硬上限 600s） | 高 | 开放 | [#30836](https://github.com/BerriAI/litellm/issues/30836) | 打破长时间流式使用场景 |
+今日报告的高严重性缺陷包括：  
+- 🔴 **虚拟密钥 TPM 限流失效** ([#24677](https://github.com/BerriAI/litellm/issues/24677))：虚拟密钥缓存后限流未生效 —— 影响多租户计费完整性。*修复 PR 已存在但尚未合并*。  
+- 🔴 **缓存命中后忽略客户级 RPM 限制** ([#39713](https://github.com/BerriAI/litellm/issues/39713))：当虚拟密钥被缓存时，基于预算的 RPM 限制失效 —— 存在超计费风险。*尚未提交修复 PR*。  
+- 🔴 **流式回退发送无效的 Assistant Prefill 块** ([#27967](https://github.com/BerriAI/litellm/issues/27967))：由于不支持 `prefix=True`，导致 Claude Sonnet 4.6 / Opus 4.7 回退失败。*已在 PR #31067 中修复，但上下文污染仍存风险*。  
+- 🔴 **GPT-5.6 跨区域 Bedrock 对图像输入失败** ([#40080](https://github.com/BerriAI/litellm/issues/40080))：错误路由至 Converse 端点而非 OpenAI 兼容路径 —— 阻塞图像能力模型。*待修复*。  
+- 🔴 **`/v1/messages` 忽略超时设置** ([#30836](https://github.com/BerriAI/litellm/issues/30836))：无论 `timeout` 配置如何，硬性限制为 600 秒 —— 导致长时间流式会话中断。*对实时代理至关重要*。
 
-> 🔴 **严重提醒**：多个开放缺陷影响核心安全、计费与稳定性 —— 若使用加密推理、虚拟密钥或长流场景，请优先测试。
+> ⚠️ 这些回归问题表明，在 **速率限制一致性**、**流式回退逻辑** 以及 **特定服务商路由边缘情况** 方面仍存在持续挑战。
 
 ---
 
 ### **6. 对应用开发者的启示**  
-- **谨慎使用 `encrypted_content_affinity`** —— 若使用加密推理，避免在 Bedrock 上会话期间切换模型；建议为每个模型使用独立密钥。
-- **保护虚拟密钥安全**：避免在 URL 中暴露 `?model=`；使用正确的 API 密钥校验，并通过 `litellm_params.model_list` 强制实施白名单。
-- **启用项目级预算** ([#35723](https://github.com/BerriAI/litellm/pull/35723))，防止多用户环境中的成本超支。
-- **升级至最新 dev 版本**（`v1.103.0-dev.2`），以获得改进的计时精度、安全签名及更新的模型定价。
-- **充分利用新功能**：使用 `/claude_code_gateway` ([#34267](https://github.com/BerriAI/litellm/pull/34267)) 实现自托管 Claude Code 集成，利用 `JWT 范围映射` ([#41896](https://github.com/BerriAI/litellm/pull/41896)) 实现细粒度访问控制，无需管理密钥。
+- **避免依赖 `?model=` 查询字符串进行模型访问控制** —— 此为已知绕过漏洞 ([#41810](https://github.com/BerriAI/litellm/issues/41810))。应使用带有明确 `model_allowlist` 或 `model_blocklist` 的 API 密钥。  
+- **监控 GPT-5.6 变体与 DeepSeek 模型的成本差异** —— 最近修复确保了计费准确，但旧部署可能仍存在误计费。  
+- **始终启用 `enable_azure_ad_token_refresh`** —— 现在该选项也适用于非聊天路径（如图像生成），通过 [`#37727`](https://github.com/BerriAI/litellm/issues/37727) 实现。  
+- **谨慎处理大批次输入** —— 使用 `batch_size` 与 `context_length` 检查，避免在未正确建模成本的情况下触发 OpenAI 的长上下文层级。  
+- **预计 Claude Code 2.1.104 会出现间歇性故障**，直到上游问题解决 —— 建议锁定稳定版本或切换至替代服务商。
 
-👉 **推荐操作**：审计虚拟密钥使用情况，使用分段输入测试流式防护机制，验证模型切换时加密推理行为，并通过 [#40429](https://github.com/BerriAI/litellm/pull/40429) 启用升级提示栏以增强团队可见性。
+> ✅ **实用建议**：利用最新的 `model_prices_and_context_window.json` 同步（`#41833`, `#41842`）防止生产系统中无声的成本计算错误。
+
+---  
+*简报数据源自 GitHub 活动（BerriAI/litellm）—— 2026-09-19*
 
 </details>
 
 <details>
 <summary><strong>Unsloth</strong> — <a href="https://github.com/unslothai/unsloth">unslothai/unsloth</a></summary>
 
-### **Unsloth Digest — 2026-09-19**
+# **Unsloth Digest – 2026-09-19**
 
-#### **1. 今日亮点**  
-v0.1.811-beta 版本在多用户 Docker 支持、AMD GPU（RDNA1/2）与 Windows 上的 ARM64 CUDA 支持方面取得重大进展，同时引入了 FP8/INT8 扩散推理，并通过 MTP 热修复实现了 **Qwen3.8-Flash-Next** 的关键 2 倍性能提升。此次更新进一步巩固了 Unsloth 作为高性能、跨平台大语言模型服务栈的地位。
+---
 
-#### **2. 发布与破坏性变更**  
-- **v0.1.811-beta**：新增多用户 Docker 环境、完整的 AMD RDNA1/2 支持、Windows 上的 ARM64 CUDA 支持，以及训练/推理优化增强。  
-- **Docker + 多用户**：支持容器化部署中的安全、隔离用户会话 ([GitHub Release](https://github.com/unslothai/unsloth/releases/tag/v0.1.811-beta))。  
-- **MTP 热修复**：在 MTP 草稿模式下，Qwen3.8-Flash-Next 现已实现 **2 倍加速**——对低延迟推理流水线至关重要。  
-- **注意**：从 `v0.1.810-beta` 升级的用户应验证 GGUF 模型加载行为，因报告存在推理吞吐量下降问题（详见 *稳定性与回归*）。
+### **1. 今日亮点**  
+**v0.1.811-beta** 版本引入了对 Docker、多用户支持以及更广泛的硬件兼容性的重大改进——包括 RDNA1+2 GPU、FP8/INT8 扩散模型推理、Windows 上的 ARM64 CUDA，以及优化的训练与推理工作流。一个关键的 **Qwen3.8-Flash-Next MTP 热修复** 实现了高达 2 倍的推理速度提升，解决了社区报告的高优先级性能退化问题。
 
-#### **3. 新模型与硬件支持**  
-- **AMD ROCm（RDNA1/2）**：已完整支持 `b11030-mix-5ff778e` 版本的 llama.cpp 分支，并配备 DFlash 侧车降级回退机制。  
-- **Windows 上的 ARM64 CUDA**：现已在 Docker 镜像中支持——可部署于 Apple Silicon 或基于 ARM 的 Windows 设备。  
-- **量化支持**：为稳定扩散流水线引入了 FP8 与 INT8 扩散支持。  
-- **模型架构**：实验性支持 **Kimi K3**（文本因果）通过微调；尚未完全集成（见 [Issue #11078](https://github.com/unslothai/unsloth/issues/11078)）。  
-- **三元 Bonsai 模型**：暂不支持——用户需手动安装自定义 `llama.cpp` 分支（见 [功能请求 #9059](https://github.com/unslothai/unsloth/issues/9059)）。
+---
 
-#### **4. 性能与优化**  
-- **Qwen3.8-Flash-Next MTP**：热修复后实现 **2 倍推理速度提升**（用户反馈并经 CI 验证）。  
-- **GGUF 推理吞吐量**：`v0.1.810-beta` 中出现回归，导致吞吐量下降——即使硬件与模型配置相同，用户仍报告明显变慢 ([Issue #11221](https://github.com/unslothai/unsloth/issues/11221))。  
-- **内存效率**：使用 `--ctx-checkpoints 64 --checkpoint-min-step 256` 实现 CPU/GPU 间卸载，显著改善 200k 上下文窗口的内存占用（见 [Issue #11278](https://github.com/unslothai/unsloth/issues/11278)）。  
-- **内核级优化**：PR #5933 引入 **Muon 优化器**（Newton-Schulz 正交化），适用于全量微调——提升线性投影层的收敛性。
+### **2. 发布与破坏性变更**  
+- **v0.1.811-beta**（GitHub：[发布](https://github.com/unslothai/unsloth/releases/tag/v0.1.811-beta)）  
+  - 在 Docker 部署中引入 **多用户账户支持**。  
+  - 新增 **AMD RDNA1+2 GPU 支持**、**Windows 上的 ARM64 CUDA** 以及 **FP8/INT8 扩散模型推理**。  
+  - 包含 **Qwen3.8-Flash-Next MTP 热修复**（MTP 提升 2 倍），通过 `--draft-mode mtp` 和优化的内核调度实现。  
+  - *迁移提示*：从 v0.1.810-beta 升级的用户应验证其 GGUF 加载逻辑，因有报告称推理吞吐量存在回归问题。
 
-#### **5. 稳定性与回归**  
-- **严重**：**Qwen3.8-Flash-Next MTP 在加载时崩溃**，因重基后 `nextn.hc_head_norm` 不匹配所致 ([Issue #11143](https://github.com/unslothai/unsloth/issues/11143))。已在 PR #11309 修复（待合并）。  
-- **高危**：**MTP 草稿器在 RTX 5080 上崩溃**，图形构建阶段触发 `ggml_can_repeat(b, a)` 断言 ([Issue #11219](https://github.com/unslothai/unsloth/issues/11219))。  
-- **ROCm 断言错误**：DFlash 侧车 + `--split-mode tensor` 导致 ROCm（gfx1201）静默失败，自动降级为层拆分 ([Issue #11308](https://github.com/unslothai/unsloth/issues/11308))。  
-- **Windows 安装程序漏洞**：PowerShell 脚本因用户名含空格（如 `HOMEPC~1`）而失败，且应用执行别名阻塞 Python 运行 ([Issue #11290](https://github.com/unslothai/unsloth/issues/11290)，[PR #5959](https://github.com/unslothai/unsloth/pull/5959))。  
-- **UI 回归**：自 `v0.1.810-beta` 起，Studio 推理吞吐量下降——可能源于后端调度逻辑变更 ([Issue #11221](https://github.com/unslothai/unsloth/issues/11221))。
+---
 
-#### **6. 对应用开发者的影响**  
-- **优先使用 v0.1.811-beta** 用于生产推理——尤其当使用 Qwen3.8-Flash-Next 或 AMD GPU 时。  
-- 因吞吐量回归，避免在 GGUF 工作负载中使用 `v0.1.810-beta`；在 PR #5482 合并前，建议以 `--max-concurrency=1` 测试。  
-- 对于 **多用户部署**，请使用新版 Docker 镜像，并通过 `UNSLOTH_API_MAX_CONCURRENCY` 控制资源隔离。  
-- 若部署于 **AMD 平台**，请确保使用 `b11030-mix` 及以上版本；在上游修复落地前，请避免使用 `--split-mode tensor`。  
-- **自定义模型支持**（如三元 Bonsai）需手动构建 `llama.cpp`；建议参与贡献至 PR #9059 以实现原生集成。  
-- 密切监控 API 日志：`max_tokens` 与 `max_completion_tokens` 不匹配可能导致下游客户端中断 ([Issue #10787](https://github.com/unslothai/unsloth/issues/10787))。  
+### **3. 新模型与硬件支持**  
+- **新模型**：Qwen3.8-Flash-Next（带 MTP 优化），支持 **UD-IQ4_XS**、**UD-Q4_K_XL** GGUF 变体。  
+- **硬件后端**：  
+  - 完全支持 **AMD RDNA1+2** GPU（通过 ROCm）。  
+  - **Windows 上的 ARM64 CUDA**（预览版）。  
+  - **Vulkan 训练/微调** 目前为功能请求（#11184）；尚未实现。  
+- **量化格式**：FP8、INT8、IQ4_XS、Q4_K_XL（GGUF），支持大模型（如 MoE）的卸载。
 
-> ✅ **可操作提示**：在并发控制稳定前，使用 `UNSLOTH_API_QUEUE_POLICY=reject` 防止高吞吐应用过载。  
-> 🔗 [GitHub 问题仪表板](https://github.com/unslothai/unsloth/issues?q=is%3Aopen+sort%3Aupdated-desc) | [发布说明](https://github.com/unslothai/unsloth/releases/tag/v0.1.811-beta)
+---
+
+### **4. 性能与优化**  
+- **Qwen3.8-Flash-Next MTP 推理**：热修复后实现高达 **2 倍加速**（#11143）。  
+- **MTP 草稿生成**：针对低延迟推测解码进行优化，减少图构建开销。  
+- **多 GPU 卸载**：改进张量分割（`--tensor-split`）处理——但存在一个缺陷，即 Studio 会自动剥离标志位（#11330）。  
+- **GPU 内存效率**：增强 KV 缓存管理，支持在 RTX 5090（32GB VRAM）上处理 20 万上下文窗口。  
+- **构建时优化**：更新期间复用 `uv`（#10659），移除冗余 Colab `.devN` 标记（#11326），提升 CI 稳定性。
+
+---
+
+### **5. 稳定性与回归问题**  
+| 严重程度 | 问题 | 摘要 | 修复状态 |
+|---------|------|--------|------------|
+| 🔴 高 | [#11143](https://github.com/unslothai/unsloth/issues/11143) | Qwen3.8-Flash-Next MTP 在加载时因 `hc_head_norm` 重基错误而崩溃 | ❌ 开放 |
+| 🔴 高 | [#11221](https://github.com/unslothai/unsloth/issues/11221) | v0.1.810-beta 之后 GGUF 推理吞吐量出现回归 | ❌ 开放 |
+| 🔴 高 | [#11219](https://github.com/unslothai/unsloth/issues/11219) | RTX 5080 上 MTP 草稿器因 `ggml_can_repeat` 断言而崩溃 | ❌ 开放 |
+| 🟡 中 | [#11330](https://github.com/unslothai/unsloth/issues/11330) | Studio 自动剥离 `--tensor-split`，导致多 GPU MoE + CPU 卸载时内存溢出 | ❌ 开放 |
+| 🟡 中 | [#11308](https://github.com/unslothai/unsloth/issues/11308) | DFlash 边车 + `--split-mode tensor` 在 ROCm（gfx1201）上断言失败 | ✅ 上游已修复 (#27858)，待补丁发布 |
+| 🟢 低 | [#11327](https://github.com/unslothai/unsloth/issues/11327) | Windows 上无后端安装目录配置选项 | ✅ 功能请求 |
+
+> **注意**：由于 Python 3.13 l-r 测试失败（#11241）导致后端 CI 处于红色状态，该问题由先前测试的状态泄漏引起——目前尚无修复提交。
+
+---
+
+### **6. 对应用开发者的意义**  
+- **对于 LLM 代理与应用**：利用 **Qwen3.8-Flash-Next MTP 加速** 实现推测解码低于 100ms 延迟——适用于实时聊天和代理工作流。使用 `--draft-mode mtp` 时需谨慎，直至 #11143 解决。  
+- **对于多用户部署**：新增 Docker + 多用户支持可实现安全、隔离的推理环境——对 SaaS 或企业网关至关重要。  
+- **对于跨平台运维**：Windows 上的 ARM64 CUDA 与 AMD RDNA1+2 支持扩展了部署选择，超越 NVIDIA 限制。但 **Vulkan 训练仍不支持**——如有需要，请考虑替代框架。  
+- **对于模型服务**：除非你对环境有十足把握，否则避免在 Studio 中使用 `--tensor-split`——当前行为会静默剥离该参数（#11330）。建议使用显式 CLI 控制。  
+- **对于调试**：通过 API 监控启用完整提示日志（#11282），并使用 `--ctx-checkpoints` 保障长上下文稳定性。留意 `studio.setup.ps1` 在用户名含空格的环境中可能出现路径问题（#11290）。  
+
+> **实用提示**：仅在验证过自身工作负载后，才将版本固定至 `v0.1.811-beta`——部分回归问题仍存在。请关注 #11143 和 #11221 的关键修复进展。
+
+---  
+*摘要生成时间：2026-09-19 | 来源：[unslothai/unsloth GitHub](https://github.com/unslothai/unsloth)*
 
 </details>
 
