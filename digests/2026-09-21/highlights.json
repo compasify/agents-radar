@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code今日引爆10个热门问题",
+      "OpenAI Codex：24小时内发布3个alpha版",
+      "Gemini CLI：夜间发布v0.62.0",
+      "Pi v0.86.1修复版上线",
+      "Qwen Code新增10个问题",
+      "GitHub Copilot CLI暂无新版本"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时新增500个问题",
+      "OpenClaw存在严重内存泄漏",
+      "v2026.9.5无发布说明",
+      "报告SQLite WAL增长缺陷",
+      "进程泄漏导致崩溃循环",
+      "更新失败标记为P0级"
+    ],
+    "ai-infra": [
+      "vLLM：13个高危问题待处理",
+      "SGLang CI稳定性问题被报告",
+      "llama.cpp：3次增量更新",
+      "Ollama：16个高危问题开放",
+      "LiteLLM：稳定性担忧加剧",
+      "Unsloth：边缘部署进展顺利"
+    ],
+    "ai-trending": [
+      "ECC：26.3万星，快速上升",
+      "security-audit-skill：+2.4K星",
+      "代理技能日益流行",
+      "TypeScript主导AI项目",
+      "Claude Code推动代理趋势",
+      "研究驱动的代理工程"
+    ],
+    "ai-hn": [
+      "Qwen Image 2.1：开源权重发布",
+      "缓存到缓存的LLM通信",
+      "双脑理论：神经科学突破",
+      "ChatGPT在追踪用户行为？",
+      "新模型挑战AI hype",
+      "HN上伦理争议加剧"
+    ],
+    "ai-ph": [
+      "Bolt Forge：使用速度提升50倍",
+      "VoiceCap：实时多语言转录",
+      "Ruby UTCP：安全工具调用替代方案",
+      "Doneit 3.2：集成Siri AI",
+      "Bolt Forge领跑Product Hunt",
+      "无缝工作流集成趋势"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B：下载量730万",
+      "unsloth/Qwen3.8-27B-GGUF：下载690万",
+      "LTX-2.5：视频生成激增",
+      "MiniMax-H3受关注",
+      "Edge0-35B-A3B-preview：MoE模型",
+      "Fable-Cold-Fusion：无审查微调"
+    ],
+    "ai-community": [
+      "AI代理的DevSecOps流水线",
+      "DPO/RLHF影响AI对齐",
+      "AI编程扰乱心流状态",
+      "AI工具存在秘密泄露",
+      "预算消耗率受审查",
+      "Jev与Orca获社区关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues today",
+      "OpenAI Codex: 3 alpha releases in 24h",
+      "Gemini CLI: nightly release v0.62.0",
+      "Pi v0.86.1 released with fixes",
+      "Qwen Code sees 10 new issues",
+      "GitHub Copilot CLI no new release"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues in 24h",
+      "Critical memory leaks in OpenClaw",
+      "No release notes for v2026.9.5",
+      "SQLite WAL growth bug reported",
+      "Process leaks causing crash loops",
+      "Update failures marked P0 severity"
+    ],
+    "ai-infra": [
+      "vLLM: 13 high-severity issues open",
+      "SGLang CI flakiness reported",
+      "llama.cpp: 3 incremental updates",
+      "Ollama: 16 open high-severity issues",
+      "LiteLLM: stability concerns grow",
+      "Unsloth: edge deployment advances"
+    ],
+    "ai-trending": [
+      "ECC: 263K stars, rising fast",
+      "security-audit-skill: +2.4K stars",
+      "Agent skills gaining traction",
+      "TypeScript dominates AI projects",
+      "Claude Code driving agentic trends",
+      "Research-first agent engineering"
+    ],
+    "ai-hn": [
+      "Qwen Image 2.1: open-weight launch",
+      "Cache-to-Cache LLM communication",
+      "Two-brain theory: neuroscience breakthrough",
+      "ChatGPT tracking user behavior?",
+      "New models challenge AI hype",
+      "Ethics debate intensifies on HN"
+    ],
+    "ai-ph": [
+      "Bolt Forge: 50X faster usage",
+      "VoiceCap: real-time multilingual transcribe",
+      "Ruby UTCP: secure tool calling alternative",
+      "Doneit 3.2: Siri AI integration",
+      "Bolt Forge leads Product Hunt",
+      "Seamless workflow integration trend"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 7.3M downloads",
+      "unsloth/Qwen3.8-27B-GGUF: 6.9M dl",
+      "LTX-2.5: video generation surge",
+      "MiniMax-H3 gains traction",
+      "Edge0-35B-A3B-preview: MoE model",
+      "Fable-Cold-Fusion: uncensored tune"
+    ],
+    "ai-community": [
+      "DevSecOps pipeline for AI agents",
+      "DPO/RLHF shapes AI alignment",
+      "Flow state disrupted by AI coding",
+      "Secret leaks in AI tooling",
+      "Budget burn rates under scrutiny",
+      "Jev and Orca gain community interest"
+    ]
+  }
+}
