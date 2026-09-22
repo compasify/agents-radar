@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code：10个高影响问题待处理",
+      "OpenAI Codex：配额追踪合并4个PR",
+      "Gemini CLI：新版本支持模型",
+      "GitHub Copilot CLI：沙盒化活跃PR",
+      "Pi：实验性代理模式上线",
+      "Qwen Code：24小时内获600+星标"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.35：发布扩展稳定版",
+      "24小时新增500个问题：稳定性担忧",
+      "PR #155311：降低QA总线媒体开销",
+      "Hermes Agent：内存泄漏修复中",
+      "IronClaw：会话状态损坏报告",
+      "QwenPaw：新增RAG集成"
+    ],
+    "ai-infra": [
+      "vLLM：发现严重长上下文回归问题",
+      "SGLang：Blackwell上13个不稳定的CI测试",
+      "llama.cpp：GPU驻留MoE缓存即将上线",
+      "Ollama：123个开放问题，快速上升",
+      "LiteLLM：企业使用安全重点",
+      "Unsloth：7B模型性能提升"
+    ],
+    "ai-trending": [
+      "BuilderIO/agent-native：新增600+星标",
+      "affaan-m/ECC：优化表现最佳",
+      "Project NOMAD：自托管AI激增",
+      "thedotmack/claude-mem：RAG工具流行",
+      "OpenStock：离线优先的LLM平台",
+      "CodaX-X：注重隐私的AI栈"
+    ],
+    "ai-web": [
+      "Anthropic：生物分子建模提速4倍",
+      "Claude Science：开源优化",
+      "OpenAI Academy：新增数学与AI路径",
+      "Adaptyv Bio：$1M Claude信用竞赛",
+      "OpenAI：数学与AI咨询小组",
+      "数据团队指南：聚焦企业采用"
+    ],
+    "ai-hn": [
+      "Grok 4.7：性能与透明度之争",
+      "Qwen Image 2.1：视觉细节显著提升",
+      "Heretic：无限制模型引发争议",
+      "CI/CD瓶颈：AI采纳痛点",
+      "AI伦理：‘惧怕公司，而非AI’讨论",
+      "斯坦福神经科学突破分享"
+    ],
+    "ai-ph": [
+      "Mycel：从过往交付物生成AI模板",
+      "Soar90™：30-60-90天入职计划",
+      "Answers by Context.dev：JSON模式输出",
+      "Awnsy：离线优先AI工具上线",
+      "Epismo OS：跨工具持久化功能",
+      "Morsa Signals：开发流程自动化"
+    ],
+    "ai-community": [
+      "浏览器原生AI代理演示：零延迟",
+      "阻止AI发布破损代码：防护模式",
+      "评估LLMs：200x宣称两次误判",
+      "构建Bivack：AWS Lambda微VM沙盒",
+      "代理信任：生产环境避免幻觉",
+      "评估实验室：需可复现测试"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: 10 high-impact issues open",
+      "OpenAI Codex: 4 PRs merged on quota tracking",
+      "Gemini CLI: New release with model support",
+      "GitHub Copilot CLI: Active PRs on sandboxing",
+      "Pi: Experimental agent mode launched",
+      "Qwen Code: 600+ stars in 24 hours"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.35: extended-stable release issued",
+      "500 new issues in 24 hours: stability concerns",
+      "PR #155311: reduced QA bus media overhead",
+      "Hermes Agent: memory leak fixes in progress",
+      "IronClaw: session state corruption reported",
+      "QwenPaw: new RAG integration added"
+    ],
+    "ai-infra": [
+      "vLLM: critical long-context regression found",
+      "SGLang: 13 flaky CI tests on Blackwell",
+      "llama.cpp: GPU-resident MoE cache near launch",
+      "Ollama: 123 open issues, rising fast",
+      "LiteLLM: security focus for enterprise use",
+      "Unsloth: performance gains for 7B models"
+    ],
+    "ai-trending": [
+      "BuilderIO/agent-native: 600+ new stars",
+      "affaan-m/ECC: top performer in optimization",
+      "Project NOMAD: self-hosted AI surge",
+      "thedotmack/claude-mem: RAG tool trending",
+      "OpenStock: offline-first LLM platform",
+      "CodaX-X: privacy-focused AI stack"
+    ],
+    "ai-web": [
+      "Anthropic: 4x speedup in biomolecular modeling",
+      "Claude Science: open-sourced optimizations",
+      "OpenAI Academy: new math & AI paths",
+      "Adaptyv Bio: $1M Claude credit competition",
+      "OpenAI: Advisory Group on Math & AI",
+      "Data team guide: enterprise adoption focus"
+    ],
+    "ai-hn": [
+      "Grok 4.7: debate over performance vs. opacity",
+      "Qwen Image 2.1: visual detail leap shown",
+      "Heretic: unrestricted model sparks debate",
+      "CI/CD bottlenecks: AI adoption pain point",
+      "AI ethics: 'fear companies, not AI' thread",
+      "Stanford neuroscience breakthrough shared"
+    ],
+    "ai-ph": [
+      "Mycel: AI templates from past deliverables",
+      "Soar90™: 30-60-90 day onboarding plans",
+      "Answers by Context.dev: JSON schema output",
+      "Awnsy: offline-first AI tool launched",
+      "Epismo OS: cross-tool persistence feature",
+      "Morsa Signals: developer workflow automation"
+    ],
+    "ai-community": [
+      "Browser-native AI agent demo: zero latency",
+      "Stop AI shipping broken code: guardrail pattern",
+      "Benchmarking LLMs: 200x claim misjudged twice",
+      "Building Bivack: AWS Lambda microVM sandbox",
+      "Agent trust: avoiding hallucinations in prod",
+      "Evaluation labs: reproducible testing needed"
+    ]
+  }
+}
