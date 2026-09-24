@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.281 发布安全修复版",
+      "OpenAI Codex 进入 rust-v0.156.1 alpha 版本",
+      "Gemini CLI 夜间版 v0.62.0.20260923 上线",
+      "GitHub Copilot CLI 新增模型支持",
+      "Qwen Code 支持多语言调试",
+      "Pi 工具现支持实时协作"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6 因 macOS 崩溃被撤回",
+      "OpenClaw 关键内存泄漏修复合并",
+      "Hermes Agent 新增结构化输出支持",
+      "IronClaw 增加跨平台代理同步",
+      "QwenPaw 实现自主任务规划",
+      "ZeroClaw 引入安全沙箱模式"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 发布并支持 NPU",
+      "vLLM 待发布内核优化版本",
+      "SGLang 修复推测解码漏洞",
+      "Ollama v0.34.4-rc1 稳定 MLX 引擎",
+      "LiteLLM 为代理新增工具调用",
+      "Unsloth 提升 Blackwell GPU 性能"
+    ],
+    "ai-trending": [
+      "Agent Substrate (Go) 新增 558 颗星",
+      "Strands Agents harness-sdk 受关注",
+      "Graphify-Labs 推出 RAG 专用工具",
+      "TNT-Likely/PanWatch 追踪股票 AI",
+      "obra/superpowers 推动智能工作流",
+      "Google ax 开源编排运行时"
+    ],
+    "ai-web": [
+      "Claude 发现具有 CRISPR 特性的酶系统",
+      "萨姆·阿尔特曼被提及于联合国安理会发言",
+      "Anthropic 宣布 AI 共研里程碑",
+      "OpenAI 发布四个新索引页面",
+      "首个 LLM 驱动的生物学发现获证实",
+      "原生 AI 生命科学研究已上线"
+    ],
+    "ai-hn": [
+      "Claude 发现新型酶系统——首例",
+      "GPT-6 Sol 与 Luna 主导模型基准测试",
+      "Claude Opus 5.5 引发透明度争议",
+      "OpenAI 代理突破澳大利亚医保系统",
+      "黑客新闻上 AI 安全担忧激增",
+      "社区对 AI 作为共研者意见分歧"
+    ],
+    "ai-ph": [
+      "Clueso MCP Product Hunt 首位，获 117 票",
+      "Plane Agents 实现 AI 团队协作",
+      "Fez 推出多代理决策系统",
+      "SereneDB 提供代理就绪数据库",
+      "Edyt 实现跨应用文本即时提取",
+      "MiMo-V2.6 开源模型受关注"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM 推理速度提升 3 倍",
+      "能力均衡但简洁论文揭示隐藏推理",
+      "新方法揭示闭源模型思维链",
+      "扩散 LLMs 增加输入输出感知缓存",
+      "高效多代理协同论文发表",
+      "代码中的因果推理受学术关注"
+    ],
+    "ai-community": [
+      "按代理成本追踪防止 AWS 超支",
+      "监督型 LLM 导致 70% 令牌浪费",
+      "类型化状态机降低代理开销",
+      "静默令牌膨胀现可检测",
+      "ChatGPT 广告追踪引发隐私担忧",
+      "轻量级决策引擎更受欢迎"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.281 released with security fixes",
+      "OpenAI Codex now in rust-v0.156.1 alpha",
+      "Gemini CLI nightly v0.62.0.20260923 out",
+      "GitHub Copilot CLI gains new model support",
+      "Qwen Code adds multi-language debugging",
+      "Pi tool now supports real-time collaboration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6 withdrawn due to macOS crash",
+      "Critical memory leak fix merged in OpenClaw",
+      "Hermes Agent now supports structured outputs",
+      "IronClaw adds cross-platform agent sync",
+      "QwenPaw enables autonomous task planning",
+      "ZeroClaw introduces secure sandbox mode"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 released with NPU support",
+      "vLLM pending kernel optimization release",
+      "SGLang fixes speculative decoding bug",
+      "Ollama v0.34.4-rc1 stabilizes MLX engine",
+      "LiteLLM adds tool calling for agents",
+      "Unsloth boosts Blackwell GPU performance"
+    ],
+    "ai-trending": [
+      "Agent Substrate (Go) hits 558 new stars",
+      "Strands Agents harness-sdk gains traction",
+      "Graphify-Labs launches RAG-focused tool",
+      "TNT-Likely/PanWatch tracks stock AI",
+      "obra/superpowers drives agentic workflows",
+      "Google’s ax open-source orchestration runtime"
+    ],
+    "ai-web": [
+      "Claude discovers enzyme system with CRISPR-like features",
+      "Sam Altman mentioned in UN Security Council remarks",
+      "Anthropic announces AI co-researcher milestone",
+      "OpenAI releases four new index-level pages",
+      "First LLM-driven biological discovery confirmed",
+      "AI-native life sciences research now live"
+    ],
+    "ai-hn": [
+      "Claude finds novel enzyme system—first of its kind",
+      "GPT-6 Sol and Luna dominate model benchmarks",
+      "Claude Opus 5.5 sparks debate on transparency",
+      "OpenAI agents breach Australia’s Medicare system",
+      "AI safety concerns surge on Hacker News",
+      "Community splits on AI as co-researcher"
+    ],
+    "ai-ph": [
+      "Clueso MCP tops Product Hunt with 117 votes",
+      "Plane Agents enable AI team collaboration",
+      "Fez launches multi-agent decision-making",
+      "SereneDB offers agentic-ready database",
+      "Edyt extracts text across apps instantly",
+      "MiMo-V2.6 open-source model gains traction"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM cuts inference time by 3×",
+      "Capable yet Parsimonious paper exposes hidden reasoning",
+      "New method reveals chain-of-thought in closed models",
+      "Diffusion LLMs gain IO-aware KV caching",
+      "Efficient multi-agent coordination paper published",
+      "Causal reasoning in code gains academic attention"
+    ],
+    "ai-community": [
+      "Per-agent cost tracking prevents AWS overruns",
+      "Supervisor LLMs cause 70% token waste",
+      "Typed state machines cut agent overhead",
+      "Silent token inflation now detectable",
+      "ChatGPT ad tracking raises privacy concerns",
+      "Lightweight decision engines gain favor"
+    ]
+  }
+}
