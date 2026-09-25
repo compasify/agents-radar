@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.282 发布稳定性修复版",
+      "OpenAI Codex 仍处测试阶段，无稳定版本",
+      "Gemini CLI 已更新至每日构建 v0.62.0-nightly.20260924",
+      "GitHub Copilot CLI 升级至 v1 新功能上线",
+      "OpenCode 和 Qwen Code 推动开源创新",
+      "Pi 工具在模块化 AI 工作流中获关注"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题与PR",
+      "网关启动与会话处理存在严重缺陷",
+      "PR #157294：重构代理运行器提升可靠性",
+      "PR #157771：修复重载后误报‘繁忙’状态",
+      "高活跃度但无新版本发布",
+      "v2026.9.6 稳定性问题持续存在"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布 b11173 版本，修复 Metal/CUDA 问题",
+      "vLLM 高度聚焦稳定性，合并关键补丁",
+      "SGLang 推进 DCP/并行开发",
+      "Ollama 出现稳定性退化（621个开放问题）",
+      "LiteLLM 优先强化可观测性与策略控制",
+      "Unsloth 在 AMD/NPU 视觉语言优化上表现突出"
+    ],
+    "ai-trending": [
+      "hindsight 今日增星+1,668",
+      "谷歌推出 ax：开源智能体编排运行时",
+      "NVIDIA Model-Optimizer 统一模型优化",
+      "dream-num/univer 实现原生智能体应用",
+      "HKUDS/CLI-Anything 将智能体集成至命令行工具",
+      "strands-agents/harness-sdk 加速智能体开发"
+    ],
+    "ai-web": [
+      "Claude 发现类CRISPR酶系统",
+      "Project Swap 展示智能体可协商市场",
+      "Anthropic 研究揭示61%用户偏好对齐",
+      "OpenAI 扩展 ChatGPT 广告至东南亚",
+      "Claude Opus 5.5 引发 HN 激烈争论",
+      "GPT-6 Sol 和 Luna 在 HN 得分超1,700"
+    ],
+    "ai-hn": [
+      "Claude 酶发现震惊社区",
+      "GPT-6 Sol 和 Luna 在 HN 获1,700+分主导",
+      "Claude Opus 5.5 引发模型安全争议",
+      "异常AI活动引发系统性风险担忧",
+      "Gen Alpha 用‘这太AI了’当贬义词",
+      "日本出现模型训练书籍购买热潮"
+    ],
+    "ai-ph": [
+      "Solid 以自主智能体与预算领先",
+      "Naise AI 自动化全链路营销活动",
+      "AgentScore 评估AI工作流可信度",
+      "Koreshield 保障智能体驱动系统安全",
+      "Claude Opus 5.5 主导AI产品发布",
+      "智能体从聊天机器人转向自管理系统"
+    ],
+    "ai-arxiv": [
+      "PASTABench：安全多智能体协作框架",
+      "ForgetMimic 无需重训即可擦除动作",
+      "MicroQonv 优化边缘视觉量化",
+      "RAMP 提升张量重塑效率",
+      "Order-Invariant Answers 挑战LLM假设",
+      "Memory Attention 重新定义神经记忆编码"
+    ],
+    "ai-community": [
+      "7次智能体评估失误导致开发者耗时数周",
+      "VS Code 插件复制仓库为纯Markdown",
+      "更好搜索索引胜过更多模型训练",
+      "ChatGPT 访问跨站追踪引发隐私担忧",
+      "非自回归决策模型受关注",
+      "33ms 多语言引擎实现实时速度"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.282 released with stability fixes",
+      "OpenAI Codex still in alpha, no stable release",
+      "Gemini CLI now at nightly build v0.62.0-nightly.20260924",
+      "GitHub Copilot CLI updated to v1 with new features",
+      "OpenCode and Qwen Code drive open-source innovation",
+      "Pi tool gains traction for modular AI workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24 hours",
+      "Critical bugs in gateway startup & session handling",
+      "PR #157294: Refactor agent runners for reliability",
+      "PR #157771: Fixes false 'busy' state after reloads",
+      "No new releases despite high activity",
+      "Stability regressions persist in v2026.9.6"
+    ],
+    "ai-infra": [
+      "llama.cpp releases b11173 with Metal/CUDA fixes",
+      "vLLM: High stability focus with critical merges",
+      "SGLang advances DCP/parallelism development",
+      "Ollama faces stability regressions (621 open issues)",
+      "LiteLLM prioritizes observability & policy control",
+      "Unsloth excels in AMD/NPU vision-language optimization"
+    ],
+    "ai-trending": [
+      "hindsight gains +1,668 stars today",
+      "Google launches ax: open agentic orchestration runtime",
+      "NVIDIA Model-Optimizer unifies model optimization",
+      "dream-num/univer enables agent-native apps",
+      "HKUDS/CLI-Anything integrates agents with CLI tools",
+      "strands-agents/harness-sdk boosts agent development"
+    ],
+    "ai-web": [
+      "Claude discovers CRISPR-like enzyme system",
+      "Project Swap shows AI agents can negotiate markets",
+      "Anthropic's research paper reveals 61% user preference alignment",
+      "OpenAI expands ChatGPT Ads to Southeast Asia",
+      "Claude Opus 5.5 drives intense HN debate",
+      "GPT-6 Sol and Luna score 1,700+ on HN"
+    ],
+    "ai-hn": [
+      "Claude's enzyme discovery shocks the community",
+      "GPT-6 Sol and Luna dominate HN with 1,700+ points",
+      "Claude Opus 5.5 sparks debate on model safety",
+      "Rogue AI activity raises systemic risk concerns",
+      "Gen Alpha uses 'That’s so AI' as insult",
+      "Japan sees surge in book-buying for model training"
+    ],
+    "ai-ph": [
+      "Solid leads with autonomous agents & budgets",
+      "Naise AI automates full-funnel marketing campaigns",
+      "AgentScore measures trust in AI workflows",
+      "Koreshield secures agent-driven systems",
+      "Claude Opus 5.5 dominates AI product launch",
+      "Agents shift from chatbots to self-managing systems"
+    ],
+    "ai-arxiv": [
+      "PASTABench: Safe multi-agent coordination framework",
+      "ForgetMimic erases motions without retraining",
+      "MicroQonv optimizes quantization for edge vision",
+      "RAMP improves tensor reshaping for efficiency",
+      "Order-Invariant Answers challenge LLM assumptions",
+      "Memory Attention redefines neural memory encoding"
+    ],
+    "ai-community": [
+      "7 agent eval mistakes cost developers weeks",
+      "VS Code extension copies repo as clean Markdown",
+      "Better search index beats more model training",
+      "ChatGPT access to cross-site tracking raises privacy concerns",
+      "Non-autoregressive decision models gain attention",
+      "33ms multilingual engine achieves real-time speed"
+    ]
+  }
+}
