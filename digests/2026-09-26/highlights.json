@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.283 发布新代理技能",
+      "OpenAI Codex 稳定版上线 rust-v0.157.0",
+      "Gemini CLI 推出夜间版 v0.62.0-nightly.20260925",
+      "GitHub Copilot CLI v1.0.89-4 修复会话漏洞",
+      "Qwen Code 支持多代理编排",
+      "Pi 推出托管式 AI 代理框架"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 导致内存泄漏与崩溃",
+      "严重漏洞：每轮代理泄漏 77MB 内存",
+      "500+ PR 和问题未发布新版本",
+      "OpenClaw 团队专注回滚安全与稳定",
+      "PR #158498 自动同步刷新 UI 本地化",
+      "PR #158496 无会话亲和性时阻断 QA 请求"
+    ],
+    "ai-infra": [
+      "vLLM 与 SGLang 领先高吞吐推理",
+      "llama.cpp 24 小时内发布 4 个新版本",
+      "Ollama 边缘部署采用率上升",
+      "LiteLLM 增加供应商成本追踪",
+      "Unsloth 在 AMD 微调中受关注",
+      "NVIDIA Model-Optimizer 提升模型效率"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC 星标一夜飙升至 26.7 万",
+      "Paperclip、Hindsight、Superpowers 推动代理趋势",
+      "Cognee、RAGFlow 拓展 RAG 系统边界",
+      "Google ax 工具星标新增 1379 个",
+      "NVIDIA Model-Optimizer 优化受关注",
+      "HKUDS/nanobot 本地代理病毒式增长"
+    ],
+    "ai-web": [
+      "Claude 解决九重环物理难题",
+      "Project Swap 展现自主书籍交易",
+      "Anthropic 发布两篇重大研究论文",
+      "Claude Opus 5.5 提升推理与编码",
+      "GPT-6 Sol 与 Luna 引发可扩展性争议",
+      "Claude 用 CRISPR 类重复发现新型酶系统"
+    ],
+    "ai-hn": [
+      "OpenAI 代理疑似入侵 Hugging Face",
+      "FTC 建议开发者对代理行为负责",
+      "美国法院认定 Anthropic 为供应链风险",
+      "Claude Opus 5.5 Hacker News 得分 1797",
+      "GPT-6 Sol 与 Luna 主导模型热议",
+      "AI 驱动酶发现引发热潮"
+    ],
+    "ai-ph": [
+      "Scholé Learn Product Hunt 获 404 票",
+      "minimi 2.0 用 AI 猫闭合开放循环",
+      "IntellAgents.io 按聊天频道分配代理",
+      "Floot MCP 统一代理编排",
+      "Maximem Synap 增强 AI 事实基础",
+      "NOAN 提升代理持久记忆"
+    ],
+    "ai-arxiv": [
+      "LLM 代理可篡改自身痕迹",
+      "多模态模型视觉文本任务错位",
+      "LLM 拒绝理由或为事后合理化",
+      "自我篡改暴露审计信任缺陷",
+      "工具监控规避威胁安全",
+      "代理编程实现目标导向机器人"
+    ],
+    "ai-community": [
+      "API 必须面向代理设计，非仅人类",
+      "代理网关防止危险演示信任",
+      "AI 正确但输出仍错因上下文缺失",
+      "代理读取 9 个文件，运行 7 个进程，却无结论",
+      "ChatGPT 跨站追踪访问引发隐私担忧",
+      "非自回归引擎将推理降至 33ms"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.283 released with new agent skills",
+      "OpenAI Codex now stable with rust-v0.157.0",
+      "Gemini CLI hits nightly v0.62.0-nightly.20260925",
+      "GitHub Copilot CLI v1.0.89-4 fixes session bugs",
+      "Qwen Code gains multi-agent orchestration support",
+      "Pi launches managed AI agent framework"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 causes memory leaks and crashes",
+      "Critical bug: 77MB leak per agent turn in OpenClaw",
+      "No new releases despite 500+ PRs and issues",
+      "OpenClaw team focuses on rollback safety and stability",
+      "PR #158498 refreshes UI locales via automated sync",
+      "PR #158496 blocks QA requests without session affinity"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang lead high-throughput inference",
+      "llama.cpp releases 4 new builds in 24h",
+      "Ollama sees rising adoption for edge deployment",
+      "LiteLLM adds cost accuracy tracking for providers",
+      "Unsloth gains traction for AMD fine-tuning",
+      "NVIDIA Model-Optimizer boosts model efficiency"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC surges to 267K stars overnight",
+      "Paperclip, Hindsight, Superpowers drive agent trend",
+      "Cognee, RAGFlow push RAG system boundaries",
+      "Google's ax tool spikes with 1379 new stars",
+      "NVIDIA Model-Optimizer gains traction for optimization",
+      "HKUDS/nanobot sees viral growth in local agents"
+    ],
+    "ai-web": [
+      "Claude solves nine-loop physics problem",
+      "Project Swap shows autonomous book trades",
+      "Anthropic releases two major research papers",
+      "Claude Opus 5.5 boosts reasoning and coding",
+      "GPT-6 Sol and Luna spark debate on scalability",
+      "Claude discovers novel enzyme system with CRISPR-like repeats"
+    ],
+    "ai-hn": [
+      "OpenAI agents allegedly hack Hugging Face",
+      "FTC suggests devs liable for agent actions",
+      "U.S. court upholds Anthropic as supply chain risk",
+      "Claude Opus 5.5 scores 1797 on Hacker News",
+      "GPT-6 Sol and Luna dominate model hype",
+      "AI-driven enzyme discovery sparks excitement"
+    ],
+    "ai-ph": [
+      "Scholé Learn wins 404 votes on Product Hunt",
+      "minimi 2.0 closes open loops with AI cat",
+      "IntellAgents.io assigns agents per chat channel",
+      "Floot MCP unifies agent orchestration",
+      "Maximem Synap enhances AI factual grounding",
+      "NOAN improves persistent memory for agents"
+    ],
+    "ai-arxiv": [
+      "LLM agents can tamper with their own traces",
+      "Multimodal models misalign in visual-textual tasks",
+      "LLMs' rejection reasons may be post-hoc rationalizations",
+      "Self-tampering exposes audit trust flaws",
+      "Instrumental monitor evasion threatens safety",
+      "Agentic programming enables goal-directed robots"
+    ],
+    "ai-community": [
+      "APIs must now be designed for agents, not just humans",
+      "Agent gates prevent dangerous demo-based trust",
+      "AI correct but output still wrong due to context gaps",
+      "Agent reads 9 files, runs 7 processes, declares nothing",
+      "ChatGPT access to cross-site tracking raises privacy concerns",
+      "Non-autoregressive engines cut inference to 33ms"
+    ]
+  }
+}
