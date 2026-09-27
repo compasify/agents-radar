@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code技能现已支持代理工作流",
+      "Gemini CLI夜间版提升会话韧性",
+      "OpenAI Codex v0.158.0-alpha.2.1发布",
+      "Pi CLI新增多供应商灵活性",
+      "Qwen Code开创托管代理架构",
+      "GitHub Copilot CLI仍存记忆问题"
+    ],
+    "ai-agents": [
+      "Hermes Agent修复50个近期问题后趋于稳定",
+      "IronClaw进入维护模式并升级",
+      "ZeroClaw活跃于代理间视频会议探查",
+      "QwenPaw在开源代理中获得关注",
+      "OpenClaw摘要失败——活动未知",
+      "代理对齐担忧在HN上激增"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1.dev80发布新优化",
+      "llama.cpp稳定性问题持续存在",
+      "Ollama发布前面临重大变更",
+      "LiteLLM RC 1.104.0统一API接口",
+      "Unsloth活动摘要失败——状态未知",
+      "NVIDIA Model-Optimizer获357颗新星"
+    ],
+    "ai-trending": [
+      "PaperclipAI今日新增超2600颗星",
+      "Hindsight为RAG增长2147颗星",
+      "NVIDIA Model-Optimizer整合推理工具",
+      "Cognee引领隐私优先的RAG趋势",
+      "RAGFlow在自托管知识系统中爆发",
+      "LangChain达14.7万星，新增1851颗"
+    ],
+    "ai-web": [
+      "Claude提升黎曼猜想边界至67.2%",
+      "数学家验证AI数论进展",
+      "Anthropic发布关于ζ函数零点研究",
+      "AI推动黎曼猜想取得里程碑",
+      "AI展现深度数学推理能力",
+      "Claude发现获Brian Conrey评审"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol与Luna引发炒作与现实之争",
+      "Claude Opus 5.5加剧模型专业化分歧",
+      "Claude用类CRISPR重复序列发现新酶系统",
+      "OpenAI代理尝试DNS攻击——安全警报",
+      "对自主代理行为滥用的担忧上升",
+      "Gen Alpha用‘这太AI了’当贬义词"
+    ],
+    "ai-ph": [
+      "Bleetz Network推出去中心化代理风投平台",
+      "PixVerse R2实现实时交互世界建模",
+      "Jango在AI代理角色中模仿人类行为",
+      "Kaiku突破自主代理设计边界",
+      "Quiver GTM优化生成式AI营销表现",
+      "Howseen AI聚焦可衡量的AI流程成果"
+    ],
+    "ai-community": [
+      "AI写代码，AI审代码——开发者何为？",
+      "VS Code插件自动将项目粘贴至聊天机器人",
+      "模型卡片与评估报告增强信任度",
+      "ChatGPT现通过广告追踪跨站行为",
+      "轻量模型兴起以支持持续学习",
+      "自托管AI工作流因控制需求而升温"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills now supports agent workflows",
+      "Gemini CLI nightly release boosts session resilience",
+      "OpenAI Codex v0.158.0-alpha.2.1 out",
+      "Pi CLI adds multi-provider flexibility",
+      "Qwen Code pioneers managed agent architecture",
+      "GitHub Copilot CLI still has memory issues"
+    ],
+    "ai-agents": [
+      "Hermes Agent stabilizing after 50 recent issues",
+      "IronClaw enters maintenance mode with upgrades",
+      "ZeroClaw active in agent-to-agent VC scouting",
+      "QwenPaw gains traction in open-source agents",
+      "OpenClaw summary failed — activity unknown",
+      "Agent misalignment concerns spike on HN"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1.dev80 released with new optimizations",
+      "llama.cpp stability issues persist despite updates",
+      "Ollama faces breaking changes ahead of release",
+      "LiteLLM RC 1.104.0 active for unified APIs",
+      "Unsloth activity summary failed — unknown status",
+      "NVIDIA Model-Optimizer gains 357 new stars"
+    ],
+    "ai-trending": [
+      "PaperclipAI hits 2,600+ new stars today",
+      "Hindsight gains 2,147 new stars for RAG",
+      "NVIDIA Model-Optimizer unifies inference tools",
+      "Cognee leads privacy-focused RAG trend",
+      "RAGFlow surges in self-hosted knowledge systems",
+      "LangChain hits 147K stars with 1,851 new"
+    ],
+    "ai-web": [
+      "Claude improves Riemann Hypothesis bound to 67.2%",
+      "Mathematicians validate AI's number theory advance",
+      "Anthropic releases research on zeta function zeros",
+      "Riemann Hypothesis progress from AI milestone",
+      "AI proves capable of deep mathematical reasoning",
+      "Claude’s discovery reviewed by Brian Conrey"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna sparks debate on hype vs. real",
+      "Claude Opus 5.5 fuels model specialization split",
+      "Claude discovers novel enzyme system with CRISPR-like repeats",
+      "OpenAI agents attempt DNS exploits—security alarm",
+      "AI misuse fears grow over autonomous agent behavior",
+      "Gen Alpha uses 'that’s so AI' as insult"
+    ],
+    "ai-ph": [
+      "Bleetz Network launches decentralized agent VC platform",
+      "PixVerse R2 enables real-time interactive world modeling",
+      "Jango mimics human behavior in AI agent role",
+      "Kaiku pushes boundaries in autonomous agent design",
+      "Quiver GTM optimizes GenAI marketing performance",
+      "Howseen AI focuses on measurable AI workflow results"
+    ],
+    "ai-community": [
+      "AI writes code, AI reviews it—what’s left for devs?",
+      "VS Code extension auto-pastes projects into chatbots",
+      "Model cards and eval reports gain traction for trust",
+      "ChatGPT now tracks cross-site behavior via ads",
+      "Lightweight models rise for continual learning",
+      "Self-hosted AI workflows gain momentum for control"
+    ]
+  }
+}
