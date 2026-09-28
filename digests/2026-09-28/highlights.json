@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 10个问题，无新版本发布",
+      "OpenAI Codex 发布 v0.159.0 与 v0.158.0",
+      "GitHub Copilot CLI v1.0.89-5 发布",
+      "Gemini CLI 出现稳定性退化",
+      "Qwen Code 在开源社区获关注",
+      "Pi tool 有5个开放PR，无发布"
+    ],
+    "ai-agents": [
+      "OpenClaw：新增500个问题，P0级漏洞活跃",
+      "问题 #157531 跟踪 2026.9.7 修复",
+      "OpenClaw Windows 崩溃激增",
+      "PR #159347 修复 SQLite 共享错误",
+      "PR #157966 保护私有操作符密钥",
+      "PR #159546 提升云部署韧性"
+    ],
+    "ai-infra": [
+      "vLLM：217个开放问题，无发布",
+      "SGLang：154个问题，负载下稳定",
+      "Ollama v0.34.4 存在严重退化",
+      "llama.cpp：246个问题，数量高",
+      "Unsloth 发布预构建轮子",
+      "LiteLLM：167个开放问题，无发布"
+    ],
+    "ai-trending": [
+      "Hindsight：单日+4520星",
+      "Paperclipai：+2401星，面向工作场景的智能体",
+      "VoiceStudio：本地语音克隆平台",
+      "Openrig：多智能体协作工具",
+      "Hindsight 支持长期智能体记忆",
+      "Paperclipai 管理工作中的AI流程"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 和 Luna：HN评分1775",
+      "Claude Opus 5.5：HN评分1802",
+      "AI 发现新型酶系统",
+      "智能体通过DNS攻击Hugging Face",
+      "争论：失控的AI智能体真实存在吗？",
+      "AI作业替代引发担忧"
+    ],
+    "ai-ph": [
+      "Hemory：智能体可搜索音频记忆",
+      "Eclatira：对话式视频智能体",
+      "GoodSocials：AI LinkedIn内容工具",
+      "Inqueria：AI驱动的用户研究",
+      "Hemory 在 Product Hunt 获360票",
+      "Eclatira 可集成任意技术栈"
+    ],
+    "ai-community": [
+      "提示注入成首要安全威胁",
+      "AI声称测试通过——是否真运行？",
+      "智能体相互辩论以提升准确率",
+      "五重检查审计终结验证足球模型",
+      "MaskAgent：隐私保护型智能体工具",
+      "自批判系统受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 issues, no new release",
+      "OpenAI Codex releases v0.159.0 & v0.158.0",
+      "GitHub Copilot CLI v1.0.89-5 released",
+      "Gemini CLI faces stability regressions",
+      "Qwen Code gains traction in open-source community",
+      "Pi tool sees 5 open PRs, no release"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 new issues, P0 bugs active",
+      "Issue #157531 tracks 2026.9.7 fixes",
+      "Windows crashes spike in OpenClaw",
+      "PR #159347 fixes SQLite sharing errors",
+      "PR #157966 secures private operator keys",
+      "PR #159546 improves cloud provision resilience"
+    ],
+    "ai-infra": [
+      "vLLM: 217 open issues, no release",
+      "SGLang: 154 issues, stable under load",
+      "Ollama v0.34.4 has critical regression",
+      "llama.cpp: 246 issues, high volume",
+      "Unsloth releases prebuilt wheels",
+      "LiteLLM: 167 open issues, no release"
+    ],
+    "ai-trending": [
+      "Hindsight: +4,520 stars in one day",
+      "Paperclipai: +2,401 stars for workplace agents",
+      "VoiceStudio: local voice cloning platform",
+      "Openrig: multi-agent collaboration tool",
+      "Hindsight enables long-term agent memory",
+      "Paperclipai manages AI workflows at work"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna: 1775 HN score",
+      "Claude Opus 5.5: 1802 HN score",
+      "AI discovers novel enzyme system",
+      "Agents exploit Hugging Face via DNS",
+      "Debate: Are rogue AI agents even real?",
+      "AI homework substitution sparks concern"
+    ],
+    "ai-ph": [
+      "Hemory: searchable audio memory for agents",
+      "Eclatira: conversational video agent",
+      "GoodSocials: AI LinkedIn content tool",
+      "Inqueria: AI-driven user research",
+      "Hemory wins 360 votes on Product Hunt",
+      "Eclatira integrates into any tech stack"
+    ],
+    "ai-community": [
+      "Prompt injection now a top security threat",
+      "AI claims tests pass—did they actually run?",
+      "Agents debate each other to improve accuracy",
+      "Five-check audit kills validated football model",
+      "MaskAgent: privacy-preserving agent tool",
+      "Self-critiquing systems gain traction"
+    ]
+  }
+}
