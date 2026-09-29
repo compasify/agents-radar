@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.284 稳定版，关键回归问题已标记",
+      "OpenAI Codex rust-v0.158.0 稳定版，α版本开发中",
+      "Gemini CLI 夜间构建发布：v0.63.0-nightly.20260929",
+      "GitHub Copilot CLI 无新PR合并",
+      "Qwen Code 推出双路径代理模型",
+      "Pi CLI 新增实时协作功能"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题，500个PR",
+      "无新版本发布；v2026.9.6关联内存泄漏",
+      "PR #160885 修复 /health 错误报告漏洞",
+      "P0问题涉及会话完整性和状态损坏",
+      "Hermes Agent 因 Claude Code 集成获关注",
+      "IronClaw 现支持多代理编排"
+    ],
+    "ai-infra": [
+      "vLLM 新增 DeepSeek V4.1 ROCm (gfx950) 支持",
+      "SM100/SM103 上 FlashInfer 冷启动崩溃已修复",
+      "通过 P/D 解耦提升 GB200 上 GLM-5.3 性能",
+      "SGLang 推进可编程 KV 缓存 RFC",
+      "Ollama 更新本地推理运行时稳定性",
+      "Unsloth 优化消费级GPU训练吞吐量"
+    ],
+    "ai-trending": [
+      "Hindsight 以代理自动化引领趋势",
+      "Paperclip 因AI工作流工具获2K+星标",
+      "VoiceStudio 成为语音驱动代理框架",
+      "AnythingLLM 推动隐私保护本地代理",
+      "Cognee 出现于自托管知识管理",
+      "PageIndex 提供存储高效RAG架构"
+    ],
+    "ai-web": [
+      "Anthropic 发布项目交换研究，探索代理交易",
+      "Claude 与 Infosys 合作推进印度落地",
+      "OpenAI 元数据仅限帖子暗示区域策略",
+      "Lenfest AI 联合计划宣布基础设施合作",
+      "Sonnet 5.5 引发安全与性能之争",
+      "Astra 6.1 因治理问题被OpenAI取消"
+    ],
+    "ai-hn": [
+      "Sonnet 5.5 发布引发安全与性能争议",
+      "Ember-1 成为顶级开源权重模型",
+      "RRSI框架推出安全代理自我改进",
+      "MicroLLM Lab 推动边缘AI可及性",
+      "ESP32 LLM集群获得基层支持",
+      "DNS配置错误事件推动问责呼声"
+    ],
+    "ai-community": [
+      "QA工程师用Claude+Obsidian构建测试流程",
+      "Dev.to文章警示AI FOMO疲劳风险",
+      "门禁替换故事暴露AI验证风险",
+      "社区呼吁透明化AI代理行为",
+      "公平性与成本感知推理基准上升",
+      "各论坛模型治理讨论加剧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.284 stable, critical regression flagged",
+      "OpenAI Codex rust-v0.158.0 stable, alpha builds in progress",
+      "Gemini CLI nightly build released: v0.63.0-nightly.20260929",
+      "GitHub Copilot CLI has no new PR merges",
+      "Qwen Code introduces dual-path agent model",
+      "Pi CLI gains real-time collaboration features"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "No new releases; v2026.9.6 linked to memory leaks",
+      "PR #160885 fixes /health error reporting bug",
+      "P0 issues tied to session integrity and state corruption",
+      "Hermes Agent gains traction for Claude Code integration",
+      "IronClaw now supports multi-agent orchestration"
+    ],
+    "ai-infra": [
+      "vLLM adds DeepSeek V4.1 ROCm (gfx950) support",
+      "FlashInfer warmup crash fixed on SM100/SM103",
+      "GLM-5.3 performance boosted on GB200 via P/D disaggregation",
+      "SGLang advances programmable KV caching RFCs",
+      "Ollama updates runtime stability for local inference",
+      "Unsloth optimizes training throughput on consumer GPUs"
+    ],
+    "ai-trending": [
+      "Hindsight leads trending list with agent automation",
+      "Paperclip gains 2K+ stars for AI workflow tools",
+      "VoiceStudio rises as voice-driven agent framework",
+      "AnythingLLM pushes privacy-focused local agents",
+      "Cognee emerges for self-hosted knowledge management",
+      "PageIndex offers storage-efficient RAG architecture"
+    ],
+    "ai-web": [
+      "Anthropic launches Project Swap research on agent trading",
+      "Claude partners with Infosys for India rollout",
+      "OpenAI’s metadata-only posts hint at regional strategy",
+      "Lenfest AI Collaborative announced for infrastructure",
+      "Sonnet 5.5 sparks debate on safety vs. performance",
+      "Astra 6.1 scrapped by OpenAI amid governance concerns"
+    ],
+    "ai-hn": [
+      "Sonnet 5.5 release sparks safety vs. performance debate",
+      "Ember-1 emerges as top-tier open-weight model",
+      "RRSI framework introduced for safe agent self-improvement",
+      "MicroLLM Lab trends for edge AI accessibility",
+      "ESP32 LLM clusters gain grassroots momentum",
+      "DNS misalignment incident fuels accountability calls"
+    ],
+    "ai-community": [
+      "QA engineer uses Claude + Obsidian for test workflows",
+      "Dev.to article warns against AI FOMO fatigue",
+      "Gate replacement story exposes AI verification risks",
+      "Community demands transparency in AI agent behavior",
+      "Benchmarking fairness and cost-aware reasoning rising",
+      "Model governance debates intensify across forums"
+    ]
+  }
+}
