@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude代码技能：TON区块链智能合约审计员",
+      "md2video-audio：将Markdown转为带旁白的视频",
+      "Qwen代码：新推出的开源AI编程工具",
+      "GitHub Copilot CLI：增强开发者工作流支持",
+      "OpenAI Codex：AI代码生成持续开发中",
+      "Pi：轻量级开发者AI助手"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.33发布：长期支持版稳定性修复",
+      "24小时内处理500个问题与合并请求：高活跃度",
+      "P0级漏洞：报告内存泄漏与网关崩溃",
+      "新增模型支持：DeepSeek-v4-flash已加入",
+      "v2026.9.6：最新版本存在严重退化",
+      "IronClaw：代理框架正在积极开发中"
+    ],
+    "ai-infra": [
+      "vLLM：可编程KV缓存策略现已上线",
+      "ROCm：AMD MI355X Qwen3.8优化进行中",
+      "Intel XPU：主机内存减少问题仍存在",
+      "Qwen3-VL与GLM-5.3-Flash：全面支持已添加",
+      "Ollama：新模型集成正在进行",
+      "LiteLLM：多供应商路由范围扩大"
+    ],
+    "ai-trending": [
+      "OpenShell：安全代理运行时获990颗星",
+      "Hindsight：AI代理自适应记忆功能",
+      "VoiceStudio：本地语音克隆爆发式增长",
+      "dbx：25MB带AI支持的数据库客户端",
+      "PageIndex：私有RAG实现高效检索",
+      "LEANN：新型隐私向量数据库"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills: Smart contract auditor on TON Blockchain",
+      "md2video-audio: Turn Markdown into videos with voiceover",
+      "Qwen Code: New open-source AI coding tool launched",
+      "GitHub Copilot CLI: Enhanced developer workflow support",
+      "OpenAI Codex: Active development in AI code generation",
+      "Pi: Lightweight AI assistant for developers"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.33 released: LTS stability fix",
+      "500 issues & PRs in 24 hours: High activity",
+      "P0 bugs: Memory leaks and gateway crashes reported",
+      "New model support: DeepSeek-v4-flash added",
+      "v2026.9.6: Latest version has critical regressions",
+      "IronClaw: Agent framework under active development"
+    ],
+    "ai-infra": [
+      "vLLM: Programmable KV cache policies now live",
+      "ROCm: AMD MI355X Qwen3.8 optimization ongoing",
+      "Intel XPU: Host memory reduction issues persist",
+      "Qwen3-VL & GLM-5.3-Flash: Full support added",
+      "Ollama: New model integration in progress",
+      "LiteLLM: Expanded multi-provider routing"
+    ],
+    "ai-trending": [
+      "OpenShell: Secure agent runtime gains 990 stars",
+      "Hindsight: Adaptive memory for AI agents",
+      "VoiceStudio: Local voice cloning explodes",
+      "dbx: 25MB database client with AI support",
+      "PageIndex: Private RAG with efficient retrieval",
+      "LEANN: Novel vector database for privacy"
+    ]
+  }
+}
