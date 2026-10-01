@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.286 优化代理工作流",
+      "OpenAI Codex 推出 rust-v0.159.3 测试版",
+      "Gemini CLI 发布夜间版 v0.64.0",
+      "GitHub Copilot CLI 升级至 v1.0.91-0",
+      "OpenCode 在开源代理领域获关注",
+      "Pi CLI 现支持多会话代理"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 修复关键内存泄漏",
+      "OpenClaw 中 SQLite WAL 增长上限设为 2.8GB",
+      "OpenClaw 网关崩溃循环问题已解决",
+      "OpenClaw 代理启动失败已修复",
+      "静默子代理完成丢失问题已修补",
+      "OpenClaw 会话状态损坏问题已处理"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1 提升 MoE 吞吐量",
+      "SGLang 预发布聚焦低延迟推理",
+      "llama.cpp 新增跨平台 AI 支持",
+      "Ollama v0.35.0 标记为预发布",
+      "LiteLLM 出现 12 个高优先级问题",
+      "Unsloth 优化本地模型性能"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell 增加 1,281 星标",
+      "t8y2/dbx 支持 100+ 数据库",
+      "OpenShell：安全代理运行时上线",
+      "VoiceStudio 推动本地生成媒体",
+      "MoneyPrinterTurbo 趋势上升",
+      "基于 MCP 的代理采用率增长"
+    ],
+    "ai-web": [
+      "Anthropic 推出生命科学验证计划",
+      "Mythos、Opus、Sonnet 模型可访问",
+      "美国 75% 实体岗位可自动化",
+      "GLM-5.3 被列为危险网络威胁",
+      "发布公众 AI 未来调查",
+      "LSVP 支持药物发现用例"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发 AI 争议",
+      "GPT 6.1 Sol 宣称‘近类星’智能",
+      "OpenAI Dots 引发隐私担忧",
+      "FTC 调查 AI 巨头",
+      "AI 行为追踪论文发布",
+      "企业 AI 叙事受审视"
+    ],
+    "ai-ph": [
+      "iFixAi 审计工具获 412 票领先",
+      "LUCI Desktop 记忆用户上下文",
+      "Claude Sonnet 5.5 发布",
+      "Hopscotch AI 提供即插即用代理",
+      "Semos.ai 管理代理获关注",
+      "记忆感知代理重塑助手"
+    ],
+    "ai-arxiv": [
+      "RefCon 实现实时代理记忆",
+      "通过斯塔克尔伯格博弈实现多大模型对齐",
+      "法律模型的 LexReward 框架",
+      "保守赌徒提升安全性",
+      "MoE 路由稳定性增强",
+      "ViLegalExpert 基准发布"
+    ],
+    "ai-community": [
+      "五分之一 AI 推荐包不存在",
+      "暴露 Slopsquatting 攻击向量",
+      "AI 防护仅捕获 1% 攻击",
+      "模拟输出成事实文档",
+      "实体 AI 代理受关注",
+      "前向部署工程师趋势上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.286 stabilizes agent workflows",
+      "OpenAI Codex rolls out rust-v0.159.3 alpha",
+      "Gemini CLI hits nightly v0.64.0",
+      "GitHub Copilot CLI updates to v1.0.91-0",
+      "OpenCode gains traction in open-agent space",
+      "Pi CLI now supports multi-session agents"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 fixes critical memory leaks",
+      "SQLite WAL growth capped at 2.8GB in OpenClaw",
+      "Gateway crash loops resolved in OpenClaw",
+      "Agent startup failures fixed in OpenClaw",
+      "Silent subagent completion loss now patched",
+      "Session-state corruption addressed in OpenClaw"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1 boosts MoE throughput",
+      "SGLang pre-release targets low-latency inference",
+      "llama.cpp adds cross-platform AI support",
+      "Ollama v0.35.0 marked as pre-release",
+      "LiteLLM sees 12 high-priority issues",
+      "Unsloth optimizes local model performance"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell hits +1,281 stars",
+      "t8y2/dbx supports 100+ databases",
+      "OpenShell: secure agent runtime launched",
+      "VoiceStudio drives local generative media",
+      "MoneyPrinterTurbo gains momentum",
+      "MCP-based agents see rising adoption"
+    ],
+    "ai-web": [
+      "Anthropic launches Life Sciences Verification Program",
+      "Mythos, Opus, Sonnet models now accessible",
+      "75% of U.S. physical jobs automatable",
+      "GLM-5.3 flagged as dangerous cyber threat",
+      "Public survey on AI futures launched",
+      "LSVP enables drug discovery use cases"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks AI debate",
+      "GPT 6.1 Sol claims 'near-Astra' intelligence",
+      "OpenAI Dots raises privacy concerns",
+      "FTC investigates AI giants",
+      "AI behavior tracking paper released",
+      "Corporate AI narratives under scrutiny"
+    ],
+    "ai-ph": [
+      "iFixAi leads with 412 votes for audit tool",
+      "LUCI Desktop remembers user context",
+      "Claude Sonnet 5.5 released",
+      "Hopscotch AI offers plug-and-play agents",
+      "Semos.ai Manager Agents gain traction",
+      "Memory-aware agents redefine assistants"
+    ],
+    "ai-arxiv": [
+      "RefCon enables real-time agent memory",
+      "Multi-LLM alignment via Stackelberg games",
+      "LexReward framework for legal models",
+      "Conservative bandits improve safety",
+      "MoE routing stability improved",
+      "ViLegalExpert benchmark launched"
+    ],
+    "ai-community": [
+      "1 in 5 AI-suggested packages don’t exist",
+      "Slopsquatting attack vector exposed",
+      "AI guardrails catch only 1% of attacks",
+      "Mock outputs become de facto docs",
+      "Physical AI agents gaining traction",
+      "Forward Deployed Engineers trend rises"
+    ]
+  }
+}
