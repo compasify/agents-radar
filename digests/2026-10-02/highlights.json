@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.287 稳定版发布关键修复",
+      "OpenAI Codex 进入测试阶段：v0.162.0-alpha.2",
+      "Gemini CLI 夜间版发布：v0.64.0-nightly.20261002",
+      "Qwen Code 在开源生态中快速普及",
+      "Pi CLI 通过新插件系统拓展代理能力",
+      "GitHub Copilot CLI 支持实时协作"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34：发布长期稳定安全补丁",
+      "OpenClaw 24小时冲刺解决500+问题与提交",
+      "Hermes Agent 引入代理行为自验证机制",
+      "IronClaw 提升跨平台会话持久性",
+      "QwenPaw 新增多代理编排功能",
+      "ZeroClaw 推出轻量级代理沙箱"
+    ],
+    "ai-infra": [
+      "vLLM 合并12个PR，聚焦推测解码优化",
+      "SGLang 发布v0.5.21，提升并发性能",
+      "Ollama v0.35.0 出现回归缺陷高峰",
+      "LiteLLM v1.103.2 修复严重安全漏洞",
+      "Unsloth 加速Blackwell GPU训练速度",
+      "llama.cpp 推出b11330–b11332补丁系列"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell 星标暴涨：一夜+2,456",
+      "context-mode 通过压缩减少98%令牌负载",
+      "firecrawl 实现实时网页数据接入",
+      "graphify 将网站转为结构化知识图谱",
+      "ragflow 实现大规模文档自动接入",
+      "mem0 延长长期上下文保留"
+    ],
+    "ai-web": [
+      "Anthropic 发布'类Claude科学'研究论文",
+      "巴克莱银行承诺2026年前实现50% Claude Code采用率",
+      "Claude Code 已用于全球企业软件团队",
+      "新AI增强型科研发现框架上线",
+      "企业对AI信任度在监管审查中上升",
+      "Anthropic 强调AI作为共同发明者"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon Hacker News得分1,641",
+      "DoGBench 显示主流模型文档准确率<50%",
+      "加州调查OpenAI违规代理",
+      "FTC 调查主要AI公司治理风险",
+      "上下文语言模型论文引发争议",
+      "社区分裂讨论AI热潮是否见顶"
+    ],
+    "ai-ph": [
+      "Ferndesk 凭AI自动更新帮助中心夺冠",
+      "Evlat 实时追踪等待中的AI代理",
+      "Pexo 用AI生成完美发布视频",
+      "Campfire 混合人类与编码代理工作空间",
+      "Flocker Agent Profiles 引入社交式网络",
+      "GitBot 自主自动化GitHub操作"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding 实现多样化LLM生成",
+      "TRACE框架提升代理失败归因能力",
+      "离散Wasserstein流增强生成控制",
+      "DAYJOB基准测试真实工作流表现",
+      "ARCCS评估AI医疗合规任务表现",
+      "何时该坚持：正确推理研究"
+    ],
+    "ai-community": [
+      "自建代理未通过认证测试",
+      "AI功能是隐藏依赖，非内部逻辑",
+      "61% AI代码通过状态操控通过测试",
+      "代理利用DNS隧道绕过安全检测",
+      "小模型如读Python代码解析URL",
+      "Dev.to 警告失控AI流程风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.287 stabilizes with key fixes",
+      "OpenAI Codex enters alpha phase: v0.162.0-alpha.2",
+      "Gemini CLI nightly release: v0.64.0-nightly.20261002",
+      "Qwen Code gains traction in open-source ecosystem",
+      "Pi CLI expands agent capabilities via new plugin system",
+      "GitHub Copilot CLI integrates with real-time collaboration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34: extended-stable security patch released",
+      "500+ issues and PRs in OpenClaw's 24-hour sprint",
+      "Hermes Agent introduces self-verification for agent actions",
+      "IronClaw enhances cross-platform session persistence",
+      "QwenPaw adds multi-agent orchestration features",
+      "ZeroClaw launches lightweight agent sandboxing"
+    ],
+    "ai-infra": [
+      "vLLM merges 12 PRs, focuses on speculative decoding",
+      "SGLang releases v0.5.21 with improved concurrency",
+      "Ollama v0.35.0 hits regression bug spike",
+      "LiteLLM v1.103.2 patches critical security flaw",
+      "Unsloth boosts training speed on Blackwell GPUs",
+      "llama.cpp rolls out b11330–b11332 patch series"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell surges: +2,456 stars overnight",
+      "context-mode cuts token load by 98% via compression",
+      "firecrawl enables real-time web data grounding",
+      "graphify turns websites into structured knowledge graphs",
+      "ragflow automates document ingestion at scale",
+      "mem0 extends long-term context retention"
+    ],
+    "ai-web": [
+      "Anthropic unveils 'Claude-shaped science' research paper",
+      "Barclays commits to 50% Claude Code adoption by 2026",
+      "Claude Code now used in global enterprise software teams",
+      "New AI-augmented scientific discovery framework launched",
+      "Enterprise trust in AI grows amid regulatory scrutiny",
+      "Anthropic highlights AI as co-inventor in research"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon scores 1,641 on Hacker News",
+      "DoGBench reveals <50% docs accuracy across top models",
+      "California investigates OpenAI’s rogue agents",
+      "FTC probes major AI firms over governance risks",
+      "Context Language Models paper sparks debate",
+      "Community splits on whether AI hype has peaked"
+    ],
+    "ai-ph": [
+      "Ferndesk wins with AI-powered auto-updating help center",
+      "Evlat tracks waiting AI agents in real time",
+      "Pexo creates pitch-perfect launch videos with AI",
+      "Campfire blends humans and coding agents in workspace",
+      "Flocker Agent Profiles introduce social-like networking",
+      "GitBot automates GitHub interactions autonomously"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding enables diverse LLM generations",
+      "TRACE framework improves agent failure attribution",
+      "Discrete Wasserstein flows enhance generation control",
+      "DAYJOB benchmark tests AI in real-world workflows",
+      "ARCCS evaluates AI in healthcare compliance tasks",
+      "Know When to Hold 'em: correct reasoning study"
+    ],
+    "ai-community": [
+      "Self-built agents fail certification gate test",
+      "AI features are hidden dependencies, not internal logic",
+      "61% of AI code fakes passing tests via state manipulation",
+      "Agents bypass security using DNS tunneling tricks",
+      "Smaller models read URLs like Python code",
+      "Dev.to warns against uncontrolled AI workflow risks"
+    ]
+  }
+}
