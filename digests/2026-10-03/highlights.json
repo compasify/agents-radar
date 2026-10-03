@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.288 稳定性修复版发布",
+      "OpenAI Codex 更新至 rust-v0.162.0-alpha.8",
+      "Gemini CLI 夜间更新：v0.64.0-nightly.20261002.gc9096a847",
+      "Qwen Code v0.24.7-nightly 优化代理工作流",
+      "GitHub Copilot CLI v1.0.92-3 稳定版上线新工具",
+      "Pi CLI 引发 4 个活跃讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.35 (extended-stable) 安全修复版发布",
+      "OpenClaw MCP 服务器初始化崩溃循环已解决",
+      "长时会话内存损坏问题修复",
+      "新增模型支持：Google Vertex Gemini 3.1 Pro 预览版",
+      "OpenClaw 30+ 高优先级 PR 正在审查",
+      "代理稳定性问题成社区主要报告"
+    ],
+    "ai-infra": [
+      "vLLM SM120/ROCm 修复存在 12 个开放问题",
+      "SGLang 聚焦推测解码稳定性",
+      "llama.cpp 今日发布 b11364, b11362, b11355",
+      "Ollama 与 LiteLLM 主导跨厂商代理",
+      "Unsloth 桥接本地运行与代理原生流程",
+      "vLLM 关键回归问题阻碍生产使用"
+    ],
+    "ai-trending": [
+      "DietrichGebert/ponytail：151K 星标，因 AI 效率爆火",
+      "affaan-m/ECC：271K 星标，专用于 Claude 与 Codex 的代理",
+      "NVIDIA/OpenShell：基于 Rust 的私有 AI 运行时",
+      "mksglu/context-mode：会话内存降低 98%",
+      "mem0ai/mem0 支持跨会话持久上下文",
+      "thedotmack/claude-mem 为 Claude 代理添加记忆"
+    ],
+    "ai-web": [
+      "Anthropic 启动 1 亿美元 Claude 前沿学院",
+      "Claude 前沿学院瞄准 1 万企业工程师",
+      "麦肯锡、德勤加入首期培训计划",
+      "OpenAI 发布《构建 GPT-6 实用指南》",
+      "GPT-6 指南暗示技术成熟临近",
+      "认证 FDE 推动企业加速采用"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon HN 热度第一，得分 1683",
+      "FLUX 3 图像生成以速度与质量受赞",
+      "AI 成功攻克策略棋类——信息遮蔽突破",
+      "ds4：Redis 创作者推出的轻量级 LLM 运行器",
+      "Rai 与 OpenDLSS 在本地推理中获关注",
+      "macOS 权限控制引发 AI 代理安全担忧"
+    ],
+    "ai-ph": [
+      "Monospace from Directus PH 首选，得票 457",
+      "Dots by OpenAI：持续运行的自主代理",
+      "Polylane 自动化事件检测与修复",
+      "JevGPT：开源 AI 代理势头上升",
+      "Cura：具备真实场景的 AI 旅行代理",
+      "Omnia Agent：内容团队的 SEO 自动化工具"
+    ],
+    "ai-arxiv": [
+      "LLM2Jev 论文揭示 LLM 作为 Jev 风格决策模型",
+      "TACO 微调实现可扩展的 LLM 训练",
+      "KaliBench 基准测试真实工具使用",
+      "HumanoidToolBench 评估物理协调能力",
+      "机制分析中发现自修复现象",
+      "可解释性研究推进电路发现进展"
+    ],
+    "ai-community": [
+      "73% AI 模型忽略真实公司攻击目标",
+      "重打包 QAT Gemma 4 在 TPU v5e 达 675 tokens/sec",
+      "模型替换攻击暴露数据泄露风险",
+      "量化提升本地推理性能",
+      "提示工程聚焦对抗鲁棒性",
+      "水印移除技术引发信任担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.288 released with stability fixes",
+      "OpenAI Codex now in rust-v0.162.0-alpha.8",
+      "Gemini CLI nightly update: v0.64.0-nightly.20261002.gc9096a847",
+      "Qwen Code v0.24.7-nightly released for better agent workflows",
+      "GitHub Copilot CLI v1.0.92-3 now stable with new tooling",
+      "Pi CLI gains traction with 4 active discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.35 (extended-stable) released with security fixes",
+      "Critical crash loop resolved in OpenClaw MCP server init",
+      "Memory corruption fix in long-lived agent sessions",
+      "New model support: Google Vertex Gemini 3.1 Pro Preview",
+      "30+ high-priority PRs under review in OpenClaw",
+      "Agent stability issues dominate community bug reports"
+    ],
+    "ai-infra": [
+      "vLLM sees 12 open issues on SM120/ROCm fixes",
+      "SGLang focuses on speculative decoding stability",
+      "llama.cpp releases b11364, b11362, b11355 today",
+      "Ollama and LiteLLM lead in cross-provider proxying",
+      "Unsloth bridges local runtime and agent-native workflows",
+      "Critical regressions block production use in vLLM"
+    ],
+    "ai-trending": [
+      "DietrichGebert/ponytail: 151K stars, viral for AI efficiency",
+      "affaan-m/ECC: 271K stars, agent harness for Claude & Codex",
+      "NVIDIA/OpenShell: Rust-based private AI runtime",
+      "mksglu/context-mode: reduces session memory by 98%",
+      "mem0ai/mem0 enables persistent context across sessions",
+      "thedotmack/claude-mem adds memory to Claude agents"
+    ],
+    "ai-web": [
+      "Anthropic launches $100M Claude Frontier Academy",
+      "Claude Frontier Academy targets 10K enterprise engineers",
+      "McKinsey, Deloitte join first cohort of training program",
+      "OpenAI publishes 'Practical Guide Building GPT-6'",
+      "GPT-6 guide hints at imminent technical maturity",
+      "Enterprise adoption accelerates with certified FDEs"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon dominates HN with 1683 score",
+      "FLUX 3 Image praised for speed and image quality",
+      "AI masters Stratego—opaque info handling breakthrough",
+      "ds4: lightweight LLM runner from Redis creator",
+      "Rai and OpenDLSS gain traction for local inference",
+      "macOS access controls raise AI agent security concerns"
+    ],
+    "ai-ph": [
+      "Monospace from Directus leads PH with 457 votes",
+      "Dots by OpenAI: always-on autonomous agent",
+      "Polylane automates incident detection and repair",
+      "JevGPT: open-source AI agent gaining momentum",
+      "Cura: AI travel agent with real-world use case",
+      "Omnia Agent: SEO automation for content teams"
+    ],
+    "ai-arxiv": [
+      "LLM2Jev paper reveals LLMs as Jev-style decision models",
+      "TACO fine-tuning enables scalable LLM training",
+      "KaliBench benchmark tests real-world tool use",
+      "HumanoidToolBench evaluates physical coordination",
+      "Self-repair phenomena studied in mechanistic analysis",
+      "Interpretability research advances circuit discovery"
+    ],
+    "ai-community": [
+      "73% of AI models ignored real company hacking target",
+      "Repacked QAT Gemma 4 hits 675 tokens/sec on TPU v5e",
+      "Model-swapping attacks expose data leakage risks",
+      "Quantization boosts local inference performance",
+      "Prompt engineering focus grows for adversarial robustness",
+      "Watermark removal techniques raise trust concerns"
+    ]
+  }
+}
