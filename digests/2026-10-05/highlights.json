@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 热点问题达10个，无新版本发布",
+      "OpenAI Codex：24小时内发布2个测试版",
+      "GitHub Copilot CLI v1.0.92-4 版本发布",
+      "Pi 通过社区驱动更新获得关注",
+      "Qwen Code 开源势头强劲",
+      "Gemini CLI 活动达到峰值"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题与请求",
+      "OpenClaw v2026.9.8 存在严重漏洞",
+      "卡顿界面发布修复已合并",
+      "内存管理问题占主导",
+      "会话稳定性受严查",
+      "高活跃度下仍无新版本发布"
+    ],
+    "ai-infra": [
+      "vLLM：89个开放问题，批量不变修复",
+      "SGLang：CUDA崩溃引发124个问题",
+      "llama.cpp：76个开放问题，聚焦性能",
+      "Ollama：本地推理采用率高",
+      "LiteLLM：代理工作流集成增长",
+      "Unsloth：优化大模型训练"
+    ],
+    "ai-trending": [
+      "Panniantong/Agent-Reach：今日获980星",
+      "DietrichGebert/ponytail：AI记忆突破",
+      "antirez/ds4：闪光推理引擎达211星",
+      "calesthio/OpenMontage：首个智能视频系统",
+      "garrytan/gstack：CEO代理配置工具",
+      "thedotmack/claude-mem：RAG工具飙升"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon：多模态飞跃还是炒作？",
+      "FLUX 3 Image：照片级真实感前沿",
+      "AI终胜顶级国际象棋选手",
+      "Homa 重思AI集群的TCP协议",
+      "Pi Pod：去中心化本地AI渐成气候",
+      "Graphene：注重隐私的代理平台"
+    ],
+    "ai-ph": [
+      "ZooWork PH投票领先，313票",
+      "Cubicle：AI代理实时办公空间",
+      "Notchware：macOS AI提醒变环境化",
+      "Crowny！：系统级AI通知",
+      "Muse Gadgets：Meta开源AI硬件套件",
+      "ZooWork：领域专家代理部署"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B：16.9K点赞，680万下载",
+      "Prism-ml/Ternary-Bonsai：2比特量化",
+      "Infatoshi/GLM-5.3-UNCENSORED：支持Apple Silicon",
+      "Qwen-Image-2.1：多模态模型爆发",
+      "GGUF模型下载超160万",
+      "Qwen3.8-Flash-Next-GSQ：极速优化"
+    ],
+    "ai-community": [
+      "TabPFN离线预测低血糖",
+      "Bengali诈骗检测器基于Gemma",
+      "本地LLM游戏道德测试失败",
+      "自托管代理赢得信任",
+      "高风险场景用离线模型",
+      "幻觉与绿色测试被揭露"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues, no new release",
+      "OpenAI Codex: 2 alpha releases in 24h",
+      "GitHub Copilot CLI v1.0.92-4 released",
+      "Pi gains traction with community-driven updates",
+      "Qwen Code shows strong open-source momentum",
+      "Gemini CLI activity at peak levels"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24h",
+      "Critical bugs in OpenClaw v2026.9.8",
+      "Fix for stuck UI publication merged",
+      "Memory management issues dominate",
+      "Session stability under heavy scrutiny",
+      "No new releases despite high activity"
+    ],
+    "ai-infra": [
+      "vLLM: 89 open issues, batch-invariant fixes",
+      "SGLang: CUDA coredumps trigger 124 issues",
+      "llama.cpp: 76 open issues, performance focus",
+      "Ollama: Strong local inference adoption",
+      "LiteLLM: Agent workflow integration grows",
+      "Unsloth: Optimized training for LLMs"
+    ],
+    "ai-trending": [
+      "Panniantong/Agent-Reach: 980 stars today",
+      "DietrichGebert/ponytail: AI memory breakthrough",
+      "antirez/ds4: Flash inference engine now 211 stars",
+      "calesthio/OpenMontage: First agentic video system",
+      "garrytan/gstack: CEO-agent setup tool",
+      "thedotmack/claude-mem: RAG tool surges"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon: multimodal leap or hype?",
+      "FLUX 3 Image: photorealism frontier",
+      "AI beats top Stratego player—finally",
+      "Homa rethinks TCP for AI clusters",
+      "Pi Pod: decentralized local AI gains ground",
+      "Graphene: privacy-focused agent platform"
+    ],
+    "ai-ph": [
+      "ZooWork leads PH with 313 votes",
+      "Cubicle: live office for AI agents",
+      "Notchware: macOS AI alerts go ambient",
+      "Crowny!: system-level AI notifications",
+      "Muse Gadgets: Meta’s open AI hardware kit",
+      "ZooWork: domain expert agent deployment"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 16.9K likes, 6.8M downloads",
+      "Prism-ml/Ternary-Bonsai: 2-bit quantization",
+      "Infatoshi/GLM-5.3-UNCENSORED: Apple Silicon ready",
+      "Qwen-Image-2.1: multimodal model surge",
+      "GGUF models hit 1.6M+ downloads",
+      "Qwen3.8-Flash-Next-GSQ: turbo-optimized"
+    ],
+    "ai-community": [
+      "TabPFN predicts hypoglycemia offline",
+      "Bengali scam detector on Gemma",
+      "Local LLM fails moral test in game",
+      "Self-hosted agents gain trust",
+      "Offline models for high-stakes use",
+      "Hallucinations and green tests exposed"
+    ]
+  }
+}
