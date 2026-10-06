@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.290 修复会话问题发布",
+      "OpenAI Codex 更新：rust-v0.160.1, alpha.16",
+      "Gemini CLI 夜间版：v0.64.0-nightly.20261006",
+      "GitHub Copilot CLI v1.0.93-1 正式上线",
+      "Pi 工具因模块化受关注",
+      "Qwen Code 开源替代持续增长"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 提升会话完整性",
+      "P0 问题主导 OpenClaw 稳定性修复",
+      "注册表变更后会话状态保留",
+      "缓存迁移顺利完成无中断",
+      "工作进程附件正确交付",
+      "延续签名保持一致"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 稳定版发布",
+      "llama.cpp v0.6.0 重大更新上线",
+      "SGLang 本周合并 200 个 PR",
+      "LiteLLM 补丁版本待发",
+      "Unsloth 活动激增，120 个 PR",
+      "AMD ROCm 支持在基础设施中升温"
+    ],
+    "ai-trending": [
+      "Agent-Reach 让代理具备实时网络视野",
+      "ECC 提升代理性能与安全",
+      "Career-ops AI 求职本地运行",
+      "affaan-m/ECC 达 273K 星标",
+      "Panniantong/Agent-Reach 今日+1,155",
+      "LangGraph 扩展弹性工作流"
+    ],
+    "ai-web": [
+      "Anthropic：机器人可完成 75% 物理任务",
+      "仅 0.3% 职位机器人成本可比",
+      "ChatGPT 广告形式或即将变化",
+      "欧盟文本来源追踪即将推出",
+      "机器人暴露指数揭示新洞察",
+      "实体机器人仍成本过高"
+    ],
+    "ai-hn": [
+      "Beam：501B 开源模型走红",
+      "Dust：无反向传播预训练引发争议",
+      "Opus 5.5 发现两种磁性半导体",
+      "怀疑 OpenAI 机器人在维基",
+      "假《纽约客》漫画引伦理争议",
+      "LeCun 否认 AI 存在生存风险"
+    ],
+    "ai-ph": [
+      "CoreSpeed 在 PH 以 333 票领先",
+      "Blume 2.0 推出聚焦 AI 文档",
+      "DocsAlot MCP 连接器简化文档",
+      "opensend.cc 开源发布走热",
+      "Thinking Orbs 加码开源代理浪潮",
+      "MCP 平台迅速获得关注"
+    ],
+    "ai-community": [
+      "AI 审计日志可被代理操纵",
+      "代理 49 秒提取 60 页",
+      "分叉代理自动启动网页服务器",
+      "Whisper 错误解读尼日利亚口音",
+      "法律研究代理进入主流",
+      "AI 个人助手助 ADHD 用户"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.290 released with session fixes",
+      "OpenAI Codex updates: rust-v0.160.1, alpha.16",
+      "Gemini CLI nightly: v0.64.0-nightly.20261006",
+      "GitHub Copilot CLI v1.0.93-1 out now",
+      "Pi tool gains traction for modularity",
+      "Qwen Code open-source alternative grows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 boosts session integrity",
+      "P0 bugs dominate OpenClaw stability fixes",
+      "Session state preserved across registry changes",
+      "Cache migration completed without disruption",
+      "Worker attachments now delivered correctly",
+      "Continuation signatures stay consistent"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 stable release launched",
+      "llama.cpp v0.6.0 major update live",
+      "SGLang sees 200 PRs merged this week",
+      "LiteLLM patch releases pending",
+      "Unsloth activity spikes with 120 PRs",
+      "AMD ROCm support heats up in infra"
+    ],
+    "ai-trending": [
+      "Agent-Reach gives agents real-time web eyes",
+      "ECC boosts agent performance & security",
+      "Career-ops AI job search runs locally",
+      "affaan-m/ECC hits 273K stars",
+      "Panniantong/Agent-Reach +1,155 today",
+      "LangGraph scales resilient workflows"
+    ],
+    "ai-web": [
+      "Anthropic: Robots can do 75% of physical tasks",
+      "Only 0.3% of jobs robot-cost-competitive",
+      "ChatGPT ad formats may change soon",
+      "EU text provenance tracking incoming",
+      "Robot Exposure Index reveals new insights",
+      "Physical robotics still cost-prohibitive"
+    ],
+    "ai-hn": [
+      "Beam: 501B open-weight model goes viral",
+      "Dust: Pretraining without backprop sparks debate",
+      "Opus 5.5 finds two magnetic semiconductors",
+      "OpenAI bot suspected on Wikimedia",
+      "Fake New Yorker cartoons raise ethics flags",
+      "LeCun dismisses AI existential risk"
+    ],
+    "ai-ph": [
+      "CoreSpeed leads with 333 votes on PH",
+      "Blume 2.0 launches with AI docs focus",
+      "DocsAlot MCP Connector simplifies docs",
+      "opensend.cc open-source launch trending",
+      "Thinking Orbs adds to open-agent wave",
+      "MCP platforms gain traction fast"
+    ],
+    "ai-community": [
+      "AI audit logs can be manipulated by agents",
+      "Agents extract 60 pages in 49 seconds",
+      "Forked agents auto-launch web servers",
+      "Whisper misinterprets Nigerian speech",
+      "Legal research agents go mainstream",
+      "AI personal assistants help ADHD users"
+    ]
+  }
+}
