@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.292 发布稳定性修复版",
+      "OpenAI Codex 更新至 rust-v0.162.0-alpha.17",
+      "Gemini CLI 夜间构建 v0.65.0-nightly.20261007",
+      "GitHub Copilot CLI v1.0.93-3 最新稳定版",
+      "OpenCode v1.18.35 新增代理工具",
+      "Pi 保持稳定在 v0.84.0+"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题与PR",
+      "OpenClaw 严重内存泄漏 #155191",
+      "OpenClaw 更新卡顿报告 (#156986)",
+      "Hermes Agent 星标达25.1万",
+      "nanobot：超轻量自托管代理",
+      "CowAgent 获得任务规划关注"
+    ],
+    "ai-infra": [
+      "vLLM：SM120 GPU 出现关键回归",
+      "SGLang：HiCache 存在死锁风险",
+      "llama.cpp b11457 版本含破坏性变更",
+      "LiteLLM 采用 Rust 后端提升性能",
+      "Ollama：本地推理需求高涨",
+      "Unsloth：Blackwell GPU 优化训练"
+    ],
+    "ai-trending": [
+      "claude-mem 降低65%令牌使用",
+      "ECC 项目提升代理效率",
+      "Career-Ops：JS 实现的 AI 求职代理",
+      "nanobot：极小体积个人代理",
+      "CowAgent：自演化任务规划器",
+      "CherryHQ/cherry-studio：本地优先的 AI 工作室"
+    ],
+    "ai-web": [
+      "Anthropic 扩展 CVP 分层访问",
+      "CVP 授予 Opus 5.5 与 Mythos 5.1 访问权",
+      "OpenAI 发布8个新索引页",
+      "GPT-5.6 谣言引发猜测",
+      "网络安全验证计划已启用",
+      "CVP 面向认证安全专业人士"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 超越 GPT-4",
+      "整数乘法实现数学突破",
+      "OpenAI 公布数学推理进展",
+      "犹他州允许 AI 开处方",
+      "佛罗里达女子因 AI 日记被起诉",
+      "OpenTPU：AI 设计加速器"
+    ],
+    "ai-ph": [
+      "Spira Maxima 以438票领先",
+      "FastRouter.ai：智能 API 路由",
+      "Invofox Self Serve：企业级文档 AI",
+      "Opengeni：分钟级构建代理",
+      "crosswalk：人机邮箱集成",
+      "Reviu：AI 代理代码审查应用"
+    ],
+    "ai-arxiv": [
+      "零样本协调应对部分观测",
+      "测试时进化用于法律推理",
+      "自回顾学习论文发布",
+      "大模型是否依据认知行动？研究",
+      "仪器锚定裁判迁移效果佳",
+      "多模态记忆提升可信度"
+    ],
+    "ai-community": [
+      "AI 代理可能造成真实伤害——需设防护机制",
+      "生产环境暴露测试未覆盖边缘案例",
+      "12岁少年用150元手机击败 Claude Code",
+      "Claude 日志或具法律效力",
+      "AI 工具隐私风险上升",
+      "AI 系统集成中鲁棒性至关重要"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.292 released with stability fixes",
+      "OpenAI Codex now in rust-v0.162.0-alpha.17",
+      "Gemini CLI nightly build v0.65.0-nightly.20261007",
+      "GitHub Copilot CLI v1.0.93-3 latest stable",
+      "OpenCode v1.18.35 ships with new agent tools",
+      "Pi remains stable at v0.84.0+"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Critical memory leak in OpenClaw #155191",
+      "OpenClaw update hang reported (#156986)",
+      "Hermes Agent hits 251K stars",
+      "nanobot: ultra-lightweight self-hosted agent",
+      "CowAgent gains traction with task planning"
+    ],
+    "ai-infra": [
+      "vLLM: critical regressions on SM120 GPU",
+      "SGLang: deadlock risks in HiCache",
+      "llama.cpp releases b11457 with breaking change",
+      "LiteLLM adopts Rust backend for performance",
+      "Ollama: high demand for local inference",
+      "Unsloth: optimized training for Blackwell GPUs"
+    ],
+    "ai-trending": [
+      "claude-mem reduces token usage by 65%",
+      "ECC project boosts agent efficiency",
+      "Career-Ops: AI job search agent in JS",
+      "nanobot: minimal footprint personal agent",
+      "CowAgent: self-evolving task planner",
+      "CherryHQ/cherry-studio: local-first AI studio"
+    ],
+    "ai-web": [
+      "Anthropic expands CVP with tiered access",
+      "CVP grants Opus 5.5 & Mythos 5.1 access",
+      "OpenAI publishes 8 new index pages",
+      "GPT-5.6 rumors fuel speculation",
+      "Cyber Verification Program now active",
+      "CVP targets vetted security professionals"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 outperforms GPT-4",
+      "Math breakthrough in integer multiplication",
+      "OpenAI shares math reasoning progress",
+      "Utah allows AI to prescribe meds",
+      "Florida woman charged over AI diary",
+      "OpenTPU: AI-designed accelerator"
+    ],
+    "ai-ph": [
+      "Spira Maxima leads with 438 votes",
+      "FastRouter.ai: intelligent API routing",
+      "Invofox Self Serve: enterprise document AI",
+      "Opengeni: build agents in minutes",
+      "crosswalk: human-agent inbox integration",
+      "Reviu: code review app for AI agents"
+    ],
+    "ai-arxiv": [
+      "Zero-shot coordination under partial obs",
+      "Test-time evolution for legal reasoning",
+      "Self-retrospective learning paper published",
+      "Do LLMs act on what they know? Study",
+      "Instrument-anchored judges transfer well",
+      "Multimodal memory enables trustworthiness"
+    ],
+    "ai-community": [
+      "AI agents can cause real harm—guardrails needed",
+      "Production reveals edge cases beyond tests",
+      "12-year-old beats Claude Code on $150 phone",
+      "Claude logs may be legally actionable",
+      "Privacy risks rise in AI tooling",
+      "Robustness critical in AI-integrated systems"
+    ]
+  }
+}
