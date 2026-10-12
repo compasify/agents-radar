@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 热点问题达10个",
+      "Gemini CLI 发布 v0.65.0-nightly",
+      "OpenAI Codex 24小时内合并10个PR",
+      "GitHub Copilot CLI 存在10个开放问题",
+      "Pi 工具在CLI领域受关注",
+      "Qwen Code 社区使用量上升"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.1 发布",
+      "OpenClaw 存在严重内存泄漏",
+      "SQLite WAL膨胀影响代理",
+      "更新恢复失败持续存在",
+      "IronClaw 扩展代理能力",
+      "Hermes Agent 新增集成"
+    ],
+    "ai-infra": [
+      "vLLM：8个开放问题，3个严重",
+      "SGLang：Blackwell性能提升",
+      "llama.cpp：修复Vulkan/OpenCL问题",
+      "Ollama：9个高危问题",
+      "LiteLLM：多提供方支持",
+      "Unsloth 增加多模态训练"
+    ],
+    "ai-trending": [
+      "firecrawl/firecrawl 星标突破19万",
+      "affaan-m/ECC 领先代理基础设施",
+      "PageIndex 提供无向量RAG",
+      "LEANN 挑战传统数据库",
+      "本地优先AI应用势头强劲",
+      "ollama/ollama 星标达18.2万"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 引发热议",
+      "OpenAI 解雇3名安全研究员",
+      "AI通过LLM发现行星",
+      "模型字节级改造",
+      "数学求解结果引发关注",
+      "认知依赖担忧上升"
+    ],
+    "ai-ph": [
+      "ReSO AI 获469票领先",
+      "Microsoft-Decision-1 进入市场",
+      "Onepin 赢得AI语音项目",
+      "Claude Dashboards & Motion 上线",
+      "AI代理主导产品趋势",
+      "企业级代理兴起"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 下载量达680万",
+      "Lightricks/LTX-2.5 达170万",
+      "prism-ml/Ternary-Bonsai-2-27B-gguf 450万",
+      "ConwayResearch 2-bit模型受关注",
+      "2-bit量化成主流趋势",
+      "GGUF模型更受速度青睐"
+    ],
+    "ai-community": [
+      "TerraPulse：无屏徒步代理",
+      "AI成功替代开发流程",
+      "LLMs检测数据管道异常",
+      "Whistle模型仅16.9MB",
+      "离线代理推动户外使用",
+      "防护机制对AI代理至关重要"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues",
+      "Gemini CLI releases v0.65.0-nightly",
+      "OpenAI Codex merges 10 PRs in 24h",
+      "GitHub Copilot CLI has 10 open issues",
+      "Pi tool gains traction in CLI space",
+      "Qwen Code sees rising community use"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.1 released",
+      "Critical memory leaks in OpenClaw",
+      "SQLite WAL bloat affecting agents",
+      "Update recovery failures persist",
+      "IronClaw expands agent capabilities",
+      "Hermes Agent gains new integrations"
+    ],
+    "ai-infra": [
+      "vLLM: 8 open issues, 3 critical",
+      "SGLang: Blackwell performance gains",
+      "llama.cpp: Vulkan/OpenCL fixes",
+      "Ollama: 9 high-severity issues",
+      "LiteLLM: Multi-provider support",
+      "Unsloth adds multimodal training"
+    ],
+    "ai-trending": [
+      "firecrawl/firecrawl surges to 190k stars",
+      "affaan-m/ECC leads agent infrastructure",
+      "PageIndex offers vectorless RAG",
+      "LEANN challenges traditional DBs",
+      "Local-first AI apps gain momentum",
+      "ollama/ollama hits 182k stars"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 sparks debate",
+      "OpenAI fires 3 safety researchers",
+      "AI discovers planets via LLMs",
+      "Retrofitting models at byte level",
+      "Math-solving results cause buzz",
+      "Cognitive dependency concerns rise"
+    ],
+    "ai-ph": [
+      "ReSO AI leads with 469 votes",
+      "Microsoft-Decision-1 enters market",
+      "Onepin wins for AI voiceovers",
+      "Claude Dashboards & Motion launches",
+      "AI agents dominate product trends",
+      "Enterprise-grade agents on the rise"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B hits 6.8M downloads",
+      "Lightricks/LTX-2.5 surges to 1.7M",
+      "prism-ml/Ternary-Bonsai-2-27B-gguf at 4.5M",
+      "ConwayResearch’s 2-bit model gains traction",
+      "2-bit quantization dominates trends",
+      "GGUF models now preferred for speed"
+    ],
+    "ai-community": [
+      "TerraPulse: screenless hiking agent",
+      "AI replaces dev workflow successfully",
+      "LLMs detect data pipeline anomalies",
+      "Whistle model at just 16.9 MB",
+      "Offline agents promote outdoor use",
+      "Guardrails essential for AI agents"
+    ]
+  }
+}
