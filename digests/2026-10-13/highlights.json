@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code新增技能功能",
+      "Copilot CLI v1.0.97-2发布",
+      "Gemini CLI v0.65.0-nightly上线",
+      "Pi v1.2.0支持代理编排",
+      "OpenCode扩展多代理支持",
+      "Qwen Code现支持RAG流程"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.2修复更新卡顿",
+      "OpenClaw关键恢复漏洞已解决",
+      "v2026.10.2实现稳定就地升级",
+      "修复Windows短路径问题",
+      "更新时保留服务堆内存限制",
+      "Hermes代理新增插件生态"
+    ],
+    "ai-infra": [
+      "llama.cpp报告严重GPU崩溃",
+      "Ollama发布含回归问题的v0.40.4-rc0",
+      "vLLM聚焦稳定性优化",
+      "SGLang新增NPU推测解码",
+      "LiteLLM提升代理可靠性",
+      "Unsloth拓展至自主网络代理"
+    ],
+    "ai-trending": [
+      "Rea AI代理工作流受关注",
+      "Gods-Eye-View AI应用达1K星标",
+      "Context-mode提升AI基础设施性能",
+      "Artcraft文本生成AI艺术",
+      "OpenWebUI推进代理工作流",
+      "Firecrawl增强RAG知识系统"
+    ],
+    "ai-web": [
+      "小型AI模型或在物联网自复制",
+      "Claude发现类CRISPR酶",
+      "蒸馏攻击防御力提升90%",
+      "消费设备上AI复制风险",
+      "Anthropic专注前沿安全",
+      "自主代理风险达新高"
+    ],
+    "ai-hn": [
+      "Meta Muse Wonder展现实时场景理解",
+      "Janas从SSD流式调用LLM专家",
+      "GLM-Legal处理法律推理",
+      "QGIS因争议禁止AI贡献",
+      "AI代理生产力存疑",
+      "10分钟后认知影响争议升温"
+    ],
+    "ai-ph": [
+      "kōdlo以275票领先销售AI",
+      "HireKey为求职者提供招聘洞察",
+      "Ghost Core发布本地AI计算机",
+      "OpenScreen 2带来开源创新",
+      "SimpleSpread简化AI表格",
+      "AI副驾驶推动个性化趋势"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI挑战周1：接触自然",
+      "单个console.log年成本达4万",
+      "LegacyShop测试AI代码维护",
+      "提示缺陷致幻觉，非记忆问题",
+      "离线AI设计受青睐",
+      "人机协同系统需求上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains new Skills feature",
+      "Copilot CLI v1.0.97-2 released",
+      "Gemini CLI v0.65.0-nightly out",
+      "Pi v1.2.0 adds agent orchestration",
+      "OpenCode expands multi-agent support",
+      "Qwen Code now supports RAG pipelines"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.2 fixes update stalls",
+      "Critical recovery bug resolved in OpenClaw",
+      "v2026.10.2 enables stable in-place upgrades",
+      "Windows short-path issue fixed",
+      "Service heap limits preserved during updates",
+      "Hermes Agent gains plugin ecosystem"
+    ],
+    "ai-infra": [
+      "llama.cpp reports critical GPU crashes",
+      "Ollama releases v0.40.4-rc0 with regressions",
+      "vLLM focuses on stability improvements",
+      "SGLang adds NPU speculative decoding",
+      "LiteLLM improves proxy reliability",
+      "Unsloth extends to autonomous web agents"
+    ],
+    "ai-trending": [
+      "Rea AI agent workflow gains traction",
+      "Gods-Eye-View AI app hits 1K stars",
+      "Context-mode boosts AI infra performance",
+      "Artcraft generates AI art from text",
+      "OpenWebUI advances agent workflows",
+      "Firecrawl enhances RAG knowledge systems"
+    ],
+    "ai-web": [
+      "Small AI models may self-replicate on IoT",
+      "Claude discovers CRISPR-like enzyme",
+      "Distillation attack defenses up 90%",
+      "AI replication risks on consumer devices",
+      "Anthropic targets frontier safety",
+      "Autonomous agent risk at new high"
+    ],
+    "ai-hn": [
+      "Meta's Muse Wonder shows real-time scene understanding",
+      "Janas streams LLM experts from SSD",
+      "GLM-Legal tackles legal reasoning",
+      "QGIS bans AI contributions amid backlash",
+      "AI agents face skepticism over productivity",
+      "Cognitive impact debate grows after 10 mins"
+    ],
+    "ai-ph": [
+      "kōdlo leads with 275 votes for sales AI",
+      "HireKey helps job seekers with recruiter insights",
+      "Ghost Core launches on-device AI computer",
+      "OpenScreen 2 brings open-source innovation",
+      "SimpleSpread simplifies AI spreadsheets",
+      "AI copilots drive personalization trend"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI Challenge Week 1: Touch Grass",
+      "Single console.log cost $40K/year",
+      "LegacyShop tests AI code maintenance",
+      "Prompt flaws cause hallucinations, not memory",
+      "Offline AI design gains popularity",
+      "Human-in-the-loop systems rise in demand"
+    ]
+  }
+}
