@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.300 发布稳定性修复版",
+      "OpenAI Codex 推出 alpha 版 v0.163.0-alpha.11",
+      "Gemini CLI 夜间版本 v0.65.0-nightly.20261014.g42c5",
+      "Pi 与 OpenCode 推动 CLI 工具自主性",
+      "Qwen Code 因开源可扩展性受关注",
+      "GitHub Copilot CLI 深度集成 IDE"
+    ],
+    "ai-agents": [
+      "OpenClaw：24 小时处理 500 个问题，500 个 PR",
+      "无新发布；测试版卡在 2026.10.5-beta.1/2",
+      "PR #172527 修复 Codex 应用授权缺失",
+      "PR #172659 解决 Novita API 令牌拒绝",
+      "PR #172630 修复 memory_search 限制验证",
+      "报告关键 SQLite WAL 增长与插件阻塞"
+    ],
+    "ai-infra": [
+      "vLLM 今日合并 19 个 PR 领先",
+      "Ollama v0.40.5-rc0 进入预发布阶段",
+      "LiteLLM v1.106.0-rc.3 可测试",
+      "Unsloth beta UI 问题仍在审核",
+      "SGLang 正在进行破坏性变更",
+      "llama.cpp 尚未发布标签版本"
+    ],
+    "ai-trending": [
+      "morluto/rea 24 小时获 24.1 万星标",
+      "xtool-org/xtool 推出替代 Xcode 的工具",
+      "vxcontrol/pentagi 实现自主渗透测试",
+      "debpalash/VoiceStudio 提供离线 AI 语音应用",
+      "HKUDS/CLI-Anything 支持本地 AI 流程",
+      "K-Dense-AI/scientific-agent-skills 提升科研能力"
+    ],
+    "ai-web": [
+      "Anthropic 开设新加坡办公室专注 AI 安全",
+      "Claude.ai 中期报告：投票引导仅 0.01%",
+      "新加坡备忘录强化 AI 治理合作",
+      "新分析显示 5.75% 美国用户讨论政治",
+      "政治讨论上升，但投票建议罕见",
+      "官方报告强调 Claude 中立性"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发对不透明指标的争议",
+      "LFM2.5-24B-A2B 聚焦设备端代理",
+      "Spool 工具管理持久 Claude 循环",
+      "Neckbeard 插件增强 DevOps 代理流程",
+      "Mythos 代理失败引发可靠性担忧",
+      "代理审计趋势在 Hacker News 上升温"
+    ],
+    "ai-ph": [
+      "Articos MCP 实时模拟买家行为",
+      "OpenCode 2.0 作为开源编码代理发布",
+      "Meta Muse Wonder 首次亮相高容量模型",
+      "Kai 自动化会议与邮件安排",
+      "The Drive AI 推动日常自动化",
+      "Articos MCP 在 Product Hunt 获 334 票"
+    ],
+    "ai-arxiv": [
+      "SEAR 框架支持递归自我优化",
+      "自进化代理框架减少重训练",
+      "任务规范生成评分提升奖励建模",
+      "逐点评分奖励降低评估偏差",
+      "Read the Room 论文推进上下文感知代理",
+      "高效解码实现长周期规划"
+    ],
+    "ai-community": [
+      "浏览器内本地运行 LLM 通过 WebAssembly",
+      "浏览器 RAG 实现隐私保护 AI",
+      "Whistle 模型仅 16.9 MB 适用于边缘推理",
+      "端到端评估对代理成功至关重要",
+      "AI 为称课程为 'AI 滑水' 道歉——警示案例",
+      "更严格隐私常损害模型性能"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.300 released with stability fixes",
+      "OpenAI Codex enters alpha with v0.163.0-alpha.11",
+      "Gemini CLI nightly release v0.65.0-nightly.20261014.g42c5",
+      "Pi and OpenCode push agent autonomy in CLI tools",
+      "Qwen Code gains traction for open-source extensibility",
+      "GitHub Copilot CLI now integrates deeply with IDEs"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "No new releases; beta candidates stalled at 2026.10.5-beta.1/2",
+      "PR #172527 fixes missing Codex app authorization",
+      "PR #172659 resolves Novita API token rejection",
+      "PR #172630 fixes memory_search limit validation",
+      "Critical SQLite WAL growth and plugin stalls reported"
+    ],
+    "ai-infra": [
+      "vLLM leads with 19 PRs merged today",
+      "Ollama v0.40.5-rc0 now in pre-release phase",
+      "LiteLLM v1.106.0-rc.3 available for testing",
+      "Unsloth beta UI issues still under review",
+      "SGLang sees breaking changes in flight",
+      "llama.cpp has no tagged release yet"
+    ],
+    "ai-trending": [
+      "morluto/rea hits 241K stars in 24 hours",
+      "xtool-org/xtool launches as Xcode replacement",
+      "vxcontrol/pentagi enables autonomous pentesting",
+      "debpalash/VoiceStudio offers offline AI voice apps",
+      "HKUDS/CLI-Anything supports local AI workflows",
+      "K-Dense-AI/scientific-agent-skills boosts research"
+    ],
+    "ai-web": [
+      "Anthropic opens Singapore office for AI safety",
+      "Claude.ai midterms report shows 0.01% voting guidance",
+      "Singapore MOU strengthens AI governance ties",
+      "New analysis reveals 5.75% U.S. users discuss politics",
+      "Political discourse up, but voter advice rare",
+      "Claude’s neutrality emphasized in official report"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks debate on opaque metrics",
+      "LFM2.5-24B-A2B targets on-device agents",
+      "Spool tool manages persistent Claude loops",
+      "Neckbeard plugin enhances DevOps agent workflows",
+      "Mythos agent failures raise reliability concerns",
+      "Agent auditing trends surge on Hacker News"
+    ],
+    "ai-ph": [
+      "Articos MCP simulates buyer behavior in real time",
+      "OpenCode 2.0 launched as open-source coding agent",
+      "Meta’s Muse Wonder debuts as high-capacity model",
+      "Kai automates meetings and email scheduling",
+      "The Drive AI pushes automation in daily work",
+      "Articos MCP gains 334 votes on Product Hunt"
+    ],
+    "ai-arxiv": [
+      "SEAR framework enables recursive self-improvement",
+      "Self-Evolving Agent Harness reduces retraining",
+      "Rubrics from task specs improve reward modeling",
+      "Pointwise rubric rewards reduce evaluation bias",
+      "Read the Room paper advances context-aware agents",
+      "Efficient decoding enables long-horizon planning"
+    ],
+    "ai-community": [
+      "Browser-based LLMs now run locally via WebAssembly",
+      "RAG in browser enables privacy-preserving AI",
+      "Whistle model at just 16.9 MB for edge inference",
+      "End-to-end evaluations critical for agent success",
+      "AI apologizes for calling course 'AI Slop'—cautionary tale",
+      "Stricter privacy often harms model performance"
+    ]
+  }
+}
