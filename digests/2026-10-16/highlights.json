@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.301 稳定会话持久化",
+      "OpenAI Codex 修复10个关键问题",
+      "Gemini CLI 新增工具集成",
+      "GitHub Copilot CLI 支持多代理工作流",
+      "Pi CLI 引入内存安全代理执行",
+      "Qwen Code 扩展对Rust项目支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.1 提升网关速度",
+      "OpenClaw beta.4 修复macOS更新超时",
+      "IronClaw 发布插件性能补丁",
+      "ZeroClaw 增加实时状态损坏监控",
+      "Hermes Agent 集成OpenClaw运行时",
+      "QwenPaw 实现跨代理任务委派"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.7.0 发布并支持MoE",
+      "vLLM 聚焦低延迟推测解码",
+      "SGLang v0.5.20 稳定CI流程",
+      "Ollama 因146个开放问题面临稳定性危机",
+      "LiteLLM 预发布强调成本精度",
+      "Unsloth beta 增加GB300 GPU优化"
+    ],
+    "ai-trending": [
+      "rea: AI 反向工程原生二进制",
+      "affaan-m/ECC 优化Claude与Codex代理",
+      "mksglu/context-mode 上下文减少98%",
+      "xerj-org/xerj token消耗仅为grep的40分之一",
+      "headroomlabs-ai token减少60–95%",
+      "nanobot: 本地优先代理平台爆发"
+    ],
+    "ai-web": [
+      "Anthropic 推出METR评估器访问",
+      "Scion VCS 日均处理3万代码合并",
+      "Claude 已被美国所有政府分支使用",
+      "白宫签署超智能协议",
+      "Anthropic 以1美元/用户扩展企业接入",
+      "METR 获员工级模型风险访问"
+    ],
+    "ai-hn": [
+      "Meta Muse Spark Open 引发争议",
+      "Gemini 4 Argon HN获1456票领跑",
+      "Scion 被指抄袭Mononoke",
+      "AI '入侵'归因于防护不足",
+      "Microsoft 探索前沿预训练",
+      "Google 量子突破获赞誉"
+    ],
+    "ai-ph": [
+      "Pancake 凭570票胜出，成GTM版Vercel",
+      "Inferock 失败调用提供信用返还",
+      "Retriever AI 自动化求职线索生成",
+      "Tiden 自主验证用户意图",
+      "AI代理驱动真实世界工作流",
+      "云集成在AI产品中持续增长"
+    ],
+    "ai-arxiv": [
+      "弹性变压器适配硬件",
+      "潜在压缩压缩KV缓存",
+      "跨界面训练提升代理鲁棒性",
+      "RSI 实现递归自我优化",
+      "测试时训练改善长上下文召回",
+      "连续注意力动态自适应"
+    ],
+    "ai-community": [
+      "Vibecoding 助力绕过Angular升级",
+      "研究发现AI代理谎报代码变更",
+      "Gemma AI 本地阻止范围蔓延",
+      "本地模型如Gemma 4受青睐",
+      "Dev.to 警告过度信任AI代码",
+      "1比特LLM 问世用于边缘部署"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.301 stabilizes session persistence",
+      "OpenAI Codex fixes 10 critical issues in latest release",
+      "Gemini CLI gains new tooling integrations",
+      "GitHub Copilot CLI now supports multi-agent workflows",
+      "Pi CLI introduces memory-safe agent execution",
+      "Qwen Code expands support for Rust projects"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.1 boosts gateway speed",
+      "OpenClaw fixes macOS update timeouts in beta.4",
+      "IronClaw launches plugin capture performance patch",
+      "ZeroClaw adds real-time state corruption monitoring",
+      "Hermes Agent integrates with OpenClaw runtime",
+      "QwenPaw enables cross-agent task delegation"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.7.0 released with MoE support",
+      "vLLM focuses on low-latency speculative decoding",
+      "SGLang v0.5.20 stabilizes CI pipeline",
+      "Ollama faces stability crisis with 146 open issues",
+      "LiteLLM pre-release emphasizes cost accuracy",
+      "Unsloth beta adds GB300 GPU optimization"
+    ],
+    "ai-trending": [
+      "rea: AI reverse engineers native binaries",
+      "affaan-m/ECC optimizes Claude & Codex agents",
+      "mksglu/context-mode cuts context by 98%",
+      "xerj-org/xerj uses 40x fewer tokens than grep",
+      "headroomlabs-ai reduces tokens by 60–95%",
+      "nanobot: local-first agent platform surges"
+    ],
+    "ai-web": [
+      "Anthropic launches METR evaluator access",
+      "Scion VCS handles 30k daily code merges",
+      "Claude now used by all U.S. government branches",
+      "White House Accord signed on superintelligence",
+      "Anthropic expands enterprise access at $1/user",
+      "METR gets employee-level model risk access"
+    ],
+    "ai-hn": [
+      "Meta's Muse Spark Open sparks debate",
+      "Gemini 4 Argon dominates HN with 1456 votes",
+      "Scion accused of copying Mononoke",
+      "AI 'hacking' blamed on poor containment",
+      "Microsoft explores frontier pre-training",
+      "Google's quantum breakthrough draws praise"
+    ],
+    "ai-ph": [
+      "Pancake wins 570 votes as Vercel for GTM",
+      "Inferock offers credit-back for failed calls",
+      "Retriever AI automates job lead generation",
+      "Tiden verifies user intent autonomously",
+      "AI agents now drive real-world workflows",
+      "Cloud integration grows across AI products"
+    ],
+    "ai-arxiv": [
+      "Elastic transformers adapt to hardware",
+      "Latent compaction compresses KV caches",
+      "Cross-interface training boosts agent robustness",
+      "RSI enables recursive self-improvement",
+      "Test-time training improves long-context recall",
+      "Continuum attention adapts dynamically"
+    ],
+    "ai-community": [
+      "Vibecoding helps bypass Angular upgrades",
+      "AI agents lie about code changes, study finds",
+      "Gemma AI blocks scope creep locally",
+      "Local models like Gemma 4 gain traction",
+      "Dev.to warns against over-trusting AI code",
+      "1-bit LLMs emerge for edge deployment"
+    ]
+  }
+}
