@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.302 稳定版发布",
+      "OpenAI Codex alpha 合并10个PR",
+      "Gemini CLI 夜间构建 v0.66.0",
+      "GitHub Copilot CLI v1.0.100-1 稳定版",
+      "OpenCode v2.0.31 修复版发布",
+      "Qwen Code 在中国受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 无新版本，测试版回归",
+      "报告启动延迟达1030秒",
+      "严重SQLite WAL增长漏洞",
+      "更新步骤中无限挂起",
+      "通过PR恢复隐身子历史",
+      "数据库一致性重构进行中"
+    ],
+    "ai-infra": [
+      "vLLM：53个PR合并，聚焦ROCm",
+      "SGLang：SM120 关键回归",
+      "llama.cpp b11701 发布，Vulkan问题",
+      "Ollama v0.40.6-rc1 云不稳定",
+      "LiteLLM 统一多提供商访问",
+      "Unsloth 统一本地/云端模型访问"
+    ],
+    "ai-trending": [
+      "xerj-org/xerj：今日+1,648星",
+      "debpalash/VoiceStudio：本地语音克隆",
+      "affaan-m/ECC：代理框架趋势",
+      "ruvnet/ruflo：可组合AI系统",
+      "K-Dense-AI/scientific-agent-skills：技能模块",
+      "mksglu/context-mode：输出减少98%"
+    ],
+    "ai-web": [
+      "Anthropic 解决ECDSA曲线谜题",
+      "AI代理工作时长超员工",
+      "新增METR、SecureBio、Accenture监管",
+      "NIST曲线种子由时间戳确认",
+      "AI在编码、销售领域提效",
+      "Anthropic 设立透明度基准"
+    ],
+    "ai-hn": [
+      "Claude ECDSA来源引发争议",
+      "Transformer作为关联记忆理论",
+      "Apple MLX on Mac Studio：开源",
+      "Muse Spark Open 支持设备端AI",
+      "MLX分布式推理演示发布",
+      "设备端AI普及化进行中"
+    ],
+    "ai-ph": [
+      "Navige：实时AI成本控制",
+      "withHuman：开源人机协同",
+      "OpenMuse：自托管AI助手",
+      "SuperLocalMemory：隐私优先AI",
+      "Buddy AI沙箱：隔离代理",
+      "Kerno 1.0：AI驱动的QA工程师"
+    ],
+    "ai-arxiv": [
+      "KnowGPO：知识分组策略优化",
+      "CAT-alyzing Honesty：对抗训练",
+      "LEASH：高效代理执行框架",
+      "分歧引导路由：节省成本",
+      "T2-Z：个性化世界建模",
+      "3DCodeVerse：多模态代码代理"
+    ],
+    "ai-community": [
+      "2026年并行AI代理最佳工具",
+      "可审计性优于表面输出",
+      "缺陷位于数据序列化环节",
+      "Hacktoberfest AI挑战进行中",
+      "Plugin4Shell漏洞曝光",
+      "Gemma 2 驱动本地重售工具"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.302 stable release",
+      "OpenAI Codex alpha with 10 PRs merged",
+      "Gemini CLI nightly build v0.66.0",
+      "GitHub Copilot CLI v1.0.100-1 stable",
+      "OpenCode v2.0.31 fixes released",
+      "Qwen Code gains traction in China"
+    ],
+    "ai-agents": [
+      "OpenClaw no new releases, beta regressions",
+      "Startup delays up to 1030 seconds reported",
+      "High-severity SQLite WAL growth bugs",
+      "Infinite hangs during update steps",
+      "Incognito child history restored via PR",
+      "Database consistency refactoring ongoing"
+    ],
+    "ai-infra": [
+      "vLLM: 53 PRs merged, ROCm focus",
+      "SGLang: SM120 critical regressions",
+      "llama.cpp b11701 release, Vulkan issues",
+      "Ollama v0.40.6-rc1 cloud instability",
+      "LiteLLM consolidates multi-provider access",
+      "Unsloth unifies local/cloud model access"
+    ],
+    "ai-trending": [
+      "xerj-org/xerj: +1,648 stars today",
+      "debpalash/VoiceStudio: local voice cloning",
+      "affaan-m/ECC: agent harness trend",
+      "ruvnet/ruflo: composable AI systems",
+      "K-Dense-AI/scientific-agent-skills: skills modules",
+      "mksglu/context-mode: 98% output reduction"
+    ],
+    "ai-web": [
+      "Anthropic resolves ECDSA curve mystery",
+      "AI agent hours exceed employee hours",
+      "METR, SecureBio, Accenture oversight added",
+      "NIST curve seeds confirmed from timestamps",
+      "AI productivity gains across coding, sales",
+      "Anthropic sets transparency benchmark"
+    ],
+    "ai-hn": [
+      "Claude ECDSA origins spark debate",
+      "Transformers as associative memory theory",
+      "Apple MLX on Mac Studio: open-source",
+      "Muse Spark Open enables on-device AI",
+      "MLX distributed inference demo released",
+      "On-device AI democratization underway"
+    ],
+    "ai-ph": [
+      "Navige: real-time AI cost control",
+      "withHuman: open-source human-in-loop",
+      "OpenMuse: self-hosted AI assistant",
+      "SuperLocalMemory: privacy-first AI",
+      "AI Sandboxes by Buddy: isolated agents",
+      "Kerno 1.0: AI-powered QA engineer"
+    ],
+    "ai-arxiv": [
+      "KnowGPO: knowledge-grouped policy opt",
+      "CAT-alyzing Honesty: adversarial training",
+      "LEASH: efficient agent execution framework",
+      "Disagreement-Guided Routing: cost-saving",
+      "T2-Z: personalized world modeling",
+      "3DCodeVerse: multimodal code agents"
+    ],
+    "ai-community": [
+      "Best tools for parallel AI agents in 2026",
+      "Auditability over surface-level output",
+      "Bug lives at data serialization seam",
+      "Hacktoberfest AI challenge underway",
+      "Plugin4Shell vulnerability exposed",
+      "Gemma 2 fuels local resale tools"
+    ]
+  }
+}
