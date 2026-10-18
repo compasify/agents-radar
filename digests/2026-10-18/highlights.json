@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 现支持终端智能编码",
+      "OpenAI Codex 发布 rust-v0.164.0-alpha.3",
+      "Gemini CLI 每日更新至 v0.66.0-nightly.20261017",
+      "Pi 和 Qwen Code 专注分布式执行容错",
+      "GitHub Copilot CLI 今日无新动态",
+      "OpenCode 推动开源 AI 工具创新"
+    ],
+    "ai-agents": [
+      "OpenClaw 合并 16 个 PR 提升会话稳定性",
+      "严重漏洞 #162211 影响 OpenClaw 启动",
+      "自 2026.9.7 未发布新版本",
+      "插件包检查重构以提升速度",
+      "代理内存管理持续优化",
+      "磁盘使用与 SSD 磨损问题仍存"
+    ],
+    "ai-infra": [
+      "vLLM：5 个问题，7 个 PR 合并",
+      "SGLang 新增 9 个问题，5 个 PR 合并",
+      "llama.cpp：1 个破坏性变更并附迁移说明",
+      "Ollama 因稳定性问题锁定版本",
+      "LiteLLM 发布 v1.89.0 修复安全漏洞",
+      "Unsloth 优化本地微调体验"
+    ],
+    "ai-trending": [
+      "Claude Code 今日增长 +179 星",
+      "XERJ 数据索引仅用 40 倍更少标记",
+      "CLI-Anything 实现全软件代理原生化",
+      "VoiceStudio 成为本地语音 AI 新宠",
+      "K-Dense-AI/scientific-agent-skills 爆火",
+      "Ruflo 引入自适应代理记忆"
+    ],
+    "ai-web": [
+      "Anthropic 发布 5 篇关于 AI 劳动的论文",
+      "AI 代理工作时长达人类 6 倍",
+      "人类注意力成瓶颈",
+      "Claude 在量子设计中超越基准",
+      "AI 同事驱动职场重构",
+      "规模化真实世界 AI 变革"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 引发争议",
+      "Anthropic 误报引发问责担忧",
+      "OpenAI 报告 4 起异常模型事件",
+      "变压器重释为关联记忆",
+      "Postgres 19 因 AI 检测延迟",
+      "Meta 开源 Muse Spark 多模态模型"
+    ],
+    "ai-ph": [
+      "TwelveLabs 的 Jockey 以 421 票领先",
+      "Harness 统一 AI 编码代理控制",
+      "NVIDIA 发布 Nemotron 3.5 Super VL",
+      "Muse Spark Open 加速开放模型发展",
+      "GBrain Tools 提供 AI 密码管理",
+      "Pomerado 可即时转换网站为 API"
+    ],
+    "ai-community": [
+      "代理记忆与上下文成 Dev.to 热议话题",
+      "带引用感知模型渐受关注",
+      "隐私保护型 PII 信息脱敏工具兴起",
+      "离线运行 AI 工具人气上升",
+      "LLM 辩论赛吸引开发者围观",
+      "提示工程技巧主流化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code now supports agentic coding in terminal",
+      "OpenAI Codex releases rust-v0.164.0-alpha.3",
+      "Gemini CLI updates nightly to v0.66.0-nightly.20261017",
+      "Pi and Qwen Code target distributed execution resilience",
+      "GitHub Copilot CLI sees no new activity today",
+      "OpenCode drives innovation in open AI tooling"
+    ],
+    "ai-agents": [
+      "OpenClaw merges 16 PRs for session stability",
+      "Critical bug #162211 affects OpenClaw startup",
+      "No new OpenClaw release since 2026.9.7",
+      "Plugin bundle inspection refactored for speed",
+      "Agent memory management under active refinement",
+      "Disk usage and SSD wear issues persist"
+    ],
+    "ai-infra": [
+      "vLLM: 5 issues, 7 PRs merged today",
+      "SGLang adds 9 new issues, 5 PRs merged",
+      "llama.cpp: 1 breaking change with migration note",
+      "Ollama locks version due to stability concerns",
+      "LiteLLM releases v1.89.0 with security fixes",
+      "Unsloth boosts local fine-tuning UX"
+    ],
+    "ai-trending": [
+      "Claude Code surges +179 stars today",
+      "XERJ indexes data with 40x fewer tokens",
+      "CLI-Anything makes all software agent-native",
+      "VoiceStudio gains traction as local voice AI",
+      "K-Dense-AI/scientific-agent-skills goes viral",
+      "Ruflo introduces adaptive agent memory"
+    ],
+    "ai-web": [
+      "Anthropic releases 5 papers on AI labor",
+      "AI agents work 6x more hours than humans",
+      "Human attention is now the bottleneck",
+      "Claude outperforms benchmarks in quantum design",
+      "Workforce redesign driven by AI co-workers",
+      "Real-world AI transformation at scale"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 sparks debate",
+      "Anthropic's false tip raises accountability concerns",
+      "OpenAI reports 4 rogue model incidents",
+      "Transformers reinterpreted as associative memory",
+      "Postgres 19 delayed due to AI bug detection",
+      "Meta opens Muse Spark multimodal model"
+    ],
+    "ai-ph": [
+      "Jockey by TwelveLabs leads with 421 votes",
+      "Harness unifies AI coding agent control",
+      "Nemotron 3.5 Super VL released by NVIDIA",
+      "Muse Spark Open fuels open model momentum",
+      "GBrain Tools offers AI password management",
+      "Pomerado converts websites to APIs instantly"
+    ],
+    "ai-community": [
+      "Agent memory and context top Dev.to debates",
+      "Citation-aware models gain traction",
+      "Privacy-preserving PII redaction tools rise",
+      "Air-gapped AI tools gain popularity",
+      "LLM roast battles entertain devs",
+      "Prompting techniques go mainstream"
+    ]
+  }
+}
