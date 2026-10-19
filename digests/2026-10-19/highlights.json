@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.303 修复关键漏洞",
+      "Gemini CLI 发布夜间构建 v0.66.0",
+      "OpenAI Codex 无更新，问题严重",
+      "GitHub Copilot CLI 未活跃，今日仅1个PR",
+      "Pi 和 Qwen Code 缺少新版本",
+      "OpenCode 存在10个问题，10个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5：自修复更新",
+      "OpenClaw 修复过期租约问题",
+      "OpenClaw 解决静默升级失败",
+      "24小时内500个问题与PR",
+      "Hermes Agent 受关注",
+      "IronClaw 提升代理安全"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 稳定版发布",
+      "SGLang 今日合并91个PR",
+      "Ollama v0.40.7-rc0 发布",
+      "LiteLLM v1.107.0-rc.1 上线",
+      "Unsloth 开放67个问题",
+      "llama.cpp: b11721+ 夜间构建"
+    ],
+    "ai-trending": [
+      "ai-job-search 星标超2k",
+      "VoiceStudio 星标激增超2k",
+      "opencode 星标超2k",
+      "Anthropic 推出官方插件",
+      "Cursor 插件生态扩展",
+      "CLI-Anything 实现通用代理"
+    ],
+    "ai-web": [
+      "Anthropic 启动公益基金",
+      "基金与估值增长挂钩",
+      "初始份额5%，最高达7%",
+      "采用全资有限责任公司结构",
+      "基金追求长期社会影响",
+      "估值联动股权模式"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 获好评",
+      "混合推理代理受关注",
+      "Meta 发布 Muse Spark Open",
+      "Terry Tao 警告数学中AI风险",
+      "LLM 代理争议不断",
+      "反代理网站增多"
+    ],
+    "ai-ph": [
+      "NitroStack：MCP 服务器构建器",
+      "Craft Agents 简化代理开发",
+      "Train with Pasta 融入苹果智能",
+      "Korinotch 集成系统AI",
+      "Salience 提升分析能力",
+      "Notion 增加代理上下文"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B：下载量770万",
+      "Qwen3.8-Flash-Next：下载量250万",
+      "LTX-2.5：视频模型下载超200万",
+      "Qwen Image 2.1 无限制GGUF",
+      "DeepSeek-V4.1-Flash-1017 火爆",
+      "Abenzerps 微调受欢迎"
+    ],
+    "ai-community": [
+      "微调 Qwen3-8B 花费超1000美元",
+      "客户端反馈中断AI实验",
+      "GlowUp Local 助力本地企业",
+      "浏览器RAG受关注",
+      "模型漂移检测讨论中",
+      "隐私保护AI成趋势"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.303 fixes critical bugs",
+      "Gemini CLI releases nightly build v0.66.0",
+      "OpenAI Codex has no release, high issues",
+      "GitHub Copilot CLI inactive, 1 PR today",
+      "Pi and Qwen Code lack new releases",
+      "OpenCode sees 10 issues, 10 PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5: self-healing updates",
+      "Stale lease cleanup in OpenClaw fix",
+      "OpenClaw fixes silent upgrade failures",
+      "500 issues & PRs in 24 hours",
+      "Hermes Agent gains traction",
+      "IronClaw enhances agent security"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 stable release",
+      "SGLang merges 91 PRs today",
+      "Ollama v0.40.7-rc0 released",
+      "LiteLLM v1.107.0-rc.1 out",
+      "Unsloth sees 67 open issues",
+      "llama.cpp: b11721+ nightly build"
+    ],
+    "ai-trending": [
+      "ai-job-search hits 2k+ stars",
+      "VoiceStudio surges with 2k+ stars",
+      "opencode gains 2k+ stars",
+      "Anthropic launches official plugins",
+      "Cursor plugin ecosystem grows",
+      "CLI-Anything enables universal agents"
+    ],
+    "ai-web": [
+      "Anthropic launches Public Benefit Fund",
+      "Fund tied to valuation growth",
+      "5% initial shares, up to 7% total",
+      "Wholly-owned LLC structure used",
+      "Fund aims for long-term social impact",
+      "Valuation-linked equity model"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 praised",
+      "Hybrid reasoning agents gain attention",
+      "Muse Spark Open released by Meta",
+      "Terry Tao warns on AI in math",
+      "LLM proxies under debate",
+      "Agent-blocking websites rise"
+    ],
+    "ai-ph": [
+      "NitroStack: MCP server builder",
+      "Craft Agents simplifies agents",
+      "Train with Pasta uses Apple Intelligence",
+      "Korinotch integrates OS AI",
+      "Salience boosts analytics",
+      "Notion adds context for agents"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 7.7M downloads",
+      "Qwen3.8-Flash-Next: 2.5M downloads",
+      "LTX-2.5: 2M+ video model downloads",
+      "Qwen Image 2.1 uncensored GGUF",
+      "DeepSeek-V4.1-Flash-1017 trending",
+      "Abenzerps fine-tune popular"
+    ],
+    "ai-community": [
+      "Fine-tuning Qwen3-8B costs $1k+",
+      "Client feedback breaks AI experiment",
+      "GlowUp Local helps local businesses",
+      "RAG in browser gains interest",
+      "Model drift detection discussed",
+      "Privacy-preserving AI trend"
+    ]
+  }
+}
