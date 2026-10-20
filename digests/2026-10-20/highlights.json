@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.304 released with stability fixes",
+      "OpenAI Codex rolls out 3 alpha releases today",
+      "Gemini CLI hits nightly v0.66.0.20261019",
+      "GitHub Copilot CLI sees no new PRs",
+      "Qwen Code gains traction in agent workflows",
+      "Pi tool expands terminal AI integration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.2 fixes workspace safety",
+      "30+ P0/P1 issues reported in OpenClaw",
+      "New beta release improves patch resilience",
+      "Hermes Agent gains momentum in research",
+      "IronClaw enhances plugin reliability",
+      "QwenPaw advances multi-agent coordination"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.22 released: major milestone",
+      "vLLM v0.32.0 under scrutiny, avoid prod",
+      "llama.cpp b11748+ fixes critical SYCL bug",
+      "Ollama stable: v0.40.5 no new release",
+      "LiteLLM strengthens multi-provider routing",
+      "Unsloth boosts fine-tuning efficiency"
+    ],
+    "ai-trending": [
+      "ComfyUI surges +1011 stars today",
+      "Claude Code gains +167 stars",
+      "CLI-Anything enables universal agent use",
+      "Headroom tool optimizes RAG context",
+      "ai-job-search matures into production",
+      "Vibe-Trading emerges for finance AI"
+    ],
+    "ai-web": [
+      "Anthropic's AI Expectations Gap paper published",
+      "METR gets employee-like model access",
+      "OpenAI launches 'Low Resource Languages' index",
+      "91% of Anthropic staff expect Nobel-level AI",
+      "Public vs expert AI expectations diverge",
+      "White House Accord on Superintelligence cited"
+    ],
+    "ai-hn": [
+      "Timestral: Mistral's time-series models launch",
+      "DeepSeek-v4.1-Flash-1017 tops benchmarks",
+      "Hybrid Reasoning Agents combine LLMs & symbols",
+      "CERN–Mistral partnership announced",
+      "Anthropic IPO faces scrutiny",
+      "Time-aware reasoning gains traction"
+    ],
+    "ai-ph": [
+      "Inbox Zero gains 358 votes on Product Hunt",
+      "MyLens enables AI live 1-on-1 presentations",
+      "shim-cli offers privacy-first agent monitoring",
+      "Open-source Superhuman alternative launched",
+      "AI productivity tools dominate trends",
+      "Lightweight, secure AI tools rise fast"
+    ],
+    "ai-community": [
+      "Agent retry bugs are distributed systems issues",
+      "AWS agent detects 7,600 fake repos in 2026",
+      "Senior engineers slow down validating AI",
+      "Token bloat and session leakage exposed",
+      "Security risks in AI-generated code grow",
+      "Verification trap undermines senior devs"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.304 released with stability fixes",
+      "OpenAI Codex rolls out 3 alpha releases today",
+      "Gemini CLI hits nightly v0.66.0.20261019",
+      "GitHub Copilot CLI sees no new PRs",
+      "Qwen Code gains traction in agent workflows",
+      "Pi tool expands terminal AI integration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.2 fixes workspace safety",
+      "30+ P0/P1 issues reported in OpenClaw",
+      "New beta release improves patch resilience",
+      "Hermes Agent gains momentum in research",
+      "IronClaw enhances plugin reliability",
+      "QwenPaw advances multi-agent coordination"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.22 released: major milestone",
+      "vLLM v0.32.0 under scrutiny, avoid prod",
+      "llama.cpp b11748+ fixes critical SYCL bug",
+      "Ollama stable: v0.40.5 no new release",
+      "LiteLLM strengthens multi-provider routing",
+      "Unsloth boosts fine-tuning efficiency"
+    ],
+    "ai-trending": [
+      "ComfyUI surges +1011 stars today",
+      "Claude Code gains +167 stars",
+      "CLI-Anything enables universal agent use",
+      "Headroom tool optimizes RAG context",
+      "ai-job-search matures into production",
+      "Vibe-Trading emerges for finance AI"
+    ],
+    "ai-web": [
+      "Anthropic's AI Expectations Gap paper published",
+      "METR gets employee-like model access",
+      "OpenAI launches 'Low Resource Languages' index",
+      "91% of Anthropic staff expect Nobel-level AI",
+      "Public vs expert AI expectations diverge",
+      "White House Accord on Superintelligence cited"
+    ],
+    "ai-hn": [
+      "Timestral: Mistral's time-series models launch",
+      "DeepSeek-v4.1-Flash-1017 tops benchmarks",
+      "Hybrid Reasoning Agents combine LLMs & symbols",
+      "CERN–Mistral partnership announced",
+      "Anthropic IPO faces scrutiny",
+      "Time-aware reasoning gains traction"
+    ],
+    "ai-ph": [
+      "Inbox Zero gains 358 votes on Product Hunt",
+      "MyLens enables AI live 1-on-1 presentations",
+      "shim-cli offers privacy-first agent monitoring",
+      "Open-source Superhuman alternative launched",
+      "AI productivity tools dominate trends",
+      "Lightweight, secure AI tools rise fast"
+    ],
+    "ai-community": [
+      "Agent retry bugs are distributed systems issues",
+      "AWS agent detects 7,600 fake repos in 2026",
+      "Senior engineers slow down validating AI",
+      "Token bloat and session leakage exposed",
+      "Security risks in AI-generated code grow",
+      "Verification trap undermines senior devs"
+    ]
+  }
+}
