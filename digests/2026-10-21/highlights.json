@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.305：Linux沙箱新增",
+      "OpenAI Codex：今日发布新alpha版",
+      "Gemini CLI：夜间版更新回滚功能",
+      "Pi CLI：开放模块化框架受关注",
+      "Qwen Code：GitHub持续开发中",
+      "OpenCode：开源AI工具新星"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题",
+      "关键内存泄漏修复合并(#178877)",
+      "Hermes Agent：开发社区活跃",
+      "IronClaw：新访问控制提案",
+      "QwenPaw：代理生态持续扩展",
+      "ZeroClaw：beta版聚焦稳定性"
+    ],
+    "ai-infra": [
+      "vLLM：今日合并15个PR",
+      "llama.cpp：b11768版本发布",
+      "SGLang：开发速度强劲",
+      "Unsloth：高吞吐优化",
+      "Ollama：摘要失败，无更新",
+      "LiteLLM：摘要失败，无更新"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude Opus 5.5",
+      "Opus 5.5运行成本降低40%",
+      "Claude缩小代码攻击面",
+      "Anthropic投入1.5亿美元至美国Genesis",
+      "网络安全验证计划扩展",
+      "设立公共利益基金"
+    ],
+    "ai-hn": [
+      "DeepInfer：提升DeepSeek推理性能",
+      "Voxtral 3：多模态推理飞跃",
+      "Timestral：时间序列AI突破",
+      "大模型虚假数据引发争议",
+      "Anthropic800亿损失引担忧",
+      "DeepSeek新框架走红"
+    ],
+    "ai-arxiv": [
+      "Halcyon：无需语言预训练",
+      "安全中期训练：内置对齐机制",
+      "LatComm：可复用上下文压缩",
+      "WildAWM：多智能体安全框架",
+      "CoopUQ：可扩展协调模型",
+      "MemT-1.0：内存原生基础模型"
+    ],
+    "ai-community": [
+      "AI工具可靠性：开发者首要关切",
+      "新知识保留工具上线",
+      "编码乐趣被AI效率取代",
+      "机器人AI：硬件至关重要",
+      "生成式UI无异步开销",
+      "Qwen3.8-Flash-Next领跑基准测试"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.305: Linux sandboxing added",
+      "OpenAI Codex: New alpha releases today",
+      "Gemini CLI: Nightly with scrollback update",
+      "Pi CLI: Open modular framework gaining traction",
+      "Qwen Code: Active development on GitHub",
+      "OpenCode: Rising star in open AI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues in 24 hours",
+      "Critical memory leak fix merged (#178877)",
+      "Hermes Agent: High activity in dev community",
+      "IronClaw: New access control proposals",
+      "QwenPaw: Growing agent ecosystem",
+      "ZeroClaw: Stability focus in beta builds"
+    ],
+    "ai-infra": [
+      "vLLM: 15 PRs merged today",
+      "llama.cpp: b11768 release out",
+      "SGLang: Strong development velocity",
+      "Unsloth: Optimized for high throughput",
+      "Ollama: Summary failed, no updates",
+      "LiteLLM: Summary failed, no updates"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Opus 5.5",
+      "Opus 5.5 cuts runtime costs by 40%",
+      "Claude reduces code attack surface",
+      "Anthropic commits $150M to U.S. Genesis",
+      "Cyber Verification Program expanded",
+      "Public benefit fund launched"
+    ],
+    "ai-hn": [
+      "DeepInfer: Boosts DeepSeek inference",
+      "Voxtral 3: Multimodal reasoning leap",
+      "Timestral: Time-series AI breakthrough",
+      "Fake stats in LLMs sparks debate",
+      "Anthropic’s $80B loss raises concerns",
+      "DeepSeek’s new framework trends"
+    ],
+    "ai-arxiv": [
+      "Halcyon: No language pretraining needed",
+      "Safety Mid-Training: Built-in alignment",
+      "LatComm: Reusable context compression",
+      "WildAWM: Multi-agent safety framework",
+      "CoopUQ: Scalable coordination model",
+      "MemT-1.0: Memory-native foundation model"
+    ],
+    "ai-community": [
+      "AI tool reliability: top developer concern",
+      "New knowledge retention tool built",
+      "Coding joy lost to AI productivity",
+      "Robotics AI: Hardware matters most",
+      "Generative UI without async tax",
+      "Qwen3.8-Flash-Next drives benchmarks"
+    ]
+  }
+}
