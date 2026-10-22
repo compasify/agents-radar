@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.307 今日发布",
+      "OpenAI Codex：rust-v0.164.0-alpha.10 发布",
+      "Gemini CLI 修复代理可靠性问题",
+      "Pi 增加多模态输入支持",
+      "Qwen Code 新增代码生成功能",
+      "GitHub Copilot CLI 更新会话容错"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.3 修复 Windows 启动问题",
+      "OpenClaw 持续存在严重内存泄漏",
+      "Hermes Agent 实现自主任务规划",
+      "IronClaw 跨节点扩展代理协调",
+      "QwenPaw 集成 Qwen 模型用于代理",
+      "ZeroClaw 引入零信任代理执行"
+    ],
+    "ai-infra": [
+      "vLLM：89 个开放问题，无近期发布",
+      "SGLang：124 个开放问题，活跃度高",
+      "llama.cpp：24 小时新增 4 个构建",
+      "Ollama v0.40.8-rc0：重大变更",
+      "LiteLLM：发现恶意 litellm==1.107.0",
+      "LiteLLM 正在进行 Rust 迁移"
+    ],
+    "ai-trending": [
+      "Ponytail 降低 95% 令牌使用量",
+      "Graphify 无需向量构建知识图谱",
+      "vLLM 主导 AI 基础设施趋势",
+      "headroom 实现长期代理记忆",
+      "thedotmack/claude-mem 增强上下文保留",
+      "Cloudflare 安全审计技能快速成长"
+    ],
+    "ai-web": [
+      "Anthropic 推出企业前沿防护功能",
+      "Claude Fable 5.1 现已支持合规使用",
+      "AI 模型自主构建网络攻击工具",
+      "Claude 计算物理九环振幅",
+      "OpenAI ChatGPT 广告扩展至 26 国",
+      "ChatGPT 广告上线仅索引元数据"
+    ],
+    "ai-hn": [
+      "Claude Duet 支持实时人机协同编辑",
+      "OpenAI 生物研究使用数千代理",
+      "Voxtral 3：高效多语言模型发布",
+      "Google Cloud 现可托管 OpenAI 模型",
+      "AI 发现漏洞引发争议",
+      "AI 生成内容伦理风险上升"
+    ],
+    "ai-ph": [
+      "Composio Instant 使代理可支付工具费用",
+      "/dev/null：开发者社交网络",
+      "Harness² 实现自进化代理",
+      "Mintlify Autopilot 自动化文档生成",
+      "ESP-Mosaico：模块化人工智能硬件",
+      "RunInfra：代理优化模型部署"
+    ],
+    "ai-arxiv": [
+      "CoRAL：混合扩散自回归推理",
+      "BitMTP：超低比特 LLM 多标记预测",
+      "UniWALM 统一感知-动作-语言",
+      "SceneRig 从单图恢复 3D 场景",
+      "GBClaw 实现自主长周期规划",
+      "代理缓存工程优化内存"
+    ],
+    "ai-community": [
+      "代理隔离：限制权限运行",
+      "幂等键需追踪意图而非输出",
+      "模拟 LLM 对确定性测试至关重要",
+      "Respan：插件优先的 AI 网关发布",
+      "DeepInfer：开源推理栈就绪",
+      "SIE：生产级嵌入系统发布"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.307 released today",
+      "OpenAI Codex: rust-v0.164.0-alpha.10 out",
+      "Gemini CLI fixes agent reliability issues",
+      "Pi adds multimodal input support",
+      "Qwen Code gains new code generation features",
+      "GitHub Copilot CLI updates session resilience"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10-beta.3 fixes Windows startup",
+      "Critical memory leaks persist in OpenClaw",
+      "Hermes Agent enables autonomous task planning",
+      "IronClaw scales agent coordination across nodes",
+      "QwenPaw integrates with Qwen models for agents",
+      "ZeroClaw introduces zero-trust agent execution"
+    ],
+    "ai-infra": [
+      "vLLM: 89 open issues, no recent releases",
+      "SGLang: 124 open issues, high activity",
+      "llama.cpp: 4 new builds in 24h",
+      "Ollama v0.40.8-rc0: breaking changes",
+      "LiteLLM: malicious litellm==1.107.0 found",
+      "Rust migration underway in LiteLLM"
+    ],
+    "ai-trending": [
+      "Ponytail cuts token usage by 95%",
+      "Graphify builds knowledge graphs without vectors",
+      "vLLM dominates AI infrastructure trends",
+      "headroom enables long-term agent memory",
+      "thedotmack/claude-mem enhances context retention",
+      "Cloudflare security audit skill grows fast"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "Claude Fable 5.1 now secure for regulated use",
+      "AI models autonomously build cyber exploits",
+      "Claude computes nine-loop amplitude in physics",
+      "OpenAI expands ChatGPT Ads to 26 countries",
+      "ChatGPT Ads launch with metadata-only indexing"
+    ],
+    "ai-hn": [
+      "Claude Duet enables real-time human-AI co-editing",
+      "OpenAI uses thousands of agents in biology research",
+      "Voxtral 3: efficient multilingual model release",
+      "Google Cloud now hosts OpenAI models",
+      "AI-driven vulnerability discovery sparks debate",
+      "Ethical risks of AI-generated content rise"
+    ],
+    "ai-ph": [
+      "Composio Instant lets agents pay for tools",
+      "/dev/null: social network for developers",
+      "Harness² enables self-improving agents",
+      "Mintlify Autopilot automates documentation",
+      "ESP-Mosaico: modular hardware for AI",
+      "RunInfra: agent-optimized model deployment"
+    ],
+    "ai-arxiv": [
+      "CoRAL: hybrid diffusion-autoregressive reasoning",
+      "BitMTP: ultra-low-bit LLMs with multi-token prediction",
+      "UniWALM unifies perception-action-language",
+      "SceneRig recovers 3D scenes from single images",
+      "GBClaw enables autonomous long-horizon planning",
+      "Cache Engineering for Agents optimizes memory"
+    ],
+    "ai-community": [
+      "Agent containment: run under restricted privileges",
+      "Idempotency keys must track intent, not output",
+      "Mock LLMs critical for deterministic testing",
+      "Respan: plugin-first AI gateway launched",
+      "DeepInfer: open-source inference stack ready",
+      "SIE: production-grade embedding system released"
+    ]
+  }
+}
