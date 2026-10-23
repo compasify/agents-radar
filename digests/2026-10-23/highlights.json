@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.309：关键修复",
+      "OpenAI Codex：rust-v0.164.0-alpha.12",
+      "Gemini CLI：夜间发布v0.67.0",
+      "GitHub Copilot CLI：v1.0.103稳定性修复",
+      "OpenCode：新兴开源竞争者",
+      "Pi：CLI工具中迅速崛起"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.6：需Node.js 24+",
+      "Node.js 24.22.1+强制要求",
+      "OpenClaw安全强化",
+      "定时任务测试用例重构合并",
+      "FIFO原生钩子凭证修复",
+      "PR中聚焦代理稳定性"
+    ],
+    "ai-infra": [
+      "vLLM：6个高/严重问题",
+      "SGLang：12个严重问题",
+      "Ollama v0.40.9-rc3：云不稳定",
+      "LiteLLM 1.107.0被撤回",
+      "llama.cpp：4个严重问题",
+      "vLLM性能领先"
+    ],
+    "ai-trending": [
+      "Ponytail & Rea：兴起的代理工具",
+      "Graphify：可解释知识图谱",
+      "ECC & claude-mem：记忆趋势",
+      "Ollama：18.4万星，本地LLM运行器",
+      "Hugging Face Transformers：16.8万星",
+      "RAG焦点：透明与速度"
+    ],
+    "ai-web": [
+      "Claude：大规模形式验证",
+      "Anthropic捐赠代理技能",
+      "OpenAI：决策API即将上线",
+      "Uber ChatGPT rollout暗示",
+      "访客研究员计划启动",
+      "LLMs验证RISC-V汇编代码"
+    ],
+    "ai-hn": [
+      "LLMs大规模验证软件",
+      "所有模型共享反乌托邦观点",
+      "NVIDIA OpenShell引发争议",
+      "形式验证突破",
+      "质疑AI在科学公地中的角色",
+      "对AI进展持谨慎乐观"
+    ],
+    "ai-ph": [
+      "UseIt Studio：325票，真实文件",
+      "BAND开发者版：编码代理",
+      "Needle：外向销售流程",
+      "SuperCMO AI：开源成功案例",
+      "The Brains：社区驱动AI",
+      "Hotly：开源创新趋势"
+    ],
+    "ai-arxiv": [
+      "LongZero：零数据推理",
+      "Quant-Arena：新代理基准",
+      "SCDM：因果发现模型",
+      "TIDE：代理诊断工具",
+      "代理行为图：可视化分析",
+      "差分隐私奖励估计"
+    ],
+    "ai-community": [
+      "避免开发者与AI间使用代理",
+      "重复API请求引发错误",
+      "重试循环增加成本",
+      "代理技能测试如用户使用应用",
+      "本地优先AI工具受关注",
+      "Kubernetes上状态会话"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.309: Critical fixes",
+      "OpenAI Codex: rust-v0.164.0-alpha.12",
+      "Gemini CLI: nightly release v0.67.0",
+      "GitHub Copilot CLI: v1.0.103 stability fix",
+      "OpenCode: rising open-source contender",
+      "Pi: gaining traction in CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.6: Node.js 24+ required",
+      "Node.js 24.22.1+ now mandatory",
+      "OpenClaw security hardening",
+      "Cron job test fixture refactor merged",
+      "FIFO native-hook credential fix",
+      "Agent stability focus in PRs"
+    ],
+    "ai-infra": [
+      "vLLM: 6 high/critical issues",
+      "SGLang: 12 critical issues",
+      "Ollama v0.40.9-rc3: cloud instability",
+      "LiteLLM 1.107.0 yanked",
+      "llama.cpp: 4 critical issues",
+      "vLLM leads in performance"
+    ],
+    "ai-trending": [
+      "Ponytail & Rea: rising agent tools",
+      "Graphify: explainable knowledge graphs",
+      "ECC & claude-mem: memory trends",
+      "Ollama: 184K stars, local LLM runner",
+      "Hugging Face Transformers: 168K stars",
+      "RAG focus: transparency and speed"
+    ],
+    "ai-web": [
+      "Claude: formal verification at scale",
+      "Anthropic donates Agent Skills",
+      "OpenAI: Decisions API launch imminent",
+      "Uber ChatGPT rollout teased",
+      "Guest Investigator Program launched",
+      "LLMs verify RISC-V assembly code"
+    ],
+    "ai-hn": [
+      "LLMs verify software at scale",
+      "All models share dystopian views",
+      "NVIDIA OpenShell sparks debate",
+      "Formal verification breakthrough",
+      "AI's role in scientific commons questioned",
+      "Cautious optimism on AI progress"
+    ],
+    "ai-ph": [
+      "UseIt Studio: 325 votes, real files",
+      "BAND for Developers: coding agent",
+      "Needle: outbound sales workflow",
+      "SuperCMO AI: open-source success",
+      "The Brains: community-driven AI",
+      "Hotly: open-source innovation trend"
+    ],
+    "ai-arxiv": [
+      "LongZero: zero-data reasoning",
+      "Quant-Arena: new agent benchmark",
+      "SCDM: causality discovery model",
+      "TIDE: diagnostic tool for agents",
+      "Agent Behavior Maps: visual analysis",
+      "Differentially Private Reward Estimation"
+    ],
+    "ai-community": [
+      "Avoid proxies between devs and AI",
+      "Duplicate API requests cause bugs",
+      "Retry loops inflate costs",
+      "Agent skill tests apps like users",
+      "Local-first AI tools gaining traction",
+      "Stateful sessions on Kubernetes"
+    ]
+  }
+}
